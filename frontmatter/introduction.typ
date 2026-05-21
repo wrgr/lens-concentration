@@ -349,19 +349,97 @@
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  the institutional anchors  ·  what makes lens credible"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  the four pillars  ·  what makes lens credible"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   A specialization that promises to teach a discipline still being
-  built must show that its institutional anchors are real. LENS draws
-  on three at Johns Hopkins.
+  built must show that its credibility rests on more than its
+  ambitions. LENS stands on four pillars. Each is a real institutional
+  asset, with a record. None of them, alone, would carry the
+  argument; the pillars are load-bearing together.
 ]
 
-#v(6pt)
+#v(10pt)
+
+#block(
+  width: 100%,
+  fill: rgb("#FBF7EE"),
+  inset: 12pt,
+  stroke: (left: 2pt + gold),
+  {
+    set par(leading: 0.6em)
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Mission"))
+    v(2pt)
+    text(font: sans, size: 9.5pt, fill: text-dark)[
+      Real operational problems, real sponsors, real consequences.
+      LENS is anchored in the conviction that the discipline must
+      earn its keep on missions whose success or failure can be
+      observed by people other than its practitioners. The cases in
+      this book are mission cases. The pilots that inform the
+      pedagogy are mission pilots. Capability is not an academic
+      abstraction; it is what allows the mission to be accomplished.
+    ]
+    v(8pt)
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Ecosystem"))
+    v(2pt)
+    text(font: sans, size: 9.5pt, fill: text-dark)[
+      An institutional environment broad and deep enough to host the
+      discipline. At Johns Hopkins this is the School of Education with
+      its centers, doctoral programs, and faculty in learning sciences,
+      educational measurement, and design-based research; the practice
+      partners across the university (Armstrong Institute for Patient
+      Safety and Quality at the School of Medicine; the Bloomberg
+      School of Public Health's implementation-science tradition;
+      Whiting School engineering and cognitive science; the Berman
+      Institute's governance and ethics work); and the partnerships
+      with sponsor and operational organizations that bring real
+      problems through the door.
+    ]
+    v(8pt)
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Expertise"))
+    v(2pt)
+    text(font: sans, size: 9.5pt, fill: text-dark)[
+      The disciplinary depth that distinguishes a school of education
+      from any other institution that might attempt this work. The
+      learning sciences, educational measurement, instructional design,
+      design-based research, evaluation, and the equity-and-governance
+      machinery — these are mature disciplines with their own evidence
+      standards, published methods, and credentialed practitioners. The
+      School of Education is where they live, and where the next
+      generation of capability engineers learns to use them.
+    ]
+    v(8pt)
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Capability"))
+    v(2pt)
+    text(font: sans, size: 9.5pt, fill: text-dark)[
+      The outcome — the central claim of the book. Capability is a
+      designable, measurable, engineerable property of every complex
+      system. The program produces it in graduates; the cases document
+      where it was absent and where it was successfully engineered;
+      the curriculum teaches how to recognize it, instrument it, and
+      reproduce it. The four pillars are arranged so that the work
+      compounds: missions reveal what is needed; the ecosystem hosts
+      the inquiry; the expertise designs the intervention; the
+      capability is the evidence the loop closed.
+    ]
+  }
+)
+
+#v(10pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The first is the *CIRCUIT model, MERIT framework, and COMPASS
+  The remainder of this section names the three operational anchors
+  that the four pillars are currently producing — the
+  CIRCUIT–MERIT–COMPASS lineage, the Practice Flywheel, and the
+  studio and applied-project model — as proof of work the pillars
+  have already delivered.
+]
+
+#v(10pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The first operational anchor is the *CIRCUIT model, MERIT framework, and COMPASS
   content* — a more-than-decade record originating at the JHU
   Applied Physics Laboratory. CIRCUIT (Cohort-based Integrated
   Research Community for Undergraduate Innovation and Trailblazing)
@@ -398,7 +476,7 @@
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The second is the *Practice Flywheel*: the iterative cycle
+  The second operational anchor is the *Practice Flywheel*: the iterative cycle
   — *Identify → Activate → Prototype → Analyze → Transition* — that
   has now been demonstrated across multiple LE pilots run by the
   LENS partner team at JHU/APL. Each iteration produces working
@@ -414,7 +492,7 @@
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The third anchor is *integrated student work* — the studio,
+  The third operational anchor is *integrated student work* — the studio,
   practicum, and applied-project model that ensures every LENS
   graduate has, in addition to coursework, a portfolio of capability
   engineering deliverables produced inside real operational systems.
