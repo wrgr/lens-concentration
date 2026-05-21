@@ -79,34 +79,33 @@
     v(12pt)
 
     text(font: sans, size: 9.5pt, fill: text-dark)[
-      James Diamond, Ph.D., is [#text(fill: text-muted)[Title] —
-      e.g., Associate Teaching Professor] at the Johns Hopkins
-      University School of Education, where he applies learning-
-      sciences theory and design-based research methods to
-      challenges spanning K–12 education, informal learning,
-      professional development, and educational technology design.
-      His research — supported by [#text(fill: text-muted)[foundation
-      and federal sponsors]] — bridges the learning sciences,
-      technology-mediated learning, and the evaluation of educational
-      interventions. He developed and contributed to
-      [#text(fill: text-muted)[named programs and research
-      collaboratives]], through which he has worked with school
-      districts, museums and informal-learning organizations, higher-
-      education partners, and federal agencies on the design and
-      evaluation of learning systems, and through which he has
-      [#text(fill: text-muted)[mentored / advised approximately N]]
-      graduate students. He is a principal faculty member of the
-      LENS (Learning Engineering for Next-Generation Systems)
-      specialization in the Johns Hopkins Master of Education in
-      Learning Design and Technology program. Diamond holds a Ph.D.
-      in [#text(fill: text-muted)[field]] from
-      [#text(fill: text-muted)[institution]], an
-      [#text(fill: text-muted)[M.A. / M.Ed.]] in
-      [#text(fill: text-muted)[field]] from
-      [#text(fill: text-muted)[institution]], and a
-      [#text(fill: text-muted)[B.A. / B.S.]] in
-      [#text(fill: text-muted)[field]] from
-      [#text(fill: text-muted)[institution]].
+      James Diamond, Ph.D., is Assistant Professor in the Johns
+      Hopkins University School of Education and Program Director
+      of the Master of Education in Learning Design and Technology,
+      where he applies design-based research and learning-sciences
+      methods to the design and evaluation of technology-mediated
+      learning environments. His research — supported by the
+      National Science Foundation, the Institute of Education
+      Sciences, the Bill & Melinda Gates Foundation, the MacArthur
+      Foundation's HASTAC Digital Media and Learning Initiative,
+      the Robin Hood Learning + Technology Fund, the Wellcome Trust,
+      and the UK Economic and Social Research Council — bridges
+      digital games and simulations for learning, digital badges
+      and micro-credentialing, classroom technology integration,
+      and disciplinary literacy in history, social studies, civics,
+      and STEM. Before joining Johns Hopkins, he was Senior Research
+      Associate at the Education Development Center's Center for
+      Children and Technology in New York City, where he led
+      projects including #emph[Zoom In] and the #emph[Who Built
+      America?] Teacher Mastery Badge System, contributed to
+      #emph[Mission US] and #emph[Possible Worlds], and taught at
+      New York University as an adjunct. He is a principal faculty
+      member of the LENS (Learning Engineering for Next-Generation
+      Systems) specialization in the LDT program. Diamond holds a
+      Ph.D. in Educational Communication and Technology from New
+      York University, an Ed.M. in Educational Technology from
+      Boston University, and a B.A. in History from Boston
+      University.
     ]
   }
 )
@@ -114,11 +113,8 @@
 #v(16pt)
 
 #text(font: sans, size: 9pt, style: "italic", fill: text-muted)[
-  Bracketed fields in the second biography are placeholders for the
-  editor to fill in before press; the surrounding structure mirrors
-  the first biography. These descriptions reference careers
-  documented in publications, program reports, and the curricular
-  materials of the LDT program and the LENS specialization.
-  Corrections and refinements from the editors are welcomed in
-  subsequent printings.
+  These biographies reference careers documented in publications,
+  program reports, faculty pages, and the curricular materials of
+  the LDT program and the LENS specialization. Corrections and
+  refinements from the editors are welcomed in subsequent printings.
 ]

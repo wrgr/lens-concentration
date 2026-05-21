@@ -69,11 +69,30 @@
       Each case maps to one or more courses in the LENS specialization:
     ]
     #v(8pt)
-    #text(font: sans, size: 7pt, fill: text-muted, style: "italic")[
-      Foundations (shared LDT, prerequisites): #h(2pt)
-      *F1* Learning Sciences Studio · #h(2pt)
-      *F2* Critical Perspectives on Educational Technology.
-    ]
+    #text(font: sans, size: 7pt, tracking: 1.4pt, fill: teal, upper("Shared LDT foundations · additional context"))
+    #v(4pt)
+    #block(spacing: 5pt, grid(
+      columns: (38pt, 1fr),
+      column-gutter: 8pt,
+      course-tags("F1"),
+      text(font: sans, size: 8pt, fill: text-dark)[
+        *Learning Sciences Studio.* Major theories of learning
+        (behavioral, cognitive, situative) and motivation, applied to
+        technology-supported design.
+      ],
+    ))
+    #block(spacing: 5pt, grid(
+      columns: (38pt, 1fr),
+      column-gutter: 8pt,
+      course-tags("F2"),
+      text(font: sans, size: 8pt, fill: text-dark)[
+        *Critical Perspectives on Educational Technology.* Critical-
+        theory frameworks applied to power, privilege, and societal
+        structures in learning technology.
+      ],
+    ))
+    #v(6pt)
+    #text(font: sans, size: 7pt, tracking: 1.4pt, fill: teal, upper("LENS-designed courses"))
     #v(4pt)
     #let courses-list = (
       ("LEN 1",  "Principles of LE for Complex Systems"),

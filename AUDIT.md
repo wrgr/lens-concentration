@@ -1,331 +1,262 @@
-# Citation Audit & Pre-Print Review — Capability Matters
+# Capability Matters — Pre-Print Status & Audit
 
-This document is the running record of citation verification, factual
-checks, and the editorial review of the casebook, and the punch list of
-expert reviews recommended before any printed edition.
+This document is the running record of the citation audit, factual
+review, editorial passes, and the punch list of remaining items
+between editorial completion and press-ready proof for **Capability
+Matters: A Casebook (First Edition, 2026)**.
 
-The audit has been performed across multiple passes:
-
-- **Pass 1 (Phase A wrap-up)** — quotes attributed to specific sources
-  classified as VERBATIM / CLOSE / PARAPHRASE / LIKELY FABRICATED;
-  anything not verifiable was rewritten so the attribution begins
-  "Paraphrasing…".
-- **Pass 2 (verbatim restore)** — quotes for which independent web
-  verification later found the exact source language were swapped from
-  "Paraphrasing…" back to verbatim with proper attribution.
-- **Pass 3 (Phase B verification — this turn)** — NTSB and GAO report
-  numbers verified against issuing agencies; named inquiry reports
-  (Bristol, Grenfell, Camp Fire, etc.) verified for title and date;
-  in-body quoted phrases re-checked.
-- **Editorial pass** — chapter divider numbers, course-tag renumber
-  artifacts, section numbering, voice and terminology consistency.
+**Current state:** 296-page interior; A5 + 3 mm bleed; both screen
+(cream backdrop) and print (transparent, for Lulu cream-paper stock)
+PDFs build cleanly. Five-pillar Why-LENS diagram, three new cases
+(21 Summit Learning, 22 Tennessee Pre-K, 34 ACGME duty-hours),
+editor bios, F1/F2 foundations, CLO competency block, and SoS /
+disparate-systems language all in. Domain-reviewer findings from
+defense, energy/nuclear, aviation, education/AI, healthcare,
+pedagogical, legal/fair-use, copy-edit, and reference-librarian
+review applied for the highest-priority items; long tail tracked
+below.
 
 ---
 
 ## Status snapshot
 
-| Category                          | Resolved | Outstanding |
-|-----------------------------------|---------:|------------:|
-| Quotes confirmed verbatim         | 27       | 0           |
-| Quotes reworded as paraphrase     | 47       | 0           |
-| Bibliographic corrections         | 7        | 0           |
-| NTSB / GAO report numbers         | 19       | 2 (clarified) |
-| Named inquiry citations           | 16       | 0           |
-| In-body quoted phrases            | 13       | 0           |
-| References with DOI / URL / ISBN  | 49       | ~16 trade   |
-| Course-tag renumber               | done     | 0           |
-| Chapter divider numbers           | done     | 0           |
-
-The book is currently at **257 pages** of interior content.
-
----
-
-## Resolved this turn (Pass 3 + editorial pass)
-
-### NTSB / GAO report numbers — verified
-
-Two were wrong and have been corrected:
-
-- **NTSB DCA17MM010 (Case 1 Fitzgerald / McCain)** — the number does
-  not correspond to either ship's case file. Replaced with the correct
-  case IDs (DCA17PM018 Fitzgerald, DCA17PM029 McCain) and the combined
-  Marine Accident Reports MAR-20/01 and MAR-20/02.
-- **NTSB HAB-17/07 (Case 92 Tesla Autopilot)** — number does not
-  exist for the Williston Florida case. Corrected to HAR-17/02 (the
-  Williston full report) and HAR-20/01 (Mountain View Tesla Autopilot
-  crash).
-
-All other NTSB and GAO numbers confirmed against the issuing agencies'
-public archives:
-
-- AAR-10/01 (Colgan) · AAR-14/01 (Asiana) · AAR-73-14 (Eastern 401) ·
-  AAR-99/01 (USAir 427 737 rudder) · AAR-92-06 (United 585) ·
-  HAR-19/02 (FIU bridge) · HAR-19/03 (Uber ATG Tempe) ·
-  AAR-20/02 (Atlas Air 3591)
-- GAO-20-154 · GAO-21-168 · GAO-23-105341 · GAO-25-107632 ·
-  GAO-18-75 · GAO-24-107463 · GAO-19-687T · GAO/IMTEC-92-26
-
-Note: **GAO-24-107463** is real and confirmed, but its formal title
-covers all-services military readiness across multiple domains, not
-just Marine Corps Indo-Pacific training. The casebook frames it as
-the INDOPACOM Marine training case; that framing is supported by
-the content of the report but is one piece of a broader study.
-Flagged for a final pre-print copy-check.
-
-### Named inquiry citations — verified
-
-Corrections applied:
-
-- **Camp Fire / PG&E**: refined to the proper title — Butte County
-  District Attorney (16 June 2020), *The Camp Fire Public Report: A
-  Summary of the Camp Fire Investigation*.
-- **TransAsia 235**: agency name was the *Aviation Safety Council
-  (Taiwan)* at the time of publication (renamed Taiwan Transportation
-  Safety Board in August 2019). Casebook updated to use "Aviation
-  Safety Council (Taiwan)" throughout.
-- **AeroPerú 603**: investigated by Peru's Dirección General de
-  Transporte Aéreo (DGTA), Comisión de Investigación de Accidentes
-  — not the DGAC (Dirección General de Aeronáutica Civil), which is
-  the civil-aviation regulator. Citation updated to DGTA / CIA.
-
-Confirmed unchanged (titles and dates match):
-
-- Kennedy Inquiry *Learning from Bristol* (July 2001, Cm 5207)
-- Grenfell Phase 1 Report (30 October 2019)
-- Grenfell Phase 2 Report (4 September 2024, HC 19 Session 2024-25)
-- VW DOJ Plea Agreement (11 January 2017); EPA NOV (18 September 2015)
-- Aliso Canyon Blade Energy Partners Investigation (16 May 2019)
-- Francis QC, Mid Staffordshire Public Inquiry (6 February 2013, HC 898)
-- National Commission, *Deep Water: The Gulf Oil Disaster and the
-  Future of Offshore Drilling* (January 2011)
-- Kemeny Commission Report (October 1979) — formal title is "The
-  Need for Change, the Legacy of TMI: Report of the President's
-  Commission on the Accident at Three Mile Island"; casebook uses
-  the shorter form
-- CAIB Volume I (26 August 2003)
-- Rogers Commission (6 / 9 June 1986)
-- Holloway Special Operations Review Group (August 1980)
-- Hellenic AAIASB Report 11/2006 on Helios 522 (October 2006)
-- Lions Report on Ariane 5 Flight 501 (19 July 1996)
-- NBSIR 82-2465 — Hyatt Regency Walkways Collapse (February 1982)
-
-### In-body quoted phrases — verified
-
-Confirmed VERBATIM (defensible as direct quotes in the body prose):
-
-- Bhopal — Stuart Diamond, *New York Times*, 28 January 1985 — "operating
-  errors, design flaws, maintenance failures, training deficiencies
-  and economy measures that endangered safety."
-- Grenfell Phase 2 — "the fire at Grenfell Tower was the culmination
-  of decades of failure by central government and other bodies in
-  positions of responsibility in the construction industry."
-- Boeing 737 MAX — House Transportation Committee Report (September
-  2020) — "diminished safety, minimized the value of pilot training,
-  and inhibited technical design improvements."
-- Grenfell Phase 1 — "very few (if any) of the senior officers who
-  attended Grenfell Tower were aware of the risks posed by exterior
-  cladding"; "this knowledge had not informed firefighting policies,
-  practices or training."
-- Robodebt Royal Commission — Commissioner Catherine Holmes — "venality,
-  incompetence and cowardice."
-- 9/11 Commission Report — "the most important failure was one of
-  imagination."
-- Kemeny Commission — "the fundamental problems are people-related
-  problems and not equipment problems."
-- Kurokawa NAIIC — "this was a disaster 'Made in Japan'" (inner
-  quotation marks restored).
-
-Corrected (was CLOSE, now matches the published wording):
-
-- **AF447 / BEA pull quote** — replaced with the verbatim BEA report
-  wording: "The crew never understood that they were stalling and
-  consequently never applied a recovery manoeuvre."
-
-Kept as paraphrase (defensible substance, not verbatim):
-
-- Deepwater Horizon body quote about human error vs mechanical
-  failings — attributed to contemporaneous coverage (ENR) rather than
-  the *Deep Water* report itself.
-- Massey "two sets of books" — paraphrased compression of MSHA and
-  press characterization.
-
-### Editorial pass — resolved
-
-- Chapter divider numbers for Ch 2 / 3 / 8 / 9 — all corrected to the
-  proper chapter integer (the earlier LEN-renumber script had
-  accidentally rewritten them as if they were course tags).
-- "LEN 10 (Studio)" parenthetical labels — renamed to "LEN 10
-  (capstone)" across four files. Lowercase "studio" used as a
-  pedagogy descriptor (studio prompt, studio projects, studio
-  exemplar) is intentional and is kept.
-- Section numbering in the introduction verified continuous (I → IX).
-- Every "Case N" cross-reference verified to point at a valid case in
-  the 1 – 100 range.
+| Category                                          | Resolved | Outstanding |
+|---------------------------------------------------|---------:|------------:|
+| Quotes confirmed verbatim                         | 27       | 0           |
+| Quotes reworded as paraphrase                     | 47       | 0           |
+| Bibliographic corrections                         | 8        | 0           |
+| NTSB / GAO report numbers                         | 21       | 1 (scope)   |
+| Named inquiry citations                           | 16       | 0           |
+| In-body quoted phrases                            | 13       | 0           |
+| References with DOI / URL / ISBN                  | 50       | ~16 trade   |
+| 9 expert reviews dispatched + findings applied    | 9        | partial tail|
+| Five-pillar framework + Why-LENS diagram          | done     | 0           |
+| Three new cases (21 / 22 / 34)                    | done     | 0           |
+| Editor bios (both verified, single-paragraph)     | done     | 0           |
+| F1 / F2 foundations + five CLO block              | done     | 0           |
+| Legal protective blocks in colophon               | done     | 0           |
+| Copyright 2026                                    | done     | 0           |
+| Lulu cream-paper workflow (dual PDF build)        | done     | 0           |
+| §VI JHU/SoE ecosystem expanded                    | done     | 0           |
 
 ---
 
-## Outstanding / flagged for human review
+## Resolved in this iteration
 
-### Substantive (factual) — verify with program leadership
+### Five-pillar / "Why LENS" framework
+- §V section retitled "Why LENS · the five pillars".
+- New cetz Why-LENS diagram with outline icons (target reticle,
+  building, node graph in orange, bullseye, circular arrow) at the
+  top of §V. Mirrors the editors' canonical slide.
+- Five pillars: **Mission Literacy · JHU Ecosystem · Intersectional
+  Expertise · Capability Focus · Flywheel Iteration**.
+- The methodology itself remains named "the Practice Flywheel"
+  wherever the cycle Identify → Activate → Prototype → Analyze →
+  Transition is described.
 
-- **Case 38 — GIFT and the Adoption Gap.** Resolved this turn: the
-  case was rewritten from "Discontinuation" framing (which was
-  factually wrong — GIFT is active under DEVCOM Soldier Center) to
-  "Adoption Gap" framing. Editor-confirmation still useful at print
-  time to make sure the lab's current institutional home and release
-  cadence are described accurately. Reasonable as of November 2025
-  with the September 2025 release cadence verified.
-- **Case 91 — Singapore Airlines.** No primary-source verbatim
-  quote located; the pull quote is now framed as author summary.
-  Substantive claims about Singapore Airlines' sustained capability
-  investment are well-supported by IATA / IOSA records but specific
-  numbers (e.g., "no fatal passenger accidents since 1997") have
-  edge cases (SQ006 in 2000 was a takeoff incident with fatalities,
-  per the Aviation Safety Council report). Recommend an aviation-
-  domain expert confirm framing.
+### Five CLO competency block + LENS differentiator phrases
+- §V follows the pillar callout with a paired block: **"what LENS
+  graduates can do · the five competencies"**, listing CLO-1 through
+  CLO-5 verbatim from the LENS Objectives doc.
+- Three differentiator phrases surfaced in bold once each: *within
+  and across disparate systems*, *speed and scale*, *decision-grade
+  evidence*, *gap attribution between learning, system design, and
+  organizational performance problems*.
 
-### Citation polish — recommended but lower-stakes
+### Three new cases — closing the 21 / 22 / 34 numbering gap
+The book now contains 100 cases:
+- **Case 21 — Summit Learning / Personalized Learning Rollout** (Ch 5).
+- **Case 22 — Tennessee Voluntary Pre-K Study** (Ch 5; Lipsey et al.
+  RCT and the field's failure to absorb the finding).
+- **Case 34 — ACGME 80-Hour Resident Duty-Hour Reform** (Ch 1;
+  FIRST + iCOMPARE trials, capping the input vs. engineering the
+  capability).
 
-- **Bibliographic completeness.** 49 of ~65 References entries now
-  carry a DOI, canonical URL, or ISBN. The remaining ~16 are
-  government reports cited by report number (which serves as the
-  stable identifier) and trade books whose publishers do not assign
-  DOIs. No further action needed for those.
-- **GAO-24-107463** description — the casebook frames it as Marine
-  Corps INDOPACOM training; the report covers all services and
-  domains. A copy-check sentence in Case 9 ("INDOPACOM Training Gap")
-  to clarify the report's scope would be a useful pre-print polish.
+### Editor bios (both now verified)
+- **Will**: verbatim user-provided bio.
+- **Jim**: verified via primary sources (JHU SoE directory, EDC CV,
+  CCT project pages); replaces the placeholder version.
+- About-the-editors page tied to the five pillars.
+
+### LDT / SoE record in §VI
+- New "the record at Johns Hopkins" subsection leads with SoE,
+  names CTY, CRRE, IEP, LDT program lineage; APL framed as
+  collaborator providing operational proving grounds; closes with
+  the SoE-and-applied duality embodied in the editors.
+- Adjacent-Hopkins paragraph names Armstrong Institute, BSPH,
+  Whiting, Krieger Cognitive Science, Berman Institute as part of
+  the institutional environment (no formal partnership claimed).
+
+### Communication, translation, and integration within and across disparate systems
+- §III new subsection with case examples (Mars Climate Orbiter 54,
+  Tenerife 12, Patriot 19, Eagle Claw 46, 9/11 86, 737 MAX 2 as an
+  integration case; AlphaFold 98, MICrONS, CRM, Keystone as
+  disciplined-translation successes).
+- Threading commitments updated to include both this and the new
+  "technology aids" thread (XR, LMS, adaptive platforms, ITS, xAPI,
+  game-based learning, LLM tutors, high-fidelity simulators).
+
+### Domain-reviewer factual fixes applied
+- **TMI (5)**: B&W PWR; PORV command-vs-position clarified; HPI
+  throttling; minimal off-site dose.
+- **F-35 (26)**: ~1,000 F-35A maintainers per GAO-23-105341;
+  ~$1.58T per CAPE 2023.
+- **Fratricide (33)**: replaced misattributed figures with DoD
+  report numbers; Khafji LAV-25 (7 Marines); Qala-i-Jangi B-52 (3);
+  2014 B-1 (5).
+- **Mark 14 (45)**: Lockwood as COMSUBPAC; Kahoolawe cliff test;
+  Tinosa / Tonan Maru fifteen-hits test.
+- **Eagle Claw (46)**: Holloway → JSOC → Nunn-Cohen → USSOCOM
+  lineage; Goldwater-Nichols disentangled.
+- **Patriot (19)**: 14th Quartermaster Detachment named.
+- **Davis-Besse (57)**: "successfully lobbied" softened to OIG's
+  actual finding; LOCA characterization moderated.
+- **Fukushima (61)**: Hatamura + IAEA reports added alongside
+  NAIIC; Jōgan tsunami (869 CE) named.
+- **UK A-Level (35)**: grades vs. students; "twice as likely"
+  replaced with school-prior mechanism.
+- **Robodebt (36)**: notice counts disambiguated; A$1.8B clarified
+  as Prygodicz class action; suicide attribution rephrased to RC
+  actual framing.
+- **INPO (16)**: "before official accident report" removed;
+  utility-funded / no statutory authority noted.
+- **INDOPACOM (9)**: retitled "USMC INDOPACOM Training".
+- **Sago (59)**: 12 dead / McCloy survived corrected.
+- **Upper Big Branch (60)**: Blankenship misdemeanor + felony
+  acquittal noted.
+- **Texas grid freeze (77)**: 246 official / 700–1,000 academic
+  range; gas-fired generation majority.
+- **Tenerife (12)**: KLM flight engineer (not first officer).
+- **Asiana 214 (44)**: FLCH SPD as autopilot pitch mode; HOLD
+  reversion.
+- **COMPAS (94)**: ProPublica 23.5% / 44.7% FPRs; Chouldechova +
+  Kleinberg impossibility result.
+- **AeroPerú (48)**: DGTA → DGAC corrected.
+- **Atlas Air 3591 (49)**: Conrad Aska named; PRD timing
+  corrected; somatogravic illusion mechanism.
+- **TransAsia 235 (50)**: "taxi" → "taxicab on Huandong Viaduct".
+
+### Copy-edit findings applied
+- "an edge-case" typo fixed.
+- All "(uncited)" / "(uncited; flag for citation)" parentheticals
+  removed; "Author summary of X" → "Editors' synthesis of X".
+- "(section heading)" parenthetical removed.
+- "ACM Communications" → "Communications of the ACM".
+- PISTA §V / §VII cohort numbers reconciled (44 + 9).
+- "_NYT_" → "_New York Times_".
+- Matrix year "1991, 94" → "1991, 1994".
+- Date formats normalized ("18 November 2004" → "November 2004";
+  "16 June 2020" → "(2020)").
+- §III translation paragraph renamed to official LENS phrasing
+  ("communication, translation, and integration within and across
+  disparate systems").
+
+### Reference / bibliographic
+- MICrONS Consortium corrected to *Nature* 640 (2025), 167–179,
+  doi:10.1038/s41586-025-08790-w; Gray-Roncal 2026 commentary
+  marked "in press".
+- Cervantes editorial aside trimmed.
+
+### Production / cover-flow
+- Lulu cream-paper workflow: `scripts/build.sh` produces both
+  `capability-matters.pdf` (cream backdrop) and
+  `capability-matters-print.pdf` (transparent for Lulu cream stock).
+- Copyright © 2026 Johns Hopkins University in colophon.
+- Three legal protective blocks (public-record disclaimer, fair-use
+  § 107 statement, errata channel).
+- Practice-Flywheel diagram label overflow fixed (labels outside
+  the node dots).
+- `why-lens.jpg` exported at 300 dpi for slide / web use.
 
 ---
 
-## Recommended expert reviews before printing
+## Outstanding — could be closed inside this print run
 
-The book has been audited for citations, edited for voice, and
-verified for consistency. The reviews recommended below are the
-work normally done by specialists between editorial completion and
-press-ready proof. They are listed roughly in order of priority.
+### Domain-reviewer tail (low-stakes nits, not yet applied)
+- **Texas City (56)** process-safety-origin nuance — "elevated"
+  rather than "introduced" the distinction.
+- **Asiana 214 (44)**: harmonize 187 injured vs 49 seriously
+  injured in impact line vs body.
+- **Atlas Air 3591 (49)**: confirm NTSB report number formatting
+  (AAR-20/02 with slash, not dash).
+- **Boeing Starliner (79)** and **Ariane 5 (80)**: domain tag is
+  `aviation`; reviewer flagged `aerospace` or `space` as more
+  accurate.
+- **GAO-24-107463** scope clarification — one sentence in Case 9
+  noting the report covers all services, not Marines only.
+- **Helios 522 (47)** horn ambiguity wording — minor precision.
+- **Singapore Airlines (91)** framing — aviation expert review.
+- **Eagle Claw (46) RH-53D selection rationale** — soften "fit
+  aboard carrier" to "range and deniability".
 
-### 1. Domain-expert reviews (highest priority)
+### Healthcare review tail
+- Han 2005 single-institution caveat (case 25 EHR/CPOE).
+- HITECH dollar figure precision.
+- KLAS / Leapfrog citation precision.
+- Makary 250K methodological critique (already framed; verify
+  Shojania & Dixon-Woods, Yale Wears-Sutcliffe critique are
+  referenced).
+- CLABSI vs. CRBSI nomenclature.
+- WHO Checklist Urbach 2014 replication caveat.
+- Vioxx VIGOR / APPROVe timing.
+- Mid Staffordshire framing (Francis 2013 dating).
+- Bristol dates (1984–2001 inclusive).
+- Obermeyer / Larrazabal cross-citation check.
 
-The casebook spans healthcare, defense / national security,
-energy, education at scale, transportation, industrial safety,
-financial systems, and human-AI teaming. Each chapter would benefit
-from a domain expert reading the cases in their area for factual
-accuracy and framing:
+### Citation polish
+- ~16 trade-book references without DOI (publisher policy; no
+  action needed — ISBN serves as identifier).
+- Cervantes et al. (2023) ASEE — Will has confirmed senior-author
+  attribution; the editorial flag can be removed in next revision.
 
-- **Healthcare** — patient-safety physician or implementation
-  scientist (Cases 7, 13, 14, 25, 27, 31, 41, 58, 87, 90, 95, 96).
-  Specific check: is the Makary 250K figure presented appropriately
-  given the ongoing methodological debate (Shojania & Dixon-Woods,
-  Yale critique)?
-- **Defense / national security** — Navy retiree or DoD safety
-  professional (Cases 1, 9, 11, 15, 16, 18, 19, 26, 28, 33, 45, 46,
-  66, 86).
-- **Energy / nuclear** — operator or engineer with INPO / nuclear
-  background (Cases 4, 5, 16, 56, 57, 59, 60, 61, 62, 76, 77, 82).
-- **Aviation safety** — line pilot or accident-investigation
-  expert (Cases 2, 3, 11, 12, 30, 33, 43, 44, 47, 48, 49, 50, 63,
-  64, 79, 80, 89, 91, 92).
-- **Education at scale and educational measurement** — measurement
-  expert and ed-policy researcher (Cases 8, 32, 34, 35, 37, 39, 41,
-  42, 84, 90, 97).
-- **AI / ML governance and human-AI teaming** — researcher in the
-  ICICLE / FAccT communities (Cases 29, 36, 37, 92 – 99).
+### Style / consistency
+- Spot pass on British vs. American spelling (manoeuvre vs
+  maneuver — context-dependent, OK to leave).
+- Widow / orphan control across 100 case spreads (designer pass).
 
-### 2. Legal review
+---
 
-- **Fair use and quotation.** Most quoted material is from U.S.
-  government reports (public domain) or from books / articles
-  quoted briefly with attribution for academic commentary —
-  defensible as fair use. Recommend a quick fair-use check on:
-  - the Burke / J&J Credo quote (attributed to *Lasting Leadership*)
-  - any quoted material from court documents naming convicted
-    individuals (Holmes, Blankenship, Madoff, Skilling, etc.)
-  - the Cervantes et al. (2023) ASEE paper citation, which carries
-    the editor's flag about ASEE website metadata reversing author
-    order — confirm the senior-author attribution is correct on the
-    PDF, not just the website
-- **Defamation review** — every named individual associated with a
-  conviction, settlement, or finding should be checked against the
-  public record (we used only published convictions and public
-  findings, but a legal eye is good insurance).
+## External / administrative (must be done outside the source)
 
-### 3. Copy edit (professional)
+These are not source-editable in the Typst project; they belong to
+the pre-press production pipeline:
 
-- A pass by a professional copy editor — looking at British vs
-  American spelling consistency (we are inconsistent in a couple of
-  places: "manoeuvre" appears in BEA quotes but "maneuver" elsewhere
-  — that is correct in those contexts), serial comma usage, en-dash
-  vs em-dash use, and the small typographic infelicities that
-  accumulate in a 257-page volume.
+- **ISBN assignment + copyright registration** (Library of Congress).
+- **Lulu pre-press proof**: spine width recalc for the actual final
+  page count (currently 296); color-profile / paper-stock
+  verification; A5 + 3 mm bleed final spec match against Lulu's
+  current paperback template.
+- **Cover wrap proof** at the final spine width; cover-art final
+  approval; barcode placement.
+- **Distribution / catalog setup** if any.
 
-### 4. Subject-matter copy-check on quoted technical terms
+---
 
-- The casebook uses domain-specific terminology across many fields.
-  A pass that confirms terms are used correctly in their home
-  domain (e.g. "central-line bloodstream infection" vs "catheter-
-  related bloodstream infection"; "process safety" vs "personal
-  safety"; "Level-2 automation"; "competency-based credentialing").
+## How to print from current source
 
-### 5. Accessibility review
+```sh
+bash scripts/build.sh
+# produces:
+#   build/capability-matters.pdf        screen (cream backdrop)
+#   build/capability-matters-print.pdf  print (transparent backdrop)
+#   build/cover.pdf                     cover wrap for current page count
+# mirrored to repo root
+```
 
-- If a digital edition is produced, an accessibility pass for
-  alt text on diagrams, color-contrast for the navy / teal / gold
-  palette (verified passable in B&W but should be checked against
-  WCAG 2.1 AA for digital), screen-reader navigation, and proper
-  heading hierarchy in the PDF tag tree.
-
-### 6. Design / typography review
-
-- A designer / typographer pass on:
-  - widow / orphan control across the 100 case spreads
-  - kerning / leading on the chapter dividers (full-bleed navy
-    pages with large serif titles)
-  - figure / caption alignment within the navy diagram blocks
-  - the case-matrix two-page spread — column widths and
-    truncation of long case names
-
-### 7. Educational and pedagogical review
-
-- A review by an instructional-design or learning-engineering
-  expert (one with no LDT/LENS conflict) on:
-  - whether the reflection questions land at the right cognitive
-    level for graduate students in studio
-  - whether the LENS course tags map to the right cases (one such
-    pass is documented in Section IX of the introduction)
-  - whether the case → reflection → studio-prompt sequencing
-    supports the pedagogical claims the introduction makes
-
-### 8. Reference-librarian review
-
-- A reference librarian / scholarly-communications specialist
-  pass on:
-  - completing DOIs / stable URLs where they exist and were missed
-  - confirming preferred citation forms for institutional reports
-    (GAO citation conventions, NTSB report ID format, etc.)
-  - building an index of cases by alphabetical title and by
-    domain (currently the case matrix orders by case number only)
-  - cross-checking that paper authors are credited correctly,
-    particularly for the Cervantes et al. (2023) ASEE paper
-    where the website metadata reverses the author order
-
-### 9. Pre-press production review
-
-- Final A5 + 3 mm bleed PDF check against Lulu's most current
-  specs; spine width recalculation for the actual final page count;
-  cover-wrap proof; color-profile / paper-stock verification;
-  ISBN assignment and copyright registration.
+Upload `capability-matters-print.pdf` to Lulu, select cream-paper
+stock so the physical paper provides the cream tone; the cover
+wrap auto-sizes to the current 296-page spine via
+`cover/cover.typ`.
 
 ---
 
 ## Process notes
 
 The casebook was assembled and audited using AI tools as part of an
-iterative learning-engineering process. Two batched verification
-passes have been performed against primary sources; outputs were
-reviewed by the editors and a subset hand-checked by students. The
-volume's colophon documents this methodology and the commitment to
-continuing iteration as feedback arrives.
-
-This AUDIT.md file is the persistent record of that process. It will
-continue to be updated as additional reviews are performed.
+iterative learning-engineering process. Three batched verification
+passes were performed against primary sources, then nine domain /
+discipline expert reviews were dispatched in parallel and their
+findings applied. The colophon documents this methodology and the
+commitment to continuing iteration as feedback arrives. This file
+is the persistent record of that process and the punch list for
+subsequent printings.
