@@ -530,49 +530,104 @@
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   The argument above would be theoretical if Johns Hopkins did not
-  already have an operating record. It does. The School of Education
-  has run the Learning Design and Technology (LDT) program for two
-  decades, graduating cohorts who entered K–12, higher-education,
-  corporate, military, and clinical settings as designers and
-  evaluators of learning systems. The program's M.Ed. and EdD tracks
-  have always been organized around the learning-engineering question
-  — what does the system have to do in order to produce reliably
-  capable people? — even before that question had its current name.
-  LENS is the formalization of that orientation as a specialization,
-  not a departure from it.
+  already have an operating record. It does — and the deeper, longer
+  half of that record is the School of Education's. The SoE has been
+  studying the learner, designing the assessment, and engineering the
+  intervention since long before the discipline of learning
+  engineering had its current name. The disciplines this casebook
+  argues are load-bearing — learning sciences, educational
+  measurement, design-based research, implementation science, and
+  equity-and-governance work — are disciplines the school's faculty
+  have published in, taught, and applied at scale, in K–12,
+  higher-education, clinical, military, and corporate settings, for
+  decades.
 ]
 
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  Parallel to the SoE record is the JHU/APL record. APL has spent the
-  past decade building, evaluating, and iterating on learning systems
-  attached to mission programs — CIRCUIT for IARPA/MICrONS (the
-  workforce arm of the consortium whose connectomics result appeared
-  in #emph[Nature] in 2025), TITAN for DARPA's AIE program, the
-  precision-medicine clinical-decision-trainer pilot reported in 2024,
-  and PISTA for DTRA's CBRNE decision-support work in 2025. Each of
-  those programs produced operational deliverables that the sponsoring
-  agency adopted. Each also produced graduates and an internal record
-  of what had to be true about the learning architecture for the
-  technical deliverable to land. That record is the empirical base for
-  MERIT and COMPASS and is what LENS draws on when it teaches
-  capability engineering from cases rather than from textbook rules.
+  Three durable lines of work make the point. The Center for Talented
+  Youth, founded in 1979, has built one of the longest continuous
+  evidence bases in U.S. education on the identification, assessment,
+  and accelerated instruction of academically advanced learners; its
+  measurement and program-evaluation work has been the empirical
+  foundation of an entire sub-discipline. The Center for Research and
+  Reform in Education has, since 2004, run large-scale evaluations of
+  educational programs against rigorous evidence standards (Every
+  Student Succeeds Act tiers, What Works Clearinghouse review),
+  publishing the Best Evidence Encyclopedia and synthesizing what is
+  known about which interventions actually work for which learners
+  under which conditions. The Institute for Education Policy carries
+  the same evidence-first orientation into the governance,
+  curriculum-policy, and reform-design work that the case studies in
+  Chapter 5 of this book name as the binding capability in modern
+  education systems. These are not adjacent to the LDT program;
+  they are the institutional environment that taught the program how
+  to be rigorous.
 ]
 
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The SoE-APL relationship is unusual and is the point. The School of
-  Education brings the learning-science discipline, the
-  educational-measurement discipline, and the equity-and-governance
-  discipline. APL brings the engineering, the sponsor partnerships,
-  and a quarter-century of operational systems in which capability
-  was the binding constraint. Neither institution would, alone, have
-  the standing to claim this discipline. Together they have the
-  empirical record, the academic infrastructure, and the institutional
-  permission to define it. The casebook is one product of that
-  relationship. It is not the only one, and it is not the last.
+  The Learning Design and Technology program sits inside that
+  environment and inherits it. For two decades the LDT M.Ed. and EdD
+  tracks have graduated cohorts who entered as practitioners and left
+  as designers and evaluators of learning systems — instructional
+  designers and architects of learning experience, learning-analytics
+  specialists, technology-mediated-learning researchers, professional
+  developers, evaluators, and program leaders across the same K–12,
+  higher-education, military, clinical, and corporate settings the
+  cases in this book draw on. The program's intellectual core has
+  always been the learning-engineering question — what does the
+  system have to do in order to produce reliably capable people? —
+  and its pedagogical core has always been design-based research:
+  put the artifact in front of real learners, measure what happens,
+  iterate, and publish what was learned about both the artifact and
+  the learner. LENS is the formalization of that orientation as a
+  specialization, not a departure from it.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  Parallel to that academic record is the JHU/APL operating record.
+  APL has spent the past decade building, evaluating, and iterating
+  on learning systems attached to mission programs — CIRCUIT for
+  IARPA/MICrONS (the workforce arm of the consortium whose
+  connectomics result appeared in #emph[Nature] in 2025), TITAN for
+  DARPA's AIE program, the precision-medicine clinical-decision-
+  trainer pilot reported in 2024, and PISTA for DTRA's CBRNE
+  decision-support work in 2025. Each of those programs produced
+  operational deliverables that the sponsoring agency adopted. Each
+  also produced graduates and an internal record of what had to be
+  true about the learning architecture for the technical deliverable
+  to land. That record is the empirical base for MERIT and COMPASS
+  and is what LENS draws on when it teaches capability engineering
+  from cases rather than from textbook rules.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The SoE-APL relationship is unusual and is the point. The School
+  of Education brings the half-century of credibility in
+  understanding the learner, the discipline of educational
+  measurement, the design-and-implementation tradition that knows
+  how to put an intervention in front of real people and revise it,
+  and the equity-and-governance machinery that decides whether the
+  intervention is one that should reach scale at all. APL brings the
+  engineering, the sponsor partnerships, and a quarter-century of
+  operational systems in which capability was the binding constraint.
+  Neither institution would, alone, have the standing to claim this
+  discipline. The SoE without APL would be a school of education with
+  excellent learning theory and no operational mandate; APL without
+  the SoE would be an engineering organization solving learning
+  problems without the disciplines that know how to study learners.
+  Together they have the empirical record, the academic
+  infrastructure, and the institutional permission to define what
+  capability engineering is, and to teach the next generation to do
+  it. The casebook is one product of that relationship. It is not
+  the only one, and it is not the last.
 ]
 
 // -------------------------------------------------------------------
