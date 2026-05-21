@@ -500,38 +500,24 @@
   ),
   body: [
     Following the 1984 death of Libby Zion at a New York teaching
-    hospital — a case that became the focal point of a multi-decade
-    argument about resident physician fatigue — the Accreditation
-    Council for Graduate Medical Education (ACGME) imposed an
-    80-hour weekly cap on resident work hours in 2003. In 2011 the
-    rules tightened further: first-year residents were capped at
-    16-hour shifts. The intent was to address a well-documented
-    training-gap pattern: residents making fatigue-related errors
-    they would not have made rested.
+    hospital — focal point of a multi-decade argument about resident
+    physician fatigue — the Accreditation Council for Graduate
+    Medical Education (ACGME) imposed an 80-hour weekly cap on
+    resident work hours in 2003. In 2011 the rules tightened
+    further: first-year residents were capped at 16-hour shifts. The
+    intent was to address a documented training-gap pattern:
+    residents making fatigue-related errors they would not have made
+    rested.
 
     The intervention was a single-variable change to a complex
-    capability system. Two large randomized trials — FIRST (Bilimoria
-    et al., NEJM 2016) in general surgery and iCOMPARE (Silber et al.,
-    NEJM 2019) in internal medicine — compared flexible duty-hour
-    policies with the strict caps. Both found no difference in
-    30-day patient outcomes between the arms. Both surfaced an
-    unintended consequence: the 16-hour cap had increased the number
-    of patient hand-offs per admission, and hand-offs are themselves
-    a documented site of error. Resident continuity-of-care exposure
-    decreased; procedural exposure for surgical residents decreased;
-    in qualitative reports residents described feeling less prepared
-    rather than more rested. In 2017 ACGME relaxed the 16-hour intern
-    cap, reverting to the 80-hour-only ceiling.
-
-    Duty-hour reform is in the dataset not because the original
-    fatigue problem was unreal — it was — but because the discipline
-    addressed it by capping the input rather than by engineering the
-    capability. The hand-off, the continuity of care, the procedural
-    exposure, the supervisory structure, and the documentation
-    architecture were all part of the capability that the long hours
-    had been (poorly) producing. Reforming the input without
-    redesigning the system surfaced the missing components only by
-    their absence.
+    capability system. Two large RCTs — FIRST (Bilimoria et al.,
+    NEJM 2016) and iCOMPARE (Silber et al., NEJM 2019) — compared
+    flexible duty-hour policies with the strict caps. Both found no
+    difference in 30-day patient outcomes; both surfaced increased
+    hand-offs per admission, themselves a documented site of error.
+    Resident continuity-of-care and procedural exposure decreased;
+    residents reported feeling less prepared rather than more
+    rested. In 2017 ACGME relaxed the 16-hour intern cap.
   ],
   quote: [Flexible, less-restrictive duty hour policies for first-year residents were associated with non-inferior patient outcomes and no significant difference in residents' satisfaction with overall well-being and education quality.],
   quote-source: "Silber, Bellini, Shea et al., iCOMPARE Trial, NEJM 2019",
@@ -543,16 +529,12 @@
     [Lerner (2006), _The Libby Zion Case and the Reform of Medical Education_],
   ),
   le-insight: [
-    Duty-hour reform is the clearest healthcare case in the dataset
-    of a single-variable intervention into a multi-variable capability
-    system. Pairs with Case 33 (fratricide) and Case 11 (V-22) as
-    examples of multi-decade capability problems where each
-    component reform shifts the failure to an adjacent component
-    that was carrying load the original system was not designed to
-    surface. The success cases — Keystone ICU (14), CRM (12), Korean
-    Air (23) — succeeded because they engineered the supervisory,
-    hand-off, and measurement architecture *together with* the
-    behavioral change.
+    The clearest healthcare case in the dataset of a single-variable
+    intervention into a multi-variable capability system. Pairs with
+    Case 33 (fratricide) and Case 11 (V-22). The success cases —
+    Keystone (14), CRM (12), Korean Air (23) — engineered
+    supervisory, hand-off, and measurement architecture *together
+    with* the behavioral change.
   ],
   lens-approach: [
     LENS uses duty-hour reform in LEN 5 as the foundational

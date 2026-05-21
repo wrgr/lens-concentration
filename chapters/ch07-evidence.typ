@@ -37,30 +37,18 @@
     medical error as a cause, so the problem is structurally invisible
     to the measurement systems that should track it.
 
-    The 250,000 figure has been substantively contested in the
-    patient-safety literature: Shojania and Dixon-Woods (*BMJ Quality &
-    Safety*, 2017), among others, argued that Makary's extrapolation
-    relied on a small number of studies, conflated preventable with
-    unpreventable harm, and underweighted competing causes of death.
-    The casebook treats the figure as anchor evidence for the *scale*
-    of the capability gap while noting that the precise count is the
-    subject of an active methodological debate — itself an instance
-    of the *gap-attribution* problem the discipline must learn to
-    diagnose: how much of a counted death is the learning system, how
-    much is the system design, and how much is the underlying
-    disease?
+    The 250,000 figure has been substantively contested (Shojania
+    and Dixon-Woods, *BMJ Quality & Safety* 2017) on methodological
+    grounds — itself a worked example of the *gap-attribution*
+    problem the discipline must diagnose: how much of a counted death
+    is the learning system, how much the system design, how much the
+    underlying disease?
 
     The Institute of Medicine's *To Err Is Human* (1999) had earlier
-    estimated 44,000–98,000 deaths annually and catalyzed the patient-
-    safety movement, TeamSTEPPS (Case 27), surgical checklists (Case 13),
-    and Keystone ICU (Case 14). The Makary study — seventeen years later
-    — argued the problem persists at scale despite significant
-    intervention. The gap between effective interventions and their
-    consistent implementation across six thousand U.S. hospitals is
-    itself a capability-engineering problem.
-
-    Hopkins is also the institution producing this casebook. The data
-    is not external to the argument.
+    estimated 44,000–98,000 deaths annually and catalyzed the
+    patient-safety movement: TeamSTEPPS (Case 27), surgical
+    checklists (Case 13), Keystone ICU (Case 14). Seventeen years
+    later, the problem persists at scale.
   ],
   quote: [People don't just die from heart attacks and bacteria, they die from system-wide failings and poorly coordinated care.],
   quote-source: "Martin Makary, press statements accompanying Makary & Daniel, BMJ (2016)",

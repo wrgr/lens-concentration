@@ -40,17 +40,17 @@
       domain-row(..domains-list),
       eyebrow(year),
     )
-    v(4pt)
+    v(3pt)
 
     // title
     text(font: serif, size: 22pt, fill: navy, title)
-    v(2pt)
+    v(1pt)
     mode-line(modes-code)
-    v(3pt)
+    v(2pt)
     block(
       width: 100%,
       stroke: (top: 0.4pt + rule-soft, bottom: 0.4pt + rule-soft),
-      inset: (y: 3pt),
+      inset: (y: 2.5pt),
       grid(
         columns: (auto, 1fr),
         column-gutter: 8pt,
@@ -58,14 +58,14 @@
         text(font: sans, size: 8.5pt, weight: "medium", fill: navy, impact),
       ),
     )
-    v(5pt)
+    v(3pt)
 
     // diagram
     if diagram != none { diagram }
-    v(5pt)
+    v(2pt)
 
     // body
-    set par(justify: true, leading: 0.5em, first-line-indent: 0pt)
+    set par(justify: true, leading: 0.45em, first-line-indent: 0pt, spacing: 0.55em)
     text(font: sans, size: 8.5pt, fill: text-dark, body)
   })
 

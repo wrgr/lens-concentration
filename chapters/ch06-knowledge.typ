@@ -105,20 +105,17 @@
     deployment at cloud.gifttutoring.org — and convenes an annual
     GIFTSym symposium that publishes peer-reviewed proceedings.
 
-    Computer-based tutoring has been shown to be "as effective as expert
-    human tutors in one-to-one tutoring in well-defined domains and
-    significantly better than traditional classroom training
-    environments" (VanLehn, 2011). GIFT itself sits at the center of
-    the field's effort to lower the authoring barrier for adaptive
-    instruction. The case in this casebook is not that GIFT has been
-    discontinued — it has not. The case is that *ubiquitous fielded
-    adoption of adaptive tutoring across routine military training
-    pipelines remains limited* despite five decades of research on
-    intelligent tutoring and more than a decade of active GIFT
-    development. The gap between framework and fielded routine use
-    is the case.
-
-    This is the canonical learning-engineering problem: the science is
+    Computer-based tutoring has been shown to be "as effective as
+    expert human tutors in one-to-one tutoring in well-defined
+    domains and significantly better than traditional classroom
+    training" (VanLehn, 2011); GIFT sits at the center of the field's
+    effort to lower the authoring barrier. The case is not that GIFT
+    has been discontinued — it has not. The case is that *ubiquitous
+    fielded adoption of adaptive tutoring across routine military
+    training pipelines remains limited* despite five decades of
+    intelligent-tutoring research and more than a decade of active
+    GIFT development. The gap between framework and fielded routine
+    use is the canonical learning-engineering problem: the science is
     settled, the platform exists, the studies are positive, and the
     institutional pathway to scaled adoption is still being built.
   ],

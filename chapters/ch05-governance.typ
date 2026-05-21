@@ -290,32 +290,26 @@
   diagram: dgm.dgm-inbloom,
   body: [
     Summit Learning — the personalized-learning platform developed by
-    Summit Public Schools with technical and financial support from the
-    Chan Zuckerberg Initiative — was offered free to U.S. school
-    districts beginning in 2015. By 2018 it was in roughly 380 schools
-    serving an estimated 80,000 students. By 2019 the most visible
-    early adopters were withdrawing under parent and student pressure:
-    Brooklyn's MS 442 (Boerum Hill) saw an organized opt-out
-    campaign; districts in Cheshire (Connecticut), Kennebunk (Maine),
-    and McPherson (Kansas) cancelled or scaled back deployments after
-    parent meetings. Student walk-outs, surveys reporting eye strain
-    and disengagement, and concerns about screen time and data
-    privacy converged into a governance failure that was not about
-    the underlying instructional design.
+    Summit Public Schools with technical and financial support from
+    the Chan Zuckerberg Initiative — was offered free to U.S. school
+    districts beginning in 2015. By 2018 it reached roughly 380
+    schools and an estimated 80,000 students. By 2019 the most
+    visible adopters were withdrawing under parent and student
+    pressure: Brooklyn's MS 442 saw an organized opt-out campaign;
+    districts in Cheshire, Kennebunk, and McPherson cancelled or
+    scaled back after parent meetings. Walk-outs, surveys reporting
+    eye strain and disengagement, and concerns about screen time
+    and data privacy converged into a governance failure that was
+    not about the underlying instructional design.
 
     The platform's pedagogical theory — competency-based progression,
     self-directed projects, mentor check-ins — was defensible and in
-    many places effective. The failure was the deployment governance:
-    no formal evaluation framework that districts could read before
-    adopting; no published data-handling agreement at parent-facing
-    resolution; no escalation pathway when schools wanted to modify or
-    exit. When parents asked what evidence supported the platform,
-    Summit and CZI pointed to internal data; when they asked what
-    happened to student records, the answer required reading a Terms
-    of Service. The platform's defenders — including the participating
-    teachers and many students — were unable to win an argument that
-    had been lost before it started, because the implementation never
-    surfaced the governance questions that the parents would ask.
+    many places effective. The failure was deployment governance:
+    no evaluation framework districts could read before adopting; no
+    parent-facing data-handling agreement; no exit pathway that did
+    not depend on the vendor's goodwill. The implementation never
+    surfaced the governance questions parents would ask, and the
+    argument was lost before it started.
   ],
   quote: [The tools were free. The accountability architecture had not been built.],
   quote-source: "Editors' synthesis of Summit Learning rollout coverage (New York Times, Wired, Education Week, 2018–2019)",
@@ -383,27 +377,19 @@
     pre-K studies in the United States — following children admitted
     by lottery against children who applied but did not enroll.
 
-    Through kindergarten, the TN-VPK children showed the expected
-    gains: stronger letter knowledge, vocabulary, and early literacy
-    scores. By third grade the gains had faded. By sixth grade,
-    Lipsey, Farran, and Durkin (2018) reported that TN-VPK children
-    performed *worse* than the control group on several state
-    academic measures and on teacher-reported behavior. The result
-    contradicted the policy consensus that early-childhood investment
-    produces durable gains, and provoked an unusual public response
-    from the field: the study was attacked, its methods were
-    contested, and the policy community largely declined to internalize
-    its findings.
-
-    The study is in the dataset not because pre-K is bad — the
-    Perry Preschool and Abecedarian evidence remains durable — but
-    because the *measurement architecture* (an RCT, with longitudinal
-    follow-up, in an at-scale program) is rare in education, and
-    when it returned a result the field did not want, the discipline's
-    capacity to act on it was tested and largely failed. Tennessee
-    continued the program substantially unchanged. Other states scaled
-    up universal pre-K without modifying their measurement
-    architectures in light of the Tennessee finding.
+    Through kindergarten, TN-VPK children showed the expected gains:
+    stronger letter knowledge, vocabulary, and early literacy. By
+    third grade the gains had faded. By sixth grade, Lipsey, Farran,
+    and Durkin (2018) reported TN-VPK children performed *worse*
+    than the control group on several state academic measures and on
+    teacher-reported behavior. The result contradicted policy
+    consensus and provoked an unusual response: the study was
+    attacked, its methods contested, and the field largely declined
+    to internalize the findings. The case is in the dataset not
+    because pre-K is bad — Perry Preschool and Abecedarian remain
+    durable — but because the *measurement architecture* is rare in
+    education, and the discipline's capacity to act on an unwelcome
+    finding was tested and largely failed.
   ],
   quote: [By sixth grade, children who had attended TN-VPK were doing somewhat worse on academic achievement and discipline measures than children in the control group.],
   quote-source: "Lipsey, Farran & Durkin (2018), Vanderbilt Peabody Research Institute",
