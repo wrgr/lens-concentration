@@ -5,6 +5,7 @@
 
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
+#import "../lib/diagrams.typ" as dgm
 
 // citation marker (definition lives in components.typ)
 
@@ -360,21 +361,24 @@
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The first is the *CIRCUIT / MERIT pathway* — a more-than-decade
-  long pipeline of structured, evidence-based scientific workforce
-  development originated at the JHU Applied Physics Laboratory. CIRCUIT
-  (Cohort-based Integrated Research Community for Undergraduate
-  Innovation and Trailblazing) placed undergraduates inside connectomics
-  proofreading workflows under structured pedagogical scaffolding;
-  MERIT (Mentoring Exceptional Researchers to Innovate and Thrive)
-  generalized the model into a replicable training architecture with
-  formal selection rubrics, mentor training protocols, and
-  individual-development-planning instruments. Multiple cohorts across
-  hundreds of students have produced peer-reviewed contributions to
-  the connectomics literature — the MICrONS reconstructions in
-  *Nature*, the open-data infrastructure of BossDB and CAVE, the
-  NeuVue proofreading framework. The model demonstrably works.
-  Section VII expands on this evidence.
+  The first is the *CIRCUIT / MERIT / COMPASS pathway* — a more-than-
+  decade-long pipeline of structured, evidence-based scientific
+  workforce development originated at the JHU Applied Physics
+  Laboratory. CIRCUIT (Cohort-based Integrated Research Community for
+  Undergraduate Innovation and Trailblazing) placed undergraduates
+  inside connectomics proofreading workflows under structured
+  pedagogical scaffolding; MERIT (Mentoring Exceptional Researchers
+  to Innovate and Thrive) generalized the model into a replicable
+  training architecture with formal selection rubrics, mentor training
+  protocols, and individual-development-planning instruments; COMPASS
+  is the assessment and credentialing layer that operationalizes the
+  competency framework these pipelines develop against. Multiple
+  cohorts across hundreds of students have produced peer-reviewed
+  contributions to the connectomics literature — the MICrONS
+  reconstructions in *Nature*, the open-data infrastructure of BossDB
+  and CAVE, the NeuVue proofreading framework — and the model itself
+  is documented in the peer-reviewed engineering-education literature
+  #cite-num(24). Section VII expands on this evidence.
 ]
 
 #v(6pt)
@@ -523,7 +527,12 @@
 
 #v(8pt)
 #text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "The Practice Flywheel")
-#v(2pt)
+#v(4pt)
+
+#dgm.dgm-flywheel
+
+#v(6pt)
+
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   The pilots share an operating cycle: *identify* a real challenge in
   an operational setting, *activate* a cohort of practitioners and the
@@ -583,15 +592,18 @@
   PISTA — the *Perceptual Inference System for Tactical Agentic AI* —
   was a ten-week incubator delivering tactical AI decision support
   for the Defense Threat Reduction Agency's chemical, biological,
-  radiological, nuclear, and explosives mission. Fifty-two
-  participants from nine universities (including Naval Academy
-  midshipmen, West Point cadets, and ROTC participants) delivered a
-  working perception-reason-report agentic pipeline on a COTS stack
-  (Gemini Flash, GPT-4o, Firebase) with deployed sensors on UGVs and
-  small UAS. Three full redesigns inside ten weeks. Live demonstration
-  to DTRA leadership. Follow-on funding under exploration. The
-  pilot demonstrates the Practice Flywheel at compressed timescale
-  in a defense context #cite-num(26).
+  radiological, nuclear, and explosives mission. Nine student fellows
+  shipped PISTA, drawn from the broader Summer 2025 cohort of
+  forty-four students at the JHU/APL AI Pathfinding Lab; all
+  forty-four benefited from the shared cohort infrastructure, mentor
+  pool, and cross-project collaboration even when working on other
+  sponsor problems. The PISTA team delivered a working
+  perception-reason-report agentic pipeline on a COTS stack (Gemini
+  Flash, GPT-4o, Firebase) with deployed sensors on UGVs and small
+  UAS. Three full redesigns inside ten weeks. Live demonstration to
+  DTRA leadership. Follow-on funding under exploration. The pilot
+  demonstrates the Practice Flywheel at compressed timescale in a
+  defense context #cite-num(26).
 ]
 
 #v(8pt)
