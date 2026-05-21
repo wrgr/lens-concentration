@@ -1,0 +1,6 @@
+build/
+*.aux
+*.log
+.DS_Store
+node_modules/
+audit/
