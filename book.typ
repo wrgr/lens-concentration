@@ -7,6 +7,15 @@
 #import "lib/theme.typ": *
 #import "lib/components.typ": *
 
+// ---- Build mode ----
+// `--input mode=print` produces a print-ready interior with white /
+// transparent page backgrounds, intended to be printed by Lulu on cream
+// paper stock so the physical paper provides the cream tone. Default
+// `mode=screen` keeps the cream fill in the PDF for on-screen viewing
+// and for printing on white paper.
+#let print-mode = sys.inputs.at("mode", default: "screen") == "print"
+#let page-fill = if print-mode { white } else { cream }
+
 // ---- Document metadata ----
 #set document(
   title: "Capability Matters: A Casebook",
@@ -23,7 +32,7 @@
     top:     m-top + bleed,
     bottom:  m-bottom + bleed,
   ),
-  fill: cream,
+  fill: page-fill,
   header: context {
     let p = counter(page).get().first()
     if p > 6 [

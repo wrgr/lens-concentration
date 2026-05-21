@@ -8,8 +8,11 @@ cd "$ROOT"
 
 mkdir -p build
 
-echo "→ Compiling interior (book.typ)..."
+echo "→ Compiling screen interior (cream backdrop, for on-screen viewing)..."
 typst compile --font-path fonts book.typ build/capability-matters.pdf
+
+echo "→ Compiling print interior (transparent/white backdrop, for Lulu cream-paper stock)..."
+typst compile --font-path fonts --input mode=print book.typ build/capability-matters-print.pdf
 
 # Count pages to size the spine for the cover wrap.
 if command -v pdfinfo >/dev/null 2>&1; then
@@ -27,16 +30,23 @@ typst compile --font-path fonts --root . \
 
 # Mirror the latest PDFs to the repo root so they are easy to find / preview.
 cp "$ROOT/build/capability-matters.pdf" "$ROOT/capability-matters.pdf"
+cp "$ROOT/build/capability-matters-print.pdf" "$ROOT/capability-matters-print.pdf"
 cp "$ROOT/build/cover.pdf" "$ROOT/cover.pdf"
 
 echo
 echo "✓ Output:"
-echo "    build/capability-matters.pdf   interior — A5 with 3 mm bleed (154 × 216 mm)"
-echo "    build/cover.pdf                cover wrap — sized for $PAGES pages"
-echo "    capability-matters.pdf         (same, mirrored to repo root for easy access)"
-echo "    cover.pdf                      (same, mirrored to repo root)"
+echo "    build/capability-matters.pdf        screen interior — cream backdrop (A5 + 3 mm bleed)"
+echo "    build/capability-matters-print.pdf  print interior — transparent/white backdrop for cream paper stock"
+echo "    build/cover.pdf                     cover wrap — sized for $PAGES pages"
+echo "    capability-matters{,-print}.pdf     (same, mirrored to repo root for easy access)"
+echo "    cover.pdf                           (same, mirrored to repo root)"
 echo
-echo "Before uploading to Lulu, verify the spine width against Lulu's"
-echo "current spec for A5 paperback, 80 gsm white interior. The cover"
-echo "template assumes ~0.0572 mm/page; override with --input spine=<mm>"
-echo "if Lulu's project page reports a different value."
+echo "Lulu workflow:"
+echo "  • Upload capability-matters-print.pdf as the interior and select"
+echo "    cream-paper stock — the physical paper provides the cream tone."
+echo "  • Use capability-matters.pdf for on-screen viewing and for printing"
+echo "    on white paper if the cream tone is desired in the PDF itself."
+echo "  • Before uploading, verify the spine width against Lulu's current"
+echo "    spec for A5 paperback, 60# cream interior. The cover template"
+echo "    assumes ~0.0572 mm/page; override with --input spine=<mm> if"
+echo "    Lulu's project page reports a different value."

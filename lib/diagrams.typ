@@ -1021,28 +1021,34 @@
       let y = cy + r * calc.sin(theta)
       positions.push((x, y))
     }
-    // arrows between successive nodes (curved arcs)
+    // arrows between successive node dots (straight segments, shortened by node radius)
+    let node-r = 0.22
     for i in range(nodes.len()) {
       let (x1, y1) = positions.at(i)
       let (x2, y2) = positions.at(calc.rem(i + 1, nodes.len()))
-      // unit vector and shorten by node radius
       let dx = x2 - x1
       let dy = y2 - y1
       let d = calc.sqrt(dx * dx + dy * dy)
       let ux = dx / d
       let uy = dy / d
       line(
-        (x1 + 0.35 * ux, y1 + 0.35 * uy),
-        (x2 - 0.42 * ux, y2 - 0.42 * uy),
+        (x1 + (node-r + 0.05) * ux, y1 + (node-r + 0.05) * uy),
+        (x2 - (node-r + 0.18) * ux, y2 - (node-r + 0.18) * uy),
         stroke: 0.9pt + rgb("#D4A843"),
         mark: (end: ">", size: 0.18),
       )
     }
-    // nodes
+    // node dots + outward-offset labels
     for i in range(nodes.len()) {
       let (x, y) = positions.at(i)
-      circle((x, y), radius: 0.42, fill: rgb("#2CC4B3"), stroke: none)
-      content((x, y), text(font: ("DM Sans",), size: 6.4pt, weight: "bold", fill: rgb("#0A1628"), nodes.at(i)))
+      // radial unit vector from center to node, used to push the label outward
+      let rx = (x - cx) / r
+      let ry = (y - cy) / r
+      circle((x, y), radius: node-r, fill: rgb("#2CC4B3"), stroke: none)
+      content(
+        (x + 0.55 * rx, y + 0.55 * ry),
+        text(font: ("DM Sans",), size: 7.4pt, weight: "bold", fill: rgb("#0A1628"), nodes.at(i)),
+      )
     }
     // center label
     content((cx, cy + 0.2), text(font: ("Instrument Serif",), size: 10pt, style: "italic", fill: rgb("#F5F0E8"), "the LENS"))

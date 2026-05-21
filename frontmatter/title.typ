@@ -5,20 +5,23 @@
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
+// Respect the global print-mode flag (book.typ sets `page-fill`).
+#let page-fill = if sys.inputs.at("mode", default: "screen") == "print" { white } else { cream }
+
 // ---- Half-title (page i) ----
 #page(
-  fill: cream,
+  fill: page-fill,
   margin: (inside: m-inner + bleed, outside: m-outer + bleed, top: m-top + bleed, bottom: m-bottom + bleed),
   header: none, footer: none,
   align(center + horizon, text(font: serif, size: 26pt, fill: navy, "Capability Matters"))
 )
 
 // ---- Blank page (ii) ----
-#page(fill: cream, header: none, footer: none)[]
+#page(fill: page-fill, header: none, footer: none)[]
 
 // ---- Title page (iii) ----
 #page(
-  fill: cream,
+  fill: page-fill,
   margin: (inside: m-inner + bleed, outside: m-outer + bleed, top: m-top + bleed, bottom: m-bottom + bleed),
   header: none, footer: none,
   {
@@ -59,7 +62,7 @@
 
 // ---- Dedication (iv) ----
 #page(
-  fill: cream,
+  fill: page-fill,
   margin: (inside: m-inner + bleed, outside: m-outer + bleed, top: m-top + bleed, bottom: m-bottom + bleed),
   header: none, footer: none,
   align(center + horizon, block(
@@ -77,7 +80,7 @@
 
 // ---- Colophon + methodology / AI-tools note (v) ----
 #page(
-  fill: cream,
+  fill: page-fill,
   margin: (inside: m-inner + bleed, outside: m-outer + bleed, top: m-top + bleed, bottom: m-bottom + bleed),
   header: none, footer: none,
   {
@@ -96,6 +99,12 @@
       Compiled for the LDT program and the LENS specialization at the Johns Hopkins University School of Education. \
       Set in Instrument Serif and DM Sans. \
       Printed via Lulu, A5 perfect-bound.
+    ]
+
+    v(10pt)
+
+    text(font: sans, size: 8pt, fill: text-dark)[
+      © 2026 Johns Hopkins University. All rights reserved.
     ]
 
     v(14pt)
