@@ -12,11 +12,13 @@
 #line(length: 32mm, stroke: 0.8pt + gold)
 #v(10pt)
 
-#text(font: serif, size: 22pt, fill: navy, "Forty-two cases at a glance")
+#text(font: serif, size: 22pt, fill: navy, "One hundred cases at a glance")
 #v(3pt)
 #text(font: sans, size: 9pt, fill: text-muted)[
-  Twenty-four failures. Ten successes. Eight systemic conditions. Across
-  healthcare, defense, education, and the systems on which lives depend.
+  Across healthcare, defense, education, and the sociotechnical systems
+  on which lives depend. Cases 1–42 are the original LENS dataset;
+  Cases 43–100 extend the casebook across additional domains. Case 100
+  is open.
 ]
 
 #v(10pt)
@@ -83,6 +85,65 @@
   ..row(40, "xAPI / TLA Gap",                 "ongoing",   "Education",  "K·G",     "2·9"),
   ..row(41, "Implementation 17-Year Gap",     "ongoing",   "Healthcare", "K·G·N",   "1·3·9"),
   ..row(42, "Cognitive Tutor",                "1990s–",    "Education",  "T",       "1·2·10", success: true),
+
+  ..row(43, "Colgan Air 3407",                "2009",      "Aviation",   "T",       "2·5"),
+  ..row(44, "Asiana Airlines 214",            "2013",      "Aviation",   "T·H",     "5·8"),
+  ..row(45, "Mark 14 Torpedo",                "1941–43",   "Defense",    "T·K·G",   "3·7·9"),
+  ..row(46, "Operation Eagle Claw",           "1980",      "Defense",    "T·K",     "5·9"),
+  ..row(47, "Helios Airways 522",             "2005",      "Aviation",   "T·H",     "5·8"),
+  ..row(48, "AeroPerú 603",                   "1996",      "Aviation",   "H·T",     "5·8"),
+  ..row(49, "Atlas Air 3591",                 "2019",      "Aviation",   "T·K",     "2·9"),
+  ..row(50, "TransAsia 235",                  "2015",      "Aviation",   "T·H",     "5·8"),
+  ..row(51, "Ford Pinto",                     "1971–78",   "Industrial", "D·G",     "1·7"),
+  ..row(52, "Takata Airbags",                 "2008–23",   "Industrial", "D·G",     "2·7"),
+  ..row(53, "GM Ignition Switch",             "2002–14",   "Industrial", "D·G",     "2·7·9"),
+  ..row(54, "Mars Climate Orbiter",           "1999",      "Aviation",   "D·K",     "5·9"),
+  ..row(55, "Knight Capital",                 "2012",      "Technology", "D·K",     "5·10"),
+  ..row(56, "Texas City BP Refinery",         "2005",      "Energy",     "N·T·K·G", "2·7"),
+  ..row(57, "Davis-Besse Reactor",            "2002",      "Energy",     "N·K·G",   "7·9"),
+  ..row(58, "Mid Staffordshire NHS",          "2005–09",   "Healthcare", "G·N·K",   "2·7"),
+  ..row(59, "Sago Mine",                      "2006",      "Energy",     "N·T·K",   "5·9"),
+  ..row(60, "Upper Big Branch Mine",          "2010",      "Energy",     "N·G·K",   "2·7"),
+  ..row(61, "Fukushima Daiichi",              "2011",      "Energy",     "N·G·K",   "7·9"),
+  ..row(62, "Northeast Blackout",             "2003",      "Energy",     "H·K",     "8·9"),
+  ..row(63, "Eastern 401",                    "1972",      "Aviation",   "H·T",     "5·8"),
+  ..row(64, "Boeing 737 Rudder",              "1991, 94",  "Aviation",   "H·D",     "5·7"),
+  ..row(65, "CrowdStrike Outage",             "2024",      "Technology", "D·K·G",   "5·8"),
+  ..row(66, "Petrov / 1983 False Alert",      "1983",      "Defense",    "H·T",     "8",  success: true),
+  ..row(67, "TSB Bank IT Migration",          "2018",      "Technology", "H·G",     "7·9"),
+  ..row(68, "UK Post Office Horizon",         "1999–2015", "Government", "G·H·K",   "7·8"),
+  ..row(69, "Theranos",                       "2003–18",   "Healthcare", "G·D",     "2·7"),
+  ..row(70, "Wells Fargo Accounts",           "2011–16",   "Government", "G·N",     "2·7"),
+  ..row(71, "VW Dieselgate",                  "2015",      "Industrial", "D·G",     "2·7"),
+  ..row(72, "Cambridge Analytica",            "2014–18",   "Technology", "G",       "1·7"),
+  ..row(73, "Equifax Breach",                 "2017",      "Technology", "G·K",     "5·7"),
+  ..row(74, "Hyatt Regency Walkway",          "1981",      "Industrial", "D·G",     "5·7"),
+  ..row(75, "FIU Pedestrian Bridge",          "2018",      "Industrial", "D·G·N",   "5·9"),
+  ..row(76, "Camp Fire / PG&E",               "2018",      "Energy",     "G·N·K",   "7·9"),
+  ..row(77, "Texas Grid Freeze",              "2021",      "Energy",     "G·K·N",   "7·9"),
+  ..row(78, "Saturn V Documentation",         "1972–",     "Aviation",   "K",       "1·9"),
+  ..row(79, "Boeing Starliner",               "2019–24",   "Aviation",   "K·D",     "5·9"),
+  ..row(80, "Ariane 5 Flight 501",            "1996",      "Aviation",   "D·K·H",   "5·9"),
+  ..row(81, "Tacoma Narrows Bridge",          "1940",      "Industrial", "D·K",     "1·9"),
+  ..row(82, "Aliso Canyon",                   "2015–16",   "Energy",     "G·N·K",   "7·9"),
+  ..row(83, "LIBOR Manipulation",             "2003–12",   "Government", "G·N",     "2·7"),
+  ..row(84, "Atlanta Schools Cheating",       "2009–15",   "Education",  "G·N",     "2·7"),
+  ..row(85, "Madoff / SEC Failure",           "1992–2008", "Government", "G·K·N",   "2·7"),
+  ..row(86, "9/11 Intel Sharing",             "1996–2001", "Defense",    "G·K",     "7·9"),
+  ..row(87, "Vioxx",                          "1999–2004", "Healthcare", "G·D",     "2·7"),
+  ..row(88, "Tylenol Recall",                 "1982",      "Healthcare", "G·N",     "3·7", success: true),
+  ..row(89, "Aviation Safety Reporting",      "1976–",     "Aviation",   "T·K·N",   "2·9", success: true),
+  ..row(90, "Bristol Heart Reform",           "1991–",     "Healthcare", "G·N",     "2·7", success: true),
+  ..row(91, "Singapore Airlines",             "1980s–",    "Aviation",   "T·N",     "9",   success: true),
+  ..row(92, "Tesla Autopilot",                "2016–",     "Autonomous", "T·N·G·H", "7·8"),
+  ..row(93, "Cruise Robotaxi",                "2023",      "Autonomous", "G·D·H",   "3·7"),
+  ..row(94, "COMPAS Recidivism",              "2016–",     "Government", "G·H·D",   "2·7·10"),
+  ..row(95, "Radiology AI Miscalibration",    "2018–",     "Healthcare", "H·K·D",   "2·7·10"),
+  ..row(96, "LLMs in Healthcare",             "2023–",     "Healthcare", "H·D",     "3·7·8"),
+  ..row(97, "Predictive Policing",            "2011–",     "Government", "G·H·D",   "7·10"),
+  ..row(98, "AlphaFold",                      "2020–",     "Healthcare", "T",       "1·7·10", success: true),
+  ..row(99, "AI-Augmented Coding",            "2021–",     "Technology", "T·H",     "3·8·9"),
+  ..row(100,"The Discipline We Build Next",   "ongoing",   "Education",  "T·K·N·G·H·D", "1·3·9"),
 )
 
 #v(6pt)

@@ -103,7 +103,7 @@
 // ---- BACK COVER (left side) ----
 #at(bleed + 14mm, 24mm + bleed)[
   #text(font: sans, size: 9pt, tracking: 2.8pt, fill: gold,
-    upper("Forty-two cases · Six failure modes · One discipline"))
+    upper("One hundred cases · Six failure modes · One discipline"))
   #v(2pt)
   #line(length: 22mm, stroke: 0.8pt + gold)
 ]

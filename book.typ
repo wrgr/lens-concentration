@@ -56,18 +56,31 @@
 // PART I — THE FAILURE MODES
 // ============================================================
 #include "chapters/ch01-training-gap.typ"
+#include "chapters/ch01b-training-extras.typ"
 #include "chapters/ch02-designed-out.typ"
+#include "chapters/ch02b-designed-out-extras.typ"
 #include "chapters/ch03-normalization.typ"
+#include "chapters/ch03b-normalization-extras.typ"
 #include "chapters/ch04-interface.typ"
+#include "chapters/ch04b-interface-extras.typ"
 #include "chapters/ch05-governance.typ"
+#include "chapters/ch05b-governance-extras.typ"
 #include "chapters/ch06-knowledge.typ"
+#include "chapters/ch06b-knowledge-extras.typ"
 #include "chapters/ch07-evidence.typ"
+#include "chapters/ch07b-evidence-extras.typ"
 
 // ============================================================
 // PART II — WHAT WORKS
 // ============================================================
 #include "chapters/ch08-paired-interventions.typ"
 #include "chapters/ch08b-paired-extras.typ"
+#include "chapters/ch08c-paired-more.typ"
+
+// ============================================================
+// PART III — THE FRONTIER
+// ============================================================
+#include "chapters/ch09-human-ai.typ"
 
 // ============================================================
 // BACK MATTER
