@@ -209,16 +209,18 @@
   caption: "54 seconds: stall warning sounded, response never came",
   cetz.canvas({
     import cetz.draw: *
+    // timeline baseline
     line((0.5, 1.4), (9, 1.4), stroke: 0.6pt + rgb("#5A6A85"))
-    // tick marks
     for x in (0.5, 2.0, 3.5, 5.0, 6.5, 8.0, 9.0) {
       line((x, 1.3), (x, 1.5), stroke: 0.4pt + rgb("#5A6A85"))
     }
-    rect((0.5, 1.4), (8.0, 1.7), fill: rgb("#D4A843"), stroke: none)
-    content((4.0, 1.95), text(font: ("DM Sans",), size: 6.5pt, weight: "bold", fill: rgb("#0A1628"), "STALL WARNING (54s continuous)"))
-    content((0.5, 1.0), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), "pitot ice"), anchor: "north-west")
-    content((8.0, 1.0), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), "impact"), anchor: "north-east")
-    content((4.5, 0.4), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#2CC4B3"), "no recovery manoeuvre attempted"), anchor: "north")
+    // stall warning bar — make it tall enough to hold its label
+    rect((0.5, 1.7), (8.0, 2.4), fill: rgb("#D4A843"), stroke: none)
+    content((4.25, 2.05), text(font: ("DM Sans",), size: 7pt, weight: "bold", fill: rgb("#0A1628"), "STALL WARNING (54s continuous)"))
+    // endpoints
+    content((0.5, 1.1), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), "pitot ice"), anchor: "north-west")
+    content((8.0, 1.1), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), "impact"), anchor: "north-east")
+    content((4.5, 0.6), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#2CC4B3"), "no recovery manoeuvre attempted"), anchor: "north")
   })
 )
 
@@ -788,5 +790,209 @@
       }
     }
     content((4.7, 0.5), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#F5F0E8"), "the LE process working as intended"), anchor: "north")
+  })
+)
+
+// ============================================================
+// PARAMETRIC TEMPLATES
+// Reusable diagram functions for cases without custom visuals.
+// Each takes a small set of parameters and returns a diagram-frame.
+// ============================================================
+
+// ---- dgm-stat: a single dominant statistic with sub-line and caption ----
+#let dgm-stat(big, sub, micro: none, caption: none) = diagram-frame(
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    content((4.7, 2.5), text(font: ("Instrument Serif",), size: 32pt, fill: rgb("#D4A843"), big))
+    content((4.7, 1.6), text(font: ("DM Sans",), size: 8pt, tracking: 1.4pt, fill: rgb("#F5F0E8"), upper(sub)))
+    if micro != none {
+      content((4.7, 0.6), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#8A9AB5"), micro))
+    }
+  })
+)
+
+// ---- dgm-timeline: events along a horizontal line ----
+// events is an array of (label, sublabel?) pairs; emphasis is the index to highlight (or none).
+#let dgm-timeline(events, emphasis: none, caption: none) = diagram-frame(
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    line((0.5, 1.4), (9, 1.4), stroke: 0.6pt + rgb("#5A6A85"))
+    let n = events.len()
+    let x0 = 0.9
+    let x1 = 8.6
+    let step = if n > 1 { (x1 - x0) / (n - 1) } else { 0 }
+    for i in range(n) {
+      let x = x0 + i * step
+      let lab = events.at(i).at(0)
+      let sub = if events.at(i).len() > 1 { events.at(i).at(1) } else { none }
+      let is-emph = emphasis != none and emphasis == i
+      let r = if is-emph { 0.20 } else { 0.14 }
+      let c = if is-emph { rgb("#E8C96A") } else { rgb("#D4A843") }
+      circle((x, 1.4), radius: r, fill: c, stroke: none)
+      content((x, 2.0), text(font: ("DM Sans",), size: 6.4pt, weight: if is-emph { "bold" } else { "regular" }, fill: rgb("#F5F0E8"), lab), anchor: "south")
+      if sub != none {
+        content((x, 1.0), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), sub), anchor: "north")
+      }
+    }
+  })
+)
+
+// ---- dgm-cascade: stacked layered "swiss-cheese" failures ----
+// layers is an array of label strings (top to bottom).  Holes punched at
+// a consistent x and connected by a vertical dashed line — labels live on
+// the left of each slab and are not crossed by the arrow.
+#let dgm-cascade(layers, outcome: none, caption: none) = diagram-frame(
+  height: 46mm,
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    let n = layers.len()
+    let y-top = 3.4
+    let y-bot = 1.2
+    let step = if n > 1 { (y-top - y-bot) / (n - 1) } else { 0 }
+    // Hole column lives on the far right so labels (on the left) are never crossed.
+    let hole-x = 7.6
+    for i in range(n) {
+      let y = y-top - i * step
+      rect((0.6, y - 0.18), (8.6, y + 0.18), fill: rgb("#1F2A44"), stroke: 0.4pt + rgb("#5A6A85"))
+      circle((hole-x, y), radius: 0.11, fill: rgb("#0A1628"), stroke: none)
+      content((0.8, y), text(font: ("DM Sans",), size: 6.5pt, fill: rgb("#D4A843"), layers.at(i)), anchor: "west")
+    }
+    // dashed line piercing the column of holes
+    line((hole-x, y-top + 0.4), (hole-x, y-bot - 0.4),
+      stroke: (paint: rgb("#E8C96A"), thickness: 0.9pt, dash: "dashed"))
+    if outcome != none {
+      content((4.6, 0.5), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#F5F0E8"), outcome), anchor: "north")
+    }
+  })
+)
+
+// ---- dgm-compare: two columns, before vs after / left vs right ----
+//
+// Value font size shrinks for longer strings so columns never collide.
+#let dgm-compare(left-label, left-value, right-label, right-value, framing: none, caption: none) = {
+  let max-len = calc.max(str(left-value).len(), str(right-value).len())
+  let val-size = if max-len <= 5 { 22pt }
+    else if max-len <= 9 { 18pt }
+    else if max-len <= 13 { 14pt }
+    else { 11pt }
+  diagram-frame(
+    caption: caption,
+    cetz.canvas({
+      import cetz.draw: *
+      // dividing line
+      line((4.7, 0.6), (4.7, 3.4), stroke: 0.4pt + rgb("#5A6A85"))
+      // left column
+      content((2.2, 3.2), text(font: ("DM Sans",), size: 6.5pt, tracking: 1pt, fill: rgb("#2CC4B3"), upper(left-label)), anchor: "south")
+      content((2.2, 2.3), text(font: ("Instrument Serif",), size: val-size, fill: rgb("#2CC4B3"), left-value))
+      // right column
+      content((7.2, 3.2), text(font: ("DM Sans",), size: 6.5pt, tracking: 1pt, fill: rgb("#D4A843"), upper(right-label)), anchor: "south")
+      content((7.2, 2.3), text(font: ("Instrument Serif",), size: val-size, fill: rgb("#D4A843"), right-value))
+      if framing != none {
+        content((4.7, 0.4), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#F5F0E8"), framing), anchor: "north")
+      }
+    })
+  )
+}
+
+// ---- dgm-pair-bars: two contrasting bars showing relative magnitude ----
+#let dgm-pair-bars(small-label, small-h, big-label, big-h, framing: none, caption: none) = diagram-frame(
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    line((0.5, 0.8), (9, 0.8), stroke: 0.4pt + rgb("#5A6A85"))
+    let max-h = 2.4
+    let s = small-h * max-h
+    let b = big-h * max-h
+    rect((1.5, 0.8), (2.5, 0.8 + s), fill: rgb("#2CC4B3"), stroke: none)
+    content((2.0, 0.6), text(font: ("DM Sans",), size: 6.5pt, fill: rgb("#2CC4B3"), small-label), anchor: "north")
+    rect((6.0, 0.8), (7.0, 0.8 + b), fill: rgb("#D4A843"), stroke: none)
+    content((6.5, 0.6), text(font: ("DM Sans",), size: 6.5pt, weight: "bold", fill: rgb("#D4A843"), big-label), anchor: "north")
+    if framing != none {
+      content((4.7, 3.3), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#F5F0E8"), framing))
+    }
+  })
+)
+
+// ---- dgm-ring: central node with N satellites (used for hub-and-spoke patterns) ----
+#let dgm-ring(center-label, satellites, framing: none, caption: none) = diagram-frame(
+  height: 44mm,
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    let cx0 = 4.7
+    let cy0 = 2.7
+    circle((cx0, cy0), radius: 0.55, fill: rgb("#D4A843"), stroke: none)
+    content((cx0, cy0), text(font: ("DM Sans",), size: 6pt, weight: "bold", fill: rgb("#0A1628"), center-label))
+    let n = satellites.len()
+    // Place satellites symmetrically left/right with first one at top.
+    for i in range(n) {
+      let theta = -90deg + i * 360deg / n
+      let cx = cx0 + 1.9 * calc.cos(theta)
+      let cy = cy0 + 1.0 * calc.sin(theta)
+      circle((cx, cy), radius: 0.16, fill: rgb("#2CC4B3"), stroke: none)
+      line((cx0, cy0), (cx, cy), stroke: 0.4pt + rgb("#5A6A85"))
+      content((cx + 0.40 * calc.cos(theta), cy + 0.40 * calc.sin(theta)),
+        text(font: ("DM Sans",), size: 5.5pt, fill: rgb("#F5F0E8"), satellites.at(i)))
+    }
+    if framing != none {
+      content((cx0, 0.5), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#F5F0E8"), framing), anchor: "north")
+    }
+  })
+)
+
+// ---- dgm-flow: linear chain of nodes connected by arrows ----
+#let dgm-flow(stages, framing: none, caption: none) = diagram-frame(
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    let n = stages.len()
+    let x0 = 1.0
+    let x1 = 8.4
+    let step = if n > 1 { (x1 - x0) / (n - 1) } else { 0 }
+    for i in range(n) {
+      let x = x0 + i * step
+      circle((x, 2.0), radius: 0.45, fill: rgb("#2CC4B3"), stroke: none)
+      content((x, 2.0), text(font: ("DM Sans",), size: 5.5pt, weight: "bold", fill: rgb("#0A1628"), stages.at(i)))
+      if i < n - 1 {
+        line((x + 0.5, 2.0), (x0 + (i + 1) * step - 0.5, 2.0), stroke: 0.8pt + rgb("#D4A843"))
+      }
+    }
+    if framing != none {
+      content((4.7, 0.5), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#F5F0E8"), framing), anchor: "north")
+    }
+  })
+)
+
+// ---- dgm-curve: simple line chart with optional milestone marker ----
+//
+// Framing text is placed at the top of the canvas (above the curve range)
+// so it never collides with the plotted line.
+#let dgm-curve(points, milestone: none, milestone-label: none, y-label: none, x-label: none, framing: none, caption: none) = diagram-frame(
+  height: 44mm,
+  caption: caption,
+  cetz.canvas({
+    import cetz.draw: *
+    // axes (left + bottom)
+    line((0.5, 0.6), (9, 0.6), stroke: 0.4pt + rgb("#5A6A85"))
+    line((0.5, 0.6), (0.5, 3.0), stroke: 0.4pt + rgb("#5A6A85"))
+    if y-label != none {
+      content((0.3, 3.0), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), tracking: 1pt, upper(y-label)), anchor: "south-east")
+    }
+    if x-label != none {
+      content((9, 0.4), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), tracking: 1pt, upper(x-label)), anchor: "north-east")
+    }
+    line(..points, stroke: 1.2pt + rgb("#D4A843"))
+    if milestone != none {
+      line((milestone, 0.6), (milestone, 2.9), stroke: (paint: rgb("#2CC4B3"), thickness: 0.5pt, dash: "dashed"))
+      if milestone-label != none {
+        content((milestone, 3.0), text(font: ("DM Sans",), size: 6pt, fill: rgb("#2CC4B3"), milestone-label), anchor: "south")
+      }
+    }
+    if framing != none {
+      content((4.7, 3.5), text(font: ("Instrument Serif",), size: 9pt, style: "italic", fill: rgb("#E8C96A"), framing), anchor: "south")
+    }
   })
 )

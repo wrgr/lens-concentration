@@ -13,8 +13,15 @@
   year: "2003 – 2012",
   domains-list: ("gov", "tech"),
   modes-code: "GN",
-  impact: "Major banks fined > \$10B; underlying benchmark for ~\$350T in financial contracts was manipulable; replaced by SOFR",
-  diagram: none,
+  impact: "Major banks fined more than $10B; the benchmark underlying ~$350T of contracts was manipulable; replaced by SOFR",
+  diagram: dgm.dgm-compare(
+    "LIBOR",
+    "estimates",
+    "SOFR",
+    "transactions",
+    framing: "the reform changed the unit of measurement, not the regulator",
+    caption: "LIBOR — an instrument whose design invited the gaming",
+  ),
   body: [
     The London Interbank Offered Rate (LIBOR) — the benchmark interest
     rate referenced in approximately three hundred fifty trillion
@@ -77,8 +84,13 @@
   year: "2009 – 2015",
   domains-list: ("education", "gov"),
   modes-code: "GN",
-  impact: "≈ 180 educators implicated; 35 indicted; 11 convicted under RICO statute; foundational case in U.S. education measurement gaming",
-  diagram: none,
+  impact: "~180 educators implicated; 35 indicted; 11 convicted under RICO statute; foundational U.S. education measurement-gaming case",
+  diagram: dgm.dgm-stat(
+    "180",
+    "educators implicated · dozens of schools",
+    micro: "the institution being measured operated the instrument that measured it",
+    caption: "Atlanta Public Schools — measurement gaming under high-stakes testing",
+  ),
   body: [
     Investigation by Georgia Bureau of Investigation, the state's
     Office of Student Achievement, and the Atlanta Journal-Constitution
@@ -140,8 +152,12 @@
   year: "1992 – 2008",
   domains-list: ("gov", "tech"),
   modes-code: "GKN",
-  impact: "≈ \$65B Ponzi scheme — the largest in history; SEC repeatedly investigated and cleared Madoff; foundational case in financial-regulator capability",
-  diagram: none,
+  impact: "~$65B Ponzi scheme — the largest in history; SEC repeatedly investigated and cleared Madoff; foundational regulator-capability case",
+  diagram: dgm.dgm-timeline(
+    (("Markopolos memo", "2000"), ("re-submitted", "2005"), ("SEC clears", "2006"), ("collapse", "2008")),
+    emphasis: 1,
+    caption: "Madoff — the regulator received the evidence; the regulator lacked the staff to evaluate it",
+  ),
   body: [
     Harry Markopolos delivered to the SEC in 2005 a memorandum titled
     "The World's Largest Hedge Fund is a Fraud," outlining in detail
@@ -203,8 +219,13 @@
   year: "1996 – 2001",
   domains-list: ("defense", "gov"),
   modes-code: "GK",
-  impact: "2,977 killed; 9/11 Commission found systemic intelligence-sharing failures across the U.S. government",
-  diagram: none,
+  impact: "2,977 killed; the 9/11 Commission found systemic intelligence-sharing failures across the U.S. government",
+  diagram: dgm.dgm-ring(
+    "?",
+    ("CIA", "FBI", "NSA", "INS", "State", "FAA"),
+    framing: "no institution responsible for the integration as a deliverable",
+    caption: "9/11 — cross-agency information sharing as missing architecture",
+  ),
   body: [
     The 9/11 Commission's final report identified specific intelligence
     failures across the FBI, CIA, NSA, and other agencies. The CIA had
@@ -270,8 +291,16 @@
   year: "1999 – 2004",
   domains-list: ("healthcare",),
   modes-code: "GD",
-  impact: "Estimated 88,000–139,000 excess heart attacks attributable to Vioxx in the U.S.; Merck withdrew the drug in 2004; \$4.85B settlement",
-  diagram: none,
+  impact: "Tens of thousands of excess cardiovascular events estimated; Merck withdrew Vioxx in 2004; ~$4.85B settlement",
+  diagram: dgm.dgm-curve(
+    ((1.0, 1.0), (2.0, 1.4), (3.5, 1.8), (5.0, 2.4), (6.5, 3.0), (7.5, 0.8)),
+    milestone: 7.5,
+    milestone-label: "withdrawn",
+    x-label: "1999 → 2004",
+    y-label: "exposure",
+    framing: "signal in internal data; aggregation absent for years",
+    caption: "Vioxx — post-market surveillance as a missing deliverable",
+  ),
   body: [
     Merck's COX-2 inhibitor Vioxx (rofecoxib) was approved by the FDA
     in 1999 for arthritis pain and prescribed widely. Subsequent

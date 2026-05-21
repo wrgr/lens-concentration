@@ -14,7 +14,14 @@
   domains-list: ("energy", "industrial"),
   modes-code: "NTKG",
   impact: "15 killed, 180 injured at BP's Texas City refinery; CSB found systemic safety-culture decay",
-  diagram: none,
+  diagram: dgm.dgm-compare(
+    "personal\nsafety",
+    "best in class",
+    "process\nsafety",
+    "drifting",
+    framing: "the measurement system was blind in the dimension that killed people",
+    caption: "Texas City — the wrong measurement, reported as a win",
+  ),
   body: [
     A startup overfilled a distillation tower because the operators were
     working from instruments that had been malfunctioning for years.
@@ -75,8 +82,13 @@
   year: "2002",
   domains-list: ("energy",),
   modes-code: "NKG",
-  impact: "Football-sized cavity discovered in reactor pressure vessel head; near-miss for second TMI; \$600M recovery",
-  diagram: none,
+  impact: "Football-sized cavity discovered in the reactor pressure-vessel head; near-miss; ~$600M recovery and extended outage",
+  diagram: dgm.dgm-stat(
+    "1/4″",
+    "of stainless cladding remained",
+    micro: "between a 6-inch corrosion cavity and reactor coolant at 2,200 psi",
+    caption: "Davis-Besse — the post-TMI near-miss",
+  ),
   body: [
     During refueling at the Davis-Besse nuclear plant in Ohio, workers
     discovered a cavity in the reactor pressure vessel head about the
@@ -135,8 +147,12 @@
   year: "2005 – 2009",
   domains-list: ("healthcare",),
   modes-code: "GNK",
-  impact: "Estimated 400–1,200 \"excess\" deaths at Stafford Hospital; the Francis Inquiry produced 290 recommendations and restructured UK patient-safety governance",
-  diagram: none,
+  impact: "Excess deaths at Stafford Hospital documented across years; the Francis Inquiry produced 290 recommendations and restructured UK patient-safety governance",
+  diagram: dgm.dgm-cascade(
+    ("ward staff", "hospital management", "trust board", "regional oversight", "Department of Health"),
+    outcome: "each layer was acting on the metric, not the patient",
+    caption: "Mid Staffs — measurement and reality diverged across years",
+  ),
   body: [
     Patients at Stafford Hospital in England were left in their own
     excrement, denied food and water, given the wrong medication or
@@ -198,8 +214,12 @@
   year: "2006",
   domains-list: ("energy", "industrial"),
   modes-code: "NTK",
-  impact: "12 killed in a West Virginia coal-mine explosion; emergency-response failures compounded the initial event",
-  diagram: none,
+  impact: "12 killed in a West Virginia coal-mine explosion; emergency-response failures compounded the initial event; MINER Act of 2006",
+  diagram: dgm.dgm-cascade(
+    ("seal design", "emergency plan", "self-rescue training", "communications"),
+    outcome: "marginal in each dimension; combined inadequacy in the one minute that mattered",
+    caption: "Sago — cumulative inadequacy across multiple defenses",
+  ),
   body: [
     A lightning strike ignited methane in a sealed area of the Sago
     Mine in West Virginia. The seal failed, the explosion propagated,
@@ -259,8 +279,15 @@
   year: "2010",
   domains-list: ("energy", "industrial"),
   modes-code: "NGK",
-  impact: "29 killed in West Virginia coal mine; MSHA found systematic falsification of safety records by Massey Energy management",
-  diagram: none,
+  impact: "29 killed in West Virginia coal mine; MSHA found systematic falsification of safety records; first CEO criminally convicted on mine-safety charges",
+  diagram: dgm.dgm-compare(
+    "inspector\nlog",
+    "compliant",
+    "internal\nlog",
+    "actual",
+    framing: "two sets of records, sustained for years as institutional practice",
+    caption: "Upper Big Branch — measurement engineered against the regulator",
+  ),
   body: [
     Coal dust and methane ignited at Massey Energy's Upper Big Branch
     Mine, killing twenty-nine miners — the worst U.S. mine disaster in
@@ -322,8 +349,13 @@
   year: "2011",
   domains-list: ("energy",),
   modes-code: "NGK",
-  impact: "Three reactor meltdowns following Tohoku earthquake and tsunami; ≈ 160,000 people displaced; \$200B+ cleanup",
-  diagram: none,
+  impact: "Three reactor meltdowns following the Tōhoku earthquake and tsunami; ~160,000 people displaced; cleanup projected at $200B+",
+  diagram: dgm.dgm-stat(
+    "3 of 6",
+    "reactors melted down",
+    micro: "tsunami exceeded design basis the institutional evidence had already questioned",
+    caption: "Fukushima Daiichi — \"made in Japan,\" per the Diet inquiry",
+  ),
   body: [
     The Tōhoku earthquake of March 11, 2011, and the tsunami that
     followed, exceeded the design-basis assumptions of TEPCO's Fukushima
@@ -385,8 +417,12 @@
   year: "2003",
   domains-list: ("energy",),
   modes-code: "HK",
-  impact: "55 million people without power across eight U.S. states and Ontario; \$6B+ economic loss",
-  diagram: none,
+  impact: "55 million people without power across eight U.S. states and Ontario; $6B+ economic loss; FERC Order 693 followed",
+  diagram: dgm.dgm-timeline(
+    (("tree contact", "12:15"), ("line trips", "—"), ("alarm fails", "silent"), ("operator unaware", "1 hour"), ("cascade", "4:11")),
+    emphasis: 2,
+    caption: "Northeast Blackout — silent alarm failure absorbed the operator's awareness",
+  ),
   body: [
     A tree contact in Ohio sagged a 345 kV transmission line into a
     branch and tripped a single transmission asset. Under normal

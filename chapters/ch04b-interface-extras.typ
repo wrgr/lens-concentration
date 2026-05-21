@@ -13,8 +13,12 @@
   year: "1972",
   domains-list: ("aviation",),
   modes-code: "HT",
-  impact: "101 killed in the Everglades; entire flight crew fixated on a burned-out landing-gear indicator bulb while autopilot quietly disengaged",
-  diagram: none,
+  impact: "101 killed in the Everglades; the entire flight crew fixated on a landing-gear indicator bulb while the autopilot silently disengaged",
+  diagram: dgm.dgm-cascade(
+    ("captain attends to bulb", "first officer attends to bulb", "flight engineer attends to bulb", "altitude warning unattended"),
+    outcome: "no one on watch as the aircraft descended",
+    caption: "Eastern 401 — three crew, one task, no monitor",
+  ),
   body: [
     Approaching Miami at night, the crew of Eastern 401 noticed that
     the landing-gear indicator light had not illuminated. All three
@@ -69,12 +73,16 @@
 
 #case(
   number: 64,
-  title: "Therac Lessons — Boeing 737 Rudder Hardovers",
+  title: "Boeing 737 Rudder Hardovers",
   year: "1991, 1994",
   domains-list: ("aviation",),
   modes-code: "HD",
   impact: "157 killed across United 585 (Colorado Springs, 1991) and USAir 427 (Pittsburgh, 1994); rudder Power Control Unit malfunctions traced to a thermal-shock condition",
-  diagram: none,
+  diagram: dgm.dgm-flow(
+    ("cold soak", "valve jam", "rudder reverse", "no recovery"),
+    framing: "an unrecoverable operational state hidden inside a working aircraft",
+    caption: "737 rudder — the failure mode certification did not anticipate",
+  ),
   body: [
     Two Boeing 737s crashed unrecoverably from level flight after the
     rudder Power Control Unit reversed: pilot inputs produced rudder
@@ -136,8 +144,13 @@
   year: "2024",
   domains-list: ("tech",),
   modes-code: "DKG",
-  impact: "8.5 million Windows machines globally crashed; \$5B+ economic disruption; airlines, hospitals, broadcasters, banks affected simultaneously",
-  diagram: none,
+  impact: "8.5 million Windows machines crashed; airlines, hospitals, broadcasters, and banks affected simultaneously; largest IT outage on record",
+  diagram: dgm.dgm-stat(
+    "8.5M",
+    "machines · single configuration file",
+    micro: "content treated differently from code in the deployment pipeline",
+    caption: "CrowdStrike — the cost of a category boundary in a deployment",
+  ),
   body: [
     On July 19, 2024, CrowdStrike pushed a content update to its Falcon
     endpoint sensor that contained a logic error in a small
@@ -200,8 +213,15 @@
   year: "1983",
   domains-list: ("defense",),
   modes-code: "HT",
-  impact: "Soviet early-warning system reported five incoming U.S. ICBMs; Lt. Col. Petrov correctly assessed the signal as false; nuclear retaliation avoided",
-  diagram: none,
+  impact: "Soviet early-warning system reported five incoming U.S. ICBMs; Lt. Col. Petrov correctly assessed the signal as false; retaliation averted",
+  diagram: dgm.dgm-compare(
+    "system",
+    "5 ICBMs",
+    "operator",
+    "false alarm",
+    framing: "the human in the loop was the recoverability of an automation failure",
+    caption: "Petrov, 1983 — Human-AI Teaming at the highest possible stakes",
+  ),
   body: [
     On the night of September 26, 1983, the Soviet Oko early-warning
     satellite system reported the launch of five U.S. Minuteman ICBMs
@@ -267,7 +287,11 @@
   domains-list: ("tech",),
   modes-code: "HG",
   impact: "1.9 million UK customers locked out of accounts; £330M+ in compensation and remediation; CEO resigned",
-  diagram: none,
+  diagram: dgm.dgm-cascade(
+    ("technical readiness signal", "test coverage", "executive review", "go/no-go authority"),
+    outcome: "the schedule overrode the technical layer that should have halted",
+    caption: "TSB — readiness signal arrived attenuated at the decision",
+  ),
   body: [
     TSB Bank attempted to migrate five million customer accounts from
     its former parent company Lloyds' systems to a new platform built

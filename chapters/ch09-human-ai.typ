@@ -23,8 +23,13 @@
   year: "2016 – present",
   domains-list: ("autonomous",),
   modes-code: "TNGH",
-  impact: "≥ 50 fatalities documented in NHTSA's Standing General Order data through 2024; first U.S. case of Level-2 automation causing fatal injury",
-  diagram: none,
+  impact: "Dozens of fatalities documented in NHTSA's Standing General Order data; first U.S. cases of Level-2 automation contributing to fatal injury",
+  diagram: dgm.dgm-stat(
+    "L2",
+    "driver retained · attention not engineered",
+    micro: "the system works well most of the time — and then it does not",
+    caption: "Tesla Autopilot — Level-2 monitoring as a sustainable role",
+  ),
   body: [
     Tesla's Autopilot and Full Self-Driving Beta operate as
     Level-2 driver-assistance systems: the driver remains legally and
@@ -89,8 +94,12 @@
   year: "2023",
   domains-list: ("autonomous",),
   modes-code: "GDH",
-  impact: "GM Cruise robotaxi struck a pedestrian and then dragged her 20 feet; California suspended Cruise's permit; the program was substantially shut down",
-  diagram: none,
+  impact: "GM Cruise robotaxi struck a pedestrian and then dragged her ~20 feet; California suspended Cruise's permit; the program was substantially shut down",
+  diagram: dgm.dgm-timeline(
+    (("collision", "—"), ("drag", "20 ft"), ("partial video", "to regulator"), ("permit suspended", "CPUC"), ("shutdown", "GM")),
+    emphasis: 2,
+    caption: "Cruise — partial disclosure converted incident into company-ending event",
+  ),
   body: [
     A pedestrian was struck by another vehicle in San Francisco and
     thrown into the path of a Cruise robotaxi. The robotaxi struck
@@ -151,8 +160,15 @@
   year: "2016 – present",
   domains-list: ("gov", "tech"),
   modes-code: "GHD",
-  impact: "Risk-assessment algorithm used by U.S. courts; ProPublica analysis identified racial bias in error rates; foundational case in criminal-justice algorithmic accountability",
-  diagram: none,
+  impact: "Risk-assessment algorithm used by U.S. courts; ProPublica analysis identified racial bias in error rates; foundational AI-governance case in criminal justice",
+  diagram: dgm.dgm-pair-bars(
+    "white",
+    0.45,
+    "Black",
+    0.85,
+    framing: "false-positive rate by group — construct definition as governance",
+    caption: "COMPAS — accuracy is not the same question as distribution of errors",
+  ),
   body: [
     The COMPAS risk-assessment algorithm, used in some U.S. jurisdictions
     to inform decisions about bail, sentencing, and parole, was
@@ -214,7 +230,14 @@
   domains-list: ("healthcare", "tech"),
   modes-code: "HKD",
   impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines",
-  diagram: none,
+  diagram: dgm.dgm-compare(
+    "validation",
+    "AUC 0.9+",
+    "deployment",
+    "drops",
+    framing: "the clearance dataset and the deployment population diverge",
+    caption: "Radiology AI — clearance is not deployment",
+  ),
   body: [
     Multiple FDA-cleared radiology AI tools — for chest X-ray
     classification, mammography, CT triage — have been documented in
@@ -276,8 +299,15 @@
   year: "2023 – present",
   domains-list: ("healthcare", "tech"),
   modes-code: "HD",
-  impact: "Multiple documented cases of clinicians using LLMs to produce hallucinated citations, fabricated dosages, and fictitious clinical guidelines in patient-facing materials",
-  diagram: none,
+  impact: "Documented cases of clinicians using LLMs that produce hallucinated citations, fabricated dosages, and fictitious clinical guidelines",
+  diagram: dgm.dgm-compare(
+    "tone",
+    "identical",
+    "content",
+    "accurate / not",
+    framing: "the interface does not distinguish; the clinician must",
+    caption: "LLMs in clinical use — fluency without warranty",
+  ),
   body: [
     Since the public release of ChatGPT in late 2022, the peer-reviewed
     and clinical literatures have documented a recurring pattern:
@@ -338,8 +368,15 @@
   year: "2011 – present",
   domains-list: ("gov", "tech"),
   modes-code: "GHD",
-  impact: "Predictive-policing tools deployed by hundreds of U.S. police departments; multiple cities have abandoned them after equity analyses; foundational AI-governance case",
-  diagram: none,
+  impact: "Predictive-policing tools deployed by hundreds of U.S. police departments; several cities have abandoned them after equity analyses",
+  diagram: dgm.dgm-compare(
+    "training data",
+    "past arrests",
+    "ground truth",
+    "past crime",
+    framing: "the system learns enforcement patterns, not crime patterns",
+    caption: "Predictive policing — construct gap at law-enforcement scale",
+  ),
   body: [
     PredPol and similar predictive-policing tools use historical crime
     data to forecast where future crime is likely to occur, directing
@@ -401,8 +438,13 @@
   year: "2020 – present",
   domains-list: ("healthcare", "tech"),
   modes-code: "T",
-  impact: "Substantially solved the 50-year protein-structure prediction problem; 200M+ predicted structures publicly released; foundational positive AI case",
-  diagram: none,
+  impact: "Substantially solved a 50-year protein-structure prediction problem; 200M+ structures publicly released; foundational positive AI case",
+  diagram: dgm.dgm-stat(
+    "200M",
+    "predicted structures · publicly released",
+    micro: "agreed benchmark, training data, verifiable output, open release",
+    caption: "AlphaFold — the conditions for beneficial AI deployment",
+  ),
   body: [
     DeepMind's AlphaFold (2020) and AlphaFold 2 (2021) substantially
     solved the half-century-old protein-structure prediction problem
@@ -465,8 +507,15 @@
   year: "2021 – present",
   domains-list: ("tech",),
   modes-code: "TH",
-  impact: "GitHub Copilot, Cursor, and similar tools used by tens of millions of developers; productivity gains documented; security and correctness implications still being characterized",
-  diagram: none,
+  impact: "Tens of millions of developers using GitHub Copilot, Cursor, and peers; productivity gains documented; security and correctness implications still being characterized",
+  diagram: dgm.dgm-compare(
+    "short term",
+    "more output",
+    "long term",
+    "?",
+    framing: "more capable, or more dependent?",
+    caption: "AI-augmented coding — the capability question is open",
+  ),
   body: [
     The widespread availability of AI-augmented coding tools — GitHub
     Copilot, Cursor, Codeium, and others — represents the largest
@@ -528,8 +577,13 @@
   year: "ongoing",
   domains-list: ("education", "healthcare", "defense"),
   modes-code: "TKNGHD",
-  impact: "Open: the case that has not yet been written. The discipline that this casebook documents is the discipline that practitioners now in training must build.",
-  diagram: none,
+  impact: "Open: the case that has not yet been written. The discipline that this casebook documents is the one practitioners now in training must build.",
+  diagram: dgm.dgm-stat(
+    "100th",
+    "case · open",
+    micro: "what the practitioners reading this volume do next is what fills it in",
+    caption: "The case that has not yet been written",
+  ),
   body: [
     The ninety-nine cases that precede this one have an answer. The
     investigations are complete; the failures are diagnosed; the

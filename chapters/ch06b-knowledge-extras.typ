@@ -13,8 +13,15 @@
   year: "1972 – present",
   domains-list: ("aviation",),
   modes-code: "K",
-  impact: "Foundational case in U.S. aerospace for the cost of losing the institutional capability to build a system",
-  diagram: none,
+  impact: "Foundational U.S. aerospace case for the cost of losing the institutional capability to build a system",
+  diagram: dgm.dgm-compare(
+    "1969",
+    "built it",
+    "2005",
+    "couldn't rebuild",
+    framing: "drawings persist; tacit institutional knowledge walks out with retirees",
+    caption: "Saturn V — documentation is not capability",
+  ),
   body: [
     By the early 2000s, when NASA was working on the Constellation
     program, it had become apparent that the institutional capability
@@ -74,8 +81,12 @@
   year: "2019 – 2024",
   domains-list: ("aviation",),
   modes-code: "KD",
-  impact: "Multiple delayed crewed missions; first crewed flight (2024) stranded astronauts at the ISS for months; foundational case for capability erosion at a legacy contractor",
-  diagram: none,
+  impact: "Multiple delays; the 2024 crewed flight left two NASA astronauts at the ISS for months; contemporary case for capability erosion at a legacy contractor",
+  diagram: dgm.dgm-cascade(
+    ("software (2019)", "valves (2021)", "propulsion (2024)", "integration test"),
+    outcome: "erosion visible across multiple engineering disciplines",
+    caption: "Starliner — capability decay at a legacy contractor",
+  ),
   body: [
     Boeing's Starliner spacecraft, intended as the second commercial
     crew vehicle alongside SpaceX's Crew Dragon, suffered software
@@ -135,8 +146,13 @@
   year: "1996",
   domains-list: ("aviation",),
   modes-code: "DKH",
-  impact: "Maiden flight of Ariane 5 destroyed itself 37 seconds after launch; \$500M+ in payloads lost; software reused from Ariane 4 without re-verification",
-  diagram: none,
+  impact: "Maiden flight destroyed itself 37 seconds after launch; ~$500M payloads lost; reused Ariane 4 code never re-verified for Ariane 5",
+  diagram: dgm.dgm-stat(
+    "37s",
+    "after launch · 16-bit integer overflow",
+    micro: "code path disabled by the previous vehicle's profile; re-enabled by the new one",
+    caption: "Ariane 5 — the fallacy of risk-free code reuse",
+  ),
   body: [
     The inertial reference system software on Ariane 5 Flight 501
     inherited code from Ariane 4. On Ariane 4, a particular variable —
@@ -194,8 +210,13 @@
   year: "1940",
   domains-list: ("industrial",),
   modes-code: "DK",
-  impact: "Bridge collapsed in 40 mph wind four months after opening; foundational case in aeroelasticity and structural engineering pedagogy",
-  diagram: none,
+  impact: "Bridge collapsed in ~40 mph wind four months after opening; foundational case in aeroelasticity and structural-engineering pedagogy",
+  diagram: dgm.dgm-stat(
+    "4 mo.",
+    "from opening to collapse",
+    micro: "aeroelastic flutter — a failure mode the discipline had not yet learned to recognize",
+    caption: "Tacoma Narrows — a discipline-level learning event",
+  ),
   body: [
     The Tacoma Narrows Bridge across Puget Sound collapsed on November
     7, 1940, in a wind no stronger than the bridge had been designed
@@ -257,8 +278,13 @@
   year: "2015 – 2016",
   domains-list: ("energy",),
   modes-code: "GNK",
-  impact: "Largest methane leak in U.S. history; 8,000+ households evacuated; ≈ 100,000 tons of methane released",
-  diagram: none,
+  impact: "Largest methane leak in U.S. history; ~8,000 households evacuated; ~100,000 tons of methane released",
+  diagram: dgm.dgm-stat(
+    "100K t",
+    "methane released over ~4 months",
+    micro: "legacy wells aging past the inspection regime designed for them",
+    caption: "Aliso Canyon — infrastructure outpacing its oversight",
+  ),
   body: [
     A well at SoCalGas's Aliso Canyon underground storage facility
     ruptured in October 2015 and could not be capped for nearly four

@@ -13,8 +13,13 @@
   year: "1982",
   domains-list: ("healthcare", "industrial"),
   modes-code: "GN",
-  impact: "Foundational case in U.S. corporate crisis management; produced tamper-evident packaging regime and modern recall practice",
-  diagram: none,
+  impact: "Foundational U.S. corporate crisis-management case; produced tamper-evident packaging regulation and modern recall practice",
+  diagram: dgm.dgm-stat(
+    "31M",
+    "bottles recalled · ~$100M cost",
+    micro: "the pre-committed institutional credo became operational under stress",
+    caption: "Tylenol — values pre-committed in writing, executed under crisis",
+  ),
   body: [
     Seven people in the Chicago area died after taking Tylenol capsules
     that had been laced with potassium cyanide. Johnson & Johnson did
@@ -80,8 +85,12 @@
   year: "1976 – present",
   domains-list: ("aviation",),
   modes-code: "TKN",
-  impact: "NASA-administered confidential reporting system; > 2M reports received; foundational architecture for evidence-driven aviation safety",
-  diagram: none,
+  impact: "NASA-administered confidential reporting system; more than 2M reports received; foundational architecture for evidence-driven aviation safety",
+  diagram: dgm.dgm-flow(
+    ("operator", "confidential\nreport", "ASRS DB", "analyst", "FAA action"),
+    framing: "non-punitive use is the load-bearing institutional commitment",
+    caption: "ASRS — paired technical artifact and protected reporter",
+  ),
   body: [
     The Aviation Safety Reporting System, administered by NASA on
     behalf of the FAA since 1976, accepts confidential reports from
@@ -144,7 +153,14 @@
   domains-list: ("healthcare",),
   modes-code: "GN",
   impact: "Foundational UK case in clinical outcomes transparency; produced specialty-level performance reporting in UK cardiac surgery",
-  diagram: none,
+  diagram: dgm.dgm-compare(
+    "before",
+    "private",
+    "after",
+    "published",
+    framing: "outcomes data ceased to be the private property of clinicians",
+    caption: "Bristol — outcomes transparency as paired intervention",
+  ),
   body: [
     The Bristol Royal Infirmary was found, through whistleblowing and
     subsequent inquiry, to have substantially worse outcomes in
@@ -209,8 +225,12 @@
   year: "1980s – present",
   domains-list: ("aviation",),
   modes-code: "TN",
-  impact: "Among the safest carriers in commercial aviation despite operating in challenging tropical conditions and across long-haul routes",
-  diagram: none,
+  impact: "Sustained safety record over decades despite challenging operating conditions; among the most safety-invested carriers in commercial aviation",
+  diagram: dgm.dgm-flow(
+    ("training", "simulator", "fleet age", "reporting", "transparency"),
+    framing: "sustained capability investment ahead of regulatory minimums",
+    caption: "Singapore Airlines — capability investment as competitive differentiator",
+  ),
   body: [
     Singapore Airlines invested in safety capability across decades in
     a way that distinguishes it from carriers operating under

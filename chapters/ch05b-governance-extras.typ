@@ -13,8 +13,13 @@
   year: "1999 – 2015",
   domains-list: ("tech", "gov"),
   modes-code: "GHK",
-  impact: "≈ 900 sub-postmasters wrongfully prosecuted; many imprisoned; four documented suicides; \"the most widespread miscarriage of justice in UK history\"",
-  diagram: none,
+  impact: "~900 sub-postmasters wrongfully prosecuted; many imprisoned; documented suicides; described as the most widespread miscarriage of justice in UK history",
+  diagram: dgm.dgm-stat(
+    "900",
+    "wrongful prosecutions across 20+ years",
+    micro: "\"the computer said so\" was an institutionally sufficient basis for conviction",
+    caption: "Horizon — institutional deference to an algorithm known to be flawed",
+  ),
   body: [
     The Post Office's Horizon IT system, developed by Fujitsu and
     deployed in 1999, produced systematic accounting errors in sub-
@@ -78,8 +83,15 @@
   year: "2003 – 2018",
   domains-list: ("healthcare", "tech"),
   modes-code: "GD",
-  impact: "\$9B valuation collapsed; thousands of patients given unreliable blood-test results; founder convicted of fraud",
-  diagram: none,
+  impact: "$9B valuation collapsed; thousands of patients given unreliable results; founder convicted on multiple counts of wire fraud",
+  diagram: dgm.dgm-compare(
+    "claim",
+    "Edison",
+    "reality",
+    "Siemens",
+    framing: "the device did not work; the regulatory seam between FDA and CLIA hid that fact",
+    caption: "Theranos — fraud exploiting a regulatory seam between FDA and CLIA",
+  ),
   body: [
     Theranos claimed to have developed a blood-testing platform that
     could perform hundreds of laboratory tests from a finger-stick
@@ -141,8 +153,13 @@
   year: "2011 – 2016",
   domains-list: ("tech", "gov"),
   modes-code: "GN",
-  impact: "≈ 3.5 million unauthorized accounts opened; \$3B in DOJ/SEC penalties; CEO resigned; the Federal Reserve capped the bank's assets",
-  diagram: none,
+  impact: "~3.5 million unauthorized accounts opened; ~$3B in penalties; CEO resigned; the Federal Reserve capped the bank's assets",
+  diagram: dgm.dgm-stat(
+    "3.5M",
+    "unauthorized accounts",
+    micro: "the incentive architecture made misconduct rational for the front line",
+    caption: "Wells Fargo — the measurement system produced the behavior the institution then prosecuted",
+  ),
   body: [
     Wells Fargo employees opened approximately three and a half million
     unauthorized customer accounts to meet aggressive sales quotas.
@@ -204,8 +221,15 @@
   year: "2015",
   domains-list: ("industrial", "gov"),
   modes-code: "DG",
-  impact: "≈ 11 million vehicles equipped with defeat-device software; \$33B+ in penalties and remediation; multiple criminal convictions",
-  diagram: none,
+  impact: "~11 million vehicles equipped with defeat-device software; $33B+ in penalties and remediation; multiple criminal convictions",
+  diagram: dgm.dgm-compare(
+    "test bench",
+    "compliant",
+    "real world",
+    "up to 40×",
+    framing: "the protocol operated in a regime the vehicle could detect",
+    caption: "Dieselgate — engineered evasion of a measurement system",
+  ),
   body: [
     Volkswagen engineers designed software for diesel emissions-control
     systems that detected when the vehicle was on a regulatory test
@@ -266,8 +290,13 @@
   year: "2014 – 2018",
   domains-list: ("tech",),
   modes-code: "G",
-  impact: "≈ 87 million Facebook profiles harvested without informed consent; FTC \$5B penalty; founding case for modern data-governance reform",
-  diagram: none,
+  impact: "~87 million Facebook profiles harvested without informed consent; FTC $5B penalty; foundational data-governance reform",
+  diagram: dgm.dgm-stat(
+    "87M",
+    "profiles · 270K quiz-takers",
+    micro: "the Graph API contract assumed benevolent developer intent",
+    caption: "Cambridge Analytica — design assumption as load-bearing capability",
+  ),
   body: [
     A researcher at Cambridge University built a personality-quiz app
     that, by virtue of Facebook's then-permissive Graph API, collected
@@ -326,8 +355,12 @@
   year: "2017",
   domains-list: ("tech", "gov"),
   modes-code: "GK",
-  impact: "147 million Americans' personal data exposed; CEO resigned; \$700M settlement; founding case in U.S. data-breach regulation",
-  diagram: none,
+  impact: "147 million Americans' personal data exposed; CEO resigned; ~$700M settlement; foundational U.S. data-breach case",
+  diagram: dgm.dgm-cascade(
+    ("patch unapplied (2 months)", "asset inventory incomplete", "monitoring inadequate", "response delayed (75 days)"),
+    outcome: "no single failure caused the breach; the combination did",
+    caption: "Equifax — cumulative inadequacy in routine cybersecurity work",
+  ),
   body: [
     Equifax's online dispute portal was running a version of Apache
     Struts with a known critical vulnerability. A patch had been
@@ -388,8 +421,15 @@
   year: "1981",
   domains-list: ("industrial",),
   modes-code: "DG",
-  impact: "114 killed and 216 injured in Kansas City when suspended walkways collapsed; foundational engineering-ethics case",
-  diagram: none,
+  impact: "114 killed and 216 injured in Kansas City when suspended walkways collapsed; foundational U.S. engineering-ethics case",
+  diagram: dgm.dgm-compare(
+    "as designed",
+    "1× load",
+    "as built",
+    "2× load",
+    framing: "a small construction change, accepted without re-analysis",
+    caption: "Hyatt Regency — connection detail changed in the field",
+  ),
   body: [
     During a tea dance in the atrium of the Kansas City Hyatt Regency,
     two suspended walkways collapsed, killing one hundred fourteen and
@@ -452,7 +492,11 @@
   domains-list: ("industrial",),
   modes-code: "DGN",
   impact: "6 killed in Miami when a pedestrian bridge collapsed during construction; NTSB found systemic design and review failures",
-  diagram: none,
+  diagram: dgm.dgm-timeline(
+    (("design errors", "—"), ("cracks observed", "days before"), ("\"monitor\"", "classified"), ("collapse", "—")),
+    emphasis: 2,
+    caption: "FIU — observed cracks classified as not safety-critical",
+  ),
   body: [
     The pedestrian bridge over Southwest Eighth Street at Florida
     International University collapsed during construction, killing
@@ -514,8 +558,13 @@
   year: "2018",
   domains-list: ("energy",),
   modes-code: "GNK",
-  impact: "85 killed in Paradise, California; deadliest wildfire in U.S. history in a century; PG&E pleaded guilty to 84 counts of involuntary manslaughter",
-  diagram: none,
+  impact: "85 killed in Paradise, California; deadliest U.S. wildfire in a century; PG&E pleaded guilty to 84 counts of involuntary manslaughter",
+  diagram: dgm.dgm-stat(
+    "85",
+    "killed in Paradise · single transmission hook",
+    micro: "infrastructure designed for one climate, operating in another",
+    caption: "Camp Fire — capability mismatch under changed conditions",
+  ),
   body: [
     A worn hook on a PG&E transmission tower failed and started a
     wildfire under high-wind, drought conditions. The fire moved into
@@ -574,8 +623,12 @@
   year: "2021",
   domains-list: ("energy",),
   modes-code: "GKN",
-  impact: "≈ 246 deaths attributed to the February 2021 winter storm; \$130B+ in damages; foundational case in U.S. grid resilience",
-  diagram: none,
+  impact: "~246 deaths attributed to the February 2021 winter storm; ~$130B in damages; foundational U.S. grid-resilience case",
+  diagram: dgm.dgm-timeline(
+    (("1989 warning", "—"), ("2011", "—"), ("2014", "—"), ("2021 freeze", "246 dead")),
+    emphasis: 3,
+    caption: "Texas grid — four warnings across three decades, no winterization mandated",
+  ),
   body: [
     A winter storm in February 2021 brought temperatures across Texas
     well below the design assumptions of ERCOT-operated generation and

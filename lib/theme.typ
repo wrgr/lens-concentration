@@ -69,7 +69,7 @@
   energy:     ("Energy",             gold),
   education:  ("Education at Scale", teal),
   gov:        ("Government",         navy-mid),
-  industry:   ("Industrial",         gold),
+  industrial: ("Industrial",         gold),
   tech:       ("Technology",         teal),
   autonomous: ("Autonomous Systems", teal),
 )

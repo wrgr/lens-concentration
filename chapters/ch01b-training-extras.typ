@@ -14,22 +14,28 @@
   domains-list: ("aviation",),
   modes-code: "T",
   impact: "50 killed near Buffalo; precipitated the FAA's 1,500-hour rule and the Pilot Records Database",
-  diagram: none,
+  diagram: dgm.dgm-stat(
+    "50",
+    "killed, Clarence Center NY",
+    micro: "the data was in the system; the data flow was not",
+    caption: "Colgan 3407 — and the reform that followed",
+  ),
   body: [
     On approach to Buffalo-Niagara International, the captain of Colgan
-    Air 3407 reacted to a stall warning the wrong way — pulling back on
-    the yoke instead of pushing forward — and the Bombardier Q400
-    crashed into a house in Clarence Center, killing all forty-nine on
-    board and one person on the ground. The NTSB found the captain had
-    failed multiple check rides earlier in his career, and that the
-    first officer had been ill, exhausted, and was paid roughly
-    sixteen thousand dollars a year. The airline knew. The hiring
+    Air 3407 responded to the activation of the aircraft's stick shaker
+    by pulling back on the control column rather than lowering the nose.
+    The Bombardier Q400 stalled and crashed into a house in Clarence
+    Center, killing all forty-nine people on board and one person on the
+    ground. The NTSB found the captain had a documented history of
+    training failures earlier in his career, and that the first officer
+    had been ill, fatigued, and was paid roughly sixteen thousand dollars
+    a year. The airline knew about the training history. The hiring
     pipeline knew. The regulator did not.
 
-    Family members of the victims organized the most effective
-    aviation-safety lobbying effort in a generation. The result was the
-    Airline Safety and Federal Aviation Administration Extension Act
-    of 2010, which raised the minimum experience requirement for
+    Family members of the victims organized one of the most effective
+    aviation-safety lobbying efforts in a generation. The result was the
+    Airline Safety and Federal Aviation Administration Extension Act of
+    2010, which raised the minimum experience requirement for Part 121
     first officers from 250 to 1,500 hours and established the Pilot
     Records Database. The 1,500-hour rule remains controversial; the
     PRD has fundamentally restructured how pilot-history information
@@ -38,37 +44,38 @@
     The capability gap was visible to everyone *except* the system that
     licensed the pilots.
   ],
-  quote: [The accident was the result of the pilots' failure to monitor airspeed and to follow established procedures.],
-  quote-source: "NTSB Aircraft Accident Report AAR-10/01, 2010",
+  quote: [The captain's inappropriate response to the activation of the stick shaker led to an aerodynamic stall from which the airplane did not recover.],
+  quote-source: "NTSB Aircraft Accident Report AAR-10/01, Probable Cause, 2010",
   sources-list: (
-    [NTSB Aircraft Accident Report AAR-10/01 (2010)],
-    [Airline Safety and FAA Extension Act of 2010, Public Law 111-216],
-    [_NYT_ coverage of the Families of Continental Flight 3407 advocacy],
+    [NTSB Aircraft Accident Report NTSB/AAR-10/01 (2010)],
+    [Airline Safety and Federal Aviation Administration Extension Act of 2010, Public Law 111-216],
+    [GAO-12-203, _Pilot Records Database Implementation_ (2012)],
   ),
   le-insight: [
     Colgan is the canonical case for the gap between the information an
     institution holds about its operators and the information that
     reaches the decisions about whether those operators should be in
     that seat. The data was already in the system — multiple failed
-    check rides. The data flow that would have made that data
-    actionable did not exist.
+    training events. The data flow that would have made that data
+    actionable at the hiring decision did not exist.
   ],
   lens-approach: [
     LENS uses Colgan in LEN 2 as a case for evidence-system design (the
     PRD as a designed information flow) and in LEN 9 as a case for
     advocacy-driven institutional change. Studio projects examine how
-    families of victims became the load-bearing element of the reform.
+    families of victims became the load-bearing element of a reform
+    the industry had resisted for years.
   ],
   literature-items: (
-    [NTSB AAR-10/01],
-    [Bies & Erickson (2014) on the Colgan advocacy campaign],
-    [FAA Pilot Records Database documentation],
+    [NTSB AAR-10/01 (2010)],
+    [Families of Continental Flight 3407, public-facing campaign archive],
+    [FAA Pilot Records Database technical documentation],
   ),
   reflection-list: (
-    [What information about operators in your domain exists in the system but does not flow to the decisions that depend on it?],
-    [Design the data-flow architecture that would make a Colgan-equivalent visible before the accident.],
+    [What information about operators in your domain exists somewhere in the system but does not flow to the decisions that depend on it?],
+    [Design the data-flow architecture that would make a Colgan-equivalent visible *before* the accident rather than after.],
   ),
-  courses: ("LEN 2", "LEN 5"),
+  courses: ("LEN 2", "LEN 5", "LEN 9"),
 )
 
 #case(
@@ -78,34 +85,42 @@
   domains-list: ("aviation",),
   modes-code: "TH",
   impact: "3 killed, 187 injured; Boeing 777 struck the seawall short of SFO runway 28L",
-  diagram: none,
+  diagram: dgm.dgm-compare(
+    "expected",
+    "137 kt",
+    "actual",
+    "103 kt",
+    framing: "the autothrottle was not maintaining the speed the crew believed it was",
+    caption: "Asiana 214 — approach airspeed at the seawall",
+  ),
   body: [
-    On a clear afternoon at San Francisco, the crew of Asiana 214 allowed
-    the aircraft to slow below approach speed without recognizing the
-    autothrottle had not engaged in the mode they expected. The Boeing
-    777 struck the seawall short of the runway. The NTSB found
-    inadequate monitoring of the airspeed and a confusion about the
-    behavior of the autothrottle in the FLCH SPD mode. The captain
-    later said he believed the autothrottle would maintain speed; in
-    that mode, it does not.
+    On a clear afternoon at San Francisco, the crew of Asiana 214
+    allowed the aircraft to slow well below approach speed without
+    recognizing that the autothrottle had not engaged in the mode they
+    expected. The Boeing 777 struck the seawall short of runway 28L,
+    killing three and seriously injuring forty-nine. The NTSB found
+    inadequate monitoring of airspeed and confusion about the behavior
+    of the autothrottle in the FLCH SPD mode. The captain later said he
+    believed the autothrottle would maintain speed; in that mode, it
+    does not.
 
-    The NTSB cited Boeing's design of the autothrottle as a contributing
-    factor — "the complexities of the autothrottle and autopilot
-    flight director systems that led to mode confusion" — but the
-    proximate cause was the crew's failure to monitor a parameter the
-    automation was not maintaining. Asiana's training had not emphasized
-    manual flying skills or the failure modes of automation in the
-    specific configurations the aircraft was actually flown.
+    NTSB identified Boeing's design of the autothrottle and autopilot
+    flight-director systems as a contributing factor — the documentation,
+    training, and interface together did not make the system's actual
+    state salient to the crew. The proximate cause was the crew's
+    failure to monitor airspeed; the system-level cause was that the
+    automation could silently leave the crew responsible for a parameter
+    they believed it was holding.
 
-    Asiana 214 is the highest-profile recent case of automation surprise
-    on a wide-body Western airliner.
+    Asiana 214 is the most prominent recent case of automation surprise
+    on a Western wide-body airliner.
   ],
-  quote: [The complexities of the auto-flight system contributed to the crew's failure to monitor and control airspeed.],
-  quote-source: "NTSB Aircraft Accident Report AAR-14/01, 2014",
+  quote: [Complexities of the autothrottle and autopilot flight director systems contributed to the accident.],
+  quote-source: "NTSB Aircraft Accident Report AAR-14/01, contributing factors, 2014",
   sources-list: (
-    [NTSB Aircraft Accident Report AAR-14/01 (2014)],
-    [Boeing 777 Flight Crew Operating Manual, autothrottle sections],
-    [Casner, Geven, Recker & Schooler (2014) on automation surprises],
+    [NTSB Aircraft Accident Report NTSB/AAR-14/01 (2014)],
+    [Boeing 777 Flight Crew Operating Manual, autothrottle and autoflight sections],
+    [Casner, Geven & Williams (2013), "The Effectiveness of Airline Pilot Training for Abnormal Events," _Human Factors_],
   ),
   le-insight: [
     Asiana 214 is the aviation case for the LENS Human-AI Teaming
@@ -139,8 +154,15 @@
   year: "1941 – 1943",
   domains-list: ("defense",),
   modes-code: "TKG",
-  impact: "Roughly 70% of U.S. submarine torpedoes failed in the first two years of the Pacific War; an estimated 4,000 lives and a year of combat effectiveness lost",
-  diagram: none,
+  impact: "Persistent torpedo failures across the first ~20 months of the Pacific War; resolved only after fleet-level testing forced acknowledgment of the defects",
+  diagram: dgm.dgm-cascade(
+    ("magnetic exploder fails",
+     "contact pin bends on direct hit",
+     "torpedo runs deep",
+     "BuOrd: \"the weapon is fine\""),
+    outcome: "submariners forced to use a weapon their bureau refused to repair",
+    caption: "Mark 14 — multiple defects, single institutional refusal",
+  ),
   body: [
     The U.S. Navy entered World War II with the Mark 14 torpedo, which
     had been so expensive to test in peacetime that the Bureau of
@@ -163,12 +185,12 @@
     history for what happens when the institution responsible for a
     weapon refuses to believe the operators using it.
   ],
-  quote: [The Bureau of Ordnance had certified the torpedo and would not entertain criticism from the field.],
-  quote-source: "Buford Rowland & William Boyd, U.S. Navy Bureau of Ordnance in World War II, 1953",
+  quote: [The Bureau certified the weapon; field reports of failure were treated as evidence of operator error.],
+  quote-source: "Paraphrasing Blair, Silent Victory, 1975",
   sources-list: (
-    [Rowland & Boyd (1953), _U.S. Navy Bureau of Ordnance in World War II_],
-    [Blair, _Silent Victory: The U.S. Submarine War Against Japan_ (1975)],
-    [Naval Historical Center, Mark 14 torpedo files],
+    [Blair, C. (1975), _Silent Victory: The U.S. Submarine War Against Japan_],
+    [Rowland, B. & Boyd, W. (1953), _U.S. Navy Bureau of Ordnance in World War II_],
+    [Naval History and Heritage Command, Mark 14 torpedo files],
   ),
   le-insight: [
     The Mark 14 is the canonical Navy case for the institutional refusal
@@ -203,7 +225,12 @@
   domains-list: ("defense",),
   modes-code: "TK",
   impact: "8 servicemembers killed in Iran; mission to rescue 52 American hostages aborted; catalyst for the founding of U.S. Special Operations Command",
-  diagram: none,
+  diagram: dgm.dgm-ring(
+    "Eagle\nClaw",
+    ("Army", "Navy", "Marines", "Air Force", "CIA"),
+    framing: "five organizations · no joint command · no shared training",
+    caption: "the absence of an institution that could own the mission",
+  ),
   body: [
     The mission to rescue fifty-two American hostages from the U.S.
     embassy in Tehran was aborted at a desert refueling point in eastern
@@ -227,8 +254,8 @@
     Operations Command was established. Both reforms trace directly to
     Eagle Claw.
   ],
-  quote: [The mission was constructed ad hoc, and the absence of joint training was its binding constraint.],
-  quote-source: "Holloway Commission Report, 1980",
+  quote: [The mission was ad hoc — assembled from units, equipment, and command relationships that had never operated together.],
+  quote-source: "Paraphrasing the Holloway Special Operations Review Group, 1980",
   sources-list: (
     [Holloway Special Operations Review Group, _Rescue Mission Report_ (1980)],
     [Goldwater-Nichols Department of Defense Reorganization Act of 1986],
@@ -268,7 +295,14 @@
   domains-list: ("aviation",),
   modes-code: "TH",
   impact: "121 killed; cabin failed to pressurize after a maintenance setting was left on \"manual\" and the crew misread the warning",
-  diagram: none,
+  diagram: dgm.dgm-compare(
+    "actual",
+    "cabin alt.",
+    "interpreted",
+    "T/O config.",
+    framing: "one horn, two meanings · the training had drilled only one",
+    caption: "Helios 522 — a cue carrying two meanings without differentiation",
+  ),
   body: [
     The crew of Helios 522 ignored a configuration warning horn shortly
     after takeoff from Larnaca because the same horn is used on the
@@ -328,7 +362,11 @@
   domains-list: ("aviation",),
   modes-code: "HT",
   impact: "70 killed; Boeing 757 crashed into the Pacific after maintenance tape was left over static ports",
-  diagram: none,
+  diagram: dgm.dgm-cascade(
+    ("altimeter", "airspeed indicator", "GPWS / altitude alert", "Mach warning"),
+    outcome: "every instrument fed by the same blocked sensor",
+    caption: "AeroPerú 603 — redundancy that was not redundancy",
+  ),
   body: [
     Maintenance staff in Lima taped over the Boeing 757's static ports
     while polishing the fuselage and failed to remove the tape before
@@ -389,7 +427,11 @@
   domains-list: ("aviation",),
   modes-code: "TK",
   impact: "3 killed; Boeing 767 cargo flight crashed in Texas after the first officer mistakenly activated go-around mode",
-  diagram: none,
+  diagram: dgm.dgm-timeline(
+    (("Colgan 3407", "2009"), ("PRD created", "2010"), ("partial coverage", "2010–24"), ("Atlas 3591", "2019"), ("PRD mandatory", "2024")),
+    emphasis: 3,
+    caption: "the cost of partial implementation between Colgan and the PRD's final coverage",
+  ),
   body: [
     The first officer of Atlas Air 3591, an Amazon Prime Air cargo
     flight, inadvertently activated the go-around mode in turbulence,
@@ -409,8 +451,8 @@
 
     The PRD was made mandatory for all Part 121 carriers in 2024.
   ],
-  quote: [The accident is a continuation of the same pattern that produced Colgan Air 3407.],
-  quote-source: "NTSB Member testimony, 2020",
+  quote: [Atlas Air did not have access to portions of the first officer's training record that would have informed its hiring decision.],
+  quote-source: "Paraphrasing NTSB Aircraft Accident Report AAR-20/02, 2020",
   sources-list: (
     [NTSB Aircraft Accident Report AAR-20/02 (2020)],
     [FAA Pilot Records Improvement Act of 1996; updates 2010, 2024],
@@ -449,7 +491,14 @@
   domains-list: ("aviation",),
   modes-code: "TH",
   impact: "43 killed in Taiwan; crew shut down the only working engine after the other failed",
-  diagram: none,
+  diagram: dgm.dgm-compare(
+    "right",
+    "auto-feathered",
+    "left",
+    "shut down by crew",
+    framing: "the working engine; misidentified in ~15 seconds under stress",
+    caption: "TransAsia 235 — the same wrong-engine pattern as Kegworth (Case 30)",
+  ),
   body: [
     Forty-three seconds after takeoff from Taipei Songshan, the ATR
     72's right engine auto-feathered following a sensor malfunction.

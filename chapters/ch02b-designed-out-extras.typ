@@ -13,8 +13,13 @@
   year: "1971 – 1978",
   domains-list: ("industrial",),
   modes-code: "DG",
-  impact: "27–180 fatalities attributed to rear-impact fuel-tank fires; foundational case in engineering ethics",
-  diagram: none,
+  impact: "Fatalities attributed to rear-impact fuel-tank fires; foundational case in U.S. engineering ethics",
+  diagram: dgm.dgm-stat(
+    "\$11",
+    "per car · the fix Ford declined",
+    micro: "an internal cost-benefit calculated against projected wrongful-death settlements",
+    caption: "Pinto — the price of a designed-out safety capability",
+  ),
   body: [
     Ford engineers identified the Pinto's rear-impact fuel-tank
     vulnerability during pre-production testing. An eleven-dollar
@@ -37,8 +42,8 @@
     capability to survive a rear-impact crash. The reason it was
     designed out was institutional, not technical.
   ],
-  quote: [If a defect could be eliminated for less than two hundred dollars per vehicle, Ford would have implemented it. It would not have.],
-  quote-source: "Mother Jones, \"Pinto Madness,\" 1977",
+  quote: [Ford's internal calculation found the cost of the fix higher than the projected cost of the deaths it would prevent.],
+  quote-source: "Paraphrasing Dowie, Mother Jones, \"Pinto Madness,\" 1977",
   sources-list: (
     [Dowie, M. (1977), "Pinto Madness," _Mother Jones_],
     [Grimshaw v. Ford Motor Co. (1981), 119 Cal. App. 3d 757],
@@ -74,8 +79,13 @@
   year: "2008 – 2023",
   domains-list: ("industrial",),
   modes-code: "DG",
-  impact: "≥ 30 deaths, hundreds of injuries; largest automotive recall in history (100M+ inflators)",
-  diagram: none,
+  impact: "More than 30 deaths and hundreds of injuries linked to inflator ruptures; largest automotive recall in history",
+  diagram: dgm.dgm-stat(
+    "100M+",
+    "inflators recalled · 19 automakers",
+    micro: "the desiccant competitors used was the designed-out capability",
+    caption: "Takata — the largest automotive recall on record",
+  ),
   body: [
     Takata's ammonium-nitrate-based airbag inflators were designed
     without the desiccant that competitors used to stabilize the
@@ -136,8 +146,12 @@
   year: "2002 – 2014",
   domains-list: ("industrial",),
   modes-code: "DG",
-  impact: "124 deaths attributed; 30M vehicles recalled; $900M federal settlement; first U.S. corporation prosecuted under wire-fraud statute for safety violations",
-  diagram: none,
+  impact: "124 deaths attributed; ~30M vehicles recalled; $900M federal settlement; criminal prosecution under wire-fraud statute",
+  diagram: dgm.dgm-timeline(
+    (("defect identified", "2002"), ("\"fix\" approved", "2006"), ("same part number", "2006"), ("recall begins", "2014"), ("Valukas report", "2014")),
+    emphasis: 2,
+    caption: "GM ignition switch — eight years between the fix and the recall",
+  ),
   body: [
     A faulty ignition switch in several GM compact-car models could
     rotate from "run" to "accessory" while driving, disabling power
@@ -198,8 +212,12 @@
   year: "1999",
   domains-list: ("aviation",),
   modes-code: "DK",
-  impact: "$327M spacecraft lost on approach to Mars; software produced thrust output in pound-force while navigation expected newtons",
-  diagram: none,
+  impact: "$327M spacecraft lost on approach to Mars; ground software produced thrust output in pound-force while navigation expected newtons",
+  diagram: dgm.dgm-flow(
+    ("Lockheed\nlbf·s", "interface", "NASA\nN·s", "trajectory error", "burnup"),
+    framing: "no owner of the interface specification",
+    caption: "Mars Climate Orbiter — the unowned interface",
+  ),
   body: [
     Lockheed Martin's ground software produced thrust outputs in
     pound-force seconds. NASA's navigation system expected newton-
@@ -257,8 +275,13 @@
   year: "2012",
   domains-list: ("tech",),
   modes-code: "DK",
-  impact: "$440M loss in 45 minutes; firm forced to seek emergency capital injection and effectively went out of business",
-  diagram: none,
+  impact: "$440M loss in 45 minutes; firm forced to seek emergency capital and was effectively acquired within months",
+  diagram: dgm.dgm-stat(
+    "$440M",
+    "loss in 45 minutes · 7 of 8 servers updated",
+    micro: "dead code on the eighth server, repurposed flag, no deployment verification",
+    caption: "Knight Capital — the cost of an unverified deployment",
+  ),
   body: [
     On the morning of August 1, 2012, Knight Capital deployed a
     software update to seven of eight servers in its order routing
