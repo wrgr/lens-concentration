@@ -177,12 +177,16 @@
     consequences.
 
     It took eighteen months and the personal intervention of Admiral
-    Lockwood — who ordered fleet-level testing against cliff faces in
-    Hawaii — to confirm that the weapon was running ten feet too deep,
-    that its magnetic exploder failed routinely, and that even its
-    contact pin bent on direct hits. The fixes were straightforward
-    once the existence of the problem was acknowledged. The
-    institutional resistance was the binding constraint.
+    Charles Lockwood (COMSUBPAC) — who ordered fleet-level testing,
+    including a famous live-fire trial against the Kahoolawe cliff
+    face and, separately, the USS Tinosa's July 1943 attack on the
+    Tonan Maru in which fifteen hits produced a single detonation —
+    to confirm that the weapon was running ten feet too deep, that
+    its Mark 6 magnetic exploder failed routinely, and that even its
+    contact firing pin crushed on perpendicular impact. The fixes
+    were straightforward once the existence of the problem was
+    acknowledged. The institutional resistance was the binding
+    constraint.
 
     The Mark 14 is a foundational case in U.S. military capability
     history for what happens when the institution responsible for a
@@ -252,10 +256,12 @@
     assigned. The capability had to be improvised, and the improvisation
     failed.
 
-    Six years later the Goldwater-Nichols Act mandated joint command
-    structures across the U.S. military, and the United States Special
-    Operations Command was established. Both reforms trace directly to
-    Eagle Claw.
+    Eagle Claw produced the Holloway Commission, the standing of
+    JSOC (1980), and ultimately the Nunn-Cohen Amendment to the
+    1987 NDAA that established U.S. Special Operations Command
+    (USSOCOM, stood up 1987). The Goldwater-Nichols Act (1986) drew
+    on Eagle Claw alongside Beirut (1983) and Grenada (1983) in
+    mandating joint command structures across the U.S. military.
   ],
   quote: [The mission was ad hoc — assembled from units, equipment, and command relationships that had never operated together.],
   quote-source: "Paraphrasing the Holloway Special Operations Review Group, 1980",
@@ -392,9 +398,9 @@
     instrument failure.
   ],
   quote: [The crew received contradictory indications they could neither reconcile nor override.],
-  quote-source: "Paraphrasing the Peruvian DGTA / Comisión de Investigación de Accidentes report on AeroPerú 603, 1996",
+  quote-source: "Paraphrasing the Peruvian DGAC / Comisión Investigadora de Accidentes de Aviación report on AeroPerú 603, 1996",
   sources-list: (
-    [Peru Dirección General de Transporte Aéreo (DGTA), Comisión de Investigación de Accidentes, accident report on AeroPerú 603 (1996)],
+    [Peru Dirección General de Aeronáutica Civil (DGAC), Comisión Investigadora de Accidentes de Aviación, accident report on AeroPerú 603 (1996)],
     [Boeing 757 Flight Crew Training Manual],
     [Wiener, _Human Factors of Cockpit Automation_ (NASA, 1989)],
   ),
@@ -412,7 +418,7 @@
     "trust nothing" procedure design.
   ],
   literature-items: (
-    [Peru DGTA / CIA report on AeroPerú 603 (1996)],
+    [Peru DGAC / CIA report on AeroPerú 603 (1996)],
     [Leveson (2011), STAMP — common-cause failure],
     [Dismukes et al. (2007), _The Limits of Expertise_],
   ),
@@ -436,30 +442,36 @@
     caption: "the cost of partial implementation between Colgan and the PRD's final coverage",
   ),
   body: [
-    The first officer of Atlas Air 3591, an Amazon Prime Air cargo
-    flight, inadvertently activated the go-around mode in turbulence,
-    pitched the aircraft sharply nose-down in response to a perceived
-    stall, and crashed the Boeing 767 into Trinity Bay, Texas. The NTSB
-    found that the first officer had a history of training failures
-    spanning multiple carriers and had never disclosed those failures
-    on his Atlas Air application. The hiring process had not detected
-    them because the Pilot Records Database — established after Colgan
-    Air 3407 (Case 43) — did not yet cover all hiring carriers.
+    The first officer of Atlas Air 3591 — Conrad Aska, an Amazon Prime
+    Air cargo flight — inadvertently activated the TOGA (go-around)
+    mode during a turbulent descent, then, in a somatogravic illusion
+    that the aircraft was pitching up, pushed the nose down sharply
+    in response to a perceived stall, and crashed the Boeing 767
+    freighter into Trinity Bay, Texas. The NTSB found that the first
+    officer had a documented history of training failures spanning
+    multiple prior carriers and had not disclosed those failures on
+    his Atlas Air application. Atlas could not detect the omissions
+    because the Pilot Records Database — directed by Congress after
+    Colgan Air 3407 (Case 43) — was not yet operational at the time
+    of hiring; Atlas relied on the older PRIA records system, which
+    only required five years of training history.
 
     The case is the live, current version of the Colgan story. The
-    information existed. The data-flow system was incomplete. The first
-    officer had been advanced past failures that should have ended his
-    career. The reform that Colgan's families had won was not yet
-    complete enough to stop the next iteration.
+    information existed. The data-flow system had not yet been built.
+    The first officer had been advanced past failures that should have
+    ended his career. The reform that Colgan's families had won was
+    not yet complete enough to stop the next iteration.
 
-    The PRD was made mandatory for all Part 121 carriers in 2024.
+    The PRD final rule was published in 2021 and became effective for
+    Part 121 carriers in June 2022, with full historical coverage
+    phasing in through 2024.
   ],
   quote: [Atlas Air did not have access to portions of the first officer's training record that would have informed its hiring decision.],
   quote-source: "Paraphrasing NTSB Aircraft Accident Report AAR-20/02, 2020",
   sources-list: (
     [NTSB Aircraft Accident Report AAR-20/02 (2020)],
     [FAA Pilot Records Improvement Act of 1996; updates 2010, 2024],
-    [_NYT_ coverage of Atlas Air 3591],
+    [_New York Times_ coverage of Atlas Air 3591],
   ),
   le-insight: [
     Atlas Air 3591 is the iteration test of the Colgan reform. The
@@ -508,7 +520,7 @@
     The crew, working from memory under stress, shut down the *left*
     engine — the one still producing thrust — and committed the
     aircraft to a glide for which it was much too low. The aircraft
-    clipped a taxi on a bridge and crashed into the Keelung River.
+    clipped a taxicab on the Huandong Viaduct and crashed into the Keelung River.
 
     The Aviation Safety Council (Taiwan) found the captain had failed
     proficiency checks twice in the year before the accident and had

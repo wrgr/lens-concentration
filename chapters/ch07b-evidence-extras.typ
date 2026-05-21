@@ -324,7 +324,7 @@
     previously exist.
   ],
   quote: [The cardiovascular risk was visible in Merck's internal data years before the drug was withdrawn.],
-  quote-source: "Paraphrasing David Graham (FDA Office of Drug Safety), Senate Finance Committee testimony, 18 November 2004",
+  quote-source: "Paraphrasing David Graham (FDA Office of Drug Safety), Senate Finance Committee testimony, November 2004",
   sources-list: (
     [Graham, D. J. et al. (2005), _Lancet_, Vioxx cardiovascular risk analysis],
     [Senate Committee on Finance, hearings on Vioxx (2004)],

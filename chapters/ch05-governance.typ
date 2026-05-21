@@ -453,11 +453,14 @@
   body: [
     When COVID-19 cancelled exams, Ofqual used an algorithm to
     "standardize" teacher-predicted grades against schools' historical
-    performance. The result: thirty-nine percent of students received
-    downgraded scores. High-achieving students at underperforming state
-    schools were systematically penalized. Small-class private school
-    students kept their predicted grades. Children from poorer
-    backgrounds were twice as likely to be downgraded.
+    performance. The result: roughly thirty-nine percent of A-level
+    grades were adjusted downward from teacher assessment, with about
+    three percent dropped by two or more grades. High-achieving
+    students at historically low-performing state schools were
+    systematically capped by school-level priors. Small-cohort private
+    school students kept their predicted grades. The structural
+    pattern fell hardest on cohorts whose individual achievement was
+    masked by their school's historical average.
 
     The algorithm encoded existing structural inequality and amplified it
     at national scale. Schools that had historically underperformed —
@@ -515,7 +518,7 @@
   year: "2016 – 2020",
   domains-list: ("gov",),
   modes-code: "GDH",
-  impact: "470,000 wrongful debt notices; A$1.8B settlement; Royal Commission found \"venality, incompetence and cowardice\"",
+  impact: "Roughly 1 million debt notices issued; ~470,000 found wholly or partially unlawful for ~433,000 people; A$1.8B Prygodicz class-action settlement (debts zeroed/refunded plus interest); Royal Commission found \"venality, incompetence and cowardice\"",
   diagram: dgm.dgm-robodebt,
   body: [
     The Australian government automated welfare debt recovery using an
@@ -528,10 +531,12 @@
 
     Default judgments were issued without human review. Recipients had
     to prove they did *not* owe the debt — reversing the burden of
-    proof. The system caused widespread distress. Suicides were
-    attributed to it. The Royal Commission (2023) found the scheme was
-    sustained by "venality, incompetence and cowardice" and that
-    ministers had failed to ensure the program was lawful. The net cost
+    proof. The system caused widespread distress. The Royal
+    Commission heard evidence of deaths, including by suicide,
+    associated with the scheme. The Commission's 2023 final report
+    found the scheme was sustained by "venality, incompetence and
+    cowardice" and that ministers had failed to ensure the program
+    was lawful. The net cost
     to the government was A\$565 million — a scheme that was supposed
     to save money.
 

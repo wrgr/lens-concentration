@@ -95,15 +95,17 @@
     size of a football, eaten through six inches of carbon steel by
     boric acid leaking from a cracked nozzle. Only a quarter-inch of
     stainless-steel cladding remained between the cavity and reactor
-    coolant at 2,200 psi. A breach would have produced a loss-of-coolant
-    accident potentially worse than Three Mile Island.
+    coolant at 2,200 psi. A breach would have produced a
+    medium-break loss-of-coolant accident whose recovery margin was
+    significantly degraded.
 
     The boric acid leakage had been observable for years. Inspections
-    had been deferred. The plant operator had successfully lobbied the
-    NRC to delay a mandatory inspection that would have caught the
-    corrosion months earlier. The NRC's Office of Inspector General
-    found that the regulator had accepted the operator's economic
-    arguments over its own safety judgment.
+    had been deferred. FirstEnergy had requested — and received from
+    the NRC — a deferral of a mandatory inspection (NRC Bulletin
+    2001-01) to align with its February 2002 refueling outage. The
+    NRC's Office of Inspector General later found that the deferral
+    decision had inappropriately weighted economic over safety
+    arguments.
 
     Davis-Besse is the canonical post-TMI near-miss case in U.S.
     commercial nuclear power. INPO and the NRC restructured significant
@@ -368,15 +370,20 @@
     down. Hydrogen explosions distributed radioactive material across
     the surrounding region.
 
-    The independent investigation chaired by Kiyoshi Kurokawa identified
-    the accident as "made in Japan" — the product of regulatory
-    capture, deference to authority, and institutional reluctance to
-    challenge utility assumptions. Tsunami evidence going back to the
-    ninth century, available to anyone who looked, suggested the
-    design-basis assumptions were optimistic. TEPCO's internal
-    assessments had reached similar conclusions. The institutional path
-    by which those assessments would have changed the seawall did not
-    exist.
+    The independent investigation chaired by Kiyoshi Kurokawa
+    (NAIIC) identified the accident as "made in Japan" — the product
+    of regulatory capture, deference to authority, and institutional
+    reluctance to challenge utility assumptions. Tsunami evidence
+    going back to the ninth-century Jōgan event, discussed in
+    TEPCO's internal tsunami-assessment work c. 2008, suggested the
+    design-basis assumptions were optimistic. The institutional path
+    by which those assessments would have changed the seawall did
+    not exist. The other major investigations — the Hatamura
+    government commission (2012) and the IAEA Director General's
+    report (2015) — emphasized under-estimation of external hazards
+    and defense-in-depth design assumptions over the cultural
+    critique; the Kurokawa framing is the most-cited but not the
+    only consensus interpretation.
 
     Fukushima is the canonical case in the post-TMI era for the
     failure of regulator-utility dynamics under cultural pressure

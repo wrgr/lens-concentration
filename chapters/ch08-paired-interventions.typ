@@ -166,16 +166,20 @@
   year: "1979 – present",
   domains-list: ("energy",),
   modes-code: "TKG",
-  impact: "Zero significant radiation releases at U.S. commercial reactors since the founding of INPO; tracked safety indicators improved across the industry",
+  impact: "No INES-level event at U.S. commercial reactors post-INPO; sustained improvement in INPO/WANO performance indicators across the industry",
   diagram: dgm.dgm-inpo,
   body: [
     Three Mile Island did not produce a reactor accident at the next plant
-    over. It produced an institution. Within nine months of the partial
-    meltdown — before the official accident report was even finalized — the
-    U.S. commercial nuclear industry founded the Institute of Nuclear Power
-    Operations. The premise: an accident at any single plant would affect
-    every operator's license, and no single utility could engineer its
-    capability infrastructure alone.
+    over. It produced an institution. Within months of the Kemeny
+    Commission's October 1979 report — itself within nine months of the
+    partial meltdown — the U.S. commercial nuclear industry founded the
+    Institute of Nuclear Power Operations (incorporated December 1979).
+    The premise: an accident at any single plant would affect every
+    operator's license, and no single utility could engineer its
+    capability infrastructure alone. INPO was funded by the utilities
+    it evaluated and operated without statutory authority — a
+    structurally unusual configuration in which the operators and the
+    peer review they answered to were hostages of each other.
 
     INPO set training and certification standards for every operator and
     supervisor across every plant. The National Academy for Nuclear

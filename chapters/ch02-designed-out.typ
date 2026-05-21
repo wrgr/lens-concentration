@@ -185,8 +185,10 @@
     of continuous operation. After 100 hours the tracking gate was off by
     about a third of a second — far enough that an incoming Scud arrived
     where the radar was no longer looking. The missile that struck the
-    Dhahran barracks on February 25, 1991 was not intercepted because the
-    system was searching empty sky.
+    Dhahran barracks on February 25, 1991 — killing twenty-eight
+    soldiers of the 14th Quartermaster Detachment, a Pennsylvania
+    Army Reserve unit — was not intercepted because the system was
+    searching empty sky.
 
     Two weeks earlier, Israeli operators had identified the drift and warned
     the U.S. Army. Engineers had produced a software patch. The patch

@@ -153,17 +153,21 @@
   year: "1979",
   domains-list: ("energy",),
   modes-code: "TH",
-  impact: "Partial meltdown; most serious accident in U.S. commercial nuclear history; catalyst for industry-wide reform",
+  impact: "Partial meltdown of a Babcock & Wilcox PWR; minimal off-site dose; most serious accident in U.S. commercial nuclear history; catalyst for industry-wide reform",
   diagram: dgm.dgm-tmi,
   body: [
-    A relatively minor cooling-system malfunction at Unit 2 escalated to a
+    A relatively minor cooling-system malfunction at Unit 2 — a
+    Babcock & Wilcox pressurized-water reactor — escalated to a
     partial meltdown because the operators were under-skilled for the
     failure they actually faced. They had been trained for worst-case
-    scenarios; this was an ambiguous cascade, in which the most important
-    indicator — a stuck-open pilot-operated relief valve — was misread on
-    the control panel. The operators believed the valve was closed when it
-    was open. They reduced safety injection flow precisely when more was
-    needed.
+    scenarios; this was an ambiguous cascade, in which the most
+    important indicator — a stuck-open pilot-operated relief valve —
+    was misread on the control panel. The control-room light
+    indicated the *command* signal to close the valve, not its actual
+    position; the valve was stuck open while the panel reported
+    "closed." Misreading pressurizer level as indicating that the
+    system was going solid, the operators throttled high-pressure
+    injection precisely when more was needed.
 
     The post-incident consensus, captured by the Kemeny Commission, was
     that the human element of nuclear plant operations was a far more
@@ -217,7 +221,7 @@
 
 #case(
   number: 9,
-  title: "INDOPACOM Training Gap",
+  title: "Marine Corps Training in the INDOPACOM AOR",
   year: "ongoing",
   domains-list: ("defense",),
   modes-code: "TK",
@@ -285,7 +289,7 @@
   year: "ongoing",
   domains-list: ("defense",),
   modes-code: "TKD",
-  impact: "Fleet mission-capable rate ~51–55% vs. 90% target; Air Force short ~1,500 maintainers; $1.58T lifecycle sustainment cost",
+  impact: "Fleet mission-capable rate ~51–55% vs. 90% target; Air Force short ~1,000 F-35A maintainers (GAO-23-105341); ~$1.58T projected lifecycle sustainment cost (CAPE 2023)",
   diagram: dgm.dgm-f35,
   body: [
     The F-35 is the most expensive weapons program in history. GAO has
@@ -294,8 +298,8 @@
     are the binding constraint on the fleet's readiness. None of the
     three variants met desired mission-capable rates from FY2018 to
     FY2023. Average depot repair turnaround is 141 days against a 60- to
-    90-day target. The Air Force alone is short approximately fifteen
-    hundred trained maintainers.
+    90-day target. The Air Force alone is short approximately one
+    thousand trained F-35A maintainers (GAO-23-105341).
 
     Of sixty-eight essential maintenance tasks, the military cannot
     independently perform twenty-four — creating dependence on contractor
@@ -417,20 +421,23 @@
   year: "1991 – 2014",
   domains-list: ("defense",),
   modes-code: "THK",
-  impact: "17% of U.S. casualties in Desert Storm from friendly fire — eight times the historical baseline",
+  impact: "24% of U.S. KIA in Desert Storm from friendly fire (35 of 148, per the DoD friendly-fire report) — an order of magnitude above the historical baseline",
   diagram: dgm.dgm-fratricide,
   body: [
-    Friendly fire in Desert Storm killed eighty-one Americans and two
-    British in seventeen ground incidents, and twenty-six Americans and
-    twenty British in ten air-to-ground incidents. The seventeen-percent
-    rate was a dramatic increase from the historical two-percent baseline
-    documented by Shrader in 1982. In one incident two A-10s strafed
-    Marine vehicles, killing ten Marines, after a forward controller
-    cleared the strike without realizing the vehicles were friendly. In
-    Afghanistan, a B-52 GPS bomb killed three Special Forces when a
-    controller's GPS reset coordinates after a battery change; a B-1
-    bombed U.S. forces wearing identifying pods the bomber could not
-    detect.
+    Friendly fire in Desert Storm produced an unprecedented share of
+    coalition casualties: thirty-five of one hundred forty-eight U.S.
+    combat dead, and nine of the British dead — eight of the British
+    KIA from a single A-10 attack on Warrior infantry-fighting
+    vehicles. The rate was an order of magnitude above the historical
+    two-percent baseline documented by Shrader in 1982. In another
+    incident, A-10 fire on LAV-25 light-armored vehicles near Khafji
+    killed seven Marines after a forward controller cleared the
+    strike without realizing the vehicles were friendly. In
+    Afghanistan, a B-52 JDAM strike on a position near Qala-i-Jangi
+    killed three U.S. Special Forces after a controller's GPS reset
+    its coordinates following a battery change; in 2014 a B-1
+    targeting pod could not detect the infrared strobes worn by U.S.
+    SOF on the ground, and the resulting strike killed five.
 
     The Army identified leading causes as "chaos and confusion of warfare;
     inadequate situational awareness; inadequate employment of, and

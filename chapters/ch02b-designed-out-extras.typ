@@ -112,7 +112,7 @@
   sources-list: (
     [DOJ settlement with Takata Corporation (2017)],
     [NHTSA Takata Airbag Recall coordination documents],
-    [Reuters and _NYT_ investigative reporting on Takata internal documents],
+    [Reuters and _New York Times_ investigative reporting on Takata internal documents],
   ),
   le-insight: [
     Takata is the modern Pinto: an engineering choice to omit a

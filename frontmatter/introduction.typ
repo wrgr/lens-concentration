@@ -523,6 +523,58 @@
   it needs to be.
 ]
 
+#v(10pt)
+
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: teal, upper("the record at Johns Hopkins"))
+#v(4pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The argument above would be theoretical if Johns Hopkins did not
+  already have an operating record. It does. The School of Education
+  has run the Learning Design and Technology (LDT) program for two
+  decades, graduating cohorts who entered K–12, higher-education,
+  corporate, military, and clinical settings as designers and
+  evaluators of learning systems. The program's M.Ed. and EdD tracks
+  have always been organized around the learning-engineering question
+  — what does the system have to do in order to produce reliably
+  capable people? — even before that question had its current name.
+  LENS is the formalization of that orientation as a specialization,
+  not a departure from it.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  Parallel to the SoE record is the JHU/APL record. APL has spent the
+  past decade building, evaluating, and iterating on learning systems
+  attached to mission programs — CIRCUIT for IARPA/MICrONS (the
+  workforce arm of the consortium whose connectomics result appeared
+  in #emph[Nature] in 2025), TITAN for DARPA's AIE program, the
+  precision-medicine clinical-decision-trainer pilot reported in 2024,
+  and PISTA for DTRA's CBRNE decision-support work in 2025. Each of
+  those programs produced operational deliverables that the sponsoring
+  agency adopted. Each also produced graduates and an internal record
+  of what had to be true about the learning architecture for the
+  technical deliverable to land. That record is the empirical base for
+  MERIT and COMPASS and is what LENS draws on when it teaches
+  capability engineering from cases rather than from textbook rules.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The SoE-APL relationship is unusual and is the point. The School of
+  Education brings the learning-science discipline, the
+  educational-measurement discipline, and the equity-and-governance
+  discipline. APL brings the engineering, the sponsor partnerships,
+  and a quarter-century of operational systems in which capability
+  was the binding constraint. Neither institution would, alone, have
+  the standing to claim this discipline. Together they have the
+  empirical record, the academic infrastructure, and the institutional
+  permission to define it. The casebook is one product of that
+  relationship. It is not the only one, and it is not the last.
+]
+
 // -------------------------------------------------------------------
 #v(20pt)
 #text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VII  ·  pathways evidence  ·  LE pilots"))
@@ -799,14 +851,14 @@
   The one hundred cases in this volume are mapped to the LENS courses
   they most directly inform. The distribution is itself diagnostic.
   The strongly covered courses are the ones the existing case
-  literature most readily supports: bias and governance (LEN 7) and
-  knowledge transfer and organizational learning (LEN 8), each with
-  more than forty cases; capability analysis (LEN 5) and evidence
-  and measurement (LEN 4), each with roughly thirty; human-AI
-  teaming (LEN 2) and foundations (LEN 1), each around twenty.
-  These are not arbitrary numbers — they describe a dataset
-  saturated with cases of *what goes wrong when ethics, governance,
-  evidence, and institutional learning are not engineered.*
+  literature most readily supports: bias and governance (LEN 7, ~49
+  cases) and knowledge transfer and organizational learning (LEN 8,
+  ~45 cases); capability analysis (LEN 5, ~36 cases) and evidence
+  and measurement (LEN 4, ~31 cases); human-AI teaming (LEN 2, ~23
+  cases) and foundations (LEN 1, ~21 cases). These are not arbitrary
+  numbers — they describe a dataset saturated with cases of *what
+  goes wrong when ethics, governance, evidence, and institutional
+  learning are not engineered.*
 ]
 
 #v(6pt)
@@ -815,16 +867,16 @@
   Methods) is at ten cases — the dataset has the failure modes of
   algorithmic systems well-represented but the computational tools
   for capability instrumentation under-represented. The capstone
-  course (LEN 10) maps to sixteen cases — fewer than the number of
+  course (LEN 10) maps to nineteen cases — fewer than the number of
   Studio-style projects we expect each LENS cohort to undertake.
-  The newly-renumbered LEN 3 (Learning Engineering Systems) and
-  LEN 6 (Applied Problem Solving) required focused retagging to
-  reach defensible coverage; the work surfaced that the operational
-  systems-engineering content the program teaches in LEN 3 is
-  *under-represented in the published case literature* relative to
-  its centrality in the curriculum, and that LEN 6's stakeholder-
-  analysis and problem-framing work has not historically been
-  packaged as case material by other disciplines. These are
+  The newly-renumbered LEN 3 (Learning Engineering Systems, ~18
+  cases) and LEN 6 (Applied Problem Solving, ~13 cases) required
+  focused retagging to reach defensible coverage; the work surfaced
+  that the operational systems-engineering content the program
+  teaches in LEN 3 is *under-represented in the published case
+  literature* relative to its centrality in the curriculum, and that
+  LEN 6's stakeholder-analysis and problem-framing work has not
+  historically been packaged as case material by other disciplines. These are
   pedagogical gaps the LENS studio sequence (LEN 6 → LEN 10) is
   organized to close — not by adding more failure cases, but by
   having students produce the missing artifacts in real operational
