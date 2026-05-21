@@ -416,18 +416,22 @@
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  why LENS  ·  the four pillars"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  why LENS  ·  the five pillars"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   A specialization that promises to teach a discipline still being
   built must show that its credibility rests on more than its
-  ambitions. LENS stands on four pillars: *Mission Literacy*, *JHU
-  Ecosystem*, *Intersectional Expertise*, and *Capability Focus*.
-  Each is a real institutional asset, with a record. None of them,
-  alone, would carry the argument; the pillars are load-bearing
-  together.
+  ambitions. LENS stands on five pillars: *Mission Literacy*, *JHU
+  Ecosystem*, *Intersectional Expertise*, *Capability Focus*, and
+  the *Practice Flywheel*. Each is a real institutional asset, with
+  a record. None of them, alone, would carry the argument; the
+  pillars are load-bearing together.
 ]
+
+#v(10pt)
+
+#dgm.dgm-why-lens
 
 #v(10pt)
 
@@ -494,11 +498,25 @@
       system. The program produces it in graduates; the cases
       document where it was absent and where it was successfully
       engineered; the curriculum teaches how to recognize it,
-      instrument it, and reproduce it. The four pillars are arranged
-      so that the work compounds: mission literacy reveals what is
-      needed; the JHU ecosystem hosts the inquiry; intersectional
-      expertise designs the intervention; capability focus is the
-      discipline that keeps the loop closed on the outcome.
+      instrument it, and reproduce it. Capability focus is the
+      discipline that keeps every artifact, every measurement, and
+      every iteration accountable to what the system can actually
+      do when the work is done.
+    ]
+    v(8pt)
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Practice Flywheel"))
+    v(2pt)
+    text(font: sans, size: 9.5pt, fill: text-dark)[
+      The iterative method that animates the other four pillars:
+      *Identify → Activate → Prototype → Analyze → Transition*, the
+      cycle through which mission literacy turns into capability and
+      capability turns back into refined mission literacy. The
+      flywheel is what prevents the discipline from being a series of
+      unconnected projects and makes it instead a compounding
+      institutional asset — each cohort, each case, each pilot
+      shortening the implementation gap for the next. The casebook
+      itself is a flywheel artifact: the work of prior cohorts
+      produces the reference dataset for the next.
     ]
   }
 )
@@ -506,11 +524,16 @@
 #v(10pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The remainder of this section names the three operational anchors
-  that the four pillars are currently producing — the
-  CIRCUIT–MERIT–COMPASS lineage, the Practice Flywheel, and the
-  studio and applied-project model — as proof of work the pillars
-  have already delivered.
+  The pillars compound. Mission literacy reveals what is needed; the
+  JHU ecosystem hosts the inquiry; intersectional expertise designs
+  the intervention; capability focus keeps the loop closed on the
+  outcome; the practice flywheel turns each iteration into the
+  starting condition of the next. The remainder of this section
+  names the three operational anchors the pillars are currently
+  producing — the CIRCUIT–MERIT–COMPASS lineage, the Practice
+  Flywheel in action across LE pilots, and the studio and
+  applied-project model — as proof of work the pillars have already
+  delivered.
 ]
 
 #v(10pt)

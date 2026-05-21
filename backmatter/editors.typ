@@ -20,9 +20,9 @@
   School of Education and informed by operational practice — is
   embodied in the two editors. Each has spent a career working in
   one half of that pairing and a substantial portion of it in the
-  other. Each contributes to the four pillars on which LENS rests:
+  other. Each contributes to the five pillars on which LENS rests:
   Mission Literacy · JHU Ecosystem · Intersectional Expertise ·
-  Capability Focus.
+  Capability Focus · Practice Flywheel.
 ]
 
 #v(20pt)

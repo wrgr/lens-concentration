@@ -1055,3 +1055,85 @@
     content((cx, cy - 0.2), text(font: ("Instrument Serif",), size: 10pt, style: "italic", fill: rgb("#F5F0E8"), "Practice Flywheel"))
   })
 )
+
+// ---- dgm-why-lens: the five pillars as a horizontal chain --------
+// Mirrors the "Why LENS?" slide: five nodes on a line, with
+// Intersectional Expertise highlighted as the distinguishing pillar.
+#let dgm-why-lens = diagram-frame(
+  height: 64mm,
+  caption: "Why LENS — five pillars",
+  cetz.canvas({
+    import cetz.draw: *
+    let cy = 3.2
+    let node-r = 0.55
+    // five evenly spaced node centers along the canvas
+    let xs = (1.1, 3.0, 4.9, 6.8, 8.7)
+    // connecting line behind the nodes
+    line((xs.at(0), cy), (xs.at(-1), cy), stroke: 0.8pt + rgb("#2CC4B3").lighten(40%))
+    // node colors — intersectional expertise (index 2) is the highlighted distinguishing pillar
+    let ring-colors = (
+      rgb("#2CC4B3"),
+      rgb("#2CC4B3"),
+      rgb("#D26B43"),
+      rgb("#2CC4B3"),
+      rgb("#2CC4B3"),
+    )
+    // glyphs inside the rings — simple, monoline, navy
+    let glyphs = ("⌖", "▤", "◬", "◉", "↻")
+    // labels under each node (two lines each)
+    let labels-top = ("Mission", "JHU", "Intersectional", "Capability", "Practice")
+    let labels-bot = ("Literacy", "Ecosystem", "Expertise", "Focus", "Flywheel")
+
+    // draw rings + inner navy fill + glyph
+    for i in range(xs.len()) {
+      let x = xs.at(i)
+      // outer ring (thicker, colored)
+      circle((x, cy), radius: node-r, fill: navy, stroke: 2.2pt + ring-colors.at(i))
+      // glyph
+      content(
+        (x, cy),
+        text(
+          font: ("DM Sans",),
+          size: 16pt,
+          weight: "regular",
+          fill: rgb("#F5F0E8"),
+          glyphs.at(i),
+        ),
+      )
+      // label below — two lines
+      content(
+        (x, cy - node-r - 0.45),
+        text(
+          font: ("DM Sans",),
+          size: 7.5pt,
+          weight: "bold",
+          fill: rgb("#F5F0E8"),
+          labels-top.at(i),
+        ),
+        anchor: "north",
+      )
+      content(
+        (x, cy - node-r - 0.85),
+        text(
+          font: ("DM Sans",),
+          size: 7.5pt,
+          weight: "bold",
+          fill: rgb("#F5F0E8"),
+          labels-bot.at(i),
+        ),
+        anchor: "north",
+      )
+    }
+
+    // title across the top
+    content(
+      (4.9, 5.7),
+      text(
+        font: ("Instrument Serif",),
+        size: 18pt,
+        fill: rgb("#F5F0E8"),
+        "Why LENS?",
+      ),
+    )
+  })
+)
