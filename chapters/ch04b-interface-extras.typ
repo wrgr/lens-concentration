@@ -56,7 +56,7 @@
   ],
   lens-approach: [
     LENS uses Eastern 401 in LEN 5 to teach attention as a designable
-    parameter and in LEN 8 to introduce alert prioritization as a
+    parameter and in LEN 2 to introduce alert prioritization as a
     capability deliverable. The case anchors the CRM origin story.
   ],
   literature-items: (
@@ -68,7 +68,7 @@
     [Identify a low-priority task in your domain that could plausibly absorb all of an operator's attention. What is the life-critical task that would be displaced?],
     [Redesign the altitude warning chime of an L-1011 so that it cuts through a focused troubleshooting conversation.],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )
 
 #case(
@@ -135,7 +135,7 @@
     [Where in your domain might an unrecoverable failure mode exist that has not yet manifested? How would you find it?],
     [Design the certification-test specification that should have caught the 737 rudder thermal-shock failure in development.],
   ),
-  courses: ("LEN 5", "LEN 7"),
+  courses: ("LEN 5", "LEN 7", "LEN 3",),
 )
 
 #case(
@@ -190,7 +190,7 @@
   ],
   lens-approach: [
     LENS uses CrowdStrike in LEN 5 as a categories-and-boundaries
-    capability case and in LEN 8 for the vendor-customer trust
+    capability case and in LEN 2 for the vendor-customer trust
     architecture: customers trusted CrowdStrike's deployment safety;
     that trust was load-bearing for the operation of the global
     economy on a single day.
@@ -204,7 +204,7 @@
     [Identify a vendor relationship in your domain whose deployment-safety practice your institution does not audit. What would the audit reveal?],
     [Design the cross-vendor staged-rollout protocol that should be standard for endpoint security software.],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )
 
 #case(
@@ -262,7 +262,7 @@
     but capability engineering.
   ],
   lens-approach: [
-    LENS uses Petrov in LEN 8 as the positive Human-AI Teaming case at
+    LENS uses Petrov in LEN 2 as the positive Human-AI Teaming case at
     the highest possible stakes: the human role is the recoverability
     of an automation failure that the designers did not anticipate.
     The case anchors arguments against full-automation of strategic
@@ -277,7 +277,7 @@
     [Identify an automated system in your domain where retaining a human-in-the-loop is genuinely capability-engineering rather than ceremonial. How would you tell the difference?],
     [Petrov's "funny feeling" was contextual judgment built across a career. Design the training that produces it deliberately.],
   ),
-  courses: ("LEN 8",),
+  courses: ("LEN 2",),
 )
 
 #case(
@@ -331,7 +331,7 @@
   ],
   lens-approach: [
     LENS uses TSB in LEN 7 as a corporate-governance case and in
-    LEN 9 for the institutional structure of technical-decision
+    LEN 8 for the institutional structure of technical-decision
     authority. Studio projects compare TSB and Healthcare.gov.
   ],
   literature-items: (
@@ -343,5 +343,5 @@
     [Where in your organization does a technical signal arrive at the executive layer attenuated by intermediate layers? What is the cost of the attenuation?],
     [Design the institutional structure that would allow a technical lead to halt a migration like TSB's without resigning.],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8"),
 )

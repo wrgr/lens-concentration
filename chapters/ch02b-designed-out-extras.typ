@@ -70,7 +70,7 @@
     [Identify a current product in your domain where a safety capability is being priced against expected litigation. Whose signature would close that decision?],
     [Design the regulatory deliverable that would have made the Pinto cost-benefit calculation unworkable in 1971.],
   ),
-  courses: ("LEN 1", "LEN 7"),
+  courses: ("LEN 1", "LEN 7", "LEN 6",),
 )
 
 #case(
@@ -123,7 +123,7 @@
     at the manufacturer's bench.
   ],
   lens-approach: [
-    LENS uses Takata in LEN 2 as a measurement-system case (the
+    LENS uses Takata in LEN 4 as a measurement-system case (the
     manufacturer's data was reported but not interpreted as a class)
     and in LEN 7 as an industrial-governance failure spanning
     manufacturer, regulator, and customer auditors.
@@ -137,7 +137,7 @@
     [Where in your domain does a regulator receive manufacturer test data without an independent verification pipeline? What is the load-bearing trust assumption?],
     [Design the verification regime that should have surrounded ammonium-nitrate inflator testing. Who funds it, who runs it, and what does it produce?],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -189,8 +189,8 @@
   ],
   lens-approach: [
     LENS uses GM in LEN 7 as a corporate-governance failure case, in
-    LEN 9 to study Valukas-style retrospective institutional analysis,
-    and in LEN 2 for the part-number-as-measurement-instrument story
+    LEN 8 to study Valukas-style retrospective institutional analysis,
+    and in LEN 4 for the part-number-as-measurement-instrument story
     (changing the part without changing the number suppressed the
     signal).
   ],
@@ -203,7 +203,7 @@
     [What information channel in your organization carries the same load that GM's part-number system did? Could it be silently bypassed?],
     [Design the escalation deliverable that would have moved the GM ignition switch fix to a recall in 2006.],
   ),
-  courses: ("LEN 2", "LEN 7", "LEN 9"),
+  courses: ("LEN 4", "LEN 7", "LEN 8", "LEN 6",),
 )
 
 #case(
@@ -253,7 +253,7 @@
   ],
   lens-approach: [
     LENS uses Mars Climate Orbiter in LEN 5 to teach interface-as-
-    requirement and in LEN 9 to discuss cross-contractor capability
+    requirement and in LEN 8 to discuss cross-contractor capability
     boundaries. The case is the foundational software-engineering
     parallel to Patriot (Case 19).
   ],
@@ -266,7 +266,7 @@
     [Identify a contractor-to-contractor interface in your domain whose specification ownership is unclear. What would the equivalent unit-mismatch look like there?],
     [Design the interface-verification deliverable that would have caught the pound-force / newton boundary before launch.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -319,7 +319,7 @@
   ],
   lens-approach: [
     LENS uses Knight Capital in LEN 5 to teach deployment-as-capability
-    and in LEN 10 for the technical-debt argument: every line of dead
+    and in LEN 9 for the technical-debt argument: every line of dead
     code carries an option on a future failure. Students design the
     deployment deliverable that would have caught the eighth server.
   ],
@@ -332,5 +332,5 @@
     [Identify a deployment procedure in your domain whose verification step depends on convention rather than on a designed check. What is the eighth server?],
     [Design the deployment deliverable that would prevent a Knight Capital-equivalent loss in your organization.],
   ),
-  courses: ("LEN 5", "LEN 10"),
+  courses: ("LEN 5", "LEN 9"),
 )

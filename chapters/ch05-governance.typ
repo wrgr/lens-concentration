@@ -67,7 +67,7 @@
     LENS uses inBloom in LEN 7 as the canonical governance failure and in
     LEN 1 as a stakeholder-analysis case. The case anchors the LENS
     threading commitment that equity and accountability are design
-    commitments, not modules. Studio projects (LEN 3) require students
+    commitments, not modules. Studio projects (LEN 10) require students
     to produce a stakeholder-trust deliverable as a precondition for
     deployment.
   ],
@@ -80,7 +80,7 @@
     [What is the equivalent unbuilt governance infrastructure in your domain? What would the \$100M empirical test of its absence look like?],
     [Design the stakeholder-trust deliverable that a future inBloom-equivalent should have to produce before deployment.],
   ),
-  courses: ("LEN 1", "LEN 3", "LEN 7"),
+  courses: ("LEN 1", "LEN 10", "LEN 7", "LEN 6",),
 )
 
 #case(
@@ -135,7 +135,7 @@
     LENS uses Healthcare.gov in LEN 1 as a problem-framing case (the
     technical narrative obscures the capability narrative), in LEN 5 to
     teach capability-requirements analysis for a large government
-    program, and in LEN 9 to discuss the founding of USDS as
+    program, and in LEN 8 to discuss the founding of USDS as
     organizational learning that survived.
   ],
   literature-items: (
@@ -147,7 +147,7 @@
     [Healthcare.gov shipped without end-to-end testing. What is the equivalent missing deliverable in a current high-stakes deployment in your domain?],
     [USDS was born from the Healthcare.gov failure. What is the institutional capability your domain still lacks, and what failure would have to occur to produce it?],
   ),
-  courses: ("LEN 1", "LEN 5", "LEN 7"),
+  courses: ("LEN 1", "LEN 5", "LEN 7", "LEN 6",),
 )
 
 #case(
@@ -211,7 +211,7 @@
     [Bhopal produced the CSB. What is the institution your domain has not yet built that a comparable disaster would force into existence?],
     [Identify a plant or facility in your domain that has had safety systems off-line for an extended period. What is the measurement gap that allowed it?],
   ),
-  courses: ("LEN 5", "LEN 7"),
+  courses: ("LEN 5", "LEN 7", "LEN 3",),
 )
 
 #case(
@@ -263,8 +263,8 @@
   ],
   lens-approach: [
     LENS treats Grenfell in LEN 7 as the canonical multi-actor governance
-    failure case, in LEN 9 to discuss institutional memory of warnings
-    across the LFB and other agencies, and in LEN 3 as a studio prompt
+    failure case, in LEN 8 to discuss institutional memory of warnings
+    across the LFB and other agencies, and in LEN 10 as a studio prompt
     for designing the integrated capability-and-governance deliverable
     that would have caught the cladding decision.
   ],
@@ -277,7 +277,7 @@
     [What is the "grey elephant" — the well-known risk that nobody owns — in your domain?],
     [Design the deliverable that forces a single actor to own the integration risk that Grenfell distributed across dozens.],
   ),
-  courses: ("LEN 3", "LEN 7", "LEN 9"),
+  courses: ("LEN 10", "LEN 7", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -329,7 +329,7 @@
   ],
   lens-approach: [
     LENS uses A-Level in LEN 7 as the foundational case for bias, risk,
-    and governance, in LEN 2 as a measurement-instrument case (an
+    and governance, in LEN 4 as a measurement-instrument case (an
     instrument that encodes the bias of its training data), and in LEN
     10 as a technical case for bias detection and mitigation. The case
     is paired in this book with Robodebt (Case 36) and educational
@@ -344,7 +344,7 @@
     [Identify a measurement instrument in your domain that encodes structural inequality. What would it take to surface that bias before deployment?],
     [The A-Level algorithm worked as specified. Redesign the *specification* — not the algorithm — to remove the bias.],
   ),
-  courses: ("LEN 2", "LEN 7", "LEN 10"),
+  courses: ("LEN 4", "LEN 7", "LEN 9"),
 )
 
 #case(
@@ -399,7 +399,7 @@
   ],
   lens-approach: [
     LENS treats Robodebt in LEN 7 as the canonical case for automated
-    decision-making without human oversight and in LEN 8 as a Human-AI
+    decision-making without human oversight and in LEN 2 as a Human-AI
     Teaming failure at the institutional scale: the human role was
     designed out of the decision loop entirely. The case anchors the
     program's argument that automated decision systems require
@@ -414,7 +414,7 @@
     [Robodebt automated a decision that legally required individual review. Identify a current process in your domain at risk of equivalent automation-without-due-process.],
     [Design the accountability artifact that would have to be signed before a Robodebt-equivalent could be deployed.],
   ),
-  courses: ("LEN 7", "LEN 8"),
+  courses: ("LEN 7", "LEN 2"),
 )
 
 #case(
@@ -434,7 +434,7 @@
     success resources that the prediction is supposed to trigger. The
     magnitude of bias varies depending on how "at-risk" is defined,
     meaning the problem is partially a *construct-definition* problem —
-    a core LEN 2 competency.
+    a core LEN 4 competency.
 
     Baker & Hawn (2021) found algorithmic bias in education "poses
     significant threats to educational equity, potentially amplifying
@@ -467,9 +467,9 @@
   ],
   lens-approach: [
     LENS treats this case as the positive counterpart to Georgia State
-    (Case 39). LEN 2 examines construct definition as the load-bearing
+    (Case 39). LEN 4 examines construct definition as the load-bearing
     measurement choice. LEN 7 examines the governance architecture that
-    determines whose construct gets adopted. LEN 10 covers the
+    determines whose construct gets adopted. LEN 9 covers the
     technical bias-mitigation methods.
   ],
   literature-items: (
@@ -481,5 +481,5 @@
     [Pick a predictive analytic in your institution. Reconstruct the construct definition behind it. What is the equity consequence of that definition?],
     [Design the governance review that a new predictive model should pass before it allocates resources to or away from a population.],
   ),
-  courses: ("LEN 2", "LEN 7", "LEN 10"),
+  courses: ("LEN 4", "LEN 7", "LEN 9"),
 )

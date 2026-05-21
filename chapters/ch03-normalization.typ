@@ -11,7 +11,7 @@
 
 #chapter-divider(
   part: "Part I — The Failure Modes",
-  number: "3",
+  number: "10",
   title: "The Slow Erosion",
   subtitle: "Known risks became routine.",
   epigraph: [NASA culture allowed flying with flaws when problems were defined as normal and routine.],
@@ -70,7 +70,7 @@
     multi-layer capability analysis. Students reconstruct each defense
     layer, identify the deviation accumulated in each, and design the
     measurement system that would have surfaced the drift before April
-    20, 2010. LEN 9 examines contractor-coordination as a capability
+    20, 2010. LEN 8 examines contractor-coordination as a capability
     boundary problem.
   ],
   literature-items: (
@@ -82,7 +82,7 @@
     [Identify a multi-defense process in your domain. For each layer, what is the procedural debt that has accumulated since it was designed?],
     [The negative-pressure test was the proximate trigger. Design a capability check that would have caught the misinterpretation in real time.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -134,7 +134,7 @@
   ],
   lens-approach: [
     LENS uses the pair in LEN 1 to introduce normalization of deviance as
-    a systems concept, in LEN 9 to examine why organizational learning
+    a systems concept, in LEN 8 to examine why organizational learning
     failed across a 17-year interval, and in LEN 7 to address the
     governance failure that allowed a known pathology to persist.
   ],
@@ -147,7 +147,7 @@
     [What is the equivalent "diagnosed but not repaired" pathology in your domain? What evidence would close the loop?],
     [The CAIB called culture engineerable. Sketch the engineering deliverable for the cultural intervention you would propose in your domain — including its measurement signal.],
   ),
-  courses: ("LEN 1", "LEN 7", "LEN 9"),
+  courses: ("LEN 1", "LEN 7", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -198,7 +198,7 @@
   ],
   lens-approach: [
     LENS treats V-22 in LEN 5 as a multi-service capability-coordination
-    problem and in LEN 9 as a study in long-cycle organizational
+    problem and in LEN 8 as a study in long-cycle organizational
     learning failure. Students design the evidence system that would
     distinguish a true reduction in mishap rate from the natural
     variation of a chronically marginal platform.
@@ -212,5 +212,5 @@
     [Identify a platform or process in your domain that has been operating in a documented shortfall for years. What measurement would have to change for the shortfall to become unacceptable?],
     [The V-22's three services do not converge on remediation. Design the governance structure that would force convergence.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8", "LEN 3",),
 )

@@ -68,10 +68,10 @@
     design requirement, not a reporting requirement.
   ],
   lens-approach: [
-    LENS treats the VA case in LEN 2 as the canonical evidence-gap case
+    LENS treats the VA case in LEN 4 as the canonical evidence-gap case
     (the measurement system itself was the source of harm), in LEN 7 as
     a governance failure (multiple warnings unactioned over fifteen
-    years), and in LEN 9 as a knowledge-loss case via turnover.
+    years), and in LEN 8 as a knowledge-loss case via turnover.
   ],
   literature-items: (
     [VA OIG, full reports (2014–present)],
@@ -82,7 +82,7 @@
     [Identify a measurement system in your domain that is also operated by a high-turnover role. What is the institutional risk that the system stops measuring reality?],
     [Design the evidence pipeline that would have surfaced the Phoenix VA gap without relying on the people who were gaming the metrics.],
   ),
-  courses: ("LEN 2", "LEN 7", "LEN 9"),
+  courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
 
 #case(
@@ -141,8 +141,8 @@
   ],
   lens-approach: [
     LENS treats GIFT in LEN 1 as the problem-framing case for the
-    discipline, in LEN 9 as the foundational adoption-pathway case,
-    and in LEN 3 (Studio) as a prompt for designing the institutional
+    discipline, in LEN 8 as the foundational adoption-pathway case,
+    and in LEN 10 (Studio) as a prompt for designing the institutional
     deliverables that would close an adoption gap of this shape.
   ],
   literature-items: (
@@ -154,7 +154,7 @@
     [GIFT exists, is supported, and works. Adoption at scale does not. What is the equivalent in your domain — an effective intervention whose adoption pathway has not been engineered?],
     [Design the institutional adoption deliverable that would move adaptive tutoring from "available framework" to "default routine practice" in one operational training pipeline.],
   ),
-  courses: ("LEN 1", "LEN 3", "LEN 9"),
+  courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 6",),
 )
 
 #case(
@@ -206,8 +206,8 @@
     data governance as a capability-engineering deliverable.
   ],
   lens-approach: [
-    LENS treats xAPI/TLA in LEN 2 as a data-governance and
-    interoperability case and in LEN 9 as an example of organizational-
+    LENS treats xAPI/TLA in LEN 4 as a data-governance and
+    interoperability case and in LEN 8 as an example of organizational-
     learning infrastructure that has not scaled. The case is the
     technical underlay to the larger argument about evidence systems
     that decision-makers can trust.
@@ -221,7 +221,7 @@
     [Why has the xAPI standard not produced cross-organizational interoperability at scale? What governance condition is missing?],
     [Design the minimum governance architecture under which xAPI data could flow across two organizations in your domain.],
   ),
-  courses: ("LEN 2", "LEN 9"),
+  courses: ("LEN 4", "LEN 8", "LEN 6",),
 )
 
 #case(
@@ -271,8 +271,8 @@
   ],
   lens-approach: [
     LENS uses this case in LEN 1 as the foundational problem statement
-    of the discipline, in LEN 3 as a studio constraint (designs must
-    consider implementation, not just efficacy), and in LEN 9 as the
+    of the discipline, in LEN 10 as a studio constraint (designs must
+    consider implementation, not just efficacy), and in LEN 8 as the
     central knowledge-transfer challenge. The case is referenced at
     least once in every required course.
   ],
@@ -285,5 +285,5 @@
     [Pick an evidence-based intervention in your domain. Estimate the gap between when the evidence became conclusive and when the intervention reached majority of practice. What did the gap cost?],
     [Design the deliverable that would shorten that gap by half in your domain. Be specific about who funds it, who owns it, and what evidence demonstrates the reduction.],
   ),
-  courses: ("LEN 1", "LEN 3", "LEN 9"),
+  courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 6",),
 )

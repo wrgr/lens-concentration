@@ -71,13 +71,13 @@
     #v(8pt)
     #let courses-list = (
       ("LEN 1",  "Foundations of Learning Engineering"),
-      ("LEN 2",  "Evidence, Analytics, and Measurement"),
-      ("LEN 3",  "Learning Engineering Studio"),
+      ("LEN 4",  "Evidence, Analytics, and Measurement"),
+      ("LEN 10",  "Learning Engineering Studio"),
       ("LEN 5",  "Human Capability Analysis and Requirements"),
       ("LEN 7",  "Bias, Risk, and Governance"),
-      ("LEN 8",  "Human-AI Teaming"),
-      ("LEN 9",  "Knowledge Transfer and Organizational Learning"),
-      ("LEN 10", "Computational and AI Methods"),
+      ("LEN 2",  "Human-AI Teaming"),
+      ("LEN 8",  "Knowledge Transfer and Organizational Learning"),
+      ("LEN 9", "Computational and AI Methods"),
     )
     #for (code, name) in courses-list [
       #block(spacing: 5pt, grid(

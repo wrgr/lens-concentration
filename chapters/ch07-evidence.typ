@@ -69,9 +69,9 @@
   lens-approach: [
     LENS treats this case as the central evidence anchor of the entire
     curriculum. LEN 1 introduces it as the foundational problem
-    statement. LEN 2 uses it as the canonical case for measurement
+    statement. LEN 4 uses it as the canonical case for measurement
     systems that cannot see their own failures (death certificates do
-    not capture the failure mode). LEN 3 uses it as the studio prompt
+    not capture the failure mode). LEN 10 uses it as the studio prompt
     for designing interventions at the scale required to shift the
     distribution.
   ],
@@ -84,5 +84,5 @@
     [Identify a measurement instrument in your domain that systematically fails to capture the failure modes it should be designed to surface. What would it cost to fix?],
     [Two hundred fifty thousand deaths a year is the third leading cause of death in the U.S. Design the measurement and intervention regime that would shift the curve over a five-year horizon. Estimate the deliverable and the evidence.],
   ),
-  courses: ("LEN 1", "LEN 2", "LEN 3"),
+  courses: ("LEN 1", "LEN 4", "LEN 10", "LEN 6",),
 )

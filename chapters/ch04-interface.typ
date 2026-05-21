@@ -65,7 +65,7 @@
     is the engineering problem.
   ],
   lens-approach: [
-    LENS uses Vincennes in LEN 8 as the foundational case for human-AI
+    LENS uses Vincennes in LEN 2 as the foundational case for human-AI
     teaming under operational stress, and in LEN 5 to teach the analysis
     of capability requirements in conditions the original interface
     designers never expected. The case sits at the center of the
@@ -81,7 +81,7 @@
     [Identify a high-stress interface in your domain. What framing arrives before the data, and how does it shape what operators see?],
     [Vincennes' operators acted under tunnel vision. Design the procedural intervention that would have forced one of the five to call out the contradiction.],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )
 
 #case(
@@ -133,9 +133,9 @@
   ],
   lens-approach: [
     LENS treats EHR/CPOE in LEN 7 as the live, ongoing example of
-    Design-Out and Interface failure under governance opacity, in LEN 8
+    Design-Out and Interface failure under governance opacity, in LEN 2
     as a human-AI teaming problem (alert fatigue, default surfacing), and
-    in LEN 10 as a computational systems problem (the alerting
+    in LEN 9 as a computational systems problem (the alerting
     architecture itself is a learnable model).
   ],
   literature-items: (
@@ -147,7 +147,7 @@
     [What is the equivalent system in your domain that was designed for one specification and deployed against another? How would you measure the harm?],
     [Design the regulatory architecture that would surface EHR safety harms at scale. Be specific about signal, threshold, and authority.],
   ),
-  courses: ("LEN 7", "LEN 8", "LEN 10"),
+  courses: ("LEN 7", "LEN 2", "LEN 9"),
 )
 
 #case(
@@ -197,7 +197,7 @@
     assumption that the failure case would not arrive — until it did.
   ],
   lens-approach: [
-    LENS treats this case in LEN 8 as the live exemplar of monitoring as
+    LENS treats this case in LEN 2 as the live exemplar of monitoring as
     an unsupportable role. Students reconstruct the capability
     requirements for the safety operator and design the interface,
     training, and authority structure that would have made the role
@@ -212,5 +212,5 @@
     [Identify a passive-monitor role in your domain. What evidence would tell you the role is or is not performable as designed?],
     [The Tempe vehicle was programmed not to brake when a crash was unavoidable. Reconstruct the design rationale and propose the deliverable that should have prevented that decision.],
   ),
-  courses: ("LEN 8",),
+  courses: ("LEN 2",),
 )

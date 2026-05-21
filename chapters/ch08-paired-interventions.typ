@@ -11,7 +11,7 @@
 
 #chapter-divider(
   part: "Part II — What Works",
-  number: "8",
+  number: "2",
   title: "The Paired Intervention",
   subtitle: "Technical change with cultural change.",
   epigraph: [The checklist alone did not work. The checklist plus the nurse's authority to enforce it did.],
@@ -70,8 +70,8 @@
   ],
   lens-approach: [
     LENS treats CRM/CAST as the foundational success case across the
-    curriculum. LEN 1 uses it as the problem-framing exemplar. LEN 2 uses
-    CAST as the model closed-loop evidence system. LEN 8 uses CRM as the
+    curriculum. LEN 1 uses it as the problem-framing exemplar. LEN 4 uses
+    CAST as the model closed-loop evidence system. LEN 2 uses CRM as the
     template for redesigning human roles in highly-automated environments —
     the same logic now being applied to AI-augmented systems.
   ],
@@ -84,7 +84,7 @@
     [Identify a high-consequence domain whose authority gradient absorbs information rather than transmitting it. What would the CRM equivalent intervention look like there?],
     [CRM is paired with CAST. What is the closed-loop evidence system in your domain — and if there is not one, what would it cost to build?],
   ),
-  courses: ("LEN 1", "LEN 2", "LEN 8"),
+  courses: ("LEN 1", "LEN 4", "LEN 2", "LEN 3",),
 )
 
 // ---------------- CASE 14: KEYSTONE ICU ----------------
@@ -138,7 +138,7 @@
     aspiration.
   ],
   lens-approach: [
-    LENS uses Keystone in LEN 2 and LEN 3 as the canonical worked example
+    LENS uses Keystone in LEN 4 and LEN 10 as the canonical worked example
     of measurement linked to intervention. Studio projects require students
     to specify both halves of the pair, name the authority that authorizes
     the cultural half, and identify the measurement signal that will
@@ -154,7 +154,7 @@
     [Identify an evidence-based protocol in your domain that is *known* to work but is not consistently performed. What is the authority change required to pair with it?],
     [Design the measurement signal that would confirm the cultural half of a Keystone-style intervention is actually being authorized — not merely declared.],
   ),
-  courses: ("LEN 2", "LEN 3", "LEN 5"),
+  courses: ("LEN 4", "LEN 10", "LEN 5"),
 )
 
 // ---------------- CASE 16: INPO ----------------
@@ -205,7 +205,7 @@
     damage every operator.
   ],
   lens-approach: [
-    LENS uses INPO in LEN 9 as the canonical example of industry-level
+    LENS uses INPO in LEN 8 as the canonical example of industry-level
     learning. Students identify structural conditions in their own domain
     that would permit (or block) an INPO-equivalent and design the
     peer-review architecture that would be required. LEN 1 uses the
@@ -221,5 +221,5 @@
     [What is the equivalent of "an accident at any single plant affects every operator" in your domain? If the answer is "nothing," what does that tell you?],
     [INPO was stood up in nine months. Pick a current cross-organizational capability problem and write the nine-month deliverable that would constitute a credible response.],
   ),
-  courses: ("LEN 1", "LEN 9"),
+  courses: ("LEN 1", "LEN 8", "LEN 3",),
 )

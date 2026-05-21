@@ -60,8 +60,8 @@
     actionable at the hiring decision did not exist.
   ],
   lens-approach: [
-    LENS uses Colgan in LEN 2 as a case for evidence-system design (the
-    PRD as a designed information flow) and in LEN 9 as a case for
+    LENS uses Colgan in LEN 4 as a case for evidence-system design (the
+    PRD as a designed information flow) and in LEN 8 as a case for
     advocacy-driven institutional change. Studio projects examine how
     families of victims became the load-bearing element of a reform
     the industry had resisted for years.
@@ -75,7 +75,7 @@
     [What information about operators in your domain exists somewhere in the system but does not flow to the decisions that depend on it?],
     [Design the data-flow architecture that would make a Colgan-equivalent visible *before* the accident rather than after.],
   ),
-  courses: ("LEN 2", "LEN 5", "LEN 9"),
+  courses: ("LEN 4", "LEN 5", "LEN 8"),
 )
 
 #case(
@@ -131,7 +131,7 @@
     interface together did not surface the divergence.
   ],
   lens-approach: [
-    LENS treats Asiana 214 in LEN 8 as a worked case for automation
+    LENS treats Asiana 214 in LEN 2 as a worked case for automation
     transparency requirements. Students design the interface and
     training intervention that would have made the mode disconnect
     salient to the crew at the moment the aircraft slowed.
@@ -145,7 +145,7 @@
     [Identify a mode in an automated system you work with where the operator's mental model and the system's actual behavior can silently diverge. How would the operator know?],
     [Design the interface change that would have alerted the Asiana crew to the mode mismatch before the airspeed decayed.],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )
 
 #case(
@@ -201,9 +201,9 @@
   ],
   lens-approach: [
     LENS uses the Mark 14 in LEN 7 as a governance failure case and in
-    LEN 9 as an organizational-learning case in which the operators had
+    LEN 8 as an organizational-learning case in which the operators had
     the diagnosis and the institution lacked the structure to receive
-    it. Studio projects (LEN 3) examine what the equivalent
+    it. Studio projects (LEN 10) examine what the equivalent
     operator-to-institution feedback channel should look like.
   ],
   literature-items: (
@@ -215,7 +215,7 @@
     [Identify a system in your domain whose owners are institutionally insulated from the operators using it. What feedback would they refuse to hear, and what would it cost?],
     [Design the operator-feedback channel that the U.S. Navy Bureau of Ordnance should have had in 1941. Who signs, who receives, what triggers action?],
   ),
-  courses: ("LEN 3", "LEN 7", "LEN 9"),
+  courses: ("LEN 10", "LEN 7", "LEN 8"),
 )
 
 #case(
@@ -271,7 +271,7 @@
   ],
   lens-approach: [
     LENS uses Eagle Claw in LEN 5 as a worked case for cross-
-    organizational capability requirements and in LEN 9 for the
+    organizational capability requirements and in LEN 8 for the
     institutional reform that followed. The case pairs with INPO
     (Case 16) as the defense analog of failure-driven institution
     building.
@@ -285,7 +285,7 @@
     [Where in your domain does a cross-organizational capability exist on paper but not in practice? What would force its institutionalization?],
     [Eagle Claw produced USSOCOM and Goldwater-Nichols six years later. Sketch the institutional design that an equivalent failure in your domain would force into existence.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -338,7 +338,7 @@
     problem.
   ],
   lens-approach: [
-    LENS uses Helios in LEN 5 as a case in cue ambiguity and in LEN 8
+    LENS uses Helios in LEN 5 as a case in cue ambiguity and in LEN 2
     as a Human-AI Teaming case where the interface failed to
     communicate which of two possible system states it was warning
     about. Students redesign the cue.
@@ -352,7 +352,7 @@
     [Identify a cue in your domain that carries two meanings in different operational contexts. How would the operator know which?],
     [Redesign the Helios configuration warning to distinguish ground- and in-flight meaning without adding cognitive load.],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )
 
 #case(
@@ -404,7 +404,7 @@
   ],
   lens-approach: [
     LENS uses AeroPerú in LEN 5 to teach the difference between
-    apparent and actual redundancy and in LEN 8 for the human role
+    apparent and actual redundancy and in LEN 2 for the human role
     when all interface data is unreliable. Studio projects examine the
     "trust nothing" procedure design.
   ],
@@ -417,7 +417,7 @@
     [Identify a redundant interface in your domain whose redundancy depends on a common upstream component. What is the operator procedure when the upstream component fails?],
     [Design the "trust nothing" procedure for the AeroPerú crew. What information remains reliable when all instruments are corrupted?],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )
 
 #case(
@@ -466,9 +466,9 @@
     leaves the original capability gap partially open.
   ],
   lens-approach: [
-    LENS uses Atlas Air 3591 in LEN 2 as a case for measurement-system
+    LENS uses Atlas Air 3591 in LEN 4 as a case for measurement-system
     coverage (the PRD had been built but its mandatory coverage was
-    incomplete), and in LEN 9 for the iteration cycle of reform: an
+    incomplete), and in LEN 8 for the iteration cycle of reform: an
     intervention that leaves an aperture creates a measurable harm
     inside the aperture.
   ],
@@ -481,7 +481,7 @@
     [Identify a regulatory remedy in your domain whose coverage is partial. What harm is occurring inside the aperture?],
     [Design the deliverable that would close the PRD coverage gap in advance of a future Atlas Air 3591.],
   ),
-  courses: ("LEN 2", "LEN 9"),
+  courses: ("LEN 4", "LEN 8"),
 )
 
 #case(
@@ -535,7 +535,7 @@
   lens-approach: [
     LENS uses TransAsia 235 in LEN 5 as a recurrence case for
     well-known capability problems (wrong-engine shutdown) and in
-    LEN 8 to teach the difference between checklist-driven response
+    LEN 2 to teach the difference between checklist-driven response
     and memory-driven response under stress.
   ],
   literature-items: (
@@ -547,5 +547,5 @@
     [Identify a procedure in your domain that is supposed to be checklist-driven but is actually memory-driven under stress. What is the gap?],
     [Why has the wrong-engine shutdown pattern persisted across 25 years of aviation reform? What intervention has not yet been engineered?],
   ),
-  courses: ("LEN 5", "LEN 8"),
+  courses: ("LEN 5", "LEN 2"),
 )

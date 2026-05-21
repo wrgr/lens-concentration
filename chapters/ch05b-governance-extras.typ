@@ -60,7 +60,7 @@
   ],
   lens-approach: [
     LENS uses Horizon in LEN 7 as the canonical example of
-    institutional deference to algorithmic output and in LEN 8 for the
+    institutional deference to algorithmic output and in LEN 2 for the
     most extensive multi-decade automation-bias case in the dataset.
     Studio projects examine what evidentiary architecture would
     require *interrogating* automated output before acting on it.
@@ -74,7 +74,7 @@
     [Identify a decision in your domain currently made on the strength of "the computer said so." What evidentiary architecture should sit beside the output?],
     [Design the institutional check that would have made Horizon's reliability subject to genuine challenge in 2005.],
   ),
-  courses: ("LEN 7", "LEN 8"),
+  courses: ("LEN 7", "LEN 2"),
 )
 
 #case(
@@ -131,7 +131,7 @@
   ],
   lens-approach: [
     LENS uses Theranos in LEN 7 for the regulatory-seam failure and
-    in LEN 2 for the measurement-validation gap. The case demonstrates
+    in LEN 4 for the measurement-validation gap. The case demonstrates
     that capability engineering at the boundary between regulatory
     regimes is itself a governance deliverable.
   ],
@@ -144,7 +144,7 @@
     [Identify a regulatory seam in your domain where two regimes meet without an explicit handoff. What could exploit it?],
     [Design the validation regime that would have caught Theranos in 2013.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -198,7 +198,7 @@
     incentives.
   ],
   lens-approach: [
-    LENS uses Wells Fargo in LEN 2 as a measurement-gaming case and
+    LENS uses Wells Fargo in LEN 4 as a measurement-gaming case and
     in LEN 7 for the corporate-governance dynamics that allow such
     incentives to persist for years. Studio projects redesign the
     incentive architecture.
@@ -212,7 +212,7 @@
     [Identify a measurement system in your organization that is currently producing the behavior the organization claims to deplore. What is the gap between the measurement and the goal?],
     [Design the incentive architecture for a bank's branch sales force that does not produce a Wells-Fargo-equivalent failure.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -267,7 +267,7 @@
     boundary.
   ],
   lens-approach: [
-    LENS uses Dieselgate in LEN 2 as the canonical case for
+    LENS uses Dieselgate in LEN 4 as the canonical case for
     measurement-system evasion and in LEN 7 for the corporate-
     governance dynamics of engineered fraud. The reform pattern
     parallels Takata (Case 52).
@@ -281,7 +281,7 @@
     [Identify a measurement protocol in your domain that operates in a regime detectable by the entity being measured. What is the evasion potential?],
     [Design the upgrade to a regulatory test protocol that makes Dieselgate-style evasion structurally infeasible.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -346,7 +346,7 @@
     [Identify an API or interface in your domain whose contract assumes benevolent intent. What is the systematic-abuse case it was not red-teamed against?],
     [Design the platform-governance deliverable that should accompany the launch of a new third-party developer API.],
   ),
-  courses: ("LEN 1", "LEN 7"),
+  courses: ("LEN 1", "LEN 7", "LEN 6",),
 )
 
 #case(
@@ -537,7 +537,7 @@
   ],
   lens-approach: [
     LENS uses FIU in LEN 5 to teach review-process deliverables and
-    in LEN 9 to compare with the Hyatt Regency (Case 74) case from
+    in LEN 8 to compare with the Hyatt Regency (Case 74) case from
     forty years earlier — same failure mode, different decade.
   ],
   literature-items: (
@@ -549,7 +549,7 @@
     [The FIU and Hyatt Regency cases are 40 years apart and structurally similar. What has not been engineered in the discipline that would change that?],
     [Design the field-observation escalation protocol that would have brought the FIU cracks to a decision-maker with the authority to halt work.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -601,7 +601,7 @@
   ],
   lens-approach: [
     LENS uses the Camp Fire in LEN 7 for utility regulatory governance
-    and in LEN 9 for institutional response to changing operating
+    and in LEN 8 for institutional response to changing operating
     conditions. The case is paired with the Northeast Blackout (Case
     62) as utility-capability failures of different kinds.
   ],
@@ -614,7 +614,7 @@
     [Identify infrastructure in your domain that was designed for one set of conditions and is now operating in another. What is the capability deliverable to bridge the gap?],
     [Design the regulatory architecture that would prevent a utility from deferring critical wildfire-risk maintenance.],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8"),
 )
 
 #case(
@@ -667,7 +667,7 @@
   ],
   lens-approach: [
     LENS uses the Texas Grid Freeze in LEN 7 as a regulatory-governance
-    case and in LEN 9 for institutional learning across repeated near-
+    case and in LEN 8 for institutional learning across repeated near-
     misses (1989, 2011, 2014) that did not produce remediation.
   ],
   literature-items: (
@@ -679,5 +679,5 @@
     [Identify a capability in your domain that has been designed out because the relevant rare event was judged acceptable. Is the rate still acceptable?],
     [The Texas grid was warned four times in three decades. What institutional architecture allows that pattern, and what would change it?],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8"),
 )

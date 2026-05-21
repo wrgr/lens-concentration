@@ -25,10 +25,16 @@ typst compile --font-path fonts --root . \
   --input pages="$PAGES" \
   cover/cover.typ build/cover.pdf
 
+# Mirror the latest PDFs to the repo root so they are easy to find / preview.
+cp "$ROOT/build/capability-matters.pdf" "$ROOT/capability-matters.pdf"
+cp "$ROOT/build/cover.pdf" "$ROOT/cover.pdf"
+
 echo
 echo "✓ Output:"
 echo "    build/capability-matters.pdf   interior — A5 with 3 mm bleed (154 × 216 mm)"
 echo "    build/cover.pdf                cover wrap — sized for $PAGES pages"
+echo "    capability-matters.pdf         (same, mirrored to repo root for easy access)"
+echo "    cover.pdf                      (same, mirrored to repo root)"
 echo
 echo "Before uploading to Lulu, verify the spine width against Lulu's"
 echo "current spec for A5 paperback, 80 gsm white interior. The cover"

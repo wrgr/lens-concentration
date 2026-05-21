@@ -63,7 +63,7 @@
   ],
   lens-approach: [
     LENS uses Tylenol in LEN 7 as the foundational positive case for
-    institutional governance under crisis and in LEN 3 (Studio) as a
+    institutional governance under crisis and in LEN 10 (Studio) as a
     worked example of pre-committed capability that executed under
     operational pressure.
   ],
@@ -76,7 +76,7 @@
     [What is your institution's equivalent of the J&J Credo, and is it operational under crisis or aspirational?],
     [Pre-commitment is hard to enforce later. Design the institutional architecture that makes a Tylenol-style response the only available option in the worst case.],
   ),
-  courses: ("LEN 3", "LEN 7"),
+  courses: ("LEN 10", "LEN 7", "LEN 6",),
 )
 
 #case(
@@ -129,8 +129,8 @@
     the most comprehensive operational-safety dataset in any domain.
   ],
   lens-approach: [
-    LENS uses ASRS in LEN 2 as the foundational positive case for
-    evidence architecture and in LEN 9 for institutional commitment
+    LENS uses ASRS in LEN 4 as the foundational positive case for
+    evidence architecture and in LEN 8 for institutional commitment
     to non-punitive learning. Studio projects design ASRS-equivalents
     for new domains.
   ],
@@ -143,7 +143,7 @@
     [Identify a domain in your institution that would benefit from an ASRS-equivalent. What cultural commitment would be required for it to function?],
     [Design the institutional commitment that makes an ASRS-equivalent operational rather than merely declared.],
   ),
-  courses: ("LEN 2", "LEN 9"),
+  courses: ("LEN 4", "LEN 8"),
 )
 
 #case(
@@ -201,7 +201,7 @@
     specialty-outcomes regimes in any country.
   ],
   lens-approach: [
-    LENS uses Bristol in LEN 2 for outcomes-transparency as a paired-
+    LENS uses Bristol in LEN 4 for outcomes-transparency as a paired-
     intervention deliverable and in LEN 7 for the institutional reform
     that made surgeon-level publication acceptable. The case pairs
     with Keystone ICU (Case 14) as healthcare-outcomes interventions
@@ -216,7 +216,7 @@
     [What is the equivalent of surgeon-level outcomes transparency in your domain? What cultural change would have to accompany the technical instrument?],
     [Design the registry and publication architecture for a specialty in your domain currently operating without outcomes transparency.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7", "LEN 3",),
 )
 
 #case(
@@ -269,7 +269,7 @@
     operating under comparable conditions.
   ],
   lens-approach: [
-    LENS uses Singapore Airlines in LEN 9 for sustained institutional
+    LENS uses Singapore Airlines in LEN 8 for sustained institutional
     capability investment under competitive pressure. The case pairs
     with Korean Air (Case 23) as Asian-carrier capability stories of
     different shapes — one transformation under crisis, the other
@@ -284,5 +284,5 @@
     [Identify an institution in your domain that has chosen capability investment as a primary differentiator. What pattern has it sustained?],
     [Design the institutional architecture that makes sustained capability investment defensible against competitive cost pressure.],
   ),
-  courses: ("LEN 9",),
+  courses: ("LEN 8",),
 )

@@ -19,6 +19,31 @@
 
 #v(14pt)
 
+#text(font: serif, size: 14pt, style: "italic", fill: teal-light)[
+  Every complex system depends on what people can do inside it. That
+  dependency is measurable, designable, and too important to leave to
+  chance.
+]
+
+#v(10pt)
+
+#block(
+  width: 100%,
+  inset: (left: 10pt, top: 6pt, bottom: 6pt),
+  stroke: (left: 1.5pt + gold),
+  {
+    set par(leading: 0.55em)
+    text(font: sans, size: 8.5pt, fill: navy)[
+      *01.* Systems don't fail because the technology breaks. They fail because someone couldn't do what the system required. #parbreak()
+      *02.* We engineer every parameter of a system except the people. #parbreak()
+      *03.* Capability is not a soft problem. It is a systems engineering problem. #parbreak()
+      *04.* Decision-grade evidence. Not opinions about training.
+    ]
+  }
+)
+
+#v(12pt)
+
 #set par(justify: true, leading: 0.62em, first-line-indent: 0pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
@@ -295,14 +320,14 @@
   enters the cycle at a different point and trains the corresponding
   competence. LEN 1 frames the problem and identifies the system whose
   capability is at stake. LEN 5 elicits requirements from operational
-  analysis. LEN 2 builds the evidence architecture that lets the
-  institution know whether its interventions worked. LEN 8 examines
-  the human and AI roles inside the designed system. LEN 3 — Studio —
+  analysis. LEN 4 builds the evidence architecture that lets the
+  institution know whether its interventions worked. LEN 2 examines
+  the human and AI roles inside the designed system. LEN 10 — Studio —
   asks students to do all of it on a single integrated project,
   carrying the loop through one full iteration on a real operational
   problem. Electives extend the loop: LEN 7 (Bias, Risk, and
-  Governance), LEN 9 (Knowledge Transfer and Organizational Learning),
-  LEN 10 (Computational and AI Methods). The program graduates a
+  Governance), LEN 8 (Knowledge Transfer and Organizational Learning),
+  LEN 9 (Computational and AI Methods). The program graduates a
   practitioner who has been around the loop enough times to know
   where it breaks.
 ]
@@ -335,32 +360,37 @@
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The first is the *CircuitMerit COMPASS* framework — a credentialed
-  pathway model that operationalizes how capability evidence travels
-  from individual learner work to institutionally recognized
-  competence. The COMPASS framework gives the program a working
-  exemplar of evidence-based credentialing inside the same institution
-  that teaches it. Students do not study capability evidence
-  abstractly; they are operating inside a credentialing architecture
-  that uses it as a deliverable. The discipline is being taught from
-  inside a working instance of the discipline.
-  #footnote-flag("Confirm CircuitMerit COMPASS framing and citation with program leadership before printed edition.")
+  The first is the *CIRCUIT / MERIT pathway* — a more-than-decade
+  long pipeline of structured, evidence-based scientific workforce
+  development originated at the JHU Applied Physics Laboratory. CIRCUIT
+  (Cohort-based Integrated Research Community for Undergraduate
+  Innovation and Trailblazing) placed undergraduates inside connectomics
+  proofreading workflows under structured pedagogical scaffolding;
+  MERIT (Mentoring Exceptional Researchers to Innovate and Thrive)
+  generalized the model into a replicable training architecture with
+  formal selection rubrics, mentor training protocols, and
+  individual-development-planning instruments. Multiple cohorts across
+  hundreds of students have produced peer-reviewed contributions to
+  the connectomics literature — the MICrONS reconstructions in
+  *Nature*, the open-data infrastructure of BossDB and CAVE, the
+  NeuVue proofreading framework. The model demonstrably works.
+  Section VII expands on this evidence.
 ]
 
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The second is the *pathways flywheel*: the program's deliberate
-  loop between practitioner enrollment, applied studio work in
-  operational settings, institutional artifacts produced in those
-  studios, and the next cohort of practitioners drawn into the program
-  by the evidence the prior cohort generated. The flywheel is what
-  prevents the program from being a series of unconnected cohorts and
-  makes it instead a compounding institutional asset — each cohort
-  shortening the implementation gap for the next. The casebook itself
-  is a flywheel artifact: the work of one cohort produces the
+  The second is the *Practice Flywheel*: the iterative cycle
+  — *Identify → Activate → Prototype → Analyze → Transition* — that
+  has now been demonstrated across multiple LE pilots run by the
+  LENS partner team at JHU/APL. Each iteration produces working
+  artifacts, sponsor-visible evidence, and curriculum material for
+  the next cohort. The flywheel is what prevents the program from
+  being a series of unconnected projects and makes it instead a
+  compounding institutional asset — each cohort shortening the
+  implementation gap for the next. The casebook itself is a
+  flywheel artifact: the work of prior cohorts produces the
   reference dataset for the next.
-  #footnote-flag("Confirm Pathways Flywheel framing with program leadership.")
 ]
 
 #v(6pt)
@@ -370,10 +400,14 @@
   practicum, and applied-project model that ensures every LENS
   graduate has, in addition to coursework, a portfolio of capability
   engineering deliverables produced inside real operational systems.
-  The cases in this book are not the only operational record the
-  program produces. Every graduate carries an addition to it. The
-  credibility of the program is, in the end, the credibility of the
-  artifacts its graduates have produced in the field.
+  The Summer 2025 PISTA incubator (Section VII) is the most recent
+  example: fifty-two participants from nine universities delivered a
+  working CBRNE decision-support prototype to DTRA leadership in ten
+  weeks, with three full redesigns inside that window. The cases in
+  this book are not the only operational record the program produces.
+  Every graduate carries an addition to it. The credibility of the
+  program is, in the end, the credibility of the artifacts its
+  graduates have produced in the field.
 ]
 
 // -------------------------------------------------------------------
@@ -471,7 +505,164 @@
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VII  ·  how to read this book"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VII  ·  pathways evidence  ·  LE pilots"))
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  A program built on the claim that capability is engineerable should
+  be able to point to the institutional evidence that it has done that
+  work. LENS draws on a documented record of learning-engineering
+  pilots — operated at the Johns Hopkins University Applied Physics
+  Laboratory and across collaborating sites — that demonstrate the
+  iterative LE process at operational scale before LENS itself
+  enrolled its first cohort. The pilots span the same three domains
+  the casebook treats as co-equal — science (instantiated here as
+  connectomics and precision medicine), defense, and education —
+  and they each carry independent evidence of the loop closing.
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "The Practice Flywheel")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The pilots share an operating cycle: *identify* a real challenge in
+  an operational setting, *activate* a cohort of practitioners and the
+  tools they need, *prototype* a working artifact under realistic
+  constraints, *analyze* the evidence the prototype produces, and
+  *transition* validated solutions to the sponsor or institution that
+  asked the original question. Each iteration generates artifacts,
+  evidence, and refined practice; each cohort inherits the prior
+  cohort's tools and lessons. The flywheel makes the program
+  compounding rather than serially episodic.
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · Pathways for scientific workforce development (CIRCUIT → MERIT → BRAIN CONNECTS)")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  Over more than a decade, the JHU/APL team that contributed to the
+  IARPA MICrONS program developed a cohort-based training model —
+  CIRCUIT (Cohort-based Integrated Research Community for Undergraduate
+  Innovation and Trailblazing) — that placed undergraduates inside the
+  connectomics proofreading workflow under structured pedagogical
+  scaffolding. Trainees contributed to the MICrONS / BRAIN CONNECTS
+  connectome reconstructions now published in *Nature* and *Science*,
+  to the BossDB open-data platform, and to the NeuVue proofreading
+  framework #cite-num(23). CIRCUIT generalized into MERIT (Mentoring
+  Exceptional Researchers to Innovate and Thrive), which formalized
+  the selection rubrics, mentor training, and individual development
+  planning architecture #cite-num(24). The training architecture is
+  itself a learning-engineering artifact: capability requirements
+  elicited from the operational task (proofreading), instrumented
+  measurement of trainee progress, paired technical and cultural
+  scaffolding, and an explicit iteration cycle. Multiple cohorts
+  across hundreds of students have produced peer-reviewed
+  publications and a documented evidence base for the model.
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · TITAN (DARPA AIE)")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  TITAN — a DARPA Artificial Intelligence Exploration program — was
+  implemented and explored by junior staff and student fellows when
+  senior staff did not take it up, and produced both technical
+  artifacts and a demonstrated proof of concept for the cohort-based
+  incubator model the program now treats as a primary delivery
+  mechanism. The pattern — talent identification, rapid
+  prototyping under sponsor constraints, transition planning — is the
+  same Practice Flywheel the casebook describes. TITAN is the
+  earliest evidence that the model scales beyond the connectomics
+  domain in which it was first piloted #cite-num(25).
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · PISTA (DTRA, Summer 2025)")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  PISTA — the *Perceptual Inference System for Tactical Agentic AI* —
+  was a ten-week incubator delivering tactical AI decision support
+  for the Defense Threat Reduction Agency's chemical, biological,
+  radiological, nuclear, and explosives mission. Fifty-two
+  participants from nine universities (including Naval Academy
+  midshipmen, West Point cadets, and ROTC participants) delivered a
+  working perception-reason-report agentic pipeline on a COTS stack
+  (Gemini Flash, GPT-4o, Firebase) with deployed sensors on UGVs and
+  small UAS. Three full redesigns inside ten weeks. Live demonstration
+  to DTRA leadership. Follow-on funding under exploration. The
+  pilot demonstrates the Practice Flywheel at compressed timescale
+  in a defense context #cite-num(26).
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · ECHO (healthcare, culturally responsive provider training)")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  ECHO is an AI simulator for limited-English-proficiency patient
+  encounters — a population of more than twenty-five million Americans
+  whose access to safe care is structurally constrained by language
+  barriers. The system pairs scenario-driven practice with
+  rubric-based assessment and real-time coaching, designed for
+  implementation inside existing medical-curriculum infrastructure.
+  ECHO is the healthcare instance of the casebook's central argument:
+  health equity is a *design commitment*, not an audit. The pilot
+  shows the same flywheel operating in the clinical-training context.
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · TeachMe EDDIE (methodology)")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  TeachMe EDDIE is the methodological instance of the pilot
+  portfolio: an AI-augmented knowledge engineering system built around
+  a 100-plus-node causal knowledge graph, a dual-axis learner model
+  (declarative and procedural), and Mentor and Narrator agents
+  bounded by a curated corpus. EDDIE operationalizes the difference
+  between *retrieval* and *learning* — between an LLM that can
+  produce a fluent answer and an instructional system that can move
+  a learner from competence in one context to competence in another.
+  Transfer is the north star. EDDIE is the LENS instance of the
+  learning-engineering question that the rest of the dataset asks at
+  scale.
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · Precision-medicine community detection (clinical decision support)")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  Precision-medicine clinical decision tools represent the program's
+  pilot in the application of evidence-based methodology to a
+  high-consequence operational domain. Students and staff at APL
+  contributed to community-detection methods for precision-medicine
+  cohort identification — the kind of work that combines computational
+  rigor with the clinical interpretive judgment LENS is organized to
+  teach. The preprint is publicly available on medRxiv
+  #cite-num(27). The same pattern recurs across the pilots: the
+  technical artifact is necessary, the institutional scaffolding to
+  use it under operational constraints is what makes it capability.
+]
+
+#v(8pt)
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "What the pilots demonstrate together")
+#v(2pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  No single pilot would settle the LENS proposition. The cumulative
+  record is what matters. Across pilots, the same set of LE practices
+  recurs: explicit capability requirements; structured pedagogical
+  scaffolding; instrumented measurement linked to operational outcomes;
+  paired technical and cultural interventions; cohort-based delivery
+  with deliberate inheritance of tools and lessons across cohorts; and
+  an explicit Identify → Activate → Prototype → Analyze → Transition
+  cycle. The same artifacts produced in those pilots — the rubrics,
+  the prompts, the dashboards, the after-action reports, the published
+  papers — become the curriculum material for the next cohort. The
+  program is, in this sense, the institutional flywheel its case
+  studies argue every high-consequence domain requires.
+]
+
+// -------------------------------------------------------------------
+#v(20pt)
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VIII  ·  how to read this book"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
@@ -525,6 +716,47 @@
   specific courses in the program that use it as a worked example.
 ]
 
+// -------------------------------------------------------------------
+#v(20pt)
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("IX  ·  course coverage and pedagogical gaps"))
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The one hundred cases in this volume are mapped to the LENS courses
+  they most directly inform. The distribution is itself diagnostic.
+  The strongly covered courses are the ones the existing case
+  literature most readily supports: bias and governance (LEN 7) and
+  knowledge transfer and organizational learning (LEN 8), each with
+  more than forty cases; capability analysis (LEN 5) and evidence
+  and measurement (LEN 4), each with roughly thirty; human-AI
+  teaming (LEN 2) and foundations (LEN 1), each around twenty.
+  These are not arbitrary numbers — they describe a dataset
+  saturated with cases of *what goes wrong when ethics, governance,
+  evidence, and institutional learning are not engineered.*
+]
+
+#v(6pt)
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The thin coverage is also informative. LEN 9 (Computational and AI
+  Methods) is at ten cases — the dataset has the failure modes of
+  algorithmic systems well-represented but the computational tools
+  for capability instrumentation under-represented. The capstone
+  course (LEN 10) maps to sixteen cases — fewer than the number of
+  Studio-style projects we expect each LENS cohort to undertake.
+  The newly-renumbered LEN 3 (Learning Engineering Systems) and
+  LEN 6 (Applied Problem Solving) required focused retagging to
+  reach defensible coverage; the work surfaced that the operational
+  systems-engineering content the program teaches in LEN 3 is
+  *under-represented in the published case literature* relative to
+  its centrality in the curriculum, and that LEN 6's stakeholder-
+  analysis and problem-framing work has not historically been
+  packaged as case material by other disciplines. These are
+  pedagogical gaps the LENS studio sequence (LEN 6 → LEN 10) is
+  organized to close — not by adding more failure cases, but by
+  having students produce the missing artifacts in real operational
+  settings and entering them into the dataset for the next cohort.
+]
+
 #v(20pt)
 
 #block(
@@ -534,12 +766,14 @@
   stroke: (left: 2pt + gold),
   {
     text(font: serif, size: 12pt, style: "italic", fill: navy)[
-      The strongest argument for the discipline of learning engineering
-      is the cumulative record of what its absence has cost. The
-      strongest argument *for* its possibility is the cumulative record
-      of what its presence has produced. Both records are in this book.
-      The work of LDT and LENS at the Johns Hopkins School of Education
-      is to add to the second record and shorten the first.
+      Capability is a designable, measurable, engineerable property
+      of every complex system. The strongest argument for the
+      discipline of learning engineering is the cumulative record of
+      what its absence has cost. The strongest argument *for* its
+      possibility is the cumulative record of what its presence has
+      produced. Both records are in this book. The work of LDT and
+      LENS at the Johns Hopkins School of Education is to add to the
+      second record and shorten the first.
     ]
   }
 )

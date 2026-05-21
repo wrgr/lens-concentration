@@ -60,7 +60,7 @@
     SOFR — re-engineered the measurement at the architecture level.
   ],
   lens-approach: [
-    LENS uses LIBOR in LEN 2 as the canonical measurement-architecture
+    LENS uses LIBOR in LEN 4 as the canonical measurement-architecture
     case at financial-system scale and in LEN 7 for the cross-
     jurisdictional governance reform that produced SOFR. The case
     pairs with Wells Fargo (Case 70) and Volkswagen (Case 71) as
@@ -75,7 +75,7 @@
     [Identify a benchmark in your domain that is constructed from declarations rather than observations. What gaming pressure does it experience?],
     [Design the observation-based replacement for that benchmark.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -129,7 +129,7 @@
     but rarely implemented at scale.
   ],
   lens-approach: [
-    LENS uses APS in LEN 2 as the foundational U.S. education
+    LENS uses APS in LEN 4 as the foundational U.S. education
     measurement-gaming case and in LEN 7 for the incentive-
     architecture failure. Studio projects examine how an independent
     audit would have caught the cheating.
@@ -143,7 +143,7 @@
     [Identify a high-stakes measurement in your domain whose audit is operated by the institution being measured. What would change with independent audit?],
     [Apply Campbell's Law to a current high-stakes measurement system. What distortion is predicted?],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -196,7 +196,7 @@
     the regulator's expertise pipeline, not at the evidence.
   ],
   lens-approach: [
-    LENS uses Madoff in LEN 2 for technical-evidence evaluation and
+    LENS uses Madoff in LEN 4 for technical-evidence evaluation and
     in LEN 7 for regulator-capability deliverables. The case pairs
     with Theranos (Case 69) as cases where regulators lacked the
     technical depth to challenge the evidence presented to them.
@@ -210,7 +210,7 @@
     [Identify a regulator in your domain whose technical evaluation capability has not kept pace with the entities it regulates. What is the resulting blind spot?],
     [Design the regulator-side technical-capability deliverable that should have allowed the SEC to evaluate the Markopolos memo on its merits.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -267,7 +267,7 @@
     earlier.
   ],
   lens-approach: [
-    LENS uses 9/11 in LEN 9 as the foundational case for cross-
+    LENS uses 9/11 in LEN 8 as the foundational case for cross-
     organizational capability and in LEN 7 for the governance
     architecture of multi-agency systems. Studio projects compare
     9/11 with Eagle Claw (Case 46) as institutional-architecture
@@ -282,7 +282,7 @@
     [Identify a cross-organizational information flow in your domain that depends on individual initiative rather than institutional architecture. What is the foreseeable failure mode?],
     [Design the institutional deliverable that would have produced ODNI-level information sharing across U.S. intelligence agencies in the 1990s.],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -339,7 +339,7 @@
     architecture too thin for the system that depended on it.
   ],
   lens-approach: [
-    LENS uses Vioxx in LEN 2 for post-market surveillance as a
+    LENS uses Vioxx in LEN 4 for post-market surveillance as a
     measurement deliverable and in LEN 7 for the corporate-regulator
     dynamics that allowed signal aggregation to be deferred.
   ],
@@ -352,5 +352,5 @@
     [Identify a post-deployment surveillance architecture in your domain that is too thin for the scale of the system it monitors. What is the missing deliverable?],
     [Design the Sentinel-equivalent post-market surveillance system for a new domain.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )

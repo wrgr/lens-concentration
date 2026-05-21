@@ -56,10 +56,10 @@
     intervention in the dataset.
   ],
   lens-approach: [
-    LENS uses the WHO checklist in LEN 3 (Studio) as the canonical
+    LENS uses the WHO checklist in LEN 10 (Studio) as the canonical
     end-to-end design exemplar: a problem identified, a minimal
     artifact prototyped, a multi-site pilot, a measurement regime, and
-    global scale-out. LEN 2 examines the measurement architecture that
+    global scale-out. LEN 4 examines the measurement architecture that
     made the effect provable.
   ],
   literature-items: (
@@ -71,7 +71,7 @@
     [What is the smallest possible capability artifact in your domain that, paired with a required pause, would shift outcomes?],
     [The WHO checklist was studied across eight countries. Design the multi-site evaluation that would establish whether your candidate intervention generalizes.],
   ),
-  courses: ("LEN 2", "LEN 3"),
+  courses: ("LEN 4", "LEN 10"),
 )
 
 #case(
@@ -122,8 +122,8 @@
     capability it bought.
   ],
   lens-approach: [
-    LENS uses Navy SWO reform in LEN 3 (Studio) as a worked exercise in
-    capability intervention at scale, and in LEN 2 as a case where the
+    LENS uses Navy SWO reform in LEN 10 (Studio) as a worked exercise in
+    capability intervention at scale, and in LEN 4 as a case where the
     measurement infrastructure has lagged the intervention. Students
     design the evidence regime that should accompany the reform.
   ],
@@ -136,7 +136,7 @@
     [Navy SWO reform happened without an evidence regime to confirm it worked. Identify a current reform in your domain and the evidence regime that should accompany it.],
     [Design the dashboard the Chief of Naval Operations should have to know whether SWO capability is improving in time-series.],
   ),
-  courses: ("LEN 2", "LEN 3", "LEN 5"),
+  courses: ("LEN 4", "LEN 10", "LEN 5"),
 )
 
 #case(
@@ -190,8 +190,8 @@
     redesign was a linguistic one.
   ],
   lens-approach: [
-    LENS uses Korean Air in LEN 9 as the canonical organizational-
-    learning case under cultural constraint and in LEN 8 as a CRM-
+    LENS uses Korean Air in LEN 8 as the canonical organizational-
+    learning case under cultural constraint and in LEN 2 as a CRM-
     extension case for high-power-distance contexts. The case is
     paired in this book with the Toyota Andon Cord (Case 24) as
     cultural intervention success stories.
@@ -205,7 +205,7 @@
     [Identify a cultural feature in an institution you work with that constrains capability. Is it engineerable? What would the redesign look like?],
     [Korean Air's intervention operated on language. What surface of culture is engineerable in your domain that you have not yet considered?],
   ),
-  courses: ("LEN 8", "LEN 9"),
+  courses: ("LEN 2", "LEN 8"),
 )
 
 #case(
@@ -255,10 +255,10 @@
     co-optimization commitment in physical form.
   ],
   lens-approach: [
-    LENS uses the Andon Cord in LEN 8 as the foundational example of
-    paired technical-cultural intervention, in LEN 9 to discuss
+    LENS uses the Andon Cord in LEN 2 as the foundational example of
+    paired technical-cultural intervention, in LEN 8 to discuss
     cross-domain transfer (and why imitation without the cultural half
-    fails), and in LEN 3 as a studio exemplar of minimal-artifact
+    fails), and in LEN 10 as a studio exemplar of minimal-artifact
     design.
   ],
   literature-items: (
@@ -270,7 +270,7 @@
     [Identify a technical artifact in your domain whose effectiveness depends entirely on a protected authority. Is the authority protected, or only declared?],
     [American manufacturers copied the cord without the authority. What is the equivalent surface-level imitation you have observed in your domain, and what was missing?],
   ),
-  courses: ("LEN 3", "LEN 8", "LEN 9"),
+  courses: ("LEN 10", "LEN 2", "LEN 8"),
 )
 
 #case(
@@ -321,10 +321,10 @@
     engineering competence looks like as a deliverable.
   ],
   lens-approach: [
-    LENS treats TeamSTEPPS in LEN 9 as the canonical cross-domain
+    LENS treats TeamSTEPPS in LEN 8 as the canonical cross-domain
     transfer case and in LEN 1 as evidence that the program's core
     proposition — that learning engineering is a discipline — has
-    institutional precedent. Studio projects (LEN 3) reference
+    institutional precedent. Studio projects (LEN 10) reference
     TeamSTEPPS as the worked example of cross-domain adaptation
     methodology.
   ],
@@ -337,7 +337,7 @@
     [What is the cross-domain transfer your domain has not yet executed? What evidence base in another industry should it draw on?],
     [TeamSTEPPS funded its implementation infrastructure. Design the implementation-infrastructure budget for an equivalent transfer in your domain.],
   ),
-  courses: ("LEN 1", "LEN 3", "LEN 9"),
+  courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -389,7 +389,7 @@
     deferred.
   ],
   lens-approach: [
-    LENS treats the Rickover model in LEN 9 as the foundational
+    LENS treats the Rickover model in LEN 8 as the foundational
     organizational-learning case and in LEN 5 as a worked example of
     capability requirements traceable from operational analysis through
     qualification standards. The internal Navy comparison anchors the
@@ -404,7 +404,7 @@
     [Identify an institution that operates two divisions under different capability philosophies. What does the comparison reveal that neither division could see alone?],
     [Rickover's standard was zero-defect oral examination. What is the equivalent in your domain — and would you survive it?],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -458,7 +458,7 @@
   ],
   lens-approach: [
     LENS treats GSU as the canonical positive case for predictive
-    analytics in education. LEN 2 examines the measurement architecture
+    analytics in education. LEN 4 examines the measurement architecture
     that made equity a primary outcome. LEN 7 examines the governance
     structure that kept the system as decision support rather than
     automated decision. LEN 1 uses it as a problem-framing exemplar.
@@ -472,7 +472,7 @@
     [What is the difference between GSU's predictive analytics and the algorithmic-bias cases of Chapter 5? Be specific about what makes the GSU implementation work.],
     [Design the equity-as-primary-constraint version of a predictive system in your domain. What would you measure first?],
   ),
-  courses: ("LEN 1", "LEN 2", "LEN 7"),
+  courses: ("LEN 1", "LEN 4", "LEN 7"),
 )
 
 #case(
@@ -526,8 +526,8 @@
   ],
   lens-approach: [
     LENS uses Cognitive Tutor in LEN 1 as the foundational LE-process
-    exemplar, in LEN 2 as the canonical case for Bayesian knowledge
-    tracing as a measurement instrument, and in LEN 10 as a technical
+    exemplar, in LEN 4 as the canonical case for Bayesian knowledge
+    tracing as a measurement instrument, and in LEN 9 as a technical
     case for model-based adaptive instruction.
   ],
   literature-items: (
@@ -539,5 +539,5 @@
     [Cognitive Tutor works best in well-defined domains. Identify a problem in your domain that is currently ill-structured. What would have to be true to make the LE pipeline applicable?],
     [The case is the strongest evidence the LE process works. What is the equivalent piece of evidence required to demonstrate the same pipeline in a non-cognitive domain — for example, surgical skill, or operational watchstanding?],
   ),
-  courses: ("LEN 1", "LEN 2", "LEN 10"),
+  courses: ("LEN 1", "LEN 4", "LEN 9"),
 )

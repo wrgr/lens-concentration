@@ -59,7 +59,7 @@
     blind in the dimension that killed people.
   ],
   lens-approach: [
-    LENS uses Texas City in LEN 2 as the canonical wrong-measurement
+    LENS uses Texas City in LEN 4 as the canonical wrong-measurement
     case and in LEN 7 for the governance failure that allowed years of
     cost-cutting to be reported as wins. Studio projects design the
     process-safety measurement deliverable.
@@ -73,7 +73,7 @@
     [Identify a "personal safety vs. process safety" equivalent in your domain. What capability gap is invisible to the metric your institution currently reports?],
     [Design the process-safety dashboard that BP Texas City's executives should have been receiving in 2003.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7", "LEN 3",),
 )
 
 #case(
@@ -125,7 +125,7 @@
   ],
   lens-approach: [
     LENS uses Davis-Besse in LEN 7 to study regulatory-capture
-    dynamics and in LEN 9 to compare with INPO's earlier success. The
+    dynamics and in LEN 8 to compare with INPO's earlier success. The
     case is a reminder that institutional capability requires sustained
     re-engineering.
   ],
@@ -138,7 +138,7 @@
     [Identify a regulator-operator relationship in your domain in which the regulator may be at risk of accepting the operator's economic argument over its own safety judgment. What signal would surface it?],
     [Design the institutional control that would prevent a Davis-Besse-style deferral from being granted.],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8"),
 )
 
 #case(
@@ -191,7 +191,7 @@
     safety as an institutional capability.
   ],
   lens-approach: [
-    LENS uses Mid Staffs in LEN 2 for the divergence-of-measurement
+    LENS uses Mid Staffs in LEN 4 for the divergence-of-measurement
     problem and in LEN 7 for the governance failure across multiple
     layers. Studio projects examine the Francis recommendations as a
     template for institutional reform deliverables.
@@ -205,7 +205,7 @@
     [Identify a multi-layer reporting chain in your domain. What would it take for the top layer to know whether the reports correspond to reality?],
     [The Francis Inquiry produced 290 recommendations. Pick five that you think were most load-bearing and explain why.],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7", "LEN 3",),
 )
 
 #case(
@@ -258,7 +258,7 @@
   ],
   lens-approach: [
     LENS uses Sago in LEN 5 for cumulative-inadequacy analysis and in
-    LEN 9 for the legislative-reform arc that followed. Studio projects
+    LEN 8 for the legislative-reform arc that followed. Studio projects
     compare Sago and Upper Big Branch (Case 60) as paired cases.
   ],
   literature-items: (
@@ -270,7 +270,7 @@
     [Identify a process in your domain that is marginally adequate across multiple parameters. What is the cumulative failure mode?],
     [Sago produced the MINER Act. What legislative change would your domain require if a Sago-equivalent occurred?],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -326,7 +326,7 @@
     produces it having a stake in what it reports.
   ],
   lens-approach: [
-    LENS uses Upper Big Branch in LEN 2 as the most explicit case for
+    LENS uses Upper Big Branch in LEN 4 as the most explicit case for
     measurement-system protection and in LEN 7 as a corporate-criminal
     accountability case. Studio projects examine what regulator-side
     architecture would have detected the dual-records system earlier.
@@ -340,7 +340,7 @@
     [Where in your domain could two sets of records plausibly be kept? What architectural change would make that impossible?],
     [What does it mean for a measurement system to be "structurally protected" from the institution that produces it?],
   ),
-  courses: ("LEN 2", "LEN 7"),
+  courses: ("LEN 4", "LEN 7"),
 )
 
 #case(
@@ -394,7 +394,7 @@
     institutions must be deliberately built, not assumed.
   ],
   lens-approach: [
-    LENS uses Fukushima in LEN 9 as the cross-cultural comparison to
+    LENS uses Fukushima in LEN 8 as the cross-cultural comparison to
     INPO and in LEN 7 for the regulator-utility dynamics study. The
     case is paired with INPO and Davis-Besse to triangulate what
     sustained nuclear-safety capability requires.
@@ -408,7 +408,7 @@
     [Identify a regulatory regime in your domain whose effectiveness depends on a cultural willingness to challenge authority. What if the culture changes?],
     [INPO is U.S.-specific. Design the structural features that would have to be in place for a comparable institution to function in a different national context.],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -464,8 +464,8 @@
     as a best practice.
   ],
   lens-approach: [
-    LENS uses the 2003 blackout in LEN 8 as a Human-AI Teaming case
-    for silent-automation-failure handling and in LEN 9 for the
+    LENS uses the 2003 blackout in LEN 2 as a Human-AI Teaming case
+    for silent-automation-failure handling and in LEN 8 for the
     legislative-reform arc that produced enforceable reliability
     standards.
   ],
@@ -478,5 +478,5 @@
     [Identify an automated monitoring system in your domain whose silent failure would not be detected by its operators. How would they know?],
     [Design the meta-monitor that should have been watching FirstEnergy's alarm system in 2003.],
   ),
-  courses: ("LEN 8", "LEN 9"),
+  courses: ("LEN 2", "LEN 8"),
 )

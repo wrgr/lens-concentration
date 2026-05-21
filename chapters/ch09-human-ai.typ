@@ -10,7 +10,7 @@
 
 #chapter-divider(
   part: "Part III — The Frontier",
-  number: "9",
+  number: "8",
   title: "Human-AI Teaming",
   subtitle: "The capability work the discipline has not done before.",
   epigraph: [Humans tend to tune out when tasked with monitoring automated systems that work well most of the time.],
@@ -70,7 +70,7 @@
     fatality pattern suggests the answer.
   ],
   lens-approach: [
-    LENS uses Tesla Autopilot in LEN 8 as the live consumer-scale
+    LENS uses Tesla Autopilot in LEN 2 as the live consumer-scale
     test of monitoring as a sustainable role and in LEN 7 for the
     governance dynamics of a Level-2 system marketed at the boundary
     of higher autonomy. Studio projects examine the driver-engagement
@@ -85,7 +85,7 @@
     [Identify a passive-monitoring role in your domain. What evidence would tell you whether attention is sustainable over years of operation?],
     [Design the driver-engagement architecture that would make Level-2 monitoring sustainable for an average consumer.],
   ),
-  courses: ("LEN 7", "LEN 8"),
+  courses: ("LEN 7", "LEN 2", "LEN 6",),
 )
 
 #case(
@@ -138,7 +138,7 @@
   ],
   lens-approach: [
     LENS uses Cruise in LEN 7 as a foundational autonomous-vehicle
-    governance case and in LEN 3 (Studio) for the institutional-
+    governance case and in LEN 10 (Studio) for the institutional-
     response deliverable that should pre-exist any commercial
     autonomy program.
   ],
@@ -151,7 +151,7 @@
     [What is the institutional incident-disclosure commitment in your domain? Is it operational under stress or aspirational?],
     [Design the incident-disclosure deliverable that a commercial autonomous-vehicle company should be required to demonstrate before operating.],
   ),
-  courses: ("LEN 3", "LEN 7"),
+  courses: ("LEN 10", "LEN 7"),
 )
 
 #case(
@@ -207,8 +207,8 @@
   ],
   lens-approach: [
     LENS uses COMPAS in LEN 7 as a foundational algorithmic-
-    accountability case in criminal justice, in LEN 10 for the
-    technical fairness-criterion analysis, and in LEN 2 for the
+    accountability case in criminal justice, in LEN 9 for the
+    technical fairness-criterion analysis, and in LEN 4 for the
     construct-definition question (what counts as recidivism?).
   ],
   literature-items: (
@@ -220,7 +220,7 @@
     [Identify a predictive instrument in your domain. Which fairness criterion does it optimize, and what does that imply for the population whose errors are distributed against them?],
     [Design the institutional governance deliverable that would have to be produced before COMPAS-style algorithms can be deployed in criminal justice.],
   ),
-  courses: ("LEN 2", "LEN 7", "LEN 10"),
+  courses: ("LEN 4", "LEN 7", "LEN 9"),
 )
 
 #case(
@@ -275,9 +275,9 @@
     yet been built.
   ],
   lens-approach: [
-    LENS uses radiology AI in LEN 2 for clearance-vs-deployment
+    LENS uses radiology AI in LEN 4 for clearance-vs-deployment
     measurement architecture, in LEN 7 for FDA AI/ML regulatory
-    governance, and in LEN 10 for the technical bias-detection
+    governance, and in LEN 9 for the technical bias-detection
     pipeline. The case pairs with Vioxx (Case 87) as a post-market
     surveillance failure pattern at a new technological boundary.
   ],
@@ -290,7 +290,7 @@
     [Identify a model in your domain whose deployment population diverges from its training population. What is the institutional architecture to surface the divergence?],
     [Design the demographic post-market surveillance deliverable that should accompany every FDA clearance of medical AI.],
   ),
-  courses: ("LEN 2", "LEN 7", "LEN 10"),
+  courses: ("LEN 4", "LEN 7", "LEN 9"),
 )
 
 #case(
@@ -345,9 +345,9 @@
     analog to the bibliographic discipline of academic writing.
   ],
   lens-approach: [
-    LENS uses this case in LEN 8 as the live frontier for human-AI
+    LENS uses this case in LEN 2 as the live frontier for human-AI
     teaming with LLMs, in LEN 7 for the governance of LLM deployment
-    in clinical workflows, and in LEN 3 (Studio) as a prompt for
+    in clinical workflows, and in LEN 10 (Studio) as a prompt for
     designing verification practices at the moment of use.
   ],
   literature-items: (
@@ -359,7 +359,7 @@
     [Identify a workflow in your domain currently being augmented by LLMs. What is the verification practice — and does it exist at the moment of use, or only after?],
     [Design the verification deliverable that should accompany every clinician's adoption of an LLM tool for patient-facing work.],
   ),
-  courses: ("LEN 3", "LEN 7", "LEN 8"),
+  courses: ("LEN 10", "LEN 7", "LEN 2"),
 )
 
 #case(
@@ -416,7 +416,7 @@
   ],
   lens-approach: [
     LENS uses predictive policing in LEN 7 as a foundational AI-
-    governance case in policing and in LEN 10 for the technical
+    governance case in policing and in LEN 9 for the technical
     construct-validity analysis. The case is paired with COMPAS as
     criminal-justice algorithmic cases of different kinds.
   ],
@@ -429,7 +429,7 @@
     [Identify a predictive system in your domain whose training data is itself a record of institutional behavior rather than ground truth. What is the construct gap?],
     [Design the construct-validity audit that should precede deployment of a predictive system in any institutional setting.],
   ),
-  courses: ("LEN 7", "LEN 10"),
+  courses: ("LEN 7", "LEN 9"),
 )
 
 #case(
@@ -485,7 +485,7 @@
   ],
   lens-approach: [
     LENS uses AlphaFold in LEN 1 as a problem-framing case for what
-    productive AI deployment looks like, in LEN 10 as a technical
+    productive AI deployment looks like, in LEN 9 as a technical
     achievement, and in LEN 7 for the open-release governance
     decision that distributed the benefit globally.
   ],
@@ -498,7 +498,7 @@
     [Identify a domain in your work where the conditions that supported AlphaFold's success (benchmark, training data, verifiable output) are present. What is the analogous opportunity?],
     [The open release of AlphaFold's predictions was a governance decision. Design the equivalent decision for an AI capability your institution might develop.],
   ),
-  courses: ("LEN 1", "LEN 7", "LEN 10"),
+  courses: ("LEN 1", "LEN 7", "LEN 9"),
 )
 
 #case(
@@ -554,9 +554,9 @@
     discipline must learn to ask and answer.
   ],
   lens-approach: [
-    LENS uses AI-augmented coding in LEN 8 as the largest live human-
-    AI teaming case in the dataset, in LEN 9 for the long-term
-    capability-development question, and in LEN 3 (Studio) as a
+    LENS uses AI-augmented coding in LEN 2 as the largest live human-
+    AI teaming case in the dataset, in LEN 8 for the long-term
+    capability-development question, and in LEN 10 (Studio) as a
     prompt for evaluating AI augmentation in professional practice.
   ],
   literature-items: (
@@ -568,7 +568,7 @@
     [In your domain, identify a class of practitioners whose work is currently being augmented by AI tools. What evidence would tell you whether their capability is growing or eroding?],
     [Design the longitudinal study that would distinguish capability growth from capability erosion in an AI-augmented professional practice.],
   ),
-  courses: ("LEN 3", "LEN 8", "LEN 9"),
+  courses: ("LEN 10", "LEN 2", "LEN 8"),
 )
 
 #case(
@@ -633,7 +633,7 @@
     parameter, evidence as a deliverable, ethics as design,
     implementation as a thread — are the operational form of the
     argument the ninety-nine preceding cases evidence. Every studio
-    project (LEN 3) is a small attempt at this case.
+    project (LEN 10) is a small attempt at this case.
   ],
   literature-items: (
     [Goodell & Kolodner (2022)],
@@ -644,5 +644,5 @@
     [What is the case you are positioned to add to this dataset in the next ten years — a failure prevented, a success engineered, an institution built?],
     [If this book is read by the practitioners who will write its hundred-and-first case, what should that case look like?],
   ),
-  courses: ("LEN 1", "LEN 3", "LEN 9"),
+  courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 3",),
 )

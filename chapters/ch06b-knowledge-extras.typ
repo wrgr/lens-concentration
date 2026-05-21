@@ -59,7 +59,7 @@
     institutional asset.
   ],
   lens-approach: [
-    LENS uses the Saturn V case in LEN 9 as the foundational
+    LENS uses the Saturn V case in LEN 8 as the foundational
     organizational-memory case and in LEN 1 to teach the distinction
     between recorded knowledge and institutional capability.
   ],
@@ -72,7 +72,7 @@
     [Identify a capability in your domain that is currently held in the tacit knowledge of a small number of senior practitioners. What is your institution's capacity to reproduce it after they retire?],
     [Design the institutional practice that would preserve a capability against the retirement of its holders.],
   ),
-  courses: ("LEN 1", "LEN 9"),
+  courses: ("LEN 1", "LEN 8"),
 )
 
 #case(
@@ -124,7 +124,7 @@
     institutional architecture for catching it did not exist.
   ],
   lens-approach: [
-    LENS uses Starliner in LEN 9 as a contemporary contractor-
+    LENS uses Starliner in LEN 8 as a contemporary contractor-
     capability erosion case and in LEN 5 for the contractor-NASA
     interface capability that has thinned over decades.
   ],
@@ -137,7 +137,7 @@
     [Identify a legacy supplier in your domain whose capability track record may have eroded faster than your institutional confidence in them has updated. What is the signal?],
     [Design the contractor-capability review that would have caught the Starliner gaps before the 2024 crewed flight.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8", "LEN 6",),
 )
 
 #case(
@@ -189,7 +189,7 @@
   ],
   lens-approach: [
     LENS uses Ariane 5 in LEN 5 for software-engineering capability
-    deliverables and in LEN 9 for the institutional discipline that
+    deliverables and in LEN 8 for the institutional discipline that
     treats reuse as a verification event rather than as a savings.
   ],
   literature-items: (
@@ -201,7 +201,7 @@
     [Identify a piece of reused infrastructure in your domain whose original operating envelope is not documented. What is the silent assumption?],
     [Design the verification deliverable that should accompany every reuse of safety-critical software.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -255,9 +255,9 @@
   ],
   lens-approach: [
     LENS uses Tacoma Narrows in LEN 1 as a problem-framing exemplar
-    for discipline-level learning, in LEN 9 as the canonical case for
+    for discipline-level learning, in LEN 8 as the canonical case for
     successful institutional knowledge absorption, and in studio
-    (LEN 3) as a worked example of what discipline-level reform
+    (LEN 10) as a worked example of what discipline-level reform
     requires.
   ],
   literature-items: (
@@ -269,7 +269,7 @@
     [Identify a failure mode in your discipline that the field has not yet learned to recognize. What would be the equivalent Tacoma Narrows event?],
     [What institutional architecture absorbed the Tacoma Narrows lesson into the structural-engineering curriculum so durably? Describe its equivalent in your discipline.],
   ),
-  courses: ("LEN 1", "LEN 9"),
+  courses: ("LEN 1", "LEN 8"),
 )
 
 #case(
@@ -322,7 +322,7 @@
   ],
   lens-approach: [
     LENS uses Aliso Canyon in LEN 7 for regulatory-architecture
-    capability and in LEN 9 for the institutional pattern of legacy
+    capability and in LEN 8 for the institutional pattern of legacy
     assets aging past the regime governing them.
   ],
   literature-items: (
@@ -334,5 +334,5 @@
     [Identify legacy infrastructure in your domain whose age exceeds the inspection regime designed for it. What is the capability deliverable to update the regime?],
     [Design the regulator's deliverable that would force re-inspection of legacy infrastructure as the inspection regime is updated.],
   ),
-  courses: ("LEN 7", "LEN 9"),
+  courses: ("LEN 7", "LEN 8"),
 )

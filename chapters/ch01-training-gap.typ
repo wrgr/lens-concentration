@@ -65,11 +65,11 @@
   ],
   lens-approach: [
     LENS treats this as the worked example of LEN 5 (Human Capability
-    Analysis and Requirements) interacting with LEN 2 (Evidence and
+    Analysis and Requirements) interacting with LEN 4 (Evidence and
     Measurement). Students reconstruct the capability requirements for
     underway watchstanding from operational analysis and design the
     evidence system that would have surfaced the gap before the
-    collisions. LEN 9 covers the institutional dynamics of deferred
+    collisions. LEN 8 covers the institutional dynamics of deferred
     training.
   ],
   literature-items: (
@@ -81,7 +81,7 @@
     [The Navy replaced 16 weeks of classroom and simulator training with CD-ROM self-study in 2003. What measurement would have detected the capability shortfall before 2017?],
     [Strategic Readiness Review found the readiness-reporting system had itself stopped working. Design a capability-evidence pipeline that would not normalize its own gaps.],
   ),
-  courses: ("LEN 1", "LEN 5", "LEN 9"),
+  courses: ("LEN 1", "LEN 5", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -130,7 +130,7 @@
   lens-approach: [
     LENS uses AF447 in LEN 5 to teach the difference between the trained
     capability envelope and the operational capability envelope, and in
-    LEN 8 to introduce human-AI handoff as a capability problem: the
+    LEN 2 to introduce human-AI handoff as a capability problem: the
     autopilot disconnection was a transition the crew had been trained to
     avoid rather than to handle. The case maps directly to canonical
     problem type three — Capability Cliff at Automation Boundary.
@@ -144,7 +144,7 @@
     [The simulators of 2009 could not produce high-altitude stall behavior. What is the equivalent gap in your domain — the operational regime your training environment cannot reproduce?],
     [Design the recurrent-training curriculum that would have caught the AF447 gap. Be specific about cost, evidence, and what makes the curriculum falsifiable against the operational record.],
   ),
-  courses: ("LEN 1", "LEN 5", "LEN 8"),
+  courses: ("LEN 1", "LEN 5", "LEN 2"),
 )
 
 #case(
@@ -261,7 +261,7 @@
   ],
   lens-approach: [
     LENS uses INDOPACOM in LEN 5 to teach the gap between stated
-    requirements and engineered requirements, and in LEN 9 to examine the
+    requirements and engineered requirements, and in LEN 8 to examine the
     organizational dynamics that allow declared priorities to coexist with
     unfunded capability gaps for a decade. The case is also a live test
     for any student's claim about how to engineer cross-service capability
@@ -276,7 +276,7 @@
     [In your domain, what is the gap between *declared* priority and *engineered* priority? How would you measure it?],
     [Construct the capability requirements artifact for a theater you do not currently operate in. What would it cost, and who would sign for it?],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -343,7 +343,7 @@
     [Pick a current technology platform in your domain. Estimate the capability infrastructure that must field with it. What happens if half of that infrastructure is six years late?],
     [The F-35 program treated maintainer training as follow-on cost. Design a fielding gate that would prevent that decision being available to a future program manager.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8", "LEN 3",),
 )
 
 #case(
@@ -393,7 +393,7 @@
   ],
   lens-approach: [
     LENS treats Kegworth in LEN 5 as the canonical *system-change*
-    capability problem and in LEN 9 as the institutional version: how
+    capability problem and in LEN 8 as the institutional version: how
     knowledge about what has changed travels from engineering to
     operations and what gets lost in transit. The case sits alongside
     Patriot (Case 19) in the canonical problem-type pair for system
@@ -408,7 +408,7 @@
     [The Kegworth crew's mental model was right for the previous variant. What change in your domain currently risks an analogous misapplication?],
     [Difference training is a generic deliverable in transition programs. Design the artifact that would make differences hard to overlook rather than easy.],
   ),
-  courses: ("LEN 5", "LEN 9"),
+  courses: ("LEN 5", "LEN 8"),
 )
 
 #case(
@@ -460,9 +460,9 @@
   ],
   lens-approach: [
     LENS uses fratricide in LEN 5 to teach systems-of-systems capability
-    analysis and in LEN 8 to introduce combat identification as a
+    analysis and in LEN 2 to introduce combat identification as a
     Human-AI Teaming problem (operators rely on automated IFF systems
-    whose limitations are not in their training). LEN 9 examines why
+    whose limitations are not in their training). LEN 8 examines why
     decades of awareness have not produced a sustained reduction.
   ],
   literature-items: (
@@ -474,5 +474,5 @@
     [Identify a capability problem in your domain that has been the subject of repeated programs without sustained improvement. What is the integration gap that the programs do not address?],
     [Design a measurement system that would distinguish a temporary improvement in fratricide rate from a structural one.],
   ),
-  courses: ("LEN 5", "LEN 8", "LEN 9"),
+  courses: ("LEN 5", "LEN 2", "LEN 8"),
 )

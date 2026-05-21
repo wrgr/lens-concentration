@@ -11,7 +11,7 @@
 
 #chapter-divider(
   part: "Part I — The Failure Modes",
-  number: "2",
+  number: "4",
   title: "Designed Out",
   subtitle: "Capability was removed to save cost.",
   epigraph: [If we emphasize MCAS is a new function there may be greater certification and training impact.],
@@ -87,7 +87,7 @@
     [If a customer contract required removing a training requirement you judged necessary, what artifact would you produce, who would you route it to, and what would you do if the routing failed?],
     [Reconstruct the MAX accident as a *capability-requirements* failure: what was the elided requirement, at what life-cycle stage was it elided, and who had the authority to insert it?],
   ),
-  courses: ("LEN 1", "LEN 5", "LEN 8"),
+  courses: ("LEN 1", "LEN 5", "LEN 2"),
 )
 
 // ---------------- CASE 7: THERAC-25 ----------------
@@ -157,9 +157,9 @@
   ),
   reflection-list: (
     [Identify a system in your domain that migrated a safety function from hardware to software. Where did the human-capability load go, and who is accountable for sustaining it?],
-    [Therac-25 operators saw "MALFUNCTION 54" and continued treatment. Redesign that interface using LEN 8 principles so that the operator's correct action is the easiest action.],
+    [Therac-25 operators saw "MALFUNCTION 54" and continued treatment. Redesign that interface using LEN 2 principles so that the operator's correct action is the easiest action.],
   ),
-  courses: ("LEN 5", "LEN 7", "LEN 8"),
+  courses: ("LEN 5", "LEN 7", "LEN 2"),
 )
 
 // ---------------- CASE 19: PATRIOT MISSILE ----------------
@@ -216,7 +216,7 @@
     LENS treats Patriot as the textbook example of *Capability Degradation
     Under System Change*. LEN 5 methods require operators of any
     transitioning system to have current capability-relevant documentation
-    specifying what assumptions of the original design have changed. LEN 9
+    specifying what assumptions of the original design have changed. LEN 8
     examines how organizational knowledge about design constraints travels
     from engineering to operations — and why, here, it arrived a day late.
   ],
@@ -229,5 +229,5 @@
     [The Patriot's design assumed short engagements. What assumption in a current system you work with would become lethal if the operational context shifted, and how would operators learn of the shift?],
     [Construct the capability-transition artifact that should have accompanied the redeployment of Patriot batteries from Europe to Saudi Arabia. What would it have said, and who would have signed it?],
   ),
-  courses: ("LEN 5", "LEN 9", "LEN 10"),
+  courses: ("LEN 5", "LEN 8", "LEN 9", "LEN 6",),
 )
