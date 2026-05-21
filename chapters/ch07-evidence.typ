@@ -24,7 +24,7 @@
   year: "ongoing",
   domains-list: ("healthcare",),
   modes-code: "THNKG",
-  impact: "250,000+ deaths/year in the U.S. — third leading cause of death",
+  impact: "Makary & Daniel (2016) estimate of ~250,000 U.S. deaths/year from medical error — third leading cause; estimate is widely cited and substantively contested",
   diagram: dgm.dgm-makary,
   body: [
     Not a single incident but a systemic condition. Makary & Daniel
@@ -37,11 +37,24 @@
     medical error as a cause, so the problem is structurally invisible
     to the measurement systems that should track it.
 
+    The 250,000 figure has been substantively contested in the
+    patient-safety literature: Shojania and Dixon-Woods (*BMJ Quality &
+    Safety*, 2017), among others, argued that Makary's extrapolation
+    relied on a small number of studies, conflated preventable with
+    unpreventable harm, and underweighted competing causes of death.
+    The casebook treats the figure as anchor evidence for the *scale*
+    of the capability gap while noting that the precise count is the
+    subject of an active methodological debate — itself an instance
+    of the *gap-attribution* problem the discipline must learn to
+    diagnose: how much of a counted death is the learning system, how
+    much is the system design, and how much is the underlying
+    disease?
+
     The Institute of Medicine's *To Err Is Human* (1999) had earlier
     estimated 44,000–98,000 deaths annually and catalyzed the patient-
     safety movement, TeamSTEPPS (Case 27), surgical checklists (Case 13),
     and Keystone ICU (Case 14). The Makary study — seventeen years later
-    — showed the problem persists at scale despite significant
+    — argued the problem persists at scale despite significant
     intervention. The gap between effective interventions and their
     consistent implementation across six thousand U.S. hospitals is
     itself a capability-engineering problem.
@@ -53,6 +66,7 @@
   quote-source: "Martin Makary, press statements accompanying Makary & Daniel, BMJ (2016)",
   sources-list: (
     [Makary & Daniel, "Medical error — the third leading cause of death in the US," _BMJ_ (2016)],
+    [Shojania & Dixon-Woods, "Estimating deaths due to medical error: the ongoing controversy and why it matters," _BMJ Quality & Safety_ (2017)],
     [Institute of Medicine, _To Err Is Human_ (1999)],
     [World Health Organization, World Patient Safety Day reports],
     [AHRQ Patient Safety Network statistics],

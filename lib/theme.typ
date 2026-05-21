@@ -65,6 +65,7 @@
 #let domains = (
   defense:    ("Defense",            navy-mid),
   aviation:   ("Aviation",           navy-mid),
+  space:      ("Space / Aerospace",  navy-mid),
   healthcare: ("Healthcare",         teal),
   energy:     ("Energy",             gold),
   education:  ("Education at Scale", teal),

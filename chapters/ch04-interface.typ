@@ -90,21 +90,27 @@
   year: "2005 – present",
   domains-list: ("healthcare",),
   modes-code: "HDG",
-  impact: "$40B federal investment; documented increase in pediatric ICU mortality post-CPOE; ongoing usability harm at scale",
+  impact: "~$30B federal investment under HITECH; documented increase in pediatric ICU mortality post-CPOE at one institution; ongoing usability harm at scale",
   diagram: dgm.dgm-ehr,
   body: [
-    The HITECH Act of 2009 invested approximately forty billion dollars to
-    accelerate Electronic Health Record adoption. Adoption surged.
-    Computerized Provider Order Entry — CPOE — was deployed widely. So
-    were new categories of harm. Han et al. (2005) found that deploying
-    CPOE in a pediatric ICU was associated with *increased* mortality:
-    the system disrupted established workflows and introduced new error
-    pathways at the moment of greatest acuity.
+    The HITECH Act of 2009 authorized roughly thirty billion dollars in
+    incentive payments to accelerate Electronic Health Record adoption.
+    Adoption surged. Computerized Provider Order Entry — CPOE — was
+    deployed widely. So were new categories of harm. Han et al. (2005)
+    reported that deployment of a commercial CPOE system at one
+    pediatric ICU was associated with a near-doubling of mortality
+    (the result is from a single institution and provoked debate; later
+    studies of other CPOE deployments showed mixed or improved
+    outcomes). The finding remains canonical for the warning that
+    powerful tools without surrounding workflow and human-factors
+    integration can disrupt established practice at the moment of
+    greatest acuity.
 
-    A University of Utah study across one hundred twelve hospitals found
-    that "poor usability of EHRs is the number one complaint of doctors,
-    nurses, pharmacists, and most health care professionals" and that
-    user experience strongly correlated with safety performance. A
+    A 2023 KLAS Arch Collaborative survey across more than two hundred
+    hospitals found that EHR usability is consistently the number-one
+    complaint of physicians, nurses, and pharmacists, and that
+    end-user experience scores correlate with patient-safety
+    outcomes. A
     patient's cancer treatment was delayed by years because a default
     setting surfaced an old normal Pap result instead of a recent
     abnormal one. A baby died from a drug overdose caused by a
@@ -119,7 +125,7 @@
   quote-source: "Paraphrasing Sittig & Singh, EHR-related safety risks, 2013",
   sources-list: (
     [Han et al., "Unexpected Increased Mortality After Implementation of a Commercially Sold CPOE System," _Pediatrics_ (2005)],
-    [University of Utah / Leapfrog Group EHR safety study (2023)],
+    [KLAS Arch Collaborative, EHR usability and safety surveys (2023)],
     [AMA / Pew / MedStar EHR Usability Report (2018)],
     [AHRQ Patient Safety Network, EHR-related harm cases],
   ),

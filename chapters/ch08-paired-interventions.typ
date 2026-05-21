@@ -96,7 +96,7 @@
   year: "2004 – present",
   domains-list: ("healthcare",),
   modes-code: "TN",
-  impact: "Central-line bloodstream infections reduced to near zero across 103 Michigan ICUs; 1,500 lives saved in 18 months; $75M saved; sustained at ten years",
+  impact: "Central-line-associated bloodstream infections (CLABSI) reduced to near zero across 103 Michigan ICUs; ~1,500 lives saved in 18 months; ~$75M saved; sustained at ten years",
   diagram: dgm.dgm-keystone,
   body: [
     Peter Pronovost's checklist for central-line insertion has five items.
@@ -114,8 +114,9 @@
     crossing the hospital's authority gradient. After Keystone, the path
     existed and was institutional.
 
-    The result across 103 Michigan ICUs was the elimination of central-line
-    bloodstream infections as a category. The typical ICU's quarterly
+    The result across 103 Michigan ICUs was the elimination of
+    central-line-associated bloodstream infections (CLABSI) as a
+    category. The typical ICU's quarterly
     infection rate fell to zero. Michigan's ICUs outperformed 90 percent of
     ICUs nationwide. The program has been adopted in more than forty states
     and replicated internationally. At ten-year follow-up, the effect has

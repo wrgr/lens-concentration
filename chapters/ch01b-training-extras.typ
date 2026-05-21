@@ -250,8 +250,9 @@
     "ad hoc-ery" of the mission: each service contributed its own
     units, its own equipment, its own command relationships, and its
     own communications systems. The aircrews had not trained together.
-    The helicopters had been chosen to fit aboard the carrier rather
-    than for their suitability to the mission. There was no standing
+    The RH-53D Sea Stallions had been selected for their range and
+    for the minesweeping cover story (deniability) rather than for
+    their suitability to a desert-rescue mission. There was no standing
     joint special-operations command to which the mission could be
     assigned. The capability had to be improvised, and the improvisation
     failed.
@@ -313,13 +314,13 @@
     caption: "Helios 522 — a cue carrying two meanings without differentiation",
   ),
   body: [
-    The crew of Helios 522 ignored a configuration warning horn shortly
-    after takeoff from Larnaca because the same horn is used on the
-    Boeing 737 to indicate an incorrect takeoff configuration on the
-    ground — and the crew had been trained that the horn could only
-    sound on the ground. The pressurization system had been left in
-    "manual" after maintenance the night before, and the cabin failed
-    to pressurize. By the time the aircraft reached altitude the crew
+    The crew of Helios 522 ignored a warning horn shortly after
+    takeoff from Larnaca because the same intermittent horn used on
+    the Boeing 737 to indicate incorrect takeoff configuration on the
+    ground sounds, in flight, when cabin altitude exceeds
+    approximately 10,000 feet. The pressurization selector had been
+    left in "manual" after a pressurization leak check the previous
+    night, and the cabin failed to pressurize. By the time the aircraft reached altitude the crew
     was hypoxic; by the time it neared Athens, only one cabin attendant
     remained conscious. The aircraft circled Athens on autopilot until
     fuel exhaustion and crashed into a hillside.

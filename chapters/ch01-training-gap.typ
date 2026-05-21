@@ -231,7 +231,9 @@
     The 2022 National Defense Strategy designates the Indo-Pacific as DoD's
     priority theater and China as its "pacing challenge." The U.S. Marine
     Corps has nevertheless been unable to meet training requirements at
-    Indo-Pacific training ranges for nearly a decade. GAO has documented
+    Indo-Pacific training ranges for nearly a decade. GAO-24-107463
+    examined military readiness across services and domains; this case
+    focuses on the Marine Corps strand, where the agency documented
     workarounds — rotations back to CONUS for ranges that exist there,
     virtual training substitutes, multinational exercises pressed into
     proxy duty — but the structural gap persists.

@@ -35,11 +35,13 @@
     produced.
 
     The CSB's Texas City report became the most influential CSB report
-    in the agency's history. It introduced the concept of *process
-    safety* — distinct from personal safety — to U.S. industrial
-    regulation. Personal-safety metrics at BP Texas City had been
-    among the best in the industry. Process-safety metrics, had anyone
-    been measuring them, would have shown the opposite.
+    in the agency's history. It elevated the distinction between
+    *process safety* and personal safety — developed over decades in
+    the CCPS literature and codified in OSHA's 1992 PSM standard —
+    into mainstream U.S. industrial-regulation practice after 2005.
+    Personal-safety metrics at BP Texas City had been among the best
+    in the industry. Process-safety metrics, had anyone been
+    measuring them, would have shown the opposite.
 
     The case is the canonical evidence that the wrong measurement is
     worse than no measurement.

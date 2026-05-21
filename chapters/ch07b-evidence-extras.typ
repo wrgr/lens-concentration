@@ -303,13 +303,17 @@
   ),
   body: [
     Merck's COX-2 inhibitor Vioxx (rofecoxib) was approved by the FDA
-    in 1999 for arthritis pain and prescribed widely. Subsequent
-    trials, particularly the APPROVe trial, identified an increased
-    risk of cardiovascular events that internal Merck analyses had
-    also detected as early as 2000. The disclosure architecture between
-    Merck's internal data, the FDA reviewers, and the prescribing
-    physician community did not surface the magnitude of the
-    cardiovascular risk to a decision boundary for nearly four years.
+    in 1999 for arthritis pain and prescribed widely. The VIGOR trial
+    (results published 2000) reported a five-fold higher rate of
+    myocardial infarction in the Vioxx arm versus naproxen — a
+    signal that Merck and many readers interpreted as a protective
+    effect of naproxen rather than a cardiovascular risk of Vioxx.
+    The APPROVe trial (terminated September 2004) ultimately
+    established the cardiovascular risk on a placebo comparison and
+    triggered withdrawal. The disclosure architecture between Merck's
+    internal data, the FDA reviewers, and the prescribing community
+    did not surface the magnitude of the cardiovascular risk to a
+    decision boundary for nearly four years between VIGOR and APPROVe.
 
     The Vioxx case is foundational in U.S. drug safety for the gap
     between manufacturer-held adverse-event data and the public-

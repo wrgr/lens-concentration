@@ -249,11 +249,16 @@
     the peer-reviewed literature to perform worse in deployment than
     in their validation studies, often with the degradation
     concentrated in patient populations under-represented in the
-    training data. The DenseNet chest X-ray case (Larrazabal et al.
-    2020) showed substantial drops in sensitivity for groups not well
-    represented in training. Similar patterns have been documented in
-    mammography AI, sepsis-prediction tools, and skin-lesion
-    classifiers.
+    training data. Larrazabal et al. (PNAS 2020) demonstrated this
+    structurally for chest X-ray classifiers — substantial drops in
+    sensitivity for groups under-represented in training. Adjacent
+    work in non-imaging clinical AI (Obermeyer et al., Science 2019,
+    on a widely deployed care-management algorithm) showed that bias
+    in the *labels* used to train clinical AI can systematically
+    under-allocate resources to Black patients even when the
+    algorithm appears statistically well-calibrated. Similar patterns
+    have been documented in mammography AI, sepsis-prediction tools,
+    and skin-lesion classifiers.
 
     The FDA's 510(k) clearance process for medical AI does not
     routinely require demographic stratification of validation

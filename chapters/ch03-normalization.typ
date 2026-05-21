@@ -89,7 +89,7 @@
   number: 6,
   title: "Challenger & Columbia",
   year: "1986 / 2003",
-  domains-list: ("aviation",),
+  domains-list: ("space",),
   modes-code: "NKG",
   impact: "14 astronauts killed (7 per accident); 17 years between identical organizational pathologies",
   diagram: dgm.dgm-shuttle,

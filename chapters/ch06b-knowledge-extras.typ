@@ -79,7 +79,7 @@
   number: 79,
   title: "Boeing Starliner",
   year: "2019 – 2024",
-  domains-list: ("aviation",),
+  domains-list: ("space",),
   modes-code: "KD",
   impact: "Multiple delays; the 2024 crewed flight left two NASA astronauts at the ISS for months; contemporary case for capability erosion at a legacy contractor",
   diagram: dgm.dgm-cascade(
@@ -144,7 +144,7 @@
   number: 80,
   title: "Ariane 5 Flight 501",
   year: "1996",
-  domains-list: ("aviation",),
+  domains-list: ("space",),
   modes-code: "DKH",
   impact: "Maiden flight destroyed itself 37 seconds after launch; ~$500M payloads lost; reused Ariane 4 code never re-verified for Ariane 5",
   diagram: dgm.dgm-stat(

@@ -172,44 +172,59 @@ The book now contains 100 cases:
 
 ## Outstanding — could be closed inside this print run
 
-### Domain-reviewer tail (low-stakes nits, not yet applied)
-- **Texas City (56)** process-safety-origin nuance — "elevated"
-  rather than "introduced" the distinction.
-- **Asiana 214 (44)**: harmonize 187 injured vs 49 seriously
-  injured in impact line vs body.
-- **Atlas Air 3591 (49)**: confirm NTSB report number formatting
-  (AAR-20/02 with slash, not dash).
-- **Boeing Starliner (79)** and **Ariane 5 (80)**: domain tag is
-  `aviation`; reviewer flagged `aerospace` or `space` as more
-  accurate.
-- **GAO-24-107463** scope clarification — one sentence in Case 9
-  noting the report covers all services, not Marines only.
-- **Helios 522 (47)** horn ambiguity wording — minor precision.
-- **Singapore Airlines (91)** framing — aviation expert review.
-- **Eagle Claw (46) RH-53D selection rationale** — soften "fit
-  aboard carrier" to "range and deniability".
+### Domain-reviewer tail — RESOLVED this iteration
+- **Texas City (56)**: replaced "introduced the concept of process
+  safety" with "elevated the distinction... developed over decades
+  in the CCPS literature and codified in OSHA's 1992 PSM standard."
+- **Boeing Starliner (79)** and **Ariane 5 (80)**: domain tag
+  changed from `aviation` to new `space` domain (added to
+  theme.typ alongside existing tags). **Challenger & Columbia (6)**
+  and **Mars Climate Orbiter (54)** also retagged `space`.
+- **GAO-24-107463 scope clarification**: one sentence added to
+  Case 9 noting the report covers all services, with the case
+  focusing on the Marine Corps strand.
+- **Helios 522 (47)**: horn wording made precise (cabin altitude
+  >10,000 ft trigger; pressurization selector left in "manual"
+  after leak check).
+- **Singapore Airlines (91)**: SQ006 framing softened to the
+  literal accident facts (closed runway 05R at Taipei Taoyuan
+  during Typhoon Xangsane; 83 fatalities).
+- **Eagle Claw (46)**: RH-53D selection rationale corrected to
+  "range and minesweeping cover story (deniability) rather than
+  for their suitability to a desert-rescue mission."
 
-### Healthcare review tail
-- Han 2005 single-institution caveat (case 25 EHR/CPOE).
-- HITECH dollar figure precision.
-- KLAS / Leapfrog citation precision.
-- Makary 250K methodological critique (already framed; verify
-  Shojania & Dixon-Woods, Yale Wears-Sutcliffe critique are
-  referenced).
-- CLABSI vs. CRBSI nomenclature.
-- WHO Checklist Urbach 2014 replication caveat.
-- Vioxx VIGOR / APPROVe timing.
-- Mid Staffordshire framing (Francis 2013 dating).
-- Bristol dates (1984–2001 inclusive).
-- Obermeyer / Larrazabal cross-citation check.
+### Healthcare review tail — RESOLVED this iteration
+- **EHR/CPOE (25)**: HITECH figure corrected to ~$30B incentive
+  payments (was $40B); Han 2005 single-institution caveat added;
+  University of Utah / Leapfrog citation replaced with KLAS Arch
+  Collaborative (2023).
+- **Keystone ICU (14)**: CLABSI (central-line-associated
+  bloodstream infections) nomenclature added; tildes added to
+  "1,500 lives" and "$75M".
+- **WHO Surgical Checklist (13)**: Urbach et al. 2014 NEJM Ontario
+  replication caveat added — no statistically significant mortality
+  reduction post-mandate; implementation-fidelity framing applied.
+- **Medical Errors / Makary (31)**: Shojania & Dixon-Woods (BMJ
+  Q&S 2017) methodological critique added; figure framed as
+  "anchor evidence for scale" with explicit acknowledgement of the
+  ongoing methodological debate; serves as a worked example of
+  the gap-attribution problem.
+- **Vioxx (88-ish)**: VIGOR (2000) and APPROVe (2004) timing made
+  explicit; naproxen-protective-effect misinterpretation framed.
+- **Bristol Heart (90)**: year range corrected to "1984 – present"
+  to match Kennedy Inquiry coverage (1984–1995 incident period).
+- **Radiology AI (95)**: Obermeyer (Science 2019) and Larrazabal
+  (PNAS 2020) cross-citation harmonized in body prose.
 
-### Citation polish
+### Other polish — RESOLVED this iteration
+- **Cervantes ASEE editorial flag**: removed per editor
+  confirmation of senior-author attribution.
+
+### Still outstanding
+- **Mid Staffordshire (58)** framing nit — reviewer comment was
+  general; no specific fix identified, current text reads cleanly.
 - ~16 trade-book references without DOI (publisher policy; no
   action needed — ISBN serves as identifier).
-- Cervantes et al. (2023) ASEE — Will has confirmed senior-author
-  attribution; the editorial flag can be removed in next revision.
-
-### Style / consistency
 - Spot pass on British vs. American spelling (manoeuvre vs
   maneuver — context-dependent, OK to leave).
 - Widow / orphan control across 100 case spreads (designer pass).

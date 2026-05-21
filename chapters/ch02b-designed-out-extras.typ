@@ -210,7 +210,7 @@
   number: 54,
   title: "Mars Climate Orbiter — Unit Mismatch",
   year: "1999",
-  domains-list: ("aviation",),
+  domains-list: ("space",),
   modes-code: "DK",
   impact: "$327M spacecraft lost on approach to Mars; ground software produced thrust output in pound-force while navigation expected newtons",
   diagram: dgm.dgm-flow(

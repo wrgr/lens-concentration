@@ -37,12 +37,18 @@
     Gawande's framing — that gaps in teamwork and safety practices in
     surgery are substantial in countries both rich and poor — was
     confirmed in every site. The intervention scaled because it
-    addressed the same gap everywhere.
+    addressed the same gap everywhere. A subsequent Ontario population
+    study (Urbach et al., NEJM 2014) found no statistically significant
+    mortality reduction after mandated province-wide adoption, raising
+    the implementation-fidelity question that the success cases in
+    this book repeatedly surface: the artifact is only as effective
+    as the surrounding system that authorizes its honest use.
   ],
   quote: [Gaps in teamwork and safety practices in surgery are substantial in countries both rich and poor.],
   quote-source: "Haynes, Weiser, Berry et al., NEJM, 2009",
   sources-list: (
     [Haynes et al., "A Surgical Safety Checklist to Reduce Morbidity and Mortality," _NEJM_ (2009)],
+    [Urbach et al., "Introduction of Surgical Safety Checklists in Ontario, Canada," _NEJM_ (2014)],
     [WHO Safe Surgery Saves Lives campaign documentation],
     [Gawande, _The Checklist Manifesto_ (2009)],
     [ScienceDaily, surgical-checklist long-term outcomes],

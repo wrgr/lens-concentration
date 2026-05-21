@@ -149,7 +149,7 @@
 #case(
   number: 90,
   title: "Bristol Heart Babies Reform",
-  year: "1991 – present",
+  year: "1984 – present",
   domains-list: ("healthcare",),
   modes-code: "GN",
   impact: "Foundational UK case in clinical outcomes transparency; produced specialty-level performance reporting in UK cardiac surgery",
@@ -241,10 +241,11 @@
     investor in CRM-style culture work tuned to its operating
     context.
 
-    The SQ 006 accident in 2000 — runway incursion at Taipei in a
-    typhoon — produced a sustained institutional self-examination
-    that became a case study in the literature on post-accident
-    institutional learning. The airline's response — operational
+    The SQ006 accident in 2000 — attempted takeoff on a closed,
+    partially-construction runway (05R) at Taipei Taoyuan during
+    Typhoon Xangsane, with 83 fatalities — produced a sustained
+    institutional self-examination that became a case study in the
+    literature on post-accident institutional learning. The airline's response — operational
     changes, training updates, public transparency about what had
     happened and why — is referenced in commercial aviation as one
     of the model post-accident institutional responses.
