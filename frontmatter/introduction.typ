@@ -289,9 +289,76 @@
   can do the work the cases in this book required, and who can build
   the institutions that the success cases in Part II had to invent.
   The curriculum threading commitments — implementation science as a
-  through-line, equity as a design commitment rather than an audit, and
-  decision-grade evidence as a deliverable rather than a report — are
-  drawn directly from the patterns the cases reveal.
+  through-line, equity as a design commitment rather than an audit,
+  decision-grade evidence as a deliverable rather than a report,
+  communication and system-of-systems integration as engineerable
+  properties of the system, and the disciplined use of learning-
+  technology aids (from XR to adaptive platforms) as instruments
+  whose evaluation is part of the work — are drawn directly from the
+  patterns the cases reveal.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  Two of those commitments deserve a moment of their own — they are
+  the substrate the rest of the curriculum runs on. The first is
+  *communication, translation, and system-of-systems integration*. A
+  striking number of cases in this book are, at their proximate
+  cause, translation or integration failures across boundaries —
+  failures of language, convention, unit, role, agency, or discipline
+  to carry meaning reliably from one part of a system to another, or
+  failures of subsystems built to different assumptions to compose
+  into a working whole. Mars Climate Orbiter was a metric-versus-
+  imperial translation failure (Case 54). Tenerife was a translation
+  failure at the takeoff-clearance boundary between two cockpits and
+  a tower under fog and time pressure (Case 12). The Patriot at
+  Dhahran failed because the manufacturer's assumption about run
+  time and the operator's actual run time were on opposite sides of
+  a documentation boundary that had not been engineered to be
+  crossed (Case 19). Eagle Claw failed because the rotary-wing,
+  fixed-wing, ground, and command components were assembled across
+  service boundaries that had no shared operating practice (Case 46).
+  9/11 was a cross-agency translation failure measured in thousands
+  of dead (Case 86). Boeing 737 MAX was, at one level, an integration
+  failure: a single-string sensor, a flight-control law that assumed
+  pilot mental models from prior models, and a certification chain
+  that did not knit the pieces together (Case 2). The successful
+  cases — AlphaFold (Case 98), MICrONS, CRM (Case 12 paired with
+  Case 23), Keystone (Case 14), the paired-intervention examples in
+  Chapter 8 — are, equivalently, cases of disciplined translation
+  and integration: biology into computation, science into
+  operational practice, technical reform into cultural reform,
+  multiple subsystems into a working whole. Engineering capability
+  across these boundaries — language, discipline, agency,
+  subsystem-to-subsystem, system-of-systems — is itself a designable
+  target. The LENS curriculum treats it as such.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The second is *technology aids and learning platforms*. The
+  discipline has at its disposal a fast-evolving toolkit: extended-
+  reality (XR) simulation environments — VR, AR, and mixed-reality
+  systems used for procedural training, spatial-reasoning practice,
+  and high-fidelity rehearsal under conditions that would be
+  unsafe or impossible in the field — together with learning-
+  management systems, adaptive learning platforms (the lineage from
+  Cognitive Tutor and ASSISTments to current ITS work; Cases 42,
+  38), intelligent tutoring frameworks such as GIFT, learning-
+  analytics infrastructures such as xAPI and the Total Learning
+  Architecture (Case 40), game-based learning environments, LLM-
+  augmented tutors and authoring tools, and high-fidelity simulators
+  in aviation, surgery, defense, and process industries. These tools
+  are not the discipline. They are the discipline's instruments —
+  and the cases in this book show, repeatedly, that powerful
+  instruments do not by themselves engineer capability (Cases 8,
+  21, 25, 38, 96, 99). The LENS curriculum teaches the practitioner
+  to choose, configure, evaluate, and govern these tools with the
+  same evidentiary discipline applied to any other intervention,
+  and to recognize when the binding constraint is the surrounding
+  architecture rather than the tool itself.
 ]
 
 // -------------------------------------------------------------------
@@ -349,15 +416,17 @@
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  the four pillars  ·  what makes lens credible"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  why LENS  ·  the four pillars"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   A specialization that promises to teach a discipline still being
   built must show that its credibility rests on more than its
-  ambitions. LENS stands on four pillars. Each is a real institutional
-  asset, with a record. None of them, alone, would carry the
-  argument; the pillars are load-bearing together.
+  ambitions. LENS stands on four pillars: *Mission Literacy*, *JHU
+  Ecosystem*, *Intersectional Expertise*, and *Capability Focus*.
+  Each is a real institutional asset, with a record. None of them,
+  alone, would carry the argument; the pillars are load-bearing
+  together.
 ]
 
 #v(10pt)
@@ -369,59 +438,67 @@
   stroke: (left: 2pt + gold),
   {
     set par(leading: 0.6em)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Mission"))
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Mission Literacy"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
-      Real operational problems, real sponsors, real consequences.
-      LENS is anchored in the conviction that the discipline must
-      earn its keep on missions whose success or failure can be
-      observed by people other than its practitioners. The cases in
-      this book are mission cases. The pilots that inform the
-      pedagogy are mission pilots. Capability is not an academic
-      abstraction; it is what allows the mission to be accomplished.
+      Real operational problems, real sponsors, real consequences —
+      and the disciplined ability to read them. LENS is anchored in
+      the conviction that the practitioner must be able to enter an
+      operational setting, listen to the people doing the work,
+      understand what the mission actually requires, and translate
+      that understanding into design and measurement decisions that
+      a serious reviewer would accept. Mission literacy is what makes
+      the cases in this book teachable as cases and not as anecdotes.
     ]
     v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Ecosystem"))
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("JHU Ecosystem"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       An institutional environment broad and deep enough to host the
-      discipline. At Johns Hopkins this is the School of Education with
-      its centers, doctoral programs, and faculty in learning sciences,
-      educational measurement, and design-based research; the practice
-      partners across the university (Armstrong Institute for Patient
-      Safety and Quality at the School of Medicine; the Bloomberg
-      School of Public Health's implementation-science tradition;
-      Whiting School engineering and cognitive science; the Berman
-      Institute's governance and ethics work); and the partnerships
-      with sponsor and operational organizations that bring real
-      problems through the door.
+      discipline. At Johns Hopkins this is the School of Education
+      with its centers, doctoral programs, and faculty in learning
+      sciences, educational measurement, and design-based research;
+      the practice partners across the university (Armstrong Institute
+      for Patient Safety and Quality at the School of Medicine; the
+      Bloomberg School of Public Health's implementation-science
+      tradition; Whiting School engineering and cognitive science;
+      the Berman Institute's governance and ethics work); and the
+      partnerships with sponsor and operational organizations that
+      bring real problems through the door.
     ]
     v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Expertise"))
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: rgb("#D26B43"), upper("Intersectional Expertise"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
-      The disciplinary depth that distinguishes a school of education
-      from any other institution that might attempt this work. The
-      learning sciences, educational measurement, instructional design,
-      design-based research, evaluation, and the equity-and-governance
-      machinery — these are mature disciplines with their own evidence
-      standards, published methods, and credentialed practitioners. The
-      School of Education is where they live, and where the next
-      generation of capability engineers learns to use them.
+      The distinguishing pillar — and the most demanding. The work
+      sits at the intersection of the learning sciences, educational
+      measurement, instructional design, design-based research,
+      cognitive engineering, implementation science, the
+      equity-and-governance disciplines, the relevant operational
+      domain, and the engineering tradition that produced the
+      artifact under study. No one of those disciplines is sufficient,
+      and the work fails when the disciplines do not translate to
+      one another. Intersectional expertise is what allows a single
+      practitioner — or a single team — to hold the engineering,
+      the learning, the measurement, the equity, and the
+      operational context in the same conversation, and to make
+      design decisions that survive scrutiny from any of them.
+      Cultivating it is the central pedagogical task of LENS.
     ]
     v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Capability"))
+    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Capability Focus"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       The outcome — the central claim of the book. Capability is a
       designable, measurable, engineerable property of every complex
-      system. The program produces it in graduates; the cases document
-      where it was absent and where it was successfully engineered;
-      the curriculum teaches how to recognize it, instrument it, and
-      reproduce it. The four pillars are arranged so that the work
-      compounds: missions reveal what is needed; the ecosystem hosts
-      the inquiry; the expertise designs the intervention; the
-      capability is the evidence the loop closed.
+      system. The program produces it in graduates; the cases
+      document where it was absent and where it was successfully
+      engineered; the curriculum teaches how to recognize it,
+      instrument it, and reproduce it. The four pillars are arranged
+      so that the work compounds: mission literacy reveals what is
+      needed; the JHU ecosystem hosts the inquiry; intersectional
+      expertise designs the intervention; capability focus is the
+      discipline that keeps the loop closed on the outcome.
     ]
   }
 )
