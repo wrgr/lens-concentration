@@ -163,10 +163,10 @@
   impact: "Risk-assessment algorithm used by U.S. courts; ProPublica analysis identified racial bias in error rates; foundational AI-governance case in criminal justice",
   diagram: dgm.dgm-pair-bars(
     "white",
-    0.45,
+    0.235,
     "Black",
-    0.85,
-    framing: "false-positive rate by group — construct definition as governance",
+    0.447,
+    framing: "false-positive rate by group (ProPublica 2016): 23.5% vs 44.7%",
     caption: "COMPAS — accuracy is not the same question as distribution of errors",
   ),
   body: [
@@ -174,11 +174,16 @@
     to inform decisions about bail, sentencing, and parole, was
     examined by ProPublica in a 2016 investigation. The analysis
     found that Black defendants were more likely than white defendants
-    to be incorrectly flagged as high-risk, and white defendants more
-    likely to be incorrectly flagged as low-risk. The vendor disputed
-    the analysis; the academic literature that followed identified the
-    statistical issue as a tradeoff between competing fairness
-    definitions that could not all be simultaneously satisfied.
+    to be incorrectly flagged as high-risk (false-positive rate ~44.7%
+    vs ~23.5% for white defendants), and white defendants more likely
+    to be incorrectly flagged as low-risk. The vendor (Northpointe)
+    responded that COMPAS satisfied predictive parity (calibration
+    within groups). The academic literature that followed — notably
+    Chouldechova (2017) and Kleinberg, Mullainathan & Raghavan (2017) —
+    identified the statistical issue as an impossibility result:
+    calibration within groups and equalized false-positive/false-negative
+    rates cannot all be jointly satisfied when base rates differ across
+    groups.
 
     The case is foundational because it surfaced, at criminal-justice
     scale, the difference between predictive accuracy and the

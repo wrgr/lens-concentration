@@ -220,5 +220,11 @@
       Governance · LEN 2 Human-AI Teaming · LEN 8 Knowledge Transfer ·
       LEN 9 Computational & AI Methods.
     ]
+    v(4pt)
+    text(font: sans, size: 6.5pt, style: "italic", fill: text-muted)[
+      Case numbers 21, 22, and 34 are intentionally reserved — placeholders
+      for cases under development in the second iteration of the dataset.
+      Numbering is preserved across editions so cross-references remain stable.
+    ]
   }
 )

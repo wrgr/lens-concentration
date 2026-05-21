@@ -30,9 +30,10 @@
   diagram: dgm.dgm-crm,
   body: [
     In March 1977 two 747s collided on a foggy runway at Tenerife and 583
-    people died. The cockpit voice recorder showed a junior first officer
-    who knew something was wrong, tried twice to say so in indirect
-    language, and deferred to the most senior captain in the airline. The
+    people died. The cockpit voice recorder showed the KLM flight engineer
+    questioning whether the Pan Am 747 was clear of the runway — twice, in
+    indirect language — only for the senior captain (KLM's chief 747
+    instructor) to dismiss the question and continue the takeoff roll. The
     accident was not a failure of skill. It was a failure of the system by
     which skill in one seat reached the other.
 

@@ -623,7 +623,7 @@
   year: "2021",
   domains-list: ("energy",),
   modes-code: "GKN",
-  impact: "~246 deaths attributed to the February 2021 winter storm; ~$130B in damages; foundational U.S. grid-resilience case",
+  impact: "~246 official deaths (Texas DSHS); academic excess-mortality estimates range 700–1,000; ~$130B in damages; foundational U.S. grid-resilience case",
   diagram: dgm.dgm-timeline(
     (("1989 warning", "—"), ("2011", "—"), ("2014", "—"), ("2021 freeze", "246 dead")),
     emphasis: 3,
@@ -632,11 +632,14 @@
   body: [
     A winter storm in February 2021 brought temperatures across Texas
     well below the design assumptions of ERCOT-operated generation and
-    transmission infrastructure. Natural-gas wells froze. Generation
-    plants tripped offline. Wind turbines were unable to operate.
-    Across roughly four days, ERCOT cut power to millions of Texans
-    in rolling blackouts that, in many cases, did not roll. Two
-    hundred forty-six deaths were attributed to the storm.
+    transmission infrastructure. Natural-gas wells froze; gas-fired
+    generation (which accounted for the majority of lost capacity)
+    tripped offline; coal, nuclear, and wind also lost output. Across
+    roughly four days, ERCOT directed load shed and millions of Texans
+    lost power in rolling blackouts that, in many cases, did not roll.
+    The Texas Department of State Health Services officially recorded
+    246 deaths; peer-reviewed excess-mortality analyses estimate
+    700–1,000.
 
     The post-event analyses identified the absence of winterization
     requirements for Texas-grid generators as the proximate capability

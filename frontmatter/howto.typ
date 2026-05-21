@@ -19,7 +19,7 @@
 #set par(justify: true, leading: 0.64em)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  This book collects forty-two real incidents in which human capability was the
+  This book collects one hundred real incidents in which human capability was the
   critical system parameter — moments when what people could (or could not) do
   inside a system determined whether it worked. Some are failures: lives lost,
   systems wrecked, billions written off. Some are successes: deliberate

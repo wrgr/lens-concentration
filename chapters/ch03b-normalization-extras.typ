@@ -223,9 +223,10 @@
   body: [
     A lightning strike ignited methane in a sealed area of the Sago
     Mine in West Virginia. The seal failed, the explosion propagated,
-    and thirteen miners were trapped. Initial reports — broadcast
-    nationally — said twelve had been found alive. The reports were
-    wrong; only one had survived. The miscommunication tortured the
+    and thirteen miners were trapped behind it. Initial reports —
+    broadcast nationally — said twelve had been found alive. The
+    reports were wrong; twelve had died and only one (Randal McCloy Jr.)
+    survived. The miscommunication tortured the
     families for hours and exposed an emergency-response architecture
     that had not been engineered to handle the kind of information
     flow a modern news cycle creates.
@@ -279,7 +280,7 @@
   year: "2010",
   domains-list: ("energy", "industrial"),
   modes-code: "NGK",
-  impact: "29 killed in West Virginia coal mine; MSHA found systematic falsification of safety records; first CEO criminally convicted on mine-safety charges",
+  impact: "29 killed in West Virginia coal mine; MSHA found systematic falsification of safety records; first U.S. mining-industry CEO convicted of a federal mine-safety charge (misdemeanor)",
   diagram: dgm.dgm-compare(
     "inspector\nlog",
     "compliant",
@@ -297,8 +298,10 @@
     for MSHA inspectors. Mine foremen were instructed to suppress
     methane readings, to disable monitors, to falsify pre-shift
     examinations. Massey CEO Don Blankenship was eventually convicted
-    of conspiring to violate mine safety standards — the first U.S.
-    mining-industry CEO to be criminally convicted on safety charges.
+    of a misdemeanor count of conspiring to willfully violate mine
+    safety standards — the first U.S. mining-industry CEO to face a
+    federal criminal conviction on mine-safety charges. (He was
+    acquitted on the felony counts.)
 
     The dual-records architecture was not exceptional behavior. It was
     a stable institutional practice maintained across years and

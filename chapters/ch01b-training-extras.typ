@@ -96,13 +96,16 @@
   body: [
     On a clear afternoon at San Francisco, the crew of Asiana 214
     allowed the aircraft to slow well below approach speed without
-    recognizing that the autothrottle had not engaged in the mode they
+    recognizing that the autothrottle was not in the mode they
     expected. The Boeing 777 struck the seawall short of runway 28L,
-    killing three and seriously injuring forty-nine. The NTSB found
-    inadequate monitoring of airspeed and confusion about the behavior
-    of the autothrottle in the FLCH SPD mode. The captain later said he
-    believed the autothrottle would maintain speed; in that mode, it
-    does not.
+    killing three and seriously injuring forty-nine of the 304 on
+    board. The NTSB found inadequate monitoring of airspeed and
+    confusion about autothrottle behavior when the autopilot pitch
+    channel was in FLCH SPD: after the pilots took the autopilot
+    offline and pulled thrust to idle, the autothrottle reverted to
+    HOLD and did not wake to maintain selected speed. The captain
+    later said he believed the autothrottle would maintain speed; in
+    that configuration, it does not.
 
     NTSB identified Boeing's design of the autothrottle and autopilot
     flight-director systems as a contributing factor — the documentation,

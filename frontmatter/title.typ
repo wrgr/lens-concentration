@@ -152,5 +152,36 @@
       audit record of citations checked and changes made is
       maintained alongside the source repository.
     ]
+
+    v(6pt)
+
+    text(font: sans, size: 8pt, style: "italic", fill: text-muted)[
+      References to convictions, settlements, and findings reflect
+      the public record at the time of writing. Where individuals
+      are named, they are named only as participants in
+      investigations, court proceedings, or public inquiries
+      already in the public domain. The casebook makes no legal
+      characterization beyond what those records establish.
+    ]
+
+    v(6pt)
+
+    text(font: sans, size: 8pt, style: "italic", fill: text-muted)[
+      Quoted material is reproduced under fair use (17 U.S.C. § 107)
+      for the purposes of criticism, comment, teaching, scholarship,
+      and research. Trademarks and product names are used
+      nominatively to identify the products and organizations under
+      discussion; no affiliation or endorsement is claimed or implied.
+    ]
+
+    v(6pt)
+
+    text(font: sans, size: 8pt, style: "italic", fill: text-muted)[
+      Corrections, requests for clarification, and notice of any
+      inaccuracy can be sent to LDT / LENS at the Johns Hopkins
+      University School of Education. Substantive corrections will
+      be incorporated in subsequent printings and noted in the
+      casebook's public errata.
+    ]
   }
 )
