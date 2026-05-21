@@ -361,23 +361,33 @@
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  The first is the *CIRCUIT / MERIT / COMPASS pathway* — a more-than-
-  decade-long pipeline of structured, evidence-based scientific
-  workforce development originated at the JHU Applied Physics
-  Laboratory. CIRCUIT (Cohort-based Integrated Research Community for
-  Undergraduate Innovation and Trailblazing) placed undergraduates
-  inside connectomics proofreading workflows under structured
-  pedagogical scaffolding; MERIT (Mentoring Exceptional Researchers
-  to Innovate and Thrive) generalized the model into a replicable
-  training architecture with formal selection rubrics, mentor training
-  protocols, and individual-development-planning instruments; COMPASS
-  is the assessment and credentialing layer that operationalizes the
-  competency framework these pipelines develop against. Multiple
-  cohorts across hundreds of students have produced peer-reviewed
-  contributions to the connectomics literature — the MICrONS
-  reconstructions in *Nature*, the open-data infrastructure of BossDB
-  and CAVE, the NeuVue proofreading framework — and the model itself
-  is documented in the peer-reviewed engineering-education literature
+  The first is the *CIRCUIT model, MERIT framework, and COMPASS
+  content* — a more-than-decade record originating at the JHU
+  Applied Physics Laboratory. CIRCUIT (Cohort-based Integrated
+  Research Community for Undergraduate Innovation and Trailblazing)
+  was built as the best operational solution to the IARPA MICrONS
+  connectomics program's proofreading requirement, and was
+  subsequently extended to additional sponsor problems. The
+  *scientific and engineering impact* the trained cohorts produced
+  — peer-reviewed contributions to the MICrONS reconstructions in
+  *Nature*, the open-data infrastructure of BossDB and CAVE, the
+  NeuVue proofreading framework — is the headline result; the
+  student development was a deliberate and well-engineered
+  byproduct of the mission solution, making doing well for the
+  sponsor compound with doing good for the students. MERIT
+  (Mentoring Exceptional Researchers to Innovate and Thrive) is the
+  generalization of the CIRCUIT model into a replicable framework:
+  holistic recruiting, the CIRCUIT eight pillars, the CCR
+  competency framework, and the explicit "hidden curriculum"
+  literature. *COMPASS-Core* is the ten-workshop mentoring
+  curriculum that operationalizes MERIT inside a specific
+  institutional setting — orientation and goal-setting, resilience
+  and mindset, research-navigation, networking and faculty
+  engagement, scientific reading and writing, presentations and
+  figures, metacognition and advanced study, professional conduct
+  and ethics, STEM identity and purpose, and long-term career and
+  funding strategy. The CIRCUIT → MERIT → COMPASS lineage is
+  documented in the peer-reviewed engineering-education literature
   #cite-num(24). Section VII expands on this evidence.
 ]
 
@@ -546,27 +556,68 @@
 ]
 
 #v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · Pathways for scientific workforce development (CIRCUIT → MERIT → BRAIN CONNECTS)")
+#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · CIRCUIT, MERIT, COMPASS — scientific and engineering impact at MICrONS / BRAIN CONNECTS scale")
 #v(2pt)
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  Over more than a decade, the JHU/APL team that contributed to the
-  IARPA MICrONS program developed a cohort-based training model —
-  CIRCUIT (Cohort-based Integrated Research Community for Undergraduate
-  Innovation and Trailblazing) — that placed undergraduates inside the
-  connectomics proofreading workflow under structured pedagogical
-  scaffolding. Trainees contributed to the MICrONS / BRAIN CONNECTS
-  connectome reconstructions now published in *Nature* and *Science*,
-  to the BossDB open-data platform, and to the NeuVue proofreading
-  framework #cite-num(23). CIRCUIT generalized into MERIT (Mentoring
-  Exceptional Researchers to Innovate and Thrive), which formalized
-  the selection rubrics, mentor training, and individual development
-  planning architecture #cite-num(24). The training architecture is
-  itself a learning-engineering artifact: capability requirements
-  elicited from the operational task (proofreading), instrumented
-  measurement of trainee progress, paired technical and cultural
-  scaffolding, and an explicit iteration cycle. Multiple cohorts
-  across hundreds of students have produced peer-reviewed
-  publications and a documented evidence base for the model.
+  CIRCUIT — the *Cohort-based Integrated Research Community for
+  Undergraduate Innovation and Trailblazing* — was built at JHU/APL
+  as the best operational solution to a sponsor problem: the IARPA
+  MICrONS connectomics program needed a proofreading workforce that
+  could exercise expert biological judgment at scale, and CIRCUIT
+  was the architecture that delivered it. The headline result is
+  scientific. The trained cohorts contributed materially to the
+  MICrONS reconstructions now published in *Nature*, with downstream
+  contributions to FlyWire and H01 datasets, the BossDB and CAVE
+  open-data platforms, and the NeuVue proofreading framework
+  #cite-num(23). These are not auxiliary outputs of a workforce
+  program. They are the foundational datasets and infrastructure on
+  which contemporary connectomics depends.
+]
+
+#v(4pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The student training was a *byproduct* of the mission solution —
+  but a deliberate, well-engineered byproduct that turned an
+  operational requirement into a sustained opportunity to develop
+  the next generation of computational neuroscientists. Doing well
+  for the sponsor and doing good for the students compounded
+  rather than competed. That structural alignment between
+  scientific mission and human-capability development is the
+  pattern LENS treats as the canonical positive case for how the
+  Practice Flywheel operates at the boundary between science and
+  workforce.
+]
+
+#v(4pt)
+
+#text(font: sans, size: 9.5pt, fill: text-dark)[
+  The model that produced those outputs was then *generalized into
+  MERIT (Mentoring Exceptional Researchers to Innovate and Thrive)*
+  — a replicable research-training framework built on holistic
+  recruiting, the CIRCUIT eight pillars, the CCR competency
+  framework, the hidden-curriculum literature, and the DoD KSAT
+  alignment vocabulary #cite-num(24). MERIT operates across five
+  developmental stages — Holistic Recruiting, Orientation and
+  Research Foundations, Guided Research Practice, Independent
+  Research with Mentorship, and Leadership / National Impact —
+  and has been instantiated in computational neuroscience, AI,
+  cybersecurity, threat assessment, and pandemic modeling.
+  *COMPASS-Core* is the ten-workshop mentoring curriculum that
+  operates MERIT inside a given institutional setting; an example
+  set covers orientation and SMART goal-setting, resilience and
+  growth mindset, research navigation, networking and faculty
+  engagement, scientific reading and writing, figures and oral
+  presentations, metacognition and study skills, professional
+  conduct and research ethics, STEM identity and belonging, and
+  long-term career and funding strategy. The casebook treats the
+  trio (CIRCUIT model, MERIT framework, COMPASS-Core curriculum) as
+  the load-bearing instance of the Practice Flywheel: requirements
+  elicited from operational science, instrumented measurement of
+  cohort progress, paired technical and cultural scaffolding, and
+  an explicit iteration cycle that has now produced multiple
+  cohorts and hundreds of student-authored contributions to the
+  peer-reviewed scientific literature.
 ]
 
 #v(8pt)
