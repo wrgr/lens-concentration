@@ -18,7 +18,7 @@
 
 // ---- Document metadata ----
 #set document(
-  title: "Capability Matters: A Casebook",
+  title: "Learning Engineering for Next-Generation Systems: Capability Matters — A Casebook",
   author: "LDT / LENS · Johns Hopkins University School of Education",
 )
 
