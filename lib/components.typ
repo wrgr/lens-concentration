@@ -150,14 +150,17 @@
 }
 
 // ---- Numbered citation marker (superscript, used in the introduction) ----
-#let cite-num(n) = super(text(font: sans, size: 7pt, weight: "bold", fill: teal, str(n)))
+// Sized at 9pt so the super() scaling (~65%) lands at ~5.85pt
+// rendered, above Lulu's 5pt preflight floor.
+#let cite-num(n) = super(text(font: sans, size: 9pt, weight: "bold", fill: teal, str(n)))
 
 // ---- Editorial flag — small bracketed note for items that need
 //      manual confirmation from program leadership before any printed
 //      edition. Renders as a small gold "[edit:]" marker.
+// Sized at 8pt so super() scaling (~65%) lands at ~5.2pt rendered.
 #let footnote-flag(s) = super(box(
   inset: (x: 2pt, y: 0pt),
-  text(font: sans, size: 6pt, weight: "bold", fill: gold, "[edit: " + s + "]"),
+  text(font: sans, size: 8pt, weight: "bold", fill: gold, "[edit: " + s + "]"),
 ))
 
 // ---- Literature list ----

@@ -107,9 +107,15 @@
 
 // ============================================================
 // SPINE (vertical text, only if spine is wide enough)
+//
+// Rotate origin = top + left; after a 90° CW rotation the box
+// extends LEFTWARD from the anchor. So we anchor at the RIGHT edge
+// of the spine (spine-x + spine, 0) — the rotated content then
+// fills the spine area from spine-x to spine-x+spine, instead of
+// landing to the left of the spine.
 // ============================================================
 #if spine > 8mm {
-  at(spine-x, 0mm)[
+  at(spine-x + spine, 0mm)[
     #rotate(90deg, origin: top + left, reflow: false,
       box(width: total-h, height: spine, inset: (x: margin, y: 0mm),
         align(center + horizon,
