@@ -2,28 +2,37 @@
 // CAPABILITY MATTERS — Lulu paperback cover wrap
 //
 // Compile with:
-//   typst compile --font-path fonts cover/cover.typ build/cover.pdf
+//   typst compile --font-path fonts --root . cover/cover.typ build/cover.pdf
 //
-// Defaults match Lulu's spec for this project's interior (265 pages,
-// cream paper). Override via --input cover-w-mm=…, cover-h-mm=…,
-// spine-mm=… if Lulu's project-page spec changes for any reason.
+// Defaults match Lulu's project page for this title:
+//   Book trim:       148.08 × 210.06 mm  (A5 / 5.83 × 8.27 in)
+//   Bleed:           3.175 mm (0.125 in)
+//   Safety margin:   12.7 mm (0.5 in) from trim edge
+//   Spine (265 pp):  16.68 mm (0.657 in)
+//   Total cover:     319.2 × 216.41 mm  (12.567 × 8.52 in)
+//   Barcode area on back cover (Lulu adds): 92 × 32 mm, 12.7 mm from
+//     bleed edge — leave the lower-center of the back cover clear.
+//
+// Override with --input cover-w-mm=… cover-h-mm=… spine-mm=… if any
+// of these change.
 // ============================================================
 
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
 // ---- Lulu cover spec (inputs override defaults) ----
-#let total-w = float(sys.inputs.at("cover-w-mm", default: "362.84")) * 1mm
-#let total-h = float(sys.inputs.at("cover-h-mm", default: "254.51")) * 1mm
-#let spine   = float(sys.inputs.at("spine-mm",   default: "22.22"))  * 1mm
+#let total-w = float(sys.inputs.at("cover-w-mm", default: "319.2"))   * 1mm
+#let total-h = float(sys.inputs.at("cover-h-mm", default: "216.41"))  * 1mm
+#let spine   = float(sys.inputs.at("spine-mm",   default: "16.68"))   * 1mm
 
 // Derived layout points (printer's view, single sheet wrap):
-//   [ back cover (w/ bleed) | spine | front cover (w/ bleed) ]
+//   [ back cover (with bleed) | spine | front cover (with bleed) ]
 #let spine-x = (total-w - spine) / 2
 #let front-x = spine-x + spine
-#let half-w  = spine-x   // each face is this wide
-#let bleed   = 3.175mm   // Lulu safety: 0.125" full-bleed buffer
-#let margin  = 14mm      // distance from face edge to content
+#let half-w  = spine-x                       // each face width incl. bleed
+#let bleed   = 3.175mm                       // 0.125" full-bleed
+#let safety  = 12.7mm                        // 0.5" Lulu safety from trim
+#let margin  = bleed + safety                // 15.875 mm — outer face inset
 
 #set document(title: "Capability Matters — Cover Wrap")
 #set page(
@@ -37,7 +46,7 @@
 // Helper: position items by (x, y) from page top-left
 #let at(x, y, body) = place(top + left, dx: x, dy: y, body)
 
-// ---- Background: subtle gradient that lifts the front (right) face ----
+// ---- Background gradient (subtle lift on the front face) ----
 #place(
   top + left,
   rect(width: total-w, height: total-h, fill: gradient.linear(
@@ -48,58 +57,63 @@
   ))
 )
 
-// ---- FRONT COVER (right face) ----
-#at(front-x + margin, 24mm)[
-  #text(font: sans, size: 9pt, tracking: 2.8pt, fill: gold, upper("A casebook"))
+// ============================================================
+// FRONT COVER (right face)
+// ============================================================
+#at(front-x + margin, margin + 4mm)[
+  #text(font: sans, size: 8.5pt, tracking: 2.8pt, fill: gold, upper("A casebook"))
   #v(2pt)
-  #line(length: 22mm, stroke: 0.8pt + gold)
+  #line(length: 20mm, stroke: 0.8pt + gold)
 ]
 
 // Leader line — the full LENS expansion above the display title
-#at(front-x + margin, 56mm)[
+#at(front-x + margin, margin + 22mm)[
   #block(width: half-w - 2 * margin)[
-    #text(font: serif, size: 18pt, fill: rgb("#B7C9E0"),
+    #text(font: serif, size: 15pt, fill: rgb("#B7C9E0"),
       "Learning Engineering for Next-Generation Systems")
   ]
 ]
 
 // Display title
-#at(front-x + margin, 92mm)[
-  #text(font: serif, size: 80pt, fill: cream, "Capability")
+#at(front-x + margin, margin + 50mm)[
+  #text(font: serif, size: 62pt, fill: cream, "Capability")
   #v(-6pt)
-  #text(font: serif, size: 80pt, style: "italic", fill: teal-light, "Matters")
+  #text(font: serif, size: 62pt, style: "italic", fill: teal-light, "Matters")
 ]
 
 // Editors
-#at(front-x + margin, total-h - 70mm)[
-  #text(font: sans, size: 7.5pt, tracking: 1.6pt, fill: gold, upper("Edited by"))
+#at(front-x + margin, total-h - margin - 50mm)[
+  #text(font: sans, size: 7pt, tracking: 1.6pt, fill: gold, upper("Edited by"))
   #v(3pt)
-  #text(font: serif, size: 14pt, fill: cream, "William Gray-Roncal, PhD")
+  #text(font: serif, size: 12pt, fill: cream, "William Gray-Roncal, PhD")
   #linebreak()
-  #text(font: serif, size: 14pt, fill: cream, "James Diamond, PhD")
+  #text(font: serif, size: 12pt, fill: cream, "James Diamond, PhD")
 ]
 
-#at(front-x + margin, total-h - 36mm)[
-  #line(length: 22mm, stroke: 0.6pt + gold)
-  #v(6pt)
-  #text(font: sans, size: 10pt, tracking: 1.8pt, fill: cream,
+// Institutional footer
+#at(front-x + margin, total-h - margin - 18mm)[
+  #line(length: 20mm, stroke: 0.6pt + gold)
+  #v(5pt)
+  #text(font: sans, size: 9pt, tracking: 1.8pt, fill: cream,
     upper("Johns Hopkins University"))
-  #v(3pt)
-  #text(font: sans, size: 8pt, tracking: 1.4pt, fill: rgb("#B7C9E0"),
+  #v(2pt)
+  #text(font: sans, size: 7pt, tracking: 1.4pt, fill: rgb("#B7C9E0"),
     upper("Learning Design and Technology"))
 ]
 
-// ---- SPINE (vertical text, only if spine is wide enough) ----
+// ============================================================
+// SPINE (vertical text, only if spine is wide enough)
+// ============================================================
 #if spine > 8mm {
   at(spine-x, 0mm)[
     #rotate(90deg, origin: top + left, reflow: false,
-      box(width: total-h, height: spine, inset: (x: 18mm, y: 0mm),
+      box(width: total-h, height: spine, inset: (x: margin, y: 0mm),
         align(center + horizon,
           {
-            text(font: serif, size: 16pt, fill: cream, "Capability ")
-            text(font: serif, size: 16pt, style: "italic", fill: teal-light, "Matters")
-            h(10mm)
-            text(font: sans, size: 9pt, tracking: 2pt, fill: gold, upper("LENS · JHU"))
+            text(font: serif, size: 13pt, fill: cream, "Capability ")
+            text(font: serif, size: 13pt, style: "italic", fill: teal-light, "Matters")
+            h(8mm)
+            text(font: sans, size: 8pt, tracking: 2pt, fill: gold, upper("LENS · JHU"))
           }
         )
       )
@@ -107,25 +121,29 @@
   ]
 }
 
-// ---- BACK COVER (left face) ----
-#at(margin, 24mm)[
-  #text(font: sans, size: 9pt, tracking: 2.8pt, fill: gold,
+// ============================================================
+// BACK COVER (left face)
+//   • Lulu places a 92 × 32 mm barcode 12.7 mm from the bleed edge —
+//     keep the lower-center of this face clear.
+// ============================================================
+#at(margin, margin + 4mm)[
+  #text(font: sans, size: 8.5pt, tracking: 2.8pt, fill: gold,
     upper("One hundred cases · Six failure modes · One discipline"))
   #v(2pt)
-  #line(length: 22mm, stroke: 0.8pt + gold)
+  #line(length: 20mm, stroke: 0.8pt + gold)
 ]
 
-#at(margin, 56mm)[
+#at(margin, margin + 22mm)[
   #block(width: half-w - 2 * margin)[
-    #set par(leading: 0.64em)
-    #text(font: serif, size: 16pt, style: "italic", fill: cream)[
+    #set par(leading: 0.62em)
+    #text(font: serif, size: 12pt, style: "italic", fill: cream)[
       Complex systems exist to generate capability. The disciplines
       around the problem each touch part of it — LENS engineers the
       interface where they meet, with the human at the center of the
       design rather than handed off after it.
     ]
-    #v(12pt)
-    #text(font: sans, size: 10pt, fill: rgb("#B7C9E0"))[
+    #v(8pt)
+    #text(font: sans, size: 8pt, fill: rgb("#B7C9E0"))[
       A casebook for the Learning Design and Technology program and
       the Learning Engineering for Next-Generation Systems
       specialization at the Johns Hopkins University School of
@@ -134,8 +152,8 @@
       results algorithm — examined through the lens of capability as
       a system parameter.
     ]
-    #v(10pt)
-    #text(font: sans, size: 10pt, fill: rgb("#B7C9E0"))[
+    #v(6pt)
+    #text(font: sans, size: 8pt, fill: rgb("#B7C9E0"))[
       Each case is paired with the learning-engineering insight it
       carries and the LENS curriculum it informs. Together they form
       an evidence base for the argument that capability engineering
@@ -144,9 +162,12 @@
   ]
 ]
 
-#at(margin, total-h - 36mm)[
-  #line(length: 22mm, stroke: 0.6pt + gold)
-  #v(6pt)
-  #text(font: sans, size: 8pt, tracking: 1.4pt, fill: cream,
+// Footer for the back cover: positioned ABOVE the barcode safe area.
+// Barcode area: 92 × 32 mm, 12.7 mm from bleed edge, centered horizontally.
+// We place the footer line above the top of the barcode region.
+#at(margin, total-h - margin - 45mm)[
+  #line(length: 20mm, stroke: 0.6pt + gold)
+  #v(5pt)
+  #text(font: sans, size: 7.5pt, tracking: 1.4pt, fill: cream,
     upper("capabilitymatters.org · LENS at Johns Hopkins"))
 ]
