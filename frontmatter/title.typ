@@ -111,7 +111,7 @@
     v(10pt)
 
     text(font: sans, size: 8pt, fill: text-dark)[
-      © 2026 Johns Hopkins University. All rights reserved.
+      Copyright © 2026. All rights reserved.
     ]
 
     v(14pt)
@@ -150,8 +150,21 @@
       crosswalk as the program itself iterates. Corrections, new
       cases, and reader feedback are welcomed.
     ]
+  }
+)
 
-    v(6pt)
+// ---- Sources, attribution, and legal notices (own page) ----
+#page(
+  fill: page-fill,
+  margin: (inside: m-inner + bleed, outside: m-outer + bleed, top: m-top + bleed, bottom: m-bottom + bleed),
+  header: none, footer: none,
+  {
+    set par(leading: 0.6em, justify: false, first-line-indent: 0pt)
+
+    text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("Sources, attribution & legal notices"))
+    v(4pt)
+    line(length: 22mm, stroke: 0.6pt + gold)
+    v(10pt)
 
     text(font: sans, size: 8pt, style: "italic", fill: text-muted)[
       All cases reference publicly reported incidents and published
