@@ -408,7 +408,7 @@
     import cetz.draw: *
     // money flowing in vs harm flowing out
     rect((0.5, 1.2), (3.5, 2.8), fill: rgb("#132240"), stroke: 0.6pt + rgb("#2CC4B3"))
-    content((2.0, 2.0), text(font: ("Instrument Serif",), size: 14pt, fill: rgb("#2CC4B3"), "\$40B"))
+    content((2.0, 2.0), text(font: ("Instrument Serif",), size: 14pt, fill: rgb("#2CC4B3"), "$40B"))
     content((2.0, 1.4), text(font: ("DM Sans",), size: 6pt, fill: rgb("#8A9AB5"), tracking: 1pt, upper("HITECH 2009")))
     line((3.7, 2.0), (5.5, 2.0), stroke: 0.8pt + rgb("#5A6A85"))
     rect((5.7, 1.2), (8.7, 2.8), fill: rgb("#132240"), stroke: 0.6pt + rgb("#D4A843"))
@@ -536,7 +536,7 @@
     content((0.8, 0.85), text(font: ("DM Sans",), size: 6pt, fill: rgb("#2CC4B3"), "7%"), anchor: "north")
     content((5, 0.85), text(font: ("DM Sans",), size: 6pt, fill: rgb("#D4A843"), "93% — population the assumption did not fit"), anchor: "north")
     content((4.7, 2.6), text(font: ("Instrument Serif",), size: 10pt, style: "italic", fill: rgb("#F5F0E8"), "470,000 wrongful debt notices"))
-    content((4.7, 2.1), text(font: ("DM Sans",), size: 7pt, fill: rgb("#E8C96A"), tracking: 1pt, upper("A\$1.8B settlement")))
+    content((4.7, 2.1), text(font: ("DM Sans",), size: 7pt, fill: rgb("#E8C96A"), tracking: 1pt, upper("A$1.8B settlement")))
   })
 )
 

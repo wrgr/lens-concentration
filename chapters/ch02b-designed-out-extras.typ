@@ -15,7 +15,7 @@
   modes-code: "DG",
   impact: "Fatalities attributed to rear-impact fuel-tank fires; foundational case in U.S. engineering ethics",
   diagram: dgm.dgm-stat(
-    "\$11",
+    "$11",
     "per car · the fix Ford declined",
     micro: "an internal cost-benefit calculated against projected wrongful-death settlements",
     caption: "Pinto — the price of a designed-out safety capability",

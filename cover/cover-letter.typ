@@ -111,8 +111,11 @@
 // ============================================================
 // SPINE (vertical text, only if spine is wide enough)
 // ============================================================
+// Rotate origin = top + left; the rotated box extends LEFTWARD from
+// the anchor. Anchor at spine-x + spine (right edge of spine) so the
+// rotated content fills the spine area exactly.
 #if spine > 10mm {
-  at(spine-x, 0mm)[
+  at(spine-x + spine, 0mm)[
     #rotate(90deg, origin: top + left, reflow: false,
       box(width: total-h, height: spine, inset: (x: margin, y: 0mm),
         align(center + horizon,
