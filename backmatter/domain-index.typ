@@ -43,6 +43,7 @@
   inset: (x: 10pt, y: 8pt),
   stroke: (left: 2pt + gold),
   radius: 1pt,
+  breakable: false,
   {
     set par(leading: 0.55em, first-line-indent: 0pt)
     box-content
@@ -79,10 +80,14 @@
   )
 )
 
+// `sticky: true` keeps the domain header attached to the standout
+// callout that follows it, so the header never strands alone at the
+// bottom of a page.
 #let domain-header(label) = block(
   width: 100%,
   above: 14pt,
   below: 6pt,
+  sticky: true,
   {
     text(font: sans, size: 8pt, tracking: 2pt, fill: teal, upper(label))
     v(2pt)
@@ -173,7 +178,7 @@
 
 #standout({
   standout-line("Standout failure", 25, gold)[
-    *EHR / CPOE Implementation (2005–).* Roughly $30B federal
+    *EHR / CPOE Implementation (2005–).* Roughly \$30B federal
     investment in systems designed for billing and administration,
     deployed against clinical workflow. Usability is now itself a
     patient-safety variable at scale.
