@@ -92,11 +92,22 @@ $TYPST --root . \
   --input spine-mm="$lett_spine" \
   cover/cover-letter.typ build/cover-print-letter.pdf
 
-echo "→ Compiling US Letter editorial-draft cover (front face, binder insert)..."
+echo "→ Compiling US Letter editorial-draft cover set (front + spine + back)..."
 $TYPST --root . cover/binder-front.typ build/cover-draft-letter.pdf
+$TYPST --root . cover/binder-spine.typ build/cover-draft-letter-spine.pdf
+$TYPST --root . cover/binder-back.typ  build/cover-draft-letter-back.pdf
 
-echo "→ Compiling Half Letter editorial-draft cover (front face)..."
+# Half Letter draft spine width tracks the actual interior thickness
+# (perfect-bound assumption); Letter draft spine is the established
+# 1/2" view-binder insert (cover/binder-spine.typ).
+draft_half_pages=$(pdfinfo build/capability-matters-draft-half.pdf | awk '/^Pages:/ {print $2}')
+draft_half_spine=$(awk -v p="$draft_half_pages" 'BEGIN {printf "%.2f", p * 0.0629}')
+
+echo "→ Compiling Half Letter editorial-draft cover set (front + spine + back)..."
 $TYPST --root . cover/draft-cover-half.typ build/cover-draft-half.pdf
+$TYPST --root . --input spine-mm="$draft_half_spine" \
+  cover/draft-spine-half.typ build/cover-draft-half-spine.pdf
+$TYPST --root . cover/draft-back-half.typ build/cover-draft-half-back.pdf
 
 # Decomposable production-cover parts (front/back/spine) for the
 # Half Letter trim — kept for slipcase / web-preview workflows.
@@ -112,7 +123,8 @@ for f in capability-matters.pdf \
          capability-matters-draft-letter.pdf \
          capability-matters-draft-half.pdf \
          cover-print-half.pdf cover-print-letter.pdf \
-         cover-draft-letter.pdf cover-draft-half.pdf; do
+         cover-draft-letter.pdf cover-draft-letter-spine.pdf cover-draft-letter-back.pdf \
+         cover-draft-half.pdf   cover-draft-half-spine.pdf   cover-draft-half-back.pdf; do
   cp "$ROOT/build/$f" "$ROOT/$f"
 done
 
@@ -127,8 +139,8 @@ echo "      capability-matters-draft-half.pdf         Half Letter editorial draf
 echo "    COVERS:"
 echo "      cover-print-half.pdf                      Half Letter Lulu wrap   ($half_pages pp, spine $half_spine mm)"
 echo "      cover-print-letter.pdf                    US Letter   Lulu wrap   ($lett_pages pp, spine $lett_spine mm)"
-echo "      cover-draft-letter.pdf                    Letter draft front face (binder insert)"
-echo "      cover-draft-half.pdf                      Half Letter draft front face"
+echo "      cover-draft-letter{,-spine,-back}.pdf     Letter draft set (1\"-binder insert: 0.5\" spine)"
+echo "      cover-draft-half{,-spine,-back}.pdf       Half Letter draft set (perfect-bound: ~$draft_half_spine mm spine)"
 echo
 echo "Lulu workflow:"
 echo "  Half Letter:  upload capability-matters-print-half.pdf as the"
