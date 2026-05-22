@@ -132,15 +132,12 @@
 // BACK COVER (left face)
 //   • Lulu places a 92 × 32 mm barcode 12.7 mm from the bleed edge —
 //     keep the lower-center of this face clear.
+//   • Long tagline lives at the BOTTOM to mirror the Half Letter
+//     cover and to keep the spine fold clear.
 // ============================================================
-#at(margin, margin + 6mm)[
-  #text(font: sans, size: 10pt, tracking: 3pt, fill: gold,
-    upper("One hundred cases · Six failure modes · One discipline"))
-  #v(3pt)
-  #line(length: 26mm, stroke: 0.9pt + gold)
-]
 
-#at(margin, margin + 32mm)[
+// Top block: italic pull-quote leads the back cover.
+#at(margin, margin + 6mm)[
   #block(width: half-w - 2 * margin)[
     #set par(leading: 0.65em)
     #text(font: serif, size: 16pt, style: "italic", fill: cream)[
@@ -169,12 +166,16 @@
   ]
 ]
 
-// Footer for the back cover: positioned ABOVE the barcode safe area.
-// Barcode area: 92 × 32 mm, 12.7 mm from bleed edge, centered horizontally.
-// We place the footer line above the top of the barcode region.
-#at(margin, total-h - margin - 55mm)[
-  #line(length: 26mm, stroke: 0.7pt + gold)
-  #v(6pt)
-  #text(font: sans, size: 9.5pt, tracking: 1.6pt, fill: cream,
-    upper("capabilitymatters.org · LENS at Johns Hopkins"))
+// Bottom block: tagline + rule + URL footer, stacked. Positioned
+// above the 92 × 32 mm barcode safe area.
+#at(margin, total-h - margin - 65mm)[
+  #block(width: half-w - 2 * margin)[
+    #text(font: sans, size: 9.5pt, tracking: 2.4pt, fill: gold,
+      upper("One hundred cases · Six failure modes · One discipline"))
+    #v(7pt)
+    #line(length: 26mm, stroke: 0.7pt + gold)
+    #v(7pt)
+    #text(font: sans, size: 9.5pt, tracking: 1.6pt, fill: cream,
+      upper("capabilitymatters.org · LENS at Johns Hopkins"))
+  ]
 ]
