@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 # Build the four interior PDFs (production + editorial draft, each at
-# Half Letter and US Letter trim) and the Lulu cover wrap.
+# Half Letter and US Letter trim) and the matching covers.
 #
-# Production PDFs (mode=print, mode=print-letter) are emitted with a
-# grayscale-tuned palette, then run through ghostscript to flatten any
-# remaining color literals (notably inside diagrams) so the final
-# Lulu-uploaded file is true grayscale.
+# Production interiors (mode=print, mode=print-letter) are emitted
+# with a grayscale-tuned palette, then run through ghostscript to
+# flatten any remaining color literals (notably inside diagrams) so
+# the final Lulu-uploaded file is true grayscale.
+#
+# Each interior has a matching cover:
+#   capability-matters-print-half.pdf      → cover-print-half.pdf    (Lulu wrap)
+#   capability-matters-print-letter.pdf    → cover-print-letter.pdf  (Lulu wrap)
+#   capability-matters-draft-letter.pdf    → cover-draft-letter.pdf  (front face)
+#   capability-matters-draft-half.pdf      → cover-draft-half.pdf    (front face)
 #
 # Requires: typst (>= 0.13), ghostscript, poppler (pdfinfo).
 set -euo pipefail
@@ -17,9 +23,7 @@ mkdir -p build
 
 TYPST="typst compile --font-path fonts"
 
-# Flatten any remaining color literals to grayscale via ghostscript.
-# The named palette is already tuned for grayscale luminance; this
-# step exists to catch hardcoded rgb() values inside diagrams.
+# Flatten color literals to grayscale via ghostscript.
 gray_flatten() {
   local src="$1"
   local dst="$2"
@@ -32,15 +36,17 @@ gray_flatten() {
      -o "$dst" "$src"
 }
 
+# ---- Interiors ----
+
 echo "→ Compiling production Half Letter interior (grayscale)..."
-$TYPST --input mode=print book.typ build/capability-matters-print-half-color.pdf
-gray_flatten build/capability-matters-print-half-color.pdf build/capability-matters-print-half.pdf
-rm build/capability-matters-print-half-color.pdf
+$TYPST --input mode=print book.typ build/_print-half-color.pdf
+gray_flatten build/_print-half-color.pdf build/capability-matters-print-half.pdf
+rm build/_print-half-color.pdf
 
 echo "→ Compiling production US Letter interior (grayscale)..."
-$TYPST --input mode=print-letter book.typ build/capability-matters-print-letter-color.pdf
-gray_flatten build/capability-matters-print-letter-color.pdf build/capability-matters-print-letter.pdf
-rm build/capability-matters-print-letter-color.pdf
+$TYPST --input mode=print-letter book.typ build/_print-letter-color.pdf
+gray_flatten build/_print-letter-color.pdf build/capability-matters-print-letter.pdf
+rm build/_print-letter-color.pdf
 
 echo "→ Compiling editorial draft, US Letter (11pt, 2pp/case)..."
 $TYPST --input mode=draft book.typ build/capability-matters-draft-letter.pdf
@@ -51,49 +57,85 @@ $TYPST --input mode=draft-half book.typ build/capability-matters-draft-half.pdf
 echo "→ Compiling screen preview (color, cream backdrop)..."
 $TYPST book.typ build/capability-matters.pdf
 
-if command -v pdfinfo >/dev/null 2>&1; then
-  HALF_PAGES=$(pdfinfo build/capability-matters-print-half.pdf | awk '/^Pages:/ {print $2}')
-  LETTER_PAGES=$(pdfinfo build/capability-matters-print-letter.pdf | awk '/^Pages:/ {print $2}')
-else
-  HALF_PAGES="?"
-  LETTER_PAGES="?"
-fi
-echo "→ Page counts: Half Letter $HALF_PAGES · US Letter $LETTER_PAGES"
+# ---- Page counts (used for spine-width estimation on Lulu wraps) ----
+half_pages=$(pdfinfo build/capability-matters-print-half.pdf   | awk '/^Pages:/ {print $2}')
+lett_pages=$(pdfinfo build/capability-matters-print-letter.pdf | awk '/^Pages:/ {print $2}')
 
-echo "→ Compiling Lulu Half Letter cover wrap..."
-$TYPST --root . --input pages=$HALF_PAGES cover/cover.typ build/cover.pdf
+# Lulu spine width on cream paper: ~0.0629 mm/page. (16.55 mm at 263 pp.)
+# Override with `--input spine-mm=…` if Lulu's project-page value
+# differs.
+half_spine=$(awk -v p="$half_pages" 'BEGIN {printf "%.2f", p * 0.0629}')
+lett_spine=$(awk -v p="$lett_pages" 'BEGIN {printf "%.2f", p * 0.0629}')
 
-echo "→ Compiling decomposable cover parts (front / back / spine)..."
-$TYPST --root . cover/cover-front.typ build/cover-front.pdf
-$TYPST --root . cover/cover-back.typ  build/cover-back.pdf
-$TYPST --root . cover/cover-spine.typ build/cover-spine.pdf
+# Lulu total cover dimensions: 2 × trim + spine + 2 × 3.175 mm bleed
+half_total_w=$(awk -v s="$half_spine" 'BEGIN {printf "%.2f", 2*139.7 + s + 2*3.175}')
+half_total_h=$(awk             'BEGIN {printf "%.2f",   215.9 + 2*3.175}')
+lett_total_w=$(awk -v s="$lett_spine" 'BEGIN {printf "%.2f", 2*215.9 + s + 2*3.175}')
+lett_total_h=$(awk             'BEGIN {printf "%.2f",   279.4 + 2*3.175}')
 
-# Mirror the latest PDFs to the repo root so they are easy to find / preview.
+echo "→ Interior page counts: Half Letter $half_pages  ·  US Letter $lett_pages"
+echo "→ Estimated spine widths: Half $half_spine mm  ·  Letter $lett_spine mm"
+
+# ---- Covers ----
+
+echo "→ Compiling Half Letter production cover wrap (Lulu)..."
+$TYPST --root . \
+  --input cover-w-mm="$half_total_w" \
+  --input cover-h-mm="$half_total_h" \
+  --input spine-mm="$half_spine" \
+  cover/cover.typ build/cover-print-half.pdf
+
+echo "→ Compiling US Letter production cover wrap (Lulu)..."
+$TYPST --root . \
+  --input cover-w-mm="$lett_total_w" \
+  --input cover-h-mm="$lett_total_h" \
+  --input spine-mm="$lett_spine" \
+  cover/cover-letter.typ build/cover-print-letter.pdf
+
+echo "→ Compiling US Letter editorial-draft cover (front face, binder insert)..."
+$TYPST --root . cover/binder-front.typ build/cover-draft-letter.pdf
+
+echo "→ Compiling Half Letter editorial-draft cover (front face)..."
+$TYPST --root . cover/draft-cover-half.typ build/cover-draft-half.pdf
+
+# Decomposable production-cover parts (front/back/spine) for the
+# Half Letter trim — kept for slipcase / web-preview workflows.
+echo "→ Compiling decomposable Half Letter cover parts..."
+$TYPST --root . cover/cover-front.typ build/cover-front-half.pdf
+$TYPST --root . cover/cover-back.typ  build/cover-back-half.pdf
+$TYPST --root . cover/cover-spine.typ build/cover-spine-half.pdf
+
+# Mirror interiors + covers to the repo root for easy access.
 for f in capability-matters.pdf \
          capability-matters-print-half.pdf \
          capability-matters-print-letter.pdf \
          capability-matters-draft-letter.pdf \
          capability-matters-draft-half.pdf \
-         cover.pdf cover-front.pdf cover-back.pdf cover-spine.pdf; do
+         cover-print-half.pdf cover-print-letter.pdf \
+         cover-draft-letter.pdf cover-draft-half.pdf; do
   cp "$ROOT/build/$f" "$ROOT/$f"
 done
 
 echo
 echo "✓ Output:"
-echo "    build/capability-matters.pdf                 screen preview (Half Letter, color, cream backdrop)"
-echo "    build/capability-matters-print-half.pdf      production interior — Half Letter (5.5×8.5), grayscale"
-echo "    build/capability-matters-print-letter.pdf    production interior — US Letter (8.5×11), grayscale"
-echo "    build/capability-matters-draft-letter.pdf    editorial draft — US Letter, 11pt, ~2pp/case"
-echo "    build/capability-matters-draft-half.pdf      editorial draft — Half Letter, 11pt, ~4pp/case"
-echo "    build/cover*.pdf                             Lulu cover wrap (Half Letter trim)"
+echo "    INTERIORS:"
+echo "      capability-matters.pdf                    screen preview (color, cream)"
+echo "      capability-matters-print-half.pdf         Half Letter production (grayscale)"
+echo "      capability-matters-print-letter.pdf       US Letter production (grayscale)"
+echo "      capability-matters-draft-letter.pdf       Letter editorial draft"
+echo "      capability-matters-draft-half.pdf         Half Letter editorial draft"
+echo "    COVERS:"
+echo "      cover-print-half.pdf                      Half Letter Lulu wrap   ($half_pages pp, spine $half_spine mm)"
+echo "      cover-print-letter.pdf                    US Letter   Lulu wrap   ($lett_pages pp, spine $lett_spine mm)"
+echo "      cover-draft-letter.pdf                    Letter draft front face (binder insert)"
+echo "      cover-draft-half.pdf                      Half Letter draft front face"
 echo
-echo "Lulu workflow (Half Letter production):"
-echo "  • Upload capability-matters-print-half.pdf as the interior and"
-echo "    select Half Letter (5.5 × 8.5 in) with cream-paper stock."
-echo "  • Upload cover.pdf as the cover wrap (Half Letter)."
-echo
-echo "Lulu workflow (US Letter production):"
-echo "  • Upload capability-matters-print-letter.pdf as the interior and"
-echo "    select US Letter (8.5 × 11 in)."
-echo "  • Cover wrap for Letter trim is not yet generated — only the"
-echo "    Half Letter cover is in scripts. Generate as needed."
+echo "Lulu workflow:"
+echo "  Half Letter:  upload capability-matters-print-half.pdf as the"
+echo "                interior, cover-print-half.pdf as the wrap."
+echo "                Cream-paper stock. Lulu will report the exact"
+echo "                spine width; override with --input spine-mm=… if"
+echo "                it differs from $half_spine mm."
+echo "  US Letter:    upload capability-matters-print-letter.pdf as the"
+echo "                interior, cover-print-letter.pdf as the wrap."
+echo "                Same override applies (current estimate $lett_spine mm)."
