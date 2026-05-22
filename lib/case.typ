@@ -72,13 +72,9 @@
     )
     v(3pt)
 
-    // diagram (lightly scaled in draft to match the wider page)
+    // diagram (full size in both modes)
     if diagram != none {
-      if draft {
-        scale(85%, reflow: true, diagram)
-      } else {
-        diagram
-      }
+      diagram
       v(if draft { 4pt } else { 2pt })
     }
 
