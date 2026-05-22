@@ -19,13 +19,14 @@
 #set par(justify: true, leading: 0.64em)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  This book collects one hundred real incidents in which human capability was the
-  critical system parameter — moments when what people could (or could not) do
-  inside a system determined whether it worked. Some are failures: lives lost,
-  systems wrecked, billions written off. Some are successes: deliberate
-  interventions that engineered capability into the architecture of the work.
-  Together they form an evidence base for the argument that capability is a
-  designable, measurable property of every complex system.
+  This book collects one hundred real incidents in which capability —
+  what people could or could not do inside a complex system —
+  determined whether the system worked. Some are failures: lives
+  lost, systems wrecked, billions written off. Some are successes:
+  deliberate interventions that engineered capability into the
+  architecture of the work. Together they form an evidence base for
+  the argument that capability is a designable, measurable property
+  of every complex system.
 ]
 
 #v(8pt)

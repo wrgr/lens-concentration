@@ -56,30 +56,35 @@
 #let spine-x  = bleed + trim-w
 
 // ---- FRONT COVER (right side) ----
-#at(front-x + 14mm, 24mm + bleed)[
-  #text(font: sans, size: 9pt, tracking: 2.8pt, fill: gold, upper("A casebook for LDT · LENS"))
+#at(front-x + 14mm, 22mm + bleed)[
+  #text(font: sans, size: 9pt, tracking: 2.8pt, fill: gold, upper("A casebook"))
   #v(2pt)
   #line(length: 22mm, stroke: 0.8pt + gold)
 ]
 
-#at(front-x + 14mm, 64mm + bleed)[
-  #text(font: serif, size: 64pt, fill: cream, "Capability")
-  #v(-4pt)
-  #text(font: serif, size: 64pt, style: "italic", fill: teal-light, "Matters")
+// Leader line — full LENS expansion above the display title
+#at(front-x + 14mm, 50mm + bleed)[
+  #block(width: trim-w - 28mm)[
+    #text(font: serif, size: 16pt, fill: rgb("#B7C9E0"),
+      "Learning Engineering for Next-Generation Systems")
+  ]
 ]
 
-#at(front-x + 14mm, 140mm + bleed)[
-  #block(width: trim-w - 28mm)[
-    #text(font: serif, size: 18pt, style: "italic", fill: rgb("#B7C9E0"),
-      "When human capability is the critical system parameter")
-  ]
+// Display title
+#at(front-x + 14mm, 84mm + bleed)[
+  #text(font: serif, size: 72pt, fill: cream, "Capability")
+  #v(-6pt)
+  #text(font: serif, size: 72pt, style: "italic", fill: teal-light, "Matters")
 ]
 
 #at(front-x + 14mm, trim-h + bleed - 32mm)[
   #line(length: 22mm, stroke: 0.6pt + gold)
   #v(6pt)
-  #text(font: sans, size: 8.5pt, tracking: 1.8pt, fill: cream,
-    upper("Johns Hopkins University · School of Education"))
+  #text(font: sans, size: 9pt, tracking: 1.8pt, fill: cream,
+    upper("Johns Hopkins University"))
+  #v(3pt)
+  #text(font: sans, size: 7.5pt, tracking: 1.4pt, fill: rgb("#B7C9E0"),
+    upper("Learning Design and Technology"))
 ]
 
 // ---- SPINE (vertical text, only if spine is wide enough) ----
