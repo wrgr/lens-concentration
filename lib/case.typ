@@ -83,13 +83,13 @@
     // body — slightly smaller in draft to keep each case to 1 page
     set par(
       justify: true,
-      leading: if draft { 0.38em } else { 0.45em },
+      leading: if draft { 0.4em } else { 0.45em },
       first-line-indent: 0pt,
-      spacing: if draft { 0.42em } else { 0.55em },
+      spacing: if draft { 0.44em } else { 0.55em },
     )
     text(
       font: sans,
-      size: if draft { 7.75pt } else { 8.5pt },
+      size: if draft { 8pt } else { 8.5pt },
       fill: text-dark,
       body,
     )
