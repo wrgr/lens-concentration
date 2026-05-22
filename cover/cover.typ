@@ -129,15 +129,15 @@
 // BACK COVER (left face)
 //   • Lulu places a 92 × 32 mm barcode 12.7 mm from the bleed edge —
 //     keep the lower-center of this face clear.
+//   • The long "One hundred cases · …" tagline lives at the BOTTOM
+//     (above the URL footer). When that line was at the top it ran
+//     within a few mm of the spine fold and risked wrapping into
+//     the spine on the bound book.
 // ============================================================
-#at(margin, margin + 4mm)[
-  #text(font: sans, size: 8.5pt, tracking: 2.8pt, fill: gold,
-    upper("One hundred cases · Six failure modes · One discipline"))
-  #v(2pt)
-  #line(length: 20mm, stroke: 0.8pt + gold)
-]
 
-#at(margin, margin + 22mm)[
+// Top block: italic pull-quote leads the back cover (no eyebrow at
+// the top so the long tagline doesn't risk bleeding into the spine).
+#at(margin, margin + 4mm)[
   #block(width: half-w - 2 * margin)[
     #set par(leading: 0.62em)
     #text(font: serif, size: 12pt, style: "italic", fill: cream)[
@@ -166,12 +166,19 @@
   ]
 ]
 
-// Footer for the back cover: positioned ABOVE the barcode safe area.
-// Barcode area: 92 × 32 mm, 12.7 mm from bleed edge, centered horizontally.
-// We place the footer line above the top of the barcode region.
-#at(margin, total-h - margin - 45mm)[
-  #line(length: 20mm, stroke: 0.6pt + gold)
-  #v(5pt)
-  #text(font: sans, size: 7.5pt, tracking: 1.4pt, fill: cream,
-    upper("capabilitymatters.org · LENS at Johns Hopkins"))
+// Bottom block: tagline + rule + URL footer, all stacked. Positioned
+// above the 92 × 32 mm barcode safe area. Tagline tracking/size
+// tuned so the full line fits on one row of the back cover content
+// area (~111 mm) without wrapping the orphan "DISCIPLINE" onto a
+// second line.
+#at(margin, total-h - margin - 55mm)[
+  #block(width: half-w - 2 * margin)[
+    #text(font: sans, size: 7.5pt, tracking: 1.4pt, fill: gold,
+      upper("One hundred cases · Six failure modes · One discipline"))
+    #v(6pt)
+    #line(length: 20mm, stroke: 0.6pt + gold)
+    #v(6pt)
+    #text(font: sans, size: 7.5pt, tracking: 1.4pt, fill: cream,
+      upper("capabilitymatters.org · LENS at Johns Hopkins"))
+  ]
 ]
