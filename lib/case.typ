@@ -28,15 +28,18 @@
   reflection-list: (),
   courses: (),
 ) = {
-  let draft = sys.inputs.at("mode", default: "screen") == "draft"
+  let mode = sys.inputs.at("mode", default: "screen")
+  let draft-letter = mode == "draft"
+  let draft-half = mode == "draft-half"
+  let draft = draft-letter or draft-half
 
-  // Start each case on a fresh page in screen/print mode (forcing
-  // verso so page 1 + page 2 form a spread). In draft mode, cases
-  // flow continuously with generous vertical space between them.
+  // Screen/print: each case starts on a verso so page 1 + page 2
+  // form a spread. Both draft modes: each case starts on a fresh
+  // page (no even-page forcing — single-sided editorial print),
+  // with case content on the first page(s) and LE Lens on the
+  // following page(s).
   if draft {
-    v(16mm)
-    align(center, line(length: 40mm, stroke: 0.6pt + gold))
-    v(16mm)
+    pagebreak(weak: true)
   } else {
     pagebreak(to: "even", weak: true)
   }
@@ -72,9 +75,16 @@
     )
     v(3pt)
 
-    // diagram (full size in both modes)
+    // Diagram. Screen/print and draft-half use the diagram at its
+    // designed size; the Letter draft has a lot more page width to
+    // play with, so we scale up ~25% to make the diagram the focal
+    // element on page 1.
     if diagram != none {
-      diagram
+      if draft-letter {
+        scale(x: 125%, y: 125%, origin: top + left, reflow: true, diagram)
+      } else {
+        diagram
+      }
       v(if draft { 4pt } else { 3pt })
     }
 
@@ -94,12 +104,11 @@
     )
   })
 
-  // -------- PAGE 2 (or bottom half of draft page): THE LE LENS --------
-  if draft {
-    v(4pt)
-  } else {
-    pagebreak(weak: true)
-  }
+  // -------- PAGE 2: THE LE LENS --------
+  // In both draft modes the LE Lens block lives on a fresh page so
+  // the case narrative and its analysis can be reviewed side-by-side
+  // when the draft is printed two-up.
+  pagebreak(weak: true)
   block(width: 100%, {
     eyebrow("The Learning Engineering Lens", color: teal)
     v(1pt)

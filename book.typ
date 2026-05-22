@@ -13,13 +13,20 @@
 //   mode=print            — Half Letter trim, transparent/white
 //     backdrop for Lulu cream-paper stock; layout otherwise
 //     identical to screen.
-//   mode=draft            — US Letter (8.5 × 11) one-up layout, each
-//     case on a single page. Intended for editorial review and
-//     hand-marking. Uses white backdrop with a small DRAFT marker.
+//   mode=draft            — US Letter (8.5 × 11) one-up layout at 11pt
+//     body. Two pages per case (case on p1, LE Lens on p2). Diagrams
+//     are scaled up ~25% so they remain the focal element. Intended
+//     for editorial review and hand-marking.
+//   mode=draft-half       — Half Letter (5.5 × 8.5) trim at 11pt body.
+//     Each case naturally spans ~4 pages (case spills to ~2, LE Lens
+//     spills to ~2). Print 2-up on Letter to prototype the small
+//     trade-book feel at a readable editorial font size.
 #let mode = sys.inputs.at("mode", default: "screen")
 #let print-mode = mode == "print"
 #let draft-mode = mode == "draft"
-#let page-fill = if print-mode or draft-mode { white } else { cream }
+#let draft-half-mode = mode == "draft-half"
+#let any-draft = draft-mode or draft-half-mode
+#let page-fill = if print-mode or any-draft { white } else { cream }
 
 // ---- Document metadata ----
 #set document(
@@ -31,14 +38,19 @@
 //   Half Letter + 3mm bleed = 145.7 x 221.9 mm for screen/print.
 //   US Letter for draft mode (215.9 × 279.4 mm).
 #set page(
-  width:  if draft-mode { 215.9mm } else { page-w },
-  height: if draft-mode { 279.4mm } else { page-h },
+  width:  if draft-mode { 215.9mm } else if draft-half-mode { 139.7mm } else { page-w },
+  height: if draft-mode { 279.4mm } else if draft-half-mode { 215.9mm } else { page-h },
   margin: if draft-mode {
     // Wider inside margin for 3-hole punch / binder. Holes sit ~10
     // mm from the bound edge with ~16 mm clearance to text. Uses
     // inside/outside so both single- and double-sided printing
     // place the binder-edge margin correctly.
     (inside: 28mm, outside: 18mm, top: 20mm, bottom: 20mm)
+  } else if draft-half-mode {
+    // Half-Letter draft: tighter margins than the trade-book screen
+    // build, but generous enough that 11pt body type still has a
+    // comfortable measure (~58–62 chars).
+    (inside: 17mm, outside: 14mm, top: 16mm, bottom: 16mm)
   } else {
     (
       inside:  m-inner + bleed,
@@ -50,12 +62,12 @@
   fill: page-fill,
   header: context {
     let p = counter(page).get().first()
-    if draft-mode and p > 1 [
+    if any-draft and p > 1 [
       #set text(font: sans, size: 7pt, fill: text-muted, tracking: 1pt)
       #upper("Capability Matters — DRAFT") #h(1fr) #str(p)
       #v(-4pt)
       #line(length: 100%, stroke: 0.3pt + rule-soft)
-    ] else if not draft-mode and p > 6 [
+    ] else if not any-draft and p > 6 [
       #set text(font: sans, size: 7pt, fill: text-muted, tracking: 1pt)
       #if calc.even(p) [
         #upper("Capability Matters") #h(1fr) #str(p)

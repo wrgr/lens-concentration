@@ -59,9 +59,12 @@
   eyebrow(unit, color: teal)
 }
 
-// `_draft` predicate — components shrink slightly to keep each case
-// to a single page in draft mode.
-#let _draft = sys.inputs.at("mode", default: "screen") == "draft"
+// `_draft` predicate — both draft modes use larger type so the
+// editorial print is comfortably readable for mark-up.
+#let _draft = {
+  let m = sys.inputs.at("mode", default: "screen")
+  m == "draft" or m == "draft-half"
+}
 
 // ---- Pull quote box ----
 #let pullquote(body, source) = block(
