@@ -78,17 +78,23 @@
 //   pullquote-size: pull quote serif
 //   reflection-size: reflection-question body
 //   sources-size: sources + literature list
-#let body-size       = if is-draft { 11pt }   else if is-letter { 10.5pt } else { 8.5pt }
-#let title-size      = if is-draft { 24pt }   else if is-letter { 26pt }   else { 22pt }
-#let impact-size     = if is-draft { 10.5pt } else if is-letter { 11pt }   else { 8.5pt }
-#let lens-size       = if is-draft { 10.5pt } else if is-letter { 10pt }   else { 8.5pt }
-#let pullquote-size  = if is-draft { 13pt }   else if is-letter { 12pt }   else { 10.5pt }
-#let pullquote-src   = if is-draft { 8pt }    else if is-letter { 7.5pt }  else { 6.8pt }
-#let reflection-size = if is-draft { 10.5pt } else if is-letter { 9.5pt }  else { 8pt }
+// Half Letter production body is 9.25pt — the middle ground between
+// the original 8.5pt (264 pp, tight) and 9.5pt (358 pp, lots of
+// overflow blanks). At 9.25pt the book lands at 310 pp with ~24
+// blank-page anchors that the verso/recto spread architecture
+// requires when a case overflows. Some blanks are an editorial
+// opportunity: those cases have room to be expanded.
+#let body-size       = if is-draft { 11pt }   else if is-letter { 10.5pt } else { 9.25pt }
+#let title-size      = if is-draft { 24pt }   else if is-letter { 26pt }   else { 23pt }
+#let impact-size     = if is-draft { 10.5pt } else if is-letter { 11pt }   else { 9.25pt }
+#let lens-size       = if is-draft { 10.5pt } else if is-letter { 10pt }   else { 9.25pt }
+#let pullquote-size  = if is-draft { 13pt }   else if is-letter { 12pt }   else { 11pt }
+#let pullquote-src   = if is-draft { 8pt }    else if is-letter { 7.5pt }  else { 7pt }
+#let reflection-size = if is-draft { 10.5pt } else if is-letter { 9.5pt }  else { 8.5pt }
 #let reflection-num  = if is-draft { 12pt }   else if is-letter { 11pt }   else { 10pt }
-#let sources-size    = if is-draft { 9pt }    else if is-letter { 8.5pt }  else { 7pt }
-#let body-leading    = if is-draft { 0.58em } else if is-letter { 0.55em } else { 0.45em }
-#let body-spacing    = if is-draft { 0.68em } else if is-letter { 0.6em }  else { 0.55em }
+#let sources-size    = if is-draft { 9pt }    else if is-letter { 8.5pt }  else { 7.5pt }
+#let body-leading    = if is-draft { 0.58em } else if is-letter { 0.55em } else { 0.48em }
+#let body-spacing    = if is-draft { 0.68em } else if is-letter { 0.6em }  else { 0.56em }
 
 // ---- Typography (font stacks) ----
 #let serif = ("Instrument Serif", "EB Garamond", "Georgia")
