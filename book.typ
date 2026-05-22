@@ -13,7 +13,11 @@
 //   mode=print-letter  — US Letter, grayscale, white backdrop. Lulu prod.
 //   mode=draft         — US Letter, 11pt, color, editorial.
 //   mode=draft-half    — Half Letter, 11pt, color, editorial.
+//
+// Optional input `date=YYYY-MM-DD` — when set, drafts print the date
+// in the running header so reviewers can tell which build they have.
 #let page-fill = if cream-backdrop { cream } else { white }
+#let draft-date = sys.inputs.at("date", default: "")
 
 // ---- Document metadata ----
 #set document(
@@ -36,7 +40,11 @@
     let p = counter(page).get().first()
     if is-draft and p > 1 [
       #set text(font: sans, size: 7pt, fill: text-muted, tracking: 1pt)
-      #upper("Capability Matters — DRAFT") #h(1fr) #str(p)
+      #if draft-date != "" [
+        #upper("Capability Matters — DRAFT · " + draft-date) #h(1fr) #str(p)
+      ] else [
+        #upper("Capability Matters — DRAFT") #h(1fr) #str(p)
+      ]
       #v(-4pt)
       #line(length: 100%, stroke: 0.3pt + rule-soft)
     ] else if not is-draft and p > 6 [
