@@ -10,11 +10,11 @@
 #text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("How to use this book"))
 #v(4pt)
 #line(length: 32mm, stroke: 0.8pt + gold)
-#v(12pt)
+#v(8pt)
 
 #text(font: serif, size: 28pt, fill: navy, "A field manual for capability engineering.")
 
-#v(14pt)
+#v(10pt)
 
 #set par(justify: true, leading: 0.64em)
 
@@ -29,7 +29,7 @@
   of every complex system.
 ]
 
-#v(8pt)
+#v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   Each case occupies a two-page spread. The left-hand page tells the story:
@@ -40,23 +40,21 @@
   studio discussion.
 ]
 
-#v(8pt)
+#v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
   The Lens page also carries a *Who Builds This* note: the mix of
-  expertise and the tools a team would bring to engineer the fix,
-  read directly off the case's failure modes. It is there to make the
-  team-sport point concrete — a Training-Gap case pulls in learning
-  scientists and instructional designers; an Interface case pulls in
-  human-factors and interaction designers; a Governance case pulls in
-  policy, ethics, and measurement. Most cases need several at once,
-  held together by domain experts and a learning engineer. No single
-  discipline carries a case alone, and reading the modes as a staffing
-  list is itself a LENS skill. What *you* bring to that team is yours
-  to decide.
+  expertise and tools a team would bring to engineer the fix, read off
+  the case's failure modes. A Training-Gap case pulls in learning
+  scientists and instructional designers; an Interface case, human-
+  factors and interaction designers; a Governance case, policy, ethics,
+  and measurement. Most cases need several at once, held together by
+  domain experts and a learning engineer. No single discipline carries
+  a case alone — reading the modes as a staffing list is itself a LENS
+  skill, and what *you* bring is yours to decide.
 ]
 
-#v(14pt)
+#v(6pt)
 
 #grid(
   columns: (1fr, 1fr),
@@ -88,25 +86,23 @@
     ]
     #v(8pt)
     #text(font: sans, size: 7pt, tracking: 1.4pt, fill: teal, upper("Shared LDT foundations · additional context"))
-    #v(4pt)
-    #block(spacing: 5pt, grid(
+    #v(3pt)
+    #block(spacing: 4pt, grid(
       columns: (38pt, 1fr),
       column-gutter: 8pt,
       course-tags("F1"),
       text(font: sans, size: 8pt, fill: text-dark)[
-        *Learning Sciences Studio.* The theories of how learning,
-        motivation, and skill develop, applied to the design of
-        technology-mediated learning.
+        *Learning Sciences Studio.* How learning, motivation, and skill
+        develop — applied to technology-mediated design.
       ],
     ))
-    #block(spacing: 5pt, grid(
+    #block(spacing: 4pt, grid(
       columns: (38pt, 1fr),
       column-gutter: 8pt,
       course-tags("F2"),
       text(font: sans, size: 8pt, fill: text-dark)[
         *Critical Perspectives on Educational Technology.* How power,
-        equity, and societal structures shape and are shaped by
-        learning technology.
+        equity, and society shape — and are shaped by — learning tech.
       ],
     ))
     #v(6pt)
@@ -125,7 +121,7 @@
       ("LEN 10", "Learning Engineering Project (capstone)"),
     )
     #for (code, name) in courses-list [
-      #block(spacing: 5pt, grid(
+      #block(spacing: 3pt, grid(
         columns: (38pt, 1fr),
         column-gutter: 8pt,
         course-tags(code),
@@ -135,12 +131,12 @@
   ]
 )
 
-#v(14pt)
+#v(5pt)
 
 #block(
   width: 100%,
   fill: rgb("#FBF7EE"),
-  inset: 10pt,
+  inset: 8pt,
   stroke: (left: 2pt + gold),
   {
     text(font: serif, size: 11pt, style: "italic", fill: navy)[
