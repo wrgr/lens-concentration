@@ -29,14 +29,15 @@ Three editions reproduce from source via `bash scripts/build.sh`.
 All three share one measure and type size, so **proof pagination is
 identical to print** — what you proof is what Lulu prints.
 
-Cases are being converted from the legacy 2-page spread to a **4-page
-cited narrative**: pages 1–3 carry a five-beat sourced narrative with
-inline `#cn()` citation markers and a numbered reference list at the
-end of page 3; the *Learning Engineering Lens* analysis lands on the
-recto, page 4. Conversion is incremental — `case()` renders the legacy
-2-page layout for any case that has not yet been converted. Run
-`make check` to verify every converted case is exactly four pages,
-starts on a verso, and has marker count == reference-list length.
+Cases are being converted from the legacy 2-page spread to a **3-page
+cited case (2 + 1)**: a shaded ~130-word "In brief" summary plus a
+five-beat sourced narrative with inline `#cn()` citation markers fill
+two pages (the case diagram on page 2, references in two compact
+columns at the end of page 2); the *Learning Engineering Lens* analysis
+lands on page 3. Conversion is incremental — `case()` renders the
+legacy 2-page layout for any case not yet converted. Run `make check`
+to verify every converted case is exactly three pages, with references
+on page 2 and marker count == reference-list length.
 
 For the intellectual framing behind the casebook — the capability
 interface, agency as a design constraint, gap attribution, the
@@ -67,7 +68,7 @@ Practice Flywheel — see [METHODOLOGY.md](METHODOLOGY.md).
 ├── fonts/                         # bundled Instrument Serif + DM Sans
 ├── scripts/
 │   ├── build.sh                   # build all three editions + cover
-│   ├── check-cases.sh             # 4-page + citation-parity check
+│   ├── check-cases.sh             # 3-page + citation-parity check
 │   └── fetch-fonts.sh             # re-download fonts if missing
 └── Makefile
 ```
@@ -96,7 +97,7 @@ make digital            # color 8 × 10 edition
 make proof              # 8 × 10 on US Letter with trim marks
 make cover              # 8 × 10 Lulu wrap (spine from live page count)
 make preview            # alias for digital
-make check              # 4-page + citation-parity check on converted cases
+make check              # 3-page + citation-parity check on converted cases
 make clean
 ```
 
@@ -139,11 +140,10 @@ Production builds use two layers:
 
 ## Page geometry
 
-One trim, one measure. Every case begins on a verso (even-numbered)
-page so the case narrative and its Learning Engineering Lens analysis
-sit in a predictable spread. The three editions differ only in color
-and carrier — never in measure or type size — so proof and print
-paginate identically.
+One trim, one measure. Converted 3-page cases flow without a forced
+verso start, so the 3-page units pack without blank pages. The three
+editions differ only in color and carrier — never in measure or type
+size — so proof and print paginate identically.
 
 | Setting | Value |
 |---|---|
@@ -177,20 +177,22 @@ typst compile --font-path fonts --root . \
 Cases are defined by `#case(...)` (see `lib/case.typ`). The template
 has two paths, selected by whether `kind` is set.
 
-**4-page cited narrative** (set `kind`) — the target structure:
+**3-page cited case** (set `kind`) — the target structure:
 
 | Field            | Purpose                                                                 |
 |------------------|-------------------------------------------------------------------------|
 | `kind`           | `"failure"`, `"intervention"`, or `"frontier"` — picks the section labels in `theme.section-sets` |
+| `summary`        | shaded ~100–150 word "In brief" abstract at the top of page 1 |
 | `sections`       | array of **five** content blocks, one per beat, in order; embed inline `#cn()` markers in the prose |
 | `references`     | array of reference strings — **must equal the `#cn()` count** (run `make check`) |
-| `le-insight`, `lens-approach`, `reflection-list`, `courses`, `quote`, `sources-list`, `literature-items` | the page-4 LE Lens, as before |
+| `le-insight`, `lens-approach`, `reflection-list`, `courses`, `quote`, `sources-list`, `literature-items` | the page-3 LE Lens, as before |
 
 Inline citations use `#cn()`, which auto-numbers within the case
 (reset per case) and renders a superscript marker; the matching text
-goes in `references`, in the same order. Size the five sections to
-fill three pages so the reference list lands on page 3 and the LE Lens
-on page 4 — `make check` enforces this.
+goes in `references`, in the same order. Size the summary plus the five
+sections to fill two pages so the reference list lands at the end of
+page 2 and the LE Lens on page 3 — `make check` enforces this. Keep
+references concise (one line each); they render in two columns.
 
 **Legacy 2-page spread** (omit `kind`) — `number`, `title`, `year`,
 `domains-list`, `modes-code`, `impact`, `diagram`, `body`, plus the LE
@@ -253,7 +255,7 @@ pagination matches the Lulu interior page-for-page.
 
 ## Open items for production
 
-- Case conversion to the 4-page cited narrative is in progress; run
+- Case conversion to the 3-page (2+1) cited case is in progress; run
   `make check` to see which cases are converted and passing.
 - The colophon currently reads `Copyright © 2026. All rights reserved.`
   pending a decision on the institutional rights-holder.

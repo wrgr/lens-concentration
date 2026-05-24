@@ -29,104 +29,80 @@
   impact: "346 killed across two crashes — Lion Air 610 and Ethiopian Airlines 302",
   diagram: dgm.dgm-737max,
   kind: "failure",
+  summary: [
+    The Boeing 737 MAX was a re-engined 737 meant to fly without new pilot
+    training — the commercial promise that sold it against the Airbus
+    A320neo. Its bigger engines changed the jet's pitch behavior, so Boeing
+    added software (MCAS) to mask the difference, then kept it out of the
+    manuals and training and let it fire on a single angle-of-attack sensor.
+    When that sensor failed on Lion Air 610 (2018) and Ethiopian 302 (2019),
+    MCAS forced the nose down and crews who had never heard of it could not
+    recover; 346 people died and the fleet was grounded. Investigations
+    found the training omission was deliberate, to avoid certification cost.
+    The MAX is the book's inverse case: human capability engineered out of a
+    system to save the price of sustaining it.
+  ],
   sections: (
     // -- Background --
     [
       The 737 MAX was Boeing's answer to the Airbus A320neo: a re-engined
-      version of its best-selling jet that airlines could fly without
-      retraining their pilots on a new type. But the MAX's larger, more
-      forward-mounted engines changed how the airplane pitched, and to make
-      it handle like the 737s before it Boeing added software — the
-      Maneuvering Characteristics Augmentation System, or MCAS — that would
-      nudge the nose down on its own under certain conditions. The entire
-      commercial logic of the airplane depended on that software staying
-      invisible: the less of a "new function" MCAS appeared to be, the less
-      the MAX would trigger costly new training and certification. Boeing
-      had reportedly promised Southwest Airlines a rebate of roughly a
-      million dollars per aircraft if the MAX turned out to require simulator
-      training.#cn() The pressure behind that promise was existential. When
-      Airbus launched the re-engined, more fuel-efficient A320neo in 2010 and
-      began taking large orders from airlines Boeing considered its own, the
-      company chose not to design a clean-sheet replacement for the 737 —
-      which would have taken years and a new type certificate — but to hang
-      bigger engines on a half-century-old airframe and field it fast. Every
-      decision downstream inherited that choice. Common type rating with the
-      existing 737 was not a nice-to-have; it was the product. MCAS existed
-      to preserve the fiction that nothing fundamental had changed, and the
-      training omission was the most visible expression of a design brief
-      that prized sameness over disclosure.
+      version of its best-seller that airlines could fly without retraining
+      pilots on a new type. But the MAX's larger, forward-mounted engines
+      changed how it pitched, so Boeing added software — MCAS — to make it
+      handle like the older 737s. The whole commercial logic depended on that
+      software staying invisible: the less of a "new function" MCAS seemed,
+      the less the MAX would trigger costly new training. Boeing reportedly
+      promised Southwest a rebate of about a million dollars per jet if
+      simulator training proved necessary.#cn()
     ],
     // -- What Happened --
     [
-      To keep MCAS in the background, it was left out of the flight manual
-      and out of pilot training, and the acronym itself was kept out of
-      customer-facing materials. The system was also allowed to fire on the
-      reading of a single angle-of-attack sensor, with no second source to
-      check it against. When that sensor failed on Lion Air Flight 610 in
-      October 2018, MCAS repeatedly forced the nose down; the crew, who had
-      never been told the system existed and had no procedure to disable it,
-      fought it until the airplane dove into the Java Sea, killing all 189
-      aboard. Five months later, in March 2019, Ethiopian Airlines Flight
-      302 repeated the sequence almost exactly, killing 157. Three hundred
-      forty-six people died across the two crashes, and the world's MAX fleet
-      was grounded.#cn()
+      To keep MCAS in the background, it was left out of the manual and
+      training, and allowed to fire on a single angle-of-attack sensor with
+      no second source to check it. When that sensor failed on Lion Air
+      Flight 610 in October 2018, MCAS repeatedly forced the nose down; the
+      crew, never told the system existed, fought it until the jet dove into
+      the Java Sea, killing all 189. Five months later Ethiopian Airlines
+      Flight 302 repeated the sequence, killing 157 — 346 dead across the two
+      crashes, and the fleet grounded.#cn()
     ],
     // -- The Investigation --
     [
-      The investigations made the decisions legible. Internal Boeing meeting
-      minutes from 2013 showed employees noting, in writing, that emphasizing
-      MCAS as a new function would bring "greater certification and training
-      impact" — the cost the program was organized to avoid. A 2016 internal
-      survey had already found that 39 percent of Boeing employees working on
-      certification perceived undue pressure from management. The House
-      Transportation Committee's 2020 report concluded that Boeing's
-      assumption that simulator training was unnecessary "diminished safety,
-      minimized the value of pilot training, and inhibited technical design
-      improvements."#cn() The Department of Transportation's Inspector
-      General, examining the FAA's oversight, traced how the single-sensor
-      design and the training omission passed through a certification process
-      that delegated much of the safety judgment back to Boeing itself.#cn()
-      Two details show how ordinary the failure was. MCAS's authority had
-      been quietly expanded late in development — from a fraction of a degree
-      of stabilizer travel to several times that — without a matching
-      re-examination of what would happen if it fired repeatedly on a single
-      bad sensor. And a cockpit alert meant to warn pilots when the two
-      angle-of-attack sensors disagreed turned out, on delivery, to function
-      only for airlines that had bought an optional indicator package; on the
-      accident aircraft the one signal that might have flagged the failing
-      sensor was simply not active. Neither was an act of sabotage. Both were
-      the unremarkable output of a program optimizing for cost, schedule, and
-      the promise that the MAX was just another 737 — a promise that could be
-      kept only by ensuring no one looked too hard at the system holding it
-      together.
+      The investigations made the decisions legible. Internal 2013 minutes
+      showed employees noting that calling MCAS a new function would bring
+      "greater certification and training impact" — the cost the program was
+      built to avoid; a 2016 survey found 39 percent of certification staff
+      felt undue pressure. The House Transportation Committee's 2020 report
+      concluded Boeing's assumption that simulator training was unnecessary
+      "diminished safety, minimized the value of pilot training, and
+      inhibited technical design improvements."#cn() The DOT Inspector
+      General traced how the single-sensor design and the training omission
+      passed through a certification process that delegated much of the
+      safety judgment back to Boeing itself.#cn()
     ],
     // -- The Capability Gap --
     [
-      The MAX is the inverse of this book's usual case. Human capability was
-      not overlooked or under-resourced by accident; it was deliberately
-      engineered out of the system to avoid the cost of the training that
-      would have created it. The pilots were not undertrained by oversight —
-      they were undertrained by design, and the absence of training was, in
-      effect, a contract deliverable. Once that is understood, the accidents
-      stop looking like a training failure that happened to a good airplane
-      and start looking like exactly what the engineering and commercial
-      decisions had specified: a flight-control system that depended on
-      pilots reacting correctly to a failure they had been guaranteed never
-      to learn about.#cn()
+      The MAX inverts this book's usual case. Human capability was not
+      overlooked by accident; it was deliberately engineered out to avoid the
+      cost of the training that would have created it. The pilots were not
+      undertrained by oversight but by design — the absence of training was,
+      in effect, a contract deliverable. Seen that way, the crashes are not a
+      training failure that befell a good airplane but exactly what the
+      commercial and engineering decisions specified: a flight-control system
+      that depended on pilots reacting correctly to a failure they had been
+      guaranteed never to learn about.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      The MAX was grounded for some twenty months — among the longest
-      groundings of a major airliner in history. MCAS was redesigned to draw
-      on both angle-of-attack sensors, to fire only once, and with limited
-      authority, and the FAA's return-to-service in late 2020 required the
-      simulator training the airplane had been built to avoid. Congress
-      passed certification-reform legislation tightening the FAA's oversight
-      of the delegation system that had let Boeing self-certify so much of
-      the design.#cn() The reform conceded the point the program had spent
-      years resisting: the training was a real requirement all along, and
-      the only thing removing it from the paperwork accomplished was to move
-      the cost from Boeing's balance sheet onto two airplanes full of people.
+      The MAX was grounded for some twenty months. MCAS was redesigned to use
+      both sensors, fire once, and with limited authority, and the FAA's 2020
+      return-to-service required the simulator training the airplane had been
+      built to avoid. Congress tightened the FAA's oversight of the
+      delegation system that had let Boeing self-certify so much of the
+      design.#cn() The reform conceded the point the program had spent years
+      resisting: the training was a real requirement all along, and removing
+      it from the paperwork only moved the cost onto two airplanes full of
+      people.
     ],
   ),
   references: (
@@ -175,99 +151,75 @@
   year: "1985 – 1987",
   domains-list: ("healthcare", "tech"),
   modes-code: "HDG",
-  impact: "Six known massive radiation overdoses; four deaths; canonical case in software safety engineering",
+  impact: "Six known massive radiation overdoses; at least three deaths; canonical case in software safety engineering",
   diagram: dgm.dgm-therac,
   kind: "failure",
+  summary: [
+    The Therac-25, a radiation-therapy machine, massively overdosed at
+    least six patients between 1985 and 1987, killing at least three. Its
+    predecessors used hardware interlocks to stop the high-energy beam from
+    firing without its target in place; to save cost, the Therac-25 removed
+    them and trusted software — adapted from the older machines and never
+    engineered for safety — to keep the beam modes separated. A race
+    condition let a fast operator trigger the full beam with no target,
+    while the console showed only a meaningless "Malfunction 54." Leveson
+    and Turner's 1993 investigation, the founding case of software-safety
+    engineering, found a systemic failure: a safeguard removed with nothing
+    put in its place. The lesson — a safeguard you delete does not remove
+    the hazard; it relocates it to whatever you failed to build.
+  ],
   sections: (
     // -- Background --
     [
-      The Therac-25 was a medical linear accelerator that delivered
-      radiation therapy. Its predecessors, the Therac-6 and Therac-20, had
-      hardware interlocks — physical mechanisms that would not let the
-      high-energy electron beam fire unless the metal target that spread and
-      attenuated it was confirmed in place. The Therac-25 removed those
-      interlocks and relied entirely on software to ensure the beam
-      configuration matched the prescription. Doing so was cheaper, lighter,
-      and faster to build; it also moved the machine's entire safety case
-      onto software that had been adapted from the earlier models and was
-      never engineered for safety-critical operation.#cn() The machine was
-      ambitious in another way that mattered. It was a dual-mode accelerator,
-      able to deliver either a low-current electron beam directly or a
-      high-current beam fired into a target to produce X-rays — a difference
-      of a hundredfold in beam energy at the patient. Keeping those two modes
-      safely separated had, on the older machines, been the interlock's
-      literal job. On the Therac-25 it became a matter of software state, set
-      and tracked by code that assumed its own correctness and was tested
-      mainly by running it, not by analyzing how it could fail. The
-      manufacturer had reused routines from the earlier, interlock-protected
-      machines on the theory that code which had "worked" for years was
-      proven — not recognizing that the code had never been the safeguard,
-      and so had never been exercised against the failures it would now have
-      to prevent on its own.
+      The Therac-25 was a radiation-therapy linear accelerator. Its
+      predecessors used hardware interlocks that physically blocked the
+      high-energy beam unless the spreading target was confirmed in place. To
+      save cost, the Therac-25 removed them and trusted software — adapted
+      from the older machines and never engineered for safety-critical use —
+      to keep its two beam modes, a hundredfold apart in energy, safely
+      separated.#cn()
     ],
     // -- What Happened --
     [
-      Between 1985 and 1987 the machine massively overdosed patients in at
-      least six accidents. The mechanism was a race condition the engineers
-      did not know existed: if an operator entered a prescription, caught a
-      mistake, and corrected it within about eight seconds, the machine
-      could enter a state in which the full-power beam fired with no target
-      in its path. Patients absorbed as much as a hundred times the intended
-      dose. The console gave the operator nothing useful to go on — it
-      displayed "MALFUNCTION 54," a code with no explanation, and offered
-      the option to proceed. Operators, trained to believe the machine was
-      safe and accustomed to cryptic faults, proceeded. At least three
-      patients died, and others were gravely injured.#cn()
+      Between 1985 and 1987 the machine massively overdosed at least six
+      patients. A race condition the engineers never knew about meant that
+      if an operator entered a prescription, caught a mistake, and corrected
+      it within about eight seconds, the full-power beam could fire with no
+      target — up to a hundred times the intended dose. The console showed
+      only "MALFUNCTION 54," a code with no meaning, and offered to proceed;
+      operators, told the machine was safe and used to cryptic faults, did.
+      At least three patients died.#cn()
     ],
     // -- The Investigation --
     [
-      When patients reported searing pain during treatment, the manufacturer
-      at first insisted an overdose was impossible. Nancy Leveson and Clark
-      Turner's 1993 investigation, which became the founding case study of
-      modern software-safety engineering, found the opposite — and found that
-      the fault was systemic, not a single bug. There had been overconfidence
-      in software, removal of the independent hardware safeguards without
-      replacement, error messages that communicated nothing, reused code
-      never audited for safety-critical use, no independent review, and an
-      incident-reporting posture that absorbed and dismissed the early
-      warnings rather than investigating them.#cn()
+      When patients reported searing pain, the manufacturer first insisted
+      an overdose was impossible. Nancy Leveson and Clark Turner's 1993
+      investigation — the founding case study of software-safety engineering
+      — found the fault was systemic: overconfidence in software, removal of
+      the hardware safeguards without replacement, meaningless error
+      messages, reused code never audited for safety, no independent review,
+      and an incident-reporting posture that dismissed the early warnings.#cn()
     ],
     // -- The Capability Gap --
     [
       The hardware interlock had not been redundant; it *was* the safety
-      case. When it was removed, no equivalent capability was put in its
-      place — not a verified software check, not a trained operator action
-      backed by information, not an independent monitor. The operator was
-      kept in the loop but stripped of any means to detect what the machine
-      was doing wrong, which made the human presence a formality rather than
-      a safeguard. The question capability engineering would have forced
-      before deleting the interlock — *what function now carries its load?* —
-      was never asked.#cn() What makes Therac-25 endure as a teaching case is
-      that none of its failures required exotic conditions. The race
-      condition needed only a fast, experienced operator — exactly the
-      operator a busy clinic produces. The uninformative error code needed
-      only a development culture that treated the console as an engineering
-      readout rather than a safety interface. The denial needed only an
-      organization that trusted its own software more than its users'
-      reports of harm. Each of these is a normal property of ordinary
-      engineering organizations, which is the point: removing a safeguard is
-      not a discrete event but a decision whose consequences propagate
-      through every part of a system that quietly assumed the safeguard was
-      still there.
+      case. Removing it put nothing in its place — no verified software
+      check, no informed operator action, no independent monitor. The
+      operator stayed in the loop but lost any means to detect what the
+      machine was doing wrong, which made the human presence a formality
+      rather than a safeguard. The question capability engineering would have
+      forced — *what function now carries the interlock's load?* — was never
+      asked.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      Therac-25 reshaped how safety-critical software is built. It made the
-      case, by counterexample, for independent hazard analysis, for
-      safeguards that do not all rest on the same software, for error
-      messages that tell an operator what is actually wrong, and for taking
-      field reports seriously as evidence. The work that grew out of it —
-      Leveson's later systems-safety methods among it — and the tightening
-      of medical-device software regulation that followed made the machine
-      the canonical teaching case it remains.#cn() Its lesson is narrow and
-      exact: a safeguard you remove does not remove the hazard it guarded;
-      it only relocates the hazard to whatever you failed to put in its
-      place.
+      Therac-25 reshaped safety-critical software practice, making the case
+      by counterexample for independent hazard analysis, safeguards that do
+      not all rest on the same software, error messages that say what is
+      wrong, and treating field reports as evidence. It remains the canonical
+      teaching case.#cn() Its lesson is exact: a safeguard you remove does
+      not remove the hazard it guarded — it relocates the hazard to whatever
+      you failed to put in its place.
     ],
   ),
   references: (
@@ -319,102 +271,73 @@
   impact: "28 U.S. soldiers killed in their barracks; roughly 100 wounded",
   diagram: dgm.dgm-patriot,
   kind: "failure",
+  summary: [
+    On 25 February 1991 a Scud missile struck a U.S. barracks in Dhahran,
+    Saudi Arabia, killing 28 soldiers and wounding about a hundred; the
+    Patriot battery defending the area never engaged it. Designed for short
+    engagements against Soviet aircraft in Europe, the Patriot tracked time
+    in a register whose tiny rounding error grew with every hour of uptime.
+    After about a hundred hours of the continuous operation the Gulf War
+    demanded, the radar's range gate was off by a third of a second — enough
+    to look in the wrong place. Israeli operators had flagged the drift two
+    weeks earlier, and a patch reached Dhahran the day after the strike. The
+    capability to hold accuracy under sustained use was assumed away at
+    design time, and no one carried that assumption forward when the mission
+    changed.
+  ],
   sections: (
     // -- Background --
     [
-      The Patriot was conceived to defend Western Europe against Soviet
-      aircraft in engagements measured in minutes — a system designed to be
-      moved, switched on, fired, and switched off. In February 1991 it was
-      doing something else: defending Saudi Arabia against ballistic
-      missiles, in batteries left running continuously for more than a
-      hundred hours at a stretch. The mismatch between the system's original
-      concept of operations and the way it was now being used was real and
-      consequential, and it was invisible to the operators because no one
-      had told them it existed.#cn() The redeployment had happened fast and
-      under pressure. As Iraqi Scuds began falling on Saudi Arabia and Israel
-      in January 1991, Patriot batteries that had been postured for a very
-      different war were rushed into a missile-defense role for which the
-      system had been only partly adapted, and kept on watch around the clock
-      because the threat came without warning. Running continuously for days
-      was not operator error or indiscipline; it was what the mission
-      demanded. The soldiers manning the batteries were doing exactly what
-      they were asked to do, with a system whose designers had assumed they
-      would never do it — and no one in the chain between those designers and
-      those soldiers had carried the assumption forward as something the
-      crews needed to know.
+      The Patriot was built to defend Western Europe against Soviet aircraft
+      in engagements of minutes — switched on, fired, switched off. In the
+      1991 Gulf War it was doing something else: defending Saudi Arabia
+      against ballistic missiles, in batteries left running continuously for
+      more than a hundred hours because the threat came without warning. The
+      mismatch between the original concept and the new use was real, and
+      invisible to the operators, because no one had told them.#cn()
     ],
     // -- What Happened --
     [
-      The system tracked time in a 24-bit fixed-point register. Each clock
-      tick introduced a tiny rounding error, and the error accumulated with
-      every hour the battery stayed powered on. After about a hundred hours
-      of continuous operation the timing was off by roughly a third of a
-      second — and at the speed of a ballistic missile, a third of a second
-      is enough that the radar's range gate looks in the wrong place. On
-      25 February 1991 an incoming Scud arrived where the Patriot was no
-      longer searching. It struck a barracks in Dhahran, killing
-      twenty-eight soldiers of the 14th Quartermaster Detachment — a
-      Pennsylvania Army Reserve unit — and wounding roughly a hundred more.
-      The Patriot never engaged it; the system was searching empty sky.#cn()
+      The system tracked time in a 24-bit fixed-point register, and a tiny
+      rounding error accumulated with every hour of uptime. After about a
+      hundred hours the timing was off by roughly a third of a second —
+      enough, at a ballistic missile's speed, for the radar's range gate to
+      look in the wrong place. On 25 February 1991 an incoming Scud arrived
+      where the Patriot was no longer searching and struck a barracks in
+      Dhahran, killing twenty-eight soldiers of the 14th Quartermaster
+      Detachment and wounding about a hundred.#cn()
     ],
     // -- The Investigation --
     [
-      The drift was not unknown. Israeli operators had identified it about
-      two weeks earlier and warned the U.S. Army, and engineers had produced
-      a software patch. The patch reached Dhahran on 26 February — the day
-      after the strike.#cn() In the interim, the only mitigation in the
-      field was an advisory telling operators to reboot the system after
-      "very long" run times, without ever defining what "very long" meant —
-      a warning calibrated to a problem the institution did not really
-      believe in. The General Accounting Office later found that Army
-      officials had simply presumed users would never run a battery
-      continuously for so long, and so had not treated the accumulating
-      error as an operational hazard worth specifying.#cn() The chain of
-      small omissions is what makes the case instructive. The Army was not
-      negligent in any single, nameable way: the system worked as built, the
-      engineers fixed the defect once they understood it, and the operators
-      followed the guidance they were given. But that guidance encoded an
-      assumption — that no one would run a battery for days on end — that the
-      war had already invalidated, and nothing in the system existed to
-      surface the assumption to the people it now endangered. The patch
-      arrived a day late not because anyone was slow but because the
-      institution had never treated the drift as the kind of thing that
-      kills people.
+      The drift was not unknown: Israeli operators had flagged it two weeks
+      earlier and engineers had a patch — which reached Dhahran the day after
+      the strike.#cn() The only field mitigation was an advisory to reboot
+      after "very long" run times, never defining "very long." The General
+      Accounting Office found the Army had simply presumed no one would run a
+      battery continuously for so long, and so never treated the accumulating
+      error as a hazard worth specifying.#cn()
     ],
     // -- The Capability Gap --
     [
       The capability to hold accuracy under sustained operation was never
-      built into the Patriot because the original concept of operations did
-      not require it — a reasonable omission for the system as first
-      imagined. The failure came when the concept changed and the assumption
-      did not travel with it. There was no capability infrastructure to
-      carry the design's hidden premises forward into a new operating
-      context, no artifact that told the soldiers in Dhahran "this system
-      was built assuming you would turn it off; you are not turning it off."
-      The system did not malfunction. The transition from one operational
-      context to another did, with nothing in place to catch it.#cn() It is
-      worth dwelling on how cheaply the gap could have been closed. Not by
-      re-engineering the missile or rewriting the time calculation in the
-      field, but by a single artifact traveling with the system into its new
-      role — an operational note stating, in terms a soldier could act on,
-      that the battery's tracking degraded with uptime and had to be
-      restarted on a fixed schedule. The capability that was missing was not
-      technical skill or better hardware; it was the institutional habit of
-      carrying a design's hidden assumptions forward to the people who would
-      live or die by them.
+      built in, because the original concept of operations did not require
+      it — reasonable for the system as first imagined. The failure came when
+      the concept changed and the assumption did not travel with it. Nothing
+      carried the design's hidden premise forward to the soldiers in Dhahran;
+      no artifact told them "this system was built assuming you would turn it
+      off." The system did not malfunction — the transition between operating
+      contexts did, with nothing to catch it.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      The patch was distributed and operators were instructed to reboot at
-      defined intervals, and the underlying defect — a fixed-point time
-      calculation whose truncation error grew without bound — became a
-      staple of numerical-analysis and software-engineering teaching, where
-      it still illustrates how a microscopic rounding error can cost lives at
-      scale.#cn() The harder lesson is the one this chapter turns on: a
-      capability quietly assumed away at design time does not announce itself
-      when the context shifts. It waits, intact and invisible, until the day
-      the assumption is wrong — and by then the people relying on the system
-      have no way to know the ground has moved beneath them.
+      The patch was distributed and reboot intervals defined, and the defect
+      — a fixed-point truncation error growing without bound — became a
+      staple of numerical-analysis and software-engineering teaching.#cn()
+      The harder lesson is the one this chapter turns on: a capability
+      quietly assumed away at design time does not announce itself when the
+      context shifts. It waits, intact and invisible, until the day the
+      assumption is wrong — and by then the people relying on the system have
+      no way to know the ground has moved beneath them.
     ],
   ),
   references: (
