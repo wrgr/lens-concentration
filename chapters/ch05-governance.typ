@@ -196,7 +196,7 @@
       No end-to-end test was run before launch, meaning the assembled pieces
       were never exercised together as a user would exercise them. The site
       went live on 1 October 2013 and immediately collapsed under load it had
-      never been validated for: about about 27,000 enrollments through the
+      never been validated for: about 27,000 enrollments through the
       federal marketplace in its first month against a seven-million
       first-year target.#cn()
     ],

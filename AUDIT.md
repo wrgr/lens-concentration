@@ -275,6 +275,47 @@ placeholder). Drop the files in `backmatter/img/` (`gray-roncal.jpg`,
 `diamond.jpg`) and point the variables at them; geometry is identical, so
 the one-page fit holds once the photos are added.
 
+### Case enrichment pass (all 100 cases) + audit
+
+Every case was enriched to fill its three-page unit: the five-beat narrative
+was lengthened, an **"Approaches to Consider"** block (design-time vs
+operational mitigations) was added on the Lens page, and a third reflection
+question was added. Reference/sources size was reduced (8.5pt → 7.5pt) and
+the narrative leading rebalanced so the longer copy fills page 2 without
+overflow. `make check` is green for all 100 (3-page units, marker/ref
+parity); Case 73's parity (a dropped `#cn` marker) and Case 2's length were
+corrected after enrichment.
+
+The enrichment was applied by parallel per-chapter agents under a strict
+rule: **lengthen only by elaborating facts already stated/cited in the case;
+introduce no new named people, dates, figures, statistics, or quotes.** A
+follow-up audit (per-chapter `git diff` review of every added line against
+the case's references) confirmed the rule held. The audit found the
+additions overwhelmingly clean; the only factual corrections were:
+
+- **Case 25 (EHR/CPOE):** "Spanning hundreds of institutions" overstated the
+  established figure → corrected to "some two hundred hospitals."
+- **Case 63 (Eastern 401):** an unsupported "twenty-cent bulb" cost →
+  changed to "burned-out indicator bulb."
+- **Case 10 (Healthcare.gov):** fixed an "about about" duplication.
+- **Case 15 (Navy SWO):** softened a "green dashboards" image to the
+  case's own "paper certifications."
+
+No new unsupported numbers, dates, names, or quotes were introduced in any
+case; live Chapter 9 figures were not changed. A residual, low-severity
+style note (mild thesis-restating in some `approaches: after` items and
+section closers) is left for a future human copyedit; it introduces no
+inaccuracy.
+
+### Overview "Summary Reference" — section-heading fill
+
+The Half-Letter overview now renders one case per page as the "in brief"
+summary plus a *"The full case, in five beats"* heading map (the case's
+section labels) and key references + LENS note, filled with `v(1fr)` — using
+the case's own structure to orient the reader and use the page. The
+US-Letter overview keeps two compact callout entries per page. The Contents
+index is sorted by case number.
+
 ---
 
 ## Status snapshot

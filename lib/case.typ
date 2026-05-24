@@ -49,7 +49,7 @@
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.
   if view != "book" {
-    overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach)
+    overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach, sections: sections, kind: kind)
   } else {
 
   // Shared header: case number / domains / year, title, mode line, impact.

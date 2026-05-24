@@ -63,8 +63,9 @@
     [
       The NTSB found the crew had become so engrossed in the landing-gear
       difficulty that they failed to monitor the flight path.#cn() A
-      twenty-cent bulb had absorbed the attention of an entire qualified crew
-      while a wide-body airliner descended unwatched — the disproportion
+      burned-out indicator bulb had absorbed the attention of an entire
+      qualified crew while a wide-body airliner descended unwatched — the
+      disproportion
       between the trigger and the outcome is exactly what made the case so
       durable a teaching example. The
       findings inaugurated decades of research into attention, monitoring,

@@ -224,7 +224,7 @@
       physicians, nurses, and pharmacists, and that end-user experience
       scores correlate with patient-safety outcomes — turning a stream of
       anecdotes into longitudinal evidence that usability is now itself a
-      patient-safety variable. Spanning hundreds of institutions, the survey
+      patient-safety variable. Spanning some two hundred hospitals, the survey
       converts what could be dismissed as one site's grievance into a
       reproducible signal, the kind of measurement that makes an interface
       problem legible as a safety problem rather than a satisfaction one.#cn()

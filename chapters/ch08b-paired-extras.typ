@@ -205,8 +205,8 @@
       deliverable standard rather than a paper one; three of the first
       eighteen ships assessed were immediately sidelined as not ready. That
       a sixth of the first cohort failed against the new standard showed the
-      assessment had teeth — it measured actual readiness rather than
-      ratifying the green dashboards that had masked the pre-collision gap.#cn()
+      assessment had teeth — it measured demonstrated readiness rather than
+      accepting the paper certifications that had masked the pre-collision gap.#cn()
     ],
     // -- The Evidence --
     [

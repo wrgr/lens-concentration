@@ -38,8 +38,9 @@
 // overview never duplicates content. Two layouts, chosen by `view`:
 //   "overview"      US Letter, two half-page entries per page (fixed height)
 //   "overview-half" Half Letter, one entry per page, content filled to page
-#let overview-entry(number, title, year, domains, modes, summary, refs, lens) = {
+#let overview-entry(number, title, year, domains, modes, summary, refs, lens, sections: (), kind: none) = {
   let big = view == "overview-half"
+  let labels = section-sets.at(kind, default: section-sets.failure)
   let header = grid(
     columns: (auto, 1fr, auto),
     column-gutter: 8pt,
@@ -49,10 +50,6 @@
     eyebrow(year),
   )
   let titleblock = text(font: serif, size: if big { 18pt } else { 15pt }, fill: navy, title)
-  let callout = block({
-    set par(justify: true, leading: 0.58em)
-    text(font: sans, size: 10pt, fill: text-dark, summary)
-  })
   let refsblock = {
     eyebrow("Key references", color: gold)
     v(2pt)
@@ -69,17 +66,42 @@
     v(2pt)
     block({
       set par(justify: true, leading: 0.54em)
-      text(font: sans, size: if big { 9.5pt } else { 9pt }, fill: text-dark, lens)
+      text(font: sans, size: 9pt, fill: text-dark, lens)
     })
   }
 
   if big {
-    // One case per Half-Letter page; v(1fr) distributes slack to fill it.
-    block(breakable: false, width: 100%, { header; v(5pt); titleblock; v(9pt); callout })
+    // One case per Half-Letter page. The case's "in brief" summary, then the
+    // five beat headings as an orienting map of the full treatment, then key
+    // references and the LENS note. v(1fr) distributes slack to fill the page.
+    header
+    v(6pt)
+    titleblock
+    v(10pt)
+    block({
+      set par(justify: true, leading: 0.62em)
+      text(font: sans, size: 11pt, fill: text-dark, summary)
+    })
+    v(12pt)
+    eyebrow("The full case, in five beats", color: navy-mid)
+    v(3pt)
+    block({
+      set par(leading: 0.5em)
+      for l in labels {
+        text(font: sans, size: 8.5pt, fill: text-dark, [‣#h(3pt)] + l)
+        linebreak()
+      }
+    })
     v(1fr)
-    block(breakable: false, width: 100%, { refsblock; v(11pt); lensblock })
+    refsblock
+    v(10pt)
+    lensblock
     pagebreak(weak: true)
   } else {
+    let callout = block({
+      set par(justify: true, leading: 0.58em)
+      text(font: sans, size: 10pt, fill: text-dark, summary)
+    })
     block(
       width: 100%, height: 113mm, breakable: false,
       inset: (top: 7pt, bottom: 5pt), stroke: (top: 0.6pt + rule-soft),
