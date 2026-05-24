@@ -33,6 +33,7 @@
   lens-approach: [],
   literature-items: (),
   reflection-list: (),
+  approaches: none,   // optional dict: (during: (..items..), after: (..items..))
   courses: (),
   // -- 3-page cited-narrative fields (active when kind != none) --
   kind: none,        // "failure" | "intervention" | "frontier"
@@ -96,6 +97,11 @@
     v(1pt)
     lens-block("LENS Approach", lens-approach)
     v(3pt)
+
+    if approaches != none {
+      case-approaches(approaches.during, approaches.after)
+      v(3pt)
+    }
 
     if reflection-list.len() > 0 {
       reflections(..reflection-list)

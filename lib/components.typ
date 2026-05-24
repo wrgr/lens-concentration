@@ -307,13 +307,43 @@
 // theme.section-sets, selected by the case's `kind`.
 #let case-section(title) = block(
   width: 100%,
-  above: 9pt,
-  below: 4pt,
+  above: 7pt,
+  below: 3pt,
   breakable: false,
   {
     text(font: sans, size: 8pt, weight: "medium", tracking: 1.8pt, fill: teal, upper(title))
     v(2.5pt)
     line(length: 16mm, stroke: 0.6pt + gold)
+  },
+)
+
+// ---- Approaches to consider — mitigations to engineer the capability,
+//      split into design-time and operational moves. Two arrays of short
+//      content items. Renders on the LE Lens page when supplied.
+#let case-approaches(during, after) = block(
+  width: 100%,
+  {
+    eyebrow("Approaches to Consider", color: gold)
+    v(3pt)
+    let col(label, items, mark-color) = {
+      text(font: sans, size: 6.8pt, weight: "medium", tracking: 1.2pt, fill: navy, upper(label))
+      v(2.5pt)
+      set par(leading: 0.45em, justify: false)
+      for b in items {
+        grid(
+          columns: (7pt, 1fr), column-gutter: 3pt,
+          text(font: sans, size: reflection-size, fill: mark-color, [‣]),
+          text(font: sans, size: reflection-size, fill: text-dark, b),
+        )
+        v(2pt)
+      }
+    }
+    grid(
+      columns: (1fr, 1fr),
+      column-gutter: 14pt,
+      col("During development", during, gold),
+      col("In operation / after", after, teal),
+    )
   },
 )
 

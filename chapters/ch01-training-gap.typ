@@ -130,6 +130,19 @@
   reflection-list: (
     [The Navy replaced classroom and simulator instruction with CD-ROM self-study in 2003. What measurement would have detected the capability shortfall before 2017?],
     [The Strategic Readiness Review found the readiness-reporting system had itself stopped working. Design a capability-evidence pipeline that would not normalize its own gaps.],
+    [Identify a capability in your organization that is certified by completion (a checked box) rather than demonstrated performance. What measure would convert it to evidence — and who would hold the authority to act on a red signal?],
+  ),
+  approaches: (
+    during: (
+      [Specify watchstanding proficiency as a measured deliverable — define the competency, instrument it, and gate qualification on demonstrated skill rather than sea time.],
+      [Keep human-factors review in the procurement loop: validate that any interface change (e.g., the bridge console) is tested against operator performance before it is fielded.],
+      [Design the readiness signal to report demonstrated capability, not self-attested course completion.],
+    ),
+    after: (
+      [Audit the gap between reported and actual readiness with independent assessment (the Ready-for-Sea model) — with authority to pull a unit offline.],
+      [Protect training time against operational tempo so the capability cannot erode silently when schedules tighten.],
+      [Track leading indicators — qualification currency, near-miss reports — so divergence is visible before it is paid for in lives.],
+    ),
   ),
   courses: ("LEN 1", "LEN 5", "LEN 8", "LEN 3",),
 )
