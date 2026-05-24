@@ -750,19 +750,23 @@
       Equifax is the institutional-cybersecurity case for cumulative
       inadequacy in routine work: patching, asset inventory, monitoring,
       response. Each function was below standard; none alone produced the
-      breach; the combination did. The capability gap was the management of
-      unglamorous, universally-agreed-necessary maintenance — exactly the
-      work easy to defer because deferring it usually costs nothing, until
-      the once it costs everything.#cn()
+      breach; the combination did, the marginal weaknesses compounding into a
+      single open door. The capability gap was the management of unglamorous,
+      universally-agreed-necessary maintenance — exactly the work easy to
+      defer because deferring it usually costs nothing, until the once it
+      costs everything, and a function starved as a cost center has no slack
+      left on that day.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The settlement funded consumer compensation and credit monitoring, and
       the breach pushed patching discipline, asset inventory, and
-      breach-disclosure timelines up the corporate agenda.#cn() It is the
-      data-breach analog of the Sago mine disaster (Case 59): no dramatic
-      single cause, just several routine defenses each left marginally
-      inadequate, failing together on the day a determined attacker arrived.
+      breach-disclosure timelines up the corporate agenda — elevating, after
+      the loss, the unglamorous work that had been deferred before it.#cn() It
+      is the data-breach analog of the Sago mine disaster (Case 59): no
+      dramatic single cause, just several routine defenses each left
+      marginally inadequate, failing together on the day a determined attacker
+      arrived to test all of them at once.
     ],
   ),
   references: (
@@ -794,6 +798,19 @@
   reflection-list: (
     [Identify a piece of routine work in your domain that is chronically deferred. What is the cumulative-inadequacy threshold?],
     [Equifax did not know which assets ran Struts. Design the asset-inventory deliverable that an organization the size of Equifax should be able to produce on demand.],
+    [Equifax's security team had flagged the patch, but the warning had no asset map to act on and no funded function to carry it out. What turns a known, agreed-upon fix into deferred work in your organization — and what would force it to be done before the once it costs everything?],
+  ),
+  approaches: (
+    during: (
+      [Fund routine security maintenance — patching, monitoring, response — as a capability, not a cost center, so the unglamorous defenses have slack on the bad day.],
+      [Build and maintain a comprehensive asset inventory so a known vulnerability can be mapped to every system that runs it.],
+      [Wire the security team's warnings to an owner with the authority and resources to apply a flagged patch promptly.],
+    ),
+    after: (
+      [Audit the routine defenses together — patching, inventory, monitoring, response — since each marginally inadequate layer raises the odds the combination fails.],
+      [Monitor for sustained, low-noise exfiltration, treating a months-long quiet window as the failure mode to detect, not just a single break-in.],
+      [Hold breach-disclosure timelines short, so affected people learn of a theft of their identity without months of delay.],
+    ),
   ),
   courses: ("LEN 5", "LEN 7"),
 )
@@ -832,28 +849,35 @@
     // -- Background --
     [
       The Kansas City Hyatt Regency's atrium featured walkways suspended from
-      the ceiling. The original engineering design hung them from single
-      continuous steel rods.#cn()
+      the ceiling, carrying crowds above an open public space where any
+      failure would drop directly onto people below. The original engineering
+      design hung them from single continuous steel rods, a configuration in
+      which each rod carried one walkway's load to the structure above.#cn()
     ],
     // -- What Happened --
     [
-      During construction the connection was changed — for ease of assembly —
-      to a two-rod arrangement that effectively doubled the load on the upper
+      During construction the connection was changed — for ease of assembly,
+      to avoid threading a single long rod through both walkways — to a
+      two-rod arrangement that effectively doubled the load on the upper
       walkway's connection, and the structural engineer's office approved the
-      change without recalculating it. On 17 July 1981, during a crowded tea
-      dance, the overstressed connection let go; two walkways fell onto the
-      atrium floor, killing 114 people and injuring 216 — at the time the
+      change without recalculating it, treating an assembly convenience as if
+      it carried no structural consequence. On 17 July 1981, during a crowded
+      tea dance, the overstressed connection let go; two walkways fell onto
+      the atrium floor, killing 114 people and injuring 216 — at the time the
       deadliest structural collapse in U.S. history.#cn()
     ],
     // -- The Investigation --
     [
       The National Bureau of Standards found the as-built connection carried
       roughly twice its intended load and had been inadequate even under the
-      building code's requirements.#cn() The Missouri licensing board revoked
-      the licenses of the responsible engineers, and the case became the
-      foundational engineering-ethics example taught to undergraduates: how a
-      small construction change, accepted casually, can turn a design that
-      works into one that fails.#cn()
+      building code's requirements — so the original single-rod design had
+      itself been marginal, and the field change pushed an already-thin
+      connection past failure.#cn() The Missouri licensing board revoked the
+      licenses of the responsible engineers, fixing accountability on the
+      engineer of record, and the case became the foundational
+      engineering-ethics example taught to undergraduates: how a small
+      construction change, accepted casually, can turn a design that works
+      into one that fails.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -861,18 +885,22 @@
       changes. Nothing required a change to a load-bearing connection detail
       to be re-analyzed by the engineer of record before it was built — so a
       modification that doubled a critical load passed through the system
-      without anyone computing what it did. The missing capability was change
-      control with the engineer's calculation in the loop.#cn()
+      without anyone computing what it did, the absence of a required check
+      letting a fatal change look like a routine one. The missing capability
+      was change control with the engineer's calculation in the loop, a gate
+      that re-derives the consequence before the field accepts the change.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The collapse reshaped how the profession treats shop-drawing review and
-      the engineer of record's responsibility for connection design, and it
+      the engineer of record's responsibility for connection design,
+      hardening into rule the accountability the failure had exposed, and it
       anchored modern engineering-ethics teaching.#cn() Its lesson
       generalizes well beyond steel: a change that looks trivial at the point
       of assembly can be catastrophic at the point of load, and the only
       defense is a review that re-derives the consequence rather than
-      trusting that "it's a small change."
+      trusting that "it's a small change" — because triviality at assembly is
+      no guarantee of triviality under load.
     ],
   ),
   references: (
@@ -906,6 +934,19 @@
   reflection-list: (
     [Identify a "small change during construction" pattern in your domain. What is the institutional review that should accompany it?],
     [Design the change-control deliverable that would have surfaced the doubled-load issue at the Hyatt Regency before construction.],
+    [The two-rod change was approved for ease of assembly by an office that never recalculated its load. What in your domain lets a convenience at the point of assembly pass without anyone re-deriving its consequence at the point of load?],
+  ),
+  approaches: (
+    during: (
+      [Require that any change to a load-bearing detail be re-analyzed by the engineer of record before it is built, with the calculation in the loop.],
+      [Treat an assembly-convenience change as a structural decision, not a routine one, so ease of construction never substitutes for analysis.],
+      [Set the original design margin so a connection is not already marginal under code before any field change touches it.],
+    ),
+    after: (
+      [Audit as-built connections against the as-designed intent, catching field substitutions that altered a critical load path.],
+      [Route shop-drawing and field changes through a review that re-derives the consequence rather than trusting "it's a small change."],
+      [Hold the engineer of record accountable for connection design through construction, so responsibility for the integrated load does not dissolve in the field.],
+    ),
   ),
   courses: ("LEN 5", "LEN 7"),
 )
@@ -943,26 +984,32 @@
       The FIU-Sweetwater pedestrian bridge over Southwest Eighth Street in
       Miami was a modern, computationally designed concrete truss, built to
       be assembled beside the road and lifted into place — engineered with
-      tools more capable than any prior era's.#cn()
+      tools more capable than any prior era's, the kind of software that lets
+      a designer model a structure in detail no slide rule ever could. That
+      sophistication framed the bridge as a showcase of modern method.#cn()
     ],
     // -- What Happened --
     [
       It collapsed during construction on 15 March 2018, dropping onto the
-      road and the cars stopped beneath it, killing six. The NTSB found the
-      design firm had made calculation errors at a critical truss
-      connection — underestimating the load demand and overestimating the
-      capacity — and that the independent peer review had not caught them.#cn()
+      road and the cars stopped beneath it, killing six — the failure landing
+      on the very traffic the bridge would one day span. The NTSB found the
+      design firm had made calculation errors at a critical truss connection —
+      underestimating the load demand and overestimating the capacity, an
+      error in both directions at once — and that the independent peer review,
+      the safeguard meant to catch exactly such mistakes, had not caught
+      them.#cn()
     ],
     // -- The Investigation --
     [
       The warnings were there. Large cracks had appeared at that connection
       in the days before, were inspected, and were judged not to threaten
-      safety — a judgment reaffirmed in a meeting the morning of the
-      collapse, even as workers operated on the span and traffic ran
-      underneath.#cn() The errors that produced the collapse were the
-      timeless ones: a load case inadequately considered, a review that did
-      not catch the gap, and visible distress rationalized as not
-      safety-critical.#cn()
+      safety — a judgment reaffirmed in a meeting the morning of the collapse,
+      even as workers operated on the span and traffic ran underneath, so the
+      structure was failing visibly while being declared safe.#cn() The errors
+      that produced the collapse were the timeless ones: a load case
+      inadequately considered, a review that did not catch the gap, and
+      visible distress rationalized as not safety-critical — each a failure
+      mode older than the software that drew the bridge.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -972,17 +1019,20 @@
       failed for a century — because the human and institutional capabilities
       around the tools (independent review that re-derives the answer, a rule
       that visible cracking on a critical member stops work) had not kept
-      pace with the software's sophistication.#cn()
+      pace with the software's sophistication, leaving the newest tools
+      guarded by the oldest, weakest procedures.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The NTSB faulted the design firm, the peer reviewer, and the parties
-      who kept the road open beneath a cracking structure, and the case
-      sharpened scrutiny of accelerated-bridge-construction methods and
+      who kept the road open beneath a cracking structure — spreading the
+      responsibility across every layer that could have intervened — and the
+      case sharpened scrutiny of accelerated-bridge-construction methods and
       independent design review.#cn() Its lesson pairs with the Hyatt Regency
       (Case 74) across forty years: the computer drew a better bridge, but
       the governance of the calculation — who checks it, and what a crack is
-      allowed to mean — is still where safety lives.
+      allowed to mean — is still where safety lives, unchanged by four decades
+      of better software.
     ],
   ),
   references: (
@@ -1016,6 +1066,19 @@
   reflection-list: (
     [The FIU and Hyatt Regency cases are 40 years apart and structurally similar. What has not been engineered in the discipline that would change that?],
     [Design the field-observation escalation protocol that would have brought the FIU cracks to a decision-maker with the authority to halt work.],
+    [At FIU the most capable design software in history was guarded by a peer review that missed the error and a crack-response rule that defaulted to "monitor." Where in your domain has tooling outrun the human and institutional checks meant to catch its mistakes?],
+  ),
+  approaches: (
+    during: (
+      [Require an independent peer review that re-derives the load and capacity at critical connections, rather than re-reading the original firm's calculation.],
+      [Keep the human and institutional checks — review, escalation, stop-work authority — abreast of the design tools, so sophisticated software is not guarded by weak procedures.],
+      [Set a rule that visible cracking on a critical member halts work, so distress cannot be rationalized away while crews and traffic remain exposed.],
+    ),
+    after: (
+      [Audit observed field distress against design intent, treating a crack on a new structure as potentially significant until re-analysis proves otherwise.],
+      [Route field observations to a decision-maker with authority to stop work, rather than resolving them in a meeting that defaults to "monitor."],
+      [Sustain scrutiny of accelerated-construction methods and independent review, so the same century-old failure mode does not recur a decade later.],
+    ),
   ),
   courses: ("LEN 5", "LEN 8"),
 )
@@ -1054,47 +1117,55 @@
       PG&E operated aging transmission lines across the wildfire-prone
       foothills of Northern California — some hardware approaching a century
       old — in a climate growing hotter and drier than the one the grid had
-      been built for.#cn()
+      been built for, so the operating environment had drifted away from the
+      assumptions the infrastructure was designed against.#cn()
     ],
     // -- What Happened --
     [
       On 8 November 2018 a worn C-hook on a PG&E transmission tower failed in
       high winds, dropping a live line and igniting a fire under severe
-      drought conditions. The fire moved into the town of Paradise faster
-      than its evacuation routes could clear it; 85 people died — the
-      deadliest U.S. wildfire in a century. PG&E later pleaded guilty to 84
-      counts of involuntary manslaughter.#cn()
+      drought conditions — a single piece of aged hardware setting off a
+      catastrophe the dry, windy conditions stood ready to amplify. The fire
+      moved into the town of Paradise faster than its evacuation routes could
+      clear it; 85 people died — the deadliest U.S. wildfire in a century.
+      PG&E later pleaded guilty to 84 counts of involuntary manslaughter,
+      accepting criminal responsibility at a scale rare for a utility.#cn()
     ],
     // -- The Investigation --
     [
       CalFire's investigation and the Butte County District Attorney's report
       found that PG&E had known for years about the deteriorating condition
       of its transmission infrastructure in high-fire-risk areas, and had
-      deferred the maintenance to fund other corporate priorities.#cn() The
-      gap was simultaneously at the utility's asset-maintenance decisions and
-      at the regulatory architecture that had allowed the deferrals to
-      continue.#cn()
+      deferred the maintenance to fund other corporate priorities — so the
+      hazard was not unknown but a recognized risk repeatedly postponed.#cn()
+      The gap was simultaneously at the utility's asset-maintenance decisions
+      and at the regulatory architecture that had allowed the deferrals to
+      continue, neither side holding a line that would have forced the work.#cn()
     ],
     // -- The Capability Gap --
     [
       Camp Fire is the climate-era case for utility-capability failure under
       changing risk. The infrastructure had been designed and maintained for
       one set of conditions and was operating in another, more dangerous one,
-      and the capability to update operations — inspection cadence, vegetation
-      management, de-energization, replacement — to match the actual risk did
-      not exist as an institutional deliverable, on either the utility's side
-      or the regulator's.#cn()
+      so the safety margins the original design assumed had quietly eroded as
+      the climate shifted beneath them. The capability to update operations —
+      inspection cadence, vegetation management, de-energization, replacement —
+      to match the actual risk did not exist as an institutional deliverable,
+      on either the utility's side or the regulator's, leaving no one tasked
+      with closing the widening gap.#cn()
     ],
     // -- Aftermath & Reform --
     [
       PG&E entered bankruptcy under tens of billions in wildfire liability,
       and California restructured how it regulates utility wildfire-risk
       planning — mandatory mitigation plans, inspections, and public-safety
-      power shutoffs.#cn() Paired with the Northeast Blackout (Case 62), Camp
+      power shutoffs, turning the deferred work into requirements with teeth
+      behind them.#cn() Paired with the Northeast Blackout (Case 62), Camp
       Fire shows utility capability failing in a second way: not a silent
       control-room failure but a slow, known erosion of physical
       infrastructure against a rising hazard the institution declined to fund
-      against.
+      against — a failure measured in years of deferral rather than seconds of
+      cascade.
     ],
   ),
   references: (
@@ -1128,6 +1199,19 @@
   reflection-list: (
     [Identify infrastructure in your domain that was designed for one set of conditions and is now operating in another. What is the capability deliverable to bridge the gap?],
     [Design the regulatory architecture that would prevent a utility from deferring critical wildfire-risk maintenance.],
+    [PG&E knew its hardware was deteriorating in high-fire-risk areas yet deferred the work for years, and the regulator let it. What in your domain lets a recognized, rising hazard be postponed indefinitely — and who would have to hold the line that forces the spending before the catastrophe?],
+  ),
+  approaches: (
+    during: (
+      [Re-derive the infrastructure's safety margins against current conditions, not the historical climate it was designed for, and treat the gap as a hazard to close.],
+      [Make updating operations to match rising risk — inspection cadence, vegetation management, replacement — an explicit institutional deliverable with an accountable owner.],
+      [Build de-energization and equipment-replacement triggers tied to known high-risk hardware in high-fire-risk areas.],
+    ),
+    after: (
+      [Audit deferred maintenance against the hazard it guards against, so a recognized, deteriorating risk cannot be postponed year after year.],
+      [Hold the regulator's line with mandatory mitigation plans, inspections, and penalties, so the cost of resilience is forced before the disaster rather than after.],
+      [Monitor aging hardware in the highest-risk corridors as a standing priority, treating a worn critical component as an active threat, not a backlog item.],
+    ),
   ),
   courses: ("LEN 7", "LEN 8"),
 )
@@ -1164,48 +1248,57 @@
     [
       Texas runs its own electric grid under ERCOT, largely outside federal
       reliability jurisdiction — a structure that prized low cost and light
-      regulation. Its generators and the gas supply feeding them were built
-      for Texas heat, not sustained deep cold, and winterization was not
-      required.#cn()
+      regulation, and that kept federal reliability mandates at arm's length.
+      Its generators and the gas supply feeding them were built for Texas
+      heat, not sustained deep cold, and winterization was not required, so
+      cold-weather hardening was left to each operator's discretion and
+      largely skipped.#cn()
     ],
     // -- What Happened --
     [
       In February 2021 Winter Storm Uri drove temperatures far below those
-      design assumptions. Gas wells and wellheads froze, gas-fired generation
-      — the bulk of the lost capacity — tripped offline, and coal, nuclear,
-      and wind also lost output. Over roughly four days ERCOT directed load
-      shed, and millions of Texans lost power in rolling blackouts that, in
-      many places, did not roll. Officially 246 died; peer-reviewed
-      excess-mortality estimates run 700–1,000, with around \$130 billion in
-      damage.#cn()
+      design assumptions, exposing every unhardened system at once. Gas wells
+      and wellheads froze, gas-fired generation — the bulk of the lost
+      capacity — tripped offline, and coal, nuclear, and wind also lost
+      output, the cold defeating each fuel source in its own way. Over roughly
+      four days ERCOT directed load shed, and millions of Texans lost power in
+      rolling blackouts that, in many places, did not roll but simply stayed
+      off. Officially 246 died; peer-reviewed excess-mortality estimates run
+      700–1,000, with around \$130 billion in damage.#cn()
     ],
     // -- The Investigation --
     [
       The FERC-NERC joint inquiry identified the absence of winterization
-      requirements as the proximate capability failure.#cn() And it was no
+      requirements as the proximate capability failure — the single missing
+      requirement behind a cascade of frozen equipment.#cn() And it was no
       surprise: ERCOT and Texas generators had been warned after similar
       cold-weather events in 1989, 2011, and 2014 that winterization was
       inadequate — warnings that never produced a mandate, because the cost
-      would pass to consumers and the rare event was judged acceptable.#cn()
+      would pass to consumers and the rare event was judged acceptable, so
+      three decades of foresight changed nothing about the build.#cn()
     ],
     // -- The Capability Gap --
     [
       The Texas freeze is a designed-out capability meeting a changing
       climate. Winterization was treated as optional because the rare event
       was deemed acceptable — but the acceptable rate of the rare event
-      changed while the designed-out capability did not. Four warnings across
-      three decades did not move the institution, because nothing in its
-      structure forced the cost of resilience to be paid before the
-      catastrophe rather than after.#cn()
+      changed while the designed-out capability did not, so a bet that once
+      looked reasonable kept being renewed long after the odds had moved. Four
+      warnings across three decades did not move the institution, because
+      nothing in its structure forced the cost of resilience to be paid before
+      the catastrophe rather than after, and a warning with no mechanism
+      behind it is only a forecast of the bill.#cn()
     ],
     // -- Aftermath & Reform --
     [
       After 2021 Texas finally mandated weatherization of generation and key
-      gas facilities, with inspections and penalties behind it.#cn() The case
-      sits beside the chapter's other slow-erosion failures: a known,
-      repeatedly flagged vulnerability accepted as routine until the
-      tolerances aligned — here, with a population-scale death toll the
-      warnings had, in effect, predicted.
+      gas facilities, with inspections and penalties behind it — converting,
+      after the deaths, the discretionary hardening that three decades of
+      warnings had failed to compel.#cn() The case sits beside the chapter's
+      other slow-erosion failures: a known, repeatedly flagged vulnerability
+      accepted as routine until the tolerances aligned — here, with a
+      population-scale death toll the warnings had, in effect, predicted, the
+      cost of resilience finally paid in full and after the fact.
     ],
   ),
   references: (
@@ -1238,6 +1331,19 @@
   reflection-list: (
     [Identify a capability in your domain that has been designed out because the relevant rare event was judged acceptable. Is the rate still acceptable?],
     [The Texas grid was warned four times in three decades. What institutional architecture allows that pattern, and what would change it?],
+    [Winterization stayed optional because its cost would pass to consumers while the rare event was judged acceptable. Where in your domain is a resilience cost being deferred onto a future catastrophe, and what would force it to be paid before rather than after?],
+  ),
+  approaches: (
+    during: (
+      [Re-test the "acceptable rare event" assumption against current climate odds, since a bet that looked reasonable decades ago may no longer hold.],
+      [Build winterization or equivalent resilience into the design where the hazard reaches, rather than leaving hardening to each operator's discretion.],
+      [Create a structural mechanism that forces the cost of resilience to be paid up front, so a warning is backed by a mandate rather than left as a forecast.],
+    ),
+    after: (
+      [Audit repeated cold-weather or near-miss warnings to confirm they actually produced hardening, treating an unactioned warning as an open liability.],
+      [Mandate weatherization with inspections and penalties behind it, so compliance does not depend on each operator absorbing a cost it can pass to consumers.],
+      [Track the changing rate of the rare event so a designed-out capability is reconsidered when the odds move, not only after a catastrophe.],
+    ),
   ),
   courses: ("LEN 7", "LEN 8"),
 )

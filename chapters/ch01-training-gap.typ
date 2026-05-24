@@ -748,9 +748,8 @@
       with new electronic engine instruments. The crew were experienced 737
       pilots, but their conversion onto the variant had been brief and
       largely self-directed, the differences communicated as reading rather
-      than drilled retraining — so the very experience that made them
-      confident on the type also seeded the prior model that would mislead
-      them, with nothing in the conversion forceful enough to overwrite it.#cn()
+      than drilled retraining — so the experience that made them confident
+      on the type also seeded the prior model that would mislead them.#cn()
     ],
     // -- What Happened --
     [
@@ -765,7 +764,7 @@
       embankment short of the runway — 47 killed, 74 seriously injured. The
       brief calm after the shutdown was the trap: it appeared to confirm a
       diagnosis that was wrong, removing the doubt that might have prompted a
-      reassessment before the last minutes of the approach.#cn()
+      reassessment.#cn()
     ],
     // -- The Investigation --
     [
@@ -778,12 +777,11 @@
       electronic displays did not help: the vibration indicator that would
       have pointed at the failing engine was harder to read at a glance than
       the dials it replaced, so the one instrument that could have corrected
-      the diagnosis was the one least likely to be consulted under
-      pressure.#cn() And though cabin crew and passengers could see flames
-      from the left engine, that never reached the flight deck — a
-      crew-resource-management gap aviation would later train hard against,
-      because the people with the decisive evidence had no path to the people
-      making the decision.#cn()
+      the diagnosis was the least likely to be consulted under pressure.#cn()
+      And though cabin crew and passengers could see flames from the left
+      engine, that never reached the flight deck — a crew-resource-management
+      gap aviation would later train hard against, because those with the
+      decisive evidence had no path to those making the decision.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -794,10 +792,9 @@
       revised bleed air is not the same as drilling a new reflex that fires
       before the old one, and the cockpit redesign had quietly removed
       perceptual cues a startled crew relies on. The change was filed as
-      incremental precisely because nothing tested it until an emergency
-      did, so the degradation accrued invisibly inside a fleet that believed
-      its pilots were current. Capability had degraded under system change
-      with no one noticing, because nothing failed until the day it did.#cn()
+      incremental precisely because nothing tested it until an emergency did.
+      Capability had degraded under system change with no one noticing,
+      because nothing failed until the day it did.#cn()
     ],
     // -- Aftermath & Reform --
     [
@@ -808,9 +805,9 @@
       for how a transition program should be built — so the differences
       between an old system and a new one are made hard to overlook, and the
       people closest to the evidence have a path to those making the
-      decision. Each recommendation traced back to one of the failures the
-      accident exposed: the unforced mental model, the unreadable instrument,
-      and the silent cabin, treated together rather than as isolated faults.
+      decision. Each recommendation traced back to a failure the accident
+      exposed — the unforced mental model, the unreadable instrument, the
+      silent cabin — treated together rather than as isolated faults.
     ],
   ),
   references: (
@@ -898,9 +895,7 @@
       challenged as far too low (nearer 10–15 percent), and one Shrader
       himself stepped back from. The disputed baseline mattered because it
       became the yardstick against which a modern war would be measured — and
-      a yardstick set too low makes any later rate look like a catastrophe,
-      so the argument over the number was never merely academic but shaped
-      how the next war's losses would be judged.#cn()
+      a yardstick set too low makes any later rate look like a catastrophe.#cn()
     ],
     // -- What Happened --
     [
@@ -909,11 +904,10 @@
       friendly fire, and 72 of 467 wounded (15 percent) were hit by their own
       side.#cn() An A-10 strike on U.S. LAV-25s near Khafji killed seven
       Marines; a single A-10 attack on British Warrior vehicles killed nine —
-      each an aircraft firing on friendly ground vehicles it had failed to
-      identify, the recurring shape of the problem rather than a freak event.
-      Whatever the true baseline, a quarter of American combat deaths from
-      one's own forces could not be waved off as the ordinary friction of
-      battle, especially in a war whose ground phase lasted only days.#cn()
+      each an aircraft firing on friendly vehicles it had failed to identify,
+      the recurring shape of the problem. Whatever the true baseline, a
+      quarter of American combat deaths from one's own forces could not be
+      waved off as the ordinary friction of battle.#cn()
     ],
     // -- The Investigation --
     [
@@ -925,8 +919,8 @@
       training failures from doctrine or equipment, or tell whether a fix was
       working. Without a common database, every incident was investigated in
       isolation and the aggregate signal that might have driven reform never
-      formed. The capability to *learn* from friendly fire was itself
-      missing, a second-order gap beneath the first.#cn()
+      formed. The capability to *learn* was itself missing, a second-order
+      gap beneath the first.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -940,8 +934,8 @@
       contributor was worked on; the integration *across* them — which is
       what actually keeps friendly forces from killing each other — is the
       hardest thing to engineer by program, because no single office owns it
-      and no single procurement can deliver it, and it is where the
-      capability kept failing across conflicts and decades.#cn()
+      and no single procurement can deliver it — and it is where the
+      capability kept failing.#cn()
     ],
     // -- Aftermath & Reform --
     [
@@ -954,7 +948,7 @@
       single program closes the gap — improving each contributor in isolation
       still leaves the integration between them unaddressed — and progress
       has to be measured against an honest baseline rather than a convenient
-      one, or the reform will be credited with gains it never produced.
+      one.
     ],
   ),
   references: (
