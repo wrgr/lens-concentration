@@ -1,29 +1,30 @@
 // ============================================================
-// CAPABILITY MATTERS — Case Overview (US Letter, two cases per page)
+// CAPABILITY MATTERS — Case Overview (Half Letter, one case per page)
 //
-//   typst compile --font-path fonts --input view=overview \
-//     overview.typ build/capability-matters-overview.pdf
+//   typst compile --font-path fonts --input view=overview-half \
+//     overview-half.typ build/capability-matters-overview-half.pdf
 //
-// Shared reference front matter lives in overview-frontmatter.typ; the case
-// entries are rendered by lib/case.typ in view=overview mode (two half-page
-// entries per page), reusing each case's verified content.
+// Same shared front matter and same verified case content as the US-Letter
+// overview; lib/case.typ renders one filled entry per Half-Letter page in
+// view=overview-half mode.
 // ============================================================
 
 #import "lib/theme.typ": *
 #import "lib/components.typ": *
 
 #set document(
-  title: "Capability Matters — Case Overview (Summary Reference)",
+  title: "Capability Matters — Case Overview (Summary Reference, Half Letter)",
   author: "LDT / LENS · Johns Hopkins University School of Education",
 )
 
 #set page(
-  paper: "us-letter",
-  margin: (x: 19mm, top: 17mm, bottom: 15mm),
+  width: 139.7mm,   // 5.5 in
+  height: 215.9mm,  // 8.5 in
+  margin: (x: 13mm, top: 13mm, bottom: 11mm),
   header: context {
     let p = counter(page).get().first()
     if p > 9 {
-      set text(font: sans, size: 7pt, fill: text-muted, tracking: 1pt)
+      set text(font: sans, size: 6.5pt, fill: text-muted, tracking: 1pt)
       grid(columns: (1fr, auto), upper("Capability Matters · Case Overview"), str(p))
       v(-4pt)
       line(length: 100%, stroke: 0.3pt + rule-soft)
@@ -33,7 +34,7 @@
 )
 
 #set text(font: sans, size: 9.5pt, fill: text-dark, lang: "en")
-#set par(leading: 0.62em, justify: false)
+#set par(leading: 0.6em, justify: false)
 
 #include "overview-frontmatter.typ"
 

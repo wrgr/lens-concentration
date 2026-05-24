@@ -33,33 +33,27 @@
 // ---- View flag: "book" (default) or "overview" (companion booklet) ----
 #let view = sys.inputs.at("view", default: "book")
 
-// ---- Half-page case entry for the overview booklet ---------------------
-// Two of these fill one US-Letter page. Reuses each case's verified
-// summary / references / lens-approach so the overview never duplicates
-// content. Title · ~100-word callout · 1–3 key references · LENS use.
-#let overview-entry(number, title, year, domains, modes, summary, refs, lens) = block(
-  width: 100%,
-  height: 113mm,
-  breakable: false,
-  inset: (top: 7pt, bottom: 5pt),
-  stroke: (top: 0.6pt + rule-soft),
-  {
-    grid(
-      columns: (auto, 1fr, auto),
-      column-gutter: 8pt,
-      align: (left + horizon, left + horizon, right + horizon),
-      eyebrow("Case " + str(number)),
-      domain-row(..domains),
-      eyebrow(year),
-    )
-    v(3pt)
-    text(font: serif, size: 15pt, fill: navy, title)
-    v(5pt)
-    block({
-      set par(justify: true, leading: 0.58em)
-      text(font: sans, size: 10pt, fill: text-dark, summary)
-    })
-    v(6pt)
+// ---- Case entry for the overview booklets -------------------------------
+// Reuses each case's verified summary / references / lens-approach so the
+// overview never duplicates content. Two layouts, chosen by `view`:
+//   "overview"      US Letter, two half-page entries per page (fixed height)
+//   "overview-half" Half Letter, one entry per page, content filled to page
+#let overview-entry(number, title, year, domains, modes, summary, refs, lens) = {
+  let big = view == "overview-half"
+  let header = grid(
+    columns: (auto, 1fr, auto),
+    column-gutter: 8pt,
+    align: (left + horizon, left + horizon, right + horizon),
+    eyebrow("Case " + str(number)),
+    domain-row(..domains),
+    eyebrow(year),
+  )
+  let titleblock = text(font: serif, size: if big { 18pt } else { 15pt }, fill: navy, title)
+  let callout = block({
+    set par(justify: true, leading: 0.58em)
+    text(font: sans, size: 10pt, fill: text-dark, summary)
+  })
+  let refsblock = {
     eyebrow("Key references", color: gold)
     v(2pt)
     block({
@@ -69,15 +63,30 @@
         parbreak()
       }
     })
-    v(3pt)
+  }
+  let lensblock = {
     eyebrow("LENS applicability", color: teal)
     v(2pt)
     block({
       set par(justify: true, leading: 0.54em)
-      text(font: sans, size: 9pt, fill: text-dark, lens)
+      text(font: sans, size: if big { 9.5pt } else { 9pt }, fill: text-dark, lens)
     })
-  },
-)
+  }
+
+  if big {
+    // One case per Half-Letter page; v(1fr) distributes slack to fill it.
+    block(breakable: false, width: 100%, { header; v(5pt); titleblock; v(9pt); callout })
+    v(1fr)
+    block(breakable: false, width: 100%, { refsblock; v(11pt); lensblock })
+    pagebreak(weak: true)
+  } else {
+    block(
+      width: 100%, height: 113mm, breakable: false,
+      inset: (top: 7pt, bottom: 5pt), stroke: (top: 0.6pt + rule-soft),
+      { header; v(3pt); titleblock; v(5pt); callout; v(6pt); refsblock; v(3pt); lensblock },
+    )
+  }
+}
 
 // ---- Failure mode code chip (single letter T/D/N/H/G/K) ----
 #let mode-chip(code) = box(

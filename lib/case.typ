@@ -45,9 +45,9 @@
   // the 4-page and legacy paths.
   [#metadata((n: number, title: title, courses: courses)) <caseinfo>]
 
-  // Overview booklet: render a compact half-page entry instead of the
-  // full multi-page case, reusing the same verified content.
-  if view == "overview" {
+  // Overview booklets (view "overview" / "overview-half"): render a compact
+  // entry instead of the full multi-page case, reusing verified content.
+  if view != "book" {
     overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach)
   } else {
 
