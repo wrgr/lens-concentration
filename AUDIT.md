@@ -244,6 +244,37 @@ After the corrections, `make check` passes for all 100 cases (3 pages,
 references on page 2, marker/reference parity), and all three editions and
 the cover rebuild without Typst errors.
 
+### Primary-source re-check of the three "could not confirm verbatim" quotes
+
+The quotes that had been conservatively paraphrased during the verification
+pass were re-checked against the primary documents themselves:
+
+- **Case 65 (CrowdStrike):** the Preliminary Post-Incident Review (dated
+  **24 July 2024**) does **not** contain the sentence the book had quoted; it
+  instead commits to "implement a staggered deployment strategy for Rapid
+  Response Content." Paraphrase confirmed correct.
+- **Case 70 (Wells Fargo):** the OCC consent order **AA-EC-2016-66** uses
+  "unsafe or unsound … sales practices," not "a foreseeable consequence of
+  its incentive compensation structure." Paraphrase confirmed correct.
+- **Case 57 (Davis-Besse):** the NRC OIG report PDF has been relocated
+  (the old URL now redirects to an OIG listing), so the exact wording
+  remained unconfirmable; the paraphrase is retained.
+
+Conclusion: none of the three could be restored as verbatim quotes — the
+original wordings do not exist as quoted in the cited sources — so the
+paraphrases stand.
+
+### About-the-editors page — photos + one-page fit
+
+The editor page was rebuilt as a two-column **photo + bio** layout and
+compacted (smaller heads, tighter leading) so the header, intro, both
+biographies, and the sourcing note all fit on **one page**. Author photos
+are wired via two variables at the top of `backmatter/editors.typ`
+(`gray-photo`, `diamond-photo`), each defaulting to `none` (a sized
+placeholder). Drop the files in `backmatter/img/` (`gray-roncal.jpg`,
+`diamond.jpg`) and point the variables at them; geometry is identical, so
+the one-page fit holds once the photos are added.
+
 ---
 
 ## Status snapshot
