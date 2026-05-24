@@ -63,8 +63,7 @@
     [
       To keep MCAS in the background, it was left out of the manual and
       training, and allowed to fire on a single angle-of-attack sensor with
-      no second source to cross-check it — so a single failed vane could feed
-      the system a false reading it had no way to doubt. When that sensor
+      no second source to cross-check it. When that sensor
       failed on Lion Air Flight 610 in October 2018, MCAS repeatedly forced
       the nose down; the crew, never told the system existed, fought it cycle
       after cycle until the jet dove into the Java Sea, killing all 189. Five
@@ -92,8 +91,7 @@
     [
       The MAX inverts this book's usual case. Human capability was not
       overlooked by accident; it was deliberately engineered out to avoid the
-      cost of the training that would have created it, the way a designer
-      deletes a part to save weight. The pilots were not undertrained by
+      cost of the training that would have created it. The pilots were not undertrained by
       oversight but by design — the absence of training was, in effect, a
       contract deliverable promised to customers and protected by a rebate.
       Seen that way, the crashes are not a training failure that befell a good
@@ -105,8 +103,8 @@
     // -- Aftermath & Reform --
     [
       The MAX was grounded for some twenty months. MCAS was redesigned to use
-      both sensors, fire once, and with limited authority, so the very margins
-      the original had stripped away were restored as design constraints.
+      both sensors, fire once, and with limited authority — restoring the
+      margins the original had stripped away.
       The FAA's 2020 return-to-service required the simulator training the
       airplane had been built to avoid, and Congress tightened the FAA's
       oversight of the delegation system that had let Boeing self-certify so

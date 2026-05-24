@@ -740,7 +740,7 @@
       Equifax's patching practices systematically inadequate and the company
       lacking "a comprehensive IT asset inventory" — so it could not reliably
       know which systems needed the patch, leaving the security team's warning
-      with no map to act on. Monitoring was weak, response delayed, and the
+      with no map to act on.#cn() Monitoring was weak, response delayed, and the
       incident-response architecture had been treated for years as a cost
       center rather than a capability worth funding; the CEO resigned and
       Equifax settled for roughly \$700 million.#cn()
