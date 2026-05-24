@@ -371,100 +371,71 @@
   impact: "Structural readiness gap in DoD's stated top-priority theater",
   diagram: dgm.dgm-indopacom,
   kind: "failure",
+  summary: [
+    The 2022 National Defense Strategy names the Indo-Pacific the Pentagon's
+    priority theater and China its "pacing challenge" — yet the theater so
+    designated has among the least mature live-training infrastructure in
+    the force. For nearly a decade the U.S. Marine Corps has been unable to
+    meet its training requirements at Indo-Pacific ranges, papering over the
+    gap with rotations back to U.S. ranges, virtual substitutes, and
+    multinational exercises pressed into proxy duty. In May 2024 the GAO
+    documented the decade-long shortfall and urged the Corps to analyze its
+    unmet requirements and build a remediation plan. The case is this book's
+    live, ongoing counterpart to its historical failures: a fully
+    recognized, repeatedly documented capability gap that declared priority
+    has not closed, because engineered priority — ranges, basing, certified
+    units — is slow and expensive.
+  ],
   sections: (
     // -- Background --
     [
-      The 2022 National Defense Strategy names the Indo-Pacific the
-      Department of Defense's priority theater and the People's Republic of
-      China its "pacing challenge" — the single competitor against which the
-      U.S. military is meant to measure and build itself.#cn() Set against
-      that declaration is an awkward fact about the theater so designated:
-      it has among the least mature live-training infrastructure in the
-      force. The place the strategy calls most important is, in terms of
-      where forces can actually rehearse the fight, one of the least built
-      out.#cn()
+      The 2022 National Defense Strategy names the Indo-Pacific the priority
+      theater and China the "pacing challenge."#cn() Set against that is an
+      awkward fact: the theater so designated has among the least mature
+      live-training infrastructure in the force — the place called most
+      important is, where forces can actually rehearse, one of the least
+      built out.#cn()
     ],
     // -- What Happened --
     [
-      This case has no single date because the failure is a persistent
-      condition rather than an event. For nearly a decade the U.S. Marine
-      Corps has been unable to meet its training requirements at ranges in
-      the Indo-Pacific Command area of responsibility. The Corps has not
-      simply absorbed the shortfall; it has papered over it with
-      workarounds — rotating units back to the continental United States to
-      use ranges that exist there, substituting virtual and simulated
-      training for live events, and pressing multinational exercises into
-      proxy duty for capabilities that have no home range in theater. The
-      workarounds keep units busy and partially trained; the structural gap
-      they are compensating for does not close.#cn()
+      The failure is a condition, not an event. For nearly a decade the
+      Marine Corps has been unable to meet its training requirements at
+      Indo-Pacific ranges, papering over the shortfall with rotations back
+      to U.S. ranges, virtual substitutes, and multinational exercises
+      pressed into proxy duty. The workarounds keep units partially trained;
+      the structural gap does not close.#cn()
     ],
     // -- The Investigation --
     [
-      In May 2024 the Government Accountability Office examined military
-      readiness across the services and documented the Marine Corps strand
-      in detail: the requirements unmet, the decade over which they had gone
-      unmet, and the workarounds standing in for the real thing. GAO
-      recommended that the Marine Corps complete a formal analysis of its
-      unmet training requirements and develop a plan to identify and
-      remediate them at Indo-Pacific ranges; the Department concurred.#cn()
-      The report was not the first warning. GAO has pressed the same family
-      of readiness recommendations across successive reviews and in
-      testimony to Congress, and the limits of overseas training — and their
-      absence from readiness reporting — were flagged in its work two
-      decades earlier.#cn() What the workarounds cannot reproduce is the very
-      thing the ranges exist to provide: the chance to rehearse, at scale and
-      against a realistic threat, the specific operations the theater would
-      demand. Rotating a unit back to the continental United States trains it
-      on American terrain and range geometry, not the distances, basing, and
-      electromagnetic environment of the Western Pacific. Virtual and
-      constructive simulation fills part of the gap but cannot fully stand in
-      for live, instrumented, force-on-force events. Multinational exercises
-      build relationships and interoperability but are scheduled around
-      partners' priorities, not around the Marine Corps' unmet requirements.
-      GAO's recommendation was therefore not simply to train more but to
-      first establish what, precisely, the unmet requirements are — to
-      convert a decade of acknowledged shortfall into a documented,
-      prioritized list against which progress could be measured and funded.
-      Until that analysis exists, the Corps cannot say with rigor how large
-      the gap is, which makes it easy for the gap to persist, unmeasured,
-      behind the reassuring activity of the workarounds.
+      In May 2024 the Government Accountability Office documented the unmet
+      requirements, the decade over which they had gone unmet, and the
+      workarounds standing in for the real thing, and recommended the Corps
+      formally analyze its unmet requirements and build a remediation plan
+      for Indo-Pacific ranges; the Department concurred.#cn() It was not the
+      first warning — GAO has pressed the same readiness recommendations for
+      years, and flagged the gap between overseas training and readiness
+      reporting two decades ago.#cn()
     ],
     // -- The Capability Gap --
     [
-      What makes INDOPACOM diagnostically useful is the inverse correlation
-      between stated priority and engineered priority. A theater can be
-      named the pacing challenge in every strategy document and briefing
-      while the training infrastructure to operate in it remains
-      structurally short for ten years — and that is not a contradiction the
-      system experiences as urgent, because capability follows where
-      resources and construction actually flow, not where strategy points.
-      Declared priority is cheap; engineered priority — ranges, instrumented
-      airspace, basing, the pipeline of certified units — is expensive and
-      slow, and the gap between the two is the real measure of intent. For
-      a decade that measure has pointed the same way. Building a theater's
-      training capability is not a briefing-slide commitment but a
-      construction program — ranges with the space and instrumentation to
-      rehearse modern fires and maneuver, airspace and sea space cleared for
-      it, host-nation agreements, basing, and a steady pipeline of units that
-      have actually trained there and been certified. None of that
-      materializes from a document's wording; all of it competes for the same
-      dollars and political capital as the deployments that consume the force
-      day to day. The Marine Corps' workarounds are evidence of professionals
-      doing their best inside that constraint — and evidence that best effort
-      inside a structural gap is not the same as closing it.
+      What makes INDOPACOM diagnostic is the inverse correlation between
+      stated and engineered priority. A theater can be named the pacing
+      challenge in every briefing while its training infrastructure stays
+      short for ten years, because capability follows where construction and
+      dollars flow, not where strategy points. Declared priority is cheap;
+      engineered priority — ranges, instrumented airspace, basing, certified
+      units — is slow and expensive, and the gap between them is the real
+      measure of intent.
     ],
     // -- Aftermath & Reform --
     [
-      The reform, such as it is, remains mostly prospective. The GAO
-      recommendations were open as of the 2024 report: an analysis of unmet
-      requirements to be completed and a remediation plan to be built and
-      funded.#cn() Whether the gap closes will be decided not by another
-      strategy document but by whether the Marine Corps and the Department
-      convert the recommendation into programmed ranges, dollars, and
-      schedule. The case sits at the front of this book as the live, ongoing
-      counterpart to its historical failures: a capability shortfall that is
-      fully recognized, repeatedly documented, and still — at the time of
-      writing — not engineered away.
+      The reform remains mostly prospective: the GAO recommendations were
+      open as of 2024, an analysis and a funded remediation plan still to
+      come.#cn() Whether the gap closes will be decided not by another
+      strategy document but by whether the recommendation becomes programmed
+      ranges, dollars, and schedule. It sits at the front of this book as the
+      live counterpart to its historical failures — a gap fully recognized,
+      repeatedly documented, and still not engineered away.
     ],
   ),
   references: (
@@ -514,94 +485,69 @@
   impact: "Fleet mission-capable rate about 55% (March 2023), far short of program goals; lifecycle cost exceeds $1.7T, with ~$1.3T in operating and support; maintainer, technical-data, and depot shortfalls are the binding readiness constraint (GAO-23-105341)",
   diagram: dgm.dgm-f35,
   kind: "failure",
+  summary: [
+    The F-35 is the most expensive weapons program in history — roughly
+    2,500 jets planned and a lifecycle cost above \$1.7 trillion, about
+    \$1.3 trillion of it in operating and support. The hard part was never
+    the airplane but keeping a global fleet ready, and that half has lagged
+    from the start. As of March 2023 the fleet's mission-capable rate was
+    about 55 percent, far short of goal, with more than 10,000 components in
+    the repair queue and depots behind schedule. GAO traced the shortfall to
+    maintainer shortages, the military's lack of access to technical data,
+    and contractor dependency, and urged a full reassessment of the
+    sustainment strategy. It is the book's cleanest case of a platform
+    fielded faster than the capability infrastructure to sustain it.
+  ],
   sections: (
     // -- Background --
     [
-      The F-35 is the most expensive weapons program in history. The
-      Department of Defense plans to buy nearly 2,500 of the jets, and the
-      program's estimated lifecycle cost now exceeds \$1.7 trillion — of
-      which roughly \$1.3 trillion is not the aircraft at all but the decades
-      of operating and sustaining them.#cn() That ratio is the whole story
-      in miniature: the flyaway jet is the visible, finite part; keeping a
-      global fleet of them mission-ready — the maintainers, the technical
-      data, the repair depots — is the open-ended part, and it is the part
-      that has lagged from the beginning.
+      The F-35 is the most expensive weapons program in history: the Pentagon
+      plans to buy nearly 2,500, at a lifecycle cost exceeding \$1.7 trillion
+      — roughly \$1.3 trillion of it not the aircraft but the decades of
+      operating and sustaining them.#cn() The flyaway jet is the finite part;
+      keeping a global fleet ready — maintainers, technical data, depots — is
+      the open-ended part, and the part that lagged.
     ],
     // -- What Happened --
     [
-      Like the INDOPACOM case, this failure is a standing condition rather
-      than an event. As of March 2023 the F-35 fleet's mission-capable rate
-      stood at about 55 percent — the share of aircraft able to perform at
-      least one tasked mission — far short of the program's goals. Behind
-      that number sat a maintenance system that could not keep up: more than
-      10,000 components were waiting in the repair queue, above desired
-      levels, and the service depots were taking, on average, about
-      72 days to turn a component around. The depots were themselves behind
-      schedule in standing up the capacity to do the repairs at all, which
-      left the fleet leaning on a pipeline that could not meet demand.#cn()
+      The failure is a standing condition. As of March 2023 the fleet's
+      mission-capable rate was about 55 percent, far short of goal; more
+      than 10,000 components waited in the repair queue, and the depots
+      averaged about 72 days per repair while still behind schedule in
+      standing up the capacity to do the work at all.#cn()
     ],
     // -- The Investigation --
     [
-      GAO's September 2023 review carried an unusually blunt title: the
-      Department and the services *need to reassess the future sustainment
-      strategy*. The report traced the readiness shortfall to a cluster of
-      human-capability and information problems — shortages of trained
-      maintainers, the military's lack of access to the technical data
-      needed to do its own repairs, and the resulting dependence on the
-      prime contractor for work the services cannot perform
-      themselves.#cn() None of this was a surprise. GAO has reported on
-      F-35 sustainment year after year, and successive reviews have repeated
-      the same diagnosis even as procurement continued and the readiness
-      numbers stayed flat.#cn() The information problem had a name. For
-      years the fleet's maintenance ran through the Autonomic Logistics
-      Information System, a centralized software backbone so cumbersome and
-      error-prone that maintainers improvised workarounds simply to keep
-      aircraft moving; the program eventually committed to replacing it, but
-      the replacement has come slowly, and a maintenance enterprise can only
-      be as good as the system that schedules its parts, tracks its
-      components, and authorizes its work. Layered on top were the maintainer
-      shortfalls — too few trained people for a fleet still growing — and
-      depots that could not absorb the repair demand. The reports return to
-      the same structural point year after year: the sustainment model was
-      built around assumptions about cost, contractor support, and data
-      access that have not held, and adjusting it at the margins has not
-      changed the trajectory.
+      GAO's September 2023 review was bluntly titled: the Department and
+      services *need to reassess the future sustainment strategy*. It traced
+      the shortfall to maintainer shortages, the military's lack of access to
+      the technical data needed to do its own repairs, and the resulting
+      dependence on the prime contractor.#cn() None of it was new — GAO has
+      repeated the same diagnosis year after year, through a troubled
+      logistics-software backbone and slow progress, even as procurement
+      continued and readiness stayed flat.#cn()
     ],
     // -- The Capability Gap --
     [
-      The F-35 is the cleanest modern example of a platform fielded faster
-      than the capability infrastructure to sustain it. Aircraft were
-      delivered on a production schedule; the maintainers to keep them
-      flying, the technical data to repair them, and the depots to overhaul
-      them were treated as follow-on costs to be sorted out later rather
-      than as deliverables that had to arrive with the jets. The result is a
-      fleet that exists physically but cannot be kept ready, because the
-      human and informational half of the system was never engineered to
-      match the hardware half — and that half does not catch up on its own.
-      The hardest part of the gap is less the headcount of maintainers than
-      the access to information. Much of the technical data needed to
-      diagnose and repair the aircraft has stayed controlled by the prime
-      contractor rather than delivered to the government, so the services
-      cannot freely write their own procedures, stand up and qualify their
-      own depots, or compete the work — a dependency that is merely expensive
-      in peacetime and genuinely dangerous in a conflict that would strain
-      the contractor's own supply chain. Fielding the jets without first
-      securing that data was a choice whose cost arrives every day an
-      aircraft sits grounded for want of a repair the military is not
-      permitted to perform itself.
+      The F-35 is the cleanest modern case of a platform fielded faster than
+      the capability infrastructure to sustain it. Aircraft arrived on
+      schedule; the maintainers, technical data, and depots were treated as
+      follow-on costs rather than deliverables that had to field with the
+      jets. The hardest part is the data: much of what is needed to repair
+      the aircraft stayed controlled by the contractor, so the services
+      cannot freely write procedures, qualify depots, or compete the work —
+      merely expensive in peacetime, dangerous in war.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      GAO recommended that the Department reassess its entire sustainment
-      strategy — how it secures government access to technical data, builds
-      depot capacity, and grows the maintainer workforce — rather than keep
-      patching a model that was not delivering.#cn() Those recommendations
-      remain a work in progress: the program's later reviews show costs
-      continuing to climb while mission-capable rates stay below goal.#cn()
-      The F-35 sits in this book as the live argument for treating
-      capability infrastructure — people, data, and the means to sustain
-      them — as a fielding gate rather than an afterthought. The bill for
-      skipping that gate does not disappear; it compounds.
+      GAO urged a full reassessment of the sustainment strategy — government
+      access to technical data, depot capacity, and a maintainer pipeline —
+      rather than more patching.#cn() Those recommendations remain a work in
+      progress, with later reviews showing costs still rising and readiness
+      still below goal. The F-35 sits in this book as the live argument for
+      treating capability infrastructure — people, data, the means to sustain
+      them — as a fielding gate, not an afterthought. The bill for skipping
+      that gate does not disappear; it compounds.
     ],
   ),
   references: (
@@ -652,102 +598,77 @@
   impact: "47 killed and 74 seriously injured when the crew shut down the wrong engine",
   diagram: dgm.dgm-kegworth,
   kind: "failure",
+  summary: [
+    On 8 January 1989 British Midland Flight 92, a nearly new Boeing
+    737-400, crashed on the M1 motorway embankment near Kegworth, killing 47
+    and seriously injuring 74. After a fan blade fractured in the left
+    engine, the crew shut down the right engine — the one still working.
+    Reasoning from older 737s, on which the right engine fed the cabin air,
+    they misattributed the smoke; new, harder-to-read electronic engine
+    displays did not correct them, and the cabin crew who saw flames never
+    told the flight deck. The pilots' mental model was right for the airplane
+    they had flown the week before, but the brief conversion course never
+    overwrote it. The AAIB issued 31 recommendations; Kegworth became the
+    textbook case of capability degrading under system change.
+  ],
   sections: (
     // -- Background --
     [
       On 8 January 1989 British Midland Flight 92, a nearly new Boeing
-      737-400 registered G-OBME, left London Heathrow for Belfast with 126
-      people aboard. The 737-400 was a recent variant — a stretched fuselage,
-      uprated CFM56 engines, and a partly redesigned cockpit with new
-      electronic engine instruments in place of the older round dials. The
-      crew were experienced 737 pilots, but their conversion onto the new
-      variant had been brief and largely self-directed; the differences from
-      the airplane they had been flying were communicated as a matter of
-      reading, not of practiced retraining.#cn() The variant had entered
-      service only months earlier, and British Midland was among its first
-      operators; the type's introduction had outpaced the depth of crew
-      familiarity that comes from years on an airframe. Pilots converting
-      from the older 737-200 received a conversion course measured in days,
-      much of it covering the new electronic instrument displays as
-      information to be absorbed rather than as a perceptual change to be
-      drilled. By every formal measure the crew were qualified on the
-      aircraft they were flying that night. What they did not yet have was
-      the kind of familiarity that turns the right response into a reflex
-      when an engine tears itself apart at altitude and the cabin fills with
-      smoke.
+      737-400 (G-OBME), left Heathrow for Belfast with 126 aboard. The -400
+      was a recent variant — bigger engines, a partly redesigned cockpit
+      with new electronic engine instruments. The crew were experienced 737
+      pilots, but their conversion onto the variant had been brief and
+      largely self-directed, the differences communicated as reading rather
+      than drilled retraining.#cn()
     ],
     // -- What Happened --
     [
-      Climbing through about 28,300 feet, a fan blade fractured in the left
-      engine, producing heavy vibration, a burning smell, and smoke in the
-      cabin. The crew had seconds to decide which engine was failing.
-      Reasoning from the older 737s they knew — on which the air-conditioning
-      bleed drew from the right engine — they concluded the right engine was
-      the source of the smoke and throttled it back. The symptoms eased,
-      which seemed to confirm the diagnosis, and they shut the right engine
-      down. It was the one still working. Believing they had isolated the
-      trouble, they did not restart it; the vibration had eased when they
-      throttled the right engine back — partly because the still-active
-      autothrottle had reduced power on the failing left engine at the same
-      moment — and that easing read to them as confirmation. They began a
-      diversion to East Midlands Airport, and for some minutes the crippled
-      left engine ran well enough to sustain the descent while the crew
-      worked checklists, radios, and a frightened cabin, the window to
-      reconsider slipping past. On final approach, when they called for more
-      thrust, the damaged left engine failed completely — and with the good
-      engine already shut down, the aircraft had no power at all. It struck
-      the embankment of the M1 motorway short of the runway, breaking apart
-      just short of safety. Forty-seven people were killed and seventy-four
-      seriously injured.#cn()
+      Climbing through 28,300 feet, a fan blade fractured in the left engine,
+      filling the cabin with vibration and smoke. Reasoning from older 737s —
+      on which the air-conditioning bleed drew from the right engine — the
+      crew concluded the right engine was the source and throttled it back.
+      The symptoms eased (partly because the autothrottle had also cut power
+      on the failing left engine), seeming to confirm it, and they shut the
+      right engine down. On final approach the damaged left engine failed
+      completely; with the good engine off, the aircraft struck the M1
+      embankment short of the runway — 47 killed, 74 seriously injured.#cn()
     ],
     // -- The Investigation --
     [
       The Air Accidents Investigation Branch traced the disaster to the
-      shutdown of the serviceable engine, and to why two competent pilots
-      made that choice. The decisive factor was a mental model carried from
-      earlier 737 variants and applied to a -400 on which Boeing had changed
-      the bleed-air configuration; the difference training had never
-      disturbed the old model.#cn() The new electronic engine displays did
-      not help: the secondary instruments, including the vibration
-      indicator that would have pointed straight at the failing engine, were
-      harder to read at a glance than the dials they replaced.#cn() And
-      although cabin crew and passengers could see flames from the left
-      engine, that observation never reached the flight deck — a
-      crew-resource-management gap of exactly the kind aviation would later
-      train hard against.#cn()
+      shutdown of the serviceable engine, and to a mental model carried from
+      earlier 737s and applied to a -400 whose bleed-air configuration
+      Boeing had changed — a difference the conversion training never
+      disturbed.#cn() The new electronic displays did not help: the vibration
+      indicator that would have pointed at the failing engine was harder to
+      read at a glance than the dials it replaced.#cn() And though cabin crew
+      and passengers could see flames from the left engine, that never
+      reached the flight deck — a crew-resource-management gap aviation would
+      later train hard against.#cn()
     ],
     // -- The Capability Gap --
     [
-      The Kegworth crew were skilled, and their mental model was correct —
-      for the airplane they had flown the week before. The -400 had been
-      treated, for training purposes, as an incremental change to a familiar
-      type; under the time pressure of an in-flight emergency it behaved as a
-      categorical one. The training system had not engineered the difference
-      with enough force to overwrite a deeply practiced prior model, and the
-      cockpit redesign had quietly removed some of the perceptual cues that
-      a startled crew relies on. Capability had degraded under system change
-      without anyone noticing, because nothing had failed until the day it
-      did.#cn() It is worth being precise about what "training" would have
-      had to do. Reading a manual that notes the -400's revised bleed-air
-      arrangement is not the same as building, through practice under
-      realistic pressure, a new reflex that fires before the old one. The
-      crew did not reach for the wrong control out of carelessness; they
-      reached for the model their thousands of prior hours had built, and
-      the conversion course had given them nothing strong enough to override
-      it in the seconds that mattered. The gap was not in the pilots'
-      diligence but in the design of the transition itself.
+      The crew were skilled, and their mental model was correct — for the
+      airplane they had flown the week before. The -400 was treated, for
+      training, as an incremental change to a familiar type; under emergency
+      pressure it behaved as a categorical one. Reading a manual note about
+      revised bleed air is not the same as drilling a new reflex that fires
+      before the old one, and the cockpit redesign had quietly removed
+      perceptual cues a startled crew relies on. Capability had degraded
+      under system change with no one noticing, because nothing failed until
+      the day it did.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      The AAIB issued thirty-one safety recommendations, reaching across
-      conversion and difference training, engine-instrument and
-      vibration-display design, communication between cabin and flight deck,
-      and occupant crashworthiness.#cn() The accident became a standard
-      teaching case in human factors and a reference point for how a
-      transition program should be built — so that the differences between
-      an old system and a new one are made hard to overlook rather than easy,
-      and so that the people closest to the evidence have a path to the
-      people making the decision.
+      The AAIB issued thirty-one safety recommendations spanning conversion
+      and difference training, engine-instrument and vibration-display
+      design, cabin-to-flight-deck communication, and crashworthiness.#cn()
+      Kegworth became a standard human-factors teaching case and a reference
+      for how a transition program should be built — so the differences
+      between an old system and a new one are made hard to overlook, and the
+      people closest to the evidence have a path to those making the
+      decision.
     ],
   ),
   references: (
@@ -799,102 +720,76 @@
   impact: "24% of U.S. KIA in Desert Storm from friendly fire (35 of 148, per the DoD friendly-fire report) — an order of magnitude above the historical baseline",
   diagram: dgm.dgm-fratricide,
   kind: "failure",
+  summary: [
+    Friendly fire killed an unusual share of coalition forces in the 1991
+    Gulf War: 35 of 146 U.S. combat deaths (24 percent) and 72 of 467
+    wounded (15 percent). (The often-cited "2 percent historical baseline"
+    from Shrader's 1982 study is contested — later estimates run nearer
+    10–15 percent, and Shrader stepped back from it.) Post-war reviews
+    blamed the chaos of combat, weak situational awareness and fire-control
+    discipline, and combat-identification failures — and noted the military
+    lacked a shared record to even study its own pattern. Fratricide is the
+    failure of several systems to integrate; despite a generation of
+    combat-ID investment, recurrences in Afghanistan and after show the rate
+    never fell to a confidently low level, because integration is the
+    hardest property to engineer by program.
+  ],
   sections: (
     // -- Background --
     [
-      Friendly fire is as old as organized war, but its true rate has always
-      been hard to pin down. The most-cited historical estimate came from
-      Charles Shrader, whose 1982 study _Amicicide_ examined 269 incidents
-      and concluded that fratricide accounted for something under two percent
-      of battle casualties. That figure later proved fragile: subsequent
-      analysts argued the real historical rate was closer to ten or fifteen
-      percent, and Shrader himself stepped back from the two-percent number.
-      The disputed baseline matters because it became the yardstick against
-      which a modern war would be measured.#cn()
+      Friendly fire is as old as war, but its true rate is hard to pin down.
+      The most-cited estimate, from Charles Shrader's 1982 study _Amicicide_,
+      put it under two percent of battle casualties — a figure later analysts
+      challenged as far too low (nearer 10–15 percent), and one Shrader
+      himself stepped back from. The disputed baseline mattered because it
+      became the yardstick against which a modern war would be measured.#cn()
     ],
     // -- What Happened --
     [
-      The 1991 Gulf War made the question concrete and grim. Of 146 U.S.
+      The 1991 Gulf War made the question grim and concrete: of 146 U.S.
       service members killed in action, 35 — about 24 percent — died by
-      friendly fire; of 467 wounded, 72 (about 15 percent) were hit by their
-      own side.#cn() The toll was not abstract. An A-10 strike on U.S.
-      LAV-25 light-armored vehicles near Khafji killed seven Marines after a
-      coordinated engagement went wrong, and a single A-10 attack on British
-      Warrior fighting vehicles killed nine soldiers. Whatever the right
-      historical baseline, a quarter of American combat deaths coming from
-      one's own forces was a number no one could explain away as the
-      ordinary friction of battle.#cn() The incidents shared a grim
-      signature: the weapons worked exactly as designed, and the people
-      firing them were competent and trying to do the right thing. What
-      failed was the chain that lets a shooter know, in the seconds
-      available, whether the vehicle or the position in the sights is friend
-      or foe — a forward controller's read of a fluid ground picture, the
-      coordination between aircraft and the units below them, the markings
-      and signals meant to say "us." In the desert, at night, in fast-moving
-      armored battle, that chain broke repeatedly, and it broke not because
-      any one part was obviously deficient but because the parts did not
-      hold together under the speed and confusion of combat.
+      friendly fire, and 72 of 467 wounded (15 percent) were hit by their own
+      side.#cn() An A-10 strike on U.S. LAV-25s near Khafji killed seven
+      Marines; a single A-10 attack on British Warrior vehicles killed nine.
+      Whatever the true baseline, a quarter of American combat deaths from
+      one's own forces could not be waved off as the ordinary friction of
+      battle.#cn()
     ],
     // -- The Investigation --
     [
-      The post-war reviews converged on a familiar set of causes: the chaos
-      and confusion of combat, inadequate situational awareness, weak
-      adherence to fire-control measures, and combat-identification
-      failures — crews and controllers unable to tell friend from foe fast
-      enough under fire.#cn() One finding cut deeper than the rest. Analysts
-      noted that the military lacked a comprehensive, accessible record of
-      fratricide incidents, which meant the institution could not study its
-      own pattern rigorously. The capability to *learn* from friendly fire
-      was itself missing — a second-order gap sitting beneath the
-      first.#cn() That second-order gap mattered as much as any single
-      engagement. Without a rigorous, shared record, the services could not
-      separate the incidents that arose from training from those that arose
-      from doctrine, equipment, or the irreducible chaos of battle; they
-      could not tell whether a given fix was working or whether an apparent
-      improvement was simply a quieter war. Each service investigated its own
-      tragedies, often thoroughly, but the lessons stayed local, and the
-      pattern across them — the part that would have told the institution
-      where to invest — went largely unassembled. A problem that is not
-      measured well is a problem that is easy to declare solved and easy to
-      keep having.
+      Post-war reviews converged on familiar causes: the chaos of combat,
+      inadequate situational awareness, weak adherence to fire-control
+      measures, and combat-identification failures.#cn() One finding cut
+      deeper — the military lacked a comprehensive, shared record of
+      fratricide incidents, so it could not study its own pattern, separate
+      training failures from doctrine or equipment, or tell whether a fix was
+      working. The capability to *learn* from friendly fire was itself
+      missing, a second-order gap beneath the first.#cn()
     ],
     // -- The Capability Gap --
     [
       Fratricide is not one problem but the failure of several systems to
-      integrate: situational awareness, fire-control discipline, combat
-      identification, and joint coordination each became the subject of
-      dedicated programs, yet the rate did not fall to anything like a
-      negligible level in the conflicts that followed. In Afghanistan a
-      satellite-guided bomb strike went fatally wrong after a controller's
-      device reset its coordinates following a battery change, and in 2014 a
-      B-1's targeting pod could not detect the infrared strobes U.S. troops
-      were wearing to mark themselves, and the strike killed five. Each
-      contributor had been worked on; the integration *across* them — the
-      property that actually keeps friendly forces from killing each
-      other — is the hardest thing to engineer by program, and it is where
-      the capability kept failing.#cn() This is why fratricide resists the
-      single fix that intuition reaches for. A better radio, a new
-      transponder, a tracking display — each addresses one contributor, and
-      each has been bought; but the instant that decides whether a strike
-      kills the enemy or a friend is the instant all of them must come
-      together correctly, fast, under stress, across services and sometimes
-      across allies. Integration is not a box that any one program office
-      owns, and it does not appear on a procurement schedule. It has to be
-      trained, exercised, and measured as a capability in its own right —
-      which is far harder than fielding any of its parts.
+      integrate — situational awareness, fire-control discipline, combat
+      identification, joint coordination — each the subject of dedicated
+      programs, yet the rate never fell to anything negligible. In
+      Afghanistan a satellite-guided strike went wrong after a controller's
+      device reset its coordinates, and in 2014 a B-1's targeting pod could
+      not detect the infrared strobes marking U.S. troops, killing five. Each
+      contributor was worked on; the integration *across* them — which is
+      what actually keeps friendly forces from killing each other — is the
+      hardest thing to engineer by program, and it is where the capability
+      kept failing.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The response was a generation of combat-identification investment:
-      better identification-friend-or-foe systems, position-reporting and
-      blue-force-tracking networks, and changes to fire-control doctrine and
-      training. The improvements were real, and yet fratricide never dropped
-      to a confidently low, stable rate, and even measuring it remained
-      contested.#cn() That is the lesson the case carries into this book:
-      where capability is an emergent property of many systems working
-      together, no single program — and no single technology — closes the
-      gap, and progress has to be measured against an honest baseline rather
-      than a convenient one.
+      better IFF systems, blue-force-tracking networks, and changes to
+      fire-control doctrine and training. The improvements were real, yet
+      fratricide never dropped to a confidently low, stable rate, and even
+      measuring it remained contested.#cn() That is the lesson: where
+      capability is an emergent property of many systems working together, no
+      single program closes the gap — and progress has to be measured against
+      an honest baseline rather than a convenient one.
     ],
   ),
   references: (
@@ -949,102 +844,69 @@
     caption: "ACGME duty-hour reform — capping hours did not, on its own, engineer the capability",
   ),
   kind: "intervention",
+  summary: [
+    After the 1984 death of Libby Zion focused decades of concern on
+    resident-physician fatigue, the ACGME capped resident work at 80 hours a
+    week in 2003 and limited first-year shifts to 16 hours in 2011. The logic
+    was intuitive: tired doctors err, so cut the hours. But hours were one
+    input to a many-variable system; cutting them multiplied error-prone
+    hand-offs and cost residents continuity and procedural repetitions. Two
+    large randomized trials — FIRST (2016) and iCOMPARE (2019) — found
+    flexible schedules non-inferior to the strict caps on patient outcomes,
+    so the promised safety gain never appeared, and in 2017 the ACGME relaxed
+    the intern cap. The case is the book's clearest example of a
+    single-variable intervention into a capability system — and of evidence
+    catching up with a well-meant policy.
+  ],
   sections: (
     // -- Background --
     [
-      In 1984 Libby Zion, an 18-year-old patient, died at a New York teaching
-      hospital in a case her family blamed on overworked, under-supervised
-      residents. The death became the focal point of a decades-long argument
-      about resident-physician fatigue: trainees routinely worked punishing
-      hours with little sleep and thin supervision, and the worry was that
-      exhausted doctors made errors that rested ones would not. New York
-      convened the Bell Commission, whose recommendations led the state in
-      1989 to limit residents' hours and strengthen on-site supervision —
-      the first such rules in the country. For more than a decade those
-      limits remained a largely local experiment while the national
-      accreditation system weighed whether to follow; accumulating evidence
-      on sleep deprivation and a rising public appetite for patient-safety
-      reform eventually carried the argument, and the pressure for a
-      national standard built from there.#cn()
+      After the 1984 death of Libby Zion — blamed on overworked,
+      under-supervised residents — resident fatigue became a decades-long
+      argument. New York's Bell Commission produced the first hours limits in
+      1989, and pressure for a national standard built from there.#cn()
     ],
     // -- The Intervention --
     [
-      In 2003 the Accreditation Council for Graduate Medical Education
-      capped resident work at 80 hours per week, averaged over four weeks. In
-      2011 it tightened the rules again, limiting first-year residents to
-      shifts of no more than 16 hours. The logic was clean and intuitive:
-      fatigue causes error, so reduce the hours and the errors should follow.
-      It was, in capability terms, a single-variable intervention — change
-      one input and expect the outcome to move.#cn()
+      In 2003 the Accreditation Council for Graduate Medical Education capped
+      resident work at 80 hours a week; in 2011 it limited first-year
+      residents to 16-hour shifts. The logic was clean and intuitive —
+      fatigue causes error, so reduce the hours. It was, in capability terms,
+      a single-variable intervention: change one input and expect the outcome
+      to move.#cn()
     ],
     // -- How It Worked --
     [
-      Hours, though, were one input to a system with many. Cutting them did
-      not remove the work; it redistributed it, and it multiplied the number
-      of patient hand-offs between residents — themselves a well-documented
-      site of error, where information falls through the gaps between
-      shifts. Continuity of care suffered, and so did residents' exposure to
-      the long arc of a case and to procedures they needed repetitions to
-      master. In surveys, many residents reported feeling less prepared
-      rather than better rested. The cap had changed the input without
-      engineering the rest of the system around it.#cn() There was a quieter
-      loss as well. The long shift had been doing work no one had fully
-      accounted for: it was where a resident watched a patient's course
-      unfold from admission through crisis to resolution, where supervision
-      happened in the moment rather than across a hand-off note, and where
-      the sheer volume of repetitions built procedural skill. Capping the
-      hours removed those by-products along with the fatigue, and nothing was
-      put in their place — the reform subtracted an input without redesigning
-      the system that input had quietly been sustaining.
+      But hours were one input to a system with many. Cutting them
+      redistributed the work and multiplied patient hand-offs — themselves a
+      documented site of error — while reducing residents' continuity and the
+      procedural repetitions that build skill; many reported feeling less
+      prepared, not better rested. The long shift had quietly been doing work
+      no one accounted for, and nothing was put in its place.#cn()
     ],
     // -- The Evidence --
     [
-      Two large randomized trials put the policy to a real test. FIRST
-      (Bilimoria et al., _NEJM_ 2016), in surgical-training programs, found
-      that flexible, less-restrictive duty-hour policies were non-inferior
-      to the strict caps on patient outcomes and no worse for residents'
-      well-being and education.#cn() iCOMPARE (Silber et al., _NEJM_ 2019),
-      in internal-medicine programs, reached a parallel result: flexible
-      first-year policies were associated with non-inferior patient outcomes
-      and no significant difference in residents' satisfaction with their
-      well-being and education.#cn() Neither trial found the patient-safety
-      gain the strict cap had been imposed to deliver. In 2017 the ACGME
-      relaxed the 16-hour intern limit.#cn() It is worth being careful about
-      what the trials did and did not establish. They did not show that
-      fatigue is harmless, nor that hours never matter; they showed that,
-      within the range tested, trading the strict cap for flexibility did not
-      worsen patient outcomes or resident well-being — which means the strict
-      cap's promised benefit failed to appear where it had been most
-      confidently predicted. The result reframed the question. The issue was
-      never whether tired residents err, but whether reducing one input, by
-      itself and without rebuilding supervision, hand-offs, and continuity
-      around it, reliably produces a safer system. On the evidence, it did
-      not.
+      Two large randomized trials tested the policy. FIRST (Bilimoria et al.,
+      _NEJM_ 2016), in surgery, found flexible duty hours non-inferior to the
+      strict caps on patient outcomes and no worse for resident
+      well-being.#cn() iCOMPARE (Silber et al., _NEJM_ 2019), in internal
+      medicine, reached a parallel result.#cn() Neither found the safety gain
+      the cap had promised, and in 2017 the ACGME relaxed the 16-hour intern
+      limit. The trials did not show fatigue is harmless — only that cutting
+      one input, without rebuilding supervision and hand-offs, did not produce
+      a safer system.#cn()
     ],
     // -- What Transferred --
     [
-      Duty-hour reform is the clearest case in this book of a single-variable
-      intervention into a multi-variable capability system — and of the
-      evidence eventually catching up with a well-intentioned policy. It is
-      worth reading against the successes elsewhere in these pages. The
-      Keystone ICU project, crew resource management, and the surgical safety
-      checklist worked because they engineered supervision, hand-off, and
-      measurement architecture *together with* the behavioral change, rather
-      than adjusting one input and assuming capability would follow.#cn() The
-      lesson is not that resident fatigue does not matter; it is that
+      Duty-hour reform is the book's clearest case of a single-variable
+      intervention into a multi-variable system. Read it against the
+      successes here — the Keystone ICU project, crew resource management, the
+      surgical safety checklist — which worked because they engineered
+      supervision, hand-offs, and measurement *together with* the behavioral
+      change.#cn() The lesson is not that fatigue does not matter; it is that
       capability is a property of the whole system, and a reform that moves
-      one variable while leaving the others untouched will be measured, in
-      the end, by what it actually produced. The field eventually learned
-      the constructive version of the lesson. The most durable patient-safety
-      advances of the era were not single prohibitions but engineered
-      bundles — structured hand-off protocols, checklist-driven processes,
-      and supervision redesigned around the points where information was
-      being lost — that changed several variables together and measured the
-      result. Duty-hour reform earns its place in a training-gap chapter
-      precisely because it began as the intuitive move, the one that felt
-      obviously right, and because the evidence then did what evidence is
-      for: it told the field that feeling right was not the same as being
-      effective, and sent it back to design the harder, whole-system answer.
+      one variable while leaving the others untouched will be judged, in the
+      end, by what it actually produced.
     ],
   ),
   references: (

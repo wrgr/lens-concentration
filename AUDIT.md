@@ -31,12 +31,14 @@ of the older record above:
    trims and their covers/targets are retired. (The "A5 / 296-page"
    notes above predate this change.)
 
-2. **4-page cited cases.** Each case is being converted from the 2-page
-   spread to a 4-page structure: a five-beat sourced narrative (pages
-   1–3) with inline `#cn()` citation markers and a numbered per-case
-   reference list at the end of page 3, and the LE Lens on page 4.
-   `make check` enforces, per converted case: exactly 4 pages, verso
-   start, references on page 3, and **marker count == reference count**.
+2. **3-page cited cases (2 + 1).** Each case is converted from the
+   2-page spread to a 3-page structure: a shaded ~130-word "In brief"
+   summary plus a five-beat sourced narrative with inline `#cn()`
+   citation markers fill two pages (references in two compact columns at
+   the end of page 2; the case diagram sits on page 2), and the LE Lens
+   on page 3. `make check` enforces, per converted case: exactly 3 pages,
+   references on page 2, and **marker count == reference count**.
+   *(This supersedes an earlier 4-page / 3+1 attempt.)*
 
 ### Chapter 1 — conversion audit notes (8/8 cases converted & passing)
 
