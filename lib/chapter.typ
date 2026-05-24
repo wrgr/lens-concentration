@@ -12,7 +12,8 @@
   subtitle: "",
   epigraph: none,
   epigraph-source: "",
-) = {
+) = if view != "overview" {
+  // (The overview booklet omits full-page chapter dividers.)
   // chapter dividers start on a right-hand (recto) page
   pagebreak(to: "odd", weak: true)
 

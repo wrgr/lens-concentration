@@ -45,6 +45,12 @@
   // the 4-page and legacy paths.
   [#metadata((n: number, title: title, courses: courses)) <caseinfo>]
 
+  // Overview booklet: render a compact half-page entry instead of the
+  // full multi-page case, reusing the same verified content.
+  if view == "overview" {
+    overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach)
+  } else {
+
   // Shared header: case number / domains / year, title, mode line, impact.
   let header-block = {
     grid(
@@ -173,5 +179,6 @@
     })
     pagebreak(weak: true)
     lens-page
+  }
   }
 }

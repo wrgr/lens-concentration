@@ -42,6 +42,9 @@ $TYPST --input mode=proof book.typ build/_proof-color.pdf
 gray_flatten build/_proof-color.pdf build/capability-matters-proof.pdf
 rm build/_proof-color.pdf
 
+echo "→ Compiling case overview (US Letter, two cases per page)..."
+$TYPST --input view=overview overview.typ build/capability-matters-overview.pdf
+
 # ---- Cover ----
 pages=$(pdfinfo build/capability-matters-print.pdf | awk '/^Pages:/ {print $2}')
 spine=$(awk -v p="$pages" 'BEGIN {printf "%.2f", p * 0.0621}')
@@ -60,6 +63,7 @@ $TYPST --root . \
 for f in capability-matters-print.pdf \
          capability-matters-digital.pdf \
          capability-matters-proof.pdf \
+         capability-matters-overview.pdf \
          cover-print.pdf; do
   cp "build/$f" "$ROOT/$f"
 done
@@ -69,6 +73,7 @@ echo "✓ Output:"
 echo "    capability-matters-print.pdf      8 × 10 production interior (grayscale, $pages pp)"
 echo "    capability-matters-digital.pdf    8 × 10 digital edition (color, cream)"
 echo "    capability-matters-proof.pdf      8 × 10 on US Letter with trim marks (proof)"
+echo "    capability-matters-overview.pdf   US Letter case overview (2 cases/page)"
 echo "    cover-print.pdf                   8 × 10 Lulu wrap (spine $spine mm)"
 echo
 echo "Lulu workflow: upload capability-matters-print.pdf as the interior"

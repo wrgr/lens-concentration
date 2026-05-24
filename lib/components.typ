@@ -30,6 +30,55 @@
   items.join(h(4pt))
 }
 
+// ---- View flag: "book" (default) or "overview" (companion booklet) ----
+#let view = sys.inputs.at("view", default: "book")
+
+// ---- Half-page case entry for the overview booklet ---------------------
+// Two of these fill one US-Letter page. Reuses each case's verified
+// summary / references / lens-approach so the overview never duplicates
+// content. Title · ~100-word callout · 1–3 key references · LENS use.
+#let overview-entry(number, title, year, domains, modes, summary, refs, lens) = block(
+  width: 100%,
+  height: 113mm,
+  breakable: false,
+  inset: (top: 7pt, bottom: 5pt),
+  stroke: (top: 0.6pt + rule-soft),
+  {
+    grid(
+      columns: (auto, 1fr, auto),
+      column-gutter: 8pt,
+      align: (left + horizon, left + horizon, right + horizon),
+      eyebrow("Case " + str(number)),
+      domain-row(..domains),
+      eyebrow(year),
+    )
+    v(3pt)
+    text(font: serif, size: 15pt, fill: navy, title)
+    v(5pt)
+    block({
+      set par(justify: true, leading: 0.58em)
+      text(font: sans, size: 10pt, fill: text-dark, summary)
+    })
+    v(6pt)
+    eyebrow("Key references", color: gold)
+    v(2pt)
+    block({
+      set par(leading: 0.46em, spacing: 3.5pt, hanging-indent: 8pt)
+      for r in refs.slice(0, calc.min(3, refs.len())) {
+        text(font: sans, size: 7.5pt, fill: text-muted, [‣#h(3pt)#r])
+        parbreak()
+      }
+    })
+    v(3pt)
+    eyebrow("LENS applicability", color: teal)
+    v(2pt)
+    block({
+      set par(justify: true, leading: 0.54em)
+      text(font: sans, size: 9pt, fill: text-dark, lens)
+    })
+  },
+)
+
 // ---- Failure mode code chip (single letter T/D/N/H/G/K) ----
 #let mode-chip(code) = box(
   stroke: 0.6pt + teal,
