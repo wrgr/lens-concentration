@@ -75,6 +75,26 @@ conversion:
   GAO F-35 maintenance line (Case 26), the AAIB mental-model line
   (Case 30), and the GAO Marine Corps readiness line (Case 9).
 
+### Chapters 3–5 — conversion notes
+
+- **Case 11 (V-22 Osprey)** updated to the verified Dec 2025 GAO
+  (GAO-26-108905) and NAVAIR review findings, the 2023 Yakushima crash
+  (X-53 transmission-gear cracks), and the ~65-fatality / ~17-hull-loss
+  record.
+- **Case 17 (Bhopal)** death toll is given as a range (thousands
+  immediate; 15,000–20,000 total estimates; ~500,000 exposed) because
+  figures vary widely across sources — flagged in-text.
+- **Case 37 (educational algorithmic bias)** specific magnitudes from
+  the Gándara et al. predictive-model work were **not re-verified**; the
+  prose was softened to the directional finding and the impact line's
+  precise percentages removed. Reinstate exact figures only with a
+  confirmed citation.
+- Chapters 3–5 cases are otherwise sourced to primary
+  investigations (NTSB, CSB, GAO, NRC, Royal Commissions, FERC-NERC,
+  court records) plus reputable secondary reporting; quotes left
+  verbatim are drawn from those reports, and "Paraphrasing" marks any
+  attribution not re-confirmed word-for-word.
+
 ---
 
 ## Status snapshot

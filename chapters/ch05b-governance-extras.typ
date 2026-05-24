@@ -20,36 +20,79 @@
     micro: "\"the computer said so\" was an institutionally sufficient basis for conviction",
     caption: "Horizon — institutional deference to an algorithm known to be flawed",
   ),
-  body: [
-    The Post Office's Horizon IT system, developed by Fujitsu and
-    deployed in 1999, produced systematic accounting errors in sub-
-    postmasters' branch ledgers. The Post Office prosecuted hundreds
-    of sub-postmasters for theft and false accounting on the basis of
-    these errors, refusing for two decades to accept that the system
-    itself was at fault. Internal Post Office and Fujitsu documents,
-    later released through litigation, showed that engineers had known
-    about software bugs throughout the period.
-
-    By the time the Court of Appeal began quashing convictions in
-    2021, sub-postmasters had served prison sentences, lost homes, and
-    been driven to bankruptcy and suicide. The Williams Inquiry, which
-    began in 2020 and continues, has documented one of the most
-    extensively evidenced institutional cover-ups in UK history.
-
-    The capability gap was at the regulator, the prosecutor, and the
-    courts: each accepted Fujitsu's representation that Horizon was
-    reliable, despite documentation to the contrary, because no
-    institutional actor had the standing or expertise to challenge it.
-    The case is the strongest available evidence that "the computer
-    said so" is a governance hazard.
+  kind: "failure",
+  summary: [
+    The UK Post Office's Horizon accounting system, built by Fujitsu and
+    rolled out in 1999, generated phantom shortfalls in sub-postmasters'
+    branch ledgers. Rather than accept the software was at fault, the Post
+    Office prosecuted them — around 900 over two decades — for theft and
+    false accounting; people were imprisoned, bankrupted, and driven to
+    suicide, in what is now called the most widespread miscarriage of
+    justice in UK history. Internal documents showed engineers had known
+    about Horizon bugs throughout. Convictions began to be quashed in 2021,
+    and a public inquiry continues. The failure ran through the prosecutor
+    and the courts: each accepted "the computer said so" as authoritative
+    because no actor had the standing or expertise to challenge it. Horizon
+    is the book's case for institutional deference to a flawed algorithm.
   ],
+  sections: (
+    // -- Background --
+    [
+      The UK Post Office ran thousands of branches through sub-postmasters —
+      local operators personally liable for any shortfall in their accounts.
+      In 1999 it deployed Horizon, an accounting system built by Fujitsu, to
+      track every branch's ledger.#cn()
+    ],
+    // -- What Happened --
+    [
+      Horizon produced systematic accounting errors — phantom shortfalls that
+      appeared in branch ledgers. The Post Office treated the shortfalls as
+      real and the sub-postmasters as thieves: over two decades it prosecuted
+      around 900 for theft and false accounting, refusing to accept the
+      system itself was at fault. People were imprisoned, lost homes, went
+      bankrupt, and some died by suicide.#cn()
+    ],
+    // -- The Investigation --
+    [
+      Documents later released through litigation showed Fujitsu and Post
+      Office engineers had known about Horizon bugs throughout the
+      period.#cn() The courts began quashing convictions in 2021, and the
+      public inquiry under Sir Wyn Williams found that senior employees
+      "knew, or at the very least should have known, that Legacy Horizon was
+      capable of error" — establishing it as the most widespread miscarriage
+      of justice in UK history.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      The gap was at the regulator, the prosecutor, and the courts: each
+      accepted Fujitsu's representation that Horizon was reliable, despite
+      documentation to the contrary, because no institutional actor had the
+      standing or expertise to interrogate it. "The computer said so" became,
+      for two decades, a sufficient basis for criminal conviction — the
+      governance hazard of treating automated output as authoritative rather
+      than as evidence to be challenged.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      Convictions have been overturned — some by an exceptional act of
+      Parliament — compensation schemes established, and Fujitsu and the Post
+      Office called to account before the continuing inquiry.#cn() Horizon's
+      lesson is the chapter's in its bluntest form: an automated system's
+      output is not testimony, and any institution that lets "the computer
+      said so" stand unchallenged against a human's account has built a
+      machine for manufacturing injustice.
+    ],
+  ),
+  references: (
+    [Post Office Horizon IT Inquiry hearings and exhibits (2020– ) — the system, the prosecutions, and the human toll.],
+    [_Hamilton & Others v. Post Office Limited_ (Court of Appeal, 2021) — quashed convictions.],
+    [Internal Fujitsu and Post Office documents released through litigation — engineers' knowledge of Horizon bugs.],
+    [Sir Wyn Williams, _Post Office Horizon IT Inquiry_, Volume 1 (2024) — senior employees "knew… that Legacy Horizon was capable of error" (quoted).],
+    [N. Wallis, _The Great Post Office Scandal_ (2021).],
+    [The Post Office (Horizon System) Offences Act 2024 (mass exoneration) and the compensation schemes.],
+  ),
   quote: [A number of senior, and not so senior, employees of the Post Office knew, or at the very least should have known, that Legacy Horizon was capable of error.],
   quote-source: "Sir Wyn Williams, Post Office Horizon IT Inquiry, Volume 1, 2024",
-  sources-list: (
-    [Post Office Horizon IT Inquiry hearings and exhibits (2020–)],
-    [_Hamilton & Others v. Post Office Limited_ (2021)],
-    [Wallis, _The Great Post Office Scandal_ (2021)],
-  ),
   le-insight: [
     Horizon is the canonical case for institutional deference to
     automated systems whose internal evidence was already known to be
@@ -92,36 +135,77 @@
     framing: "the device did not work; the regulatory seam between FDA and CLIA hid that fact",
     caption: "Theranos — fraud exploiting a regulatory seam between FDA and CLIA",
   ),
-  body: [
-    Theranos claimed to have developed a blood-testing platform that
-    could perform hundreds of laboratory tests from a finger-stick
-    drop of blood. The platform did not work. Internal data showed
-    accuracy far below what the company represented to investors,
-    partners, and patients. To preserve the appearance of a working
-    product, Theranos ran most patient samples on conventional
-    commercial analyzers and reported the results as though they had
-    come from its proprietary device.
-
-    The capability gap was at the FDA-CLIA boundary: the regulatory
-    architecture that governs laboratory testing did not match the
-    architecture of the company's product claims. Theranos exploited
-    the gap deliberately. The board, the investors, and the
-    pharmacy-partner Walgreens did not have the technical depth to
-    challenge the claims. The journalist John Carreyrou did.
-
-    Elizabeth Holmes was convicted on multiple counts of wire fraud in
-    2022. The case is canonical in U.S. business education for
-    fraud-as-product-strategy and in healthcare regulation for the
-    governance gap that allowed unvalidated clinical tests to reach
-    patients.
+  kind: "failure",
+  summary: [
+    Theranos claimed a blood-testing device that could run hundreds of tests
+    from a finger-stick drop. It did not work. Internal data showed accuracy
+    far below what the company told investors, partners, and patients; to
+    keep up appearances, Theranos ran most patient samples on conventional
+    commercial analyzers and reported them as its own device's results. It
+    reached a \$9-billion valuation and put unreliable tests in front of real
+    patients through a Walgreens partnership. The fraud exploited a
+    regulatory seam — the FDA had not validated the device, while the CLIA
+    regime governing the lab did not match the company's product claims — and
+    neither the board nor investors had the depth to challenge it; a
+    journalist did. Elizabeth Holmes was convicted of wire fraud in 2022.
+    Theranos is the book's case for fraud exploiting a governance gap between
+    regulatory regimes.
   ],
+  sections: (
+    // -- Background --
+    [
+      Theranos claimed to have built a blood-testing platform — the "Edison"
+      — that could perform hundreds of laboratory tests from a single
+      finger-stick drop of blood, and rode that claim to a \$9-billion
+      valuation and a partnership putting its tests in Walgreens stores.#cn()
+    ],
+    // -- What Happened --
+    [
+      The device did not work. Internal data showed accuracy far below what
+      the company represented to investors, partners, and patients. To
+      preserve the appearance of a working product, Theranos ran most patient
+      samples on conventional commercial analyzers and reported the results
+      as though they had come from its proprietary device — putting
+      unreliable results in front of real patients.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The fraud exploited a regulatory seam: the FDA had not validated the
+      device, while the CLIA regime that governs laboratory operation did not
+      match the architecture of the company's product claims, and neither
+      layer validated those claims independently. The board, the investors,
+      and Walgreens lacked the technical depth to challenge them; the
+      journalist John Carreyrou, and CMS inspectors who revoked Theranos's
+      CLIA certificate in 2016, were what finally surfaced the truth.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      The capability gap sat in the regulatory architecture — at the boundary
+      between two regimes, where a deliberate fraud could live because
+      neither the FDA nor CLIA owned end-to-end validation of a novel
+      diagnostic making clinical claims. The governance lesson is that the
+      seam between regulators is itself a place that must be engineered,
+      because it is exactly where a bad actor will operate.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      Theranos collapsed, its CLIA certificate was revoked, and Elizabeth
+      Holmes was convicted of multiple counts of wire fraud in 2022.#cn() The
+      case is canonical in business education for fraud-as-product-strategy
+      and in health regulation for the gap that let unvalidated clinical
+      tests reach patients — a reminder that "disruptive" claims in a
+      regulated domain demand more validation, not less.
+    ],
+  ),
+  references: (
+    [_United States v. Elizabeth Holmes_ (N.D. Cal., 2018–2022) — the indictment and conviction.],
+    [J. Carreyrou, _Bad Blood_ (2018) — the device's failure and the commercial-analyzer substitution.],
+    [CMS inspection reports and the revocation of Theranos's CLIA certificate (2015–2016).],
+    [Holmes indictment (2018) — Theranos "misrepresented to investors, regulators, and ultimately patients the accuracy of its blood-testing technology" (quoted).],
+    [Medical-device regulation literature on the FDA–CLIA boundary.],
+  ),
   quote: [The company misrepresented to investors, regulators, and ultimately patients the accuracy of its blood-testing technology.],
   quote-source: "U.S. v. Holmes, indictment, 2018",
-  sources-list: (
-    [_United States v. Elizabeth Holmes_ (N.D. Cal. 2018–2022)],
-    [Carreyrou, _Bad Blood_ (2018)],
-    [CMS revocation of Theranos CLIA certificate (2016)],
-  ),
   le-insight: [
     Theranos is the canonical case for fraud exploiting the seam
     between two regulatory regimes. The FDA had not approved the
@@ -160,35 +244,75 @@
     micro: "the incentive architecture made misconduct rational for the front line",
     caption: "Wells Fargo — the measurement system produced the behavior the institution then prosecuted",
   ),
-  body: [
-    Wells Fargo employees opened approximately three and a half million
-    unauthorized customer accounts to meet aggressive sales quotas.
-    The behavior was widespread, longstanding, and visible to internal
-    risk and compliance functions for years. The institutional
-    response was to discipline individual employees as bad apples and
-    leave the incentive structure intact. The incentive structure was
-    the actual cause: a sales-target architecture that made it
-    impossible for most employees to meet quota by ethical means.
-
-    The CFPB action in 2016 was the first major public consequence.
-    Subsequent enforcement actions and the Federal Reserve's
-    unprecedented asset cap have constrained the bank's growth for
-    years. The Wells Fargo case is the canonical example in U.S.
-    banking of an institutional incentive structure that produced
-    systematic misconduct at the front line, while the institution
-    insisted the misconduct was individual.
-
-    The capability gap was the governance failure to recognize that
-    the measurement system being used to manage employees was driving
-    the behavior the institution claimed to deplore.
+  kind: "failure",
+  summary: [
+    To meet aggressive sales quotas, Wells Fargo employees opened roughly
+    3.5 million unauthorized customer accounts over years. The behavior was
+    widespread and visible to internal risk and compliance functions, but the
+    bank's response was to fire individual "bad apples" while leaving the
+    incentive structure intact — and that structure was the actual cause:
+    sales targets most employees could not meet by ethical means. The 2016
+    CFPB and OCC actions brought ~\$3 billion in penalties, the CEO resigned,
+    and the Federal Reserve took the unprecedented step of capping the bank's
+    assets. Wells Fargo is the canonical case of an incentive architecture
+    that manufactured the misconduct the institution then prosecuted at the
+    front line, while insisting the misconduct was individual.
   ],
+  sections: (
+    // -- Background --
+    [
+      Wells Fargo built its retail strategy on "cross-selling" — opening many
+      products per customer — and drove it with aggressive sales quotas
+      pushed down to branch employees, whose pay and jobs depended on hitting
+      them.#cn()
+    ],
+    // -- What Happened --
+    [
+      Unable to meet the quotas honestly, employees opened roughly 3.5
+      million unauthorized accounts in customers' names. The behavior was
+      widespread and longstanding, and visible to internal risk and
+      compliance functions for years; the institutional response was to
+      discipline individual employees as bad apples while leaving the
+      incentive structure intact.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The 2016 CFPB and OCC actions brought roughly \$3 billion in penalties,
+      and the bank's own independent-directors investigation (2017)
+      documented how the sales-target architecture drove the misconduct.#cn()
+      As the OCC put it, the practices were "a foreseeable consequence of its
+      incentive compensation structure." The CEO resigned, and the Federal
+      Reserve imposed an unprecedented cap on the bank's assets.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      Wells Fargo is the strongest evidence in the dataset that incentive
+      architecture is a capability-engineering deliverable. The measurement
+      system used to manage employees produced exactly the behavior the
+      institution then prosecuted. The gap was not at the front line but at
+      the governance layer that designed the incentives and then, for years,
+      treated the predictable result as individual moral failure.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      The asset cap constrained the bank's growth for years — a rare,
+      structural consequence — and the case became the standard teaching
+      example of measurement-gaming and incentive design.#cn() Its lesson is
+      that any quota becomes a target to be gamed, and that an institution is
+      accountable for the behavior its measurement system makes rational, not
+      just the behavior endorsed in its values statement.
+    ],
+  ),
+  references: (
+    [Consumer Financial Protection Bureau, Consent Order against Wells Fargo (2016) — the unauthorized accounts and penalties.],
+    [Office of the Comptroller of the Currency, Consent Order (2016) — "a foreseeable consequence of its incentive compensation structure" (quoted).],
+    [Independent Directors of Wells Fargo, _Sales Practices Investigation Report_ (2017) — how the sales-target architecture drove the conduct.],
+    [Enforcement record: ~3.5 million accounts, ~\$3 billion in penalties, and the CEO's resignation.],
+    [Federal Reserve asset cap on Wells Fargo (2018) — the structural growth constraint.],
+    [A. C. Edmondson, _The Fearless Organization_ (2018); incentive-design and corporate-governance literature.],
+  ),
   quote: [Wells Fargo's sales practices were a foreseeable consequence of its incentive compensation structure.],
   quote-source: "OCC Consent Order, Wells Fargo, 2016",
-  sources-list: (
-    [CFPB Consent Order against Wells Fargo (2016)],
-    [OCC Consent Order (2016)],
-    [Independent Directors of Wells Fargo, Sales Practices Investigation Report (2017)],
-  ),
   le-insight: [
     Wells Fargo is the strongest available evidence that incentive
     architecture is a capability-engineering deliverable. The
@@ -230,34 +354,80 @@
     framing: "the protocol operated in a regime the vehicle could detect",
     caption: "Dieselgate — engineered evasion of a measurement system",
   ),
-  body: [
-    Volkswagen engineers designed software for diesel emissions-control
-    systems that detected when the vehicle was on a regulatory test
-    bench and turned on full emissions controls only during the test.
-    On the road, the controls were largely disabled, producing
-    emissions up to forty times the regulatory limit. The deception
-    operated across millions of vehicles for years. It was discovered
-    not by the regulator but by a small university research team in
-    West Virginia comparing real-world to lab measurements.
-
-    Internal documents showed the defeat device had been authorized
-    inside Volkswagen's engineering hierarchy as a deliberate response
-    to a regulatory standard the engineering team did not believe it
-    could meet within the platform's cost constraints. The decision
-    was not made by a rogue engineer. It was made institutionally.
-
-    Dieselgate is the canonical case in industrial regulation for
-    organized manufacturer evasion of an environmental standard
-    through software. The reform that followed produced real-world
-    emissions testing as a regulatory requirement in the EU.
+  kind: "failure",
+  summary: [
+    Volkswagen engineered a "defeat device" into its diesel emissions
+    software: code that detected when a car was on a regulatory test bench
+    and switched on full emissions controls only then. On the road the
+    controls were largely disabled, producing nitrogen-oxide emissions up to
+    forty times the legal limit, across roughly 11 million vehicles for
+    years. The deception was uncovered not by regulators but by a small West
+    Virginia university team comparing real-world to lab measurements.
+    Internal documents showed the defeat device was an institutional
+    decision — a deliberate response to a standard VW's engineers did not
+    believe they could meet within cost — not a rogue act. VW paid more than
+    \$33 billion in penalties and remediation, with criminal convictions.
+    Dieselgate is the book's case for organized evasion of a measurement
+    system.
   ],
+  sections: (
+    // -- Background --
+    [
+      Volkswagen had staked its U.S. growth on "clean diesel," promising cars
+      that met strict nitrogen-oxide limits without sacrificing performance
+      or cost. Its engineers did not believe they could actually meet the
+      standard within the platform's cost constraints.#cn()
+    ],
+    // -- What Happened --
+    [
+      So they cheated by design. VW's emissions software detected when a
+      vehicle was on a regulatory test bench — by its steering, speed, and
+      duration patterns — and switched on full emissions controls only during
+      the test. On the road the controls were largely disabled, producing
+      emissions up to forty times the legal limit, across roughly 11 million
+      vehicles for years.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The deception was uncovered not by the regulator but by a small
+      university research team in West Virginia comparing real-world
+      emissions to lab results.#cn() Internal documents then showed the
+      defeat device had been authorized inside VW's engineering hierarchy as
+      a deliberate institutional response to a standard the team could not
+      meet — not the work of a rogue engineer. VW pleaded guilty, paid more
+      than \$33 billion in penalties and remediation, and saw multiple
+      executives convicted.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      The exploitable gap was at the regulator's instrument: the emissions
+      test ran in a regime the vehicle could detect, so a manufacturer
+      determined to evade could tune its behavior to the test rather than to
+      the road. Dieselgate is the canonical case of institutionally
+      engineered evasion of a measurement system — and a reminder that any
+      test the measured party can recognize is a test it can defeat.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      The reform closed the gap at the instrument: the EU introduced
+      real-world driving-emissions testing, moving the measurement off the
+      predictable bench and making it far harder to game.#cn() The pattern
+      parallels Takata (Case 52) — a manufacturer's fraud meeting a regulator
+      whose evidence pipeline trusted the manufacturer's test conditions, and
+      a fix that had to upgrade the measurement itself, not just punish the
+      cheat.
+    ],
+  ),
+  references: (
+    [U.S. EPA, Notice of Violation to Volkswagen (2015) — the defeat device and emissions exceedances.],
+    [West Virginia University / ICCT real-world diesel-emissions study (2014) — the discovery comparing road to lab.],
+    [U.S. Department of Justice Plea Agreement with Volkswagen AG (2017) — the institutional decision, \$33B+ in penalties, and convictions (quoted).],
+    [Volkswagen internal documents released through litigation — authorization of the defeat device within the engineering hierarchy.],
+    [EU Real Driving Emissions (RDE) testing regulation — the post-Dieselgate measurement reform.],
+    [J. Ewing, _Faster, Higher, Farther: The Volkswagen Scandal_ (2017); cf. Takata (Case 52).],
+  ),
   quote: [The defeat device was the product of a long-standing institutional decision to evade emissions standards.],
   quote-source: "Paraphrasing the U.S. Department of Justice Plea Agreement with Volkswagen AG, 2017",
-  sources-list: (
-    [U.S. Department of Justice Plea Agreement with Volkswagen AG (2017)],
-    [EPA Notice of Violation (2015)],
-    [Ewing, _Faster, Higher, Farther: The Volkswagen Scandal_ (2017)],
-  ),
   le-insight: [
     Dieselgate is the canonical case for institutionally engineered
     evasion of a measurement system. The capability gap was at the
@@ -297,34 +467,77 @@
     micro: "the Graph API contract assumed benevolent developer intent",
     caption: "Cambridge Analytica — design assumption as load-bearing capability",
   ),
-  body: [
-    A researcher at Cambridge University built a personality-quiz app
-    that, by virtue of Facebook's then-permissive Graph API, collected
-    not only quiz-takers' profile data but their friends' data as
-    well. The harvested dataset of approximately eighty-seven million
-    profiles was sold to Cambridge Analytica, which used the data for
-    political-campaign micro-targeting work in multiple national
-    elections.
-
-    Facebook's permission architecture had been designed to allow
-    third-party apps to deliver social experiences. The architecture
-    was tested against ordinary use cases. It had not been red-teamed
-    against systematic data harvesting. The capability gap was at the
-    governance layer of Facebook's platform: the API contract assumed
-    benevolent developer intent.
-
-    The case catalyzed the EU's General Data Protection Regulation
-    (already underway, but accelerated), the California Consumer
-    Privacy Act, and the FTC consent decree under which Facebook
-    operates today.
+  kind: "failure",
+  summary: [
+    A Cambridge University researcher's personality-quiz app, taken by about
+    270,000 people, exploited Facebook's then-permissive Graph API to collect
+    not only the quiz-takers' data but their friends' too — roughly 87
+    million profiles. The dataset was passed to Cambridge Analytica for
+    political micro-targeting. Facebook's permission architecture had been
+    designed and tested for delivering social experiences, not red-teamed
+    against systematic harvesting; its API contract assumed benevolent
+    developer intent. The architecture worked exactly as designed — the
+    design assumption was wrong. The scandal accelerated the EU's GDPR,
+    helped spur the California Consumer Privacy Act, and produced a
+    \$5-billion FTC penalty and consent decree. Cambridge Analytica is the
+    book's case for platform-governance failure: a load-bearing assumption
+    about how an interface would be used, never stress-tested against abuse.
   ],
+  sections: (
+    // -- Background --
+    [
+      Facebook's Graph API let third-party apps request user data to build
+      social experiences — and, at the time, an app could collect not only
+      its own users' data but their friends' data too. The permission
+      architecture had been designed and tested against ordinary use
+      cases.#cn()
+    ],
+    // -- What Happened --
+    [
+      A Cambridge University researcher built a personality-quiz app taken by
+      about 270,000 people; through the friends-permission it harvested
+      roughly 87 million profiles. The dataset was passed to Cambridge
+      Analytica, which used it for political-campaign micro-targeting across
+      multiple elections — none of the 87 million having meaningfully
+      consented.#cn()
+    ],
+    // -- The Investigation --
+    [
+      Investigations by the UK Information Commissioner and the U.S. FTC,
+      prompted by Guardian reporting, established the scope of the harvesting
+      and Facebook's responsibility for it.#cn() The platform's API had never
+      been red-teamed against systematic data extraction; its contract simply
+      assumed developers would behave.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      The gap was not technical — the architecture worked exactly as
+      designed. It was a governance gap: a load-bearing design assumption
+      ("developers are benevolent") that no one had stress-tested against a
+      determined abuser. On a platform at societal scale, an unexamined
+      assumption about how an interface will be used is itself a capability
+      deliverable — and an unexamined one is a latent failure.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      The scandal accelerated the EU's GDPR, helped spur the California
+      Consumer Privacy Act, and produced a \$5-billion FTC penalty and a
+      consent decree under which Facebook still operates.#cn() Its lesson for
+      platform governance is that permission architectures must be designed
+      against the worst plausible developer, not the typical one — because at
+      scale, the worst plausible developer will arrive.
+    ],
+  ),
+  references: (
+    [U.S. FTC, _In the Matter of Facebook, Inc._, Consent Order (2019) — the \$5B penalty; Facebook gave developers "far more user data than was necessary" (quoted).],
+    [UK Information Commissioner's Office, report on Cambridge Analytica / data analytics in political campaigns (2018) — the scope of the harvesting.],
+    [C. Cadwalladr & E. Graham-Harrison, _The Guardian_ investigation (2018) — the disclosure.],
+    [The ~87 million profiles collected via the friends-permission Graph API from ~270,000 quiz-takers.],
+    [EU General Data Protection Regulation (2018) and the California Consumer Privacy Act.],
+    [C. Wylie, _Mindf*ck_ (2019), and H. Nissenbaum, _Privacy in Context_ (2010); S. Zuboff, _The Age of Surveillance Capitalism_ (2019).],
+  ),
   quote: [Facebook gave developers access to far more user data than was necessary for the apps they built.],
   quote-source: "Paraphrasing the U.S. FTC Order, In the Matter of Facebook Inc., 2019",
-  sources-list: (
-    [FTC, In the Matter of Facebook Inc., Consent Order (2019)],
-    [UK Information Commissioner's Office Report on Cambridge Analytica (2018)],
-    [Cadwalladr & Graham-Harrison, _Guardian_ investigation (2018)],
-  ),
   le-insight: [
     Cambridge Analytica is the canonical case for platform-governance
     failure: an API contract that assumed benevolent intent and was
@@ -361,37 +574,78 @@
     outcome: "no single failure caused the breach; the combination did",
     caption: "Equifax — cumulative inadequacy in routine cybersecurity work",
   ),
-  body: [
-    Equifax's online dispute portal was running a version of Apache
-    Struts with a known critical vulnerability. A patch had been
-    available for two months. Equifax's IT staff had been notified by
-    the company's security team that the patch should be applied. The
-    patch was not applied. Attackers exploited the vulnerability in
-    May 2017 and exfiltrated personally identifying information on
-    one hundred forty-seven million Americans over the next two and a
-    half months. Equifax did not publicly disclose the breach until
-    September.
-
-    The U.S. Senate Permanent Subcommittee on Investigations found
-    that Equifax's patching practices were systematically inadequate,
-    that the company did not have an asset inventory complete enough
-    to know which systems needed the patch, and that the incident-
-    response architecture had been treated as a cost center for years.
-    The capability gap was at the institutional management of routine
-    vulnerability remediation — work that is universally agreed to be
-    necessary and routinely deferred.
-
-    The case is the U.S. data-breach analog of Sago (Case 59):
-    cumulative inadequacy across multiple parameters that combined
-    catastrophically.
+  kind: "failure",
+  summary: [
+    In 2017 attackers exploited a known, two-month-old vulnerability in
+    Apache Struts on an Equifax web portal — a patch had been available, and
+    Equifax's own security team had told IT to apply it; no one did. Over the
+    next ~2.5 months the attackers exfiltrated the personal data of 147
+    million Americans, and Equifax did not disclose the breach until
+    September. A Senate investigation found systematically inadequate
+    patching, an incomplete asset inventory (so the company did not know
+    which systems needed the fix), and an incident-response function treated
+    for years as a cost center. The CEO resigned and Equifax settled for
+    about \$700 million. No single failure caused the breach; cumulative
+    inadequacy across routine cybersecurity work did. Equifax is the
+    data-breach analog of the Sago mine disaster (Case 59).
   ],
+  sections: (
+    // -- Background --
+    [
+      Equifax, one of the three U.S. credit bureaus, held the most sensitive
+      financial data on virtually every American adult. One of its public web
+      portals ran a version of Apache Struts with a known critical
+      vulnerability for which a patch had been available for two months — and
+      which Equifax's own security team had flagged for IT to apply.#cn()
+    ],
+    // -- What Happened --
+    [
+      The patch was not applied. Attackers exploited the vulnerability
+      beginning in May 2017 and quietly exfiltrated personally identifying
+      information on 147 million Americans over the next two and a half
+      months. Equifax did not publicly disclose the breach until
+      September.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The U.S. Senate Permanent Subcommittee on Investigations found
+      Equifax's patching practices systematically inadequate and the company
+      lacking "a comprehensive IT asset inventory" — so it could not reliably
+      know which systems needed the patch.#cn() Monitoring was weak, response
+      delayed, and the incident-response architecture had been treated for
+      years as a cost center; the CEO resigned and Equifax settled for
+      roughly \$700 million.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      Equifax is the institutional-cybersecurity case for cumulative
+      inadequacy in routine work: patching, asset inventory, monitoring,
+      response. Each function was below standard; none alone produced the
+      breach; the combination did. The capability gap was the management of
+      unglamorous, universally-agreed-necessary maintenance — exactly the
+      work easy to defer because deferring it usually costs nothing, until
+      the once it costs everything.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      The settlement funded consumer compensation and credit monitoring, and
+      the breach pushed patching discipline, asset inventory, and
+      breach-disclosure timelines up the corporate agenda.#cn() It is the
+      data-breach analog of the Sago mine disaster (Case 59): no dramatic
+      single cause, just several routine defenses each left marginally
+      inadequate, failing together on the day a determined attacker arrived.
+    ],
+  ),
+  references: (
+    [U.S. Senate Permanent Subcommittee on Investigations, _How Equifax Neglected Cybersecurity and Suffered a Devastating Data Breach_ (2019) — the unpatched Apache Struts vulnerability.],
+    [The breach record — 147 million affected, exploitation from May 2017, public disclosure in September 2017.],
+    [Senate PSI (2019) — "Equifax lacked a comprehensive IT asset inventory" (quoted).],
+    [U.S. FTC / CFPB / state settlement (~\$700 million, 2019) and the CEO's resignation.],
+    [U.S. GAO, _Actions Taken by Equifax and Federal Agencies in Response to the 2017 Breach_, GAO-18-559 (2018).],
+    [Apache Struts CVE-2017-5638 advisory; cf. the Sago mine disaster (Case 59).],
+  ),
   quote: [Equifax lacked a comprehensive IT asset inventory.],
   quote-source: "U.S. Senate Permanent Subcommittee on Investigations, How Equifax Neglected Cybersecurity, March 2019",
-  sources-list: (
-    [Senate Permanent Subcommittee on Investigations, _How Equifax Neglected Cybersecurity and Suffered a Devastating Data Breach_ (2019)],
-    [Federal Trade Commission Consent Order (2019)],
-    [GAO-18-559 Equifax breach analysis (2018)],
-  ),
   le-insight: [
     Equifax is the canonical institutional-cybersecurity case for
     cumulative inadequacy in routine work: patching, inventory,
@@ -430,36 +684,78 @@
     framing: "a small construction change, accepted without re-analysis",
     caption: "Hyatt Regency — connection detail changed in the field",
   ),
-  body: [
-    During a tea dance in the atrium of the Kansas City Hyatt Regency,
-    two suspended walkways collapsed, killing one hundred fourteen and
-    injuring two hundred sixteen — at the time the deadliest structural
-    collapse in U.S. history. The walkway connection had been changed
-    during construction from the original engineering design (single
-    long rods supporting all three walkways) to a two-rod arrangement
-    that doubled the load on the upper connection. The change was
-    approved by the structural engineer's office without recalculation
-    of the load.
-
-    The Missouri Board for Architects, Professional Engineers, and
-    Land Surveyors revoked the licenses of the responsible engineers.
-    The case is the foundational engineering-ethics case in U.S.
-    structural engineering. It is taught to undergraduate engineers
-    as the canonical example of how a small change in the construction
-    detail, accepted casually, can convert a design that worked into
-    one that fails catastrophically.
-
-    The capability gap was at the institutional review of construction
-    changes: there was no requirement that a change to a connection
-    detail be re-analyzed by the engineer of record.
+  kind: "failure",
+  summary: [
+    During a crowded tea dance in the atrium of the Kansas City Hyatt Regency
+    on 17 July 1981, two suspended walkways collapsed, killing 114 and
+    injuring 216 — then the deadliest structural collapse in U.S. history.
+    The cause was a connection detail changed during construction: the
+    original design hung the walkways from single long rods; the as-built
+    version used a two-rod arrangement that doubled the load on the upper
+    connection. The structural engineer's office approved the change without
+    recalculating the load, and the connection had in fact been overstressed
+    from the start. Missouri revoked the responsible engineers' licenses, and
+    the case became the foundational engineering-ethics example. The
+    capability gap was institutional: nothing required a change to a
+    load-bearing connection to be re-analyzed by the engineer of record.
   ],
+  sections: (
+    // -- Background --
+    [
+      The Kansas City Hyatt Regency's atrium featured walkways suspended from
+      the ceiling. The original engineering design hung them from single
+      continuous steel rods.#cn()
+    ],
+    // -- What Happened --
+    [
+      During construction the connection was changed — for ease of assembly —
+      to a two-rod arrangement that effectively doubled the load on the upper
+      walkway's connection, and the structural engineer's office approved the
+      change without recalculating it. On 17 July 1981, during a crowded tea
+      dance, the overstressed connection let go; two walkways fell onto the
+      atrium floor, killing 114 people and injuring 216 — at the time the
+      deadliest structural collapse in U.S. history.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The National Bureau of Standards found the as-built connection carried
+      roughly twice its intended load and had been inadequate even under the
+      building code's requirements.#cn() The Missouri licensing board revoked
+      the licenses of the responsible engineers, and the case became the
+      foundational engineering-ethics example taught to undergraduates: how a
+      small construction change, accepted casually, can turn a design that
+      works into one that fails.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      The capability gap was at the institutional review of construction
+      changes. Nothing required a change to a load-bearing connection detail
+      to be re-analyzed by the engineer of record before it was built — so a
+      modification that doubled a critical load passed through the system
+      without anyone computing what it did. The missing capability was change
+      control with the engineer's calculation in the loop.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      The collapse reshaped how the profession treats shop-drawing review and
+      the engineer of record's responsibility for connection design, and it
+      anchored modern engineering-ethics teaching.#cn() Its lesson
+      generalizes well beyond steel: a change that looks trivial at the point
+      of assembly can be catastrophic at the point of load, and the only
+      defense is a review that re-derives the consequence rather than
+      trusting that "it's a small change."
+    ],
+  ),
+  references: (
+    [National Bureau of Standards, _Investigation of the Kansas City Hyatt Regency Walkways Collapse_, NBSIR 82-2465 (1982) — the doubled-load connection (quoted).],
+    [The 17 July 1981 collapse — 114 killed and 216 injured.],
+    [NBSIR 82-2465 (1982) — the as-built connection inadequate even under the building code.],
+    [Missouri Board for Architects, Professional Engineers, and Land Surveyors disciplinary records (1986) — the license revocations.],
+    [S. Pfatteicher, "'The Hyatt Horror': Failure and Responsibility in American Engineering," _Journal of Performance of Constructed Facilities_ 14(2) (2000).],
+    [H. Petroski, _To Engineer Is Human_ (1985) — failure and the engineering process.],
+  ),
   quote: [The change in the rod configuration doubled the load on the connection that failed.],
   quote-source: "Paraphrasing the National Bureau of Standards Investigation, NBSIR 82-2465, 1982",
-  sources-list: (
-    [National Bureau of Standards, _Investigation of the Kansas City Hyatt Regency Walkways Collapse_ (NBSIR 82-2465, 1982)],
-    [Missouri Board for Architects, Professional Engineers, and Land Surveyors disciplinary records (1986)],
-    [Pfatteicher (2000), "'The Hyatt Horror': Failure and Responsibility in American Engineering," _J. Performance of Constructed Facilities_ 14(2)],
-  ),
   le-insight: [
     The Hyatt Regency case is the canonical engineering-ethics case
     for institutional review of construction changes. The change
@@ -497,36 +793,79 @@
     emphasis: 2,
     caption: "FIU — observed cracks classified as not safety-critical",
   ),
-  body: [
-    The pedestrian bridge over Southwest Eighth Street at Florida
-    International University collapsed during construction, killing
-    six. The NTSB investigation found that the design had not
-    adequately considered the structure's behavior during construction
-    sequencing, that visible cracks had been observed and inspected
-    before the collapse but had been judged not safety-critical, and
-    that the design firm's calculations contained errors that the
-    review process had not caught.
-
-    The case is recent enough to be representative of the contemporary
-    structural-engineering capability landscape. Modern bridges are
-    designed with sophisticated computational tools; the design
-    architecture is more capable than at any prior time. The errors
-    that produced the collapse were the same errors that have
-    produced structural collapses for a century: a load case
-    inadequately considered, a review that did not catch the gap, and
-    a field observation that was not escalated.
-
-    The bridge had been the subject of a publicity campaign focused
-    on the speed of its construction. The schedule was load-bearing
-    in the wrong sense.
+  kind: "failure",
+  summary: [
+    On 15 March 2018 a pedestrian bridge under construction at Florida
+    International University collapsed onto the road below, killing six. The
+    NTSB found the design firm had made calculation errors — underestimating
+    demand and overestimating capacity at a critical truss connection — that
+    the independent peer review failed to catch. In the days before, large
+    cracks appeared at that connection; they were inspected, discussed in a
+    meeting the morning of the collapse, and judged not a safety concern,
+    even as crews worked on the span and traffic ran beneath it. The errors
+    were the timeless ones — a connection under-designed, a review that
+    missed it, warning signs rationalized away — in a structure built with
+    state-of-the-art tools. FIU is the contemporary proof that better design
+    software does not retire the old failure modes.
   ],
+  sections: (
+    // -- Background --
+    [
+      The FIU-Sweetwater pedestrian bridge over Southwest Eighth Street in
+      Miami was a modern, computationally designed concrete truss, built to
+      be assembled beside the road and lifted into place — engineered with
+      tools more capable than any prior era's.#cn()
+    ],
+    // -- What Happened --
+    [
+      It collapsed during construction on 15 March 2018, dropping onto the
+      road and the cars stopped beneath it, killing six. The NTSB found the
+      design firm had made calculation errors at a critical truss
+      connection — underestimating the load demand and overestimating the
+      capacity — and that the independent peer review had not caught them.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The warnings were there. Large cracks had appeared at that connection
+      in the days before, were inspected, and were judged not to threaten
+      safety — a judgment reaffirmed in a meeting the morning of the
+      collapse, even as workers operated on the span and traffic ran
+      underneath.#cn() The errors that produced the collapse were the
+      timeless ones: a load case inadequately considered, a review that did
+      not catch the gap, and visible distress rationalized as not
+      safety-critical.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      FIU is the contemporary reminder that more capable design tools do not
+      retire the old failure modes. The bridge was designed with
+      sophisticated software, yet failed for the same reasons structures have
+      failed for a century — because the human and institutional capabilities
+      around the tools (independent review that re-derives the answer, a rule
+      that visible cracking on a critical member stops work) had not kept
+      pace with the software's sophistication.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      The NTSB faulted the design firm, the peer reviewer, and the parties
+      who kept the road open beneath a cracking structure, and the case
+      sharpened scrutiny of accelerated-bridge-construction methods and
+      independent design review.#cn() Its lesson pairs with the Hyatt Regency
+      (Case 74) across forty years: the computer drew a better bridge, but
+      the governance of the calculation — who checks it, and what a crack is
+      allowed to mean — is still where safety lives.
+    ],
+  ),
+  references: (
+    [NTSB, _Pedestrian Bridge Collapse over SW 8th Street, Miami_, Highway Accident Report HAR-19/02 (2019) — the FIGG design calculation errors (quoted).],
+    [NTSB HAR-19/02 (2019) — the 15 March 2018 collapse during construction; six killed.],
+    [NTSB HAR-19/02 (2019) — the observed cracking judged not safety-critical and the morning-of meeting.],
+    [NTSB HAR-19/02 (2019) — the failure of the independent design peer review.],
+    [OSHA report on the FIU bridge collapse (2019); Engineering News-Record coverage.],
+    [Cf. the Hyatt Regency collapse (Case 74); accelerated-bridge-construction review practice.],
+  ),
   quote: [The probable cause of the collapse was the load and capacity calculation errors made by FIGG Bridge Engineers in its design of the main span truss.],
   quote-source: "NTSB Highway Accident Report HAR-19/02 on the FIU pedestrian bridge, 2019",
-  sources-list: (
-    [NTSB Highway Accident Report HAR-19/02 (2019)],
-    [OSHA Final Report on the FIU Bridge Collapse (2019)],
-    [Engineering News-Record coverage of FIU Bridge],
-  ),
   le-insight: [
     The FIU bridge is the canonical modern engineering case for
     cumulative review failure. Each layer of review failed in its
@@ -565,33 +904,80 @@
     micro: "infrastructure designed for one climate, operating in another",
     caption: "Camp Fire — capability mismatch under changed conditions",
   ),
-  body: [
-    A worn hook on a PG&E transmission tower failed and started a
-    wildfire under high-wind, drought conditions. The fire moved into
-    the town of Paradise faster than the evacuation infrastructure
-    could move people out. Eighty-five people died. PG&E later pleaded
-    guilty to eighty-four counts of involuntary manslaughter.
-
-    The CalFire investigation and subsequent litigation revealed that
-    PG&E had known about the deteriorating condition of its
-    transmission infrastructure across the wildfire-risk areas of its
-    service territory for years. Maintenance had been deferred to fund
-    other corporate priorities. The capability gap was simultaneously
-    at the utility's asset-maintenance decisions and at the
-    regulatory architecture that had allowed the deferrals to continue.
-
-    The Camp Fire case is the foundational climate-era case for utility
-    capability under high-risk wildfire conditions. The reform that
-    followed has restructured how California regulates utility
-    wildfire-risk planning.
+  kind: "failure",
+  summary: [
+    On 8 November 2018 a worn hook on a nearly century-old PG&E transmission
+    line failed in high winds and drought, igniting the Camp Fire, which
+    swept into the town of Paradise faster than people could evacuate.
+    Eighty-five died — the deadliest U.S. wildfire in a century — and PG&E
+    later pleaded guilty to 84 counts of involuntary manslaughter.
+    Investigators found PG&E had known for years that its transmission
+    infrastructure across high-fire-risk areas was deteriorating, and had
+    deferred maintenance to fund other priorities, under a regulatory regime
+    that let the deferrals continue. Infrastructure built for one climate was
+    operating in another. Camp Fire is the book's foundational climate-era
+    case for utility capability under changed conditions, and it restructured
+    how California regulates utility wildfire risk.
   ],
+  sections: (
+    // -- Background --
+    [
+      PG&E operated aging transmission lines across the wildfire-prone
+      foothills of Northern California — some hardware approaching a century
+      old — in a climate growing hotter and drier than the one the grid had
+      been built for.#cn()
+    ],
+    // -- What Happened --
+    [
+      On 8 November 2018 a worn C-hook on a PG&E transmission tower failed in
+      high winds, dropping a live line and igniting a fire under severe
+      drought conditions. The fire moved into the town of Paradise faster
+      than its evacuation routes could clear it; 85 people died — the
+      deadliest U.S. wildfire in a century. PG&E later pleaded guilty to 84
+      counts of involuntary manslaughter.#cn()
+    ],
+    // -- The Investigation --
+    [
+      CalFire's investigation and the Butte County District Attorney's report
+      found that PG&E had known for years about the deteriorating condition
+      of its transmission infrastructure in high-fire-risk areas, and had
+      deferred the maintenance to fund other corporate priorities.#cn() The
+      gap was simultaneously at the utility's asset-maintenance decisions and
+      at the regulatory architecture that had allowed the deferrals to
+      continue.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      Camp Fire is the climate-era case for utility-capability failure under
+      changing risk. The infrastructure had been designed and maintained for
+      one set of conditions and was operating in another, more dangerous one,
+      and the capability to update operations — inspection cadence, vegetation
+      management, de-energization, replacement — to match the actual risk did
+      not exist as an institutional deliverable, on either the utility's side
+      or the regulator's.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      PG&E entered bankruptcy under tens of billions in wildfire liability,
+      and California restructured how it regulates utility wildfire-risk
+      planning — mandatory mitigation plans, inspections, and public-safety
+      power shutoffs.#cn() Paired with the Northeast Blackout (Case 62), Camp
+      Fire shows utility capability failing in a second way: not a silent
+      control-room failure but a slow, known erosion of physical
+      infrastructure against a rising hazard the institution declined to fund
+      against.
+    ],
+  ),
+  references: (
+    [CalFire, _Camp Fire Investigation Report_ (2019) — the worn transmission-line hardware as ignition source.],
+    [The Camp Fire record — 85 killed; PG&E's guilty plea to 84 counts of involuntary manslaughter (2020).],
+    [Butte County District Attorney, _The Camp Fire Public Report_ (2020) — PG&E's knowledge and deferred maintenance (quoted).],
+    [California Public Utilities Commission, Order Instituting Investigation into PG&E (2019) — the regulatory dimension.],
+    [PG&E bankruptcy and California wildfire-mitigation reforms (2019– ).],
+    [Cf. the Northeast Blackout (Case 62); climate-and-infrastructure literature.],
+  ),
   quote: [PG&E knew its equipment was failing in high-fire-risk areas and continued operating without remediation.],
   quote-source: "Paraphrasing the Butte County District Attorney's Camp Fire Report, 2020",
-  sources-list: (
-    [CalFire, _Camp Fire Investigation Report_ (2019)],
-    [Butte County District Attorney (2020), _The Camp Fire Public Report: A Summary of the Camp Fire Investigation_],
-    [California Public Utilities Commission Order Instituting Investigation (2019)],
-  ),
   le-insight: [
     The Camp Fire is the canonical climate-era case for utility-
     capability failure under changing risk conditions. The
@@ -629,38 +1015,80 @@
     emphasis: 3,
     caption: "Texas grid — four warnings across three decades, no winterization mandated",
   ),
-  body: [
-    A winter storm in February 2021 brought temperatures across Texas
-    well below the design assumptions of ERCOT-operated generation and
-    transmission infrastructure. Natural-gas wells froze; gas-fired
-    generation (which accounted for the majority of lost capacity)
-    tripped offline; coal, nuclear, and wind also lost output. Across
-    roughly four days, ERCOT directed load shed and millions of Texans
-    lost power in rolling blackouts that, in many cases, did not roll.
-    The Texas Department of State Health Services officially recorded
-    246 deaths; peer-reviewed excess-mortality analyses estimate
-    700–1,000.
-
-    The post-event analyses identified the absence of winterization
-    requirements for Texas-grid generators as the proximate capability
-    failure. ERCOT had been warned after similar storms in 1989, 2011,
-    and 2014 that winterization was inadequate. The Texas regulatory
-    architecture had not required winterization because the cost
-    would be passed to consumers, and the rare events were judged
-    acceptable.
-
-    The Texas Grid Freeze is the foundational case in U.S. grid
-    reliability for how a designed-out capability (winterization)
-    interacts with a changing climate to produce population-scale
-    harm.
+  kind: "failure",
+  summary: [
+    In February 2021 Winter Storm Uri drove temperatures across Texas far
+    below what the ERCOT grid's generators and gas supply were built to
+    withstand. Gas wells froze, gas-fired generation (the bulk of the lost
+    capacity) tripped, and coal, nuclear, and wind also fell; over roughly
+    four days ERCOT shed load and millions lost power in blackouts that, in
+    many cases, never rolled. Texas officially recorded 246 deaths;
+    peer-reviewed excess-mortality estimates run 700–1,000, with about \$130
+    billion in damage. The proximate failure was the absence of
+    winterization requirements for Texas generators — and ERCOT had been
+    warned, after similar storms in 1989, 2011, and 2014, that winterization
+    was inadequate. The warnings never produced a mandate, because the cost
+    would pass to consumers and the rare event was judged acceptable.
   ],
+  sections: (
+    // -- Background --
+    [
+      Texas runs its own electric grid under ERCOT, largely outside federal
+      reliability jurisdiction — a structure that prized low cost and light
+      regulation. Its generators and the gas supply feeding them were built
+      for Texas heat, not sustained deep cold, and winterization was not
+      required.#cn()
+    ],
+    // -- What Happened --
+    [
+      In February 2021 Winter Storm Uri drove temperatures far below those
+      design assumptions. Gas wells and wellheads froze, gas-fired generation
+      — the bulk of the lost capacity — tripped offline, and coal, nuclear,
+      and wind also lost output. Over roughly four days ERCOT directed load
+      shed, and millions of Texans lost power in rolling blackouts that, in
+      many places, did not roll. Officially 246 died; peer-reviewed
+      excess-mortality estimates run 700–1,000, with around \$130 billion in
+      damage.#cn()
+    ],
+    // -- The Investigation --
+    [
+      The FERC-NERC joint inquiry identified the absence of winterization
+      requirements as the proximate capability failure.#cn() And it was no
+      surprise: ERCOT and Texas generators had been warned after similar
+      cold-weather events in 1989, 2011, and 2014 that winterization was
+      inadequate — warnings that never produced a mandate, because the cost
+      would pass to consumers and the rare event was judged acceptable.#cn()
+    ],
+    // -- The Capability Gap --
+    [
+      The Texas freeze is a designed-out capability meeting a changing
+      climate. Winterization was treated as optional because the rare event
+      was deemed acceptable — but the acceptable rate of the rare event
+      changed while the designed-out capability did not. Four warnings across
+      three decades did not move the institution, because nothing in its
+      structure forced the cost of resilience to be paid before the
+      catastrophe rather than after.#cn()
+    ],
+    // -- Aftermath & Reform --
+    [
+      After 2021 Texas finally mandated weatherization of generation and key
+      gas facilities, with inspections and penalties behind it.#cn() The case
+      sits beside the chapter's other slow-erosion failures: a known,
+      repeatedly flagged vulnerability accepted as routine until the
+      tolerances aligned — here, with a population-scale death toll the
+      warnings had, in effect, predicted.
+    ],
+  ),
+  references: (
+    [FERC–NERC, _The February 2021 Cold Weather Outages in Texas and the South Central United States_ (Joint Inquiry, 2021) — winterization as the proximate failure (quoted).],
+    [Texas DSHS official death count (246); peer-reviewed excess-mortality estimates (700–1,000); ~\$130 billion in damage.],
+    [FERC–NERC (2021) — the prior cold-weather warnings (1989, 2011, 2014).],
+    [Public Utility Commission of Texas reports on the February 2021 event.],
+    [University of Texas at Austin Energy Institute analyses (Busby et al., 2021).],
+    [Texas weatherization legislation (SB 3, 2021) and the PUCT/ERCOT reforms.],
+  ),
   quote: [Texas generators had been warned across three decades that winterization was inadequate. The warnings did not produce winterization.],
   quote-source: "Paraphrasing the FERC-NERC Joint Inquiry Report on the February 2021 Texas event",
-  sources-list: (
-    [FERC-NERC Joint Inquiry on the February 2021 Cold Weather Outages (2021)],
-    [Public Utility Commission of Texas reports],
-    [University of Texas at Austin Energy Institute analyses (2021)],
-  ),
   le-insight: [
     The Texas Grid Freeze is the case for designed-out capability under
     changing climate conditions. Winterization was treated as
