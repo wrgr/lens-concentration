@@ -292,7 +292,6 @@
     [What is the equivalent system in your domain that was designed for one specification and deployed against another? How would you measure the harm?],
     [Design the regulatory architecture that would surface EHR safety harms at scale. Be specific about signal, threshold, and authority.],
     [The Han 2005 mortality result was disputed; the 2023 KLAS surveys are consistent across two hundred hospitals. What ongoing measurement architecture would have to exist for the equivalent emerging clinical-AI deployment in your domain to be evaluated honestly while in use?],
-    [The HITECH incentives rewarded adoption rather than usability. Redesign the incentive so that the money is contingent on demonstrated clinical-workflow fit — and identify who would have the authority to withhold it.],
   ),
   approaches: (
     during: (

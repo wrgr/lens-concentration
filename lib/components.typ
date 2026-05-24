@@ -346,18 +346,17 @@
   width: 100%,
   {
     eyebrow("Approaches to Consider", color: gold)
-    v(3pt)
+    v(2pt)
     let col(label, items, mark-color) = {
-      text(font: sans, size: 6.8pt, weight: "medium", tracking: 1.2pt, fill: navy, upper(label))
-      v(2.5pt)
-      set par(leading: 0.45em, justify: false)
+      text(font: sans, size: 6.5pt, weight: "medium", tracking: 1.2pt, fill: navy, upper(label))
+      v(1.5pt)
+      set par(leading: 0.42em, justify: false, spacing: 3pt)
       for b in items {
         grid(
-          columns: (7pt, 1fr), column-gutter: 3pt,
-          text(font: sans, size: reflection-size, fill: mark-color, [‣]),
-          text(font: sans, size: reflection-size, fill: text-dark, b),
+          columns: (6pt, 1fr), column-gutter: 3pt,
+          text(font: sans, size: 8pt, fill: mark-color, [‣]),
+          text(font: sans, size: 8pt, fill: text-dark, b),
         )
-        v(2pt)
       }
     }
     grid(

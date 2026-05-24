@@ -799,10 +799,9 @@
     has produced sixty-plus years of zero reactor accidents. The
     contrast with the Surface Navy is the cleanest available test of
     what happens when capability is engineered versus when it is
-    deferred. The cost of the program — the qualification ladder, the
-    oral examinations graded against zero-defect standards, the
-    continuous re-qualification — is the price the institution pays
-    for the safety record. The choice is visible on the budget line.
+    deferred — and the price of that engineering (the qualification ladder,
+    the zero-defect oral boards, the continuous re-qualification) is visible
+    on the budget line.
   ],
   lens-approach: [
     LENS treats the Rickover model in LEN 8 as the foundational

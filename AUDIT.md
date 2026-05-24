@@ -316,6 +316,29 @@ the case's own structure to orient the reader and use the page. The
 US-Letter overview keeps two compact callout entries per page. The Contents
 index is sorted by case number.
 
+### 4-page overflow bug — found and fixed (book back to ~3 pp/case)
+
+The enrichment ballooned the print interior to **477 pp** because the
+"Approaches to Consider" block + third reflection pushed every case's **Lens
+page to overflow onto a 4th physical page** — which `check-cases.sh` did not
+detect (it only verified the Lens *started* at start+2, not that it *fit* one
+page). Fixes:
+
+- Added a **`lens-end` probe** to `lib/case.typ` and a check in
+  `scripts/check-cases.sh` that fails any case whose Lens page spills past one
+  page. This is now a true 3-page gate.
+- Compacted the Lens page so it fits one page for all 100 cases: Lens body
+  10pt → 9pt; tightened inter-block gaps; compacted the Approaches block
+  (8pt, tighter); and **dropped "Further Reading" from the Lens page** (the
+  per-case citations now live in full on page 2 — the change removes a
+  redundancy rather than losing the sources).
+- Trimmed the few stubborn cases individually (21, 25 capped to three
+  reflections; 28, 31 Lens prose tightened — itself part of the de-pad).
+
+Result: **100/100 pass the stricter check**; interior **373 pp** (≈ 300 case
+pages + ~73 of front matter, nine chapter dividers, and back matter), spine
+back to 23.16 mm.
+
 ---
 
 ## Status snapshot

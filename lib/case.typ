@@ -90,17 +90,17 @@
 
     if quote != none {
       pullquote(quote, quote-source)
-      v(3pt)
+      v(2pt)
     }
 
     lens-block("LE Insight", le-insight)
-    v(3pt)
+    v(2pt)
     lens-block("LENS Approach", lens-approach)
-    v(3pt)
+    v(2pt)
 
     if approaches != none {
       case-approaches(approaches.during, approaches.after)
-      v(3pt)
+      v(2pt)
     }
 
     if reflection-list.len() > 0 {
@@ -110,15 +110,13 @@
 
     if modes-code != "" {
       team-block(modes-code)
-      v(3pt)
+      v(2pt)
     }
 
-    grid(
-      columns: (1fr, 1fr),
-      column-gutter: 10pt,
-      sources(..sources-list),
-      if literature-items.len() > 0 { literature(..literature-items) } else [],
-    )
+    // Per-case citations live on page 2; the Lens page keeps only the
+    // (legacy) sources list if present. "Further Reading" is omitted here to
+    // keep the enriched Lens page to one page.
+    sources(..sources-list)
 
     block(
       width: 100%,
@@ -172,6 +170,9 @@
     pagebreak(weak: true)
     context [#metadata((n: number, role: "lens", page: here().page())) <cmeta>]
     lens-page
+    // Overflow probe: the lens must END on the same page it starts, or the
+    // case has spilled to a 4th page.
+    context [#metadata((n: number, role: "lens-end", page: here().page())) <cmeta>]
   } else {
     // ----- LEGACY 2-PAGE SPREAD -----
     block(width: 100%, {

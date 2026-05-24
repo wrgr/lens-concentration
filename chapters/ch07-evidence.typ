@@ -120,18 +120,15 @@
     because of its scale, its provenance (Johns Hopkins), and its
     framing — system failure rather than individual error. The seventeen
     years between *To Err Is Human* and Makary's reassessment is also
-    the implementation gap of Case 41 in another guise. Capability
-    engineering exists to close that gap, and the cost of leaving it
-    open is measured in lives at population scale.
+    the implementation gap of Case 41 in another guise — and the cost of
+    leaving it open is measured in lives at population scale.
   ],
   lens-approach: [
-    LENS treats this case as the central evidence anchor of the entire
-    curriculum. LEN 1 introduces it as the foundational problem
-    statement. LEN 4 uses it as the canonical case for measurement
-    systems that cannot see their own failures (death certificates do
-    not capture the failure mode). LEN 10 uses it as the studio prompt
-    for designing interventions at the scale required to shift the
-    distribution.
+    LENS treats this case as the central evidence anchor of the
+    curriculum: LEN 1 as the foundational problem statement, LEN 4 as the
+    canonical case for measurement systems blind to their own failures
+    (death certificates do not capture the failure mode), and LEN 10 as the
+    studio prompt for interventions at population scale.
   ],
   literature-items: (
     [Makary & Daniel (2016), BMJ],
@@ -145,14 +142,14 @@
   ),
   approaches: (
     during: (
-      [Design the mortality-recording instrument with an explicit field for care-process failure, so a system-caused death is captured rather than absorbed into the proximate physiological cause.],
-      [Build the attribution method into the measurement from the start — specify the counterfactual test for "due to" error so the resulting count can guide action rather than collapse into dispute.],
-      [Pair each safety intervention with the system-wide measure it is meant to move, so reforms are gated on demonstrated population effect, not on having been deployed.],
+      [Give the mortality-recording instrument an explicit field for care-process failure, so a system-caused death is captured, not absorbed into the proximate cause.],
+      [Specify the attribution method up front — the counterfactual test for "due to" error — so the count guides action rather than collapsing into dispute.],
+      [Pair each safety intervention with the population measure it should move, gating reforms on demonstrated effect.],
     ),
     after: (
-      [Audit reported mortality against an independent count of care-related harm so the official statistics cannot stay blind to the failure mode they should surface.],
-      [Monitor inpatient harm with active surveillance rather than waiting for the certificate, tracking the gap between proximate cause and system cause over time.],
-      [Sustain the closure of the implementation gap — the seventeen years between alarm and reassessment — by holding the count and the intervention to the same measurement discipline.],
+      [Audit reported mortality against an independent count of care-related harm.],
+      [Use active surveillance of inpatient harm rather than waiting for the death certificate.],
+      [Hold the count and the intervention to the same measurement discipline, closing the implementation gap.],
     ),
   ),
   courses: ("LEN 1", "LEN 4", "LEN 10", "LEN 6",),

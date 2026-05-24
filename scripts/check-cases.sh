@@ -41,6 +41,9 @@ for n in sorted(cases):
         msgs.append(f"not a 3-page unit (lens is {span} pages after start)")
     if narr["page"] - start["page"] != 1:
         msgs.append(f"references begin on unit page {narr['page'] - start['page'] + 1}, not 2")
+    lend = c.get("lens-end")
+    if lend and lend["page"] != lens["page"]:
+        msgs.append(f"lens overflows onto unit page {lend['page'] - start['page'] + 1} (4th page)")
     if msgs:
         print(f"  ✗ Case {n}: " + "; ".join(msgs)); fails += 1
     else:
