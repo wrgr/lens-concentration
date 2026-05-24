@@ -653,7 +653,7 @@
     ],
   ),
   references: (
-    [Peru Dirección General de Aeronáutica Civil, Comisión Investigadora de Accidentes de Aviación, accident report on AeroPerú 603 (1996) — primary cause and the instrument cascade (paraphrased).],
+    [Peru Dirección General de Aeronáutica Civil, accident investigation board, final report on AeroPerú 603 (December 1996; with NTSB/FAA/Boeing participation) — primary cause and the instrument cascade (paraphrased).],
     [Peru CIAA report (1996) — the static-port tape and the contradictory warnings.],
     [Peru CIAA report (1996) — the absence of an independent cockpit reference.],
     [Leveson, N. (2011), _Engineering a Safer World_ (STAMP) — common-cause failure.],
@@ -765,7 +765,7 @@
     [NTSB, _Aircraft Accident Report: Atlas Air Flight 3591_, NTSB/AAR-20/02 (2020) — probable cause and contributing factors (paraphrased).],
     [NTSB/AAR-20/02 (2020) — the inadvertent go-around activation and the dive into Trinity Bay.],
     [NTSB/AAR-20/02 (2020) — the first officer's training history and Atlas's record-access limits.],
-    [FAA Pilot Records Database final rule (2021); Pilot Records Improvement Act of 1996.],
+    [FAA Pilot Records Database final rule (_Federal Register_, 10 June 2021; subpart B/C compliance from June 2022, full historical coverage by September 2024); Pilot Records Improvement Act of 1996.],
     [GAO reports on Pilot Records Database implementation (2014–2024).],
   ),
   quote: [Atlas Air did not have access to portions of the first officer's training record that would have informed its hiring decision.],

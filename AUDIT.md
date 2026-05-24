@@ -103,10 +103,16 @@ conversion:
   Boyd), Eagle Claw (Holloway Commission; Goldwater-Nichols), Helios 522
   (Hellenic AAIASB 11/2006), AeroPerú 603 (Peru CIAA 1996), Atlas 3591
   (NTSB/AAR-20/02), TransAsia 235 (Taiwan ASC 2016).
-- ⚠️ AeroPerú 603 — the Peruvian DGAC/CIAA report is cited from secondary
-  summaries; the official report number/date was not independently
-  re-verified. Atlas 3591 PRD effective-date phasing (2021 rule →
-  2022 effective → 2024 full coverage) drawn from FAA rulemaking summaries.
+- **AeroPerú 603 — VERIFIED.** The Peruvian civil-aviation authority's
+  accident investigation board issued its final report in **December
+  1996**, with NTSB/FAA/Boeing/Rolls-Royce participation; reference firmed
+  up accordingly. (Agency naming varies across sources — DGAC / DGAT;
+  there is no public report serial number.)
+- **Atlas 3591 PRD phasing — VERIFIED.** FAA PRD final rule published
+  **10 June 2021** (_Fed. Reg._); subpart B/C compliance from **June
+  2022**; historical records before 2015 due, and concurrent PRIA
+  compliance ending, **9 September 2024**. The "2021 → 2022 → 2024" framing
+  in Case 49 is correct; the reference now states the specific dates.
 
 ### Chapter 7 (evidence gap, cases 31, 83–87) — conversion notes
 
@@ -378,9 +384,9 @@ the pre-press production pipeline:
 
 - **ISBN assignment + copyright registration** (Library of Congress).
 - **Lulu pre-press proof**: spine width recalc for the actual final
-  page count (currently 296); color-profile / paper-stock
-  verification; A5 + 3 mm bleed final spec match against Lulu's
-  current paperback template.
+  page count (currently **374 pp**, computed spine **23.23 mm**);
+  color-profile / paper-stock verification; **8 × 10 in + 3 mm bleed**
+  final spec match against Lulu's current paperback template.
 - **Cover wrap proof** at the final spine width; cover-art final
   approval; barcode placement.
 - **Distribution / catalog setup** if any.
