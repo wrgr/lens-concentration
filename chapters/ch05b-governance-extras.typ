@@ -189,39 +189,48 @@
     // -- What Happened --
     [
       The device did not work. Internal data showed accuracy far below what
-      the company represented to investors, partners, and patients. To
+      the company represented to investors, partners, and patients — the gap
+      between the claim and the instrument was known inside the company. To
       preserve the appearance of a working product, Theranos ran most patient
       samples on conventional commercial analyzers and reported the results
-      as though they had come from its proprietary device — putting
-      unreliable results in front of real patients.#cn()
+      as though they had come from its proprietary device, a substitution that
+      kept the fiction alive while putting unreliable results in front of real
+      patients making real medical decisions.#cn()
     ],
     // -- The Investigation --
     [
       The fraud exploited a regulatory seam: the FDA had not validated the
       device, while the CLIA regime that governs laboratory operation did not
       match the architecture of the company's product claims, and neither
-      layer validated those claims independently. The board, the investors,
-      and Walgreens lacked the technical depth to challenge them; the
-      journalist John Carreyrou, and CMS inspectors who revoked Theranos's
-      CLIA certificate in 2016, were what finally surfaced the truth.#cn()
+      layer validated those claims independently — so the device fell into a
+      gap each regulator assumed the other covered. The board, the investors,
+      and Walgreens lacked the technical depth to challenge them, and a
+      celebrity board offered prestige in place of scrutiny; the journalist
+      John Carreyrou, and CMS inspectors who revoked Theranos's CLIA
+      certificate in 2016, were what finally surfaced the truth from outside
+      the failed oversight chain.#cn()
     ],
     // -- The Capability Gap --
     [
       The capability gap sat in the regulatory architecture — at the boundary
       between two regimes, where a deliberate fraud could live because
       neither the FDA nor CLIA owned end-to-end validation of a novel
-      diagnostic making clinical claims. The governance lesson is that the
-      seam between regulators is itself a place that must be engineered,
-      because it is exactly where a bad actor will operate.#cn()
+      diagnostic making clinical claims, and an unowned boundary is exactly
+      the shelter a fraud needs. The governance lesson is that the seam
+      between regulators is itself a place that must be engineered, because it
+      is exactly where a bad actor will operate — choosing the gap precisely
+      because no one is watching it.#cn()
     ],
     // -- Aftermath & Reform --
     [
       Theranos collapsed, its CLIA certificate was revoked, and Elizabeth
-      Holmes was convicted of multiple counts of wire fraud in 2022.#cn() The
-      case is canonical in business education for fraud-as-product-strategy
+      Holmes was convicted of multiple counts of wire fraud in 2022, the
+      conviction closing a chapter the regulators had been slow to open.#cn()
+      The case is canonical in business education for fraud-as-product-strategy
       and in health regulation for the gap that let unvalidated clinical
       tests reach patients — a reminder that "disruptive" claims in a
-      regulated domain demand more validation, not less.
+      regulated domain demand more validation, not less, precisely because the
+      novelty is what tempts the oversight regimes to defer to one another.
     ],
   ),
   references: (
@@ -254,6 +263,19 @@
   reflection-list: (
     [Identify a regulatory seam in your domain where two regimes meet without an explicit handoff. What could exploit it?],
     [Design the validation regime that would have caught Theranos in 2013.],
+    [Theranos's board and investors had prestige but not the technical depth to challenge the device's claims. Where in your domain does reputational authority stand in for the expertise needed to validate what is being approved?],
+  ),
+  approaches: (
+    during: (
+      [Assign explicit end-to-end validation ownership across the FDA–CLIA-style seam, so a novel diagnostic cannot fall into a gap each regulator assumes the other covers.],
+      [Require independent verification of accuracy claims against the actual device before clinical use, not against a substituted commercial analyzer.],
+      [Staff the oversight chain — board, partners, regulators — with the technical depth to interrogate the claims, treating prestige as no substitute for expertise.],
+    ),
+    after: (
+      [Audit whether reported results actually came from the validated instrument, watching for the substitution pattern that hides a non-working device.],
+      [Monitor the regulatory seam as a standing risk, since a determined fraud will choose precisely the boundary no single regime owns.],
+      [Protect external scrutiny — journalists, inspectors, whistleblowers — as the backstop that surfaces what a captured oversight chain misses.],
+    ),
   ),
   courses: ("LEN 4", "LEN 7"),
 )
@@ -291,44 +313,55 @@
       Wells Fargo built its retail strategy on "cross-selling" — opening many
       products per customer — and drove it with aggressive sales quotas
       pushed down to branch employees, whose pay and jobs depended on hitting
-      them.#cn()
+      them. The metric the bank chose to manage by thus became the thing every
+      front-line employee was structurally compelled to maximize, whatever it
+      took.#cn()
     ],
     // -- What Happened --
     [
       Unable to meet the quotas honestly, employees opened roughly 3.5
-      million unauthorized accounts in customers' names. The behavior was
-      widespread and longstanding, and visible to internal risk and
-      compliance functions for years; the institutional response was to
+      million unauthorized accounts in customers' names — the rational
+      response to a target most could not reach by legitimate means. The
+      behavior was widespread and longstanding, and visible to internal risk
+      and compliance functions for years; the institutional response was to
       discipline individual employees as bad apples while leaving the
-      incentive structure intact.#cn()
+      incentive structure intact, fixing the symptom and preserving the
+      cause.#cn()
     ],
     // -- The Investigation --
     [
       The 2016 CFPB and OCC actions brought roughly \$3 billion in penalties,
       and the bank's own independent-directors investigation (2017)
-      documented how the sales-target architecture drove the misconduct.#cn()
+      documented how the sales-target architecture drove the misconduct —
+      locating the cause in the design, not the people executing it.#cn()
       Investigators tied the misconduct directly to the bank's
       incentive-compensation structure, which had made such sales practices a
-      foreseeable result. The CEO resigned, and the Federal Reserve imposed
-      an unprecedented cap on the bank's assets.#cn()
+      foreseeable result rather than an aberration. The CEO resigned, and the
+      Federal Reserve imposed an unprecedented cap on the bank's assets,
+      reaching past individual penalties to constrain the institution
+      itself.#cn()
     ],
     // -- The Capability Gap --
     [
       Wells Fargo is the strongest evidence in the dataset that incentive
       architecture is a capability-engineering deliverable. The measurement
       system used to manage employees produced exactly the behavior the
-      institution then prosecuted. The gap was not at the front line but at
-      the governance layer that designed the incentives and then, for years,
-      treated the predictable result as individual moral failure.#cn()
+      institution then prosecuted — the same structure that demanded the
+      result punished the people who delivered it. The gap was not at the
+      front line but at the governance layer that designed the incentives and
+      then, for years, treated the predictable result as individual moral
+      failure, mistaking a designed outcome for a character flaw.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The asset cap constrained the bank's growth for years — a rare,
-      structural consequence — and the case became the standard teaching
-      example of measurement-gaming and incentive design.#cn() Its lesson is
-      that any quota becomes a target to be gamed, and that an institution is
-      accountable for the behavior its measurement system makes rational, not
-      just the behavior endorsed in its values statement.
+      structural consequence that hit the institution where it would feel it —
+      and the case became the standard teaching example of measurement-gaming
+      and incentive design.#cn() Its lesson is that any quota becomes a target
+      to be gamed, and that an institution is accountable for the behavior its
+      measurement system makes rational, not just the behavior endorsed in its
+      values statement — because employees respond to the incentive they are
+      paid on, not the value they are told to honor.
     ],
   ),
   references: (
@@ -363,6 +396,19 @@
   reflection-list: (
     [Identify a measurement system in your organization that is currently producing the behavior the organization claims to deplore. What is the gap between the measurement and the goal?],
     [Design the incentive architecture for a bank's branch sales force that does not produce a Wells-Fargo-equivalent failure.],
+    [Wells Fargo's misconduct was visible to risk and compliance for years before it was addressed at the structural level. What lets an organization see a pattern of gaming and still treat it as individual bad apples — and who would have to be empowered to name the incentive as the cause?],
+  ),
+  approaches: (
+    during: (
+      [Design incentive and quota structures against the behavior they will rationally produce, treating the measurement system as a capability deliverable in its own right.],
+      [Set targets that are achievable by legitimate means, since a quota most employees cannot reach honestly is an instruction to cheat.],
+      [Pair every performance metric with a countervailing measure that detects gaming before it becomes systemic.],
+    ),
+    after: (
+      [Audit for the gap between the behavior the measurement system rewards and the conduct the institution claims to value, and treat divergence as a design fault.],
+      [Empower risk and compliance to escalate a pattern of gaming as a structural cause, not to absorb it as isolated misconduct.],
+      [Hold the governance layer that designed the incentives accountable for predictable outcomes, rather than disciplining only the front line.],
+    ),
   ),
   courses: ("LEN 4", "LEN 7"),
 )
@@ -403,26 +449,33 @@
     [
       Volkswagen had staked its U.S. growth on "clean diesel," promising cars
       that met strict nitrogen-oxide limits without sacrificing performance
-      or cost. Its engineers did not believe they could actually meet the
-      standard within the platform's cost constraints.#cn()
+      or cost — a marketing position that left no room to admit the
+      engineering could not deliver all three at once. Its engineers did not
+      believe they could actually meet the standard within the platform's
+      cost constraints, putting the company's public promise on a collision
+      course with its own technical reality.#cn()
     ],
     // -- What Happened --
     [
       So they cheated by design. VW's emissions software detected when a
       vehicle was on a regulatory test bench — by its steering, speed, and
-      duration patterns — and switched on full emissions controls only during
-      the test. On the road the controls were largely disabled, producing
-      emissions up to forty times the legal limit, across roughly 11 million
-      vehicles for years.#cn()
+      duration patterns, the telltale signature of a lab rather than a road —
+      and switched on full emissions controls only during the test. On the
+      road the controls were largely disabled, producing emissions up to forty
+      times the legal limit, across roughly 11 million vehicles for years, so
+      the pollution the standard existed to prevent flowed freely everywhere
+      except where it was measured.#cn()
     ],
     // -- The Investigation --
     [
       The deception was uncovered not by the regulator but by a small
       university research team in West Virginia comparing real-world
-      emissions to lab results.#cn() Internal documents then showed the
-      defeat device had been authorized inside VW's engineering hierarchy as
-      a deliberate institutional response to a standard the team could not
-      meet — not the work of a rogue engineer. VW pleaded guilty, paid more
+      emissions to lab results — the gap between road and bench being exactly
+      what the regulator's own test could never reveal.#cn() Internal
+      documents then showed the defeat device had been authorized inside VW's
+      engineering hierarchy as a deliberate institutional response to a
+      standard the team could not meet — not the work of a rogue engineer, but
+      a decision made up the chain of command. VW pleaded guilty, paid more
       than \$33 billion in penalties and remediation, and saw multiple
       executives convicted.#cn()
     ],
@@ -431,19 +484,23 @@
       The exploitable gap was at the regulator's instrument: the emissions
       test ran in a regime the vehicle could detect, so a manufacturer
       determined to evade could tune its behavior to the test rather than to
-      the road. Dieselgate is the canonical case of institutionally
-      engineered evasion of a measurement system — and a reminder that any
-      test the measured party can recognize is a test it can defeat.#cn()
+      the road, optimizing for the measurement instead of the goal it stood
+      for. Dieselgate is the canonical case of institutionally engineered
+      evasion of a measurement system — and a reminder that any test the
+      measured party can recognize is a test it can defeat, because a
+      detectable test invites the very gaming it is meant to catch.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The reform closed the gap at the instrument: the EU introduced
       real-world driving-emissions testing, moving the measurement off the
-      predictable bench and making it far harder to game.#cn() The pattern
-      parallels Takata (Case 52) — a manufacturer's fraud meeting a regulator
-      whose evidence pipeline trusted the manufacturer's test conditions, and
-      a fix that had to upgrade the measurement itself, not just punish the
-      cheat.
+      predictable bench and onto the road the standard actually cared about,
+      making it far harder to game.#cn() The pattern parallels Takata (Case
+      52) — a manufacturer's fraud meeting a regulator whose evidence pipeline
+      trusted the manufacturer's test conditions, and a fix that had to
+      upgrade the measurement itself, not just punish the cheat, because
+      punishing the cheat leaves the exploitable instrument in place for the
+      next one.
     ],
   ),
   references: (
@@ -478,6 +535,19 @@
   reflection-list: (
     [Identify a measurement protocol in your domain that operates in a regime detectable by the entity being measured. What is the evasion potential?],
     [Design the upgrade to a regulatory test protocol that makes Dieselgate-style evasion structurally infeasible.],
+    [VW's defeat device was authorized up the engineering hierarchy, not the act of a rogue engineer. What allows an institution to sanction fraud as a deliberate response to an unmeetable standard — and what governance check should sit between an impossible target and the team asked to meet it?],
+  ),
+  approaches: (
+    during: (
+      [Design measurement protocols the measured party cannot detect and tune to, so behavior is optimized for the goal rather than the test.],
+      [Surface the gap between a public commitment and the engineering reality early, so an unmeetable standard is renegotiated rather than secretly evaded.],
+      [Build a governance check between an impossible target and the team asked to meet it, so the response is escalation, not a defeat device.],
+    ),
+    after: (
+      [Audit real-world behavior against test-condition behavior, treating a divergence between road and bench as the signature of engineered evasion.],
+      [Upgrade the measurement instrument itself after a discovered cheat, not just penalize the cheat, since the exploitable test invites the next one.],
+      [Sustain independent, outside-the-loop verification — as the university team provided — to catch fraud the regulator's own protocol cannot see.],
+    ),
   ),
   courses: ("LEN 4", "LEN 7"),
 )
@@ -516,44 +586,56 @@
     [
       Facebook's Graph API let third-party apps request user data to build
       social experiences — and, at the time, an app could collect not only
-      its own users' data but their friends' data too. The permission
-      architecture had been designed and tested against ordinary use
-      cases.#cn()
+      its own users' data but their friends' data too, so a single
+      consenting user opened a window onto people who had never agreed to
+      anything. The permission architecture had been designed and tested
+      against ordinary use cases, the friendly developers it imagined rather
+      than the hostile ones it would eventually attract.#cn()
     ],
     // -- What Happened --
     [
       A Cambridge University researcher built a personality-quiz app taken by
       about 270,000 people; through the friends-permission it harvested
-      roughly 87 million profiles. The dataset was passed to Cambridge
-      Analytica, which used it for political-campaign micro-targeting across
-      multiple elections — none of the 87 million having meaningfully
-      consented.#cn()
+      roughly 87 million profiles — a return of more than three hundred
+      profiles for every person who actually used the app. The dataset was
+      passed to Cambridge Analytica, which used it for political-campaign
+      micro-targeting across multiple elections — none of the 87 million
+      having meaningfully consented, most never even aware the app existed.#cn()
     ],
     // -- The Investigation --
     [
       Investigations by the UK Information Commissioner and the U.S. FTC,
       prompted by Guardian reporting, established the scope of the harvesting
-      and Facebook's responsibility for it.#cn() The platform's API had never
-      been red-teamed against systematic data extraction; its contract simply
-      assumed developers would behave.#cn()
+      and Facebook's responsibility for it — the platform, not just the
+      researcher, was found answerable for what its design permitted.#cn() The
+      platform's API had never been red-teamed against systematic data
+      extraction; its contract simply assumed developers would behave, a trust
+      extended at the scale of a social network and never tested against
+      someone willing to abuse it.#cn()
     ],
     // -- The Capability Gap --
     [
       The gap was not technical — the architecture worked exactly as
-      designed. It was a governance gap: a load-bearing design assumption
-      ("developers are benevolent") that no one had stress-tested against a
-      determined abuser. On a platform at societal scale, an unexamined
+      designed, which is what makes it a governance case rather than a bug.
+      It was a governance gap: a load-bearing design assumption ("developers
+      are benevolent") that no one had stress-tested against a determined
+      abuser, an assumption holding up the whole permission model without ever
+      being named as one. On a platform at societal scale, an unexamined
       assumption about how an interface will be used is itself a capability
-      deliverable — and an unexamined one is a latent failure.#cn()
+      deliverable — and an unexamined one is a latent failure waiting for the
+      first actor willing to exploit it.#cn()
     ],
     // -- Aftermath & Reform --
     [
       The scandal accelerated the EU's GDPR, helped spur the California
       Consumer Privacy Act, and produced a \$5-billion FTC penalty and a
-      consent decree under which Facebook still operates.#cn() Its lesson for
-      platform governance is that permission architectures must be designed
-      against the worst plausible developer, not the typical one — because at
-      scale, the worst plausible developer will arrive.
+      consent decree under which Facebook still operates — the abuse of one
+      design assumption reshaping data law across two jurisdictions.#cn() Its
+      lesson for platform governance is that permission architectures must be
+      designed against the worst plausible developer, not the typical one —
+      because at scale, the worst plausible developer will arrive, and the
+      friends-permission that looked harmless against ordinary use becomes a
+      harvesting tool in the wrong hands.
     ],
   ),
   references: (
@@ -586,6 +668,19 @@
   reflection-list: (
     [Identify an API or interface in your domain whose contract assumes benevolent intent. What is the systematic-abuse case it was not red-teamed against?],
     [Design the platform-governance deliverable that should accompany the launch of a new third-party developer API.],
+    [The friends-permission let one consenting user expose hundreds who had not agreed. Where in your domain does one person's consent silently extend to others, and what governance would make that reach visible and accountable?],
+  ),
+  approaches: (
+    during: (
+      [Make every load-bearing design assumption explicit and red-team it against a determined abuser before launch, treating "developers are benevolent" as a hypothesis to test.],
+      [Scope data access to what an app genuinely needs, so one user's consent cannot silently reach hundreds of non-consenting others.],
+      [Design permission architectures against the worst plausible developer, since at societal scale that developer will eventually arrive.],
+    ),
+    after: (
+      [Monitor API usage for systematic extraction patterns that depart from the ordinary social use the interface was built for.],
+      [Audit third-party developers' actual data flows against their stated purpose, rather than trusting a contract that assumes good behavior.],
+      [Sustain the platform's own accountability for what its design permits, treating downstream abuse as a governance defect to remediate, not a third party's sole fault.],
+    ),
   ),
   courses: ("LEN 1", "LEN 7", "LEN 6",),
 )
@@ -621,28 +716,34 @@
     // -- Background --
     [
       Equifax, one of the three U.S. credit bureaus, held the most sensitive
-      financial data on virtually every American adult. One of its public web
-      portals ran a version of Apache Struts with a known critical
-      vulnerability for which a patch had been available for two months — and
-      which Equifax's own security team had flagged for IT to apply.#cn()
+      financial data on virtually every American adult — a concentration of
+      identity information that made any breach catastrophic by definition.
+      One of its public web portals ran a version of Apache Struts with a
+      known critical vulnerability for which a patch had been available for
+      two months — and which Equifax's own security team had flagged for IT to
+      apply, so the warning and the fix both existed inside the company and
+      simply went unacted-upon.#cn()
     ],
     // -- What Happened --
     [
       The patch was not applied. Attackers exploited the vulnerability
       beginning in May 2017 and quietly exfiltrated personally identifying
       information on 147 million Americans over the next two and a half
-      months. Equifax did not publicly disclose the breach until
-      September.#cn()
+      months, a window long enough that the theft was less a break-in than a
+      sustained occupation. Equifax did not publicly disclose the breach until
+      September, so the people whose identities were taken learned of it only
+      well after the fact.#cn()
     ],
     // -- The Investigation --
     [
       The U.S. Senate Permanent Subcommittee on Investigations found
       Equifax's patching practices systematically inadequate and the company
       lacking "a comprehensive IT asset inventory" — so it could not reliably
-      know which systems needed the patch.#cn() Monitoring was weak, response
-      delayed, and the incident-response architecture had been treated for
-      years as a cost center; the CEO resigned and Equifax settled for
-      roughly \$700 million.#cn()
+      know which systems needed the patch, leaving the security team's warning
+      with no map to act on. Monitoring was weak, response delayed, and the
+      incident-response architecture had been treated for years as a cost
+      center rather than a capability worth funding; the CEO resigned and
+      Equifax settled for roughly \$700 million.#cn()
     ],
     // -- The Capability Gap --
     [

@@ -686,6 +686,19 @@
   reflection-list: (
     [Identify a cue in your domain that carries two meanings in different operational contexts. How would the operator know which?],
     [Redesign the Helios configuration warning to distinguish ground- and in-flight meaning without adding cognitive load.],
+    [A maintenance setting left in "manual" survived the pre-flight checks and reached the air. Design the pre-flight verification step in your domain that would make an abnormal maintenance configuration impossible to depart with unnoticed.],
+  ),
+  approaches: (
+    during: (
+      [Differentiate cues that carry distinct meanings in distinct contexts, so a single signal cannot be read as the wrong one under stress.],
+      [Train both meanings of any dual-purpose cue, not just the routine one, so the rare-but-deadly interpretation is recognized first.],
+      [Design pre-flight verification to catch abnormal maintenance configurations, so a setting left in "manual" cannot survive into operation.],
+    ),
+    after: (
+      [Audit checklists and warning logic for cues whose meaning depends on phase or context, and resolve the ambiguity before an operator must guess.],
+      [Monitor maintenance-to-operations handoffs for latent configuration errors that pre-flight checks have historically missed.],
+      [Sustain training on the physiology that degrades the operator (e.g., hypoxia), so the window for self-correction is understood and guarded.],
+    ),
   ),
   courses: ("LEN 5", "LEN 2"),
 )
@@ -724,7 +737,10 @@
       Before the flight, ground crew had covered the aircraft's static
       ports with adhesive tape during cleaning and polishing of the
       fuselage, and the tape was not removed. The static ports feed the
-      instruments that tell the crew their altitude and airspeed.#cn()
+      instruments that tell the crew their altitude and airspeed — a single
+      physical source upstream of nearly every primary cockpit display, so
+      blocking it corrupted not one instrument but the whole air-data picture
+      the crew would rely on in the dark.#cn()
     ],
     // -- What Happened --
     [
@@ -735,7 +751,9 @@
       simultaneous overspeed and stall warnings and ground-proximity
       alerts they could not reconcile. Believing they were higher than
       they were, they descended and struck the Pacific, killing all 70
-      aboard.#cn()
+      aboard — the contradictory warnings offering no way to tell which, if
+      any, instrument to trust, because every one of them drew on the same
+      blocked source and so failed in concert rather than disagreeing usefully.#cn()
     ],
     // -- The Investigation --
     [
@@ -745,7 +763,9 @@
       inconsistency. Every instrument that should have flagged the failure
       drew on the same blocked source. The crew's training had no
       procedure for the case in which all primary instruments are
-      simultaneously wrong.#cn()
+      simultaneously wrong — that failure had been assumed away rather than
+      planned for, leaving the crew to improvise against a problem the system
+      design had quietly made possible and the curriculum never named.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -755,7 +775,9 @@
       display at once. The missing capability was both a maintenance
       control that made the blocked port impossible to miss and a
       procedure for flying when the instruments themselves cannot be
-      trusted.#cn()
+      trusted — the first preventing the common-cause failure at its source,
+      the second giving the crew somewhere to stand when the apparent
+      redundancy in front of them collapsed all at once.#cn()
     ],
     // -- Aftermath & Reform --
     [
@@ -764,7 +786,10 @@
       ports and pitot tubes, and entered the human-factors literature as
       a worked example of common-cause failure and the limits of crew
       training under total instrument corruption. It is paired with other
-      pitot-static events in discussions of air-data integrity.#cn()
+      pitot-static events in discussions of air-data integrity — its lesson
+      being that redundancy counted at the display tells you nothing if the
+      redundant paths share a single upstream point that can fail them all
+      together.#cn()
     ],
   ),
   references: (
@@ -797,6 +822,19 @@
   reflection-list: (
     [Identify a redundant interface in your domain whose redundancy depends on a common upstream component. What is the operator procedure when the upstream component fails?],
     [Design the "trust nothing" procedure for the AeroPerú crew. What information remains reliable when all instruments are corrupted?],
+    [A taped-over static port survived to takeoff because nothing made it conspicuous or forced its removal to be verified. Design the maintenance control in your domain that would make a blocked or covered critical component impossible to overlook before operation.],
+  ),
+  approaches: (
+    during: (
+      [Map redundant displays back to their upstream sources, and eliminate or instrument any common point whose failure would corrupt them all at once.],
+      [Make critical sensor covers conspicuous and require verified removal, so a blocked static port cannot reach takeoff unnoticed.],
+      [Provide an independent reference (e.g., a source not fed by the common component) so the crew can detect inconsistency at the source.],
+    ),
+    after: (
+      [Audit maintenance controls for tasks that cover or block critical sensors, confirming each has a conspicuous marker and a removal-verification step.],
+      [Train and rehearse a "trust nothing" procedure for total instrument corruption, the case the curriculum had assumed away.],
+      [Monitor for common-cause failure modes whose probability was assumed negligible, and revisit that assumption when the consequence is catastrophic.],
+    ),
   ),
   courses: ("LEN 5", "LEN 2"),
 )
@@ -837,7 +875,10 @@
       them on his Atlas application. At the time of hiring, the Pilot
       Records Database directed by Congress after Colgan Air 3407 was not
       yet operational; Atlas used the older PRIA system, which required
-      only five years of records.#cn()
+      only five years of records — a window too short to surface a pattern
+      of training failures spread across several prior employers, so the
+      record Atlas could legally obtain was structurally incapable of showing
+      what it most needed to see.#cn()
     ],
     // -- What Happened --
     [
@@ -846,7 +887,10 @@
       which commanded a pitch-up. Experiencing a somatogravic illusion
       that the nose was rising into a stall, he pushed forward hard. The
       767 entered a steep dive from which the crew did not recover and
-      crashed into Trinity Bay, killing all three aboard.#cn()
+      crashed into Trinity Bay, killing all three aboard. The startle and
+      spatial disorientation that drove the fatal push were the same kind of
+      breakdown his prior training failures had repeatedly recorded, had that
+      history been visible to the carrier that hired him.#cn()
     ],
     // -- The Investigation --
     [
@@ -856,7 +900,9 @@
       identified his pattern of training deficiencies and Atlas's
       inability to access his full record as contributing factors. The
       records that would have informed the hiring decision existed but
-      did not reach it.#cn()
+      did not reach it — the same information-flow failure named after
+      Colgan a decade earlier, recurring here because the remedy built to
+      fix it was authorized but not yet carrying the full history.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -865,7 +911,10 @@
       authorized — but it was not yet operational and its coverage was
       incomplete, so the same information-flow gap that killed fifty
       people in 2009 was still partly open in 2019. Partial implementation
-      of a remedy leaves a measurable harm inside the aperture.#cn()
+      of a remedy leaves a measurable harm inside the aperture — the years
+      between authorization and full coverage are not a neutral transition
+      but a window in which the original failure can recur on the cases the
+      incomplete remedy does not yet reach.#cn()
     ],
     // -- Aftermath & Reform --
     [
@@ -873,7 +922,10 @@
       Part 121 carriers in 2022, with full historical coverage phasing in
       through 2024 — closing the gap the case exposed. Atlas 3591 is cited
       in implementation-fidelity discussions as evidence that a remedy is
-      only as good as its completed coverage.#cn()
+      only as good as its completed coverage — that the date a rule is
+      authorized and the date it actually reaches every carrier are
+      different dates, and the distance between them is where the avoidable
+      harm accumulates.#cn()
     ],
   ),
   references: (
@@ -907,6 +959,19 @@
   reflection-list: (
     [Identify a regulatory remedy in your domain whose coverage is partial. What harm is occurring inside the aperture?],
     [Design the deliverable that would close the PRD coverage gap in advance of a future Atlas Air 3591.],
+    [The PRD was authorized in 2010 but not fully effective until 2024, and Atlas 3591 fell inside that gap. For a remedy in your domain, design the interim control that would protect the cases the remedy does not yet reach while its coverage phases in.],
+  ),
+  approaches: (
+    during: (
+      [Design the records system to require a full operator history, not a fixed-length window that can hide a multi-employer pattern.],
+      [Plan the coverage phase-in explicitly, with interim controls protecting the cases the remedy does not yet reach.],
+      [Specify the data the hiring decision needs and make its delivery mandatory before the decision, not optional or self-reported.],
+    ),
+    after: (
+      [Audit coverage completeness, not just authorization, and treat the gap between the two as an active source of harm until closed.],
+      [Monitor for adverse events occurring inside the aperture of a partially implemented remedy, and use them to accelerate full coverage.],
+      [Sustain attention through the full phase-in, since a remedy authorized but not yet universal leaves the original gap measurably open.],
+    ),
   ),
   courses: ("LEN 4", "LEN 8"),
 )
@@ -949,7 +1014,10 @@
       the year before the accident and had been noted for weak handling
       of abnormal procedures. The published response to an engine failure
       was a checklist-driven procedure; under stress, crews tend to revert
-      to memory.#cn()
+      to memory — so a captain already flagged for weak abnormal-procedure
+      handling was exactly the operator most likely to skip the checklist
+      precisely when it mattered, a known weakness meeting a known failure
+      mode.#cn()
     ],
     // -- What Happened --
     [
@@ -960,7 +1028,10 @@
       operating normally. With neither engine now producing useful thrust
       and the aircraft low and slow, it stalled, clipped a viaduct and a
       taxi, and crashed into the Keelung River, killing 43 of the 58
-      aboard.#cn()
+      aboard. A recoverable single-engine event became unrecoverable the
+      moment the working engine was shut down, leaving an aircraft with no
+      thrust and no altitude in the seconds just after takeoff when both are
+      least forgiving.#cn()
     ],
     // -- The Investigation --
     [
@@ -970,7 +1041,9 @@
       acting from memory under time pressure; the misidentification took
       roughly fifteen seconds. The captain's documented proficiency
       deficiencies and the airline's training and crew-resource-management
-      shortfalls were contributing factors.#cn()
+      shortfalls were contributing factors — the individual lapse sitting
+      atop an organizational one, the carrier having left the very weaknesses
+      its own proficiency checks had recorded uncorrected before the flight.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -980,7 +1053,9 @@
       incomplete, the action follows the flawed memory rather than the
       checklist. The missing capability is a procedure design and training
       regime that keeps the verification step in the loop precisely when
-      stress pushes operators to skip it.#cn()
+      stress pushes operators to skip it — engineering the confirm-which-engine
+      step so it fires under startle, rather than trusting it to a memory
+      that time pressure is actively eroding.#cn()
     ],
     // -- Aftermath & Reform --
     [
@@ -989,7 +1064,10 @@
       airline ceased operations in 2016, after a second fatal accident the
       year before. The case is used to argue that the persistence of the
       wrong-engine pattern across a quarter-century reflects an
-      un-engineered intervention, not merely individual error.#cn()
+      un-engineered intervention, not merely individual error — the same
+      failure recurring across crews, airframes, and decades points to a
+      design and training gap that no amount of blaming the individual pilot
+      has ever closed.#cn()
     ],
   ),
   references: (
@@ -1022,6 +1100,19 @@
   reflection-list: (
     [Identify a procedure in your domain that is supposed to be checklist-driven but is actually memory-driven under stress. What is the gap?],
     [Why has the wrong-engine shutdown pattern persisted across 25 years of aviation reform? What intervention has not yet been engineered?],
+    [The captain had failed proficiency checks in the year before the accident, yet kept flying. Design the proficiency-check regime in your domain whose red signal would actually remove an operator from duty before, not after, the failure it predicts.],
+  ),
+  approaches: (
+    during: (
+      [Design the abnormal-procedure response so the confirm-which-unit verification step is forced under startle, not left to memory.],
+      [Build proficiency checks whose red signals have the authority to ground an operator before the predicted failure, not merely to document a weakness.],
+      [Train the checklist-driven response under realistic time pressure, so the trained reflex survives the stress that pushes crews to memory.],
+    ),
+    after: (
+      [Audit whether documented proficiency deficiencies are actually acted on, treating an uncorrected red check as an organizational, not individual, failure.],
+      [Monitor for recurrence of well-known patterns (wrong-engine shutdown) across crews and airframes as evidence the intervention is un-engineered, not merely human error.],
+      [Sustain crew-resource-management and checklist discipline so the verification step does not erode back to memory under operational pressure.],
+    ),
   ),
   courses: ("LEN 5", "LEN 2"),
 )

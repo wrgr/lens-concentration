@@ -267,6 +267,19 @@
   reflection-list: (
     [Identify a domain in your institution that would benefit from an ASRS-equivalent. What cultural commitment would be required for it to function?],
     [Design the institutional commitment that makes an ASRS-equivalent operational rather than merely declared.],
+    [ASRS made the protection credible by routing it through NASA rather than the regulator. Identify a reporting channel in your domain that operators distrust, and specify the neutral party or structural separation that would make its non-punitive promise believable.],
+  ),
+  approaches: (
+    during: (
+      [Pair a simple reporting artifact (a form and searchable database) with a credible commitment to non-punitive use, since the channel without the protection collects nothing of value.],
+      [Confer immunity for reported conduct so that reporting becomes the rational choice, directly reversing the incentive that otherwise keeps the most valuable data hidden.],
+      [Route the protection through a neutral third party rather than the enforcer, so operators trust the non-punitive promise enough to report against their own interest.],
+    ),
+    after: (
+      [Analyze the accumulated reports to surface patterns — automation surprise, runway incursions, fatigue — and act on them while they are still near-misses rather than accidents.],
+      [Protect the immunity provision over time, since a single high-profile punishment of a reporter would collapse the trust the whole system depends on.],
+      [Export the protected-reporting design, not just the database, to new domains, adapting the neutral-party structure wherever valuable safety data sits with operators who fear punishment.],
+    ),
   ),
   courses: ("LEN 4", "LEN 8"),
 )
@@ -310,7 +323,10 @@
       — yet in the UK of the 1980s and early 1990s, no system routinely
       compared outcomes between centers. A surgeon, a hospital, or a
       referring physician had no reliable way to know whether a given
-      unit's results were normal or dangerously poor.#cn()
+      unit's results were normal or dangerously poor. Without comparison
+      across centers, a dangerously poor unit and an ordinary one looked
+      alike from inside, so the very gap that cost children's lives was the
+      one no one was positioned to see.#cn()
     ],
     // -- The Intervention --
     [
@@ -320,7 +336,10 @@
       reporting. The reform built national registries — beginning with
       cardiac surgery and extending to other specialties — together with a
       commitment to publish results, including at the level of individual
-      surgeons.#cn()
+      surgeons. Starting in cardiac surgery and then extending outward was
+      deliberate sequencing — the specialty where the harm had been exposed
+      proved the model, and the registry then spread to fields that had not
+      had their own Bristol.#cn()
     ],
     // -- How It Worked --
     [
@@ -329,7 +348,11 @@
       cases are not penalized, and a publication architecture — was
       necessary but not sufficient. The cultural half — surgeons accepting
       that their comparative results would be visible — was equally
-      load-bearing, and was the harder of the two to secure.#cn()
+      load-bearing, and was the harder of the two to secure. The risk
+      adjustment was what made the cultural half securable: without it,
+      surgeons who took the sickest patients would have been punished by the
+      raw numbers, giving them every reason to resist publication or avoid
+      hard cases.#cn()
     ],
     // -- The Evidence --
     [
@@ -338,7 +361,10 @@
       among the most mature specialty-outcomes regimes in any country.
       Outcomes data ceased to be the private property of clinicians and
       became a shared resource for patients, referrers, and surgeons
-      themselves.#cn()
+      themselves. That surgeons themselves became users of the data, not
+      just subjects of it, is part of why the regime endured — comparison
+      that had once felt like exposure became a tool the profession relied
+      on to know where it stood.#cn()
     ],
     // -- What Transferred --
     [
@@ -347,7 +373,10 @@
       extended across NHS specialties and influenced later national-quality
       reforms. It pairs with Keystone ICU (Case 14) as healthcare-outcomes
       interventions operating at different layers — the bedside protocol and
-      the system-level measurement regime.#cn()
+      the system-level measurement regime. The two layers are complementary
+      rather than competing: Keystone changes what happens at the point of
+      care, while Bristol changes what the system can see about results
+      across centers, and a mature regime needs both.#cn()
     ],
   ),
   references: (
@@ -383,6 +412,19 @@
   reflection-list: (
     [What is the equivalent of surgeon-level outcomes transparency in your domain? What cultural change would have to accompany the technical instrument?],
     [Design the registry and publication architecture for a specialty in your domain currently operating without outcomes transparency.],
+    [Bristol's risk adjustment was what let surgeons accept publication, by ensuring those who took the hardest cases were not punished by raw numbers. Identify a transparency measure in your domain that practitioners resist, and design the adjustment that would make the comparison fair enough to accept.],
+  ),
+  approaches: (
+    during: (
+      [Pair the technical instrument — a registry with statistical risk adjustment and a publication architecture — with the cultural change of practitioners accepting that comparative results will be visible.],
+      [Build risk adjustment in from the start so those who take the hardest cases are not punished by raw numbers, which is what makes the cultural half securable.],
+      [Sequence the rollout to begin where the harm was exposed, proving the model in one specialty before extending it to fields that have not had their own crisis.],
+    ),
+    after: (
+      [Make practitioners users of the data, not just subjects of it, so comparison becomes a tool the profession relies on rather than an exposure it resents — which is what sustains the regime.],
+      [Extend the registry model across specialties over time, turning a single reform into a system-wide measurement regime.],
+      [Pair the system-level transparency layer with point-of-care interventions (as with Keystone), since a mature outcomes regime needs both what the system can see and what happens at the bedside.],
+    ),
   ),
   courses: ("LEN 4", "LEN 7", "LEN 3",),
 )
@@ -422,7 +464,11 @@
       simulators, training hours, fleet renewal — is a cost that
       competitive pressure constantly pushes downward. The question for any
       carrier is whether to treat capability as a floor set by regulation
-      or as a deliberate, sustained investment ahead of the minimum.#cn()
+      or as a deliberate, sustained investment ahead of the minimum. The
+      pressure is structural rather than occasional — every budget cycle
+      invites trimming the margin between regulatory minimum and actual
+      capability, so sustaining the investment requires deciding the
+      question deliberately rather than by default.#cn()
     ],
     // -- The Intervention --
     [
@@ -431,7 +477,10 @@
       work tuned to its operating context, and it committed to heavy
       simulator investment, a deliberately young fleet, and a strong
       internal reporting culture — maintaining these even during periods of
-      rapid expansion.#cn()
+      rapid expansion. Holding the investment through rapid growth is the
+      hard test — expansion is precisely when the temptation to let
+      capability lag the fleet is strongest, and maintaining it then is what
+      separates a sustained commitment from a fair-weather one.#cn()
     ],
     // -- How It Worked --
     [
@@ -440,7 +489,11 @@
       training systems, modern aircraft — with a culture of transparency
       and reporting. Investing ahead of regulatory minimums made the
       capability a managed system parameter, not a residual of cost-cutting
-      decisions made elsewhere.#cn()
+      decisions made elsewhere. Framing safety as a differentiator rather
+      than a burden is what made the investment defensible against cost
+      pressure — it tied capability to the brand and the premium the airline
+      charged, giving the spend a commercial rationale, not just a safety
+      one.#cn()
     ],
     // -- The Evidence --
     [
@@ -450,7 +503,10 @@
       investigation, became a reference case in post-accident institutional
       learning: operational changes, training updates, and public
       transparency about what had happened and why, rather than
-      defensiveness.#cn()
+      defensiveness. The test of a safety culture is how it behaves after
+      its own accident, and choosing transparency over defensiveness is what
+      turned SQ006 from a refutation of the airline's reputation into
+      evidence the reporting culture extended to its own failures.#cn()
     ],
     // -- What Transferred --
     [
@@ -459,7 +515,11 @@
       Air (Case 23): where Korean Air is a transformation forced by crisis,
       Singapore Airlines is deliberate investment sustained without one.
       Together they show two routes — crisis-driven and voluntary — to the
-      same engineered safety capability.#cn()
+      same engineered safety capability. The voluntary route is the harder
+      one to hold, because it has no catastrophe to point to as
+      justification, which is why framing the investment as a competitive
+      differentiator matters: it supplies the rationale that a crisis would
+      otherwise provide.#cn()
     ],
   ),
   references: (
@@ -493,6 +553,19 @@
   reflection-list: (
     [Identify an institution in your domain that has chosen capability investment as a primary differentiator. What pattern has it sustained?],
     [Design the institutional architecture that makes sustained capability investment defensible against competitive cost pressure.],
+    [Singapore Airlines sustained its investment voluntarily, without a crisis to point to, by framing capability as a competitive differentiator. Identify a safety or capability investment in your domain that lacks a catastrophe to justify it, and construct the commercial rationale that would defend it against the next budget cut.],
+  ),
+  approaches: (
+    during: (
+      [Decide deliberately to invest ahead of regulatory minimums — simulators, a young fleet, training hours — rather than letting capability settle at the floor by default under cost pressure.],
+      [Pair the technical investment with a transparency and reporting culture, so capability is a managed system parameter rather than a residual of cost-cutting decisions elsewhere.],
+      [Frame safety capability as a competitive differentiator tied to the brand, giving the spend a commercial rationale that can survive scrutiny, not just a safety one.],
+    ),
+    after: (
+      [Hold the investment through periods of rapid growth — the moment the temptation to let capability lag the fleet is strongest — since maintaining it then is what makes the commitment sustained rather than fair-weather.],
+      [Respond to the institution's own accidents with transparency over defensiveness, demonstrating that the reporting culture extends to its own failures and converting a setback into evidence the culture is real.],
+      [Anchor the investment to the brand and premium so it survives leadership and budget cycles, supplying the durable justification a voluntary commitment lacks without a crisis to point to.],
+    ),
   ),
   courses: ("LEN 8",),
 )
