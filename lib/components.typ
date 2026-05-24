@@ -74,19 +74,23 @@
 )
 
 // ---- Sources / citation list ----
-#let sources(..items) = block(
-  {
-    eyebrow("Sources")
-    v(3pt)
-    set par(leading: 0.45em, first-line-indent: 0pt)
-    for src in items.pos() {
-      block(
-        spacing: 2.5pt,
-        text(font: sans, size: sources-size, fill: text-dark)[→ #src]
-      )
+// Renders nothing when empty so the 4-page layout (which cites via the
+// numbered per-case reference list instead) shows no stray heading.
+#let sources(..items) = if items.pos().len() == 0 { none } else {
+  block(
+    {
+      eyebrow("Sources")
+      v(3pt)
+      set par(leading: 0.45em, first-line-indent: 0pt)
+      for src in items.pos() {
+        block(
+          spacing: 2.5pt,
+          text(font: sans, size: sources-size, fill: text-dark)[→ #src]
+        )
+      }
     }
-  }
-)
+  )
+}
 
 // ---- Compact in-line sources strip (for end of page 1) ----
 #let sources-strip(..items) = block(

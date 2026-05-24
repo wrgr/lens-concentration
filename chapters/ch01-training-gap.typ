@@ -24,44 +24,152 @@
   year: "2017",
   domains-list: ("defense",),
   modes-code: "TKN",
-  impact: "17 sailors killed in two preventable destroyer collisions in the Western Pacific",
+  impact: "17 sailors killed in two avoidable destroyer collisions in the Western Pacific within nine weeks",
   diagram: dgm.dgm-fitzgerald,
-  body: [
-    The Navy's own review found both collisions "preventable" and "avoidable."
-    Fitzgerald's crew did not understand fundamental rules of maritime
-    transit or how to use their own radar systems. McCain's watch team was
-    not properly trained to operate the ship-control console. A steering
-    casualty that should have been resolved in seconds led instead to a
-    collision because no one on the bridge knew the correct procedure.
+  kind: "failure",
+  sections: (
+    // -- Background --
+    [
+      The two destroyers that collided in the summer of 2017 belonged to
+      the U.S. Navy's forward-deployed forces in Japan — the Seventh Fleet
+      ships kept at the highest operational tempo in the surface fleet. For
+      more than a decade that tempo had been paid for out of training. In
+      2003 the Navy disestablished the in-person Surface Warfare Officers
+      School division-officer course that had taught new officers
+      seamanship, navigation, and the international rules of the road, and
+      replaced it with a set of self-study CD-ROMs — known in the fleet as
+      "SWOS in a Box" — that officers were expected to complete on their own
+      at sea.#cn() The change saved schoolhouse time and money; it also
+      removed the structured setting in which the fundamentals had been
+      taught, practiced, and tested. Forward-deployed ships compounded the
+      problem: unlike vessels based in the United States, which rotate
+      through a defined cycle of maintenance, training, and deployment, the
+      Japan-based ships were treated as continuously available, and the
+      training time that cycle protects was the first thing spent when
+      demand rose.
 
-    Root causes traced to years of deferred training and institutional
-    knowledge loss. In 2003 the Navy cut the 16-week Surface Warfare Officers
-    School course and replaced it with CD-ROM self-study. Operational tempo
-    overrode readiness requirements for more than a decade. By 2017 the
-    Western Pacific routinely operated ships whose crews were
-    under-qualified for the conditions in which they sailed.
+      By 2017 the erosion was measurable. The Government Accountability
+      Office reported that, as of June 2017, 37 percent of the warfare
+      certifications held by the cruiser and destroyer crews based in
+      Japan — including the certifications for basic seamanship — had
+      expired, a fivefold increase since 2015.#cn() Ships were operating in
+      some of the world's busiest waterways with lapsed qualifications
+      because the schedule never left room to renew them, and expired
+      certifications had become so routine that they were waived rather than
+      corrected.
+    ],
+    // -- What Happened --
+    [
+      On 17 June 2017 the USS Fitzgerald, steaming off the Izu Peninsula
+      south of Tokyo Bay, crossed into the path of the container ship ACX
+      Crystal and was struck on the starboard side; seven sailors drowned
+      in their flooding berthing compartment. The Fitzgerald was the
+      give-way vessel in a crossing situation and had the clearer picture,
+      yet its bridge team took no early or substantial action to avoid the
+      much larger ship, and an unexplained course change in the final
+      minutes turned the destroyer directly into the collision.#cn() The
+      container ship, many times the destroyer's displacement, opened the
+      hull below the waterline and flooded two berthing compartments where
+      the crew was sleeping; only the damage-control efforts of the
+      surviving sailors kept the Fitzgerald from sinking.
 
-    The Strategic Readiness Review put the institutional failure plainly:
-    risks accumulated over time and did so insidiously. The dynamic
-    environment normalized to the point where individuals and groups could
-    no longer recognize that the processes designed to surface the gap had
-    themselves stopped working.
-  ],
+      Nine weeks later, on 21 August 2017, the USS John S. McCain collided
+      with the tanker Alnic MC in the Singapore Strait; ten sailors died and
+      dozens more were injured. In the minutes before impact the watch team
+      believed it had lost steering. It had not. While shifting control of
+      the throttles between consoles, a watchstander had unintentionally
+      transferred steering to a different station — steering was available
+      the entire time, but no one on the bridge understood the ship-control
+      console well enough to recognize what had happened or to take it
+      back.#cn() The destroyer swung across the strait and into the path of
+      the tanker, which struck it on the port side at the berthing
+      compartments, repeating in nine weeks the same lethal geometry.
+    ],
+    // -- The Investigation --
+    [
+      The Navy's own Comprehensive Review, completed in November 2017,
+      judged both collisions avoidable and traced them to deficiencies in
+      the most basic skills of mariners — watchstanding, navigation, and the
+      operation of the ships' own equipment.#cn() The National
+      Transportation Safety Board, investigating independently, arrived at
+      the same place by a different road: its report on the McCain found the
+      probable cause to be a lack of effective operational oversight by the
+      Navy that produced insufficient training and inadequate bridge
+      operating procedures.#cn() The board also faulted the console itself.
+      The McCain's integrated bridge used a touch-screen steering and
+      throttle system the Navy had adopted across the destroyer fleet, and
+      its design made the unintended, unilateral transfer of control not
+      merely possible but easy — a human-factors trap waiting for an
+      under-trained crew.#cn() The two investigations reinforced each other.
+      On the Fitzgerald the NTSB found a bridge team that did not use its
+      radars or lookouts effectively and did not communicate as the
+      situation developed; on the McCain it found watchstanders who had
+      never been drilled on the casualty they now faced. In both cases the
+      crews were fatigued, working watch rotations that left little room for
+      rest, and in both cases the proximate errors sat on top of the same
+      foundation — sailors asked to do, in the dark and at speed, things
+      their training had never reliably given them.
+    ],
+    // -- The Capability Gap --
+    [
+      What makes Fitzgerald and McCain the canonical training-gap case is
+      that the gap was invisible from inside the system. The Strategic
+      Readiness Review, delivered in December 2017, described risks that had
+      accumulated over time and done so insidiously: the dynamic environment
+      of the Western Pacific had normalized to the point where individuals
+      and groups could no longer recognize that the very processes meant to
+      surface readiness shortfalls had themselves stopped working.#cn()
+      Stated readiness and actual readiness had diverged for more than a
+      decade, and the instruments that should have caught the divergence
+      kept reporting that all was well. The divergence was not a secret kept
+      from leadership so much as a fact the system had stopped being able to
+      see: commanders who asked for more time to train were told the
+      mission came first, and the readiness reports continued to register
+      green. The cost of the gap was not paid in a failed inspection. It was
+      paid in seventeen lives, two ships, and two months.
+    ],
+    // -- Aftermath & Reform --
+    [
+      The response was the most far-reaching surface-warfare reform in a
+      generation. The Navy reconstituted formal, in-person officer
+      training, rebuilding and lengthening the junior-officer pipeline it
+      had dismantled in 2003; stood up a Ready-for-Sea Assessment and
+      tighter oversight of forward-deployed readiness; and adopted circadian
+      watchbills to manage the crew fatigue the reviews had documented.#cn()
+      Acting on the NTSB's findings, the Navy also moved to replace the
+      touch-screen throttle and helm controls with physical throttles and a
+      traditional wheel — an admission that the interface, not only the
+      people, had been part of the failure. Commanding officers and senior
+      watchstanders were relieved and disciplined, and the Navy stood up a
+      dedicated command in Japan to oversee the readiness of its
+      forward-deployed ships, so that certification and training could no
+      longer be quietly traded away for operational tempo. The case opens
+      this book because it shows both how far a capability system can erode
+      before anyone notices and what it costs to rebuild one after the fact
+      rather than before — when the bill arrives not as a budget line but as
+      a casualty list.
+    ],
+  ),
+  references: (
+    [#link("https://features.propublica.org/navy-accidents/us-navy-crashes-japan-cause-mccain/")[T. C. Miller, M. Faturechi & R. Rotella, "Years of Warnings, Then Death and Disaster: How the Navy Failed Its Sailors," _ProPublica_ (2019)] — documents the 2003 shift from the in-person SWOS course to self-study CD-ROMs.],
+    [U.S. Government Accountability Office, _Navy Readiness: Actions Needed to Address Persistent Maintenance, Training, and Other Challenges Affecting the Fleet_, #link("https://www.gao.gov/products/gao-17-809t")[GAO-17-809T] (Sept. 2017) — 37% of Japan-based cruiser/destroyer warfare certifications expired as of June 2017.],
+    [National Transportation Safety Board, _Collision between USS Fitzgerald and MV ACX Crystal_, #link("https://www.ntsb.gov/investigations/AccidentReports/Reports/MAR2002.pdf")[NTSB/MAR-20/02] (2020), case DCA17PM018 — sequence and probable cause.],
+    [National Transportation Safety Board, _Collision between USS John S. McCain and Tanker Alnic MC_, #link("https://www.ntsb.gov/investigations/AccidentReports/Reports/MAR1901.pdf")[NTSB/MAR-19/01] (2019), case DCA17PM029 — sequence of events.],
+    [U.S. Navy, _Comprehensive Review of Recent Surface Force Incidents_ (Nov. 2017) — both collisions judged avoidable; deficiencies in seamanship, navigation, and equipment operation.],
+    [NTSB/MAR-19/01 (2019) — analysis and probable cause: insufficient training and inadequate bridge operating procedures stemming from a lack of effective Navy operational oversight.],
+    [#link("https://features.propublica.org/navy-uss-mccain-crash/navy-installed-touch-screen-steering-ten-sailors-paid-with-their-lives/")[R. Rotella et al., "The Navy Installed Touch-Screen Steering Systems to Save Money. Ten Sailors Paid With Their Lives.," _ProPublica_ (2019)] — the McCain's ship-control console design.],
+    [U.S. Navy, _Strategic Readiness Review_ (Dec. 2017) — systemic erosion of readiness; risks that "accumulated over time and did so insidiously."],
+    [U.S. Navy, _Comprehensive Review_ (2017), corrective actions; NTSB/MAR-19/01 safety recommendations; #link("https://news.usni.org/2020/09/03/ntsb-unexplained-course-change-was-a-critical-error-in-fatal-uss-fitzgerald-collision")[USNI News] coverage of the reforms (2017–2020).],
+  ),
   quote: [The risks that were taken in the Western Pacific accumulated over time and did so insidiously.],
   quote-source: "U.S. Navy Strategic Readiness Review, 2017",
-  sources-list: (
-    [USN Comprehensive Review of Surface Force Incidents (2017)],
-    [Strategic Readiness Review (2017); NTSB Marine Accident Reports MAR-20/01 (USS McCain, case DCA17PM029) and MAR-20/02 (USS Fitzgerald, case DCA17PM018)],
-    [GAO-20-154; GAO-21-168],
-    [USNI News, Fitzgerald & McCain coverage (2017–2020)],
-  ),
   le-insight: [
     Fitzgerald/McCain is the canonical Training Gap case because the gap was
     invisible from inside the system. Operational tempo and self-study
     "training" combined to produce a fleet whose stated readiness and actual
-    readiness diverged for more than a decade. Eight sailors died on
-    Fitzgerald; nine on McCain. The cost of the divergence was paid in lives
-    long after it could have been measured in dollars.
+    readiness diverged for more than a decade. Seven sailors died on
+    Fitzgerald; ten on McCain. The cost of the divergence was paid in lives
+    long after it could have been measured in dollars or inspections.
   ],
   lens-approach: [
     LENS treats this as the worked example of LEN 5 (Human Capability
@@ -73,13 +181,13 @@
     training.
   ],
   literature-items: (
-    [GAO-20-154, _Navy Readiness_ (2020)],
+    [GAO-17-809T, _Navy Readiness_ (2017)],
     [Rasmussen (1997), "Risk management in a dynamic society"],
     [Snook, _Friendly Fire_ (2000)],
   ),
   reflection-list: (
-    [The Navy replaced 16 weeks of classroom and simulator training with CD-ROM self-study in 2003. What measurement would have detected the capability shortfall before 2017?],
-    [Strategic Readiness Review found the readiness-reporting system had itself stopped working. Design a capability-evidence pipeline that would not normalize its own gaps.],
+    [The Navy replaced classroom and simulator instruction with CD-ROM self-study in 2003. What measurement would have detected the capability shortfall before 2017?],
+    [The Strategic Readiness Review found the readiness-reporting system had itself stopped working. Design a capability-evidence pipeline that would not normalize its own gaps.],
   ),
   courses: ("LEN 1", "LEN 5", "LEN 8", "LEN 3",),
 )
