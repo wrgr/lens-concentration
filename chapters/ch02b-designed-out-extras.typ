@@ -16,9 +16,9 @@
   impact: "Fatalities attributed to rear-impact fuel-tank fires; foundational case in U.S. engineering ethics",
   diagram: dgm.dgm-stat(
     "$11",
-    "per car · the fix Ford declined",
-    micro: "an internal cost-benefit calculated against projected wrongful-death settlements",
-    caption: "Pinto — the price of a designed-out safety capability",
+    "per car · the fix of legend",
+    micro: "the cost-benefit story is largely myth — the memo behind it was a fleet-wide rollover submission, not a Pinto ledger",
+    caption: "Pinto — the cost-benefit story that became myth",
   ),
   kind: "failure",
   summary: [
@@ -376,7 +376,7 @@
   year: "1999",
   domains-list: ("space",),
   modes-code: "DK",
-  impact: "$327M spacecraft lost on approach to Mars; ground software produced thrust output in pound-force while navigation expected newtons",
+  impact: "~$125M spacecraft lost on approach to Mars; ground software produced thrust output in pound-force while navigation expected newtons",
   diagram: dgm.dgm-flow(
     ("Lockheed\nlbf·s", "interface", "NASA\nN·s", "trajectory error", "burnup"),
     framing: "no owner of the interface specification",
@@ -391,7 +391,7 @@
     factor of about 4.45 — was never applied at the boundary between the two
     teams, so every trajectory correction was mis-modeled and the error
     accumulated over the cruise. The orbiter arrived too low, into the
-    atmosphere, and burned up; the mission and its ~\$300 million were lost to
+    atmosphere, and burned up; the orbiter and its ~\$125 million were lost to
     a unit mismatch. The investigation found no individual blunder — both
     contractors did their own work correctly. What failed was the interface
     between them, which had no owner, specification, or verification step. It
@@ -415,8 +415,8 @@
       factor of about 4.45 — was never applied at the boundary. Each firing
       was mis-modeled by that factor, and the error accumulated over the long
       cruise. When the orbiter reached Mars on 23 September 1999 it arrived
-      far too low, deep into the atmosphere, and was destroyed. The mission,
-      and its roughly \$300 million, were lost to a unit conversion.#cn()
+      far too low, deep into the atmosphere, and was destroyed. The orbiter,
+      and its roughly \$125 million, were lost to a unit conversion.#cn()
     ],
     // -- The Investigation --
     [

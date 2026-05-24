@@ -282,8 +282,9 @@
       It took eighteen months and the intervention of Admiral Charles
       Lockwood, commander of the Pacific submarine force, who ordered
       fleet-level testing. A live-fire trial — and the USS Tinosa's
-      July 1943 attack on the Tonan Maru, in which fifteen hits produced
-      a single detonation — forced the issue. The tests confirmed the
+      July 1943 attack on the Tonan Maru, in which eleven torpedoes struck
+      the stopped ship squarely and failed to detonate — forced the issue.
+      The tests confirmed the
       torpedo ran about ten feet too deep, that the Mark 6 magnetic
       exploder failed routinely, and that the contact pin buckled on
       perpendicular impact.#cn()
@@ -311,7 +312,7 @@
   references: (
     [Blair, C. (1975), _Silent Victory: The U.S. Submarine War Against Japan_ — operator reports and the Bureau's resistance (paraphrased).],
     [Rowland, B. & Boyd, W. (1953), _U.S. Navy Bureau of Ordnance in World War II_ — testing policy and the three defects.],
-    [Blair (1975) — the USS Tinosa's July 1943 attack (fifteen hits, one detonation) and Lockwood's fleet-level testing.],
+    [Blair (1975) — the USS Tinosa's July 1943 attack (eleven consecutive duds on a stopped target) and Lockwood's fleet-level testing.],
     [Naval History and Heritage Command, Mark 14 torpedo files — depth error, Mark 6 magnetic exploder, contact-pin failure.],
     [Edmondson, A. (2018), _The Fearless Organization_ — suppression of field reports as an organizational-learning failure.],
   ),
@@ -344,7 +345,7 @@
   reflection-list: (
     [Identify a system in your domain whose owners are institutionally insulated from the operators using it. What feedback would they refuse to hear, and what would it cost?],
     [Design the operator-feedback channel that the U.S. Navy Bureau of Ordnance should have had in 1941. Who signs, who receives, what triggers action?],
-    [The USS Tinosa fired fifteen torpedoes for one detonation before the bureau accepted the diagnosis. What is the operator-evidence threshold in your domain that would force the equivalent institutional acknowledgment — and how would you make sure it is reached before the cost is paid?],
+    [The USS Tinosa fired a string of torpedoes that struck a stopped ship and failed to detonate before the bureau accepted the diagnosis. What is the operator-evidence threshold in your domain that would force the equivalent institutional acknowledgment — and how would you make sure it is reached before the cost is paid?],
   ),
   courses: ("LEN 10", "LEN 7", "LEN 8"),
 )

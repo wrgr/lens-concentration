@@ -162,6 +162,88 @@ conversion:
   intentionally open/forward-looking; its "references" point to the
   discipline's literature and the volume itself rather than to an incident.
 
+### Independent citation & quote verification pass (all 100 cases)
+
+An independent fact-check was run across all nine chapters — every case's
+direct quotes (verbatim wording + attribution), citation identifiers, and
+headline statistics checked against authoritative web sources rather than
+the book's own text. The pass confirmed the large majority of citations,
+report numbers, and quotes as correct. The following corrections were
+applied:
+
+- **Case 10 (Healthcare.gov):** "29,000 enrollments in two months" replaced
+  with the documented "~27,000 federal-marketplace enrollments in the first
+  month" against a 7M first-year target.
+- **Case 14 (Keystone ICU):** cost saved corrected \$75M → **~\$100M** (the
+  widely reported 18-month figure; \$75M was unsupported).
+- **Case 16 (INPO):** dropped the unverified attribution of "smugness" to
+  the _Bulletin of the Atomic Scientists_; now attributes the pre-TMI
+  "mindset" of complacency to the Kemeny Commission.
+- **Case 23 (Korean Air):** KAL 801 death toll 229 → **228** (NTSB AAR-00/01).
+- **Case 28 (Rickover):** the "people, not organizations… get things done"
+  quote re-attributed from "Congressional testimony, 1979" to Rickover's
+  **"Doing a Job," Columbia University, 1982** (its actual source; verbatim).
+- **Case 33 (Fratricide):** standardized the Desert Storm KIA figure to
+  **35 of 146** (USNI _Proceedings_); the impact line had said "of 148."
+- **Case 37 (ed. predictive analytics):** corrected a conflated citation —
+  the JPAM (2025) racial-calibration-bias paper is **Bird et al.**, while
+  the **Gándara et al.** work is _AERA Open_ (2024); both now cited
+  correctly. Baker & Hawn pull quote restored to its verbatim wording
+  ("educational systems"), venue added (_IJAIED_ 2021).
+- **Case 45 (Mark 14 torpedo):** "fifteen hits produced a single
+  detonation" corrected to the accurate USS Tinosa fact — a string of
+  torpedoes that **struck a stopped ship and failed to detonate** (the
+  famous run of duds).
+- **Case 51 (Ford Pinto):** the diagram caption no longer asserts the "\$11
+  cost-benefit" story the case explicitly debunks; reframed as the myth.
+- **Case 54 (Mars Climate Orbiter):** loss figure corrected \$327M / "~\$300M"
+  → **~\$125M** (the orbiter; \$327.6M was the two-spacecraft program total).
+- **Case 57 (Davis-Besse):** NRC OIG report re-dated 2003 → **2002**
+  (Case 02-03S, Dec 2002); the "not adequate to ensure… safety" line, which
+  could not be confirmed verbatim, is now paraphrased.
+- **Case 62 (Northeast Blackout):** affected population 55M → **50M** to
+  match the primary U.S.–Canada Task Force report.
+- **Case 63 (Eastern 401):** a reference mislabeled a paraphrase as a
+  verbatim NTSB quote; relabeled (paraphrased).
+- **Case 65 (CrowdStrike):** Preliminary PIR re-dated August → **July 2024**
+  (the August doc is the separate Root Cause Analysis); the pull quote,
+  not confirmed verbatim, is now marked "Paraphrasing."
+- **Case 66 (Petrov):** "five Minuteman ICBMs" corrected to **one ICBM, then
+  four more** (the Oko sequence; type was not identified as Minuteman).
+- **Case 68 (Post Office Horizon):** Williams Inquiry Volume 1 re-dated
+  2024 → **July 2025** (the Offences Act 2024 is unchanged).
+- **Case 70 (Wells Fargo):** the "foreseeable consequence of its incentive
+  compensation structure" line, not found verbatim in the OCC consent
+  order, is now paraphrased and tied to the regulators' and independent-
+  directors' findings.
+- **Case 78 (Saturn V):** NASA SP-4206 re-attributed to its real author and
+  title — **Roger E. Bilstein, _Stages to Saturn_ (1980)** (was "R. Dunbar,
+  _History of the Saturn V_").
+- **Case 79 (Boeing Starliner):** the "significant readiness shortfalls"
+  quote attributed to a non-existent "2023 GAO Commercial Crew report" is
+  now an editors' synthesis; references point to real GAO products
+  (GAO-20-121, GAO-19-504) and NASA reviews.
+- **Case 83 (LIBOR):** total fines "more than \$10B" → **"more than \$9B"**
+  (the figure supported by CFR/regulatory tallies).
+- **Case 97 (predictive policing):** Lum & Isaac line was a paraphrase
+  presented as a verbatim quote; relabeled "Paraphrasing."
+- **Case 99 (AI coding):** corrected a misread of **Sandoval et al. (2023)**
+  ("Lost at C"), which found AI assistance did **not** significantly raise
+  critical-bug rates (the book had implied the opposite); the unverifiable
+  _CACM_ (2024) pull quote is now an editors' synthesis, and the fifth
+  reference is the apt Bainbridge, "Ironies of Automation" (1983).
+- **Case 13 (WHO checklist):** the "gaps in teamwork… rich and poor" quote
+  re-attributed from the NEJM paper to **Gawande (Harvard Gazette, Jan
+  2009)**, its actual source.
+- **Case 24 (Toyota Andon):** removed the unsupported "85% within 60
+  seconds" statistic from the impact line.
+- **Case 91 (Singapore Airlines):** vague "IATA OSA retrospectives"
+  quote-source changed to "Editors' synthesis."
+
+After the corrections, `make check` passes for all 100 cases (3 pages,
+references on page 2, marker/reference parity), and all three editions and
+the cover rebuild without Typst errors.
+
 ---
 
 ## Status snapshot

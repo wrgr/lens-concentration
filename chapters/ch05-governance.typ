@@ -133,13 +133,14 @@
   year: "2013",
   domains-list: ("gov",),
   modes-code: "KTG",
-  impact: "29,000 enrollments vs. 7M target in first two months; hundreds of millions in remediation",
+  impact: "~27,000 federal-marketplace enrollments in the first month vs. a 7M first-year target; hundreds of millions in remediation",
   diagram: dgm.dgm-healthcaregov,
   kind: "failure",
   summary: [
     When Healthcare.gov launched on 1 October 2013 it collapsed under load
-    it had never been tested for — 29,000 enrollments in two months against
-    a seven-million target. The people assembled to build it knew insurance
+    it had never been tested for — about 27,000 enrollments through the
+    federal marketplace in its first month against a seven-million first-year
+    target. The people assembled to build it knew insurance
     markets and government programs but not technology product launches; key
     technical roles went unfilled, no office clearly owned the integration
     (CMS thought the contractor CGI was the lead integrator; CGI did not),
@@ -167,7 +168,8 @@
       integrator, and CGI did not share that understanding. No end-to-end
       test was run before launch. The site went live on 1 October 2013 and
       immediately collapsed under load it had never been validated for: about
-      29,000 enrollments in two months against a seven-million target.#cn()
+      about 27,000 enrollments through the federal marketplace in its first
+      month against a seven-million first-year target.#cn()
     ],
     // -- The Investigation --
     [
@@ -979,13 +981,13 @@
   ),
   references: (
     [Surveys of predictive-analytics adoption in U.S. higher education — a large majority of public colleges now use some form.],
-    [D. Gándara et al., equity considerations in predictive completion models, _Journal of Policy Analysis and Management_ (2025) — racial calibration bias and its dependence on the "at-risk" construct. _(Specific magnitudes not re-verified; see AUDIT.)_],
-    [Gándara et al. (2025) — calibration gaps traced to training data encoding historical discrimination.],
-    [R. Baker & A. Hawn, "Algorithmic Bias in Education" (2021) — "poses significant threats to educational equity…" (quoted).],
+    [K. Bird et al., "Are Algorithms Biased in Education? Exploring Racial Bias in Predicting Community College Student Success," _Journal of Policy Analysis and Management_ 44 (2025), 379–402 — racial calibration bias, ~5× higher at the bottom decile depending on the "at-risk" construct.],
+    [D. Gándara, H. Anahideh, M. Ison & L. Picchiarini, "Inside the Black Box: Detecting and Mitigating Algorithmic Bias across Racialized Groups in College Student-Success Prediction," _AERA Open_ (2024) — bias traced to training data encoding historical discrimination.],
+    [R. Baker & A. Hawn, "Algorithmic Bias in Education," _International Journal of Artificial Intelligence in Education_ (2021) — "poses significant threats to educational equity…" (quoted).],
     [Analyses of deficit framing and the interpretation of "at-risk" flags by faculty.],
     [Cf. UK A-Level / Ofqual (Case 35); V. Eubanks, _Automating Inequality_ (2018).],
   ),
-  quote: [Algorithmic bias in education poses significant threats to educational equity, potentially amplifying existing social and economic disparities.],
+  quote: [Algorithmic bias in educational systems poses significant threats to educational equity, potentially amplifying existing social and economic disparities.],
   quote-source: "Baker & Hawn, 2021",
   le-insight: [
     Educational predictive analytics is the ongoing live case for
@@ -1003,7 +1005,7 @@
     technical bias-mitigation methods.
   ],
   literature-items: (
-    [Gándara et al. (2025), _JPAM_],
+    [Bird et al. (2025), _JPAM_; Gándara et al. (2024), _AERA Open_],
     [Baker & Hawn (2021) on algorithmic bias in education],
     [Friedman & Nissenbaum (1996), "Bias in Computer Systems"],
   ),

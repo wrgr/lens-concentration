@@ -175,9 +175,9 @@
       — a deferral of a mandatory inspection (NRC Bulletin 2001-01) so it
       would align with the plant's February 2002 outage.#cn() The NRC's
       Office of Inspector General later found the agency had inappropriately
-      weighted the utility's economic arguments over safety: "the NRC's
-      actions were not adequate to ensure that safety would not be
-      compromised."#cn()
+      weighted the utility's economic arguments over safety — its oversight,
+      the OIG concluded, had not been adequate to ensure that safety would
+      not be compromised.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -200,15 +200,15 @@
     ],
   ),
   references: (
-    [U.S. NRC Office of Inspector General, _NRC's Regulation of Davis-Besse Regarding Damage to the Reactor Vessel Head_ (Lessons-Learned report, 2003) — the post-TMI regulatory regime and oversight failures.],
-    [NRC event records and OIG (2003) — the ~6-inch corrosion cavity, the remaining cladding, and the 2,200-psi coolant margin.],
+    [U.S. NRC Office of Inspector General, _NRC's Regulation of Davis-Besse Regarding Damage to the Reactor Vessel Head_ (Case No. 02-03S, December 2002) — the post-TMI regulatory regime and oversight failures.],
+    [NRC event records and OIG (2002) — the ~6-inch corrosion cavity, the remaining cladding, and the 2,200-psi coolant margin.],
     [NRC Bulletin 2001-01 and the FirstEnergy inspection-deferral decision aligned to the February 2002 outage.],
-    [NRC OIG (2003) — economic arguments weighted over safety; "the NRC's actions were not adequate to ensure that safety would not be compromised" (quoted).],
+    [NRC OIG (2002) — economic arguments weighted over safety, and the finding that NRC oversight had not been adequate to ensure safety (paraphrased).],
     [D. Lochbaum / Union of Concerned Scientists analysis (2002); U.S. GAO, GAO-04-415 (2004).],
     [J. V. Rees, _Hostages of Each Other_ (1994) — INPO and the fragility of institutional safety capability.],
   ),
   quote: [The NRC's actions were not adequate to ensure that safety would not be compromised.],
-  quote-source: "NRC Office of Inspector General, 2003",
+  quote-source: "Paraphrasing the NRC Office of Inspector General Davis-Besse report, 2002",
   le-insight: [
     Davis-Besse is the case for how regulator-operator dynamics can
     erode the capability of an industry that had previously
@@ -223,7 +223,7 @@
     re-engineering.
   ],
   literature-items: (
-    [NRC OIG Davis-Besse report (2003)],
+    [NRC OIG Davis-Besse report (2002)],
     [Lochbaum (UCS) analyses],
     [Rees (1994), _Hostages of Each Other_],
   ),
@@ -683,7 +683,7 @@
   year: "2003",
   domains-list: ("energy",),
   modes-code: "HK",
-  impact: "55 million people without power across eight U.S. states and Ontario; $6B+ economic loss; FERC Order 693 followed",
+  impact: "50 million people without power across eight U.S. states and Ontario; $6B+ economic loss; FERC Order 693 followed",
   diagram: dgm.dgm-timeline(
     (("tree contact", "12:15"), ("line trips", "—"), ("alarm fails", "silent"), ("operator unaware", "1 hour"), ("cascade", "4:11")),
     emphasis: 2,
@@ -696,7 +696,7 @@
     FirstEnergy's control-room alarm system had been silently failing for
     over an hour, so operators did not know the line was gone. Further lines
     tripped, and a cascade swept across the Eastern Interconnection; within
-    minutes 55 million people across eight U.S. states and Ontario lost
+    minutes 50 million people across eight U.S. states and Ontario lost
     power, at a cost above \$6 billion. The U.S.-Canada task force found
     FirstEnergy lacked situational awareness, its alarm system had failed
     without notice, vegetation management was poor, and the regional
@@ -719,7 +719,7 @@
       With the alarms silent, operators did not know the line was gone and so
       did not take the corrective steps that would have contained it. Further
       lines tripped and a cascade swept across the interconnection; within
-      minutes 55 million people across eight states and Ontario lost power,
+      minutes 50 million people across eight states and Ontario lost power,
       at a cost above \$6 billion.#cn()
     ],
     // -- The Investigation --
@@ -753,7 +753,7 @@
   ),
   references: (
     [U.S.-Canada Power System Outage Task Force, _Final Report on the August 14, 2003 Blackout in the United States and Canada_ (2004) — the tree contact, the silent alarm, and the cascade.],
-    [Task Force (2004) — 55 million people affected across eight states and Ontario; the minute-by-minute sequence.],
+    [Task Force (2004) — 50 million people affected across eight states and Ontario; the minute-by-minute sequence.],
     [Task Force (2004) — FirstEnergy "did not have adequate situational awareness," plus the vegetation-management and reliability-coordinator findings (quoted).],
     [FERC Order No. 693, _Mandatory Reliability Standards for the Bulk-Power System_ (2007) — enforceable standards.],
     [North American Electric Reliability Council reports (2004) and the creation of the Electric Reliability Organization.],

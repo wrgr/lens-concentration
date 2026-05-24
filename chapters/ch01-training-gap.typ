@@ -717,7 +717,7 @@
   year: "1991 – 2014",
   domains-list: ("defense",),
   modes-code: "THK",
-  impact: "24% of U.S. KIA in Desert Storm from friendly fire (35 of 148, per the DoD friendly-fire report) — an order of magnitude above the historical baseline",
+  impact: "24% of U.S. KIA in Desert Storm from friendly fire (35 of 146) — an order of magnitude above the historical baseline",
   diagram: dgm.dgm-fratricide,
   kind: "failure",
   summary: [

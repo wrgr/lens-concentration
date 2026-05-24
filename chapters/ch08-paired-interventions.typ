@@ -135,7 +135,7 @@
   year: "2004 – present",
   domains-list: ("healthcare",),
   modes-code: "TN",
-  impact: "Central-line-associated bloodstream infections (CLABSI) reduced to near zero across 103 Michigan ICUs; ~1,500 lives saved in 18 months; ~$75M saved; sustained at ten years",
+  impact: "Central-line-associated bloodstream infections (CLABSI) reduced to near zero across 103 Michigan ICUs; ~1,500 lives saved in 18 months; ~$100M saved; sustained at ten years",
   diagram: dgm.dgm-keystone,
   kind: "intervention",
   summary: [
@@ -148,7 +148,7 @@
     change: nurses were not merely permitted but required to stop the
     procedure if a step was skipped. That authorization was the
     load-bearing element. Central-line-associated bloodstream infections
-    fell to near zero, an estimated 1,500 lives and \$75 million were saved
+    fell to near zero, an estimated 1,500 lives and \$100 million were saved
     in eighteen months, and the effect was sustained at ten years.
   ],
   sections: (
@@ -183,7 +183,7 @@
       Across the Michigan ICUs, the median quarterly CLABSI rate fell to
       zero, and the state's units outperformed 90 percent of ICUs
       nationwide. The program was estimated to have saved roughly 1,500
-      lives and \$75 million within eighteen months. Results were published
+      lives and \$100 million within eighteen months. Results were published
       in the _New England Journal of Medicine_ in 2006, and follow-up
       showed the effect sustained at ten years.#cn()
     ],
@@ -257,7 +257,7 @@
     set training and certification standards, accredited every plant's
     programs through the National Academy for Nuclear Training, and ran
     peer evaluations in which operators from one utility scrutinized
-    another's control rooms and records. The pre-TMI culture of "smugness"
+    another's control rooms and records. The pre-TMI culture of complacency
     gave way to mandated vigilance. No U.S. commercial reactor has had a
     significant INES-level event since.
   ],
@@ -266,10 +266,9 @@
     [
       The 1979 partial meltdown at Three Mile Island exposed not just a
       plant-level failure but an industry with no shared mechanism for
-      learning. The Kemeny Commission found a pervasive culture the
-      _Bulletin of the Atomic Scientists_ later called "smugness," in which
-      each utility operated alone and no institution carried lessons from
-      one plant to the rest.#cn()
+      learning. The Kemeny Commission traced the accident in part to a
+      pervasive "mindset" of complacency, in which each utility operated
+      alone and no institution carried lessons from one plant to the rest.#cn()
     ],
     // -- The Intervention --
     [

@@ -425,7 +425,7 @@
     [Weick & Sutcliffe (2007), _Managing the Unexpected_ — sustained high-reliability investment.],
   ),
   quote: [Singapore Airlines has consistently invested in safety capability ahead of regulatory minimums.],
-  quote-source: "IATA Operational Safety Audit retrospectives",
+  quote-source: "Editors' synthesis on Singapore Airlines' sustained safety investment",
   le-insight: [
     Singapore Airlines is the case for sustained capability investment
     in a competitive industry. The carrier has chosen safety

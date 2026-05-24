@@ -13,7 +13,7 @@
   year: "2003 – 2012",
   domains-list: ("gov", "tech"),
   modes-code: "GN",
-  impact: "Major banks fined more than $10B; the benchmark underlying ~$350T of contracts was manipulable; replaced by SOFR",
+  impact: "Major banks fined more than $9B; the benchmark underlying ~$350T of contracts was manipulable; replaced by SOFR",
   diagram: dgm.dgm-compare(
     "LIBOR",
     "estimates",
@@ -33,7 +33,7 @@
     was later laid bare in subpoenaed trader-and-submitter messages. The
     capability gap was in the design of the benchmark itself: it asked for
     declarations, not observations, and the architecture invited gaming.
-    Regulators levied more than \$10 billion in fines, and LIBOR was
+    Regulators levied more than \$9 billion in fines, and LIBOR was
     eventually replaced by SOFR, a rate built from actual transactions.
     The reform changed the unit of measurement, not just the rules.
   ],
@@ -59,7 +59,7 @@
     [
       Investigations by the U.S. Department of Justice, UK regulators, and
       others produced settlements with Barclays, UBS, Deutsche Bank, RBS,
-      and others totalling more than \$10 billion. The UK Treasury
+      and others totalling more than \$9 billion. The UK Treasury
       commissioned the Wheatley Review, which concluded that the
       benchmark's reliance on subjective estimates rather than
       transactions was the structural flaw that made manipulation possible.#cn()

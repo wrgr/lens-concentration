@@ -81,14 +81,14 @@
     ],
   ),
   references: (
-    [Haynes, A. et al. (2009), "A Surgical Safety Checklist to Reduce Morbidity and Mortality," _NEJM_ — the 1.5%→0.8% result and the quoted framing.],
+    [Haynes, A. et al. (2009), "A Surgical Safety Checklist to Reduce Morbidity and Mortality," _NEJM_ — the 1.5%→0.8% result and major-complication reduction.],
     [WHO Safe Surgery Saves Lives campaign documentation — the nineteen-item checklist and the three junctures.],
     [Gawande, A. (2009), _The Checklist Manifesto_ — the pause as the active mechanism.],
     [Urbach, D. et al. (2014), "Introduction of Surgical Safety Checklists in Ontario, Canada," _NEJM_ — null mortality result after mandate.],
     [Bosk, C. et al. (2009), "Reality check for checklists," _The Lancet_ — implementation fidelity.],
   ),
   quote: [Gaps in teamwork and safety practices in surgery are substantial in countries both rich and poor.],
-  quote-source: "Haynes, Weiser, Berry et al., NEJM, 2009",
+  quote-source: "Atul Gawande, Harvard Gazette, January 2009",
   le-insight: [
     The Surgical Safety Checklist is the canonical evidence that a tiny
     artifact — one page, nineteen items — can produce population-scale
@@ -240,7 +240,7 @@
     Between 1970 and 1999, Korean Air had one of the worst safety records
     in commercial aviation — a loss rate roughly seventeen times United's,
     more than 700 lives lost — and after the 1997 Guam crash of Flight 801
-    killed 229, the president of South Korea called it "an embarrassment to
+    killed 228, the president of South Korea called it "an embarrassment to
     the nation." The NTSB traced root causes to cockpit authority
     gradients: junior officers were culturally unable to challenge a
     captain's errors. In 2000, Korean Air brought in Delta's David
@@ -256,7 +256,7 @@
       From 1970 to 1999, Korean Air suffered repeated fatal crashes — a
       loss rate roughly seventeen times United Airlines', with over 700
       lives lost. The NTSB's investigation of the 1997 Guam crash of Flight
-      801, which killed 229, identified steep cockpit authority gradients
+      801, which killed 228, identified steep cockpit authority gradients
       as a root cause: junior officers were culturally unable to challenge
       a captain's erroneous decisions in time.#cn()
     ],
@@ -339,7 +339,7 @@
   year: "1950s – present",
   domains-list: ("industrial",),
   modes-code: "NG",
-  impact: "85% of andon activations resolved within 60 seconds; defect-propagation cost minimized; the system adopted globally",
+  impact: "Front-line authority to stop the line resolves most defects quickly at the source; defect-propagation cost minimized; the system adopted globally",
   diagram: dgm.dgm-andon,
   kind: "intervention",
   summary: [
@@ -624,12 +624,12 @@
   references: (
     [Polmar, N. & Allen, T. (2007), _Rickover: Father of the Nuclear Navy_ — the program and Rickover's philosophy (paraphrased).],
     [Naval Nuclear Propulsion Program documentation (NRC/DOE) — qualification standards and the accident record.],
-    [Admiral Hyman G. Rickover, Congressional testimony (1979) — "people, not organizations… get things done" (quoted).],
+    [Admiral Hyman G. Rickover, "Doing a Job" (Columbia University commencement address, 1982) — "people, not organizations… get things done" (quoted).],
     [GAO-21-168, comparison of nuclear and surface Navy training — the internal contrast.],
     [Duncan, F. (1990), _Rickover and the Nuclear Navy_ — the qualification culture.],
   ),
   quote: [Human experience shows that people, not organizations or management systems, get things done.],
-  quote-source: "Paraphrasing Admiral Hyman G. Rickover, Congressional testimony, 1979",
+  quote-source: "Admiral Hyman G. Rickover, \"Doing a Job,\" Columbia University, 1982",
   le-insight: [
     The Nuclear Navy is the longest-running continuous capability-
     engineering program in any high-consequence domain. The choice to

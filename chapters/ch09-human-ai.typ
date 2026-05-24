@@ -248,8 +248,8 @@
     "white",
     0.235,
     "Black",
-    0.447,
-    framing: "false-positive rate by group (ProPublica 2016): 23.5% vs 44.7%",
+    0.449,
+    framing: "false-positive rate by group (ProPublica 2016): 23.5% vs 44.9%",
     caption: "COMPAS — accuracy is not the same question as distribution of errors",
   ),
   kind: "frontier",
@@ -258,7 +258,7 @@
     jurisdictions to inform bail, sentencing, and parole. A 2016 ProPublica
     investigation found Black defendants were nearly twice as likely as
     white defendants to be wrongly flagged high-risk (a false-positive rate
-    of about 44.7% versus 23.5%), while white defendants were more often
+    of about 44.9% versus 23.5%), while white defendants were more often
     wrongly flagged low-risk. The vendor responded that COMPAS satisfied
     predictive parity — equal calibration within each group. The literature
     that followed (Chouldechova 2017; Kleinberg, Mullainathan & Raghavan
@@ -283,7 +283,7 @@
       A 2016 ProPublica investigation analyzed COMPAS scores against actual
       reoffense outcomes and found a racial asymmetry in the errors: Black
       defendants were roughly twice as likely as white defendants to be
-      incorrectly flagged as high-risk (about 44.7% versus 23.5%), while
+      incorrectly flagged as high-risk (about 44.9% versus 23.5%), while
       white defendants were more often incorrectly flagged as low-risk.#cn()
     ],
     // -- The Capability Question --
@@ -668,14 +668,14 @@
     ],
   ),
   references: (
-    [Lum, K. & Isaac, W. (2016), "To Predict and Serve?," _Significance_ — the enforcement-vs-crime feedback loop (quoted).],
+    [Lum, K. & Isaac, W. (2016), "To Predict and Serve?," _Significance_ — the enforcement-vs-crime feedback loop (paraphrased).],
     [Richardson, Schultz & Crawford (2019), "Dirty Data, Bad Predictions" — biased records feeding predictive systems.],
     [Brantingham et al. (2018) — predictive-policing field experiments.],
     [Brayne, S. (2017), "Big Data Surveillance: The Case of Policing."],
     [Municipal records on suspension and abandonment of predictive policing (Santa Cruz, New Orleans, Los Angeles).],
   ),
   quote: [Predictive policing systems learn from a record of past policing, not from a record of past crime.],
-  quote-source: "Lum & Isaac, Significance, 2016",
+  quote-source: "Paraphrasing Lum & Isaac, Significance, 2016",
   le-insight: [
     Predictive policing is the canonical case for the difference
     between training data and ground truth at law-enforcement scale.
@@ -832,10 +832,11 @@
     — represent the largest real-time experiment in human-AI collaboration
     in this book, with tens of millions of developers using them daily.
     Published studies (Peng et al. 2023) document real short-term
-    productivity gains; other work (Pearce et al. 2022; Sandoval et al.
-    2023) finds the tools also produce code with measurable
-    security-vulnerability and correctness issues that developers accept at
-    higher rates than comparable human-written code. The capability
+    productivity gains; other work (Pearce et al. 2022) finds a substantial
+    share of AI-generated completions in security-sensitive settings contain
+    vulnerabilities, though a controlled study (Sandoval et al. 2023) found
+    AI assistance did not significantly raise the rate of critical security
+    bugs. The capability
     question is open: are developers becoming more capable, or more
     dependent? The short-term gains are real; the long-term consequences —
     especially for those who learn the craft with these tools always
@@ -855,10 +856,11 @@
     [
       Two findings are accumulating in parallel. Controlled studies (Peng
       et al. 2023) document real short-term productivity gains. At the same
-      time, security analyses (Pearce et al. 2022; Sandoval et al. 2023)
-      find that the tools generate code with measurable vulnerability and
-      correctness rates — and that developers accept this code at higher
-      rates than they accept comparable code from other developers.#cn()
+      time, the security picture is unsettled: Pearce et al. (2022) found a
+      substantial fraction of Copilot completions in security-relevant
+      scenarios contained vulnerabilities, while a controlled study by
+      Sandoval et al. (2023) found AI assistance did not significantly
+      increase the rate of critical security bugs.#cn()
     ],
     // -- The Capability Question --
     [
@@ -891,12 +893,12 @@
   references: (
     [Peng et al. (2023), "The Impact of AI on Developer Productivity" — short-term productivity gains.],
     [Pearce et al. (2022), "Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions."],
-    [Sandoval et al. (2023) — security analyses of AI-generated code and developer acceptance rates.],
+    [Sandoval et al. (2023), "Lost at C," USENIX Security — AI assistance did not significantly increase critical security-bug rates.],
     [Dell'Acqua et al. (2023), "Navigating the Jagged Technological Frontier" (HBS / BCG) — professional LLM use.],
-    [_Communications of the ACM_ (2024) — AI assistance and developer knowledge (quoted).],
+    [L. Bainbridge, "Ironies of Automation," _Automatica_ 19(6) (1983) — the classic deskilling and over-reliance problem, applied to AI-augmented work.],
   ),
   quote: [AI assistance changes what developers can do; it may also change what they need to know.],
-  quote-source: "Communications of the ACM, 2024",
+  quote-source: "Editors' synthesis",
   le-insight: [
     AI-augmented coding is the live foundational case for human-AI
     teaming in professional knowledge work. The short-term gains are

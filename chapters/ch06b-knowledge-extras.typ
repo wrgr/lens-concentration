@@ -84,7 +84,7 @@
   ),
   references: (
     [NASA Constellation Program documentation and reviews (2005–2010) — the difficulty of reproducing Saturn V capability.],
-    [R. Dunbar / NASA, _History of the Saturn V_ (NASA SP-4206) — the program and its workforce.],
+    [R. E. Bilstein, _Stages to Saturn: A Technological History of the Apollo/Saturn Launch Vehicles_ (NASA SP-4206, 1980) — the program and its workforce.],
     [The documentation-vs-capability distinction (editors' synthesis of the Saturn V record).],
     [M. Polanyi, _The Tacit Dimension_ (1966); I. Nonaka & H. Takeuchi, _The Knowledge-Creating Company_ (1995).],
     [J. S. Brown & P. Duguid, _The Social Life of Information_ (2000) — tacit and institutional knowledge.],
@@ -191,15 +191,15 @@
     ],
   ),
   references: (
-    [U.S. GAO, Commercial Crew Program reports (2018–2024) — "significant readiness shortfalls across multiple engineering disciplines" (quoted).],
+    [U.S. GAO, _NASA Commercial Crew Program_, GAO-20-121 (Jan. 2020) and GAO-19-504 (2019) — schedule slips and technical risks across the program.],
     [The Starliner test history — 2019 software errors, 2021 valve scrub, and the 2024 crewed flight and ISS stay.],
-    [GAO (2023) — capability erosion across software, valves, propulsion, and integration testing.],
+    [NASA reviews and reporting on the Starliner test program — issues across software, valves, propulsion, and integration testing (editors' synthesis).],
     [NASA Aerospace Safety Advisory Panel reports (2020–2024) — the institutional and generational factors.],
     [The 2024–2025 return of the Starliner crew aboard a SpaceX vehicle.],
     [Cf. Saturn V (Case 78); N. Augustine, _Augustine's Laws_ (1986).],
   ),
   quote: [Starliner has demonstrated significant readiness shortfalls across multiple engineering disciplines.],
-  quote-source: "GAO Report on Commercial Crew Program, 2023",
+  quote-source: "Editors' synthesis of GAO and NASA reviews of the Commercial Crew Program",
   le-insight: [
     Starliner is the case for sustained capability erosion at a legacy
     contractor whose track record had previously been definitive. The
@@ -212,7 +212,7 @@
     interface capability that has thinned over decades.
   ],
   literature-items: (
-    [GAO Commercial Crew reports (2018–2024)],
+    [GAO Commercial Crew reports (GAO-19-504; GAO-20-121)],
     [NASA Aerospace Safety Advisory Panel reports],
     [Augustine, _Augustine's Laws_ (1986)],
   ),

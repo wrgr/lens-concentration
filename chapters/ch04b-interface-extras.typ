@@ -84,7 +84,7 @@
   references: (
     [NTSB, _Aircraft Accident Report: Eastern Air Lines Flight 401_, NTSB-AAR-73-14 (1973) — the night approach and full flight deck.],
     [NTSB-AAR-73-14 (1973) — the landing-gear-bulb fixation, the inadvertent autopilot disengagement, and 101 deaths of 176 aboard.],
-    [NTSB-AAR-73-14 (1973) — the crew "became so engrossed in the landing-gear difficulty that they failed to maintain altitude" (quoted).],
+    [NTSB-AAR-73-14 (1973) — the crew's preoccupation with the landing-gear indication that distracted them from maintaining altitude (paraphrased).],
     [C. D. Wickens et al., _Engineering Psychology and Human Performance_ — attention, monitoring, and alert design.],
     [R. Helmreich & H. Foushee (1993), aircrew-coordination research — the Crew Resource Management origins.],
     [Eastern 401 as a formative case behind CRM (Case 12) and prioritized cockpit alerting standards.],
@@ -273,9 +273,9 @@
     ],
     // -- The Investigation --
     [
-      CrowdStrike's own post-incident review found the content update "did
-      not include the same depth of testing and staged rollout as our code
-      releases." The fault was not exotic: a category boundary in the
+      CrowdStrike's own post-incident review found the content update had
+      not been put through the same depth of testing and staged rollout as
+      its code releases. The fault was not exotic: a category boundary in the
       deployment pipeline — content treated as safer than code — that did not
       match the operational reality, in which a bad content file could crash
       the kernel exactly as bad code could.#cn()
@@ -300,14 +300,14 @@
     ],
   ),
   references: (
-    [CrowdStrike, _Falcon Content Update: Preliminary Post-Incident Review_ (Aug. 2024) — the content-vs-code testing and staged-rollout gap (quoted).],
+    [CrowdStrike, _Falcon Content Update: Preliminary Post-Incident Review_ (July 2024) — the content-vs-code testing and staged-rollout gap (paraphrased).],
     [CrowdStrike PIR (2024) — the configuration-file logic error, the kernel crash, and ~8.5 million affected Windows machines.],
     [Microsoft resilient-engineering analyses and Windows kernel-access review (2024).],
     [U.S. GAO post-incident analysis and Senate Homeland Security hearings (2024) — concentration risk in endpoint security.],
     [B. Beyer et al. (eds.), _Site Reliability Engineering_ (2016) — staged rollout and canarying; cf. Knight Capital (Case 55).],
   ),
   quote: [Our content configuration update process did not include the same depth of testing and staged rollout as our code releases.],
-  quote-source: "CrowdStrike Preliminary Post-Incident Review, August 2024",
+  quote-source: "Paraphrasing CrowdStrike Preliminary Post-Incident Review, July 2024",
   le-insight: [
     The CrowdStrike outage is the live case for what happens when a
     deployment safety architecture treats categories of artifact
@@ -375,11 +375,12 @@
     ],
     // -- What Happened --
     [
-      On the night of 26 September 1983 Oko reported the launch of five U.S.
-      Minuteman ICBMs toward the Soviet Union. Lt. Col. Stanislav Petrov, the
-      duty officer, assessed the signal as a false alarm — a genuine first
-      strike, he reasoned, would involve hundreds of missiles, not five — and
-      reported it as such. He was correct.#cn()
+      On the night of 26 September 1983 Oko reported a U.S. intercontinental
+      ballistic missile launch — then, minutes later, four more, for five in
+      all. Lt. Col. Stanislav Petrov, the duty officer, assessed the signal
+      as a false alarm — a genuine first strike, he reasoned, would involve
+      hundreds of missiles, not five — and reported it as such. He was
+      correct.#cn()
     ],
     // -- The Investigation --
     [

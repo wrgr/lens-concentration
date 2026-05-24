@@ -87,12 +87,12 @@
     [Post Office Horizon IT Inquiry hearings and exhibits (2020– ) — the system, the prosecutions, and the human toll.],
     [_Hamilton & Others v. Post Office Limited_ (Court of Appeal, 2021) — quashed convictions.],
     [Internal Fujitsu and Post Office documents released through litigation — engineers' knowledge of Horizon bugs.],
-    [Sir Wyn Williams, _Post Office Horizon IT Inquiry_, Volume 1 (2024) — senior employees "knew… that Legacy Horizon was capable of error" (quoted).],
+    [Sir Wyn Williams, _Post Office Horizon IT Inquiry_, Volume 1 (July 2025) — senior employees "knew… that Legacy Horizon was capable of error" (quoted).],
     [N. Wallis, _The Great Post Office Scandal_ (2021).],
     [The Post Office (Horizon System) Offences Act 2024 (mass exoneration) and the compensation schemes.],
   ),
   quote: [A number of senior, and not so senior, employees of the Post Office knew, or at the very least should have known, that Legacy Horizon was capable of error.],
-  quote-source: "Sir Wyn Williams, Post Office Horizon IT Inquiry, Volume 1, 2024",
+  quote-source: "Sir Wyn Williams, Post Office Horizon IT Inquiry, Volume 1, July 2025",
   le-insight: [
     Horizon is the canonical case for institutional deference to
     automated systems whose internal evidence was already known to be
@@ -280,9 +280,10 @@
       The 2016 CFPB and OCC actions brought roughly \$3 billion in penalties,
       and the bank's own independent-directors investigation (2017)
       documented how the sales-target architecture drove the misconduct.#cn()
-      As the OCC put it, the practices were "a foreseeable consequence of its
-      incentive compensation structure." The CEO resigned, and the Federal
-      Reserve imposed an unprecedented cap on the bank's assets.#cn()
+      Investigators tied the misconduct directly to the bank's
+      incentive-compensation structure, which had made such sales practices a
+      foreseeable result. The CEO resigned, and the Federal Reserve imposed
+      an unprecedented cap on the bank's assets.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -305,14 +306,14 @@
   ),
   references: (
     [Consumer Financial Protection Bureau, Consent Order against Wells Fargo (2016) — the unauthorized accounts and penalties.],
-    [Office of the Comptroller of the Currency, Consent Order (2016) — "a foreseeable consequence of its incentive compensation structure" (quoted).],
+    [Office of the Comptroller of the Currency, Consent Order AA-EC-2016-66 (2016) — unsafe or unsound sales practices tied to the incentive-compensation structure (paraphrased).],
     [Independent Directors of Wells Fargo, _Sales Practices Investigation Report_ (2017) — how the sales-target architecture drove the conduct.],
     [Enforcement record: ~3.5 million accounts, ~\$3 billion in penalties, and the CEO's resignation.],
     [Federal Reserve asset cap on Wells Fargo (2018) — the structural growth constraint.],
     [A. C. Edmondson, _The Fearless Organization_ (2018); incentive-design and corporate-governance literature.],
   ),
   quote: [Wells Fargo's sales practices were a foreseeable consequence of its incentive compensation structure.],
-  quote-source: "OCC Consent Order, Wells Fargo, 2016",
+  quote-source: "Paraphrasing the 2016 regulatory and independent-directors findings on Wells Fargo",
   le-insight: [
     Wells Fargo is the strongest available evidence that incentive
     architecture is a capability-engineering deliverable. The
