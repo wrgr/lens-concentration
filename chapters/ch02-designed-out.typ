@@ -77,7 +77,7 @@
       showed employees noting that calling MCAS a new function would bring
       "greater certification and training impact" — the cost the program was
       built to avoid, written down years before either crash; a 2016 survey
-      found 39 percent of certification staff felt undue pressure. The House
+      found 39% of certification staff felt undue pressure. The House
       Transportation Committee's 2020 report concluded Boeing's assumption that
       simulator training was unnecessary "diminished safety, minimized the
       value of pilot training, and inhibited technical design improvements,"

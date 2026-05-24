@@ -220,7 +220,7 @@
     // -- The Evidence --
     [
       Across the Michigan ICUs, the median quarterly CLABSI rate fell to
-      zero, and the state's units outperformed 90 percent of ICUs
+      zero, and the state's units outperformed 90% of ICUs
       nationwide. The program was estimated to have saved roughly 1,500
       lives and \$100 million within eighteen months. Results were published
       in the _New England Journal of Medicine_ in 2006, and follow-up

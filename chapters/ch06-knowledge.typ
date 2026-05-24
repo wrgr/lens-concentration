@@ -440,7 +440,7 @@
   summary: [
     Implementation science has a canonical finding: it takes an average of
     about seventeen years for research evidence to reach clinical practice,
-    and only roughly 14 percent of research findings ever make it at all.
+    and only roughly 14% of research findings ever make it at all.
     This is not a single incident but a systemic condition — effective
     interventions exist; the system to adopt, sustain, adapt, and measure
     them at scale does not. Frameworks like the Active Implementation
@@ -466,7 +466,7 @@
     [
       The canonical figures are stark: it takes an average of about seventeen
       years for research evidence to be integrated into clinical practice,
-      and only roughly 14 percent of research findings ever make it at
+      and only roughly 14% of research findings ever make it at
       all.#cn() Read together, the two figures describe a pipeline that is
       both slow and leaky: most of what is learned never reaches the bedside
       at all, and the fraction that does arrives long after the patients who

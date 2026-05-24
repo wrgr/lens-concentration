@@ -839,7 +839,7 @@
   summary: [
     When COVID-19 cancelled the UK's 2020 exams, the regulator Ofqual used an
     algorithm to "standardize" teacher-predicted A-level grades against each
-    school's historical performance. About 39 percent of grades were adjusted
+    school's historical performance. About 39% of grades were adjusted
     downward and roughly 280,000 entries were downgraded; high-achieving
     students at historically low-performing state schools were systematically
     capped by their school's past results, while small-cohort private-school
@@ -864,7 +864,7 @@
     ],
     // -- What Happened --
     [
-      Roughly 39 percent of A-level grades were adjusted downward from
+      Roughly 39% of A-level grades were adjusted downward from
       teacher assessment — about 280,000 entries — with some dropped two or
       more grades, each one a university place or career path put at risk.
       High-achieving students at historically low-performing state schools
@@ -974,7 +974,7 @@
     From 2016 the Australian government automated welfare-debt recovery with
     an income-averaging algorithm that compared welfare records against
     annual tax data spread evenly across the year. That assumption — steady,
-    year-round employment — fit only about 7 percent of recipients; the
+    year-round employment — fit only about 7% of recipients; the
     rest, with irregular work, were misclassified as overpaid. Roughly a
     million debt notices went out, about 470,000 of them later found wholly
     or partly unlawful, with the burden of proof reversed onto recipients
@@ -997,7 +997,7 @@
     // -- What Happened --
     [
       The averaging assumed stable, year-round employment, which fit only
-      about 7 percent of recipients; the other 93 percent, with irregular
+      about 7% of recipients; the other 93%, with irregular
       work, were misclassified as overpaid — so the assumption at the core of
       the method was wrong for almost everyone it touched. Roughly a million
       debt notices were issued, default judgments raised without human review,
@@ -1078,12 +1078,12 @@
   reflection-list: (
     [Robodebt automated a decision that legally required individual review. Identify a current process in your domain at risk of equivalent automation-without-due-process.],
     [Design the accountability artifact that would have to be signed before a Robodebt-equivalent could be deployed.],
-    [Robodebt's income-averaging assumption fit only about 7 percent of recipients, yet ran for four years. What assumption in an automated process you rely on would be wrong for most of the people it touches — and who is responsible for testing it before deployment?],
+    [Robodebt's income-averaging assumption fit only about 7% of recipients, yet ran for four years. What assumption in an automated process you rely on would be wrong for most of the people it touches — and who is responsible for testing it before deployment?],
   ),
   approaches: (
     during: (
       [Establish lawful basis and confirm it before deployment, treating an automated decision regime as bound by the same legal duties as a human one.],
-      [Validate the model's core assumption against the population it will act on, since an averaging rule that fits 7 percent of recipients is a designed-in error.],
+      [Validate the model's core assumption against the population it will act on, since an averaging rule that fits 7% of recipients is a designed-in error.],
       [Keep a human in the loop for consequential decisions and leave the burden of proof where the law puts it, not on the citizen.],
     ),
     after: (

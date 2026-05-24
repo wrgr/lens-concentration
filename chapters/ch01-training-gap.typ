@@ -51,7 +51,7 @@
       to be continuously available, so there was rarely a quiet stretch in
       which to recover a lapsed qualification. In 2003 the Navy replaced its
       in-person Surface Warfare Officers School course with self-study
-      CD-ROMs, "SWOS in a Box."#cn() By 2017 the GAO found 37 percent of the
+      CD-ROMs, "SWOS in a Box."#cn() By 2017 the GAO found 37% of the
       Japan-based ships' warfare certifications — including basic seamanship —
       expired, a fivefold rise since 2015, with the lapses routinely waived
       rather than fixed.#cn()
@@ -593,7 +593,7 @@
     \$1.3 trillion of it in operating and support. The hard part was never
     the airplane but keeping a global fleet ready, and that half has lagged
     from the start. As of March 2023 the fleet's mission-capable rate was
-    about 55 percent, far short of goal, with more than 10,000 components in
+    about 55%, far short of goal, with more than 10,000 components in
     the repair queue and depots behind schedule. GAO traced the shortfall to
     maintainer shortages, the military's lack of access to technical data,
     and contractor dependency, and urged a full reassessment of the
@@ -616,7 +616,7 @@
     // -- What Happened --
     [
       The failure is a standing condition. As of March 2023 the fleet's
-      mission-capable rate was about 55 percent, far short of goal; more
+      mission-capable rate was about 55%, far short of goal; more
       than 10,000 components waited in the repair queue, and the depots
       averaged about 72 days per repair while still behind schedule in
       standing up the capacity to do the work at all — a backlog and a
@@ -874,10 +874,10 @@
   kind: "failure",
   summary: [
     Friendly fire killed an unusual share of coalition forces in the 1991
-    Gulf War: 35 of 146 U.S. combat deaths (24 percent) and 72 of 467
-    wounded (15 percent). (The often-cited "2 percent historical baseline"
+    Gulf War: 35 of 146 U.S. combat deaths (24%) and 72 of 467
+    wounded (15%). (The often-cited "2% historical baseline"
     from Shrader's 1982 study is contested — later estimates run nearer
-    10–15 percent, and Shrader stepped back from it.) Post-war reviews
+    10–15%, and Shrader stepped back from it.) Post-war reviews
     blamed the chaos of combat, weak situational awareness and fire-control
     discipline, and combat-identification failures — and noted the military
     lacked a shared record to even study its own pattern. Fratricide is the
@@ -891,8 +891,8 @@
     [
       Friendly fire is as old as war, but its true rate is hard to pin down.
       The most-cited estimate, from Charles Shrader's 1982 study _Amicicide_,
-      put it under two percent of battle casualties — a figure later analysts
-      challenged as far too low (nearer 10–15 percent), and one Shrader
+      put it under 2% of battle casualties — a figure later analysts
+      challenged as far too low (nearer 10–15%), and one Shrader
       himself stepped back from. The disputed baseline mattered because it
       became the yardstick against which a modern war would be measured — and
       a yardstick set too low makes any later rate look like a catastrophe.#cn()
@@ -900,8 +900,8 @@
     // -- What Happened --
     [
       The 1991 Gulf War made the question grim and concrete: of 146 U.S.
-      service members killed in action, 35 — about 24 percent — died by
-      friendly fire, and 72 of 467 wounded (15 percent) were hit by their own
+      service members killed in action, 35 — about 24% — died by
+      friendly fire, and 72 of 467 wounded (15%) were hit by their own
       side.#cn() An A-10 strike on U.S. LAV-25s near Khafji killed seven
       Marines; a single A-10 attack on British Warrior vehicles killed nine —
       each an aircraft firing on friendly vehicles it had failed to identify,
