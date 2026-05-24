@@ -209,23 +209,43 @@
   {
     eyebrow("References", color: gold)
     v(3pt)
-    set par(leading: 0.45em, first-line-indent: 0pt, hanging-indent: 12pt)
-    for (i, it) in items.pos().enumerate() {
-      block(
-        spacing: 2.5pt,
-        grid(
-          columns: (12pt, 1fr),
-          column-gutter: 4pt,
-          text(font: sans, size: 7pt, weight: "bold", fill: teal, str(i + 1) + "."),
-          text(font: sans, size: sources-size, fill: text-dark, it),
-        ),
-      )
-    }
+    columns(2, gutter: 12pt, {
+      set par(leading: 0.42em, first-line-indent: 0pt)
+      for (i, it) in items.pos().enumerate() {
+        block(
+          spacing: 3pt,
+          grid(
+            columns: (10pt, 1fr),
+            column-gutter: 3pt,
+            text(font: sans, size: 6.5pt, weight: "bold", fill: teal, str(i + 1) + "."),
+            text(font: sans, size: 7pt, fill: text-dark, it),
+          ),
+        )
+      }
+    })
+  },
+)
+
+// ---- Case summary (shaded "In brief" box) ----
+// A 100–150 word abstract at the top of each converted case. Shaded so
+// it reads as a distinct orientation block before the narrative.
+#let case-summary(body) = block(
+  width: 100%,
+  fill: if grayscale { rgb("#EFEFEF") } else { rgb("#FBF7EE") },
+  inset: (x: 11pt, y: 9pt),
+  stroke: (left: 2.5pt + gold),
+  radius: 1pt,
+  breakable: false,
+  {
+    text(font: sans, size: 7pt, weight: "medium", tracking: 1.6pt, fill: gold, upper("In brief"))
+    v(3pt)
+    set par(leading: 0.5em, justify: true, first-line-indent: 0pt)
+    text(font: sans, size: 9pt, fill: text-dark, body)
   },
 )
 
 // ---- Case section heading ----
-// A consistent beat marker for the 4-page narrative. Labels come from
+// A consistent beat marker for the case narrative. Labels come from
 // theme.section-sets, selected by the case's `kind`.
 #let case-section(title) = block(
   width: 100%,

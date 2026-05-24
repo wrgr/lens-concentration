@@ -1,13 +1,13 @@
 // ============================================================
 // Case template — dual path
 //
-// 4-page cited narrative (kind != none): pages 1–3 carry the case as a
+// 3-page cited case (kind != none): a shaded "In brief" summary plus a
 //   five-beat sourced narrative (section-sets in theme.typ) with inline
-//   #cn() citation markers and a numbered reference list at the end of
-//   page 3; the LE Lens lands on the next recto (page 4). The case
-//   starts on a verso so it opens as a clean four-page unit.
-// Legacy 2-page spread (kind == none): case on verso, LE Lens on recto.
-//   Kept so conversion is incremental — unconverted cases still render.
+//   #cn() citation markers fill two pages, with the numbered reference
+//   list at the end of page 2; the LE Lens lands on page 3. Pages flow
+//   without a forced verso start, so 3-page units pack without blanks.
+// Legacy 2-page spread (kind == none): case then LE Lens on the next
+//   page. Kept so conversion is incremental — unconverted cases render.
 //
 // Identical geometry in print / digital / proof — the modes differ
 // only in color and carrier, not in measure.
@@ -34,8 +34,9 @@
   literature-items: (),
   reflection-list: (),
   courses: (),
-  // -- 4-page cited-narrative fields (active when kind != none) --
+  // -- 3-page cited-narrative fields (active when kind != none) --
   kind: none,        // "failure" | "intervention" | "frontier"
+  summary: [],       // shaded ~100–150 word "In brief" abstract
   sections: (),      // one content block per section-set beat, in order
   references: (),    // numbered references matching the inline #cn() markers
 ) = {
@@ -121,16 +122,20 @@
     )
   })
 
-  // Each case starts on a verso (even) page so the spread opens correctly.
-  pagebreak(to: "even", weak: true)
+  // Start on a fresh page; no forced verso, so 3-page units pack tight.
+  pagebreak(weak: true)
 
   if kind != none {
-    // ----- 4-PAGE CITED NARRATIVE -----
+    // ----- 3-PAGE CITED CASE (summary + 2-page narrative + LE Lens) -----
     case-cite.update(0)
     let labels = section-sets.at(kind, default: section-sets.failure)
     block(width: 100%, {
       context [#metadata((n: number, role: "start", page: here().page())) <cmeta>]
       header-block
+      if summary != [] {
+        case-summary(summary)
+        v(4pt)
+      }
       if diagram != none {
         diagram
         v(3pt)
@@ -141,15 +146,15 @@
         text(font: sans, size: body-size, fill: text-dark, sec)
       }
       // Parity + structure probe: marker count must equal refs length,
-      // and this point (where references begin) should sit on page 3.
+      // and this point (where references begin) should sit on page 2.
       context [#metadata((n: number, role: "narr-end", page: here().page(), markers: case-cite.get().first(), refs: references.len())) <cmeta>]
       if references.len() > 0 {
         v(4pt)
         case-references(..references)
       }
     })
-    // LE Lens on the next recto — page 4 when the narrative fills 3 pages.
-    pagebreak(to: "odd", weak: true)
+    // LE Lens on its own page — page 3 when the narrative fills two pages.
+    pagebreak(weak: true)
     context [#metadata((n: number, role: "lens", page: here().page())) <cmeta>]
     lens-page
   } else {
