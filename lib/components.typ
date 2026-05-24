@@ -332,6 +332,7 @@
   above: 7pt,
   below: 3pt,
   breakable: false,
+  sticky: true,   // keep a section heading attached to its text — no orphans
   {
     text(font: sans, size: 8pt, weight: "medium", tracking: 1.8pt, fill: teal, upper(title))
     v(2.5pt)
