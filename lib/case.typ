@@ -94,7 +94,7 @@
     }
 
     lens-block("LE Insight", le-insight)
-    v(1pt)
+    v(3pt)
     lens-block("LENS Approach", lens-approach)
     v(3pt)
 
@@ -156,9 +156,9 @@
       // Diagram sits after the narrative, so page 1 carries the summary and
       // text and the figure lands on page 2.
       if diagram != none {
-        v(5pt)
+        v(9pt)
         diagram
-        v(4pt)
+        v(7pt)
       }
       // Parity + structure probe: marker count must equal refs length,
       // and this point (where references begin) should sit on page 2.
