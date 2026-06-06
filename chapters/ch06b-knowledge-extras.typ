@@ -100,6 +100,13 @@
       capability outlives the people who first held it.
     ],
   ),
+  beats: (
+    "Saturn V was one of history's best-documented engineering programs with exhaustive drawings and records",
+    "By the 2000s NASA could redesign Saturn V but no longer reproduce its making-knowledge",
+    "Documentation captured the what; the tacit how walked out with the retired workforce",
+    "Institutional capability lives in people and practices, not in the artifacts they leave behind",
+    "Serious programs now use apprenticeship and team continuity to keep tacit capability alive",
+  ),
   references: (
     [NASA Constellation Program documentation and reviews (2005–2010) — the difficulty of reproducing Saturn V capability.],
     [R. E. Bilstein, _Stages to Saturn: A Technological History of the Apollo/Saturn Launch Vehicles_ (NASA SP-4206, 1980) — the program and its workforce.],
@@ -238,6 +245,13 @@
       capability can erode unseen, a verified alternative is the difference
       between an embarrassment and a crew with no way home.
     ],
+  ),
+  beats: (
+    "Boeing won Commercial Crew on a human-spaceflight heritage once definitive in American aerospace",
+    "Software errors in 2019, valve corrosion in 2021, and 2024 propulsion trouble stranded astronauts",
+    "GAO and NASA found generational retirement plus cost pressure eroding both contractor and buyer",
+    "Reputation outran reality because no instrument measured the legacy contractor's current capability",
+    "NASA leaned on independent reviews and SpaceX as the verified alternative absorbing the failure",
   ),
   references: (
     [U.S. GAO, _NASA Commercial Crew Program_, GAO-20-121 (Jan. 2020) and GAO-19-504 (2019) — schedule slips and technical risks across the program.],
@@ -380,6 +394,13 @@
       assumption is re-checked, rather than the moment it is silently trusted.
     ],
   ),
+  beats: (
+    "Ariane 5 reused inertial reference software flown reliably on Ariane 4 to reduce risk",
+    "The 1996 maiden flight veered off course and broke up 37 seconds after launch",
+    "A horizontal-velocity overflow shut down both redundant reference systems simultaneously through identical inherited code",
+    "Code is fit only for the envelope it was verified against; reuse demands re-verification",
+    "Safety-critical reuse became a verification event with every inherited assumption explicitly re-checked",
+  ),
   references: (
     [J. L. Lions (chair), _Ariane 5 Flight 501 Failure Inquiry Board Report_ (1996) — the data-conversion overflow (quoted).],
     [Lions Report (1996) — the 37-second breakup and the lost payloads.],
@@ -518,6 +539,13 @@
       curriculum topic, a teaching film every student sees — rather than in
       the memory of the engineers who happened to witness it.
     ],
+  ),
+  beats: (
+    "The 1940 bridge used a slender shallow deck chosen for elegance and economy",
+    "A 40 mph wind twisted the deck apart while piers and cables held",
+    "Aeroelastic flutter was a self-amplifying oscillation static load analysis could not anticipate",
+    "The missing capability lived above any engineer in a discipline not yet knowing flutter",
+    "Wind-tunnel testing, aeroelasticity teaching, and the collapse film locked the lesson into the profession",
   ),
   references: (
     [O. Ammann, T. von Kármán & G. Woodruff, _The Failure of the Tacoma Narrows Bridge_ (1941) — the failure inquiry.],
@@ -663,6 +691,13 @@
       what it looks like to rebuild the rules so that knowledge of an aging
       asset is finally forced into action.
     ],
+  ),
+  beats: (
+    "SoCalGas stored gas in 1950s oil wells whose subsurface safety valve was long removed",
+    "Well SS-25 ruptured in October 2015, venting 100,000 tons and evacuating thousands of households",
+    "External corrosion was a known inspectable mode the operator had deferred on aging wells",
+    "Operator and regulator both knew the wells were aging; no rule forced inspection",
+    "California tightened rules with required inspections, pressure limits, and risk-management plans",
   ),
   references: (
     [Blade Energy Partners, _Aliso Canyon Root Cause Analysis_ (2019) — external corrosion of the well casing (quoted).],

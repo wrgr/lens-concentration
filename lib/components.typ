@@ -38,7 +38,7 @@
 // overview never duplicates content. Two layouts, chosen by `view`:
 //   "overview"      US Letter, two half-page entries per page (fixed height)
 //   "overview-half" Half Letter, one entry per page, content filled to page
-#let overview-entry(number, title, year, domains, modes, summary, refs, lens, sections: (), kind: none) = {
+#let overview-entry(number, title, year, domains, modes, summary, refs, lens, sections: (), beats: (), kind: none) = {
   let big = view == "overview-half"
   let labels = section-sets.at(kind, default: section-sets.failure)
   let header = grid(
@@ -80,19 +80,27 @@
     titleblock
     v(9pt)
     block({
-      set par(justify: true, leading: 0.6em)
-      text(font: sans, size: 10.5pt, fill: text-dark, summary)
+      set par(justify: true, leading: 0.58em)
+      text(font: sans, size: 10pt, fill: text-dark, summary)
     })
-    v(9pt)
+    v(6pt)
     eyebrow("The full case, in five beats", color: navy-mid)
-    v(2.5pt)
+    v(2pt)
     block({
-      set par(leading: 0.5em)
-      text(font: sans, size: 8.5pt, fill: text-muted, labels.join("  ·  "))
+      set par(leading: 0.42em, spacing: 1.5pt)
+      if beats.len() == labels.len() {
+        for i in range(labels.len()) {
+          text(font: sans, size: 7pt, weight: "medium", fill: navy, labels.at(i))
+          text(font: sans, size: 7pt, fill: text-muted, [ — #beats.at(i)])
+          parbreak()
+        }
+      } else {
+        text(font: sans, size: 8.5pt, fill: text-muted, labels.join("  ·  "))
+      }
     })
     v(1fr)
     refsblock
-    v(9pt)
+    v(6pt)
     lensblock
     pagebreak(weak: true)
   } else {

@@ -108,6 +108,13 @@
       that persisted for years afterward show why.
     ],
   ),
+  beats: (
+    "A 14-day access target pressed hardest on schedulers, the highest-turnover front-line role",
+    "Phoenix and nationwide staff hid waits on secret lists while official metrics reported success",
+    "Fifteen years of GAO and IG warnings landed on a continually relearning scheduler workforce",
+    "Measurement gaming hardened into routine practice once turnover erased memory of deviance",
+    "Resignations and the 2014 Choice Act followed; trustworthy measurement proved harder to rebuild",
+  ),
   references: (
     [VA Office of Inspector General, Report 14-02603-267 (2014) — secret waiting lists and falsified appointment data.],
     [GAO Veterans Health Administration reports (2000–2019) — fifteen years of data-reliability warnings.],
@@ -245,6 +252,13 @@
       technical shortfall, is what keeps the framework experimental.
     ],
   ),
+  beats: (
+    "Decades of research settled efficacy; the open question became why adaptive tutoring isn't everywhere",
+    "ARL and DEVCOM sustain GIFT as open-source authoring infrastructure with releases and symposium",
+    "Ubiquitous fielded adoption across routine military training remains limited despite the working framework",
+    "Tutoring-effectiveness literature is robust and GIFT-based studies continue to show learning gains",
+    "Procurement, pipeline integration, instructor workflows, and authority structure remain unbuilt adoption artifacts",
+  ),
   references: (
     [K. VanLehn, "The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems," _Educational Psychologist_ 46(4) (2011) — tutoring effectiveness.],
     [GIFT Project, gifttutoring.org — the framework, releases, and development under ARL / DEVCOM.],
@@ -379,6 +393,13 @@
       quality-assurance arrangements will stall the same way at any scale.
     ],
   ),
+  beats: (
+    "Learning crosses many systems, so the field needed common records of experiences",
+    "xAPI and ADL's Total Learning Architecture envisioned records and credentials flowing across organizations",
+    "Implementations remain siloed inside individual LMS platforms; cross-organizational data sharing has not scaled",
+    "Data model and reference implementations work; ownership, consent, and cross-organization quality assurance lag",
+    "Like inBloom, a sound standard arrived ahead of the governance needed for sharing",
+  ),
   references: (
     [Advanced Distributed Learning Initiative, Total Learning Architecture documentation — the cross-boundary vision.],
     [xAPI specification (#link("https://xapi.com/")[xapi.com]) — the technical standard and reference implementations.],
@@ -507,6 +528,13 @@
       result closes it; what closes it is the repeatable, owned, and funded
       pathway that any proven finding can be run through, again and again.
     ],
+  ),
+  beats: (
+    "Implementation science arose because knowing what works and practicing it are different problems",
+    "Translation averages seventeen years, and only about fourteen percent of findings ever reach practice",
+    "Effective interventions exist; the system to adopt, sustain, adapt, and measure them does not",
+    "Active Implementation Frameworks and EPIS show implementation can be engineered rather than left to chance",
+    "Building, funding, and owning the adoption-and-measurement pathway is the general unsolved problem",
   ),
   references: (
     [E. A. Balas & S. A. Boren (2000), _Yearbook of Medical Informatics_ — the ~17-year / ~14% translation figures.],

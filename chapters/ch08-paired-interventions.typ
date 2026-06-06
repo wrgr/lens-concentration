@@ -108,6 +108,13 @@
       measurement loop to keep it honest over time.#cn()
     ],
   ),
+  beats: (
+    "Tenerife showed crashes came from crew coordination breakdowns, not individual lack of flying skill",
+    "United formalized CRM in 1981 with protocols, authority gradients, and structured briefings as procedure",
+    "Engineered the interaction system so junior challenges had a named, authorized route to the decision",
+    "CAST closed-loop hazard work cut fatality risk 83 percent; Collier Trophy in 2008",
+    "Design logic of paired cultural change plus measurement loop exported to surgery and AI systems",
+  ),
   references: (
     [FAA Advisory Circular 120-51E, _Crew Resource Management Training_ — CRM protocols and authority-gradient training.],
     [Helmreich, Merritt & Wilhelm (1999), "The Evolution of Crew Resource Management Training in Commercial Aviation," _International Journal of Aviation Psychology_.],
@@ -241,6 +248,13 @@
       single project's success into something other institutions could adopt
       without rediscovering the load-bearing role of the authority change.#cn()
     ],
+  ),
+  beats: (
+    "Central-line infections persisted because nurses lacked procedural path to intervene across the authority gradient",
+    "Pronovost paired a five-item sterile checklist with a required nurse stop authority",
+    "Requirement, not permission, plus an impersonal trigger made the stop usable against senior physicians",
+    "CLABSI rates fell near zero across 103 ICUs; effect sustained at ten years",
+    "Packaged as the AHRQ CUSP toolkit, replicated in forty states and internationally as paired design",
   ),
   references: (
     [Pronovost, P. et al. (2006), "An Intervention to Decrease Catheter-Related Bloodstream Infections in the ICU," _NEJM_ 355 — the trial and the near-zero result.],
@@ -379,6 +393,13 @@
       evidence that the design is portable: the enabling conditions, not the
       particular American institution, are what make the mechanism work.#cn()
     ],
+  ),
+  beats: (
+    "Three Mile Island exposed an industry where lessons at one plant never reached others",
+    "Utilities founded INPO within months on the premise one accident threatened everyone's license",
+    "Honest peer review by working operators gave a non-statutory body its enforcement weight",
+    "No significant INES-level event since founding; fleet-wide performance indicators improved broadly across the industry",
+    "Shared exposure, regulatory legitimacy, and peer review crossed borders to WANO after Chernobyl",
   ),
   references: (
     [Rees, J. (1994), _Hostages of Each Other: The Transformation of Nuclear Safety since Three Mile Island_ — INPO's design and the "hostages" premise (paraphrased).],

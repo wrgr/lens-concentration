@@ -103,6 +103,13 @@
       of people.
     ],
   ),
+  beats: (
+    "Forward-deployed Seventh Fleet at peak tempo; in-person SWOS school replaced by self-study CD-ROMs in 2003",
+    "Fitzgerald struck by ACX Crystal off Japan; McCain collided with Alnic MC near Singapore",
+    "Navy and NTSB judged both avoidable, citing training shortfalls and a confusing touch-screen helm design",
+    "Waivers stacked while readiness dashboards stayed green; stated and actual readiness diverged for a decade",
+    "In-person pipeline rebuilt, Ready-for-Sea Assessment stood up, touch-screen helm slated for conventional replacement",
+  ),
   references: (
     [T. C. Miller, M. Faturechi & R. Rotella, #link("https://features.propublica.org/navy-accidents/us-navy-crashes-japan-cause-mccain/")["Years of Warnings, Then Death and Disaster,"] _ProPublica_ (2019) — the 2003 SWOS-in-a-Box shift.],
     [GAO, _Navy Readiness_, #link("https://www.gao.gov/products/gao-17-809t")[GAO-17-809T] (Sept. 2017) — 37% of Japan-based warfare certifications expired by June 2017.],
@@ -245,6 +252,13 @@
       mismatch from recurring elsewhere.#cn()
     ],
   ),
+  beats: (
+    "Highly automated A330 crossed equatorial storm band carrying a known but unfitted pitot-probe vulnerability",
+    "Pitot probes iced, autopilot disconnected, sustained nose-up input stalled the jet for four minutes",
+    "BEA cited airspeed loss, inappropriate inputs, and training that never produced reliable stall responses",
+    "Simulators could not reproduce high-altitude stall; reliable automation had also let manual skills atrophy",
+    "Pitot probes replaced; regulators mandated Upset Prevention and Recovery Training across all airlines",
+  ),
   references: (
     [Bureau d'Enquêtes et d'Analyses (BEA), _Final Report on the accident on 1 June 2009 to the Airbus A330-203 registered F-GZCP operated by Air France flight AF447_ (July 2012) — #link("https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf")[full report]: flight, aircraft, and the known pitot-icing vulnerability with retrofit pending.],
     [BEA, _Final Report AF447_ (2012) — accident sequence: autopilot/autothrust disconnection, degraded control law, sustained nose-up input, stall, and the stall-warning logic dropping out at high angle of attack.],
@@ -385,6 +399,13 @@
       TMI is paired later with INPO (Case 16) as the book's strongest
       argument that failure can engineer durable reform.#cn()
     ],
+  ),
+  beats: (
+    "Operators trained for design-basis ruptures; a near-identical Davis-Besse precursor was never propagated to the fleet",
+    "Relief valve stuck open while panel reported closed; operators throttled injection the core needed",
+    "Kemeny Commission concluded fundamental problems were people-related, reaching past operators to management and the NRC",
+    "Training mismatched the failure that arrived; capacity to learn from precursors had broken down",
+    "INPO formed within nine months; NRC required plant-referenced simulators and tied training to national standards",
   ),
   references: (
     [Kemeny Commission, _Report of the President's Commission on the Accident at Three Mile Island_ (Oct. 1979) — operator training oriented to large design-basis accidents.],
@@ -527,6 +548,13 @@
       documented, and still not engineered away.
     ],
   ),
+  beats: (
+    "Strategy names the Indo-Pacific top priority while its live-training infrastructure remains among the least mature",
+    "Marine Corps papered over unmet range requirements with rotations, virtual substitutes, and multinational exercises",
+    "GAO documented decade-long unmet requirements in 2024; the Department concurred, echoing diagnoses pressed for years",
+    "Declared priority is cheap; engineered priority follows where construction and dollars actually flow",
+    "GAO recommendations remain open; closure depends on programmed ranges, dollars, and schedule, not another document",
+  ),
   references: (
     [_2022 National Defense Strategy of the United States of America_ (U.S. Department of Defense, 2022) — the Indo-Pacific as priority theater and China as the "pacing challenge."],
     [U.S. Government Accountability Office, _Military Readiness: Actions Needed for DOD to Address Challenges_, #link("https://www.gao.gov/assets/gao-24-107463.pdf")[GAO-24-107463] (May 2024) — the least-mature training infrastructure in the priority theater.],
@@ -664,6 +692,13 @@
       a swelling repair queue, and a sustainment chain the services cannot
       control rather than as a line item caught early enough to fix cheaply.
     ],
+  ),
+  beats: (
+    "Most expensive program in history; most of its lifecycle cost is decades of sustainment work",
+    "Fleet ran at half goal with over 10,000 components queued and depots still behind schedule",
+    "GAO traced shortfall to maintainer shortages, lack of access to technical data, and contractor dependency",
+    "Aircraft fielded faster than maintainers and data; contractor controls knowledge needed to keep jets flying",
+    "GAO urged full sustainment reassessment; costs still rising and fleet readiness still below program goals",
   ),
   references: (
     [U.S. Government Accountability Office, _F-35 Aircraft: DOD and the Military Services Need to Reassess the Future Sustainment Strategy_, #link("https://www.gao.gov/products/gao-23-105341")[GAO-23-105341] (Sept. 2023) — ~2,500 planned aircraft and a lifecycle cost exceeding \$1.7 trillion, ~\$1.3 trillion of it in operating and support.],
@@ -810,6 +845,13 @@
       silent cabin — treated together rather than as isolated faults.
     ],
   ),
+  beats: (
+    "New 737-400 variant with redesigned cockpit; conversion was brief and largely self-directed, communicated as reading",
+    "Fan blade fractured left engine; crew shut down the right reasoning from older 737 model",
+    "AAIB cited misapplied mental model, an unreadable vibration indicator, and the silent cabin-to-flight-deck channel",
+    "Variant treated as incremental change; manual notes never overwrote the prior reflex under emergency pressure",
+    "AAIB issued 31 recommendations spanning conversion training, instrument design, CRM, and crashworthiness",
+  ),
   references: (
     [Air Accidents Investigation Branch, _Report on the accident to Boeing 737-400 G-OBME near Kegworth, Leicestershire, on 8 January 1989_, AAIB Aircraft Accident Report 4/90 (1990) — aircraft, route, and the limited conversion training; see also U.S. FAA, #link("https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-OBME")[Lessons Learned: G-OBME].],
     [AAIB Report 4/90 (1990) — accident sequence: left-engine fan-blade failure, shutdown of the serviceable right engine, and total power loss on approach; 47 killed, 74 seriously injured.],
@@ -951,6 +993,13 @@
       one.
     ],
   ),
+  beats: (
+    "Shrader's contested under-2% baseline became the yardstick that made any later rate look catastrophic",
+    "A quarter of U.S. KIA died to friendly fire; A-10s struck Marines and British Warriors",
+    "Reviews cited combat chaos, weak awareness, fire-control lapses, and the absence of a shared incident database",
+    "Fratricide is integration across many systems; no single office owns what keeps the rate down",
+    "Better IFF and blue-force tracking followed, yet rates never settled at a confidently low level",
+  ),
   references: (
     [C. R. Shrader, _Amicicide: The Problem of Friendly Fire in Modern War_ (U.S. Army Combat Studies Institute, 1982) — the under-2% estimate from 269 incidents, a baseline later challenged as too low (with estimates nearer 10–15%).],
     [#link("https://www.usni.org/magazines/proceedings/1994/june/friendly-fire-facts-myths-and-misperceptions")["Friendly Fire: Facts, Myths and Misperceptions," _U.S. Naval Institute Proceedings_ (June 1994)] — Desert Storm: 35 of 146 KIA (24%) and 72 of 467 wounded (15%) by friendly fire; critique of the 2% "historical norm."],
@@ -1091,6 +1140,13 @@
       others untouched will be judged, in the end, by what it actually
       produced rather than by the plausibility of its intuition.
     ],
+  ),
+  beats: (
+    "Libby Zion's 1984 death made resident fatigue a decades-long argument; Bell Commission set early limits",
+    "ACGME capped resident work at 80 hours weekly and limited first-year shifts to 16 hours",
+    "Cutting hours multiplied hand-offs and cost continuity; trainees often felt less prepared, not rested",
+    "FIRST and iCOMPARE found flexible schedules non-inferior; ACGME relaxed the intern cap in 2017",
+    "Keystone, CRM, and the surgical checklist engineered supervision and hand-offs alongside the behavioral change",
   ),
   references: (
     [B. H. Lerner, _The Libby Zion Case and the Reform of Medical Education_ (2006); and the 1989 New York State (Bell Commission) duty-hour regulations — the origin of the reform.],

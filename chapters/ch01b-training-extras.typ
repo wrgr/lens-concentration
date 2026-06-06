@@ -92,6 +92,13 @@
       arrives where the decision is made.
     ],
   ),
+  beats: (
+    "Captain's documented training failures known to the carrier but not to the regulator",
+    "On approach to Buffalo the captain pulled back at the stick shaker and stalled",
+    "NTSB cited fatigue, weak training, and a hiring system blind to the captain's history",
+    "Pilot training history existed in files but never reached the hiring or licensing decision",
+    "Families drove the 2010 law raising hours to 1,500 and creating the Pilot Records Database",
+  ),
   references: (
     [NTSB, _Aircraft Accident Report: Colgan Air Flight 3407_, NTSB/AAR-10/01 (2010) — probable cause (quoted).],
     [NTSB/AAR-10/01 (2010) — the captain's training history, and the first officer's fatigue and pay.],
@@ -233,6 +240,13 @@
       flying.#cn()
     ],
   ),
+  beats: (
+    "Captain new to the 777 hand flew a visual approach with the glideslope out of service",
+    "Autothrottle sat in HOLD; airspeed decayed silently to 103 knots and the 777 struck the seawall",
+    "NTSB cited mismanaged approach, weak airspeed monitoring, and a faulty mental model of the automation",
+    "The mode the autothrottle was in and the mode the crew believed diverged silently without annunciation",
+    "Recommendations targeted autoflight training, energy state monitoring, and mode annunciation design",
+  ),
   references: (
     [NTSB, _Aircraft Accident Report: Asiana Airlines Flight 214_, NTSB/AAR-14/01 (2014) — probable cause and contributing factors (quoted).],
     [NTSB/AAR-14/01 (2014) — the autothrottle HOLD reversion and airspeed decay to ~103 kt.],
@@ -371,6 +385,13 @@
       whose evidence counts is itself a capability, and that its absence can
       cost more than any single technical defect it conceals.#cn()
     ],
+  ),
+  beats: (
+    "The Bureau of Ordnance had effectively forbidden live trials, so the Mark 14 went to war unproven",
+    "Submarine crews reported deep runs, premature detonations, and crushed contact pins from early 1942",
+    "Lockwood ordered fleet tests; Tinosa's eleven duds on a stopped target finally separated the three defects",
+    "The binding gap was a channel by which the bureau could be made to hear what the boats already knew",
+    "By late 1943 the three defects were corrected; the episode became the canonical insulated bureau case",
   ),
   references: (
     [Blair, C. (1975), _Silent Victory: The U.S. Submarine War Against Japan_ — operator reports and the Bureau's resistance (paraphrased).],
@@ -515,6 +536,13 @@
       mission would inherit cohesion rather than assemble it from scratch.#cn()
     ],
   ),
+  beats: (
+    "No standing joint command existed; the rescue force was drawn ad hoc from four services",
+    "Three RH-53s failed at Desert One; on withdrawal a helicopter struck a C-130 killing eight",
+    "Holloway named ad hoc assembly, untrained aircrews, and a cover story driven aircraft choice",
+    "Each service was competent in its lane; cross-service integration as a deliverable did not exist",
+    "Reform built JSOC, Goldwater Nichols in 1986, and USSOCOM in 1987 as standing joint capability",
+  ),
   references: (
     [Holloway Special Operations Review Group, _Rescue Mission Report_ (1980) — the ad-hoc assembly and equipment choices (paraphrased).],
     [Holloway Commission (1980) — the Desert One sequence and the helicopter–C-130 collision.],
@@ -656,6 +684,13 @@
       gap could be papered over by the other.#cn()
     ],
   ),
+  beats: (
+    "A maintenance leak check left the pressurization selector on manual and pre flight checks missed it",
+    "Cabin failed to pressurize; the crew treated the warning horn as a configuration fault and went hypoxic",
+    "Hellenic investigators called the warning misidentification a critical irrecoverable error",
+    "One horn carried two meanings without differentiation while training drilled only the ground meaning",
+    "Reforms changed Boeing warning logic, pressurization checklists, and pre flight verification training",
+  ),
   references: (
     [Hellenic Air Accident Investigation & Aviation Safety Board, _Aircraft Accident Report_ 11/2006 — probable cause and the warning misinterpretation (paraphrased).],
     [AAIASB Report 11/2006 — the manual pressurization selector and failure to pressurize.],
@@ -792,6 +827,13 @@
       together.#cn()
     ],
   ),
+  beats: (
+    "Ground crew taped over the static ports during cleaning and the tape was never removed",
+    "All air data instruments fed false contradictory readings; believing they were higher the crew struck the Pacific",
+    "Peruvian investigators found no independent reference since every instrument fed off the blocked source",
+    "Apparent cockpit redundancy was illusory at the source and the training had assumed the case away",
+    "Industry tightened conspicuous covering and removal verification for static ports and pitot tubes",
+  ),
   references: (
     [Peru Dirección General de Aeronáutica Civil, accident investigation board, final report on AeroPerú 603 (December 1996; with NTSB/FAA/Boeing participation) — primary cause and the instrument cascade (paraphrased).],
     [Peru CIAA report (1996) — the static-port tape and the contradictory warnings.],
@@ -927,6 +969,13 @@
       different dates, and the distance between them is where the avoidable
       harm accumulates.#cn()
     ],
+  ),
+  beats: (
+    "The first officer's prior training failures were undisclosed and PRIA's window was too short to surface them",
+    "After an inadvertent go around activation a somatogravic illusion drove a hard push and a dive into Trinity Bay",
+    "NTSB cited startle, spatial disorientation, the training pattern, and Atlas's inability to see the full record",
+    "PRD authorization without full coverage left the same Colgan era information flow gap partly open in 2019",
+    "The PRD final rule took effect for Part 121 in 2022 with full historical coverage phasing in through 2024",
   ),
   references: (
     [NTSB, _Aircraft Accident Report: Atlas Air Flight 3591_, NTSB/AAR-20/02 (2020) — probable cause and contributing factors (paraphrased).],
@@ -1069,6 +1118,13 @@
       design and training gap that no amount of blaming the individual pilot
       has ever closed.#cn()
     ],
+  ),
+  beats: (
+    "Captain had failed recent proficiency checks and was flagged for weak abnormal procedure handling",
+    "Forty three seconds after takeoff the right engine auto feathered and the crew shut down the working left engine",
+    "Taiwan ASC found the crew shut down the wrong engine in about fifteen seconds from memory not the checklist",
+    "Under acute time pressure crews default to memory; incomplete memory drives action away from the checklist",
+    "TransAsia ceased operations in 2016; the case argues the wrong engine pattern is an un engineered intervention",
   ),
   references: (
     [Aviation Safety Council (Taiwan), _Aviation Occurrence Report: TransAsia Airways Flight GE235_, final report (2016) — findings and the wrong-engine shutdown (paraphrased).],

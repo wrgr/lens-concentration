@@ -106,6 +106,13 @@
       and the implementation still lag.#cn()
     ],
   ),
+  beats: (
+    "Death certificates record proximate physiology with no field for medical error",
+    "Makary and Daniel estimated 250,000 annual U.S. error deaths from systemic care failings",
+    "Critics challenged the extrapolation, arguing counterfactual attribution of error-caused death resists clean tallying",
+    "Without a tracked instrument and robust attribution, safety programs cannot prove worth against invisible harm",
+    "Targeted reforms cut bounded harms while system-wide mortality kept escaping measurement and persisted at scale",
+  ),
   references: (
     [Makary, M. & Daniel, M. (2016), "Medical error — the third leading cause of death in the US," _BMJ_ — the 250,000 estimate and the quoted framing.],
     [Makary & Daniel (2016), _BMJ_ — death certificates do not capture medical error as a cause.],

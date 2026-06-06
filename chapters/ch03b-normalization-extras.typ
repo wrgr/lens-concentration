@@ -102,6 +102,13 @@
       upward where the hazard actually lived.
     ],
   ),
+  beats: (
+    "Deferred maintenance and degraded instruments tolerated; personal-injury rates among the industry's best",
+    "Startup overfilled tower past safe level; vented vapor ignited, killing fifteen workers in trailers",
+    "CSB drew the distinction reshaping the field; personal-safety indicators are not process-safety indicators",
+    "Excellent injury record made process-safety drift harder to see; wrong measurement worse than none",
+    "Baker Panel followed; process-safety distinction entered mainstream regulation; count what can kill you",
+  ),
   references: (
     [U.S. Chemical Safety and Hazard Investigation Board, _Refinery Explosion and Fire_, Investigation Report 2005-04-I-TX (2007) — the startup, malfunctioning instruments, and 15 killed / 180 injured.],
     [CSB (2007) — accumulated safety-culture decay, deferred maintenance, and the siting of occupied trailers beside a hazardous unit.],
@@ -244,6 +251,13 @@
       allowed to treat as negotiable against a refueling schedule.
     ],
   ),
+  beats: (
+    "Post-TMI U.S. nuclear regime knew the boric-acid corrosion hazard across the reactor fleet",
+    "Refueling outage revealed football-sized cavity through the head; only thin cladding held back coolant",
+    "FirstEnergy won an NRC inspection deferral; OIG found economics weighted over safety",
+    "Plant engineering was sound; independence of the oversight layer above operations had quietly eroded",
+    "INPO and NRC tightened head-inspection requirements; institutional capability erodes if not re-engineered",
+  ),
   references: (
     [U.S. NRC Office of Inspector General, _NRC's Regulation of Davis-Besse Regarding Damage to the Reactor Vessel Head_ (Case No. 02-03S, December 2002) — the post-TMI regulatory regime and oversight failures.],
     [NRC event records and OIG (2002) — the ~6-inch corrosion cavity, the remaining cladding, and the 2,200-psi coolant margin.],
@@ -381,6 +395,13 @@
       describe the target, and only a culture that prizes finding the gap will
       keep checking the report against the patient.
     ],
+  ),
+  beats: (
+    "Pursuing Foundation Trust status, the board cut ward staffing while reported targets stayed met",
+    "Patients neglected for years in appalling conditions; mortality ran substantially above expected",
+    "Francis Inquiry produced 2,000 pages and 290 recommendations; system as a whole failed",
+    "Like the VA case, every governance layer acted on metrics; no one checked against patients",
+    "Berwick review pressed for learning over targets; reporting can run clean while reality fails",
   ),
   references: (
     [R. Francis QC, _Report of the Mid Staffordshire NHS Foundation Trust Public Inquiry_ (2013) — the staffing cuts and Foundation Trust targets.],
@@ -520,6 +541,13 @@
       engineered in advance, not left to the chain of marginal defenses that
       failed together at Sago.
     ],
+  ),
+  beats: (
+    "Seals, emergency plan, and self-rescue training were each marginally adequate, never tested at edge",
+    "Lightning ignited methane; seals failed; twelve miners died of carbon-monoxide poisoning over hours",
+    "MSHA found inadequate seal design, plan, and lapsed training; combined shortcomings proved lethal together",
+    "No single failure was decisive; marginal-everywhere is itself a system-level hazard",
+    "MINER Act strengthened rescue requirements; mandated refuge chambers; reform addressed the combination, not one cause",
   ),
   references: (
     [U.S. Mine Safety and Health Administration, _Report of Investigation: Sago Mine_ (2007) — the seal design, emergency plan, and self-rescue training.],
@@ -662,6 +690,13 @@
       is what independent signal could have exposed the divergence between the
       two logs while the mine was still running.
     ],
+  ),
+  beats: (
+    "Massey ran two sets of records; the clean log disabled the regulator's mechanism of sight",
+    "Coal dust and methane ignited, killing twenty-nine; the sanitized records hid the conditions",
+    "MSHA and DOJ found suppressed readings and disabled monitors; CEO Blankenship convicted of misdemeanor conspiracy",
+    "Dual records were stable institutional practice spanning years; measurement engineered as deception",
+    "Conviction set accountability marker; unanswered is what independent signal could expose divergence live",
   ),
   references: (
     [U.S. MSHA, _Internal Review of MSHA's Actions at Upper Big Branch_ and the accident investigation (2011–2012) — the dual records and the 29 deaths.],
@@ -810,6 +845,13 @@
       lacked.
     ],
   ),
+  beats: (
+    "Internal TEPCO assessments discussed larger historical waves; evidence never forced a higher seawall",
+    "Tōhoku tsunami topped the seawall; inundated generators; three cores melted down, displacing thousands",
+    "Kurokawa's NAIIC called it made in Japan; Hatamura and IAEA emphasized under-estimated external hazards",
+    "Internal hazard evidence existed; Japan lacked an INPO-equivalent with independence to act on it",
+    "New independent Nuclear Regulation Authority created; capability institutions must be deliberately built, not assumed",
+  ),
   references: (
     [National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission (NAIIC; K. Kurokawa, chair), _Report_ (2012) — the internal tsunami evidence and the regulatory-capture finding.],
     [NAIIC (2012) — the accident sequence: seawall overtopping, generator inundation, and three core meltdowns.],
@@ -948,6 +990,13 @@
       sighted had to be enforceable obligations, not best practices a utility
       could quietly defer.
     ],
+  ),
+  beats: (
+    "Eastern Interconnection rides through single-line loss; FirstEnergy's alarm system was silently failing for an hour",
+    "An Ohio line sagged into a tree; silent alarms left operators blind; cascade blacked out fifty million",
+    "Task Force found inadequate situational awareness, vegetation lapses, weak coordinator authority; FERC Order 693 followed",
+    "Missing capability was the meta-monitor; silence is indistinguishable from a healthy, quiet grid",
+    "New mandatory reliability regime backed by audits and penalties; reliability is a deliverable, not best practice",
   ),
   references: (
     [U.S.-Canada Power System Outage Task Force, _Final Report on the August 14, 2003 Blackout in the United States and Canada_ (2004) — the tree contact, the silent alarm, and the cascade.],

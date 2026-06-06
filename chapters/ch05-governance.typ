@@ -102,6 +102,13 @@
       dead initiative and a chilled field.
     ],
   ),
+  beats: (
+    "Gates-funded \$100M shared student-data store; technically sound, built by enterprise engineers on commercial cloud",
+    "Launched without consent, engagement, or parent voice; nine states withdrew within fourteen months",
+    "Data and Society read it as technocratic reform assuming engineering quality confers legitimacy",
+    "Stakeholder trust treated as add-on rather than precondition; no patch retrofits trust under fire",
+    "Set shared education infrastructure back years; drove a wave of state student-privacy laws",
+  ),
   references: (
     [M. Bulger, P. McCormick & M. Pitcan, _The Legacy of inBloom_, Data & Society Research Institute (2017) — inBloom as a failure of technocratic reform.],
     [Education Week and Hechinger Report coverage of the state withdrawals (2013–2014) — nine states exiting.],
@@ -232,6 +239,13 @@
       the wrong capability was assembled, unnoticed, by a chain that had no
       way to notice.
     ],
+  ),
+  beats: (
+    "Federal ACA marketplace built under fixed political deadline by teams lacking consumer-launch expertise",
+    "No clear integrator; no end-to-end test; site collapsed serving 27,000 against seven-million target",
+    "GAO and HHS-IG found no one understood project status; governance chain surfaced no readiness signal",
+    "Capability failure wearing a technology costume; missing match of human capability to system requirement",
+    "Rescue team became U.S. Digital Service; rare case producing durable institutional reform",
   ),
   references: (
     [U.S. GAO, Healthcare.gov reports (2014–2016) — the launch, the capability gaps, and the absent end-to-end testing.],
@@ -365,6 +379,13 @@
       institution-building exercise should ever have to cost.
     ],
   ),
+  beats: (
+    "Union Carbide plant stored bulk MIC under cost pressure; understaffed, safety systems off-line, training thin",
+    "Water entered an MIC tank; non-operational defenses let forty tons vent over the sleeping city",
+    "Investigators cited operating errors, design flaws, maintenance failures, training deficiencies, economy measures endangering safety",
+    "Capability hollowed across training, maintenance, design, staffing, oversight; no layer owned the integrated whole",
+    "Reshaped industrial safety worldwide; catalyzed the U.S. Chemical Safety Board and process-safety regime",
+  ),
   references: (
     [Union Carbide and government investigation reports (1985) — MIC storage, the disabled safety systems, and plant understaffing.],
     [Accounts of the 2–3 Dec. 1984 release — the contested toll (thousands of immediate deaths; 15,000–20,000 total estimates; ~500,000 exposed). _(Figures vary widely across sources; see AUDIT.)_],
@@ -497,6 +518,13 @@
       will eventually pay for it, in the currency of the people living
       inside it.
     ],
+  ),
+  beats: (
+    "1970s tower refurbished with combustible aluminium-composite cladding despite expert cautions against high-rise use",
+    "Kitchen fire climbed the exterior cladding; stay-put advice held residents inside; seventy-two died",
+    "Inquiry found systematic dishonesty by cladding firms; sixteen inspections missed effectively banned products",
+    "Distributed capability failure; fraud, capture, incompetence, lost memory converged with no integrated owner",
+    "Phase 2 report and government response drove building-safety, cladding, and fire-service reforms",
   ),
   references: (
     [Grenfell Tower Inquiry, _Phase 1 Report_ (2019) — the fire's spread up the cladding and the failure of "stay put."],
@@ -633,6 +661,13 @@
       the questions parents will ask into inputs gathered before launch rather
       than weapons raised after it.
     ],
+  ),
+  beats: (
+    "CZI-backed personalized-learning platform offered free from 2015 on defensible competency-based pedagogy",
+    "Reached 380 schools, 80,000 students; by 2019 parent revolts and withdrawals over screen time and privacy",
+    "Analysts located failure in deployment governance; no evaluation framework, data agreement, or exit path",
+    "Working pedagogy with no accountability contract collapsed; same pattern as inBloom recurring at scale",
+    "Districts withdrew, CZI revised outreach; episode became standard caution in ed-tech adoption",
   ),
   references: (
     [#link("https://www.nytimes.com/2019/04/21/technology/silicon-valley-kansas-schools.html")[N. Bowles, "Silicon Valley Came to Kansas Schools. That Started a Rebellion," _New York Times_ (2019)] — the parent revolt.],
@@ -776,6 +811,13 @@
       bought a course correction instead of a controversy.
     ],
   ),
+  beats: (
+    "Tennessee Voluntary Pre-K served 18,000 four-year-olds; oversubscription enabled a rare lottery-based RCT",
+    "Kindergarten gains faded by third grade; sixth-grade pre-K children did somewhat worse than controls",
+    "Field contested the methods and largely declined to internalize findings, defending policy rather than interrogating",
+    "Measurement instrument worked; institutional architecture for absorbing inconvenient evidence did not exist",
+    "Episode became methodological touchstone in early-childhood research, argued over more than acted upon",
+  ),
   references: (
     [#link("https://doi.org/10.1016/j.ecresq.2018.03.005")[M. Lipsey, D. Farran & K. Durkin, "Effects of the Tennessee Pre-Kindergarten Program… Through Third Grade," _Early Childhood Research Quarterly_ 45: 155–176 (2018)] — the RCT and fade-out.],
     [K. Durkin, M. Lipsey, D. Farran & E. Wiesen, "Effects of a Statewide Pre-Kindergarten Program… Through Sixth Grade," _Developmental Psychology_ 58(3): 470–484 (2022) — the sixth-grade reversal (quoted).],
@@ -909,6 +951,13 @@
       redeems — the model can be flawless at the task it was set and still
       unjust in the task that mattered.
     ],
+  ),
+  beats: (
+    "COVID cancelled exams; Ofqual built an algorithm standardizing teacher grades against school historical performance",
+    "About 280,000 entries downgraded; state-school high achievers capped; private small cohorts kept predictions",
+    "Analysts found the model encoded structural inequality; Fry called it a nationally felt algorithmic injustice",
+    "Missing capability was governance; no equity assessment, sign-off on fairness tradeoff, or appeal path",
+    "Government reversed within days, accepting teacher grades; case became algorithmic-accountability landmark",
   ),
   references: (
     [MIT Technology Review, "The UK Exam Algorithm Fiasco" (2020) — Ofqual's standardization approach.],
@@ -1044,6 +1093,13 @@
       method.
     ],
   ),
+  beats: (
+    "Australia automated welfare-debt recovery from 2016, replacing case review with income-averaging against tax data",
+    "Averaging fit only seven percent; roughly a million notices issued with reversed burden of proof",
+    "Royal Commission found unlawful scheme sustained by venality, incompetence, cowardice; harms entirely predictable",
+    "Full automation without human-in-the-loop or lawful basis; reversing burden was a governance choice",
+    "Debts refunded; A\$1.8 billion settlement paid; Robodebt entered political memory as byword for automated harm",
+  ),
   references: (
     [Royal Commission into the Robodebt Scheme, _Final Report_ (2023) — the scheme and its "venality, incompetence and cowardice."],
     [Royal Commission (2023) — the income-averaging mechanism, the ~7%/93% mismatch, the reversed burden of proof, and deaths associated with the scheme.],
@@ -1176,6 +1232,13 @@
       model is asked to predict and for whom the prediction allocates help —
       catching the bias where it is introduced rather than where it surfaces.
     ],
+  ),
+  beats: (
+    "Most U.S. public colleges now use predictive analytics to flag at-risk students for early advising support",
+    "Research finds racial calibration bias misclassifying Black and Latinx students; magnitude depends on construct",
+    "Researchers traced calibration gaps to training data encoding historical discrimination; deficit framing compounds harm",
+    "Bias lives in the construct definition of at-risk; capability-engineering decision made implicitly through labels",
+    "Ongoing and quiet across hundreds of dashboards; no single collapse forces a reckoning",
   ),
   references: (
     [Surveys of predictive-analytics adoption in U.S. higher education — a large majority of public colleges now use some form.],

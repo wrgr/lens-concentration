@@ -97,6 +97,13 @@
       safeguard against the improvisation that crisis invites.#cn()
     ],
   ),
+  beats: (
+    "The 1943 Credo pre-specified customers ahead of shareholders, ranking the trade-off crisis pressure inverts",
+    "J&J recalled 31 million bottles nationwide and engaged openly with regulators despite localized tampering",
+    "Pre-committed values moved the hardest decision out of the moment of maximum pressure",
+    "Market share recovered within a year; trust repaid the hundred million spent protecting customers",
+    "Tamper-evident packaging became standard and pre-committed values emerged as the deeper institutional principle",
+  ),
   references: (
     [Kaplan, T. (2014), _The Tylenol Crisis_ — the recall and corporate response.],
     [James Burke (J&J CEO), in _Lasting Leadership_ (Wharton) — the Credo quote.],
@@ -236,6 +243,13 @@
       sits with operators who fear punishment, the same protected-reporting
       design recurs as the way to unlock it.#cn()
     ],
+  ),
+  beats: (
+    "Valuable safety data lives with operators; punitive systems give them strongest reason to stay silent",
+    "FAA and NASA created a confidential channel in 1976 conferring immunity for reported conduct",
+    "A neutral third party paired with immunity made non-punitive protection credible enough to trust",
+    "Over two million reports surfaced automation surprise, runway incursions, and fatigue before accidents",
+    "Patient safety, maritime CHIRP, rail, and nuclear systems emulated the protected-reporting design pattern",
   ),
   references: (
     [NASA ASRS Program documentation and annual reports — system design, immunity provision, and report volume.],
@@ -379,6 +393,13 @@
       across centers, and a mature regime needs both.#cn()
     ],
   ),
+  beats: (
+    "No UK system routinely compared pediatric cardiac outcomes; dangerously poor units looked ordinary from inside",
+    "The Kennedy Inquiry recommended routine risk-adjusted specialty-level outcomes reporting starting with cardiac surgery",
+    "Risk adjustment made cultural acceptance possible by ensuring hard cases would not penalize surgeons",
+    "The UK became among few countries publishing surgeon-level results; clinicians themselves became data users",
+    "The registry model extended across NHS specialties and pairs with bedside protocols like Keystone",
+  ),
   references: (
     [Kennedy, I. (2001), _Learning from Bristol: The Report of the Public Inquiry into Children's Heart Surgery at the Bristol Royal Infirmary 1984–1995_ — the inquiry and recommendations (paraphrased).],
     [Society for Cardiothoracic Surgery in GB & Ireland, national outcomes reports — the registry and surgeon-level publication.],
@@ -521,6 +542,13 @@
       differentiator matters: it supplies the rationale that a crisis would
       otherwise provide.#cn()
     ],
+  ),
+  beats: (
+    "Thin aviation margins push capability investment downward; each budget cycle invites trimming the safety margin",
+    "From the 1980s Singapore Airlines invested in CRM, simulators, young fleet, and reporting culture",
+    "Framing safety as a competitive differentiator tied to brand gave the spend a commercial rationale",
+    "SQ006's response chose transparency over defensiveness, becoming a reference case in post-accident learning",
+    "Two routes to engineered safety emerge; voluntary investment is harder without crisis as justification",
   ),
   references: (
     [Aviation Safety Council (Taiwan), _SQ006 Accident Investigation Final Report_ (2002) — the accident and the airline's response.],
