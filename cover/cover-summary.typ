@@ -60,6 +60,13 @@
     #v(4pt)
     #text(font: serif, size: 17pt, fill: rgb("#B7C9E0"), "Case Overview")
   ]
+  place(top + left, dx: margin, dy: fh - margin - 58mm)[
+    #text(font: sans, size: 6.5pt, tracking: 1.6pt, fill: gold, upper("Edited by"))
+    #v(3pt)
+    #text(font: serif, size: 10pt, fill: cream, "William Gray-Roncal, PhD")
+    #linebreak()
+    #text(font: serif, size: 10pt, fill: cream, "James Diamond, PhD")
+  ]
   place(top + left, dx: margin, dy: fh - margin - 34mm)[
     #block(width: fw - 2 * margin)[
       #text(font: sans, size: 7.5pt, fill: rgb("#B7C9E0"))[
@@ -120,6 +127,9 @@
       #v(5pt)
       #text(font: sans, size: 7pt, tracking: 1.4pt, fill: cream,
         upper("capabilitymatters.org · LENS at Johns Hopkins"))
+      #v(4pt)
+      #text(font: sans, size: 6pt, tracking: 1.4pt, fill: rgb("#B7C9E0"),
+        upper("Edition 06.06.2026"))
     ]
   ]
 }
