@@ -106,6 +106,13 @@
       redesigned out of the human's hands.#cn()
     ],
   ),
+  beats: (
+    "Level-2 driving automation reaches untrained consumers with no qualification gate for monitoring",
+    "Fatal crashes accumulate as reliable operation erodes the vigilance the system silently requires",
+    "Liability rests with drivers whose inattention the engagement design itself helped to produce",
+    "NHTSA finds driver-engagement inadequate; automation-complacency evidence points the same direction",
+    "Whether any engagement architecture can make consumer Level-2 monitoring sustainable stays open",
+  ),
   approaches: (
     during: (
       [Engineer driver-engagement monitoring to the demonstrated limits of human vigilance — verify attention against operational evidence before fielding, not against an assumption that warnings suffice.],
@@ -238,6 +245,13 @@
       candor under pressure is a structural guarantee rather than a matter
       left to the operator's discretion in the moment.#cn()
     ],
+  ),
+  beats: (
+    "Driverless robotaxi oversight rests on operator-controlled disclosure to regulators who cannot inspect directly",
+    "Pedestrian struck by another car was hit then dragged by a Cruise vehicle",
+    "Whether commercial autonomy programs disclose fully under pressure becomes the institutional question",
+    "Permit suspended; NHTSA opened investigation; GM shut down commercial operations entirely",
+    "What auditable pre-committed disclosure commitment commercial autonomy should require before operating",
   ),
   approaches: (
     during: (
@@ -376,6 +390,13 @@
       the first place shapes the error distribution long before any metric
       is chosen to judge it.#cn()
     ],
+  ),
+  beats: (
+    "Proprietary risk-assessment scores enter bail and sentencing with opacity built into the decision",
+    "ProPublica found Black defendants twice as likely as whites wrongly flagged high-risk",
+    "Whether fairness has a single technical meaning, or institutions must choose among definitions",
+    "Chouldechova and Kleinberg proved calibration and equal error rates cannot coexist with differing base rates",
+    "Distribution of errors is the canonical question; construct definition shapes the trade-off first",
   ),
   approaches: (
     during: (
@@ -518,6 +539,13 @@
       once it is in the population's hands.#cn()
     ],
   ),
+  beats: (
+    "Machine-learning diagnostics enter clinical workflow with validation that may not survive deployment",
+    "Cleared radiology tools repeatedly perform worse in deployment, concentrated in under-represented patient groups",
+    "How a regulator certifies safety without checking behavior across populations and labels it meets",
+    "Degradation reported across imaging, sepsis, dermatology; 510(k) requires no demographic stratification",
+    "Capability gap sits in regulatory architecture; demographic post-market surveillance machinery unbuilt",
+  ),
   approaches: (
     during: (
       [Require validation metrics stratified by demographic group at clearance, so a tool's performance is established on the populations it will actually meet, not an aggregate.],
@@ -658,6 +686,13 @@
       a tool already in millions of hands rather than gated in front of it.#cn()
     ],
   ),
+  beats: (
+    "Clinicians adopted ChatGPT immediately at point of care without guidelines or institutional gate",
+    "Fabricated citations, hallucinated dosages, and fictitious guidelines recur across the documented literature",
+    "Whether clinicians can develop verification routines the model's fluent confidence actively discourages",
+    "Early reports show LLM output accepted less critically than colleague recommendations would be",
+    "Routine clinical verification practice analogous to bibliographic discipline remains to be defined",
+  ),
   approaches: (
     during: (
       [Specify a routine verification practice at the moment of use — what a clinician must independently confirm before acting on LLM output — before the tool enters clinical workflow.],
@@ -791,6 +826,13 @@
       in most, so the same construct error remains available to the next
       department that mistakes a record of enforcement for a map of crime.#cn()
     ],
+  ),
+  beats: (
+    "Police adopted statistical prediction tools lending discretionary judgment a veneer of objectivity",
+    "Training on arrest records, models learn enforcement patterns and create self-confirming feedback loops",
+    "Whether a model trained on institutional behavior can predict the underlying phenomenon",
+    "Dirty data documented; Santa Cruz, New Orleans, Los Angeles suspended deployments after equity reviews",
+    "Pre-deployment construct-validity audit remains absent in most jurisdictions adopting these systems",
   ),
   approaches: (
     during: (
@@ -926,6 +968,13 @@
       and the verification path that protein structure happened to have
       accumulated over decades.#cn()
     ],
+  ),
+  beats: (
+    "Deep learning offered computational solution to a fifty-year experimental bottleneck in biology",
+    "AlphaFold released 200 million predicted structures folded into research workflows worldwide",
+    "Which conditions allow an AI capability to be safely and widely useful",
+    "Success rested on agreed benchmark, clean data, verifiable output, and open release",
+    "Whether fields lacking those preconditions can deliberately build them remains the frontier question",
   ),
   approaches: (
     during: (
@@ -1067,6 +1116,13 @@
       with the tools always within reach.#cn()
     ],
   ),
+  beats: (
+    "AI coding assistants became infrastructure for tens of millions of developers without controls",
+    "Productivity gains documented alongside unsettled security findings on AI-generated code quality",
+    "Whether developers using these tools are becoming more capable or more dependent",
+    "Jagged frontier shows performance degrading just outside competence, where users over-trust output",
+    "Longitudinal study and training practice that keeps human skill growing remain unbuilt",
+  ),
   approaches: (
     during: (
       [Define what competence the human must retain independently of the tool, and design the workflow so that skill is exercised rather than quietly handed off.],
@@ -1197,6 +1253,13 @@
       in this case, and the page is left deliberately unfinished so that the
       record of the discipline's possibility can still be added to.#cn()
     ],
+  ),
+  beats: (
+    "The hundredth case belongs to practitioners now in training across the program's domains",
+    "A teachable discipline of engineerable capability is emerging from training, interfaces, evidence, institutions",
+    "Whether the discipline can be built fast enough to close the documented gaps",
+    "Capability engineering sits where INPO did in 1979 or CRM in 1981",
+    "What practitioners build next; a failure prevented, success engineered, institution built",
   ),
   approaches: (
     during: (

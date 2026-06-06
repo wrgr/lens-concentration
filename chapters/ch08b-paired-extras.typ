@@ -95,6 +95,13 @@
       same paper produced nothing.#cn()
     ],
   ),
+  beats: (
+    "Surgical harm was widespread because teams in motion rarely paused to verify shared understanding",
+    "WHO and Harvard introduced a nineteen-item checklist piloted across eight hospitals in eight countries",
+    "Forced pauses at three junctures required teams to halt and speak confirmations aloud together",
+    "NEJM study showed death rate halved and complications dropped a third across all sites",
+    "Ontario mandated rollout produced no benefit; the pause works only when genuinely authorized",
+  ),
   references: (
     [Haynes, A. et al. (2009), "A Surgical Safety Checklist to Reduce Morbidity and Mortality," _NEJM_ — the 1.5%→0.8% result and major-complication reduction.],
     [WHO Safe Surgery Saves Lives campaign documentation — the nineteen-item checklist and the three junctures.],
@@ -233,6 +240,13 @@
       regime that would let the Navy prove, not assume, the gap has closed.#cn()
     ],
   ),
+  beats: (
+    "Two fatal 2017 collisions exposed seamanship training degraded to CD-ROM self-study",
+    "Navy restored SWOS classroom instruction, tripled training hours, and created ten career assessments",
+    "Reform paired simulators and restored curricula with aviation-style debriefing and explicit gate ownership",
+    "GAO noted the Navy still lacks systematic evaluation of whether reforms improve readiness",
+    "Live in-progress reform shows mature capability engineering must build measurement infrastructure from the start",
+  ),
   references: (
     [GAO-21-168 (and GAO-20-154), Navy readiness reform — the lack of systematic outcome evaluation (paraphrased).],
     [Readiness Reform Oversight Council, _One-Year Report_ (2019) — restored training, assessments, and gates.],
@@ -367,6 +381,13 @@
       attempting to remake a culture wholesale, then change the medium
       through which that feature operates.#cn()
     ],
+  ),
+  beats: (
+    "Korean Air's pre-2000 loss rate was seventeen times United's, rooted in cockpit authority gradients",
+    "Korean Air hired David Greenberg from Delta to mandate English, adapt CRM, and modernize",
+    "Switching to English stripped out Korean honorifics that had silenced first officers and absorbed warnings",
+    "No fatal passenger accident since the reforms; the 2006 Phoenix Award recognized the turnaround",
+    "Cultural legacy is not destiny; locate the binding feature and engineer the medium that carries it",
   ),
   references: (
     [NTSB, _Aircraft Accident Report: Korean Air Flight 801, Guam_ (2000) — authority gradients as a root cause.],
@@ -507,6 +528,13 @@
       the standing to stop, copying the tool alone reproduces the failure.#cn()
     ],
   ),
+  beats: (
+    "The cheapest moment to fix a defect is when the seer has least standing to halt",
+    "Toyota installed a pull-cord letting any worker signal a problem and stop the line",
+    "Mechanism paired with psychological safety, rapid supervisor response, no-blame analysis, and Five Whys",
+    "American copies failed because workers feared pulling it; Toyota's protected authority is the variable",
+    "Authority interventions and technical artifacts are inseparable; the manufacturing twin of Keystone nurse-stop",
+  ),
   references: (
     [Liker, J. (2020), _The Toyota Way_ (2nd ed.) — the andon cord, the cultural pairing, and the American imitation (paraphrased).],
     [Spear, S. & Bowen, H. (1999), "Decoding the DNA of the Toyota Production System," _HBR_ — the response protocol and embedded learning.],
@@ -644,6 +672,13 @@
       but the funded path that carries it from research into routine
       practice — the part programs most often leave unbudgeted.#cn()
     ],
+  ),
+  beats: (
+    "High-reliability research showed teamwork drives safety, but clinical settings lacked a structured curriculum",
+    "AHRQ and DoD jointly released TeamSTEPPS in 2006, training four core team competencies",
+    "Funding master-trainer programs, toolkits, and a support center alongside the curriculum compressed the gap",
+    "Studies show improved teamwork and safety culture; on-time surgical first starts rose 21 percent",
+    "Cross-domain capability transfer is engineerable when the funded path to sustained practice is included",
   ),
   references: (
     [AHRQ, _TeamSTEPPS 3.0 Curriculum_ (2023) — the framework and four competencies.],
@@ -783,6 +818,13 @@
       itself as the variable that diverged.#cn()
     ],
   ),
+  beats: (
+    "Reactors at sea allowed no accident rate, forcing the human operating system to extreme standards",
+    "Rickover required every nuclear sailor to pass zero-defect qualification and continuous re-examination",
+    "Technical mastery paired with a mandatory questioning posture that obliges challenging superiors' assumptions",
+    "Zero reactor accidents across sixty years and thousands of reactor-years; duration is the key evidence",
+    "Same Navy let surface training decay; internal contrast isolates training philosophy as the variable",
+  ),
   references: (
     [Polmar, N. & Allen, T. (2007), _Rickover: Father of the Nuclear Navy_ — the program and Rickover's philosophy (paraphrased).],
     [Naval Nuclear Propulsion Program documentation (NRC/DOE) — qualification standards and the accident record.],
@@ -920,6 +962,13 @@
       framing and the human loop, not the model, are where intent lives.#cn()
     ],
   ),
+  beats: (
+    "GSU graduated only a third of students in six years, with large race and income gaps",
+    "GSU deployed daily monitoring of 800 risk factors with equity as a primary design constraint",
+    "Alerts route through advisors as decision support, delivering proactive outreach rather than gatekeeping",
+    "Graduation rose 32 to 54 percent and the equity gap was eliminated rather than narrowed",
+    "Construct definition and human-loop architecture, not the model itself, determine whether prediction helps",
+  ),
   references: (
     [Renick, T. & Strom, A. (2020) on GSU's advising transformation — the system design and outcomes.],
     [Georgia State University institutional research and Strategic Plan reports — graduation-rate and equity data.],
@@ -1056,6 +1105,13 @@
       broken into trackable skills, the very chain that made algebra
       tractable has nothing to attach to.#cn()
     ],
+  ),
+  beats: (
+    "Earlier tutoring systems rested on intuition about learning rather than validated theory or controlled trials",
+    "Carnegie Learning built Cognitive Tutor from Anderson's ACT-R architecture with Bayesian knowledge tracing",
+    "A decomposable skill model, mastery measurement, and an adaptive interface concentrate practice where weakness sits",
+    "RAND's multi-site evaluation found significant Algebra I gains; the program scaled to 3,000-plus schools",
+    "Pipeline works for tractable, decomposable problems; ill-structured operational domains remain the open frontier",
   ),
   references: (
     [Anderson, J., Corbett, A., Koedinger, K. & Pelletier, R. (1995), "Cognitive Tutors: Lessons Learned," _Journal of the Learning Sciences_ — the ACT-R basis and design.],

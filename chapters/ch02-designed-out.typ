@@ -114,6 +114,13 @@
       moved it onto two airplanes full of people.
     ],
   ),
+  beats: (
+    "Re-engined 737 sold on no new pilot training; MCAS hid the handling change",
+    "Single-sensor MCAS forced two jets down, killing 346 across both crashes",
+    "Internal records show training omission was deliberate; certification was largely self-delegated",
+    "Training absence was a contract deliverable, not an oversight; pilots engineered out",
+    "Twenty-month grounding; MCAS redesigned, simulator training required, FAA oversight tightened",
+  ),
   references: (
     [U.S. House Committee on Transportation and Infrastructure, _The Boeing 737 MAX Aircraft: Costs, Consequences, and Lessons from Its Design, Development, and Certification_ (Final Committee Report, Sept. 2020) — the MCAS omission, the 2013 minutes, the 2016 survey, and the "diminished safety" conclusion.],
     [U.S. House report (2020) and #link("https://en.wikipedia.org/wiki/Maneuvering_Characteristics_Augmentation_System")[MCAS design summary] — MCAS firing on a single angle-of-attack sensor; the Lion Air 610 (189 killed) and Ethiopian 302 (157 killed) accident sequences.],
@@ -255,6 +262,13 @@
       whatever you failed to put in its place, and waits there.
     ],
   ),
+  beats: (
+    "Hardware interlocks removed to save cost; safety case migrated silently into software",
+    "Race condition let fast operators fire full beam with no target",
+    "Manufacturer denied harm; Leveson and Turner found systemic, not single-bug, failure",
+    "Interlock was the safety case; nothing took its load when removed",
+    "Founded software-safety engineering; deleted safeguards relocate hazard to whatever replaces them",
+  ),
   references: (
     [N. G. Leveson & C. S. Turner, "An Investigation of the Therac-25 Accidents," _IEEE Computer_ 26(7): 18–41 (1993). #link("https://doi.org/10.1109/MC.1993.274940")[doi:10.1109/MC.1993.274940] — the removed hardware interlocks and the adapted software.],
     [Leveson & Turner (1993) — the race condition, the uninformative "Malfunction 54", overdoses up to ~100×, six accidents, and at least three deaths.],
@@ -395,6 +409,13 @@
       has moved beneath them, because the premise was never written where they
       could read it.
     ],
+  ),
+  beats: (
+    "Built for short European engagements; Gulf War demanded continuous fixed-site operation",
+    "Fixed-point time error grew with uptime; Scud passed unengaged, 28 killed",
+    "Israeli warning preceded strike by weeks; patch arrived one day late",
+    "Original concept did not require sustained accuracy; assumption never traveled with redeployment",
+    "Patch distributed, reboot intervals defined; canonical lesson about assumptions outliving their context",
   ),
   references: (
     [U.S. General Accounting Office, _Patriot Missile Defense: Software Problem Led to System Failure at Dhahran, Saudi Arabia_, GAO/IMTEC-92-26 (1992) — the design-context mismatch and continuous-operation use.],

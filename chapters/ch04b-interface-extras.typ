@@ -100,6 +100,13 @@
       on one task must guarantee the critical channel is still watched.
     ],
   ),
+  beats: (
+    "Three-crew L-1011 on night Miami approach, with no designed division of attention",
+    "Crew fixated on a burned-out gear bulb while autopilot disengaged and chime went unheeded",
+    "NTSB found crew failed to monitor flight path; trivial trigger produced catastrophic outcome",
+    "No designed division of attention across crew; alert lacked priority weight to cut through",
+    "Formative event behind Crew Resource Management and prioritized cockpit alerting standards",
+  ),
   references: (
     [NTSB, _Aircraft Accident Report: Eastern Air Lines Flight 401_, NTSB-AAR-73-14 (1973) — the night approach and full flight deck.],
     [NTSB-AAR-73-14 (1973) — the landing-gear-bulb fixation, the inadvertent autopilot disengagement, and 101 deaths of 176 aboard.],
@@ -237,6 +244,13 @@
       capability — all three would have had to fail together for the
       accidents to occur, and all three did.
     ],
+  ),
+  beats: (
+    "737 rudder PCU servo valve presumed fault-tolerant by certification, hiding a latent failure mode",
+    "United 585 and USAir 427 rolled and dove unrecoverably; rudders moved opposite to commanded input",
+    "NTSB took years to identify thermal-shock servo-valve jam from cold fluid striking hot valve",
+    "No recoverable cockpit action existed; gap sat in certification and maintenance, not pilots",
+    "Boeing redesigned PCU, retrofitted fleet, and reshaped how rare unrecoverable modes are hunted",
   ),
   references: (
     [NTSB, _Uncommanded Flight Control Movements_ (USAir 427 / 737 rudder PCU), NTSB-AAR-99-01 (1999) — the thermal-shock servo-valve finding.],
@@ -379,6 +393,13 @@
       Capital (Case 55) — an unverified deployment to a system wired into
       critical operations — at a scale six orders of magnitude larger.
     ],
+  ),
+  beats: (
+    "Falcon sensor runs in Windows kernel; pipeline treated rapid content updates as lighter than code",
+    "Faulty content config crashed kernel on 8.5 million machines simultaneously; no staged rollout existed",
+    "Post-incident review found content lacked code-grade testing; category boundary did not match operational reality",
+    "For deployment safety content is code; customers had outsourced a missing safety gate to the vendor",
+    "Staged rollouts, kernel-access review, and scrutiny of vendor concentration risk followed the outage",
   ),
   references: (
     [CrowdStrike, _Falcon Content Update: Preliminary Post-Incident Review_ (July 2024) — the content-vs-code testing and staged-rollout gap (paraphrased).],
@@ -524,6 +545,13 @@
       removes the one element that can catch the unimagined error.
     ],
   ),
+  beats: (
+    "Soviet Oko satellite system fed launch-on-warning posture; duty officer was the single verification checkpoint",
+    "Oko reported five inbound U.S. ICBMs; Petrov judged it false because a real strike means hundreds",
+    "Sunlight on high-altitude clouds at particular geometry fooled infrared sensors; algorithm later modified",
+    "No automated check could catch unimagined mode; human contextual judgment plus override authority saved it",
+    "Decision credited with averting nuclear war; case preserved in training as argument for human-in-loop",
+  ),
   references: (
     [D. Hoffman, _The Dead Hand: The Cold War Arms Race and Its Dangerous Legacy_ (2009) — the Oko system and Soviet launch-on-warning posture.],
     [Accounts of the 26 Sept. 1983 incident (Hoffman; Petrov interviews) — the five-missile alert and Petrov's assessment.],
@@ -666,6 +694,13 @@
       the institution knew it needed, because schedule pressure overrode a
       technical signal that had no authority to win.
     ],
+  ),
+  beats: (
+    "TSB needed to migrate five million accounts off Lloyds onto Sabadell platform in one weekend",
+    "Nearly every component failed at relaunch; 1.9 million customers locked out, £330M cost, CEO resigned",
+    "Slaughter and May found unrealistic load testing, unchallenged readiness certification, override of technical advice",
+    "Technical signal existed but had no authority; governance let executive schedule overrule a known not-ready",
+    "TSB rebuilt testing and migration governance; FCA penalized the override of technical objection",
   ),
   references: (
     [Slaughter and May, _Independent Review of the TSB Migration_ (2019) — the single-weekend cutover and the testing failures.],

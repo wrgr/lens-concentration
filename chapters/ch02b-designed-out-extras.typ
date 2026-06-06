@@ -103,6 +103,13 @@
       known hazard went unfixed.#cn()
     ],
   ),
+  beats: (
+    "Rushed subcompact with tank behind rear axle and little crush space, known to engineers.",
+    "Rear impacts produced fuel-fed fires; Grimshaw verdict and 1.5 million-vehicle recall followed.",
+    "Mother Jones cost-benefit story rested on a generic rollover memo, not a Pinto ledger.",
+    "Real failure was rear-impact survivability quietly traded against cost, weight, and packaging.",
+    "Founding ethics case shaped fuel-system rules and taught how myths obscure lessons.",
+  ),
   references: (
     [M. Dowie, "Pinto Madness," _Mother Jones_ (Sept./Oct. 1977) — the contemporaneous exposé that popularized the \$11-fix / cost-benefit framing.],
     [_Grimshaw v. Ford Motor Co._, 119 Cal. App. 3d 757 (1981) — Ford held liable for the rear-impact fuel-system hazard; punitive damages upheld in reduced amount.],
@@ -243,6 +250,13 @@
       desiccant from the inflator.#cn()
     ],
   ),
+  beats: (
+    "Inflators built around cheap, unstable ammonium nitrate without the desiccant competitors added.",
+    "Heat and humidity degraded the propellant; ruptures sprayed shrapnel and killed drivers.",
+    "Takata reported ruptures as isolated anomalies, manipulated test data, and pleaded guilty to fraud.",
+    "Designed-out capabilities were the desiccant and the regulator's independent verification pipeline.",
+    "Recall outlived the bankrupt firm and pushed regulators toward coordinated replacement management.",
+  ),
   references: (
     [U.S. National Highway Traffic Safety Administration, Takata air-bag inflator recall coordination materials — the ammonium-nitrate-without-desiccant design and the propellant-degradation rupture mechanism.],
     [NHTSA recall record and investigative reporting (Reuters, _New York Times_) — 100M+ inflators across ~19 automakers; the largest automotive recall in history; deaths and injuries from ruptures.],
@@ -381,6 +395,13 @@
       with no one accountable for keeping it open.#cn()
     ],
   ),
+  beats: (
+    "Compact-car switches lacked detent torque; jostles cut power and disarmed airbags.",
+    "Engineer approved a redesigned switch in 2006 without changing its part number.",
+    "Valukas found the GM nod, the GM salute, and failure to use escalation processes.",
+    "Designed out was the pathway from a known fix to the recall decision.",
+    "Barra restructured safety governance and the case became a teaching example in psychological safety.",
+  ),
   references: (
     [A. R. Valukas, _Report to the Board of Directors of General Motors Company Regarding Ignition Switch Recalls_ (Jenner & Block, 2014) — the 2002 identification of the defect and the switch-torque mechanism.],
     [U.S. NHTSA investigation of the GM ignition switch (2014) and the GM recall record — ~2.6 million vehicles; 124 deaths via the GM compensation fund.],
@@ -517,6 +538,13 @@
       system, a boundary nobody owned or verified, and a small unspecified
       thing at that boundary that quietly destroyed the whole.#cn()
     ],
+  ),
+  beats: (
+    "Faster, better, cheaper mission split between Lockheed building and JPL navigating the orbiter.",
+    "Ground software reported pound-force seconds while navigation expected newton-seconds; orbiter burned up at Mars.",
+    "Board found no individual blunder; the unverified boundary between two correct halves failed.",
+    "Missing capability was an owned, specified, verified interface between the two organizations.",
+    "Loss tightened interface management and became the canonical software case of interface-as-requirement.",
   ),
   references: (
     [NASA, _Mars Climate Orbiter Mishap Investigation Board: Phase I Report_ (Nov. 1999) — mission, the Lockheed/JPL split, and the program context.],
@@ -655,6 +683,13 @@
       automated system is precisely where the institution is most exposed,
       and least watching.#cn()
     ],
+  ),
+  beats: (
+    "Major market maker prepared routine update for the NYSE Retail Liquidity Program launch.",
+    "Eighth server missed the update; a reused flag woke dormant Power Peg code.",
+    "SEC found no deployment verification, no consistency check, and no controls to halt orders.",
+    "Designed-out capability was deployment verification; dead code was a standing option on failure.",
+    "Case became canonical for deployment as engineering deliverable and sharpened market-access controls.",
   ),
   references: (
     [U.S. Securities and Exchange Commission, _Order Instituting Administrative and Cease-and-Desist Proceedings_, In re Knight Capital Americas LLC (2013) — the firm, the Retail Liquidity Program launch, and the deployment.],

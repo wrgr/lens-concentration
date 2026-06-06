@@ -94,6 +94,13 @@
       empowered to switch it off.
     ],
   ),
+  beats: (
+    "Sub-postmasters bore personal liability for shortfalls reported by Fujitsu's Horizon accounting system from 1999",
+    "Phantom shortfalls drove around 900 prosecutions for theft; imprisonment, bankruptcy, and suicides followed",
+    "Released documents showed engineers knew Horizon could err; convictions began being quashed in 2021",
+    "No regulator, prosecutor, or court had standing to interrogate Fujitsu's claim of reliability",
+    "Parliament exonerated convictions and opened compensation schemes; the public inquiry continues its work",
+  ),
   references: (
     [Post Office Horizon IT Inquiry hearings and exhibits (2020– ) — the system, the prosecutions, and the human toll.],
     [_Hamilton & Others v. Post Office Limited_ (Court of Appeal, 2021) — quashed convictions.],
@@ -233,6 +240,13 @@
       novelty is what tempts the oversight regimes to defer to one another.
     ],
   ),
+  beats: (
+    "Theranos claimed an Edison device running hundreds of tests from one finger-stick, reaching a nine-billion-dollar valuation",
+    "The device did not work; Theranos secretly ran samples on commercial analyzers and reported them as its own",
+    "Carreyrou's reporting and CMS inspectors surfaced the fraud after the FDA-CLIA seam left validation unowned",
+    "Neither regulator validated novel clinical claims end-to-end; a celebrity board offered prestige instead of scrutiny",
+    "CLIA certificate revoked, the company collapsed, and Holmes was convicted of multiple wire-fraud counts",
+  ),
   references: (
     [_United States v. Elizabeth Holmes_ (N.D. Cal., 2018–2022) — the indictment and conviction.],
     [J. Carreyrou, _Bad Blood_ (2018) — the device's failure and the commercial-analyzer substitution.],
@@ -363,6 +377,13 @@
       values statement — because employees respond to the incentive they are
       paid on, not the value they are told to honor.
     ],
+  ),
+  beats: (
+    "Wells Fargo drove cross-selling with aggressive branch quotas that pay and jobs depended on hitting",
+    "Employees opened about 3.5 million unauthorized accounts; the bank fired front-line staff and kept the incentives",
+    "CFPB and OCC actions and a 2017 independent-directors report tied misconduct to the sales-target architecture",
+    "The governance layer that designed the incentives mistook a designed outcome for individual moral failure",
+    "The Federal Reserve capped Wells Fargo's assets; the case anchored teaching on measurement-gaming and incentive design",
   ),
   references: (
     [Consumer Financial Protection Bureau, Consent Order against Wells Fargo (2016) — the unauthorized accounts and penalties.],
@@ -503,6 +524,13 @@
       next one.
     ],
   ),
+  beats: (
+    "VW promised clean diesel meeting nitrogen-oxide limits its engineers did not believe they could deliver",
+    "Defeat-device software detected the test bench and enabled controls only there across about eleven million vehicles",
+    "A West Virginia team comparing road to lab emissions exposed the cheat; documents showed institutional authorization",
+    "The regulator's test ran in a regime the vehicle could detect, inviting the gaming it was meant to catch",
+    "VW paid more than thirty-three billion in penalties; the EU introduced real-world driving emissions testing",
+  ),
   references: (
     [U.S. EPA, Notice of Violation to Volkswagen (2015) — the defeat device and emissions exceedances.],
     [West Virginia University / ICCT real-world diesel-emissions study (2014) — the discovery comparing road to lab.],
@@ -638,6 +666,13 @@
       harvesting tool in the wrong hands.
     ],
   ),
+  beats: (
+    "Facebook's Graph API let apps collect quiz-takers' data and their friends' data without friends consenting",
+    "A personality-quiz app taken by 270,000 people harvested about 87 million profiles for political micro-targeting",
+    "UK ICO and U.S. FTC investigations, prompted by Guardian reporting, found Facebook responsible for what its design permitted",
+    "The architecture worked as designed; a load-bearing assumption of developer benevolence was never red-teamed",
+    "GDPR and CCPA accelerated; the FTC imposed a five-billion-dollar penalty and a continuing consent decree",
+  ),
   references: (
     [U.S. FTC, _In the Matter of Facebook, Inc._, Consent Order (2019) — the \$5B penalty; Facebook gave developers "far more user data than was necessary" (quoted).],
     [UK Information Commissioner's Office, report on Cambridge Analytica / data analytics in political campaigns (2018) — the scope of the harvesting.],
@@ -768,6 +803,13 @@
       marginally inadequate, failing together on the day a determined attacker
       arrived to test all of them at once.
     ],
+  ),
+  beats: (
+    "Equifax held identity data on most U.S. adults; security had flagged an Apache Struts patch to IT",
+    "The unapplied patch let attackers exfiltrate 147 million Americans' data over two and a half months",
+    "The Senate subcommittee found systematically inadequate patching and no comprehensive IT asset inventory",
+    "Routine work; patching, inventory, monitoring, response; was each below standard and starved as a cost center",
+    "A 700-million-dollar settlement funded compensation; patching, inventory, and disclosure timelines rose on the agenda",
   ),
   references: (
     [U.S. Senate Permanent Subcommittee on Investigations, _How Equifax Neglected Cybersecurity and Suffered a Devastating Data Breach_ (2019) — the unpatched Apache Struts vulnerability.],
@@ -903,6 +945,13 @@
       no guarantee of triviality under load.
     ],
   ),
+  beats: (
+    "The Kansas City Hyatt's atrium walkways were originally designed to hang from single continuous steel rods",
+    "A two-rod construction change doubled the upper connection's load; on 17 July 1981 the walkways fell, killing 114",
+    "The National Bureau of Standards found the as-built connection had carried roughly twice its intended load",
+    "Nothing required the engineer of record to re-analyze a load-bearing change before it was built",
+    "Missouri revoked engineers' licenses; shop-drawing review and engineer-of-record responsibility hardened into rule",
+  ),
   references: (
     [National Bureau of Standards, _Investigation of the Kansas City Hyatt Regency Walkways Collapse_, NBSIR 82-2465 (1982) — the doubled-load connection (quoted).],
     [The 17 July 1981 collapse — 114 killed and 216 injured.],
@@ -1034,6 +1083,13 @@
       allowed to mean — is still where safety lives, unchanged by four decades
       of better software.
     ],
+  ),
+  beats: (
+    "The FIU-Sweetwater pedestrian bridge was a modern, computationally designed concrete truss over a Miami road",
+    "On 15 March 2018 it collapsed during construction, killing six; NTSB found truss-connection calculation errors",
+    "Large cracks were inspected, judged not safety-critical, and reaffirmed in a meeting the morning of collapse",
+    "More capable design tools did not retire timeless failure modes; review and stop-work rules lagged the software",
+    "NTSB faulted designer, peer reviewer, and parties keeping the road open; the case paired with Hyatt Regency",
   ),
   references: (
     [NTSB, _Pedestrian Bridge Collapse over SW 8th Street, Miami_, Highway Accident Report HAR-19/02 (2019) — the FIGG design calculation errors (quoted).],
@@ -1168,6 +1224,13 @@
       cascade.
     ],
   ),
+  beats: (
+    "PG&E ran aging transmission lines across drying foothills, with hardware approaching a century old",
+    "A worn C-hook failed in high winds, igniting a fire that overran Paradise; 85 died, the deadliest in a century",
+    "CalFire and the Butte County DA found PG&E had known about deteriorating infrastructure and deferred maintenance",
+    "Neither utility nor regulator owned the capability to update operations to the actual, hotter, drier risk",
+    "PG&E pleaded guilty to 84 manslaughter counts; California mandated wildfire-mitigation plans and power shutoffs",
+  ),
   references: (
     [CalFire, _Camp Fire Investigation Report_ (2019) — the worn transmission-line hardware as ignition source.],
     [The Camp Fire record — 85 killed; PG&E's guilty plea to 84 counts of involuntary manslaughter (2020).],
@@ -1300,6 +1363,13 @@
       population-scale death toll the warnings had, in effect, predicted, the
       cost of resilience finally paid in full and after the fact.
     ],
+  ),
+  beats: (
+    "Texas ran its ERCOT grid outside federal reliability jurisdiction with winterization left optional for operators",
+    "Winter Storm Uri froze gas wells and tripped generation; about 246 died officially and damage reached 130 billion",
+    "The FERC-NERC joint inquiry named absent winterization as the proximate failure, with warnings from 1989, 2011, 2014",
+    "Optional winterization persisted because costs would pass to consumers and the rare event was judged acceptable",
+    "Texas mandated weatherization of generation and gas with inspections and penalties behind the new requirements",
   ),
   references: (
     [FERC–NERC, _The February 2021 Cold Weather Outages in Texas and the South Central United States_ (Joint Inquiry, 2021) — winterization as the proximate failure (quoted).],

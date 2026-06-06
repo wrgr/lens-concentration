@@ -109,6 +109,13 @@
       misread.
     ],
   ),
+  beats: (
+    "Macondo blowout killed eleven and unleashed the largest U.S. marine oil spill",
+    "Crew misread the negative-pressure test, accepted a wrong explanation, and displaced the mud",
+    "Commission found human error so systematic it indicted the whole industry's safety culture",
+    "Procedure, training, supervision, contractors, and equipment had drifted independently until none caught the others",
+    "Regulator was split, well-integrity rules tightened, and the multi-layer drift named as the deeper lesson",
+  ),
   references: (
     [National Commission on the BP Deepwater Horizon Oil Spill, _Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling_ (Report to the President, 2011) — human error as root cause; the misread negative-pressure test.],
     [National Commission (2011) — the well-control sequence and mud-displacement decision.],
@@ -248,6 +255,13 @@
       dissenting engineer is itself a piece of safety hardware, and one that
       has to be rebuilt and defended rather than assumed.
     ],
+  ),
+  beats: (
+    "Shuttle flew with known O-ring and foam flaws reclassified flight by flight as routine",
+    "Challenger broke apart on a cold morning; Columbia disintegrated on reentry seventeen years later",
+    "Both boards found the same suppressed safety concerns and the same culture intact",
+    "Vaughan named normalization of deviance; the diagnosis sat on record without engineered remediation",
+    "Reforms followed each loss, yet the cultural mechanism stayed unrepaired until the Shuttle retired",
   ),
   references: (
     [Rogers Commission, _Report of the Presidential Commission on the Space Shuttle Challenger Accident_ (1986) — the O-ring failure and the cold-weather launch decision.],
@@ -389,6 +403,13 @@
       effect electing to operate the distribution it has been told it is
       drawing fatalities from.
     ],
+  ),
+  beats: (
+    "Tiltrotor shared awkwardly across three services has logged seventeen hull losses since 1991",
+    "Yakushima crash killed eight after gear cracks and a pilot pressing through warnings",
+    "GAO and NAVAIR found years of unaddressed risk, elevated mishap rates, eighteen-year gearbox lag",
+    "Documented shortfall persists because parallel service adjustments never converge on resolution",
+    "Groundings and redesigns continue while full gearbox fixes stretch toward 2034",
   ),
   references: (
     [#link("https://en.wikipedia.org/wiki/Accidents_and_incidents_involving_the_V-22_Osprey")[Compiled V-22 accident record] — ~17 hull losses and ~65 fatalities since 1991, including the 2000 Marana test crash (19 Marines).],

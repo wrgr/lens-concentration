@@ -98,6 +98,13 @@
       exercise that discretion more honestly.#cn()
     ],
   ),
+  beats: (
+    "Benchmark set from panel banks' rate estimates rather than observed transactions",
+    "Traders pressured submitters to shade rates favoring their derivatives books for years",
+    "DOJ and UK regulators levied over nine billion in fines; Wheatley Review blamed design",
+    "Declarations rather than observations made systematic gaming the architecture's predictable output",
+    "LIBOR phased out; SOFR built on observed Treasury repo transactions replaced it",
+  ),
   references: (
     [U.S. Department of Justice settlements with Barclays, UBS, Deutsche Bank, RBS et al. (2012–2015) — the manipulation and fines.],
     [Wheatley, M., _The Wheatley Review of LIBOR: Final Report_ (2012) — the estimate-vs-transaction design flaw (paraphrased).],
@@ -234,6 +241,13 @@
       money and political will that the high score, once reported, makes
       seem unnecessary.#cn()
     ],
+  ),
+  beats: (
+    "District administered and reported the very high-stakes tests determining bonuses and recognition",
+    "Educators across dozens of schools organized erasure parties to change students' answers",
+    "Newspaper analysis and state investigators documented scheme; thirty-five indicted, eleven convicted under RICO",
+    "Institution being measured operated the instrument measuring it, with no independent audit",
+    "Convictions made APS the prominent U.S. high-stakes-testing fraud case fuelling reassessment",
   ),
   references: (
     [Special Investigators, _Final Report on Atlanta Public Schools_ (2011) — the organized cheating and the quoted finding.],
@@ -372,6 +386,13 @@
       capability to challenge the evidence in front of it.#cn()
     ],
   ),
+  beats: (
+    "Former NASDAQ chairman reported steady returns that were entirely fictitious Ponzi fabrications",
+    "Markopolos delivered SEC a detailed quantitative memo in 2005; investigation closed without action",
+    "SEC Inspector General found numerous missed opportunities and staff deference to Madoff's stature",
+    "Regulator's technical-evaluation pipeline lacked people able to check the checkable math",
+    "Collapse prompted SEC reforms including Office of Market Intelligence for technical triage",
+  ),
   references: (
     [SEC Office of Inspector General, _Investigation of Failure of the SEC to Uncover Madoff's Ponzi Scheme_, Report OIG-509 (2009) — the quoted finding.],
     [Markopolos, H. (2010), _No One Would Listen_ — the 2005 memo and its dismissal.],
@@ -507,6 +528,13 @@
       case is foundational in U.S. national-security policy for treating
       cross-agency capability as an engineerable institutional deliverable.#cn()
     ],
+  ),
+  beats: (
+    "Multiple agencies held pieces; no institution owned integration as a required architectural function",
+    "CIA tracked future hijackers from Kuala Lumpur; FBI flagged flight training; none aggregated",
+    "9/11 Commission and Joint Inquiry documented specific sharing failures across FBI, CIA, NSA",
+    "Architecture was missing; shared watch-lists, mandated handoffs, and a fusion body existed nowhere",
+    "2004 Intelligence Reform Act created ODNI and NCTC, building integration as institutional deliverable",
   ),
   references: (
     [National Commission on Terrorist Attacks Upon the United States, _The 9/11 Commission Report_ (2004) — the quoted "failure of imagination" and the specific sharing failures.],
@@ -651,6 +679,13 @@
       had let the signal sit unaggregated for years. The reform built the
       surveillance infrastructure that had not previously existed.#cn()
     ],
+  ),
+  beats: (
+    "Widely prescribed COX-2 inhibitor approved 1999; post-market surveillance thin relative to exposure",
+    "VIGOR trial showed five-fold heart attack rate; Merck read comparator as protective instead",
+    "Hearings and Graham testimony showed cardiovascular signals present in trial record years earlier",
+    "Disclosure architecture between manufacturer data, FDA reviewers, and prescribers failed to aggregate signal",
+    "Merck settled near five billion; REMS and Sentinel built active post-market surveillance",
   ),
   references: (
     [Graham, D. J. et al. (2005), _Lancet_ — population-level cardiovascular risk analysis.],

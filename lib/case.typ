@@ -39,6 +39,8 @@
   kind: none,        // "failure" | "intervention" | "frontier"
   summary: [],       // shaded ~100–150 word "In brief" abstract
   sections: (),      // one content block per section-set beat, in order
+  beats: (),         // optional ~10–12-word summary per beat; renders in the
+                     // Half-Letter overview's five-beat map (one line per beat)
   references: (),    // numbered references matching the inline #cn() markers
 ) = {
   // Emit case metadata for the back-matter indexes (e.g. the LEN-course
@@ -49,7 +51,7 @@
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.
   if view != "book" {
-    overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach, sections: sections, kind: kind)
+    overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach, sections: sections, beats: beats, kind: kind)
   } else {
 
   // Shared header: case number / domains / year, title, mode line, impact.

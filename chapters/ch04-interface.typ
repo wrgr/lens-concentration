@@ -110,6 +110,13 @@
       automation is fast and the human is the last check.
     ],
   ),
+  beats: (
+    "Aegis cruiser fought Iranian gunboats near a dual-use airfield in the crowded Persian Gulf",
+    "Crew misread an ascending Airbus as a diving F-14 and fired; all 290 died",
+    "Aegis radar was correct; multiple operators independently saw descent under presumed-hostile framing",
+    "Interface left burden of overriding expectation to operators stripped of time by combat",
+    "Naval retrospective reframed loss as predictable teaming failure of unguarded decision aids",
+  ),
   references: (
     [Rear Adm. W. Fogarty, _Formal Investigation into the Circumstances Surrounding the Downing of Iran Air Flight 655_ (U.S. Navy, 1988) — the engagement and the 290 deaths.],
     [Fogarty report (1988) — the Aegis system functioned; the aircraft was ascending while the crew perceived a descent.],
@@ -255,6 +262,13 @@
       indefinitely.#cn()
     ],
   ),
+  beats: (
+    "HITECH poured thirty billion into EHRs built to billing specifications, not clinical workflow",
+    "Disputed 2005 CPOE study tied pediatric ICU mortality to deployment; default and alert harms recurred",
+    "A 2023 KLAS survey across hundreds of hospitals tied usability scores to patient safety outcomes",
+    "Systems work for billing because that was the specification; clinical workflow was never engineered",
+    "Usability guidance has matured but no regulatory regime monitors deployed EHR safety at scale",
+  ),
   references: (
     [Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) — the ~\$30B EHR incentive program.],
     [Y. Han et al., "Unexpected Increased Mortality After Implementation of a Commercially Sold CPOE System," _Pediatrics_ 116(6): 1506–1512 (2005) — the disputed pediatric-ICU mortality result.],
@@ -399,6 +413,13 @@
       reframing of passive monitoring as a role that must be engineered to be
       performable — or not assigned at all.
     ],
+  ),
+  beats: (
+    "Uber ATG tested self-driving cars using safety operators as passive surveillance of rare failures",
+    "A Volvo killed Elaine Herzberg in Tempe; the operator was watching a phone video",
+    "NTSB faulted Uber for ignoring automation complacency; emergency braking was suppressed and pedestrian classification limited",
+    "The monitor role lacked interface, training, and authority; design assumed failure would never arrive",
+    "Uber exited self-driving; industry shifted toward two-operator teams and driver-monitoring systems",
   ),
   references: (
     [NTSB, _Collision Between Vehicle Controlled by Developmental Automated Driving System and Pedestrian_, Highway Accident Report HAR-19/03 (2019) — the Tempe collision and probable cause.],
