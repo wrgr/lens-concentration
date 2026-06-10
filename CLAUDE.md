@@ -13,6 +13,7 @@ This file is loaded into every Claude Code session in this repo. Keep it short a
 - `AUDIT.md` — running status, pre-print punch list
 - `competencies.md` — the v1 competency framework induced from the 100 cases (8 top-level competencies, 32 sub-competencies, all traceable)
 - `case-sweep-v2-plan.md` — the v2 case sweep scoping note (binding rules below originate here)
+- `case-sweep-v2-research-brief.md` — the self-contained task brief handed to a research process (chat / deep-research / RA) to produce a candidate-case report. Update if the lift state or selection criteria change.
 - `chapters/*.typ` — case source. Each `case(...)` call is a single case.
 
 ## Binding rules for any case-level work
