@@ -4,6 +4,33 @@ A second-pass case sweep to close the catastrophe-bias of the v1 casebook (100 c
 
 This document is a **plan**, not a commitment. It exists so the v1 framework in `competencies.md` can be read with the bias acknowledged, and so a v2 effort has a starting shape to react to rather than negotiate from zero.
 
+## Editor decisions (settled)
+
+These were resolved up front and constrain the rest of the plan:
+
+1. **Enrich, don't separate.** v2 cases are integrated into the existing casebook at their natural place in Parts I–II, not held in a Part III or separate volume. Each case carries a **`scale`** tag — `big` for the v1 catastrophic/news-visible shape, `small` for the v2 journal/conference/program shape — so the cut stays visible without splitting the book.
+2. **Pilot both LAK and AIED.** LAK skews toward measurement, dashboards, and learning-analytics infrastructure (will feed Competency 2 and 5); AIED skews toward intelligent tutoring, adaptive systems, and student modeling (will feed Competency 3 and 7). Both pilots run in parallel.
+3. **Positive-example floor of 30% in every competency.** v2 must lift each top-level competency to **≥30% intervention/success cases**, not just thicken the failure citations. The discipline reads as a discipline of failure if the framework's positive examples cluster in only two or three competencies; the target floor forces the sweep to hunt for successes where v1 has none.
+
+## Baseline: where positive lift is needed
+
+Snapshot of v1 (failures n=72, interventions n=16, frontier n=12). "Intv %" is the share of an induced competency's cited cases tagged `kind: intervention`. "Lift to 30%" is the minimum additional intervention cases each competency needs, assuming the sweep adds cases without removing any.
+
+| # | Competency | Cases (v1) | Intv | Intv % | Lift to 30% |
+|---|---|---:|---:|---:|---:|
+| 1 | Capability requirements specification under operational reality | 21 | 2 | 10% | **+7** |
+| 2 | Evidence architecture the institution cannot deceive itself with | 22 | 8 | 36% | already met |
+| 3 | Interface and role design at the human–automation boundary | 19 | 0 | **0%** | **+9** |
+| 4 | Pairing mechanism with authorization (the cultural half) | 14 | 9 | 64% | already met |
+| 5 | Governance architecture for deployment: consent, oversight, accountability | 19 | 1 | 5% | **+7** |
+| 6 | Cross-organization and cross-time knowledge transfer | 23 | 8 | 35% | already met |
+| 7 | Capability under system change, transition, and aging assumptions | 20 | 0 | **0%** | **+9** |
+| 8 | Equity and construct definition as design commitments | 12 | 1 | 8% | **+4** |
+
+**Headline reads:** the discipline already tells its positive story confidently in three places — Competency 2 (post-CAST / Keystone-style evidence work), Competency 4 (CRM, surgical checklists, ASRS — the canonical pairing+authorization successes), and Competency 6 (industry-level institution-building after catastrophe). Everywhere else, the framework as written makes the discipline look like a record of what went wrong. Competencies 3 and 7 are the most acute: **zero** positive examples of either an interface/role redesign that worked or a system-aging mitigation that worked. That's the hottest part of the sweep.
+
+A naive count is 36 new intervention cases needed; the realistic number is lower (15–25) because well-chosen cases will support multiple competencies at once.
+
 ---
 
 ## Why v2 is needed
@@ -85,23 +112,28 @@ A v2 case should meet **all five**:
 
 ## Methodology
 
-**Phase 1 — single-venue pilot.** Pick LAK or AIED, three recent years. Scan abstracts (~600–1000 papers). Identify candidate cases that meet the five criteria. Aim for 5–10 cases. Calibrate selection: are the cases surfacing actually different in shape from v1, or are they just smaller versions of the same shape?
+**Phase 1 — parallel pilot at LAK and AIED.** Three recent years each. Scan abstracts (~600–1000 papers per venue). Identify candidate cases that meet the five criteria, with a deliberate hunt for **interventions and successful redesigns** — not just documented failures. Target ~10–15 cases across the two venues, weighted toward the under-lift competencies (3, 7, 1, 5, 8). Calibrate selection: are the small-scale cases surfacing actually different in shape from v1, or just smaller versions of the same shape?
 
-**Phase 2 — expand to four venues.** Add one HCI/HF venue, one medical-ed venue, one practitioner source. Aim for 15–25 additional cases across the four. By the end of Phase 2, the v2 set should be 25–35 cases.
+**Phase 2 — expand to four more venues.** Add one HCI/HF venue (best yield for C3 interface/role successes), one medical-ed/simulation venue (best yield for C4 expansion and C7 transition successes), one program-report source (IES WWC or NSF DRK-12 — best yield for C5 governance and C8 equity practice), and one practitioner source. Aim for 15–25 additional cases. By the end of Phase 2, the v2 set should be 25–35 cases, with the **positive-example floor of 30% met in every competency**.
 
-**Phase 3 — re-induce.** Run the same induction over (v1 + v2) and observe what changes. The honest test is: does v2 add new sub-competencies, sharpen existing ones, or merely thicken the citation lists under existing ones? Any of the three is a valid outcome, but they imply different things about whether the v1 framework needs revision or just extension.
+**Phase 3 — re-induce and audit lift.** Run the induction over (v1 + v2) and verify every top-level competency now hits ≥30% intervention. If a competency still falls short, the sweep continues until it doesn't — the floor is binding, not aspirational. Also observe what the wider set changes about the framework: new sub-competencies, sharpened definitions, or merely thicker citation lists. Any of the three is valid, but they imply different things about whether the v1 framework needs revision or just extension.
 
 ## Output format
 
-v2 cases use the same `case()` Typst format as v1 with one addition: an `evidence-scale` field signaling which of the v1 levels they document — `catastrophic`, `program`, `study`, or `micro-intervention`. This makes the v1 vs. v2 cut visible in the source and lets the framework cite "the small-N evidence" explicitly.
+v2 cases use the same `case()` Typst format as v1 with two additions:
+
+- **`scale:`** one of `big` (catastrophic, news-visible — the v1 default) or `small` (program-, study-, or micro-intervention-scale — the v2 default). This is the canonical big/small tag the editor specified; it stays visible in the source and can be surfaced in margin treatment, indexes, or filtered competency views.
+- **`evidence-source:`** one of `investigation` (NTSB/IG/Royal Commission/major press), `peer-reviewed` (journal or refereed conference), `program-report` (WWC, IES, NSF, DARPA), `practitioner` (vendor whitepaper, conference talk), or `dissertation`. This makes the evidence quality auditable at a glance.
 
 ## Rough effort estimate
 
-- Phase 1 pilot: ~1–2 weeks of focused reading, plus drafting time.
-- Full sweep through Phase 3: ~2–3 months of part-time work, longer if the re-induction surfaces a structural change to the framework.
+- Phase 1 pilot (parallel LAK + AIED): ~2–3 weeks of focused reading, plus drafting time.
+- Phase 2 expansion through four additional venues: ~6–10 weeks.
+- Phase 3 re-induction and lift audit: ~1–2 weeks.
+- Total: ~3 months of part-time work, longer if the re-induction surfaces a structural change.
 
-## Open questions for the editor
+## Resolved (was: open questions for the editor)
 
-1. **Where do v2 cases live in the book?** As a Part III, an appendix, a separate edition, or integrated into Parts I–II at their natural place?
-2. **Is the casebook's audience changing?** v1 reads to a broad audience because the cases are recognizable. v2 cases will require more setup. Is the trade acceptable?
-3. **Is the catastrophe filter actually a feature for some readers** (executives, policy audiences) and a bug for others (practitioners)? If so, v2 may want a different framing rather than a merge.
+1. **Where do v2 cases live in the book?** *Integrated into Parts I–II at their natural place*, tagged `scale: small`. Not held as a Part III, appendix, or separate volume.
+2. **Is the casebook's audience changing?** Slightly. v2 cases require more setup than recognizable disasters. The big/small tag lets a reader (or a printed edition) optionally read only one tier; the editor accepts the trade.
+3. **Is the catastrophe filter a feature for some readers and a bug for others?** Both — and the answer is the big/small tag rather than a split book. A policy audience can filter to `big`; a practitioner audience can read both or filter to `small`. The framework induced over (v1 + v2) is the canonical one either way.

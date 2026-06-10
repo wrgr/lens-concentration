@@ -12,7 +12,9 @@ Specifically, three competencies are read most narrowly because of it:
 - **Competency 5 (Governance architecture)** is induced from catastrophic-scale governance failures. The routine forms — IRB-grade study protocols, change-control for instructional content, disclosure of instructor effects, vendor-data agreements — are barely represented.
 - **Competency 8 (Equity and construct definition)** plays out most often at study- and program-scale (a cohort effect in a single-district pilot, a construct-validity drift across raters). Those rarely make the news, so the competency is named mostly from its loudest instances.
 
-Read the framework accordingly: it is a high-stakes-failure induction, not a complete map of the discipline. A second-pass sweep at journal- and conference-scale evidence (see `case-sweep-v2-plan.md`) is queued to close the gap.
+There is a second bias worth naming: the share of *intervention* cases is uneven across competencies. Three competencies — Evidence architecture (C2), Pairing+authorization (C4), and Knowledge transfer (C6) — already tell their positive story confidently. Five do not. Two of them, Interface and role design (C3) and Capability under system change (C7), currently have **zero** intervention cases. The framework should be read with that in mind: where positive examples are missing, the competency is described entirely by what its failure looks like, not by what its success looks like.
+
+Read the framework accordingly: it is a high-stakes-failure induction, not a complete map of the discipline. A second-pass sweep at journal- and conference-scale evidence — with a binding floor of ≥30% intervention cases in every competency — is queued to close the gap (see `case-sweep-v2-plan.md`).
 
 ## Method
 
