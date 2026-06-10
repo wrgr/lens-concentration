@@ -14,7 +14,7 @@ Specifically, three competencies are read most narrowly because of it:
 
 There is a second bias worth naming: the share of *intervention* cases is uneven across competencies. Three competencies — Evidence architecture (C2), Pairing+authorization (C4), and Knowledge transfer (C6) — already tell their positive story confidently. Five do not. Two of them, Interface and role design (C3) and Capability under system change (C7), currently have **zero** intervention cases. The framework should be read with that in mind: where positive examples are missing, the competency is described entirely by what its failure looks like, not by what its success looks like.
 
-Read the framework accordingly: it is a high-stakes-failure induction, not a complete map of the discipline. A second-pass sweep at journal- and conference-scale evidence — with a binding floor of ≥30% intervention cases in every competency — is queued to close the gap (see `case-sweep-v2-plan.md`).
+Read the framework accordingly: it is a high-stakes-failure induction, not a complete map of the discipline. A second-pass sweep is queued to close the gap, with binding floors per competency in *each* scale tier (`big` for v1's catastrophic/news-visible shape; `small` for journal/conference/program-scale evidence): at least 15 cases and at least 30% intervention cases in each tier. That requires lifting v1 itself with additional big-scale intervention cases — not only adding small-scale evidence (see `case-sweep-v2-plan.md`).
 
 ## Method
 

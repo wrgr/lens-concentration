@@ -10,26 +10,48 @@ These were resolved up front and constrain the rest of the plan:
 
 1. **Enrich, don't separate.** v2 cases are integrated into the existing casebook at their natural place in Parts I–II, not held in a Part III or separate volume. Each case carries a **`scale`** tag — `big` for the v1 catastrophic/news-visible shape, `small` for the v2 journal/conference/program shape — so the cut stays visible without splitting the book.
 2. **Pilot both LAK and AIED.** LAK skews toward measurement, dashboards, and learning-analytics infrastructure (will feed Competency 2 and 5); AIED skews toward intelligent tutoring, adaptive systems, and student modeling (will feed Competency 3 and 7). Both pilots run in parallel.
-3. **Positive-example floor of 30% in every competency.** v2 must lift each top-level competency to **≥30% intervention/success cases**, not just thicken the failure citations. The discipline reads as a discipline of failure if the framework's positive examples cluster in only two or three competencies; the target floor forces the sweep to hunt for successes where v1 has none.
+3. **Dual-tier mass and positive-example floors per competency.** Every top-level competency must independently meet two floors in **each** of its two scale tiers (big and small):
+   - **Mass floor:** at least **15 cases** in the tier. A competency standing on fewer than 15 cases at a given scale is too thin to carry the framework.
+   - **Positive floor:** at least **30% intervention cases** in the tier. The discipline reads as a discipline of failure if the framework's positive examples cluster in only two or three competencies. The floor applies to big-scale and small-scale separately so that v1's catastrophic-scale story includes successes *and* v2's program/study-scale story includes successes.
 
-## Baseline: where positive lift is needed
+   These floors are binding, not aspirational. The sweep continues — at either scale — until every competency meets them.
 
-Snapshot of v1 (failures n=72, interventions n=16, frontier n=12). "Intv %" is the share of an induced competency's cited cases tagged `kind: intervention`. "Lift to 30%" is the minimum additional intervention cases each competency needs, assuming the sweep adds cases without removing any.
+## Baseline: where lift is needed in each tier
 
-| # | Competency | Cases (v1) | Intv | Intv % | Lift to 30% |
-|---|---|---:|---:|---:|---:|
-| 1 | Capability requirements specification under operational reality | 21 | 2 | 10% | **+7** |
-| 2 | Evidence architecture the institution cannot deceive itself with | 22 | 8 | 36% | already met |
-| 3 | Interface and role design at the human–automation boundary | 19 | 0 | **0%** | **+9** |
-| 4 | Pairing mechanism with authorization (the cultural half) | 14 | 9 | 64% | already met |
-| 5 | Governance architecture for deployment: consent, oversight, accountability | 19 | 1 | 5% | **+7** |
-| 6 | Cross-organization and cross-time knowledge transfer | 23 | 8 | 35% | already met |
-| 7 | Capability under system change, transition, and aging assumptions | 20 | 0 | **0%** | **+9** |
-| 8 | Equity and construct definition as design commitments | 12 | 1 | 8% | **+4** |
+All v1 cases are `scale: big` by convention (catastrophic, news-visible). v1 has 100 cases, 16 of them interventions; the eight competencies make 150 placements across 94 distinct cases (leverage ≈ 1.6×: each case supports ~1.6 competencies on average). The table below shows what each competency needs, **per scale tier**, to meet both floors.
 
-**Headline reads:** the discipline already tells its positive story confidently in three places — Competency 2 (post-CAST / Keystone-style evidence work), Competency 4 (CRM, surgical checklists, ASRS — the canonical pairing+authorization successes), and Competency 6 (industry-level institution-building after catastrophe). Everywhere else, the framework as written makes the discipline look like a record of what went wrong. Competencies 3 and 7 are the most acute: **zero** positive examples of either an interface/role redesign that worked or a system-aging mitigation that worked. That's the hottest part of the sweep.
+| # | Competency | Big now | Big intv | Big cases needed | Big intv needed | Small cases needed | Small intv needed |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 1 | Capability requirements specification under operational reality | 21 | 2 | — | **+7** | 15 | 5 |
+| 2 | Evidence architecture the institution cannot deceive itself with | 22 | 8 | — | — | 15 | 5 |
+| 3 | Interface and role design at the human–automation boundary | 19 | 0 | — | **+9** | 15 | 5 |
+| 4 | Pairing mechanism with authorization (the cultural half) | 14 | 9 | **+1** | — | 15 | 5 |
+| 5 | Governance architecture for deployment: consent, oversight, accountability | 19 | 1 | — | **+7** | 15 | 5 |
+| 6 | Cross-organization and cross-time knowledge transfer | 23 | 8 | — | — | 15 | 5 |
+| 7 | Capability under system change, transition, and aging assumptions | 20 | 0 | — | **+9** | 15 | 5 |
+| 8 | Equity and construct definition as design commitments | 12 | 1 | **+3** | **+4** | 15 | 5 |
+| | **Placement totals** | | | **+4 big mass** | **+36 big intv** | **+120 small** | **+40 small intv** |
 
-A naive count is 36 new intervention cases needed; the realistic number is lower (15–25) because well-chosen cases will support multiple competencies at once.
+**Headline reads on the big tier (v1 expansion):**
+
+- Three competencies already tell their positive story confidently — Competency 2 (post-CAST / Keystone-style evidence work), Competency 4 (CRM, surgical checklists, ASRS), Competency 6 (post-catastrophe institution-building). They meet both big-tier floors as-is.
+- Five competencies need big intervention cases added to v1 itself, not just v2 small ones. Competencies 3 (interface/role redesigns) and 7 (system-aging mitigations) are the most acute — **zero** big positive examples each.
+- Two competencies are also under the big mass floor of 15: C4 (14 cases — needs one more) and C8 (12 cases — needs three more).
+
+**Headline reads on the small tier (v2 sweep):**
+
+- Every competency starts at zero on the small tier, so every competency needs 15 cases / 5 interventions of small-scale evidence.
+- This is the journal/conference/program/dissertation work — a much larger reading effort than v1 required.
+
+## Realistic case-count estimate
+
+Multi-competency leverage (a single case can support more than one competency) reduces distinct-case counts substantially. Holding v1's leverage of ~1.6×:
+
+- **Big tier:** ~36 intervention placements ÷ 1.6 ≈ **~24 new big intervention cases** to draft for v1 (mostly aimed at C1, C3, C5, C7, C8). Plus ~3 cases for C8 mass and 1 for C4.
+- **Small tier:** ~120 small placements ÷ 1.6 ≈ **~80 distinct new small cases**, of which ~27 must be interventions.
+- **Casebook size after both lifts:** roughly **100 → 210 cases** (28 new big + 80 new small).
+
+That is a significantly larger casebook. The trade is named in the next section.
 
 ---
 
@@ -125,12 +147,22 @@ v2 cases use the same `case()` Typst format as v1 with two additions:
 - **`scale:`** one of `big` (catastrophic, news-visible — the v1 default) or `small` (program-, study-, or micro-intervention-scale — the v2 default). This is the canonical big/small tag the editor specified; it stays visible in the source and can be surfaced in margin treatment, indexes, or filtered competency views.
 - **`evidence-source:`** one of `investigation` (NTSB/IG/Royal Commission/major press), `peer-reviewed` (journal or refereed conference), `program-report` (WWC, IES, NSF, DARPA), `practitioner` (vendor whitepaper, conference talk), or `dissertation`. This makes the evidence quality auditable at a glance.
 
+## Trade-offs at this scale
+
+The 100 → 210 case lift is roughly double the v1 effort. Three sensitivity points the editor should weigh:
+
+- **Mass floor at 15 vs. 10 vs. 20 per tier.** At 10 per tier the small-side new cases drop to ~53 (and big-side intervention need drops only slightly, since most big shortfalls are about positives not mass); at 20 per tier it rises to ~107. 15 was picked as the rough lower bound at which a competency feels well-evidenced at a given scale rather than illustrative.
+- **Drafting cost per case.** v1's 3-page case format is roughly a day's work per case once the source material is in hand. ~108 new cases is ~5 months of editorial drafting time, in addition to the reading sweep.
+- **Whether C7 (system-aging) can hit the small-tier positive floor at all.** This may be the one competency where documented small-scale successes are genuinely rare; if Phase 3 cannot lift C7 to 30% positive in the small tier after a full venue sweep, the alternative is to reclassify C7 as a frontier competency rather than treating its under-evidenced positive side as a sweep failure.
+
 ## Rough effort estimate
 
-- Phase 1 pilot (parallel LAK + AIED): ~2–3 weeks of focused reading, plus drafting time.
-- Phase 2 expansion through four additional venues: ~6–10 weeks.
-- Phase 3 re-induction and lift audit: ~1–2 weeks.
-- Total: ~3 months of part-time work, longer if the re-induction surfaces a structural change.
+- Phase 1 pilot (parallel LAK + AIED): ~3–4 weeks of focused reading.
+- Phase 2 expansion through four additional venues: ~8–12 weeks.
+- v1 big-intervention drafting (~24 new big cases): ~5–6 weeks of editorial time, in parallel with Phase 2.
+- v2 small-case drafting (~80 new cases): ~16 weeks of editorial time, can begin once Phase 1 pilot calibrates the case-shape conventions.
+- Phase 3 re-induction and lift audit: ~2 weeks.
+- Total: **~6–9 months of part-time work**, materially longer than the previous estimate now that v1 needs intervention additions of its own.
 
 ## Resolved (was: open questions for the editor)
 
