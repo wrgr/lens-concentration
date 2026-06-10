@@ -2,6 +2,18 @@
 
 *Induced from 100 documented cases in the Capability Matters casebook. Each competency is supported by multiple cases; each sub-competency cites the cases that establish it. Failures (n=72) show what's missing; interventions (n=16) show what works; frontier cases (n=12) show what the discipline is being asked to specify next.*
 
+## What this framework is induced from — and isn't
+
+The v1 casebook is shaped by what gets documented in public. It over-samples catastrophic, news-visible failures from defense, aviation, healthcare, finance, and high-stakes ed-tech, and under-samples the everyday, study- and program-scale work that fills most of a learning engineer's actual practice. That sampling bias propagates into the framework below.
+
+Specifically, three competencies are read most narrowly because of it:
+
+- **Competency 2 (Evidence architecture)** is induced almost entirely from institution-deceives-itself cases at the Wells Fargo / VA / BP scale. The everyday version of the same competency — *did this micro-intervention actually move the learner, and how do you know* — is barely represented.
+- **Competency 5 (Governance architecture)** is induced from catastrophic-scale governance failures. The routine forms — IRB-grade study protocols, change-control for instructional content, disclosure of instructor effects, vendor-data agreements — are barely represented.
+- **Competency 8 (Equity and construct definition)** plays out most often at study- and program-scale (a cohort effect in a single-district pilot, a construct-validity drift across raters). Those rarely make the news, so the competency is named mostly from its loudest instances.
+
+Read the framework accordingly: it is a high-stakes-failure induction, not a complete map of the discipline. A second-pass sweep at journal- and conference-scale evidence (see `case-sweep-v2-plan.md`) is queued to close the gap.
+
 ## Method
 
 I read the LENS-approach and summary fields for all 100 cases, set aside the LEN 1–10 course tags and the T/D/N/H/G/K modes as seed categories, and instead listed the recurring capability demand that each case names. I then clustered those demands inductively: a candidate top-level competency was retained only if at least ten distinct cases demanded it, and a sub-competency only if at least three distinct cases established it. Where a candidate cluster slimmed below threshold, I either dropped it or merged it into an adjacent cluster (e.g., "construct definition" merged into the equity sub-cluster; "cross-domain transfer" merged into knowledge & adoption). The eight competencies below survived this pruning. The optional crosswalk at the end observes how the induced clusters relate to the modes T/D/N/H/G/K and to LEN 1–10 — purely as observation, not as anchor.
