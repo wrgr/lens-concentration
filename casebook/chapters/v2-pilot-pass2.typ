@@ -532,11 +532,10 @@
   ],
   lens-approach: [
     BCMA is the small-tier point-of-care cue/alert
-    intervention (induced 3.1; LENS D3/PT5). LENS uses it in
-    Domain 3 for cue-as-deliverable design and in Domain 5
-    for the workflow-around-the-cue that makes the mechanism
-    land in operation. Pair with Case 116 (anesthesia
-    monitoring / APSF) and Case 13 (WHO Surgical Checklist).
+    intervention (induced 3.1; LENS D3/PT5) — Domain 3 for
+    cue-as-deliverable; Domain 5 for the workflow-around-the-
+    cue. Pair with Case 116 (anesthesia/APSF) and Case 13
+    (WHO Surgical Checklist).
   ],
   literature-items: (
     [Poon et al. (2010), _NEJM_],
@@ -702,12 +701,10 @@
   ],
   lens-approach: [
     I-PASS is the state-transparency-under-stress case at the
-    human–human boundary (induced 3.3; LENS D2/PT5). LENS
-    uses it in Domain 2 for bundle-as-intervention discipline
-    and in Domain 4 for the institutional commitment to
-    faculty development that makes the mnemonic land. Pair
-    with Case 117 (CIRAS), and with v1 Cases 12 (CRM) and 89
-    (ASRS) at the aviation-lineage layer.
+    human–human boundary (induced 3.3; LENS D2/PT5) — Domain 2
+    for bundle-as-intervention; Domain 4 for the institutional
+    faculty-development commitment. Pair with Case 117 (CIRAS)
+    and v1 Cases 12 (CRM) and 89 (ASRS).
   ],
   literature-items: (
     [Starmer et al. (2014), _NEJM_],
@@ -1044,12 +1041,11 @@
   ],
   lens-approach: [
     NCSBN is the regulator-owned cross-organization
-    knowledge-transfer case (induced 6.1; LENS D2/PT4). LENS
-    uses it in Domain 2 for the RCT-design discipline that
-    made the result credible, and in Domain 4 for the
-    institutional-ownership move that propagated the evidence
+    knowledge-transfer case (induced 6.1; LENS D2/PT4) —
+    Domain 2 for the RCT-design discipline; Domain 4 for the
+    institutional-ownership move that propagated evidence
     across decentralized regulators. Pair with Case 121
-    (Colorado CTSA) at the workforce-intervention layer.
+    (Colorado CTSA).
   ],
   literature-items: (
     [Hayden et al. (2014), _J Nursing Regulation_],
@@ -1748,11 +1744,10 @@
   ],
   lens-approach: [
     Yeager et al. 2019 is the designing-predictions-to-trigger-
-    support case (induced 8.3; LENS D2/PT5). LENS uses it in
-    Domain 2 for pre-registered moderator analysis as design
-    discipline, and in Domain 4 for the equity-relevant
-    commitment to target support to those who benefit rather
-    than apply blanket treatment. Pair with Case 138 (Gándara).
+    support case (induced 8.3; LENS D2/PT5) — Domain 2 for
+    pre-registered moderator analysis; Domain 4 for the
+    equity-relevant commitment to target support to those who
+    benefit. Pair with Case 138 (Gándara).
   ],
   literature-items: (
     [Yeager et al. (2019), _Nature_],

@@ -1192,12 +1192,10 @@
   ],
   lens-approach: [
     Aadhaar exclusion is the automated-welfare-delegation case
-    with judicial correction (induced 8.1 and 5.2; LENS
-    D4/PT6). LENS uses it in Domain 4 for *Fairness beyond
-    omission* (harm was the operational exclusion produced by
-    the system) and *Delegation with revocation* (the court
-    bounded the delegation, not revoked it). Pair with SyRI
-    (Case 111) and the UK Post Office Horizon thread.
+    with judicial correction (induced 8.1, 5.2; LENS D4/PT6) —
+    Domain 4 for *Fairness beyond omission* and *Delegation
+    with revocation* (court bounded, not revoked). Pair with
+    SyRI (Case 111) and the UK Post Office Horizon thread.
   ],
   literature-items: (
     [Puttaswamy II (2018) and Pragya Prasun (2025) — Supreme Court of India judgments],

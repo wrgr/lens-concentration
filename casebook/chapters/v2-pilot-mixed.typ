@@ -184,11 +184,9 @@
   ],
   lens-approach: [
     Language of Surgery is the skill-decomposition case
-    (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3 for
-    construct-resolution — naming the unit of capability
-    before instrumenting it — and in Domain 1 for the
-    task-decomposition method. Pair with Case 144 (Birkmeyer)
-    and Case 116 (anesthesia monitoring). Home-institution
+    (induced 2.1; LENS D3/PT5) — Domain 3 for construct-
+    resolution; Domain 1 for task-decomposition. Pair with
+    Case 144 (Birkmeyer) and Case 116. Home-institution
     disclosure under the title.
   ],
   literature-items: (
@@ -356,12 +354,11 @@
   ],
   lens-approach: [
     LALA is the non-US participatory-governance case
-    (induced 5.1; LENS D4/PT4). LENS uses it in Domain 4 for
-    the cross-regime participatory method and in Domain 5 on
-    the CLO *Judgment under inadequate evidence* — the
-    adoption-readiness tier is the strongest available, not
-    closed proof of outcome. Pair with Case 110 (OU) and Case
-    111 (SyRI) as the non-US LA governance spine.
+    (induced 5.1; LENS D4/PT4) — Domain 4 for the cross-regime
+    participatory method; Domain 5 on *Judgment under
+    inadequate evidence* (adoption-readiness, not closed
+    outcome proof). Pair with Case 110 (OU) and Case 111
+    (SyRI).
   ],
   literature-items: (
     [Hilliger et al. (2020), _Internet and Higher Education_, doi:10.1016/j.iheduc.2020.100726],
@@ -531,12 +528,11 @@
   ],
   lens-approach: [
     African data privacy is the extraterritorial-platform
-    governance case (induced 5.3; LENS D4/PT6). LENS uses it in
-    Domain 4 for the cross-regime seam and in Domain 5 for the
-    CLO *Judgment under inadequate evidence* on a frontier
-    where the architectural response is recommended but not
-    yet built. Pair with Case 110 (OU) and Case 151 (LALA) as
-    the non-US LA governance set.
+    governance case (induced 5.3; LENS D4/PT6) — Domain 4 for
+    the cross-regime seam; Domain 5 for *Judgment under
+    inadequate evidence* on a frontier where the architectural
+    response is recommended but not built. Pair with Case 110
+    and Case 151.
   ],
   literature-items: (
     [Prinsloo, Slade, & Khalil (2022), _BJET_, doi:10.1111/bjet.13226],
@@ -1078,13 +1074,11 @@
   ],
   lens-approach: [
     Watson for Oncology is the marketing-ahead-of-capability
-    AI-delegation failure (induced 1.1; LENS D5/PT6). LENS uses
-    it in Domain 5 for the CLO *Delegation with revocation* —
-    the MD Anderson wind-downs are the revocation half — and
-    in Domain 3 for the requirements-vs-marketing discipline.
-    Pair with Cases 101 (TREWS), 102 (Epic Sepsis), and 111
-    (SyRI) as the AI-delegation typology. Evidence-tier flag
-    binds.
+    AI-delegation failure (induced 1.1; LENS D5/PT6) — Domain 5
+    for *Delegation with revocation* (MD Anderson wind-downs
+    are the revocation half); Domain 3 for requirements-vs-
+    marketing. Pair with Cases 101, 102, 111. Evidence-tier
+    flag binds.
   ],
   literature-items: (
     [Ross & Swetlitz (2017–2018), _STAT News_ — primary investigative record],
@@ -1269,12 +1263,10 @@
   lens-approach: [
     Johnson school surveillance is the
     infrastructure-as-mechanism gap-attribution case
-    (induced 8.1; LENS D3/PT5). LENS uses it in Domain 3 as
-    the case-grounded basis for the CLO *Gap attribution* and
-    in Domain 4 for the institutional-architecture-as-
-    mechanism framing. Pair with Cases 105 (eGFR), 106 (pulse
-    oximetry), and 107 (Hoffman) — this case carries the
-    pattern at the institutional layer. COI binds.
+    (induced 8.1; LENS D3/PT5) — Domain 3 as the case-grounded
+    basis for *Gap attribution*; Domain 4 for the
+    institutional-architecture-as-mechanism framing. Pair with
+    Cases 105, 106, 107. COI binds.
   ],
   literature-items: (
     [Johnson et al. (2022), _Journal of Criminal Justice_],

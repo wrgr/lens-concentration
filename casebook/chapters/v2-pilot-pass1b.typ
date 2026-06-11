@@ -187,11 +187,10 @@
   ],
   lens-approach: [
     FSF CFIT/ALAR is the canonical industry-coordination case
-    (induced 6.1; LENS D4/PT4). LENS uses it in Domain 4 for
-    the independent-convening-body institutional form and in
-    Domain 2 for the structured diagnostic instruments as
-    iterating deliverables. Pair with CAST (Case 12), ASRS
-    (Case 89), and WHO Surgical Checklist (Case 13).
+    (induced 6.1; LENS D4/PT4) — Domain 4 for the independent-
+    convening-body form; Domain 2 for the structured diagnostic
+    instruments as iterating deliverables. Pair with Cases 12,
+    89, and 13.
   ],
   literature-items: (
     [FSF _Flight Safety Digest_ (1998–1999) — CFIT and ALAR task-force record],
@@ -359,13 +358,10 @@
   ],
   lens-approach: [
     Barsuk SBML is the cross-institutional dissemination case
-    (induced 6.4; LENS D2/PT4). LENS uses it in Domain 2 for
-    the mastery-learning standard replacing exposure-based
-    progression, and in Domain 3 for the procedural-outcome
-    plus cost-effectiveness pairing. Pair with the
-    multidisciplinary-translation trio (Cases 121, 122, 123):
-    Barsuk is the single-center demonstrator, the trio is
-    where field-scale measurement gaps live.
+    (induced 6.4; LENS D2/PT4) — Domain 2 for mastery-learning
+    replacing exposure-based progression; Domain 3 for the
+    procedural-outcome + cost-effectiveness pairing. Pair with
+    the translation trio (Cases 121, 122, 123).
   ],
   literature-items: (
     [Barsuk et al. (2009), _Archives of Internal Medicine_],
@@ -535,12 +531,10 @@
   ],
   lens-approach: [
     FAA aging aircraft is the canonical aging-asset-governance
-    case (induced 7.3; LENS D1/PT3). LENS uses it in Domain 1
-    for the LOV-as-operational-service-goal artifact, and in
-    Domain 4 for the two-decade AAWG institutional discipline
-    that made Part 26 a codification. Closes the C7 zero-state.
-    Pair with Cases 135 (NextGen/ADS-B), 136 (Y2K), and 137
-    (LWRS) as the v2 aging-system quartet.
+    case (induced 7.3; LENS D1/PT3) — Domain 1 for LOV-as-
+    operational-service-goal; Domain 4 for the AAWG
+    institutional discipline. Closes the C7 zero-state. Pair
+    with Cases 135, 136, 137 as the v2 aging-system quartet.
   ],
   literature-items: (
     [NTSB (1989), AAR-89/03 _Aloha Airlines 243_],
@@ -881,11 +875,10 @@
   ],
   lens-approach: [
     Y2K is the legacy-software-sustainment case (induced 7.1;
-    LENS D1/PT4). LENS uses it in Domain 1 for the line-item
-    inventory discipline and the immovable deadline, and in
-    Domain 4 for the OMB-reporting + GAO-audit pairing. Closes
-    C7 alongside Cases 134, 135, 137 — the v2 aging-system
-    quartet. Carries the counterfactual-debate hedge.
+    LENS D1/PT4) — Domain 1 for line-item inventory + immovable
+    deadline; Domain 4 for OMB-reporting + GAO-audit. Closes C7
+    with Cases 134, 135, 137. Counterfactual-debate hedge
+    preserved.
   ],
   literature-items: (
     [GAO _Year 2000 Computing Challenge_ report series],
@@ -1056,13 +1049,11 @@
   ],
   lens-approach: [
     LWRS control-room modernization is the structured
-    sustainment-research case (induced 7.1; LENS D5/PT4). LENS
-    uses it in Domain 1 for the long-horizon institutional
-    partnership, in Domain 4 for the federal-research +
-    industry + regulator triple structure, and in Domain 5 for
-    the hybrid digital/analog operator-interface research line.
-    Closes C7 alongside Cases 134, 135, 136 — LWRS is the
-    pilot-scale-evidence instance.
+    sustainment-research case (induced 7.1; LENS D5/PT4) —
+    Domain 1 for the long-horizon partnership; Domain 4 for the
+    federal-research + industry + regulator triple structure;
+    Domain 5 for the hybrid digital/analog research line.
+    Closes C7 with Cases 134, 135, 136.
   ],
   literature-items: (
     [LWRS annual reports (INL, 2010 – present)],
@@ -1232,13 +1223,10 @@
   lens-approach: [
     Gándara community-college fairness is the algorithmic-
     targeting construct-definition case (induced 8.2; LENS
-    D3/PT5). LENS uses it in Domain 3 for stratified evaluation
-    as a design commitment, and in Domain 4 for the
-    intervention-pairing question that determines deployed
-    fairness. Cross-reference the v2 race-construct trio
-    (Cases 105, 106, 107) — construct definition is the
-    upstream design decision. Case-grounded basis for the
-    equity-construct CLOs.
+    D3/PT5) — Domain 3 for stratified evaluation; Domain 4 for
+    the intervention-pairing question. Cross-reference Cases
+    105, 106, 107 — case-grounded basis for the equity-
+    construct CLOs.
   ],
   literature-items: (
     [Gándara, _Journal of Policy Analysis and Management_],
@@ -1404,13 +1392,11 @@
   ],
   lens-approach: [
     Yu/Lee/Kizilcec protected attributes is the model-fairness-
-    governance case (induced 8.4; LENS D3/PT5). LENS uses it in
-    Domain 3 for stratified-evaluation-by-attribute regardless
-    of input handling, and in Domain 4 for the
-    decision-with-reasoning-plus-audit governance architecture.
-    Cross-reference Case 138 (Gándara) and the race-construct
-    trio (Cases 105, 106, 107) — the five-case set grounds the
-    equity-construct sub-competencies.
+    governance case (induced 8.4; LENS D3/PT5) — Domain 3 for
+    stratified-evaluation-by-attribute; Domain 4 for the
+    decision-plus-reasoning-plus-audit architecture. Cross-
+    reference Case 138 and the race-construct trio (105, 106,
+    107).
   ],
   literature-items: (
     [Yu, Lee, & Kizilcec, LAK/EDM protected-attributes paper],

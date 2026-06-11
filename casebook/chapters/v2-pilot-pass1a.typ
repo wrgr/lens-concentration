@@ -716,11 +716,10 @@
   ],
   lens-approach: [
     GAO weapon-system sustainment is the portfolio-evidence-
-    architecture frontier case (induced 1.4; LENS D1/PT4).
-    LENS uses it in Domain 1 for requirement-for-requirements
-    and in Domain 3 for the CLO *Judgment under inadequate
-    evidence* at portfolio scale. Pair with Case 126
-    (MIL-STD-1472H) and Case 114 (SUBSAFE).
+    architecture frontier case (induced 1.4; LENS D1/PT4) — used
+    in Domain 3 for the CLO *Judgment under inadequate
+    evidence* at portfolio scale. Pair with Case 126 and
+    Case 114.
   ],
   literature-items: (
     [GAO-22-104533 (2022), Weapon System Sustainment],
@@ -1076,10 +1075,9 @@
   ],
   lens-approach: [
     EGPWS / TAWS is the aviation cue/alert intervention case
-    (induced 3.1; LENS D3/PT5). LENS uses it in Domain 3 for
-    cue-design-as-deliverable and Domain 5 for the operator-
-    cue boundary. Pair with TCAS (Case 130) and with
-    anesthesia monitoring (Case 116) cross-domain.
+    (induced 3.1; LENS D3/PT5) — Domain 3 for cue-design-as-
+    deliverable; Domain 5 for the operator-cue boundary. Pair
+    with TCAS (Case 130) and Case 116 (anesthesia monitoring).
   ],
   literature-items: (
     [Bateman (1999), FSF ALAR Task Force],
@@ -1256,10 +1254,10 @@
   ],
   lens-approach: [
     TCAS is the coordinated-cockpit-automation case
-    (induced 3.1; LENS D3/PT5). LENS uses it in Domain 3
-    for the Überlingen-driven V7.1 iteration and Domain 5
-    for the crew–TCAS–ATC precedence rule. Pair with EGPWS
-    (Case 129) and anesthesia monitoring (Case 116).
+    (induced 3.1; LENS D3/PT5) — Domain 3 for the
+    Überlingen-driven V7.1 iteration; Domain 5 for the
+    crew–TCAS–ATC precedence rule. Pair with EGPWS (Case 129)
+    and Case 116.
   ],
   literature-items: (
     [RTCA DO-185B (2008), TCAS II Version 7.1],
@@ -1442,13 +1440,10 @@
   ],
   lens-approach: [
     Sterile-cockpit ward rounds is the cross-domain adaptation
-    case (induced 3.2; LENS D5/PT5). LENS uses it in Domain 5
-    for workflow-context-as-design-variable and in Domain 4
-    for the cultural-commitment half. Pair with I-PASS
-    (Case 143) at the structured-handoff layer, CRM (Case 12)
-    at the aviation-to-clinical translation, and Case 116
-    (anesthesia monitoring) as the anesthesia-domain
-    precedent.
+    case (induced 3.2; LENS D5/PT5) — Domain 5 for workflow-
+    context-as-design-variable; Domain 4 for the cultural-
+    commitment half. Pair with I-PASS (Case 143), CRM (Case 12),
+    and Case 116.
   ],
   literature-items: (
     [PMC12515027 — sterile-cockpit ward rounds],
