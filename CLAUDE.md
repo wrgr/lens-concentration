@@ -17,12 +17,13 @@ The casebook, the canonical LENS program documentation, and the active v2 resear
 └── v2_research/      v2 case discovery + framework revision proposals
 ```
 
-## Two anchor systems (both are tracked per case)
+## Three anchor systems (all tracked per case)
 
 - **Induced 1–8 / 32 sub-competencies** (`competencies.md`) — bottom-up induction from v1 cases. Analytic scaffold.
 - **Canonical LENS 5 / Problem Types 1–6** (`lens_program/1_LENS_Five_Competencies.md`) — curriculum of record: Systems Analysis · Iterative Development · Test and Evaluation · Navigating Sociotechnical Constraints · Machine Teaming and Adaptation, with subobjectives `1.1`–`5.4`.
+- **CLOs** (`lens_program/2_LENS_Objectives_Course_Mapping.md`, plus four new CLOs proposed in `v2_research/01_*` — gap attribution, delegation with revocation, judgment under inadequate evidence, fairness beyond omission). Course-mapping anchor for syllabi and topic indexing.
 
-They are close but not identical. v2 cases record both. In the printed case header: LENS primary, induced secondary (per `v2_research/03_editor_request_memo.md`).
+They are close but not identical. v2 cases record all three. In the printed case header: LENS primary, induced secondary, CLO carried as the course-mapping anchor (per `v2_research/03_editor_request_memo.md`, A6).
 
 ## Canonical docs (read before doing case-level work)
 
@@ -39,12 +40,17 @@ They are close but not identical. v2 cases record both. In the printed case head
 
 ## Binding rules for any case-level work
 
-1. **Case format.** Every case is a `case(...)` Typst call with: `number`, `title`, `year`, `domains-list`, `modes-code` (T/D/N/H/G/K letters), `impact`, `kind` ("failure" | "intervention" | "frontier"), `summary`, `sections` (tuple), `beats`, `references`, `le-insight`, `lens-approach`, `reflection-list`, `approaches` (during, after), `courses` (LEN tags).
-2. **Scale tag (v2 onward).** `scale:` is either `big` (catastrophic, news-visible — v1 default) or `small` (program-, study-, or micro-intervention-scale — v2 default).
-3. **Evidence-source tag (v2 onward).** `evidence-source:` is one of `investigation` | `peer-reviewed` | `program-report` | `practitioner` | `dissertation`.
-4. **Dual anchors per case.** Every v2 case carries both an induced anchor (e.g., `2.4`) and a LENS anchor (e.g., `D3/PT5`). Both are recorded in `v2_research/02_*`; both should appear in `case(...)` metadata once that schema is amended.
-5. **Dual-tier floors per competency, binding for the v2 sweep.** In *each* of the two scale tiers (`big`, `small`): ≥15 cases AND ≥30% `kind: intervention`. The sweep is not done until every competency meets both floors in both tiers.
-6. **COI / evidence-tier / hedge flags must survive into print.** CIRCUIT (editor is senior author), BRAIN (research adjacency), Johnson (shared institution) all carry COI disclosures. Watson (journalism-tier), Coots (preprint-tier), Human Brain Project (journalism-tier), Kirkpatrick (practice-synthesis-tier) carry evidence-tier flags. Causal hedges listed in `v2_research/02_*` ("inconsistent measurement," "outcome remains unknown," etc.) must not be smoothed away in drafting.
+1. **Case format.** Every case is a `case(...)` Typst call with: `number`, `title`, `year`, `domains-list`, `modes-code` (T/D/N/H/G/K letters), `impact`, `kind` ("failure" | "intervention" | "frontier"), `summary`, `sections` (tuple), `beats`, `references`, `le-insight`, `lens-approach`, `reflection-list`, `approaches` (during, after), `courses` (LEN tags), and the v2 metadata fields below.
+2. **Scale tag.** `scale:` is either `big` (catastrophic, news-visible — v1 default; back-filled on all v1 cases) or `small` (program-, study-, or micro-intervention-scale — v2 default).
+3. **Evidence-source tag.** `evidence-source:` is one of `investigation` | `peer-reviewed` | `program-report` | `practitioner` | `dissertation` | `journalism` (the last for the weaker-evidence supplemental pass).
+4. **Three anchors per case.** Every v2 case carries an `induced-anchor:` (e.g., `"2.4"`), a `lens-anchor:` (e.g., `"D3/PT5"`), and a `clo-anchor:` (e.g., `"CLO-3, CLO-5"`). All three sit on the `case(...)` metadata; LENS is primary in the printed header; induced is secondary as the analytic scaffold; CLO carries the course-mapping anchor for syllabi.
+5. **COI disclosure renders prominently under the case title.** When `coi:` is set on a `case(...)` call, the gold-bordered "Disclosure" block renders immediately under the title line, above the Impact rule. Standing COI disclosures (do not smooth away):
+   - **CIRCUIT** — an editor of this volume is the senior author of the underlying study; included on the strength of the published peer-reviewed evidence with a deliberately critical editorial framing.
+   - **BRAIN Initiative** — research adjacency; the critical retrospective framing is the safeguard.
+   - **Johnson school-surveillance study** — shared institution (JHU SOE); included on the strength of the published peer-reviewed evidence.
+6. **Evidence-tier flag renders the "future validation ongoing" language.** When `evidence-flag:` is set (`journalism-tier`, `preprint-tier`, `practice-synthesis-tier`, `thesis-pending`, `internal-pm`), a blue-bordered "Evidence tier" block renders under the title with the standing language *"source confidence flagged; future validation ongoing."* Watson (journalism), Coots (preprint), Human Brain Project (journalism), Kirkpatrick (practice-synthesis) carry these flags. Never smooth.
+7. **Causal hedges listed in `v2_research/02_*` must survive into drafting.** "Inconsistent measurement," "outcome remains unknown," "RCTs pending," "pricing vs acceptance differ," etc. — never softened.
+8. **Dual-tier floors per competency, binding for the v2 sweep.** In *each* of the two scale tiers (`big`, `small`): ≥15 cases AND ≥30% `kind: intervention`. The sweep is not done until every competency meets both floors in both tiers.
 7. **Don't edit `lens_program/`.** Those are the canonical source of record. Revisions live in `v2_research/01_*` until adopted, at which point the program owner updates `lens_program/` directly.
 8. **No merges to `main` without editor review.** Push to the working branch (`claude/lens-case-studies-book-6Erzw`); the editor decides when to merge.
 9. **Induction rule (for any framework re-induction).** Clusters retained only when ≥10 distinct cases support a top-level and ≥3 support a sub. The framework is induced from cases, not anchored to LEN 1–10 or T/D/N/H/G/K modes. (Anchoring of *new candidate cases* to the existing induced framework is expected; anchoring of the framework itself to LEN/modes is not.)
@@ -57,11 +63,15 @@ They are close but not identical. v2 cases record both. In the printed case head
 
 ## Next-phase tasks (what work this repo is currently set up to do)
 
-1. **Draft v2 cases** from the build list, paired-first (TREWS/Epic, lending pair, race-construct trio, BRAIN/HBP, OU/SyRI, Kirkpatrick/Blume). Each case() will need the new `scale`, `evidence-source`, and dual-anchor fields.
-2. **Amend the `case(...)` schema** in `casebook/lib/` to accept the new fields, then back-fill existing v1 cases with `scale: big` (and `evidence-source:` where the source class is clear) so the tagged view of the whole corpus is consistent.
-3. **Run the program-owner review** of `v2_research/01_*` before case selection hardens — framework drift between casebook and curriculum is the worst-case outcome to avoid.
-4. **Source re-confirmation pass** on the items flagged in `v2_research/03_*` (FDA pulse-oximetry guidance, BCMA harm-reduction figure, pass-1 citations v2-101..116).
-5. **First-person Practice Flywheel accounts** (2–3 for v2): authored, not researched. CIRCUIT and ERKS-class efforts are natural sources.
+1. **Schema and v1 back-fill — DONE.** `casebook/lib/case.typ` accepts `scale`, `evidence-source`, `lens-anchor`, `induced-anchor`, `clo-anchor`, `coi`, `evidence-flag`. All 100 v1 cases tagged `scale: "big"`; 43 also tagged `evidence-source: "investigation"` via the references heuristic; 57 left unflagged for editor judgment.
+2. **Pilot draft — DONE.** TREWS (case 101 placeholder) + Epic Sepsis Model (case 102 placeholder) drafted in `casebook/chapters/v2-pilot.typ`. Not yet wired into `book.typ` — pending editor review. Numbering placeholders pending A1 (Case 74 resolution → v2 numbering baseline).
+3. **Draft remaining paired-first v2 cases**, in order: lending pair (v2-801 + v2-802); race-construct trio (v2-208 + v2-209 + v2-803); BRAIN/HBP (v2-701 + v2-702); OU/SyRI (v2-501 + v2-603); Kirkpatrick/Blume (v2-805 + v2-806). All carry COI / evidence-tier flags per the standing list.
+4. **Then draft the remaining ~60 v2 candidates** from `v2_research/02_*` and any accepted candidates from the supplemental weaker-evidence pass (running — output will land at `v2_research/11_pass8_weaker_evidence_supplement.md`).
+5. **Wire all new chapter files into `casebook/book.typ`, `overview.typ`, `overview-half.typ`** so the three editions (print, digital, proof) and both overview formats include the latest content. Build the editions and verify after each pair-block.
+6. **Program-owner review of `v2_research/01_*` framework revisions** — Will + Jim aligned per editor; revisions ship with v2. The four new CLOs and the reframed "decision-grade evidence" go in.
+7. **Source re-confirmation pass** on the items flagged in `v2_research/03_*` (FDA pulse-oximetry 2025 draft guidance, BCMA harm-reduction figure, pass-1 citations v2-101..116).
+8. **TODO — First-person Practice Flywheel accounts** (2–3 for v2): authored by Will + Jim, not researched. CIRCUIT and ERKS-class efforts are natural sources. Front-matter "unpacking is the method" reframing is paired with this.
+9. **TODO — Case 74 (Hyatt Regency Walkway Collapse)** is present in `casebook/chapters/ch05b-governance-extras.typ` but missing from the latest PDF build — resolve the include/build issue before assigning v2 numbers.
 
 ## Useful operations
 

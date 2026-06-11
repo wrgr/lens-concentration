@@ -44,14 +44,17 @@
   references: (),    // numbered references matching the inline #cn() markers
   // -- v2 metadata fields (back-fill for v1; required for v2) --
   scale: none,           // "big" | "small"  — case scale tier; v1 default is "big"
-  evidence-source: none, // "investigation" | "peer-reviewed" | "program-report" | "practitioner" | "dissertation"
+  evidence-source: none, // "investigation" | "peer-reviewed" | "program-report" | "practitioner" | "dissertation" | "journalism"
   lens-anchor: none,     // canonical LENS anchor as a string, e.g. "D3/PT5"
   induced-anchor: none,  // induced-framework anchor as a string, e.g. "2.4"
+  clo-anchor: none,      // CLO anchor for course mapping, e.g. "CLO-3, CLO-5"
+  coi: none,             // COI disclosure string — renders prominently under the case heading when set
+  evidence-flag: none,   // short flag string for weaker-evidence cases (e.g. "journalism-tier", "preprint-tier"); future-validation language is implied
 ) = {
   // Emit case metadata for the back-matter indexes (e.g. the LEN-course
   // map). Carries number, title, and course tags for every case on both
   // the 4-page and legacy paths.
-  [#metadata((n: number, title: title, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor)) <caseinfo>]
+  [#metadata((n: number, title: title, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag)) <caseinfo>]
 
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.
@@ -73,6 +76,42 @@
     text(font: serif, size: title-size, fill: navy, title)
     v(1pt)
     mode-line(modes-code)
+    // -- Prominent disclosures under the case heading, when set:
+    //    COI disclosure (editor authorship / institutional adjacency) and
+    //    evidence-tier flag (journalism / preprint / practice-synthesis tier).
+    //    Both render in a single line so the disclosure is visible at the
+    //    point of reading, not buried in references.
+    if coi != none {
+      v(2pt)
+      block(
+        width: 100%,
+        fill: rgb("#FFF6E1"),
+        stroke: (left: 1.5pt + gold),
+        inset: (x: 6pt, y: 3pt),
+        grid(
+          columns: (auto, 1fr),
+          column-gutter: 6pt,
+          eyebrow("Disclosure", color: gold),
+          text(font: sans, size: 8pt, weight: "regular", fill: navy, coi),
+        ),
+      )
+    }
+    if evidence-flag != none {
+      v(2pt)
+      block(
+        width: 100%,
+        fill: rgb("#F1F5FB"),
+        stroke: (left: 1.5pt + rgb("#8A9AB5")),
+        inset: (x: 6pt, y: 3pt),
+        grid(
+          columns: (auto, 1fr),
+          column-gutter: 6pt,
+          eyebrow("Evidence tier", color: rgb("#5C6E8E")),
+          text(font: sans, size: 8pt, weight: "regular", fill: navy,
+               evidence-flag + " — source confidence flagged; future validation ongoing."),
+        ),
+      )
+    }
     v(2pt)
     block(
       width: 100%,
