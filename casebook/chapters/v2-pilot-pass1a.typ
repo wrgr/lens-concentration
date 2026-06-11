@@ -1054,6 +1054,7 @@
       [Treat residual CFIT events as evidence about the operational discipline, not as evidence against the intervention; the system that has reduced a fatality category to rare uncommon events is doing the work the case claims.],
     ),
   ),
+  // CITE-RECHECK: Could not verify Bateman 1999 ALAR Task Force paper with cited title via FSF and general web search. Bateman authored multiple EGPWS papers in the late 1990s (Honeywell technical reports, ALAR Task Force materials, Flight Safety Digest contributions); the specific 1999 ALAR Task Force paper title/venue couldn't be confirmed from public web sources. Editor: confirm against the FSF ALAR Task Force document archive or substitute the Bateman EGPWS paper of record (a 1999 Honeywell white paper of similar title circulates in the literature).
   references: (
     [Bateman, C. D. (1999), "The Introduction of Enhanced Ground-Proximity Warning System (EGPWS) into Civil Aviation Operations Around the World," Flight Safety Foundation _Approach-and-Landing Accident Reduction (ALAR) Task Force_ — developer history.],
     [Federal Aviation Administration (2000), 14 CFR §§ 91.223, 121.354, 135.154 — Terrain Awareness and Warning System (TAWS) equipage requirement.],
@@ -1426,7 +1427,7 @@
     ),
   ),
   references: (
-    [Sterile-cockpit ward rounds peer-reviewed case (PubMed Central PMC12515027) — the cited adaptation study.],
+    [Treloar, E., Herath, M., Altree, M., Potter, S., Penhall, M., Walsh, D., Kennedy, L., Bruening, M., Edwards, S., Ey, J. D., Bradshaw, E. L., & Maddern, G. J. (2025), "A Simple Solution for a Complex Problem: The 'Sterile Cockpit' to Improve Ward Rounds," _World Journal of Surgery_ 49(10):2769–2776, doi:10.1002/wjs.70074, PMID:40930848, PMCID:PMC12515027 — the cited adaptation study.],
     [Federal Aviation Administration, 14 CFR § 121.542 (codified 1981) — origin of the aviation sterile-cockpit rule.],
     [Starmer, A. J. et al. (2014), "Changes in medical errors after implementation of a handoff program," _New England Journal of Medicine_ 371(19):1803–1812 — I-PASS handoff intervention; structural cousin in the structured-information half of handoff capability.],
     [Broom, M. A., Capek, A. L., Carachi, P., Akeroyd, M. A., & Hilditch, G. (2011), "Critical phase distractions in anaesthesia and the sterile cockpit concept," _Anaesthesia_ 66(3):175–179 — prior anesthesia-domain sterile-cockpit adaptation establishing the cross-domain transfer pattern.],

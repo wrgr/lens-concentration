@@ -97,6 +97,30 @@
 #include "chapters/ch09-human-ai.typ"
 
 // ============================================================
+// PART IV — THE v2 EXPANSION  (cases 101–177)
+// ============================================================
+// The v2 corpus drafted at v1 cadence. Pilot files preserve the
+// drafting groupings — paired-first, then by pass — pending the
+// editor's per-case topical placement decision. Each case carries
+// the dual anchor + CLO metadata; COI and evidence-tier disclosures
+// render under the title where applicable.
+#include "chapters/v2-pilot.typ"
+#include "chapters/v2-pilot-lending.typ"
+#include "chapters/v2-pilot-race-construct.typ"
+#include "chapters/v2-pilot-brain.typ"
+#include "chapters/v2-pilot-governance.typ"
+#include "chapters/v2-pilot-corporate-ld.typ"
+#include "chapters/v2-pilot-pass3.typ"
+#include "chapters/v2-pilot-pass4.typ"
+#include "chapters/v2-pilot-pass1a.typ"
+#include "chapters/v2-pilot-pass1b.typ"
+#include "chapters/v2-pilot-pass2.typ"
+#include "chapters/v2-pilot-mixed.typ"
+#include "chapters/v2-pilot-suppl-a.typ"
+#include "chapters/v2-pilot-suppl-b.typ"
+#include "chapters/v2-pilot-suppl-c.typ"
+
+// ============================================================
 // BACK MATTER
 // ============================================================
 #include "backmatter/domain-index.typ"

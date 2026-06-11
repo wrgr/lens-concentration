@@ -1219,6 +1219,7 @@
       [Carry the race-construct trio (Cases 105, 106, 107) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the AMENDED equity-construct CLOs are anchored here.],
     ),
   ),
+  // CITE-RECHECK: Could not verify a Gándara paper in _Journal of Policy Analysis and Management_ on community-college predictive targeting via web search (FDA-style search, Google Scholar surrogates). The closest verified Gándara paper is Gándara, Anahideh, Ison, & Picchiarini (2024), "Inside the Black Box: Detecting and Mitigating Algorithmic Bias across Racialized Groups in College Student-Success Prediction," _AERA Open_ 10, doi:10.1177/23328584241258741 — a different venue and a college-success-prediction (not loan-outreach) framing. Editor: confirm whether the JPAM citation is correct, or substitute the AERA Open paper and revise summary/sections accordingly.
   references: (
     [Gándara, "Algorithms and student loans: The role of predictive targeting in community-college outreach," _Journal of Policy Analysis and Management_ — primary case source on construct-choice, stratification, and intervention-pairing consequences.],
     [Barocas, Hardt, & Narayanan, _Fairness and Machine Learning_ (fairmlbook.org) — methodological backdrop on construct definition and stratified evaluation.],
@@ -1395,7 +1396,7 @@
     ),
   ),
   references: (
-    [Yu, Lee, & Kizilcec, "Should College Dropout Prediction Models Include Protected Attributes?" — primary LAK/EDM paper on the include-or-exclude empirical analysis.],
+    [Yu, R., Lee, H., & Kizilcec, R. F. (2021), "Should College Dropout Prediction Models Include Protected Attributes?" in _Proceedings of the Eighth ACM Conference on Learning @ Scale_ (L@S '21), doi:10.1145/3430895.3460139 — primary paper on the include-or-exclude empirical analysis.],
     [Kizilcec & Lee, "Algorithmic Fairness in Education," in Holmes & Porayska-Pomsta (eds.), _Ethics in Artificial Intelligence in Education_ — broader synthesis of the fairness-in-learning-analytics frontier.],
     [Dwork, Hardt, Pitassi, Reingold, & Zemel (2012), "Fairness through awareness," _Proceedings of ITCS_ — foundational paper on the inadequacy of fairness-through-unawareness.],
     [Barocas, Hardt, & Narayanan, _Fairness and Machine Learning_ (fairmlbook.org) — technical-fairness backdrop.],
