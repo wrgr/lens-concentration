@@ -108,5 +108,10 @@
 #include "chapters/v2-pilot-pass10.typ"
 #include "chapters/v2-pilot-pass11.typ"
 
+// ============================================================
+// CLOSING CASE — about LENS itself; appears at the end of the book
+// ============================================================
+#include "chapters/closing-case.typ"
+
 // ----------------------------------------------------------- the editors
 #include "backmatter/editors.typ"
