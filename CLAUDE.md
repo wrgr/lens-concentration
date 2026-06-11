@@ -57,21 +57,35 @@ They are close but not identical. v2 cases record all three. In the printed case
 
 ## Current state
 
-- **v1 casebook:** 100 cases, all `big`. Case 74 (Hyatt Regency Walkway Collapse) present in Typst source (`casebook/chapters/ch05b-governance-extras.typ`) but reportedly missing from the latest PDF build — resolve at the build layer before v2 numbering.
-- **v2 sweep:** **executed.** ~77 verified candidates in `v2_research/02_*` against a ~108 target. Shortfall is deliberate. The `case-sweep-v2-plan.md` and `case-sweep-v2-research-brief.md` at root describe the scoping that produced this; the bundle in `v2_research/` is the result.
-- **Framework revisions:** drafted and grounded in named cases (`v2_research/01_*`); awaiting program-owner (J. Diamond) review.
+- **v1 casebook:** 100 cases, all `big`. Case 74 (Hyatt Regency Walkway Collapse) present in Typst source (`casebook/chapters/ch05b-governance-extras.typ`) but reportedly missing from the latest PDF build — resolve at the build layer before v2 numbering. (Editor memo A1: open.)
+- **v2 sweep:** **executed.** ~77 verified candidates in `v2_research/02_*`. The supplemental weaker-evidence pass added 21 candidates in `v2_research/11_*`, **all 21 accepted by editor** (June 2026) for v2 drafting with their `evidence-flag` rendered in print. Total v2 corpus: ~98 candidates against the original ~108 target.
+- **Framework revisions:** drafted and grounded in named cases (`v2_research/01_*`). **Adopted for v2** — Will (editor) and Jim Diamond (program owner) aligned. The four new CLOs (gap attribution; delegation with revocation; judgment under inadequate evidence; fairness beyond omission), the amended collaboration-measurement CLO, the four amended sub-competencies, and the reframed "decision-grade evidence" all ship with v2. (Editor memo A5: resolved.)
+- **v2 drafting:** **in progress.** 13 cases drafted at v1 quality through June 2026 — TREWS (101), Epic Sepsis (102), Bartlett (103), Coots (104, preprint-tier rendered), eGFR (105), pulse oximetry (106), Hoffman pain bias (107), BRAIN (108, COI rendered), HBP (109, journalism-tier rendered), OU Analyse (110), SyRI (111), Kirkpatrick (112, practice-synthesis-tier rendered), Blume (113). Each exercises the dual-anchor + CLO schema and the appropriate COI / evidence-tier render path. Pilot files live in `casebook/chapters/v2-pilot*.typ` and are not yet wired into `book.typ` — wiring happens in one pass once a critical mass of cases is accepted.
 
-## Next-phase tasks (what work this repo is currently set up to do)
+## Editor decisions — resolution log
 
-1. **Schema and v1 back-fill — DONE.** `casebook/lib/case.typ` accepts `scale`, `evidence-source`, `lens-anchor`, `induced-anchor`, `clo-anchor`, `coi`, `evidence-flag`. All 100 v1 cases tagged `scale: "big"`; 43 also tagged `evidence-source: "investigation"` via the references heuristic; 57 left unflagged for editor judgment.
-2. **Pilot draft — DONE.** TREWS (case 101 placeholder) + Epic Sepsis Model (case 102 placeholder) drafted in `casebook/chapters/v2-pilot.typ`. Not yet wired into `book.typ` — pending editor review. Numbering placeholders pending A1 (Case 74 resolution → v2 numbering baseline).
-3. **Draft remaining paired-first v2 cases**, in order: lending pair (v2-801 + v2-802); race-construct trio (v2-208 + v2-209 + v2-803); BRAIN/HBP (v2-701 + v2-702); OU/SyRI (v2-501 + v2-603); Kirkpatrick/Blume (v2-805 + v2-806). All carry COI / evidence-tier flags per the standing list.
-4. **Then draft the remaining ~60 v2 candidates** from `v2_research/02_*` and any accepted candidates from the supplemental weaker-evidence pass (running — output will land at `v2_research/11_pass8_weaker_evidence_supplement.md`).
-5. **Wire all new chapter files into `casebook/book.typ`, `overview.typ`, `overview-half.typ`** so the three editions (print, digital, proof) and both overview formats include the latest content. Build the editions and verify after each pair-block.
-6. **Program-owner review of `v2_research/01_*` framework revisions** — Will + Jim aligned per editor; revisions ship with v2. The four new CLOs and the reframed "decision-grade evidence" go in.
-7. **Source re-confirmation pass** on the items flagged in `v2_research/03_*` (FDA pulse-oximetry 2025 draft guidance, BCMA harm-reduction figure, pass-1 citations v2-101..116).
-8. **TODO — First-person Practice Flywheel accounts** (2–3 for v2): authored by Will + Jim, not researched. CIRCUIT and ERKS-class efforts are natural sources. Front-matter "unpacking is the method" reframing is paired with this.
-9. **TODO — Case 74 (Hyatt Regency Walkway Collapse)** is present in `casebook/chapters/ch05b-governance-extras.typ` but missing from the latest PDF build — resolve the include/build issue before assigning v2 numbers.
+- **A1 — Case 74 numbering baseline.** OPEN. Case 74 is in Typst source; missing from latest PDF build. Resolve at build layer before v2 numbering.
+- **A2 — v2 target count.** RESOLVED. Will + Jim aligned: draft all verified candidates plus the accepted supplemental tier.
+- **A3 — Watson + Coots evidence-tier handling.** RESOLVED. Include with explicit `evidence-flag` rendered under the title; standing "future validation ongoing" language is part of the render. Coots is drafted (Case 104).
+- **A4 — COI disclosure language.** RESOLVED. Standing COI text adopted for CIRCUIT (editor is senior author), BRAIN (research adjacency — drafted in Case 108), Johnson (shared institution). Each renders as a gold-bordered "Disclosure" block under the title.
+- **A5 — Framework revisions ship with v2 or precede.** RESOLVED. Ship with v2; program-owner alignment achieved.
+- **A6 — Anchor convention in printed header.** RESOLVED, with extension. LENS primary, induced secondary, **CLO carried as a third anchor** for course mapping. All three live in the `case(...)` metadata.
+- **B1 — First-person Practice Flywheel accounts.** TODO. To be authored by Will + Jim (not researched). 2–3 accounts targeted for v2; CIRCUIT and ERKS-class efforts are natural sources. Paired with the front-matter "unpacking is the method" reframing.
+
+## Next-phase tasks
+
+1. **Schema and v1 back-fill — DONE.** `casebook/lib/case.typ` accepts `scale`, `evidence-source`, `lens-anchor`, `induced-anchor`, `clo-anchor`, `coi`, `evidence-flag`. All 100 v1 cases tagged `scale: "big"`; 43 tagged `evidence-source: "investigation"` via the references heuristic; 57 left unflagged for editor judgment.
+2. **Paired-first drafting — DONE.** All six paired sets identified by the editor memo are drafted at v1 quality: TREWS/Epic (101–102); lending pair Bartlett/Coots (103–104, preprint-tier rendered); race-construct trio eGFR/pulse oximetry/Hoffman (105–107); BRAIN/HBP (108–109, COI rendered + journalism-tier rendered); OU/SyRI (110–111); Kirkpatrick/Blume (112–113, practice-synthesis-tier rendered).
+3. **TODO — Draft remaining ~60 verified candidates from `v2_research/02_*`** at the same v1 quality. By pass: pass-1 v2-101..116 (16, citations re-confirm), pass-2 minus those used (~9), pass-3 v2-301..305 (SUBSAFE, nurse ratios, anesthesia/APSF, CIRAS, iPLEDGE), pass-4 v2-402..405 (CIRCUIT with COI, team-science, IPE, implementation-science training), pass-5 minus OU (LALA, African data privacy, Norway, Brazil MMALA), Watson (v2-604, journalism-tier), Johnson (v2-804, COI).
+4. **TODO — Draft the 21 accepted supplemental candidates** in `v2_research/11_*` (v2-901..921). All carry `evidence-flag`; the in-print render is binding.
+5. **TODO — Wire all new chapter files into `casebook/book.typ`, `casebook/overview.typ`, `casebook/overview-half.typ`** so the three editions (print, digital, proof) and both overview formats include the latest content. Done after a critical mass of cases is drafted so the wiring happens once and right.
+6. **TODO — Source re-confirmation pass** on items flagged in `v2_research/03_*`: FDA pulse-oximetry 2025 draft guidance (Case 106), BCMA harm-reduction figure (v2-203 when drafted), pass-1 citations v2-101..116 (re-confirm at draft time per editor instruction).
+7. **TODO — First-person Practice Flywheel accounts** (2–3 for v2): authored by Will + Jim, not researched. CIRCUIT and ERKS-class efforts are natural sources. Paired with the front-matter "unpacking is the method" reframing.
+8. **TODO — Case 74 PDF build issue.** Source intact at `casebook/chapters/ch05b-governance-extras.typ`; missing from latest PDF build — resolve before assigning v2 numbers.
+
+## Realistic drafting pace
+
+13 v2 cases drafted in the current pace = roughly 4–6 cases per focused turn at v1 quality (5 sections + beats + approaches + references + 3 anchors + flags + lens-approach + reflection list per case). The ~85 remaining cases (60 verified + 21 supplemental + 4 supplemental cross-listed) need approximately 14–17 more focused turns of drafting plus 1–2 turns to wire builds and verify the editions. Quality is the binding constraint; the pace does not compress without losing fidelity to the v2_research hedges, the COI render discipline, and the source re-confirmation flags that have to survive into print.
 
 ## Useful operations
 

@@ -1,5 +1,8 @@
 # Capability Matters: A Casebook — Pass 8 (Supplemental): Weaker-Evidence Candidates
 
+> **Status (June 2026):** ACCEPTED for inclusion in v2 drafting. All 21 candidates (v2-901 .. v2-921) join the build list and are tracked alongside the verified candidates in `02_*`. Each carries an explicit `evidence-flag` that must render under the case title with the standing "future validation ongoing" language. The candidates do **not** fold into the peer-reviewed/investigation tier — they remain a flagged tier in print.
+
+
 *Supplemental case-discovery pass. The primary v2 sweep (~77 verified candidates in `02_complete_case_list_build_reference.md`) closed at peer-reviewed and investigation-grade sourcing. This pass deliberately reaches into journalism-tier reporting, preprints, practice-synthesis writeups, dissertations, and internal post-mortems summarized in public talks — but **only** where the candidate fills a named thin spot the primary sweep could not cover.*
 
 **Evidence discipline.** Every candidate below carries an explicit `evidence-flag` declaring its tier. Every write-up includes the verbatim phrase "future validation ongoing." That phrase must travel into the printed case if the candidate is drafted — it is the colophon-grade honesty signal that tells the reader where the sourcing stops being investigation-grade. This is non-negotiable.
