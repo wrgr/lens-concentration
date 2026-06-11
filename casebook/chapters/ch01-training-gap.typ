@@ -213,7 +213,7 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "1.1",
-  lens-anchor: "D1/PT3",
+  lens-anchor: "D1/PT3",  // alternate framing adopted: training-design lens (the operator-licensing reforms) over institution-building (INPO); INPO retained as paired-case context in lens-approach,  // alternate framing adopted: institutional-learning lens over systems-analysis; preserves D1/PT3 as a defensible secondary,
   clo-anchor: "CLO-1, CLO-4",
 )
 
@@ -412,7 +412,7 @@
   evidence-source: "investigation",
   induced-anchor: "1.2",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3, CLO-5",
+  clo-anchor: "CLO-2, CLO-3",  // alternate framing adopted: CLO-5 dropped; reserve CLO-5 (Machine Teaming) for AI-mediated cases; AF447 is automation-handoff under classical FBW, not AI-mediated,
 )
 
 #case(

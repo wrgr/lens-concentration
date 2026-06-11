@@ -770,7 +770,7 @@
   courses: ("LEN 5", "LEN 9"),
   scale: "big",
   evidence-source: "investigation",
-  induced-anchor: "5.4",
+  induced-anchor: "7.1",  // alternate framing adopted: deprecated test code activated under partial deployment is the dead-code-as-inherited-design pattern; preserves 5.4 as the post-incident Reg SCI lens,
   lens-anchor: "D1/PT3",
   clo-anchor: "CLO-1, CLO-3",
 )

@@ -21,7 +21,7 @@
   kind: "intervention",
   scale: "big",
   evidence-source: "peer-reviewed",
-  induced-anchor: "4.4",
+  induced-anchor: "2.3",  // alternate framing adopted: closed-loop evidence lens captures the Haynes→Urbach replication arc more directly than pre-committed institutional response,
   lens-anchor: "D3/PT5",
   clo-anchor: "CLO-3, CLO-4",
   summary: [

@@ -465,7 +465,7 @@
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
   evidence-source: "investigation",
-  induced-anchor: "2.2",
+  induced-anchor: "2.1",  // alternate framing adopted: the "Gr-eight" cross-sell metric was measuring the wrong failure mode (sales activity vs. account legitimacy); 2.2 (gaming protection) preserved as alternate framing,
   lens-anchor: "D3/PT5",
   clo-anchor: "CLO-3, CLO-4",
 )

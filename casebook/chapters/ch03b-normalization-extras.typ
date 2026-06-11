@@ -177,7 +177,7 @@
   courses: ("LEN 4", "LEN 7", "LEN 3",),
   scale: "big",
   evidence-source: "investigation",
-  induced-anchor: "2.1",
+  induced-anchor: "5.4",  // alternate framing adopted: change-control lens captures the "1000 Day"/"Forward" cost-cutting programs as program drivers; the personal-safety-vs-process-safety measurement insight (2.1) preserved as the canonical alternate,
   lens-anchor: "D3/PT5",
   clo-anchor: "CLO-3, CLO-4",
 )
