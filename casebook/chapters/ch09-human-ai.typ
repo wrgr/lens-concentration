@@ -160,6 +160,8 @@
     [Autopilot assigns full legal responsibility to the operator while engineering the conditions that erode their attention. Where in your domain does liability rest with the person an automated system has made least able to intervene — and how would you realign the two?],
   ),
   courses: ("LEN 7", "LEN 2", "LEN 6",),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -299,6 +301,7 @@
     [Cruise's oversight depended on the operator's own account of what its vehicles did. Identify a regulatory relationship in your domain that relies on self-disclosure, and design the mechanism that would make a partial account detectable before trust collapses.],
   ),
   courses: ("LEN 10", "LEN 7"),
+  scale: "big",
 )
 
 #case(
@@ -448,6 +451,7 @@
     [The ProPublica analysis surfaced the COMPAS disparity in 2016 only because reporters obtained the data. What is the equivalent public-interest investigation that should exist for a comparable model in your domain — and what data would have to be released for it to be possible?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
+  scale: "big",
 )
 
 #case(
@@ -596,6 +600,7 @@
     [FDA 510(k) clearance does not currently require demographic stratification of validation metrics, nor does it require post-market monitoring of how a cleared tool actually performs on the population using it. What is the minimum reporting deliverable a regulator should require so the gap is visible while the tool is in use?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
+  scale: "big",
 )
 
 #case(
@@ -738,6 +743,7 @@
     [The same fluency that makes LLM output easy to accept is what removes the cues a reader normally uses to doubt it. What interface signal would restore that friction at the moment of use without making the tool unusable?],
   ),
   courses: ("LEN 10", "LEN 7", "LEN 2"),
+  scale: "big",
 )
 
 #case(
@@ -879,6 +885,7 @@
     [Predictive policing's feedback loop grows more confident the longer it runs, because its own output becomes the next cycle's training data. Where in your domain does a deployed model shape the data it later learns from — and how would you break the loop?],
   ),
   courses: ("LEN 7", "LEN 9"),
+  scale: "big",
 )
 
 #case(
@@ -1022,6 +1029,7 @@
     [AlphaFold inherited a benchmark, clean data, and a verification path that protein structure had accumulated over decades. Pick a problem in your domain that lacks one of those preconditions, and lay out how a field would deliberately build it.],
   ),
   courses: ("LEN 1", "LEN 7", "LEN 9"),
+  scale: "big",
 )
 
 #case(
@@ -1168,6 +1176,7 @@
     [The "jagged frontier" is hard to navigate because its edge is invisible from inside the task. Design a signal or practice that would tell a practitioner in your domain when they have crossed from where the tool helps to where it misleads.],
   ),
   courses: ("LEN 10", "LEN 2", "LEN 8"),
+  scale: "big",
 )
 
 #case(
@@ -1310,4 +1319,5 @@
     [Capability engineering in 2026 is compared here to where INPO stood in 1979 — a plausible trajectory, not a guaranteed one. What would have to be true a generation from now for that comparison to hold, and what is the first institution you would build to make it so?],
   ),
   courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 3",),
+  scale: "big",
 )

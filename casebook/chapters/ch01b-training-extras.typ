@@ -146,6 +146,8 @@
     ),
   ),
   courses: ("LEN 4", "LEN 5", "LEN 8"),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -293,6 +295,8 @@
     ),
   ),
   courses: ("LEN 5", "LEN 2"),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -444,6 +448,7 @@
     ),
   ),
   courses: ("LEN 10", "LEN 7", "LEN 8"),
+  scale: "big",
 )
 
 #case(
@@ -590,6 +595,7 @@
     ),
   ),
   courses: ("LEN 5", "LEN 8"),
+  scale: "big",
 )
 
 #case(
@@ -736,6 +742,8 @@
     ),
   ),
   courses: ("LEN 5", "LEN 2"),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -879,6 +887,8 @@
     ),
   ),
   courses: ("LEN 5", "LEN 2"),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -1023,6 +1033,8 @@
     ),
   ),
   courses: ("LEN 4", "LEN 8"),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -1171,4 +1183,6 @@
     ),
   ),
   courses: ("LEN 5", "LEN 2"),
+  scale: "big",
+  evidence-source: "investigation",
 )

@@ -170,6 +170,8 @@
     ),
   ),
   courses: ("LEN 1", "LEN 5", "LEN 2"),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 // ---------------- CASE 7: THERAC-25 ----------------
@@ -318,6 +320,7 @@
     ),
   ),
   courses: ("LEN 5", "LEN 7", "LEN 2"),
+  scale: "big",
 )
 
 // ---------------- CASE 19: PATRIOT MISSILE ----------------
@@ -466,4 +469,6 @@
     ),
   ),
   courses: ("LEN 5", "LEN 8", "LEN 9", "LEN 6",),
+  scale: "big",
+  evidence-source: "investigation",
 )

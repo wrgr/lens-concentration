@@ -151,6 +151,7 @@
     ),
   ),
   courses: ("LEN 10", "LEN 7", "LEN 6",),
+  scale: "big",
 )
 
 #case(
@@ -296,6 +297,7 @@
     ),
   ),
   courses: ("LEN 4", "LEN 8"),
+  scale: "big",
 )
 
 #case(
@@ -448,6 +450,8 @@
     ),
   ),
   courses: ("LEN 4", "LEN 7", "LEN 3",),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 #case(
@@ -596,4 +600,5 @@
     ),
   ),
   courses: ("LEN 8",),
+  scale: "big",
 )

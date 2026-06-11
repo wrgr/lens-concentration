@@ -161,6 +161,8 @@
     ),
   ),
   courses: ("LEN 1", "LEN 4", "LEN 2", "LEN 3",),
+  scale: "big",
+  evidence-source: "investigation",
 )
 
 // ---------------- CASE 14: KEYSTONE ICU ----------------
@@ -305,6 +307,7 @@
     ),
   ),
   courses: ("LEN 4", "LEN 10", "LEN 5"),
+  scale: "big",
 )
 
 // ---------------- CASE 16: INPO ----------------
@@ -448,4 +451,5 @@
     ),
   ),
   courses: ("LEN 1", "LEN 8", "LEN 3",),
+  scale: "big",
 )

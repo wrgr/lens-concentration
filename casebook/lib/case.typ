@@ -42,11 +42,16 @@
   beats: (),         // optional ~10–12-word summary per beat; renders in the
                      // Half-Letter overview's five-beat map (one line per beat)
   references: (),    // numbered references matching the inline #cn() markers
+  // -- v2 metadata fields (back-fill for v1; required for v2) --
+  scale: none,           // "big" | "small"  — case scale tier; v1 default is "big"
+  evidence-source: none, // "investigation" | "peer-reviewed" | "program-report" | "practitioner" | "dissertation"
+  lens-anchor: none,     // canonical LENS anchor as a string, e.g. "D3/PT5"
+  induced-anchor: none,  // induced-framework anchor as a string, e.g. "2.4"
 ) = {
   // Emit case metadata for the back-matter indexes (e.g. the LEN-course
   // map). Carries number, title, and course tags for every case on both
   // the 4-page and legacy paths.
-  [#metadata((n: number, title: title, courses: courses)) <caseinfo>]
+  [#metadata((n: number, title: title, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor)) <caseinfo>]
 
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.

@@ -160,4 +160,5 @@
     ),
   ),
   courses: ("LEN 1", "LEN 4", "LEN 10", "LEN 6",),
+  scale: "big",
 )
