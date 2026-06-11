@@ -25,90 +25,129 @@
   year: "1988",
   domains-list: ("defense",),
   modes-code: "HT",
-  impact: "290 civilians killed — the deadliest shootdown of a commercial airliner by a military force",
+  impact: "290 civilians killed — the deadliest shootdown of a commercial airliner by a military force; precipitating case for Aegis CIC display and decision-aid doctrine reform, and a central reference in the human-AI teaming literature",
   diagram: dgm.dgm-vincennes,
   kind: "failure",
+  scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "3.3",
+  lens-anchor: "D2/PT6",
+  clo-anchor: "CLO-5, CLO-2",
   summary: [
     On 3 July 1988, during a surface skirmish with Iranian gunboats in the
     Persian Gulf, the USS Vincennes shot down Iran Air Flight 655 — a
     civilian Airbus A300 climbing on a scheduled route — killing all 290
-    aboard, the deadliest airliner shootdown by a military force. The Aegis
-    combat system worked: its radar correctly showed the aircraft ascending.
-    Yet operators in the Combat Information Center, primed to expect a
-    hostile attack, read the contact as a descending F-14 and fired. The
-    Navy's inquiry attributed the tragedy to human error under extreme
-    stress — confirmation bias and the unconscious distortion of data — not
-    equipment failure. Vincennes is the book's foundational human-AI-teaming
-    case: the most advanced system afloat failed because its interface did
-    not support correct performance under combat stress.
+    aboard, the deadliest airliner shootdown by a military force. The
+    Aegis combat system worked: its radar correctly showed the aircraft
+    ascending on the published civilian-traffic corridor. Yet operators
+    in the Combat Information Center, primed by a simultaneous surface
+    fight to expect a hostile inbound, read the contact as a descending
+    F-14 and fired. The Fogarty Report (DoD, 1988) attributed the
+    tragedy to human error under extreme stress — confirmation bias,
+    "scenario fulfillment," and the unconscious distortion of data — not
+    equipment failure. The contemporaneous Newsweek "Sea of Lies"
+    investigation and a 2018 US Naval Institute _Proceedings_
+    retrospective reopened both the operational record and the
+    interface-design lessons. Vincennes is the book's foundational
+    human-AI-teaming case: the most advanced surface combatant afloat
+    failed because its CIC interface and the operational framing made the
+    correct reading possible in principle and unsustainable in practice
+    under combat stress.
   ],
   sections: (
     // -- Background --
     [
-      In the closing weeks of the Iran-Iraq War, U.S. warships patrolled a
+      In the closing weeks of the Iran-Iraq War, US warships patrolled a
       tense Persian Gulf where civilian airliners and hostile military
-      aircraft shared the same crowded sky. The USS Vincennes, a cruiser
-      with the Navy's most advanced Aegis combat system, was in a surface
-      fight with Iranian gunboats when an aircraft took off from a nearby
-      airfield used by both civil and military traffic.#cn() The dual-use
-      field meant a single track could be either threat or scheduled flight,
+      aircraft shared the same crowded sky. The USS Vincennes, a
+      Ticonderoga-class cruiser with the Navy's most advanced Aegis
+      combat system, was in a surface fight with Iranian gunboats — itself
+      a contested engagement that the later Newsweek "Sea of Lies"
+      investigation argued had taken the ship into Iranian territorial
+      waters — when an aircraft took off from Bandar Abbas, an airfield
+      used by both civil and military traffic.#cn() The dual-use field
+      meant a single track could be either threat or scheduled flight,
       so the crew's reading of the contact carried the whole burden of
-      identification — and they were already maneuvering hard against the
-      gunboats, the kind of divided attention under which a wrong call
+      identification — and the Combat Information Center was already
+      managing divided attention against the surface engagement and
+      against an interface whose track display did not directly show
+      altitude trend, the kind of conditions under which a wrong call
       becomes far easier to make than a right one.
     ],
     // -- What Happened --
     [
-      The aircraft was Iran Air Flight 655, a civilian Airbus A300 climbing
-      on its scheduled route. The Vincennes' crew identified it as a
-      descending, hostile F-14 and fired two surface-to-air missiles; all 290
-      people aboard were killed — the deadliest shootdown of a commercial
-      airliner by a military force.#cn() An ascending airliner and a diving
-      attack jet are opposite behaviors, yet the crew converged on the second
-      while the radar reported the first; the engagement consumed only minutes,
-      collapsing identification, decision, and launch into a window too narrow
-      for anyone to slow down and reconcile the contradiction.
+      The aircraft was Iran Air Flight 655, a civilian Airbus A300
+      climbing through 12,000 feet on its scheduled route to Dubai. The
+      Vincennes' crew identified it as a descending, hostile F-14 and
+      fired two SM-2 surface-to-air missiles; all 290 people aboard,
+      including 66 children, were killed — the deadliest shootdown of a
+      commercial airliner by a military force.#cn() An ascending airliner
+      and a diving attack jet are opposite behaviors, yet the crew
+      converged on the second while the Aegis radar reported the first.
+      The engagement consumed only seven minutes from radar detection to
+      launch, collapsing identification, IFF interrogation, and decision
+      into a window too narrow for anyone to slow down and reconcile the
+      contradiction.
     ],
     // -- The Investigation --
     [
-      The Aegis system had not malfunctioned: its radar correctly showed the
-      aircraft ascending. Yet several crew members in the Combat Information
-      Center independently believed it was descending,#cn() a shared error
-      that is more damning than a single misread, because it shows the
-      interface offered no cross-check strong enough to break a wrong reading
-      once the team had settled into it. The Navy's
-      Fogarty inquiry attributed the tragedy to human error under extreme
-      stress — to confirmation bias and the "stress and unconscious
-      distortion of data" — as operators read every indication through the
-      lens of a presumed hostile attack, because the framing arrived before
-      the data did, so each new return was fitted to the expected threat
-      rather than weighed against it.#cn()
+      The Aegis SPY-1A radar had not malfunctioned: it correctly showed
+      the aircraft ascending. The IFF interrogation system added a
+      structural confusion of its own: the Vincennes' IFF returns
+      reflected both the airliner's Mode III civilian transponder and,
+      apparently, a Mode II military code from another aircraft on the
+      ground at Bandar Abbas — a mode-confusion failure that left the
+      crew with ambiguous identification at the worst possible
+      moment.#cn() The Fogarty Report (Rear Adm. William Fogarty, DoD,
+      August 1988) attributed the tragedy to human error under extreme
+      stress — confirmation bias and the "stress and unconscious
+      distortion of data" — naming "scenario fulfillment" as the
+      psychological mechanism by which operators read every indication
+      through the lens of a presumed hostile attack. Several crew members
+      in the CIC independently believed the aircraft was descending,#cn()
+      a shared error that is more damning than a single misread because
+      it shows the interface offered no cross-check strong enough to
+      break a wrong reading once the team had settled into it. The
+      framing arrived before the data did, so each new return was fitted
+      to the expected threat rather than weighed against it.#cn()
     ],
     // -- The Capability Gap --
     [
-      The system did not lie, and the operators did not act in bad faith. The
-      interface and the operational framing combined to make a particular
-      misreading not merely possible but likely. Correct performance was
-      possible in principle and unsustainable in practice — and the gap
-      between those two is the engineering problem. An interface that
-      presents data without guarding against the crew's pre-formed
-      expectation has not been designed for the stress it will actually
-      meet; the burden of overriding a presumed hostile attack was left
-      entirely to the operator's discipline, exactly when combat had stripped
-      that discipline of the time and calm it needed to work.#cn()
+      The system did not lie, and the operators did not act in bad
+      faith. The interface and the operational framing combined to make
+      a particular misreading not merely possible but likely. Correct
+      performance was possible in principle and unsustainable in
+      practice — and the gap between those two is the engineering
+      problem. An Aegis CIC display that surfaced altitude as a numeric
+      readout but not as a trend, that gave equal weight to civilian and
+      military IFF returns under mode confusion, and that offered no
+      mandatory disconfirmation step before weapons release, had not
+      been designed for the stress it would actually meet. The burden of
+      overriding a presumed hostile attack was left entirely to the
+      operator's discipline, exactly when combat had stripped that
+      discipline of the time and calm it needed to work.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      Decades later the case became a central reference in the
-      human-AI-teaming conversation: a 2018 Naval Institute retrospective placed it at
-      the heart of how operators should be teamed with automated decision
-      aids under stress.#cn() Its lesson is that interface design is a
-      capability deliverable, not an aesthetic one — and that the most
-      advanced system afloat is only as good as the human reading it under
-      fire. The retrospective reframed the loss not as a one-off error but as
-      a predictable outcome of teaming a person with a decision aid that
-      displayed truth without defending it, a pattern that recurs wherever
-      automation is fast and the human is the last check.
+      The Navy's post-incident response included revised tactical
+      doctrine for civilian-traffic deconfliction in the Gulf, updated
+      Aegis training scenarios that explicitly rehearsed the
+      scenario-fulfillment failure mode, and changes to the CIC display
+      sequence and crew procedures around IFF interpretation under mode
+      confusion. The case has remained a standing reference in the
+      human-AI-teaming literature: a 2018 _US Naval Proceedings_
+      retrospective placed it at the heart of how operators should be
+      teamed with automated decision aids under stress, and the
+      situation-awareness, naturalistic-decision-making, and
+      automation-trust literatures (Klein, Endsley, Cummings) treat it
+      as the canonical worked example.#cn() Its lesson is that interface
+      design is a capability deliverable, not an aesthetic one — and that
+      the most advanced system afloat is only as good as the human
+      reading it under fire. The retrospective reframed the loss not as
+      a one-off error but as a predictable outcome of teaming a person
+      with a decision aid that displayed truth without defending it, a
+      pattern that recurs wherever automation is fast and the human is
+      the last check.
     ],
   ),
   beats: (
@@ -119,12 +158,13 @@
     "Naval retrospective reframed loss as predictable teaming failure of unguarded decision aids",
   ),
   references: (
-    [Rear Adm. W. Fogarty, _Formal Investigation into the Circumstances Surrounding the Downing of Iran Air Flight 655_ (U.S. Navy, 1988) — the engagement and the 290 deaths.],
-    [Fogarty report (1988) — the Aegis system functioned; the aircraft was ascending while the crew perceived a descent.],
-    [Fogarty report (1988) — "human error under extreme stress," confirmation bias, and "unconscious distortion of data" (quoted).],
-    [#link("https://www.usni.org/magazines/proceedings/")[U.S. Naval Institute _Proceedings_] retrospective on the Vincennes incident (2018) — the human-AI-teaming framing.],
-    [M. L. Cummings, "Human Supervisory Control of Weapon Systems" (MIT) — interface and automation under time pressure.],
-    [G. Klein, _Sources of Power_ (1998); M. Endsley, "Toward a Theory of Situation Awareness" (1995).],
+    [Rear Adm. W. Fogarty, _Formal Investigation into the Circumstances Surrounding the Downing of Iran Air Flight 655_ (US Navy, August 1988) — the engagement, the IFF mode-confusion findings, and the 290 deaths.],
+    [Fogarty report (1988) — the Aegis SPY-1A radar functioned; the aircraft was ascending while the crew perceived a descent; "scenario fulfillment" as the psychological mechanism.],
+    [Fogarty report (1988) — "human error under extreme stress," confirmation bias, and "unconscious distortion of data" (quoted); shared-error finding across CIC operators.],
+    [J. Barry & R. Charles, "Sea of Lies," _Newsweek_ (July 13, 1992) — contemporaneous reinvestigation of the operational record, including the disputed account of Vincennes' position relative to Iranian territorial waters.],
+    [#link("https://www.usni.org/magazines/proceedings/")[US Naval Institute _Proceedings_] retrospective on the Vincennes incident (2018) — the human-AI-teaming reframing and the standing case-study role.],
+    [M. L. Cummings, "Human Supervisory Control of Weapon Systems" (MIT) — interface design and automation under time pressure as the engineering frame for the case.],
+    [G. Klein, _Sources of Power_ (1998); M. Endsley, "Toward a Theory of Situation Awareness" (1995) — the naturalistic-decision-making and situation-awareness literatures that treat Vincennes as the canonical worked example.],
   ),
   quote: [The shootdown of Flight 655 ... reveals lessons for technology adoption and its use in stressful situations.],
   quote-source: "Paraphrasing U.S. Naval Proceedings retrospective on the Vincennes incident, 2018",
@@ -137,12 +177,20 @@
     is the engineering problem.
   ],
   lens-approach: [
-    LENS uses Vincennes in LEN 2 as the foundational case for human-AI
-    teaming under operational stress, and in LEN 5 to teach the analysis
-    of capability requirements in conditions the original interface
-    designers never expected. The case sits at the center of the
-    program's argument that interface design is a capability deliverable,
-    not an aesthetic one.
+    Vincennes is the foundational mode-and-state-transparency case
+    under combat stress (induced 3.3; LENS D2/PT6 human-AI teaming).
+    LENS uses it in Domain 2 (Iterative Development; CLO-2) for
+    interface-as-deliverable: a CIC display tested against the worst
+    case it would actually meet — confirmation bias during a
+    simultaneous surface engagement — not against the calm of
+    acceptance testing. LENS uses it in Domain 5 (Machine Teaming and
+    Adaptation; CLO-5) for the human-AI teaming problem itself: a
+    decision aid that displays truth without defending it predictably
+    fails wherever automation is fast and the human is the last check.
+    The case sits at the heart of the program's argument that
+    interface design is a capability deliverable, not an aesthetic
+    one. Pair with EHR/CPOE (Case 25) at the
+    interface-built-to-wrong-specification layer.
   ],
   literature-items: (
     [Klein, _Sources of Power_ (1998) on naturalistic decision-making],
@@ -167,7 +215,6 @@
     ),
   ),
   courses: ("LEN 5", "LEN 2"),
-  scale: "big",
 )
 
 #case(

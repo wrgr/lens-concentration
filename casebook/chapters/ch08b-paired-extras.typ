@@ -16,9 +16,14 @@
   year: "2008 – present",
   domains-list: ("healthcare",),
   modes-code: "TN",
-  impact: "Death rate 1.5% → 0.8%; complications down >33%; adopted by the majority of surgical providers worldwide",
+  impact: "Death rate 1.5% → 0.8% in eight-site pilot; complications down >33%; adopted by the majority of surgical providers worldwide; Ontario population study (2014) found no significant mortality benefit after a mandated rollout",
   diagram: dgm.dgm-who,
   kind: "intervention",
+  scale: "big",
+  evidence-source: "peer-reviewed",
+  induced-anchor: "4.4",
+  lens-anchor: "D3/PT5",
+  clo-anchor: "CLO-3, CLO-4",
   summary: [
     In 2008, Atul Gawande's team and the WHO introduced a single-page,
     nineteen-item surgical checklist applied at three junctures — before
@@ -44,7 +49,12 @@
       existed; the reliable practice did not. A surgical team in motion
       rarely stopped to verify that everyone held the same picture of the
       patient and procedure, so a mismatch any member could have caught
-      passed silently into the operation.#cn()
+      passed silently into the operation. The cost was global and
+      patterned — the WHO estimated that, of the roughly 234 million
+      operations performed each year, at least seven million produced
+      major complications and about a million ended in death — and the
+      bulk of that harm sat in failure modes that a brief verbal
+      cross-check would have closed.#cn()
     ],
     // -- The Intervention --
     [
@@ -53,10 +63,15 @@
       critical junctures: before anesthesia, before skin incision, and
       before the patient leaves the operating room. The team piloted it
       across eight hospitals in eight countries spanning very different
-      economic and operational conditions. Testing the same artifact from
-      Toronto to Tanzania was deliberate — it had to work in settings with
-      vastly different resources to demonstrate that the gain came from the
-      forced pause itself, not from any one system's wealth.#cn()
+      economic and operational conditions — Toronto, London, Seattle,
+      Auckland, Amman, New Delhi, Manila, and Ifakara — selecting sites
+      deliberately to span the global income gradient. Testing the same
+      artifact from Toronto to Tanzania was deliberate — it had to work in
+      settings with vastly different resources to demonstrate that the
+      gain came from the forced pause itself, not from any one system's
+      wealth. The artifact was intentionally minimal: items the team had
+      tested against the surgical-safety literature for the smallest set
+      that still spanned the highest-risk junctures.#cn()
     ],
     // -- How It Worked --
     [
@@ -68,7 +83,12 @@
       more than the specific list of items. Saying the confirmations aloud
       to one another, rather than each member assuming them privately, is
       what surfaced the mismatches a moving team would otherwise have
-      carried into the incision.#cn()
+      carried into the incision. The mechanism turned the operating room
+      into a momentarily flat-hierarchy space: a circulating nurse who
+      noticed a missing antibiotic dose at the time-out had institutional
+      cover to say so before the incision, a transaction the pre-checklist
+      culture had not reliably authorized. The artifact's authority — that
+      the team had to stop — was what made the speech act safe.#cn()
     ],
     // -- The Evidence --
     [
@@ -80,20 +100,34 @@
       majority of surgical providers worldwide. That the death rate roughly
       halved across all eight sites, despite their differences in wealth and
       practice, is what made the result so persuasive — the effect tracked
-      the intervention rather than the setting.#cn()
+      the intervention rather than the setting. The published mortality
+      reduction was contested almost from the moment of publication:
+      observational, pre/post, no concurrent control, susceptible to
+      secular trends and Hawthorne-style attention effects. The pilot was
+      always best read as the formation of a strong hypothesis under
+      pragmatic conditions, not as a closed proof of population-scale
+      mortality benefit.#cn()
     ],
     // -- What Transferred --
     [
-      A 2014 Ontario population study found no statistically significant
-      mortality reduction after province-wide mandated adoption — a result
-      that did not refute the checklist so much as illustrate its
-      dependence on implementation fidelity. Where a mandate replaced
-      genuine authorization of the pause, the measured effect attenuated,
-      making the checklist a paired lesson in both minimal-artifact design
-      and the limits of mere compliance. The contrast between the pilot and
-      the mandated rollout is the lesson: when the pause was genuinely used
-      it worked, and when it became a box to check before proceeding the
-      same paper produced nothing.#cn()
+      Urbach and colleagues, writing in _NEJM_ in 2014, examined more
+      than 200,000 procedures across 101 Ontario hospitals before and
+      after a province-wide mandated rollout and found no statistically
+      significant reduction in operative mortality, in-hospital
+      complications, length of stay, or readmission. The null result
+      did not refute the checklist so much as illustrate its dependence
+      on implementation fidelity: where a mandate replaced genuine
+      authorization of the pause, the measured effect attenuated, making
+      the checklist a paired lesson in both minimal-artifact design and
+      the limits of mere compliance. The contrast between the pilot and
+      the mandated rollout is the lasting teaching point: when the pause
+      was genuinely used it worked, and when it became a box to check
+      before proceeding the same paper produced nothing. Subsequent
+      multi-country replications and the WHO's own follow-up work have
+      been mixed — the institutional uptake outran the closed evidence
+      of population-scale mortality benefit, and the contested
+      mortality reduction is the part of the case that does not
+      resolve.#cn()
     ],
   ),
   beats: (
@@ -124,11 +158,16 @@
     authorization, the measured effect attenuated.
   ],
   lens-approach: [
-    LENS uses the WHO checklist in LEN 10 (capstone) as the canonical
-    end-to-end design exemplar: a problem identified, a minimal
+    LENS uses the WHO checklist as the canonical pre-committed
+    institutional response paired with closed-loop evidence
+    (induced 4.4; LENS D3/PT5). It runs in LEN 10 (capstone) as the
+    end-to-end design exemplar — a problem identified, a minimal
     artifact prototyped, a multi-site pilot, a measurement regime, and
-    global scale-out. LEN 4 examines the measurement architecture that
-    made the effect provable.
+    global scale-out — and in LEN 4 for the measurement architecture
+    that made the pilot effect provable and the Ontario null
+    interpretable. Adjacent to SUBSAFE (Case 114) at the
+    mandatory-mechanism layer, where the artifact's authority is the
+    intervention.
   ],
   literature-items: (
     [Haynes et al. (2009), NEJM],
@@ -153,7 +192,6 @@
     ),
   ),
   courses: ("LEN 4", "LEN 10"),
-  scale: "big",
 )
 
 #case(

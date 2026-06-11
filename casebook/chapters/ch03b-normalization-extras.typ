@@ -69,12 +69,18 @@
       influential in the agency's history.#cn() It found accumulated
       safety-culture decay, deferred maintenance, broken instruments
       tolerated as routine, trailers sited dangerously close to a hazardous
-      unit, and a cost-cutting program celebrated internally — and it drew
-      the distinction that would reshape the field: "indicators of personal
-      safety are not indicators of process safety."#cn() The Board's force
-      came from naming the deeper error as one of measurement: the company
-      had not failed to measure but had measured the wrong dimension and then
-      trusted the reassuring number it produced.
+      unit, and a cost-cutting program — branded internally as "1000
+      Day" and "Forward" — celebrated as a success while it consumed the
+      process-safety margin. The CSB drew the distinction that would
+      reshape the field: "indicators of personal safety are not
+      indicators of process safety."#cn() The Board's force came from
+      naming the deeper error as one of measurement: the company had not
+      failed to measure but had measured the wrong dimension and then
+      trusted the reassuring number it produced. BP's recordable
+      personal-injury rate was excellent at the moment of the disaster,
+      the front-page metric on which management-incentive plans paid out;
+      the process-safety state of the unit that killed fifteen workers
+      had no comparable reporting line at all.
     ],
     // -- The Capability Gap --
     [
@@ -91,16 +97,24 @@
     ],
     // -- Aftermath & Reform --
     [
-      The Baker Panel review followed, BP invested heavily in process safety,
-      and the process-safety/personal-safety distinction — developed in the
-      CCPS literature and codified in OSHA's 1992 process-safety-management
-      standard — moved into mainstream U.S. industrial regulation after 2005.
-      The case's lasting contribution is a measurement lesson: count the
-      thing that can kill you, not the thing that is easy to count.#cn() That
-      the distinction had been available in the CCPS literature and the OSHA
-      standard before the explosion underscores the point: the knowledge
-      existed, but the refinery's reporting had not been built to carry it
-      upward where the hazard actually lived.
+      The Baker Panel — chaired by former Secretary of State James Baker,
+      commissioned by BP at the CSB's recommendation — reported in 2007
+      that the failure was a corporate one, not a Texas City one: a
+      safety-culture decay extending across BP's five U.S. refineries,
+      driven by cost pressure and management-of-change failures that the
+      personal-safety metric system was structurally incapable of
+      surfacing. BP invested heavily in process safety afterward, and the
+      process-safety/personal-safety distinction — developed in the CCPS
+      literature and codified in OSHA's 1992 process-safety-management
+      standard — moved into mainstream U.S. industrial regulation after
+      2005, with API Recommended Practice 754 (2010) establishing
+      process-safety leading and lagging indicators as an industry
+      standard. The case's lasting contribution is a measurement lesson:
+      count the thing that can kill you, not the thing that is easy to
+      count.#cn() That the distinction had been available in the CCPS
+      literature and the OSHA standard before the explosion underscores
+      the point: the knowledge existed, but the refinery's reporting had
+      not been built to carry it upward where the hazard actually lived.
     ],
   ),
   beats: (
@@ -128,10 +142,15 @@
     blind in the dimension that killed people.
   ],
   lens-approach: [
-    LENS uses Texas City in LEN 4 as the canonical wrong-measurement
-    case and in LEN 7 for the governance failure that allowed years of
+    Texas City is the canonical "measuring the wrong failure mode"
+    case (induced 2.1; LENS D3/PT5), with cue/alert design
+    (induced 3.1) and change-control (induced 5.4) as alternate
+    anchors. LENS uses it in LEN 4 as the wrong-measurement case
+    and in LEN 7 for the governance failure that allowed years of
     cost-cutting to be reported as wins. Studio projects design the
-    process-safety measurement deliverable.
+    process-safety measurement deliverable BP's executives should
+    have been receiving in 2003. Adjacent to Wells Fargo (Case 70)
+    at the measurement-system-blind-to-the-real-failure-mode layer.
   ],
   literature-items: (
     [CSB Texas City Report (2007)],
@@ -158,6 +177,9 @@
   courses: ("LEN 4", "LEN 7", "LEN 3",),
   scale: "big",
   evidence-source: "investigation",
+  induced-anchor: "2.1",
+  lens-anchor: "D3/PT5",
+  clo-anchor: "CLO-3, CLO-4",
 )
 
 #case(

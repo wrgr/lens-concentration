@@ -28,6 +28,11 @@
   impact: "11 killed; largest marine oil spill in U.S. history; $65B+ in damages",
   diagram: dgm.dgm-deepwater,
   kind: "failure",
+  scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "3.1",
+  lens-anchor: "D3/PT5",
+  clo-anchor: "CLO-3, CLO-4",
   summary: [
     On 20 April 2010 the Macondo well blew out beneath the Deepwater Horizon
     rig in the Gulf of Mexico, killing 11 workers and releasing roughly 4.9
@@ -40,6 +45,11 @@
     Every defense — procedure, training, supervision, contractor
     coordination, equipment — had drifted independently until none caught the
     others. It is the book's canonical multi-layer normalization failure.
+    Four major investigations — the National Commission, the joint Coast
+    Guard / BOEMRE inquiry, the Chemical Safety Board's process-safety
+    review, and the Deepwater Horizon Study Group at Berkeley — each
+    surfaced a distinct facet of the same drift; the disagreements among
+    them are themselves load-bearing for the case.
   ],
   sections: (
     // -- Background --
@@ -69,10 +79,19 @@
     ],
     // -- The Investigation --
     [
-      The National Commission concluded that human error, not mechanical
-      failure, was the root cause, and that the mistakes revealed "such
-      systematic failures in risk management that they place in doubt the
-      safety culture of the entire industry."#cn() Government and academic
+      Four major investigations reached the wreck and pulled on different
+      threads. The National Commission concluded that human error, not
+      mechanical failure, was the root cause, and that the mistakes revealed
+      "such systematic failures in risk management that they place in doubt
+      the safety culture of the entire industry."#cn() The joint Coast
+      Guard / BOEMRE inquiry traced the blowout-preventer failure to a
+      buckled drill pipe and a maintenance backlog that the leasing-and-safety
+      regulator had not caught. The Chemical Safety Board's separately
+      published process-safety review made the load-bearing distinction
+      explicit: BP's lost-time-injury rate had been industry-leading on the
+      rig, yet personal-safety metrics had no purchase on the catastrophic
+      process-safety risks that produced the blowout — the same inversion
+      the CSB had already documented at Texas City. Government and academic
       reviews found training that had not covered the well-control situation
       the crew faced, an unclear chain of command, and a cascade of failed
       defenses — "a complex and interlinked series of mechanical failures,
@@ -94,20 +113,34 @@
       tolerance, no single review of any one layer would have flagged a
       crisis; the danger lived in the correlation between layers, which is
       precisely the property no individual procedure was designed to watch.
+      The cement job, the blowout preventer's design and maintenance, the
+      well-control culture before the incident, and the regulator's split
+      mandate were each, on their own, a partial story; the failure was
+      the alignment among them, and no defense layer had been instrumented
+      to read that alignment in time.
     ],
     // -- Aftermath & Reform --
     [
       The blowout drove a restructuring of offshore regulation — the Minerals
-      Management Service was broken up and replaced, and drilling-safety and
-      well-integrity rules were tightened — while BP paid tens of billions in
-      penalties and settlements. The deeper lesson is the normalization one:
-      no single layer failed catastrophically on its own; each had quietly
-      drifted within tolerance until the day the tolerances lined up.#cn()
-      Splitting the regulator conceded that an agency both leasing acreage and
-      policing safety carried a built-in conflict, and tightening the
-      well-integrity rules conceded that the negative-pressure test had been a
-      real barrier all along — one the system had been quietly permitted to
-      misread.
+      Management Service was broken up and replaced by the Bureau of Safety
+      and Environmental Enforcement (BSEE) and the Bureau of Ocean Energy
+      Management (BOEM), separating the leasing function from the safety
+      function so revenue pressure could no longer erode well-integrity
+      enforcement — and drilling-safety and well-integrity rules were
+      tightened, while BP paid tens of billions in penalties and settlements.
+      The deeper lesson is the normalization one: no single layer failed
+      catastrophically on its own; each had quietly drifted within tolerance
+      until the day the tolerances lined up.#cn() Splitting the regulator
+      conceded that an agency both leasing acreage and policing safety
+      carried a built-in conflict, and tightening the well-integrity rules
+      conceded that the negative-pressure test had been a real barrier all
+      along — one the system had been quietly permitted to misread. The
+      hedges survive into the case: the process-safety / personal-safety
+      distinction the CSB names is load-bearing and easy to lose; the
+      OSHA-vs-EPA enforcement gap on offshore facilities was structural,
+      not incidental; and the four investigations did not converge on a
+      single cause precisely because the catastrophe had several, all of
+      which had been quietly tolerated.
     ],
   ),
   beats: (
@@ -120,10 +153,10 @@
   references: (
     [National Commission on the BP Deepwater Horizon Oil Spill, _Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling_ (Report to the President, 2011) — human error as root cause; the misread negative-pressure test.],
     [National Commission (2011) — the well-control sequence and mud-displacement decision.],
-    [National Commission (2011) — "systematic failures in risk management… place in doubt the safety culture of the entire industry" (quoted).],
-    [BOEMRE / U.S. Coast Guard Joint Investigation (2011) and National Academies study of deepwater-drilling safety — training gaps, unclear chain of command, and the interlinked cascade of failed defenses.],
-    [National Commission (2011); N. Leveson, systems-theoretic analysis of Deepwater Horizon — the multi-layer drift.],
-    [Spill-volume estimates (~4.9 million barrels) and BP cost disclosures (>\$65 billion); the reorganization of the Minerals Management Service into BSEE/BOEM.],
+    [National Commission (2011) — "systematic failures in risk management… place in doubt the safety culture of the entire industry" (quoted); U.S. Chemical Safety Board, _Drilling Rig Explosion and Fire at the Macondo Well_ (final volumes, 2014–2016) — process-safety vs. personal-safety distinction and BP's industry-leading lost-time-injury rate as a misleading indicator.],
+    [BOEMRE / U.S. Coast Guard Joint Investigation (2011) — blowout-preventer maintenance backlog and chain-of-command findings; National Academies, _Macondo Well Deepwater Horizon Blowout: Lessons for Improving Offshore Drilling Safety_ (2012) — training gaps and the interlinked cascade of failed defenses.],
+    [Deepwater Horizon Study Group (UC Berkeley, 2011) final report; N. Leveson, systems-theoretic analysis of Deepwater Horizon — the multi-layer drift and the limits of single-cause framings.],
+    [Spill-volume estimates (~4.9 million barrels) and BP cost disclosures (>\$65 billion); the reorganization of the Minerals Management Service into BSEE/BOEM (Secretarial Order 3299, 2010); A. Lustgarten, _Run to Failure: BP and the Making of the Deepwater Horizon Disaster_ (W.W. Norton, 2012) — long-arc account of accumulated procedural debt.],
   ),
   quote: [The immediate causes of the Macondo well blowout can be traced to a series of identifiable mistakes ... that reveal such systematic failures in risk management that they place in doubt the safety culture of the entire industry.],
   quote-source: "National Commission, Deep Water (Report to the President), 2011",
@@ -134,25 +167,38 @@
     negative-pressure test was the proximate trigger, but the system as a whole
     had been operating with accumulated procedural debt for years. The
     capability to recognize an unsafe well-state simply was not present
-    at the moment it was needed.
+    at the moment it was needed. The CSB's process-safety / personal-safety
+    distinction is load-bearing: BP's industry-leading lost-time-injury
+    record was a measurement of the wrong construct, and reading it as
+    safety was itself a normalization.
   ],
   lens-approach: [
-    LENS uses Deepwater Horizon in LEN 5 as the canonical case for
-    multi-layer capability analysis. Students reconstruct each defense
-    layer, identify the deviation accumulated in each, and design the
-    measurement system that would have surfaced the drift before April
-    20, 2010. LEN 8 examines contractor-coordination as a capability
-    boundary problem.
+    Deepwater Horizon anchors the cue-and-alert-design competency
+    (induced 3.1; LENS D3/PT5): the negative-pressure test was the
+    cue, and the cue's ambiguity at the moment of decision was the
+    capability gap. LENS uses it in Domain 3 (Test and Evaluation)
+    for the cue-design failure and the wrong-construct measurement;
+    in Domain 1 (Systems Analysis) for multi-layer drift across
+    procedure, training, supervision, contractor coordination, and
+    equipment; and in Domain 4 (Navigating Sociotechnical
+    Constraints) for the OSHA-vs-EPA enforcement gap and the
+    leasing-vs-safety regulator conflict the BSEE/BOEM split conceded.
+    Pair with Texas City (Case 56) on the
+    process-safety-vs-personal-safety inversion, and with Challenger /
+    Columbia (Case 6) on the multi-layer-drift form.
   ],
   literature-items: (
     [National Commission (2011), _Deep Water: The Gulf Oil Disaster_],
+    [U.S. Chemical Safety Board, Macondo investigation final volumes (2014–2016)],
+    [A. Lustgarten, _Run to Failure_ (2012) — book-length BP/Macondo account],
     [Reason, _Human Error_ (1990) — swiss-cheese model],
     [Vaughan, _The Challenger Launch Decision_ (1996)],
   ),
   reflection-list: (
     [Identify a multi-defense process in your domain. For each layer, what is the procedural debt that has accumulated since it was designed?],
-    [The negative-pressure test was the proximate trigger. Design a capability check that would have caught the misinterpretation in real time.],
+    [The negative-pressure test was the proximate trigger. Design a capability check that would have caught the misinterpretation in real time — and specify what makes the cue unambiguous enough that an anomalous reading stops work rather than inviting a rationalizing explanation.],
     [The Commission judged the drift industry-wide, not rig-specific. What measure in your domain would reveal whether a single failure is a local lapse or a sample from a systemic distribution?],
+    [BP's lost-time-injury rate had been industry-leading on the rig. Name the measurement in your domain that is most at risk of being the wrong construct — a personal-safety analog where the catastrophic process-safety risk lives elsewhere — and design the second instrument that would surface the harm the first one cannot see.],
   ),
   approaches: (
     during: (
@@ -167,7 +213,6 @@
     ),
   ),
   courses: ("LEN 5", "LEN 8", "LEN 3",),
-  scale: "big",
 )
 
 #case(
@@ -180,16 +225,24 @@
   impact: "14 astronauts killed (7 per accident); 17 years between identical organizational pathologies",
   diagram: dgm.dgm-shuttle,
   kind: "failure",
+  scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "7.4",
+  lens-anchor: "D1/PT4",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     NASA lost two Space Shuttle crews to the same organizational pathology
     seventeen years apart: Challenger in 1986, when O-ring seals failed in
     cold weather, and Columbia in 2003, when foam debris breached the wing's
     thermal protection — fourteen astronauts in all. Both flaws had been
-    seen repeatedly and accepted as routine. Sociologist Diane Vaughan named
-    the mechanism "normalization of deviance" from the Challenger
-    investigation; the Columbia Accident Investigation Board found the same
-    culture intact and concluded NASA's organizational culture had as much
-    to do with the accident as the foam. The pair is the strongest
+    seen repeatedly and accepted as routine; foam shedding had been
+    documented on at least sixteen prior missions before Columbia, and
+    O-ring erosion in the field joints had been on the engineering record
+    since the early flights. Sociologist Diane Vaughan named the mechanism
+    "normalization of deviance" from the Challenger investigation; the
+    Columbia Accident Investigation Board found the same culture intact
+    seventeen years later and concluded NASA's organizational culture had
+    as much to do with the accident as the foam. The pair is the strongest
     single-institution evidence that culture is an engineerable property of
     a system — and that a pathology diagnosed but left unrepaired will recur,
     at the same cost.
@@ -222,10 +275,20 @@
     // -- The Investigation --
     [
       The Rogers Commission traced Challenger to the O-ring and to a launch
-      decision that overrode engineers' cold-weather warnings.#cn() Seventeen
-      years later the Columbia Accident Investigation Board found the same
-      patterns intact — flying with flaws defined as routine, and a structure
-      that suppressed the upward flow of safety concerns — and concluded that
+      decision that overrode engineers' cold-weather warnings — the Thiokol
+      teleconference on the eve of launch, at which the engineering position
+      ("do not launch below 53°F") was reversed under management pressure
+      and the launch went ahead at 36°F.#cn() Diane Vaughan's _The Challenger
+      Launch Decision_ (1996) re-examined the same teleconference with a
+      decade's documentary access and reframed the decision: not deviant
+      individuals overriding good engineering, but a working group whose
+      rules of evidence had drifted, one accepted anomaly at a time, until
+      a launch at 36°F was inside what the group's own decision rules
+      counted as acceptable risk. Seventeen years later the Columbia
+      Accident Investigation Board found the same patterns intact — flying
+      with flaws defined as routine, foam strikes filed under "in-family"
+      across at least sixteen prior missions, and a structure that
+      suppressed the upward flow of safety concerns — and concluded that
       "the NASA organizational culture had as much to do with this accident
       as the foam."#cn() That the same board found the same structure
       seventeen years on is the case's sharpest point: the first reform had
@@ -238,25 +301,39 @@
       named the mechanism: deviations from the safety baseline become
       acceptable through production pressure, weak communication, and habit,
       one small step at a time. Columbia validated the concept against its
-      author's intent. The pathology had been diagnosed in 1986 and never
-      engineered away — which is the point: culture is a system property, and
-      a diagnosis without a remediation decays.#cn() Naming the mechanism did
-      not arrest it, because a name lives in a report while the production
-      pressure and the suppressed warnings live in the daily flow of work,
-      where they kept doing what they had always done.
+      author's intent — Vaughan herself was retained by the CAIB and the
+      Board's final report cites the mechanism by name. The pathology had
+      been diagnosed in 1986 and never engineered away — which is the point:
+      culture is a system property, and a diagnosis without a remediation
+      decays.#cn() Naming the mechanism did not arrest it, because a name
+      lives in a report while the production pressure and the suppressed
+      warnings live in the daily flow of work, where they kept doing what
+      they had always done. The institutional-learning gap is itself the
+      load-bearing finding: between 1986 and 2003 NASA had reorganized
+      twice, lost an administrator, and adopted multiple safety initiatives,
+      and the structural pathway from a dissenting engineer to a launch
+      decision was substantially unchanged.
     ],
     // -- Aftermath & Reform --
     [
       Each accident produced reform — the Rogers Commission's redesign of the
-      booster joint, the CAIB's call to treat culture as a safety variable
-      and rebuild independent technical authority — and the Shuttle was
-      retired in 2011. The pair stands as the book's strongest evidence that
-      organizational culture is engineerable, and that leaving it unengineered
-      is a choice with a recurring, lethal cost.#cn() The CAIB's insistence on
-      independent technical authority conceded the deeper lesson the
-      booster-joint redesign alone had missed in 1986: the upward path for a
-      dissenting engineer is itself a piece of safety hardware, and one that
-      has to be rebuilt and defended rather than assumed.
+      booster joint, the CAIB's call to treat culture as a safety variable,
+      the establishment of the NASA Engineering and Safety Center, and the
+      Board's instruction to rebuild independent technical authority — and
+      the Shuttle was retired in 2011 after completing the International
+      Space Station assembly. The pair stands as the book's strongest
+      evidence that organizational culture is engineerable, and that
+      leaving it unengineered is a choice with a recurring, lethal
+      cost.#cn() The CAIB's insistence on independent technical authority
+      conceded the deeper lesson the booster-joint redesign alone had
+      missed in 1986: the upward path for a dissenting engineer is itself a
+      piece of safety hardware, and one that has to be rebuilt and defended
+      rather than assumed. The hedge that survives into the case: Vaughan's
+      "normalization of deviance" is the load-bearing analytic claim across
+      both accidents and is never to be smoothed; the seventeen-year
+      institutional-learning gap is the empirical claim, and the CAIB's
+      cross-referencing of Rogers Commission language ("the same
+      decision-making structures") is the documentary anchor.
     ],
   ),
   beats: (
@@ -267,12 +344,12 @@
     "Reforms followed each loss, yet the cultural mechanism stayed unrepaired until the Shuttle retired",
   ),
   references: (
-    [Rogers Commission, _Report of the Presidential Commission on the Space Shuttle Challenger Accident_ (1986) — the O-ring failure and the cold-weather launch decision.],
-    [Columbia Accident Investigation Board, _Report Vol. I_ (2003) — the foam strike and the recurrence of the cultural pattern.],
-    [CAIB (2003) — "the NASA organizational culture had as much to do with this accident as the foam" (quoted).],
-    [D. Vaughan, _The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA_ (Univ. of Chicago Press, 1996) — normalization of deviance.],
-    [Rogers Commission (1986) and CAIB (2003) — the suppressed upward flow of safety information across both accidents.],
-    [W. Starbuck & M. Farjoun (eds.), _Organization at the Limit: Lessons from the Columbia Disaster_ (2005); the Shuttle's 2011 retirement.],
+    [Rogers Commission, _Report of the Presidential Commission on the Space Shuttle Challenger Accident_ (1986) — the O-ring failure, the Thiokol teleconference, and the cold-weather launch decision.],
+    [D. Vaughan, _The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA_ (Univ. of Chicago Press, 1996) — normalization of deviance; the working group's drift of decision rules.],
+    [Columbia Accident Investigation Board, _Report Vol. I_ (2003) — the foam strike, the sixteen prior missions of foam-shedding filed as "in-family," the recurrence of the cultural pattern, and the call for an independent technical authority.],
+    [CAIB (2003) — "the NASA organizational culture had as much to do with this accident as the foam" (quoted); Rogers Commission (1986) and CAIB (2003) jointly on the suppressed upward flow of safety information across both accidents.],
+    [W. Starbuck & M. Farjoun (eds.), _Organization at the Limit: Lessons from the Columbia Disaster_ (2005) — independent academic re-analyses of the institutional-learning gap.],
+    [NASA Engineering and Safety Center founding documents (2003 – present) — institutional response to the CAIB's call for independent technical authority; Shuttle retirement (STS-135, July 2011).],
   ),
   quote: [These repeating patterns mean that flawed practices embedded in NASA's organizational system continued for 20 years and made substantial contributions to both accidents.],
   quote-source: "Columbia Accident Investigation Board, 2003",
@@ -282,16 +359,30 @@
     that diagnoses without engineered remediations decay. The same
     pathology, twice, seventeen years apart, in the same institution,
     with the same human cost — and with the diagnosis already on the
-    record. Capability engineering treats culture as a deliverable.
+    record. Vaughan's "normalization of deviance" names the mechanism
+    and is the load-bearing analytic claim across both accidents.
+    Capability engineering treats culture as a deliverable.
   ],
   lens-approach: [
-    LENS uses the pair in LEN 1 to introduce normalization of deviance as
-    a systems concept, in LEN 8 to examine why organizational learning
-    failed across a 17-year interval, and in LEN 7 to address the
-    governance failure that allowed a known pathology to persist.
+    Challenger/Columbia anchors the multi-layer-drift-and-cumulative-
+    inadequacy competency (induced 7.4; LENS D1/PT4): a cascade of
+    marginal-but-tolerable conditions across decision rules, schedule
+    pressure, and communication structure aligned twice, seventeen
+    years apart. LENS uses the pair in Domain 1 (Systems Analysis)
+    for normalization of deviance as a systems concept and the
+    institutional-learning gap as a measurable property; in Domain 4
+    (Navigating Sociotechnical Constraints) for the governance
+    failure that allowed a diagnosed pathology to persist and for
+    the upward-channel design the CAIB called a piece of safety
+    hardware. Pair with Deepwater Horizon (Case 4) on the
+    multi-layer-drift form, and with Bhopal (Case 17) and Fukushima
+    (Case 61) on cumulative inadequacy in catastrophic-system
+    operations.
   ],
   literature-items: (
+    [Rogers Commission (1986) — primary record of the Thiokol teleconference],
     [Vaughan (1996), _The Challenger Launch Decision_],
+    [CAIB (2003), _Report Vol. I_ — the load-bearing cultural finding],
     [Starbuck & Farjoun (eds.) _Organization at the Limit: Lessons from the Columbia Disaster_ (2005)],
     [Weick & Sutcliffe, _Managing the Unexpected_ (2007)],
   ),
@@ -299,6 +390,7 @@
     [What is the equivalent "diagnosed but not repaired" pathology in your domain? What evidence would close the loop?],
     [The CAIB called culture engineerable. Sketch the engineering deliverable for the cultural intervention you would propose in your domain — including its measurement signal.],
     [Seventeen years separated two accidents with the same root pathology. What mechanism in your organization would verify that a past diagnosis has actually been remediated rather than merely documented?],
+    [Vaughan reframed the Thiokol teleconference not as deviant override but as a working group whose decision rules had drifted. Identify a recurring decision in your domain whose rules of evidence may have drifted incrementally, and specify the audit that would surface the drift before the next high-consequence call.],
   ),
   approaches: (
     during: (
@@ -313,7 +405,6 @@
     ),
   ),
   courses: ("LEN 1", "LEN 7", "LEN 8", "LEN 3",),
-  scale: "big",
 )
 
 #case(

@@ -657,15 +657,23 @@
     ],
     // -- The Investigation --
     [
-      The Securities and Exchange Commission's 2013 order found Knight had no
-      written procedure requiring a second technician to verify the deployment
-      across all hosts, and no automated check that all eight servers were
-      running the same code — nor controls able to recognize and halt the
-      flood of erroneous orders once it began. Knight settled for a \$12
-      million penalty.#cn() The dead Power Peg code was the proximate trigger
-      and the reused flag the match that lit it; but the underlying cause was
-      the absence of the verification and risk controls that should surround
-      any change to a system wired directly into the live market.#cn()
+      The Securities and Exchange Commission's September 2013 enforcement
+      order — In re Knight Capital Americas LLC — found Knight had no
+      written procedure requiring a second technician to verify the
+      deployment across all hosts, and no automated check that all eight
+      servers were running the same code — nor controls able to recognize
+      and halt the flood of erroneous orders once it began. The order
+      catalogued specific violations of the SEC's Market Access Rule
+      (Rule 15c3-5), and Knight settled for a \$12 million
+      penalty.#cn() The dead Power Peg code was the proximate trigger
+      and the reused flag the match that lit it; but the underlying
+      cause was the absence of the verification and risk controls that
+      should surround any change to a system wired directly into the
+      live market. The order is unusually explicit that the institutional
+      gap was financial-engineering practice catching up to
+      software-engineering practice — release management, configuration
+      control, and pre-trade risk limits were not yet treated as
+      first-class deliverables on the trading desk.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -687,11 +695,19 @@
       step: automated verification that every host runs the intended build,
       disciplined removal of dead code from the repository, pre-trade risk
       limits, and kill switches that can stop a runaway process in seconds.
-      Regulators sharpened their attention to automated market-access controls
-      in response. The lesson rhymes with the orbiter's across a forty-year,
-      civilian-to-financial gap: a small, unowned boundary inside a large
-      automated system is precisely where the institution is most exposed,
-      and least watching.#cn()
+      Regulators sharpened their attention to automated market-access
+      controls in response. The SEC's 2014 Regulation Systems Compliance and
+      Integrity (Regulation SCI) extended formal system-development,
+      testing, change-management, and incident-reporting obligations to
+      registered exchanges, clearing agencies, and large alternative trading
+      systems — the institutional response that pulled the deployment
+      discipline Knight had lacked into the regulatory perimeter. The lesson
+      rhymes with the orbiter's across a forty-year, civilian-to-financial
+      gap: a small, unowned boundary inside a large automated system is
+      precisely where the institution is most exposed, and least watching —
+      and as algorithmic trading continued to grow after 2012, the same
+      class of fragility kept producing new incidents that the Knight
+      template explained.#cn()
     ],
   ),
   beats: (
@@ -719,10 +735,15 @@
     proximate trigger; the absent procedure was the cause.
   ],
   lens-approach: [
-    LENS uses Knight Capital in LEN 5 to teach deployment-as-capability
-    and in LEN 9 for the technical-debt argument: every line of dead
-    code carries an option on a future failure. Students design the
-    deployment deliverable that would have caught the eighth server.
+    Knight Capital is the canonical change-control-and-disclosure
+    governance case (induced 5.4; LENS D1/PT3). LENS uses it in
+    LEN 5 to teach deployment-as-capability — students design the
+    deployment deliverable that would have caught the eighth
+    server — and in LEN 9 for the technical-debt argument: every
+    line of dead code carries an option on a future failure.
+    Adjacent to Mars Climate Orbiter (Case 54) at the small-
+    boundary-no-owner layer and to Regulation SCI as the
+    institutional response that codified the missing controls.
   ],
   literature-items: (
     [SEC Knight Capital order (2013)],
@@ -748,4 +769,8 @@
   ),
   courses: ("LEN 5", "LEN 9"),
   scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "5.4",
+  lens-anchor: "D1/PT3",
+  clo-anchor: "CLO-1, CLO-3",
 )

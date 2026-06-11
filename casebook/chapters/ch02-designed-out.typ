@@ -27,21 +27,34 @@
   year: "2018 – 2019",
   domains-list: ("aviation",),
   modes-code: "DTH",
-  impact: "346 killed across two crashes — Lion Air 610 and Ethiopian Airlines 302",
+  impact: "346 killed across two crashes — Lion Air 610 and Ethiopian Airlines 302; 20-month worldwide grounding; ~\\$20B direct cost; FAA delegated-authority reform under the Aircraft Certification, Safety, and Accountability Act (2020)",
   diagram: dgm.dgm-737max,
   kind: "failure",
+  scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "1.1",
+  lens-anchor: "D1+D4/PT4",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     The Boeing 737 MAX was a re-engined 737 meant to fly without new pilot
     training — the commercial promise that sold it against the Airbus
-    A320neo. Its bigger engines changed the jet's pitch behavior, so Boeing
-    added software (MCAS) to mask the difference, then kept it out of the
-    manuals and training and let it fire on a single angle-of-attack sensor.
-    When that sensor failed on Lion Air 610 (2018) and Ethiopian 302 (2019),
-    MCAS forced the nose down and crews who had never heard of it could not
-    recover; 346 people died and the fleet was grounded. Investigations
-    found the training omission was deliberate, to avoid certification cost.
-    The MAX is the book's inverse case: human capability engineered out of a
-    system to save the price of sustaining it.
+    A320neo. Its bigger, forward-mounted engines changed the jet's pitch
+    behavior, so Boeing added software (MCAS) to mask the difference, then
+    kept it out of the manuals and training and let it fire repeatedly on a
+    single angle-of-attack sensor. When that sensor failed on Lion Air 610
+    (October 2018) and Ethiopian 302 (March 2019), MCAS forced the nose
+    down and crews who had never heard of it could not recover; 346 people
+    died and the fleet was grounded for twenty months. Five major
+    investigations — the NTSB-supported KNKT (Lion Air) and EAIB (Ethiopian)
+    reports, the US House Transportation Committee final report, the DOT
+    Inspector General review, and the multinational Joint Authorities
+    Technical Review (JATR) — converged on the same diagnosis: the training
+    omission was a deliberate cost-avoidance choice, executed through an
+    FAA delegated-authority regime in which Boeing reviewed much of its own
+    safety judgment. The MAX is the book's inverse case: human capability
+    engineered out of a system to save the price of sustaining it, with
+    the elision underwritten by a certification process that did not have
+    the independence to catch it.
   ],
   sections: (
     // -- Background --
@@ -49,70 +62,105 @@
       The 737 MAX was Boeing's answer to the Airbus A320neo: a re-engined
       version of its best-seller that airlines could fly without retraining
       pilots on a new type. But the MAX's larger, forward-mounted engines
-      changed how it pitched, so Boeing added software — MCAS — to make it
-      handle like the older 737s, papering over an aerodynamic change with a
-      control law so the airframe would feel identical from the cockpit. The
-      whole commercial logic depended on that software staying invisible: the
-      less of a "new function" MCAS seemed, the less the MAX would trigger
-      costly new training, and the lower the airline's switching cost away from
-      the A320neo. Boeing reportedly promised Southwest a rebate of about a
-      million dollars per jet if simulator training proved necessary — a clause
-      that turned the training requirement into a direct line on the program's
-      ledger.#cn()
+      changed how it pitched at high angles of attack, so Boeing added
+      software — the Maneuvering Characteristics Augmentation System,
+      MCAS — to make it handle like the older 737 NG, papering over an
+      aerodynamic change with a control law so the airframe would feel
+      identical from the cockpit. The whole commercial logic depended on
+      that software staying invisible: the less of a "new function" MCAS
+      seemed, the less the MAX would trigger costly new training, and the
+      lower the airline's switching cost away from the A320neo. Boeing
+      reportedly promised Southwest a rebate of about a million dollars per
+      jet if simulator training proved necessary — a clause that turned the
+      training requirement into a direct line on the program's ledger, and
+      one the House investigation later cited as a structural reason the
+      "no new training" promise behaved as a binding constraint on the
+      engineering rather than as an aspiration.#cn()
     ],
     // -- What Happened --
     [
-      To keep MCAS in the background, it was left out of the manual and
-      training, and allowed to fire on a single angle-of-attack sensor with
-      no second source to cross-check it. When that sensor
-      failed on Lion Air Flight 610 in October 2018, MCAS repeatedly forced
-      the nose down; the crew, never told the system existed, fought it cycle
-      after cycle until the jet dove into the Java Sea, killing all 189. Five
-      months later Ethiopian Airlines Flight 302 repeated almost exactly the
-      same sequence, killing 157 — 346 dead across the two crashes, and the
-      entire MAX fleet grounded worldwide.#cn()
+      To keep MCAS in the background, it was left out of the manual and the
+      type-rating training, and allowed to fire on a single angle-of-attack
+      sensor with no second source to cross-check it. The system's
+      authority was also expanded late in development — the trim it could
+      command grew from 0.6° to 2.5° per cycle, and its firing was made
+      repeatable rather than one-shot — without the corresponding
+      reassessment of the failure modes that change implied. When the
+      sensor failed on Lion Air Flight 610 in October 2018, MCAS
+      repeatedly forced the nose down; the crew, never told the system
+      existed, fought it cycle after cycle until the jet dove into the
+      Java Sea, killing all 189. Five months later Ethiopian Airlines
+      Flight 302 repeated almost exactly the same sequence — sensor
+      failure, repeated trim commands, unrecoverable nose-down attitude —
+      killing 157, for 346 dead across the two crashes, and the entire MAX
+      fleet grounded worldwide for what would become twenty months.#cn()
     ],
     // -- The Investigation --
     [
-      The investigations made the decisions legible. Internal 2013 minutes
-      showed employees noting that calling MCAS a new function would bring
-      "greater certification and training impact" — the cost the program was
-      built to avoid, written down years before either crash; a 2016 survey
-      found 39% of certification staff felt undue pressure. The House
-      Transportation Committee's 2020 report concluded Boeing's assumption that
+      The investigations made the decisions legible. The Indonesian KNKT
+      and Ethiopian EAIB accident reports, with NTSB participation,
+      established the accident sequences and the single-sensor design as
+      the proximate cause. The multinational Joint Authorities Technical
+      Review (JATR), convened by the FAA in 2019 with international
+      regulators, concluded that MCAS had not been evaluated as the novel
+      flight-control function it actually was. Internal 2013 Boeing
+      meeting minutes showed employees noting that calling MCAS a new
+      function would bring "greater certification and training impact" —
+      the cost the program was built to avoid, written down years before
+      either crash; a 2016 internal survey found 39% of certification
+      staff felt undue management pressure. The House Transportation
+      Committee's 2020 final report concluded Boeing's assumption that
       simulator training was unnecessary "diminished safety, minimized the
-      value of pilot training, and inhibited technical design improvements,"
-      naming the omission as a choice rather than an oversight.#cn() The DOT
-      Inspector General traced how the single-sensor design and the training
-      omission passed through a certification process that delegated much of
-      the safety judgment back to Boeing itself, so the company effectively
-      reviewed its own most consequential trade-offs.#cn()
+      value of pilot training, and inhibited technical design
+      improvements," naming the omission as a choice rather than an
+      oversight.#cn() The DOT Inspector General traced how the
+      single-sensor design and the training omission passed through a
+      certification process in which the FAA had delegated much of the
+      safety judgment back to Boeing itself under the Organization
+      Designation Authorization (ODA) program — so the company effectively
+      reviewed its own most consequential trade-offs, and the regulator
+      lacked both the technical depth and the institutional independence
+      to challenge the assessment.#cn()
     ],
     // -- The Capability Gap --
     [
       The MAX inverts this book's usual case. Human capability was not
-      overlooked by accident; it was deliberately engineered out to avoid the
-      cost of the training that would have created it. The pilots were not undertrained by
-      oversight but by design — the absence of training was, in effect, a
-      contract deliverable promised to customers and protected by a rebate.
-      Seen that way, the crashes are not a training failure that befell a good
-      airplane but exactly what the commercial and engineering decisions
-      specified: a flight-control system that depended on pilots reacting
-      correctly, in seconds, to a failure they had been guaranteed never to
-      learn about.#cn()
+      overlooked by accident; it was deliberately engineered out to avoid
+      the cost of the training that would have created it. The pilots
+      were not undertrained by oversight but by design — the absence of
+      training was, in effect, a contract deliverable promised to
+      customers and protected by a rebate. The single-sensor architecture
+      was a second engineered-out capability: a redundant cross-check on
+      the angle-of-attack signal would have triggered the kind of design
+      and certification work the program was built to avoid, and was left
+      out for the same reason. Seen together, the crashes are not a
+      training failure that befell a good airplane but exactly what the
+      commercial and engineering decisions specified: a flight-control
+      system that depended on pilots reacting correctly, in seconds, to a
+      failure they had been guaranteed never to learn about, with no
+      sensor cross-check that could keep the failure from arriving in the
+      first place.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      The MAX was grounded for some twenty months. MCAS was redesigned to use
-      both sensors, fire once, and with limited authority — restoring the
-      margins the original had stripped away.
-      The FAA's 2020 return-to-service required the simulator training the
-      airplane had been built to avoid, and Congress tightened the FAA's
-      oversight of the delegation system that had let Boeing self-certify so
-      much of the design.#cn() The reform conceded the point the program had
-      spent years resisting: the training was a real requirement all along,
-      and removing it from the paperwork only deferred the cost — and then
-      moved it onto two airplanes full of people.
+      The MAX was grounded for some twenty months — the longest grounding
+      of a US-certified airliner in the jet era. MCAS was redesigned to
+      use both AOA sensors, to fire once rather than repeatedly, and with
+      limited authority bounded by airspeed — restoring the margins the
+      original had stripped away. The FAA's 2020 return-to-service
+      directive required the simulator training the airplane had been
+      built to avoid. The Aircraft Certification, Safety, and
+      Accountability Act of 2020 then tightened FAA oversight of the ODA
+      delegation regime, required disclosure to pilots of flight-control
+      systems that act on a single sensor input, and funded FAA engineering
+      capacity that the delegation system had let atrophy. Boeing entered
+      a Deferred Prosecution Agreement with the DOJ on a fraud charge
+      tied to its disclosures to the FAA's Aircraft Evaluation Group.#cn()
+      The reform conceded the point the program had spent years
+      resisting: the training was a real requirement all along, the
+      sensor cross-check was a real requirement all along, and removing
+      them from the paperwork only deferred the cost — and then moved it
+      onto two airplanes full of people.
     ],
   ),
   beats: (
@@ -141,12 +189,20 @@
     decision rather than a training failure.
   ],
   lens-approach: [
-    LENS treats capability requirements as system requirements: derived from
-    operational analysis, traceable to design decisions, falsifiable against
-    operational outcomes. A LENS-trained engineer in the MAX certification
-    process would have produced a capability-requirements artifact mapping
-    pilot tasks to system behaviors — and flagged the proposed manual
-    omission as an unmitigated requirements gap.
+    The 737 MAX is the canonical engineered-out-capability failure
+    (induced 1.1; LENS D1+D4/PT4). LENS uses it in Domain 1 (Systems
+    Analysis) for the CLO-1 work of decomposing system performance
+    requirements into measurable human-capability requirements:
+    the elided pilot-training requirement is the traceable artifact
+    a capability-requirements analysis would have surfaced before the
+    omission could become a contract deliverable. LENS uses it in
+    Domain 4 (Navigating Sociotechnical Constraints; CLO-4) for the
+    delegated-authority regulatory regime in which Boeing reviewed
+    its own most consequential safety judgments — the case is the
+    governance counterpart to Therac-25 (Case 7) at the
+    safeguard-removed-with-nothing-in-its-place layer, and pairs with
+    Patriot/Dhahran (Case 19) at the layer of design assumptions
+    that do not travel with a change of context.
   ],
   literature-items: (
     [Herkert, Borenstein & Miller (2020) on certification-by-omission ethics],
@@ -171,8 +227,6 @@
     ),
   ),
   courses: ("LEN 1", "LEN 5", "LEN 2"),
-  scale: "big",
-  evidence-source: "investigation",
 )
 
 // ---------------- CASE 7: THERAC-25 ----------------

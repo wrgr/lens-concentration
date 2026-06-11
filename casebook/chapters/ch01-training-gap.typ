@@ -52,10 +52,15 @@
       to be continuously available, so there was rarely a quiet stretch in
       which to recover a lapsed qualification. In 2003 the Navy replaced its
       in-person Surface Warfare Officers School course with self-study
-      CD-ROMs, "SWOS in a Box."#cn() By 2017 the GAO found 37% of the
-      Japan-based ships' warfare certifications — including basic seamanship —
-      expired, a fivefold rise since 2015, with the lapses routinely waived
-      rather than fixed.#cn()
+      CD-ROMs — "SWOS in a Box" — sending newly commissioned officers
+      directly to their ships to learn the trade as time and the ship's
+      qualified watchstanders allowed.#cn() The change was framed as a
+      cost-saving modernization; in practice it transferred junior-officer
+      education from the schoolhouse to the bridge at the moment the
+      operational tempo on those bridges left the least slack to absorb it.
+      By 2017 the GAO found 37% of the Japan-based ships' warfare
+      certifications — including basic seamanship — expired, a fivefold rise
+      since 2015, with the lapses routinely waived rather than fixed.#cn()
     ],
     // -- What Happened --
     [
@@ -63,45 +68,73 @@
       channel, took no early action and was struck by the container ship ACX
       Crystal off the coast of Japan; the sea poured into a berthing
       compartment where the crew slept, and seven sailors drowned before they
-      could escape.#cn() Nine weeks later the John S. McCain collided with the
-      tanker Alnic MC near Singapore, killing ten: while shifting throttle
-      control between consoles, a watchstander unknowingly handed off steering
-      to another station, the ship turned across the strait's traffic, and no
-      one on the bridge understood the touch-screen helm well enough to see
-      what had happened.#cn()
+      could escape.#cn() The NTSB later described a bridge team that had
+      lost track of converging traffic on a clear night, and an officer of
+      the deck whose qualifications and recency on the very procedures the
+      situation demanded had lapsed under the waiver regime. Nine weeks
+      later the John S. McCain collided with the tanker Alnic MC near
+      Singapore, killing ten: while shifting throttle control between
+      consoles, a watchstander unknowingly handed off steering to another
+      station, the ship turned across the strait's traffic, and no one on
+      the bridge understood the touch-screen helm well enough to recognize
+      what had happened.#cn() For more than a minute the bridge team
+      believed the ship had lost steering it had never lost — a
+      misdiagnosis the interface invited and the training had not equipped
+      anyone to overturn.
     ],
     // -- The Investigation --
     [
-      The Navy's Comprehensive Review (2017) judged both collisions avoidable,
-      citing failures in basic seamanship, navigation, and operating the
-      ships' own equipment.#cn() The NTSB found the McCain's probable cause to
-      be a lack of Navy oversight that produced insufficient training and
-      inadequate bridge procedures,#cn() and faulted the design of the
-      touch-screen helm, installed to modernize the bridge, whose blending of
-      steering and throttle made an unintended transfer of control easy to
-      trigger and hard to notice — a trap waiting for an under-trained crew.#cn()
+      The Navy's Comprehensive Review (2017) judged both collisions
+      avoidable, citing failures in basic seamanship, navigation, and
+      operating the ships' own equipment.#cn() The NTSB found the McCain's
+      probable cause to be a lack of Navy oversight that produced
+      insufficient training and inadequate bridge procedures,#cn() and
+      faulted the design of the touch-screen helm, installed to modernize
+      the bridge, whose blending of steering and throttle made an
+      unintended transfer of control easy to trigger and hard to notice —
+      a trap waiting for an under-trained crew. The companion Strategic
+      Readiness Review, commissioned by the Secretary of the Navy and led
+      by retired Admiral Phil Balisle, reached further into the
+      institution: a decade of "can-do" responses to mounting demand had
+      eroded the manning, certification, and maintenance margins the
+      surface force was built on, and the readiness reports senior leaders
+      relied on had stopped reflecting the conditions on the ships.#cn()
+      Watchbills and crew-day logs gathered after the collisions showed
+      watchstanders routinely averaging fewer than five hours of sleep on
+      patrol — a finding the NTSB folded into its causal chain.
     ],
     // -- The Capability Gap --
     [
       The gap was invisible from inside. The Strategic Readiness Review
-      (2017) described risks that "accumulated over time and did so
-      insidiously," the system no longer able to see that the processes
-      meant to surface shortfalls had themselves failed.#cn() Each individual
-      waiver was locally defensible — a deadline met, a deployment kept — but
-      in aggregate they hollowed out the force while every readiness dashboard
+      described risks that "accumulated over time and did so insidiously,"
+      the system no longer able to see that the processes meant to surface
+      shortfalls had themselves failed.#cn() Each individual waiver was
+      locally defensible — a deadline met, a deployment kept — but in
+      aggregate they hollowed out the force while every readiness dashboard
       still reported green. Stated and actual readiness had diverged for a
       decade; the cost arrived as seventeen lives, not a failed inspection.
+      Two collisions, nine weeks apart, ruled out the comforting reading
+      that one was an outlier: Fitzgerald taught that an under-trained
+      bridge team could fail at the most basic give-way rules, and McCain
+      taught that an unfamiliar interface could be the precipitating
+      mechanism through which the same gap reached the hull. The pair, not
+      either case alone, made the diagnosis structural rather than
+      individual.
     ],
     // -- Aftermath & Reform --
     [
       The reforms were the deepest in a generation: the in-person officer
-      pipeline was rebuilt and lengthened, a Ready-for-Sea Assessment and a
-      forward-readiness command stood up, circadian watchbills adopted to
-      fight fatigue, and the touch-screen helm slated for replacement by a
-      conventional wheel and throttle.#cn() Each change conceded that the
-      training and the interface had been real requirements all along — and
-      that trading them for tempo had only moved the cost onto two ships full
-      of people.
+      pipeline was rebuilt as a multi-phase Basic Division Officer Course,
+      reinstating classroom and simulator instruction the 2003 CD-ROM model
+      had displaced; a Ready-for-Sea Assessment and a Naval Surface Group
+      Western Pacific stood up to give forward-deployed units the
+      independent certification cycle home-ported ships already had;
+      circadian watchbills were adopted fleet-wide to fight fatigue; and
+      the touch-screen helm was slated for replacement by a conventional
+      wheel and throttle across the destroyer fleet.#cn() Each change
+      conceded that the training and the interface had been real
+      requirements all along — and that trading them for tempo had only
+      moved the cost onto two ships full of people.#cn()
     ],
   ),
   beats: (
@@ -121,25 +154,38 @@
     [R. Rotella et al., #link("https://features.propublica.org/navy-uss-mccain-crash/navy-installed-touch-screen-steering-ten-sailors-paid-with-their-lives/")["The Navy Installed Touch-Screen Steering Systems to Save Money,"] _ProPublica_ (2019).],
     [U.S. Navy, _Strategic Readiness Review_ (Dec. 2017) — risks that "accumulated over time and did so insidiously."],
     [U.S. Navy corrective actions (2017); NTSB/MAR-19/01 recommendations; #link("https://news.usni.org/2020/09/03/ntsb-unexplained-course-change-was-a-critical-error-in-fatal-uss-fitzgerald-collision")[USNI News] (2017–2020).],
+    [Surface Warfare Officers School Command, Basic Division Officer Course curriculum and the post-2017 return to in-person instruction; Naval Surface Group Western Pacific stand-up (2019) as the forward-readiness certification authority.],
+    [NTSB/MAR-19/01 (2019) — watchstander fatigue findings, including average sleep hours and the touch-screen helm misdiagnosis sequence.],
   ),
   quote: [The risks that were taken in the Western Pacific accumulated over time and did so insidiously.],
   quote-source: "U.S. Navy Strategic Readiness Review, 2017",
   le-insight: [
-    Fitzgerald/McCain is the canonical Training Gap case because the gap was
-    invisible from inside the system. Operational tempo and self-study
-    "training" combined to produce a fleet whose stated readiness and actual
-    readiness diverged for more than a decade. Seven sailors died on
-    Fitzgerald; ten on McCain. The cost of the divergence was paid in lives
-    long after it could have been measured in dollars or inspections.
+    Fitzgerald/McCain is the canonical Training Gap case because the gap
+    was invisible from inside the system. Operational tempo and self-study
+    "training" combined to produce a fleet whose stated readiness and
+    actual readiness diverged for more than a decade. The two collisions
+    nine weeks apart converted what could have been read as an outlier into
+    a structural diagnosis: an under-trained bridge team failing the most
+    basic give-way rules, and an unfamiliar interface that made the same
+    gap reach the hull. Seven sailors died on Fitzgerald; ten on McCain.
+    The cost of the divergence was paid in lives long after it could have
+    been measured in dollars or inspections.
   ],
   lens-approach: [
-    LENS treats this as the worked example of LEN 5 (Human Capability
-    Analysis and Requirements) interacting with LEN 4 (Evidence and
-    Measurement). Students reconstruct the capability requirements for
-    underway watchstanding from operational analysis and design the
-    evidence system that would have surfaced the gap before the
-    collisions. LEN 8 covers the institutional dynamics of deferred
-    training.
+    Fitzgerald/McCain is the worked example of induced sub-competency 1.1
+    (engineered vs. stated requirements) and the LENS D1/PT3 pairing —
+    Systems Analysis applied to the capability-engineering problem of
+    underway watchstanding. Students reconstruct the capability
+    requirements from operational analysis, then design the evidence
+    architecture (LENS D3) that would have surfaced the gap before the
+    collisions and the sociotechnical reforms (LENS D4) that would keep
+    waivers from quietly hollowing the requirement out. The case pairs
+    with INDOPACOM Marine Corps training (Case 9) as the live counterpart
+    where the same divergence between declared and engineered priority is
+    visible on a theater scale, and with Three Mile Island (Case 5) as the
+    failure that engineered durable industry reform through INPO. CLO
+    mapping: CLO-1 (Systems Analysis) primary, CLO-4 (Sociotechnical
+    Constraints) for the waiver-and-reporting institutional dynamics.
   ],
   literature-items: (
     [GAO-17-809T, _Navy Readiness_ (2017)],
@@ -166,6 +212,9 @@
   courses: ("LEN 1", "LEN 5", "LEN 8", "LEN 3",),
   scale: "big",
   evidence-source: "investigation",
+  induced-anchor: "1.1",
+  lens-anchor: "D1/PT3",
+  clo-anchor: "CLO-1, CLO-4",
 )
 
 #case(
@@ -198,62 +247,93 @@
       AF447 left Rio for Paris on 31 May 2009 with 228 aboard an Airbus
       A330 — a highly automated jet with an excellent safety record. Its
       route crossed the equatorial storm band, and it carried a known
-      vulnerability: pitot probes prone to brief icing at altitude. A
-      replacement program was underway, but the accident aircraft had not
-      yet been modified, so the vulnerability the program existed to close
-      was still live on the very jet that crossed the storm band — the
-      retrofit recognized as necessary but not yet fitted where it
-      mattered.#cn()
+      vulnerability: Thales AA pitot probes prone to brief icing at high
+      altitude in heavy precipitation, a pattern documented across the
+      A330/A340 fleet in the years before the accident. A replacement
+      program with newer probes was underway, but the accident aircraft
+      had not yet been modified, so the vulnerability the program existed
+      to close was still live on the very jet that crossed the storm
+      band — the retrofit recognized as necessary but not yet fitted
+      where it mattered.#cn() The A330's fly-by-wire architecture also
+      carried a design choice that would matter later: the two sidesticks
+      were not mechanically linked, so an input on one was not felt on
+      the other, a philosophy that traded the visual cue of yoke movement
+      for sidestick lightness and independence.
     ],
     // -- What Happened --
     [
       At 35,000 feet the probes iced, the airspeed readings went invalid,
-      and the autopilot and autothrust disconnected into a degraded control
-      law. The pilot flying responded with sustained nose-up input; the jet
-      climbed, stalled, and never recovered, falling some 38,000 feet into
-      the ocean in about four and a half minutes. The stall warning sounded,
-      then cut out at extreme angle of attack and resumed when the nose
-      dropped — warning against the one input that would have begun a
-      recovery, so that the cue meant to guide the crew instead punished the
-      correct action and rewarded the fatal one, an inversion no amount of
-      hand-flying instinct could resolve in the time available.#cn()
+      and the autopilot and autothrust disconnected into Alternate Law —
+      a degraded control regime in which stall protection no longer
+      held. The pilot flying responded with sustained nose-up input; the
+      jet climbed, stalled, and never recovered, falling some 38,000
+      feet into the ocean in about four and a half minutes. The stall
+      warning sounded, then cut out at extreme angle of attack and
+      resumed when the nose dropped — warning against the one input that
+      would have begun a recovery, so that the cue meant to guide the
+      crew instead punished the correct action and rewarded the fatal
+      one, an inversion no amount of hand-flying instinct could resolve
+      in the time available.#cn() The other pilot's correcting inputs
+      on his own sidestick went unfelt on the flying pilot's: the
+      design's clean independence became, under stress, an inability to
+      see what the other crew member was doing.
     ],
     // -- The Investigation --
     [
-      The BEA's 2012 final report named a chain: airspeed loss from pitot
-      icing, inappropriate crew inputs, and the crew's failure to recognize
-      and recover from the stall.#cn() The pilots were not incompetent — they
-      were outside anything their training had prepared them for, and the
-      BEA said so: "the conditions under which pilots are trained and
-      exposed to stalls… did not result in reasonably reliable expected
-      behaviour patterns." The finding reframed the loss from a question of
-      individual airmanship to one of training design: the crew had been
-      drilled in a regime that never produced the responses the emergency
-      demanded.#cn()
+      The BEA's three-year investigation, concluded in the 2012 final
+      report, named a chain: airspeed loss from pitot icing,
+      inappropriate crew inputs, and the crew's failure to recognize and
+      recover from the stall.#cn() The pilots were not incompetent —
+      they were outside anything their training had prepared them for,
+      and the BEA said so: "the conditions under which pilots are
+      trained and exposed to stalls… did not result in reasonably
+      reliable expected behaviour patterns."#cn() The finding reframed
+      the loss from a question of individual airmanship to one of
+      training design: the crew had been drilled in a regime that never
+      produced the responses the emergency demanded. The BEA report
+      also surfaced the longer industry debate over fly-by-wire
+      philosophies — the Airbus convention of independent sidesticks and
+      protected envelopes versus the Boeing convention of linked yokes
+      and trim feedback — not to adjudicate which was safer in steady
+      state but to argue that whichever a manufacturer chose, the
+      training had to make the degraded-mode behavior of that choice
+      reflexive rather than novel.
     ],
     // -- The Capability Gap --
     [
-      The gap was precise. Airlines trained stall recovery at low altitude;
-      the simulators of the era could not reproduce a high-altitude stall,
-      so crews never practiced the situation that arrived. Years of reliable
+      The gap was precise. Airlines trained stall recovery at low
+      altitude — the regime certification required and the one
+      simulators could reproduce — while the simulators of the era could
+      not faithfully reproduce a high-altitude stall, so crews never
+      practiced the situation that arrived. Years of reliable
       automation had also let hand-flying skills atrophy, so when the
-      autopilot handed back control the crew met an unfamiliar regime with
-      rusty manual skills at the worst possible moment. The trained envelope
-      and the operational envelope had quietly diverged, and AF447 fell into
-      the gap between them — a gap no one had been positioned to see widen.#cn()
+      autopilot handed back control the crew met an unfamiliar regime
+      with rusty manual skills at the worst possible moment. The
+      trained envelope and the operational envelope had quietly
+      diverged, and AF447 fell into the gap between them — a gap no one
+      had been positioned to see widen, because the training record
+      showed full compliance and the operational record showed an
+      excellent safety performance, right up until the regime that
+      neither had covered arrived together with degraded control law.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      The BEA's recommendations reached far beyond one airline: the pitot
-      probes were replaced, and the report pressed for training in manual
-      high-altitude flight, stall recovery, and unreliable-airspeed
-      handling.#cn() Regulators then made Upset Prevention and Recovery
-      Training mandatory for airline pilots, closing at the regulatory level
-      the gap that had been invisible at the airline level — moving the fix
-      from a single carrier's discretion to a binding standard every airline
-      had to meet. The crew performed exactly as trained; the training was
-      the wrong training, and only a system-wide mandate could keep that
-      mismatch from recurring elsewhere.#cn()
+      The BEA's recommendations reached far beyond one airline: the
+      pitot probes were replaced fleet-wide, and the report pressed for
+      training in manual high-altitude flight, stall recovery from
+      cruise altitude, unreliable-airspeed handling, and angle-of-attack
+      indication.#cn() Regulators then made Upset Prevention and
+      Recovery Training mandatory for airline pilots — FAA Part 121
+      adopted UPRT-aligned stall-recovery training in 2014; EASA phased
+      UPRT into ATPL training by 2019; ICAO codified it in Doc 10011 —
+      closing at the regulatory level the gap that had been invisible
+      at the airline level, and moving the fix from a single carrier's
+      discretion to a binding standard every airline had to meet.#cn()
+      Simulator manufacturers were pushed to extend their aerodynamic
+      models into the post-stall regime so the training could actually
+      take place. The crew performed exactly as trained; the training
+      was the wrong training, and only a system-wide mandate could keep
+      that mismatch from recurring elsewhere.
     ],
   ),
   beats: (
@@ -271,23 +351,39 @@
     [G. Palmer / E. Strickland, "Air France Flight 447 Crash Caused by a Combination of Factors," _IEEE Spectrum_ (2014) — analysis of the divergence between the trained and operational envelopes.],
     [BEA, _Final Report AF447_ (2012), safety recommendations — pitot-probe replacement, manual high-altitude flying, approach-to-stall and stall recovery, unreliable-airspeed procedures, and angle-of-attack indication.],
     [European Union Aviation Safety Agency, Upset Prevention and Recovery Training (UPRT) requirements for airline pilots (phased in by 2019); ICAO, _Manual on Aeroplane Upset Prevention and Recovery Training_ (Doc 10011).],
+    [Federal Aviation Administration, FAA-S-ACS-1, _Airline Transport Pilot Practical Test Standards_ and the 2014 Part 121 stall-recovery training rule reflecting BEA recommendations; FAA Advisory Circular 120-109A, _Stall Prevention and Recovery Training_.],
   ),
   quote: [The crew never understood that they were stalling and consequently never applied a recovery manoeuvre.],
   quote-source: "BEA, Final Report on Air France Flight 447, July 2012",
   le-insight: [
     AF447 is the canonical case of training that matched one envelope of
-    operation perfectly and another not at all. Stall *prevention* training
-    was excellent. Stall *recovery from cruise altitude* training did not
-    exist because the simulators could not produce it. The pilots
-    performed exactly as trained. The training was the wrong training.
+    operation perfectly and another not at all. Stall *prevention*
+    training was excellent. Stall *recovery from cruise altitude*
+    training did not exist because the simulators of the era could not
+    faithfully produce it. Layered on top was an automation-to-human
+    handoff that arrived in a degraded control law the crew had never
+    flown and a sidestick architecture that hid one pilot's inputs from
+    the other. The pilots performed exactly as trained. The training was
+    the wrong training, and the reform had to reach the regulator,
+    because no single airline could close the gap unilaterally.
   ],
   lens-approach: [
-    LENS uses AF447 in LEN 5 to teach the difference between the trained
-    capability envelope and the operational capability envelope, and in
-    LEN 2 to introduce human-AI handoff as a capability problem: the
-    autopilot disconnection was a transition the crew had been trained to
-    avoid rather than to handle. The case maps directly to canonical
-    problem type three — Capability Cliff at Automation Boundary.
+    AF447 is the worked example of induced sub-competency 1.2
+    (capability envelope at the edge of training) and the LENS D2/PT4
+    pairing — Iterative Development applied to training-program updates
+    that must keep pace with operational regimes. Students use the case
+    to specify training requirements from degraded-mode operational
+    analysis (LENS D1), to design the evidence the BEA used to identify
+    a training-design rather than airmanship failure (LENS D3), and to
+    examine the human-AI handoff as a capability problem (LENS D5): the
+    autopilot disconnection was a transition crews were trained to
+    avoid rather than to handle. The case pairs with Kegworth (Case 30)
+    as the canonical pair on transition-training failure across a
+    changed system, and with the Boeing 737 MAX MCAS sequence as the
+    near-current echo. CLO mapping: CLO-2 (Iterative Development)
+    primary; CLO-3 (Test and Evaluation) for the BEA investigation
+    framing; CLO-5 (Machine Teaming and Adaptation) for the
+    automation-handoff dimension.
   ],
   literature-items: (
     [Dismukes, Berman & Loukopoulos (2007), _The Limits of Expertise_],
@@ -313,6 +409,10 @@
   ),
   courses: ("LEN 1", "LEN 5", "LEN 2"),
   scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "1.2",
+  lens-anchor: "D2/PT4",
+  clo-anchor: "CLO-2, CLO-3, CLO-5",
 )
 
 #case(
@@ -343,67 +443,96 @@
     // -- Background --
     [
       Three Mile Island's Unit 2, a Babcock & Wilcox reactor near
-      Harrisburg, was run by operators trained for large, fast, design-basis
-      ruptures — not the slow, ambiguous small-break sequence that actually
-      came.#cn() It should not have surprised anyone: eighteen months
-      earlier a nearly identical stuck-open relief valve had occurred at
-      Davis-Besse, but neither the utility, the vendor, nor the NRC grasped
-      its significance or pushed the lesson out to the fleet — so the precise
-      sequence that would later threaten the core had already been
-      demonstrated and then quietly filed away rather than turned into a
-      drill or a warning.#cn()
+      Harrisburg, was run by operators trained for large, fast,
+      design-basis ruptures — not the slow, ambiguous small-break
+      sequence that actually came.#cn() It should not have surprised
+      anyone: in September 1977 a nearly identical stuck-open relief
+      valve had occurred at Davis-Besse, but neither the utility, the
+      vendor, nor the NRC grasped its significance or pushed the lesson
+      out to the fleet — so the precise sequence that would later
+      threaten the core had already been demonstrated and then quietly
+      filed away rather than turned into a drill or a warning.#cn() The
+      industry's posture rested on a probabilistic argument that
+      catastrophic accidents in light-water reactors were vanishingly
+      unlikely; that argument had become institutional doctrine, shaping
+      what was trained for, what was instrumented, and what near-misses
+      were treated as.
     ],
     // -- What Happened --
     [
-      On 28 March 1979 a minor secondary-cooling upset tripped the reactor;
-      a relief valve opened and then stuck open, draining coolant. The
-      control-room light reported the *command* to close it, not its actual
-      position, so the panel read "closed" while the valve stayed open.
-      Misreading the rising pressurizer level, the operators throttled back
-      the high-pressure injection the starving core depended on — taking the
-      one action that turned a recoverable upset into a meltdown, precisely
-      because the instrument they trusted was telling them a state that was
-      not true. About half the core melted; off-site radiation, as it turned
-      out, was minimal.#cn()
+      On 28 March 1979 a minor secondary-cooling upset tripped the
+      reactor; a power-operated relief valve (PORV) opened and then
+      stuck open, draining coolant from the primary loop. The
+      control-room light reported the *command* to close it, not its
+      actual position, so the panel read "closed" while the valve
+      stayed open. Misreading the rising pressurizer level, the
+      operators throttled back the high-pressure injection the starving
+      core depended on — taking the one action that turned a
+      recoverable upset into a meltdown, precisely because the
+      instrument they trusted was telling them a state that was not
+      true. About half the core melted; off-site radiation, as it
+      turned out, was minimal, though the public-communication failure
+      that accompanied the accident — the contradictory updates from
+      utility, state, and federal officials — would shape every nuclear
+      emergency-response standard built after.#cn()
     ],
     // -- The Investigation --
     [
       The Kemeny Commission (October 1979) inverted the industry's
-      assumptions: "the fundamental problems are people-related problems and
-      not equipment problems." The equipment was good enough that, but for
-      the human failures, the accident would have been minor. The criticism
-      reached past the operators to management, the utility, and the NRC —
-      an institution-wide belief that serious accidents were effectively
-      impossible, a complacency that had shaped training priorities,
-      staffing, and oversight long before the relief valve ever stuck, so
-      that the operators inherited a posture they had not chosen.#cn()
+      assumptions: "the fundamental problems are people-related
+      problems and not equipment problems." The equipment was good
+      enough that, but for the human failures, the accident would have
+      been minor. The criticism reached past the operators to
+      management, the utility, and the NRC — an institution-wide belief
+      that serious accidents were effectively impossible, a complacency
+      that had shaped training priorities, staffing, and oversight long
+      before the relief valve ever stuck, so that the operators
+      inherited a posture they had not chosen.#cn() The companion
+      Rogovin report for the NRC documented the Davis-Besse precursor
+      and the institutional failure to disseminate it, and the
+      decades-long literature that followed — Walker's historical
+      synthesis, Rees's institutional study — treated TMI as the
+      moment U.S. nuclear stopped being able to assume away its own
+      human factors.#cn()
     ],
     // -- The Capability Gap --
     [
-      The gap was not intelligence but the right capability for the event
-      that arrived. Operators drilled on design-basis ruptures had no model
-      for an ambiguous cascade, and a control room reporting commands rather
-      than states made correct diagnosis nearly impossible — the interface
-      and the training were mismatched to the failure that actually arrived.
-      Beneath that lay a second failure: the capacity to *learn* — to turn
-      Davis-Besse into fleet knowledge — had itself broken down, so the
-      industry kept making the same diagnosis blind, which is why the case
-      resists any single-cause reading.#cn()
+      The gap was not intelligence but the right capability for the
+      event that arrived. Operators drilled on design-basis ruptures
+      had no model for an ambiguous cascade, and a control room
+      reporting commands rather than states made correct diagnosis
+      nearly impossible — the interface and the training were
+      mismatched to the failure that actually arrived. Beneath that lay
+      a second failure: the capacity to *learn* — to turn Davis-Besse
+      into fleet knowledge — had itself broken down, so the industry
+      kept making the same diagnosis blind, which is why the case
+      resists any single-cause reading.#cn() The third layer was
+      institutional: there was no organization whose job was to force
+      operating experience from one utility into the training and
+      procedures of every other, and no body the NRC trusted to do it
+      on the industry's behalf.
     ],
     // -- Aftermath & Reform --
     [
-      TMI produced not another accident but a system of reform. Within nine
-      months the industry created INPO (December 1979) to set standards and
-      force the sharing of operating experience the Davis-Besse failure had
-      lacked.#cn() The NRC overhauled licensing, required plant-referenced
-      simulators and resident inspectors, and tied training to a national
-      standard so that diagnosing ambiguous transients — not just textbook
-      ruptures — became something crews practiced on equipment that behaved
-      like their own plant. Each measure attacked one of the failures the
-      accident had exposed: the training gap, the broken learning channel,
-      and the gulf between what indicators displayed and what crews inferred.
-      TMI is paired later with INPO (Case 16) as the book's strongest
-      argument that failure can engineer durable reform.#cn()
+      TMI produced not another accident but a system of reform. Within
+      nine months the industry created the Institute of Nuclear Power
+      Operations (INPO, December 1979) to set standards, run plant
+      evaluations, and force the sharing of operating experience the
+      Davis-Besse failure had lacked.#cn() The NRC overhauled licensing
+      and inspection: it required plant-referenced simulators, placed
+      resident inspectors at every commercial reactor, tied operator
+      training and re-qualification to a national standard, and in
+      Regulatory Guide 1.97 specified the post-accident instrumentation
+      needed to give crews state — not command — information across the
+      regimes accidents actually produce, with subsequent control-room
+      human-factors standards (NUREG-0700) carrying the principle into
+      every new and modernized plant.#cn() Each measure attacked one of
+      the failures the accident had exposed: the training gap, the
+      broken learning channel, the gulf between what indicators
+      displayed and what crews inferred, and the institutional absence
+      of a body responsible for cross-fleet learning. TMI is paired
+      later with INPO (Case 16) as the book's strongest argument that
+      failure can engineer durable industry-level reform.
     ],
   ),
   beats: (
@@ -421,24 +550,41 @@
     [C. Perrow, _Normal Accidents_ (1984); J. Reason, _Human Error_ (1990) — why ambiguous cascades defeat design-basis training and command-not-state interfaces.],
     [#link("https://www.inpo.info/history")[Institute of Nuclear Power Operations, "Our History"] — INPO established December 1979 to set standards and force sharing of operating experience; see also NEI, "Lessons from the 1979 Accident at Three Mile Island."],
     [J. V. Rees, _Hostages of Each Other: The Transformation of Nuclear Safety since Three Mile Island_ (Univ. of Chicago Press, 1994) — TMI as the origin of systematic capability reform.],
+    [U.S. Nuclear Regulatory Commission, _Regulatory Guide 1.97_, _Criteria for Accident Monitoring Instrumentation for Nuclear Power Plants_ (revised post-TMI), and NUREG-0700, _Human-System Interface Design Review Guidelines_ — the control-room and post-accident-instrumentation standards that grew out of TMI; see also J. C. Walker, _Three Mile Island: A Nuclear Crisis in Historical Perspective_ (Univ. of California Press, 2004) on the operator-training-and-licensing overhaul.],
   ),
   quote: [The fundamental problems are people-related problems and not equipment problems.],
   quote-source: "Kemeny Commission Report on Three Mile Island, 1979",
   le-insight: [
     TMI is the textbook moment when an industry discovered that its
     capability assumptions did not survive contact with operational
-    reality. Training to design-basis events left the operators blind to
-    the genuinely ambiguous failures that complex systems actually
-    produce. The human element is not a residual risk but the dominant
-    one.
+    reality. Training to design-basis events left the operators blind
+    to the genuinely ambiguous failures that complex systems actually
+    produce; a control room that reported commands rather than states
+    made correct diagnosis structurally hard; and the channel that
+    should have carried Davis-Besse out to every plant did not exist.
+    The reform — INPO, plant-referenced simulators, resident
+    inspectors, RG 1.97 instrumentation, NUREG-0700 human-factors
+    standards — built the missing infrastructure together rather than
+    one piece at a time, which is the case's load-bearing teaching.
   ],
   lens-approach: [
-    LENS uses TMI in LEN 1 as the foundational problem-framing case: when
-    trained scenarios and operational scenarios diverge, the divergence
-    is the real risk. LEN 5 examines the control-room interface and the
-    gap between what indicators displayed and what operators inferred;
-    the pairing with INPO (Case 16) is the Failure-to-Reform arc this
-    book treats as its strongest argument.
+    TMI is the worked example of induced sub-competency 6.1
+    (industry-level institution building after catastrophe) and the
+    LENS D4/PT4 pairing — Navigating Sociotechnical Constraints applied
+    to the institutional architecture a catastrophic-system industry
+    needs to learn at scale. Students reconstruct the capability
+    requirements that the design-basis training framework missed (LENS
+    D1), examine the control-room interface and post-accident
+    instrumentation as evidence-architecture problems (LENS D3), and
+    design the cross-fleet learning channel whose absence at
+    Davis-Besse let TMI happen. The case pairs with INPO (Case 16) as
+    the institution-building counterpart to the failure that produced
+    it, and with Fitzgerald/McCain (Case 1) as the contrasting failure
+    where the missing learning channel was internal to one service
+    rather than across a civilian industry. CLO mapping: CLO-4
+    (Sociotechnical Constraints) primary for the INPO/NRC institutional
+    architecture; CLO-1 (Systems Analysis) for the
+    interface-and-training requirements analysis the accident exposed.
   ],
   literature-items: (
     [Walker, _Three Mile Island: A Nuclear Crisis in Historical Perspective_ (2004)],
