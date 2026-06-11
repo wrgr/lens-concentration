@@ -14,8 +14,8 @@
 // Pair teaches the governance-objection diagnostic: when is an objection
 // to a deployment something good design can dissolve (OU), and when is
 // it correctly signaling that the system should not deploy (SyRI)?
-// Motivates the AMENDED Domain 1 sub-competency proposed in
-// v2_research/01_*.
+// Motivates the Domain 1 sub-competency proposed in
+// the proposed revisions.
 //
 // Numbering placeholders (110, 111) pending editor decision A1.
 
@@ -122,7 +122,7 @@
       rights-violating and operationally ineffective, and the
       District Court of The Hague stopped it on Article 8 ECHR
       grounds. The diagnostic capability is to tell those two
-      situations apart before deployment, not after.#cn()
+      situations apart before deployment, not after.
     ],
   ),
   beats: (
@@ -166,7 +166,7 @@
     OU is the positive Domain 3 / Problem Type 5 stakeholder
     governance case (induced 5.1; LENS D3/PT5). LENS uses it
     in Domain 4 (Navigating Sociotechnical Constraints) for
-    the AMENDED governance-objection diagnostic — the
+    the governance-objection diagnostic — the
     dissolvable-objection side — and in Domain 3 (Test and
     Evaluation) for the engagement-tracked-outcome evidence.
     Direct pair with Case 111 (Dutch SyRI), where the
@@ -275,8 +275,8 @@
     ],
     [
       The pair (Cases 110 + 111) is the case-grounded basis for
-      the AMENDED governance-objection diagnostic proposed in
-      `v2_research/01_*`: distinguishing a governance objection
+      the governance-objection diagnostic proposed in
+      the v2 research backbone: distinguishing a governance objection
       that good design can dissolve from one that correctly
       signals the system should not deploy. The capability is to
       make the diagnostic call before deployment, not after — and
@@ -284,7 +284,7 @@
       operational claim has not been demonstrated after years of
       deployment, and whose data subjects have not been informed
       they are being scored, is not a case where design can fix
-      the governance problem.#cn()
+      the governance problem.
     ],
   ),
   beats: (
@@ -329,7 +329,7 @@
     case (induced 5.1; LENS D4+D5/PT6) drafted as the
     contrast to the Open University (Case 110). LENS uses
     the pair in Domain 4 (Navigating Sociotechnical
-    Constraints) for the AMENDED governance-objection
+    Constraints) for the governance-objection
     diagnostic — distinguishing dissolvable from correct
     objections — and in Domain 5 (Machine Teaming and
     Adaptation) for the delegation-with-revocation CLO: the

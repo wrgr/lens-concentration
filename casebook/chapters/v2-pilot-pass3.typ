@@ -295,7 +295,7 @@
       pair with SUBSAFE (Case 114), the case shows that engineered
       capability requirements at scale require both the
       requirements-discipline mechanism and an evidence architecture
-      that survives the political process around the requirement.#cn()
+      that survives the political process around the requirement.
     ],
   ),
   beats: (
@@ -338,7 +338,7 @@
     (induced 1.1; LENS D1/PT3). LENS uses it in Domain 1
     (Systems Analysis) for the conversion of stated
     requirement to engineered specification by law, and in
-    Domain 3 (Test and Evaluation) for the new CLO *Judgment
+    Domain 3 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* — the evaluation evidence is
     observational cross-sectional, the strongest available
     and not closed proof. Pair with Case 114 SUBSAFE at the
@@ -633,7 +633,7 @@
       and CIRAS (this case) show that the structural form is
       transferable across high-consequence operational industries —
       and that the credible commitment, not the channel alone, is
-      what makes the reporting safe to use.#cn()
+      what makes the reporting safe to use.
     ],
   ),
   beats: (
@@ -678,11 +678,11 @@
     (Navigating Sociotechnical Constraints) for the
     credible-commitment design — independence written into
     operating structure — and in Domain 3 (Test and
-    Evaluation) for the new CLO *Judgment under inadequate
+    Evaluation) for the CLO *Judgment under inadequate
     evidence* on the operating self-report tier. Pair with
-    ASRS (v1 Case 89) and CRM/CAST (v1 Case 12) as the
+    ASRS (Case 89) and CRM/CAST (Case 12) as the
     cross-industry C4 set, and with the WHO Surgical
-    Checklist (v1 Case 13) at the mandatory-mechanism layer.
+    Checklist (Case 13) at the mandatory-mechanism layer.
   ],
   literature-items: (
     [Davies et al., _Cognition, Technology & Work_],
@@ -719,7 +719,7 @@
     pregnancy testing, two contraception methods (or documented
     abstinence), and pharmacy lockout authorization before each
     dispense. The case is the productive counterpoint to SUBSAFE
-    (Case 114) and the WHO Surgical Checklist (v1 Case 13): the
+    (Case 114) and the WHO Surgical Checklist (Case 13): the
     structural move is the same — mandatory pre-authorization
     gating a consequential action — and the measured outcome is
     very different. The Brinker et al. Kaiser Permanente cohort
@@ -756,7 +756,7 @@
       before the pharmacy can fill the prescription. Each prescriber,
       pharmacy, and wholesaler must also enroll in the program. The
       structural form is the same one SUBSAFE (Case 114) and the
-      WHO Surgical Checklist (v1 Case 13) both use successfully:
+      WHO Surgical Checklist (Case 13) both use successfully:
       mandatory pre-authorization gating a consequential action,
       with the authorization withheld until pre-conditions are
       verifiably met.#cn()
@@ -795,7 +795,7 @@
     ],
     [
       Drafted alongside SUBSAFE (Case 114) and the WHO Surgical
-      Checklist (v1 Case 13), iPLEDGE is the most analytically
+      Checklist (Case 13), iPLEDGE is the most analytically
       useful "mixed" case in the v2 sweep. It is not a failure of
       the form (the form has demonstrated successes); it is evidence
       that the form alone does not deliver capability when the
@@ -805,7 +805,7 @@
       designing a REMS-class program has to decide on the available
       evidence what additional adherence-support architecture the
       mechanism needs in order to deliver, and the iPLEDGE evidence
-      is the worked example of why the question matters.#cn()
+      is the worked example of why the question matters.
     ],
   ),
   beats: (
@@ -848,14 +848,13 @@
   lens-approach: [
     iPLEDGE is the analytically useful "mixed" pre-authorization
     case (induced 4.4; LENS D5/PT5). LENS uses it in Domain 5
-    (Machine Teaming and Adaptation) for the new CLO
-    *Delegation with revocation* — what the authorization
+    (Machine Teaming and Adaptation) for the CLO *Delegation with revocation* — what the authorization
     mechanism delegates and what it does not — and in Domain 3
-    (Test and Evaluation) for the new CLO *Judgment under
+    (Test and Evaluation) for the CLO *Judgment under
     inadequate evidence* on whether the form will deliver in a
     specific context. Direct pair with SUBSAFE (Case 114) at
     the form-vs-context layer; pair with WHO Surgical Checklist
-    (v1 Case 13) at the mandatory-mechanism layer.
+    (Case 13) at the mandatory-mechanism layer.
   ],
   literature-items: (
     [Brinker et al. (2011), _Journal of the American Academy of Dermatology_],

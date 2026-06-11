@@ -6,10 +6,10 @@
 // evidence-source, lens-anchor, induced-anchor), the dual-anchor convention,
 // and the drafting style for v2 cases can be reviewed against a worked
 // example before propagating to the rest of the ~77 candidates in
-// v2_research/02_complete_case_list_build_reference.md.
+// the build list.
 //
 // Numbering uses 101 / 102 as PLACEHOLDERS pending editor decision (A1 in
-// v2_research/03_editor_request_memo.md — resolve Case 74 first, then set
+// the v2 research backbone — resolve Case 74 first, then set
 // the v2 numbering baseline).
 //
 // Pair rationale: same delegation (ML early-warning for sepsis), opposite
@@ -108,7 +108,7 @@
       delegation can produce capability rather than alert fatigue. The
       case is the engineering counter to Watson for Oncology (the model
       marketed ahead of its capability) and the Epic Sepsis Model (the
-      model deployed ahead of its validation).#cn()
+      model deployed ahead of its validation).
     ],
   ),
   beats: (
@@ -260,7 +260,7 @@
       rights grounds because the system was both ineffective and
       rights-violating (SyRI); delegation marketed ahead of capability
       (Watson for Oncology). The four together are the canonical AI
-      delegation typology.#cn()
+      delegation typology.
     ],
   ),
   beats: (

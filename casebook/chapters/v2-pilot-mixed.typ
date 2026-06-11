@@ -20,7 +20,7 @@
 //        evidence-flag: journalism-tier (STAT News investigation primary).
 //   156  Johnson school-surveillance — big failure; the infrastructure
 //        (not students) drove a measured share of the outcome gap. One of
-//        the motivating cases for the new CLO *Gap attribution*.
+//        the motivating cases for the CLO *Gap attribution*.
 //        STANDING COI: shared institution (Johns Hopkins SOE).
 //
 // Numbering placeholders (150–156) pending editor decision A1.
@@ -141,7 +141,7 @@
       capability is named and the measurement instrument follows.
       JIGSAWS's continued use as a benchmark, more than a decade
       after release, is the field-scale evidence that the
-      decomposition was the right resolution for the question.#cn()
+      decomposition was the right resolution for the question.
     ],
   ),
   beats: (
@@ -316,7 +316,7 @@
       built adoption capacity (LALA), and rights-grounded halt
       (SyRI) — three honest results for the same structural
       question of when delegation to analytic infrastructure is
-      legitimate.#cn()
+      legitimate.
     ],
   ),
   beats: (
@@ -360,7 +360,7 @@
     (induced 5.1; LENS D4/PT4). LENS uses it in Domain 4
     (Navigating Sociotechnical Constraints) for the
     cross-regime participatory method and in Domain 5 (Machine
-    Teaming and Adaptation) on the new CLO *Judgment under
+    Teaming and Adaptation) on the CLO *Judgment under
     inadequate evidence* — the adoption-readiness tier is the
     strongest available, not closed proof of outcome. Pair with
     Case 110 (OU) at the governance-by-design layer and Case 111
@@ -492,7 +492,7 @@
       starkly because the regime asymmetry is largest there. The
       case is the case-grounded basis for proposing
       extraterritorial-platform-governance as a sub-competency the
-      existing curriculum does not yet name.#cn()
+      existing curriculum does not yet name.
     ],
   ),
   beats: (
@@ -537,7 +537,7 @@
     governance case (induced 5.3; LENS D4/PT6). LENS uses it in
     Domain 4 (Navigating Sociotechnical Constraints) for the
     cross-regime seam and in Domain 5 (Machine Teaming and
-    Adaptation) for the new CLO *Judgment under inadequate
+    Adaptation) for the CLO *Judgment under inadequate
     evidence* on a frontier where the architectural response is
     recommended but not yet built. Pair with Case 110 (OU) and
     Case 151 (LALA) as the non-US LA governance set; the joint
@@ -669,7 +669,7 @@
       structural lesson is that governance is producible as a
       deliverable at whichever level matches the deployment scope,
       and the choice of level is itself a governance decision the
-      case literature names.#cn()
+      case literature names.
     ],
   ),
   beats: (
@@ -714,7 +714,7 @@
     (induced 5.4; LENS D4/PT4). LENS uses it in Domain 4
     (Navigating Sociotechnical Constraints) for the change-
     control-and-disclosure-as-artifact discipline and in
-    Domain 3 (Test and Evaluation) for the new CLO *Judgment
+    Domain 3 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* on the process-vs-outcome tier.
     Pair with Case 110 (OU, institutional), Case 111 (SyRI,
     judicial), Case 151 (LALA, multi-country participatory),
@@ -846,7 +846,7 @@
       maturity model is the form. The pentad demonstrates that
       governance is producible at multiple levels for the same
       capability, and the choice of level is itself a
-      governance decision.#cn()
+      governance decision.
     ],
   ),
   beats: (
@@ -891,8 +891,7 @@
     and Evaluation) for the structured self-assessment
     instrument and the two-layer validation discipline; in
     Domain 4 (Navigating Sociotechnical Constraints) for the
-    governance-as-instrument framing; and on the new CLO
-    *Judgment under inadequate evidence* for the
+    governance-as-instrument framing; and on the CLO *Judgment under inadequate evidence* for the
     instrument-validation-vs-outcome-validation tier
     distinction. Pair with Cases 110, 151, 152, 153 as the
     non-US LA governance pentad; MMALA is the
@@ -1039,7 +1038,7 @@
       and the headline concordance number — substituted for the
       evidence the procurement should have required, and the
       capability the hospitals thought they were buying was not
-      the capability they got.#cn()
+      the capability they got.
     ],
   ),
   beats: (
@@ -1084,7 +1083,7 @@
     Watson for Oncology is the marketing-ahead-of-capability
     AI-delegation failure (induced 1.1; LENS D5/PT6). LENS uses
     it in Domain 5 (Machine Teaming and Adaptation) for the
-    AI-delegation typology and the new CLO *Delegation with
+    AI-delegation typology and the CLO *Delegation with
     revocation* — the wind-downs at MD Anderson are the
     revocation half of the case — and in Domain 3 (Test and
     Evaluation) for the requirements-vs-marketing discipline.
@@ -1113,7 +1112,7 @@
   year: "2010s – 2022",
   domains-list: ("K-12 education", "school safety infrastructure", "racial disparities"),
   modes-code: "GKN",
-  impact: "Peer-reviewed study (Journal of Criminal Justice, 2022) examining school-surveillance infrastructure and Black student outcomes; the mechanism is the surveillance infrastructure (cameras, metal detectors, school resource officers), not the students, and the infrastructure drove a measured share of the outcome gap — one of the motivating cases for the new CLO Gap attribution",
+  impact: "Peer-reviewed study (Journal of Criminal Justice, 2022) examining school-surveillance infrastructure and Black student outcomes; the mechanism is the surveillance infrastructure (cameras, metal detectors, school resource officers), not the students, and the infrastructure drove a measured share of the outcome gap — one of the motivating cases for the CLO Gap attribution",
   kind: "failure",
   scale: "big",
   evidence-source: "peer-reviewed",
@@ -1136,8 +1135,8 @@
     posture that schools serving predominantly Black student
     populations more often adopted. The mechanism, in other words,
     is the infrastructure, not the students. The case is one of
-    the motivating cases in the v2 sweep for the new CLO *Gap
-    attribution* proposed in `v2_research/01_*` — the discipline
+    the motivating cases in the v2 sweep for the CLO *Gap
+    attribution* — the discipline
     of asking, when a disparity in outcomes is observed, what
     share of the disparity is attributable to the institutional
     or technical infrastructure rather than to the population the
@@ -1219,8 +1218,8 @@
     ],
     [
       The case is one of the motivating cases in the v2 sweep for
-      the new CLO *Gap attribution* proposed in
-      `v2_research/01_*` — the discipline of asking, when a
+      the CLO *Gap attribution* proposed in
+      — the discipline of asking, when a
       disparity in outcomes is observed, what share of the
       disparity is attributable to the institutional or
       technical infrastructure rather than to the population the
@@ -1233,7 +1232,7 @@
       and program designers have to be trained to look for the
       mechanism in the infrastructure they built, not only in
       the population they are serving, and the evidence the case
-      carries is what makes the proposed CLO defensible.#cn()
+      carries is what makes the proposed CLO defensible.
     ],
   ),
   beats: (
@@ -1241,7 +1240,7 @@
     "Johnson et al. 2022 (Journal of Criminal Justice): separates student-level from school-level variables; measured share of outcome gap attributable to the infrastructure, not the students",
     "Mechanism is the infrastructure, not the students — attributing the gap to the population mis-locates the mechanism in a measurable sense",
     "Extends race-construct trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) into K-12 education at the institutional-infrastructure layer",
-    "One of the motivating cases for the new CLO Gap attribution — discipline of asking which share is the infrastructure vs. the population",
+    "One of the motivating cases for the CLO Gap attribution — discipline of asking which share is the infrastructure vs. the population",
   ),
   approaches: (
     during: (
@@ -1269,7 +1268,7 @@
     not in the population the infrastructure operates on. The
     case extends the race-construct trio (eGFR, pulse oximetry,
     Hoffman) into K-12 education at the infrastructure layer and
-    is one of the motivating cases for the new CLO Gap
+    is one of the motivating cases for the CLO Gap
     attribution. COI under the title — shared institution — is
     binding and rendered openly.
   ],
@@ -1278,7 +1277,7 @@
     infrastructure-as-mechanism gap-attribution case
     (induced 8.1; LENS D3/PT5). LENS uses it in Domain 3 (Test
     and Evaluation) for the gap-attribution discipline — the
-    case-grounded basis for the new CLO *Gap attribution* — and
+    case-grounded basis for the CLO *Gap attribution* — and
     in Domain 4 (Navigating Sociotechnical Constraints) for the
     institutional-architecture-as-mechanism framing. Pair with
     Cases 105 (eGFR), 106 (pulse oximetry), and 107 (Hoffman)
@@ -1294,7 +1293,7 @@
   reflection-list: (
     [Identify a disparity in outcomes in your domain that is currently attributed primarily to the population the outcomes are measured on. What infrastructure-level variables would you have to add to the analysis to test whether the institutional architecture is itself a mechanism of the disparity?],
     [Specify the design pattern the Johnson study uses: separating student-level from school-level variables so the share of the disparity attributable to each can be estimated. What is the analog in your context, and where is the default analysis most at risk of mis-locating the mechanism?],
-    [The case is one of the motivating cases for the new CLO Gap attribution. What instance from your work — a device, a formula, a cognitive baseline, an institutional architecture — would you carry as the case-grounded basis for training practitioners in your context to look for the mechanism in the infrastructure they built?],
+    [The case is one of the motivating cases for the CLO Gap attribution. What instance from your work — a device, a formula, a cognitive baseline, an institutional architecture — would you carry as the case-grounded basis for training practitioners in your context to look for the mechanism in the infrastructure they built?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )

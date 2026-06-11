@@ -2,19 +2,19 @@
 // V2 PILOT — Supplemental b (weaker-evidence tier): cases 164–170
 // ============================================================================
 //
-// Middle seven of the 21 accepted supplemental candidates (v2-908..v2-914).
+// Middle seven of the 21 accepted supplemental candidates (Case 164..Case 170).
 // Every case carries an explicit `evidence-flag`; the standing
 // "source confidence flagged; future validation ongoing" language renders
 // under the title automatically. The flag is load-bearing and must never be
 // smoothed away.
 //
-//   164  v2-908  UMHC annual-screening UI + CDS redesign   practice-synthesis-tier
-//   165  v2-909  Nursing alert-fatigue QI redesign         practice-synthesis-tier
-//   166  v2-910  Australian pharmacy-technician redesign   practice-synthesis-tier
-//   167  v2-911  Eurocat ATM pilot modernization           practice-synthesis-tier
-//   168  v2-912  INL turbine-control upgrade (LWRS-adj.)   practice-synthesis-tier
-//   169  v2-913  Estonia X-Road continuous-migration       practice-synthesis-tier
-//   170  v2-914  India Aadhaar exclusion litigation        journalism-tier
+//   164  Case 164  UMHC annual-screening UI + CDS redesign   practice-synthesis-tier
+//   165  Case 165  Nursing alert-fatigue QI redesign         practice-synthesis-tier
+//   166  Case 166  Australian pharmacy-technician redesign   practice-synthesis-tier
+//   167  Case 167  Eurocat ATM pilot modernization           practice-synthesis-tier
+//   168  Case 168  INL turbine-control upgrade (LWRS-adj.)   practice-synthesis-tier
+//   169  Case 169  Estonia X-Road continuous-migration       practice-synthesis-tier
+//   170  Case 170  India Aadhaar exclusion litigation        journalism-tier
 //
 // Cross-listings noted in v2_research/11_*: 910 + 913 + (914) carry a Gap-5
 // (non-US/UK/EU) echo. The pairings (901/902, 904/905, 906/907) sit outside
@@ -25,7 +25,7 @@
 #import "../lib/components.typ": *
 
 // ----------------------------------------------------------------------------
-// 164  v2-908  University of Missouri Health Care annual-screening UI + CDS
+// 164  Case 164  University of Missouri Health Care annual-screening UI + CDS
 // ----------------------------------------------------------------------------
 
 #case(
@@ -122,7 +122,7 @@
       measurement of the downstream process the cue exists to drive.
       The case is the missing positive example for induced 3.1 at
       the small tier and a paired teaching companion for the
-      failures already in the corpus.#cn()
+      failures already in the corpus.
     ],
   ),
   beats: (
@@ -187,7 +187,7 @@
 )
 
 // ----------------------------------------------------------------------------
-// 165  v2-909  Nursing alert-fatigue redesign QI (JAMIA-adjacent)
+// 165  Case 165  Nursing alert-fatigue redesign QI (JAMIA-adjacent)
 // ----------------------------------------------------------------------------
 
 #case(
@@ -338,7 +338,7 @@
     must report the safety signal alongside the alert-rate
     cut — and in Domain 5 (Machine Teaming and Adaptation)
     for CLO-5 oversight of automated decision support
-    delegated to the bedside, with the new CLO on delegation
+    delegated to the bedside, with the CLO on delegation
     with revocation explicit. Pair with Case 164 for the
     small-tier C3 thread.
   ],
@@ -356,7 +356,7 @@
 )
 
 // ----------------------------------------------------------------------------
-// 166  v2-910  Australian hospital-pharmacy technician role redesign
+// 166  Case 166  Australian hospital-pharmacy technician role redesign
 // ----------------------------------------------------------------------------
 
 #case(
@@ -458,7 +458,7 @@
       pharmacist clinical judgment — emerged from the team rather
       than depending on the pharmacist's individual heroism. The
       case is also a Gap-5 echo: a non-US small-tier role-redesign
-      success with documented operational outcomes.#cn()
+      success with documented operational outcomes.
     ],
   ),
   beats: (
@@ -522,7 +522,7 @@
 )
 
 // ----------------------------------------------------------------------------
-// 167  v2-911  Eurocat ATM pilot modernization (Thales)
+// 167  Case 167  Eurocat ATM pilot modernization (Thales)
 // ----------------------------------------------------------------------------
 
 #case(
@@ -596,7 +596,7 @@
       dissolved by the small-tier verification artifact." That is
       the C7 teaching point at the small tier the corpus has not
       had: the same governance-objection-dissolver move that
-      v2-901 / v2-903 show in the AV regulatory regime, transposed
+      Case 157 / Case 159 show in the AV regulatory regime, transposed
       into a legacy-software transition.#cn()
     ],
     [
@@ -624,7 +624,7 @@
       transformation pipeline as another artifact, are the
       capability-engineering moves the program made. The case is
       the missing positive example for induced 7.1 and 7.2 at
-      the small tier.#cn()
+      the small tier.
     ],
   ),
   beats: (
@@ -688,7 +688,7 @@
 )
 
 // ----------------------------------------------------------------------------
-// 168  v2-912  INL turbine-control upgrade (LWRS-adjacent)
+// 168  Case 168  INL turbine-control upgrade (LWRS-adjacent)
 // ----------------------------------------------------------------------------
 
 #case(
@@ -790,7 +790,7 @@
       frame applies because the V\&V evidence is itself the
       measurement instrument the program rests on. The case is a
       paired small-tier companion to Case 167 (Eurocat ATM) and
-      sits inside the C7 thread alongside the big-tier failures.#cn()
+      sits inside the C7 thread alongside the big-tier failures.
     ],
   ),
   beats: (
@@ -856,7 +856,7 @@
 )
 
 // ----------------------------------------------------------------------------
-// 169  v2-913  Estonia X-Road continuous-migration governance
+// 169  Case 169  Estonia X-Road continuous-migration governance
 // ----------------------------------------------------------------------------
 
 #case(
@@ -960,7 +960,7 @@
       data-exchange protocol is itself the governance choice
       that determines what the future modernization will have
       to undo. The case is also a Gap-5 non-US/UK case from a
-      small EU state, which the corpus needs.#cn()
+      small EU state, which the corpus needs.
     ],
   ),
   beats: (
@@ -1026,7 +1026,7 @@
 )
 
 // ----------------------------------------------------------------------------
-// 170  v2-914  India Aadhaar exclusion litigation (Pragya Prasun)
+// 170  Case 170  India Aadhaar exclusion litigation (Pragya Prasun)
 // ----------------------------------------------------------------------------
 
 #case(
@@ -1131,10 +1131,10 @@
       automated-welfare-delegation thread the corpus needs.
       The Domain-4 frame applies — a sociotechnical constraint
       (population-scale biometric delegation) judicially
-      corrected on dignity grounds — and the new CLO around
+      corrected on dignity grounds — and the CLO around
       fairness beyond omission applies directly: the harm was
       not the absence of the system but the operational
-      exclusion produced by it. The new CLO on delegation with
+      exclusion produced by it. The CLO on delegation with
       revocation applies too: the court has not revoked the
       delegation but has bounded it with the
       alternatives-must-be-provided requirement. The case
@@ -1189,11 +1189,11 @@
     LENS D4/PT6). LENS uses it in Domain 4 (Navigating
     Sociotechnical Constraints) for CLO-4 — population-scale
     delegation judicially bounded on dignity grounds — and
-    for the new CLO on fairness beyond omission (the harm
+    for the CLO on fairness beyond omission (the harm
     was the operational exclusion produced by the system,
-    not its absence) and the new CLO on delegation with
+    not its absence) and the CLO on delegation with
     revocation (the court has bounded the delegation, not
-    revoked it). Pair with SyRI (v2-603) and the UK Post
+    revoked it). Pair with SyRI (Case 111) and the UK Post
     Office Horizon thread for the cross-jurisdictional
     lineage of judicial correction.
   ],

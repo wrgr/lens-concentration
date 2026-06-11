@@ -49,7 +49,7 @@
     workplace application. The case is the corporate-scale instance
     of the enthusiasm-evidence gap and a direct illustration of the
     revised "decision-grade evidence" framing in
-    `v2_research/01_*`: the evidence most L&D decisions ride on is
+    the v2 research backbone: the evidence most L&D decisions ride on is
     structurally sub-decision-grade. The evidence base is
     practice-synthesis: Devlin Peck, D2L, Valamis, and related
     evaluation-practice guides documenting the stop-at-L2 pattern,
@@ -113,7 +113,7 @@
       structural form of the enthusiasm-evidence gap at corporate
       scale, and it is the case-grounded basis for the revised
       "decision-grade evidence" framing proposed in
-      `v2_research/01_*`. The capability deliverable is an
+      the v2 research backbone. The capability deliverable is an
       evaluation architecture that crosses the Level 2 / Level 3
       seam — by partnering with line management for behavior
       observation, by instrumenting the workplace tasks the
@@ -122,7 +122,7 @@
       satisfied at the Level the training organization can
       control. Until that crossing happens, most corporate L&D
       decisions are made on structurally sub-decision-grade
-      evidence, and the new CLO *Judgment under inadequate
+      evidence, and the CLO *Judgment under inadequate
       evidence* is exactly the capability the practitioner needs.#cn()
     ],
   ),
@@ -140,7 +140,7 @@
       [Treat the practice-synthesis evidence base honestly: name the pattern, flag the tier, and do not present a stop-at-L2 outcome as if it were a Level-3 or Level-4 finding.],
     ),
     after: (
-      [When Level 3 and Level 4 data are not available, say so plainly in the evaluation report rather than substituting Level 2 metrics; the new CLO *Judgment under inadequate evidence* is what the practitioner needs to do well here.],
+      [When Level 3 and Level 4 data are not available, say so plainly in the evaluation report rather than substituting Level 2 metrics; the CLO *Judgment under inadequate evidence* is what the practitioner needs to do well here.],
       [Track the work environment as a separate variable — Blume's meta-analysis (Case 113) names it as decisive — and report the training outcome conditional on environment, not as a property of the training alone.],
       [Use the structural pattern to argue for the evaluation architecture investment, not to abandon evaluation. The gap is a capability gap, not an argument against measurement.],
     ),
@@ -167,7 +167,7 @@
   lens-approach: [
     Kirkpatrick is the corporate-L&D evaluation case
     (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3
-    (Test and Evaluation) for the new CLO *Judgment under
+    (Test and Evaluation) for the CLO *Judgment under
     inadequate evidence* — the practitioner must decide well
     on structurally sub-decision-grade evidence — and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
@@ -273,14 +273,14 @@
       In pair with Kirkpatrick, the case closes the corporate-L&D
       gap the v1 corpus had open and is a worked example of the
       revised "decision-grade evidence" framing in
-      `v2_research/01_*`: the strongest synthesis the field has
+      the v2 research backbone: the strongest synthesis the field has
       is a meta-analysis with explicit hedges about
       measurement inconsistency. The practitioner must decide on
       what to build — training design, supervisor support,
       practice opportunity — knowing the evidence is the strongest
-      available but not closed. The new CLO *Judgment under
+      available but not closed. The CLO *Judgment under
       inadequate evidence* is exactly the capability this
-      meta-analysis pattern asks practitioners to bring.#cn()
+      meta-analysis pattern asks practitioners to bring.
     ],
   ),
   beats: (
@@ -323,10 +323,10 @@
   lens-approach: [
     Blume is the corporate-L&D transfer case (induced 2.3;
     LENS D2/PT4). LENS uses it in Domain 2 (Iterative
-    Development) for the AMENDED design-iteration
+    Development) for the design-iteration
     sub-competency (the work environment is the design
     variable) and in Domain 3 (Test and Evaluation) for the
-    new CLO *Judgment under inadequate evidence* — the
+    CLO *Judgment under inadequate evidence* — the
     meta-analysis is the strongest synthesis the field has,
     and it explicitly names what it cannot settle. Direct
     pair with Case 112 (Kirkpatrick); together they close

@@ -140,7 +140,7 @@
       near-fatal event whose proximate cause was hardware and
       whose deeper cause was the institutional decision to accept
       the most convenient explanation for an anomalous prior
-      event.#cn()
+      event.
     ],
   ),
   beats: (
@@ -313,7 +313,7 @@
       operator-physiology variable that determines whether the
       mission can be completed, and a diagnostic process forced
       to work from self-report and clustering because the
-      platform did not surface the data.#cn()
+      platform did not surface the data.
     ],
   ),
   beats: (
@@ -492,7 +492,7 @@
       tailoring and verification around it. The case teaches
       the requirements-as-deliverable form at the
       human-engineering scale, with the qualification that the
-      standard is the mechanism, not the outcome.#cn()
+      standard is the mechanism, not the outcome.
     ],
   ),
   beats: (
@@ -668,12 +668,11 @@
       of why "decision-grade evidence" has to be reframed at
       the portfolio scale — the decision-maker is not the
       program manager but the budget authority — and is one
-      of the corpus's strongest grounds for the new CLO
-      *Judgment under inadequate evidence*. The portfolio
+      of the corpus's strongest grounds for the CLO *Judgment under inadequate evidence*. The portfolio
       decision-maker does not get to wait for the evidence
       architecture to be fixed before deciding; the case is
       about how to make the decision with the evidence
-      acknowledged as insufficient.#cn()
+      acknowledged as insufficient.
     ],
   ),
   beats: (
@@ -708,8 +707,7 @@
     portfolio scale: the O&S data that dominate weapon-system
     lifecycle decisions are not reported in a form the
     decisions require, and the gap is structural across the
-    enterprise. The case is the worked example of the new CLO
-    *Judgment under inadequate evidence* at the budget-
+    enterprise. The case is the worked example of the CLO *Judgment under inadequate evidence* at the budget-
     authority scale.
   ],
   lens-approach: [
@@ -717,7 +715,7 @@
     architecture frontier case (induced 1.4; LENS D1/PT4).
     LENS uses it in Domain 1 (Systems Analysis) for the
     requirement-for-requirements form, and in Domain 3 (Test
-    and Evaluation) for the new CLO *Judgment under inadequate
+    and Evaluation) for the CLO *Judgment under inadequate
     evidence* applied at portfolio scale. Pair with Case 126
     (MIL-STD-1472H) at the design-side standards layer and
     Case 114 (SUBSAFE) at the per-capability sustainment
@@ -849,7 +847,7 @@
       replication base. The case teaches the trainable-
       scheduling form, with the qualification that the
       strongest available evidence for the form is
-      single-vendor.#cn()
+      single-vendor.
     ],
   ),
   beats: (
@@ -868,7 +866,7 @@
     after: (
       [Carry the single-vendor hedge into communication about the case. HLR is the strongest available evidence for trainable scheduling at consumer scale; it is not multi-vendor evidence and it is not a language-proficiency study.],
       [Distinguish the structural argument (per-item half-life estimation should outperform heuristic scheduling) from the domain transfer claim (HLR specifically generalizes to other learning content), which the published evidence does not yet support.],
-      [Pair the case with spaced-education clinical RCTs (v2-211) when those are drafted, so the corpus has both a consumer-scale single-vendor deployment and a clinical-domain replication base for the same underlying mechanism.],
+      [Pair the case with spaced-education clinical RCTs (Case 148) when those are drafted, so the corpus has both a consumer-scale single-vendor deployment and a clinical-domain replication base for the same underlying mechanism.],
     ),
   ),
   references: (
@@ -895,7 +893,7 @@
     (Iterative Development) for the production-deployment
     evaluation form, and in Domain 3 (Test and Evaluation) for
     the engagement-proxy-vs-proficiency-assessment distinction.
-    Pair with the spaced-education clinical RCTs (v2-211) for
+    Pair with the spaced-education clinical RCTs (Case 148) for
     the cross-domain replication base, and with the
     machine-teaming AI-delegation typology where the
     delegation is to a scheduler optimizing on a proxy
@@ -1381,9 +1379,9 @@
       defined permitted interruption classes, defined triage
       responsibility) rather than the principle imported
       without translation. Pair the case with I-PASS (a
-      structured-handoff intervention; v2-204 when drafted)
+      structured-handoff intervention; Case 143 when drafted)
       at the handoff-as-capability layer, and with CRM
-      (v1 Case 12) at the aviation-safety-culture-to-
+      (Case 12) at the aviation-safety-culture-to-
       clinical-care translation layer.#cn()
     ],
     [
@@ -1404,7 +1402,7 @@
       of maintaining the workflow design over the long term
       is the open question. The case is teachable at the
       adaptation-discipline level today; the multi-site
-      multi-cycle evidence base is the next deliverable.#cn()
+      multi-cycle evidence base is the next deliverable.
     ],
   ),
   beats: (
@@ -1452,8 +1450,8 @@
     as-design-variable form, and in Domain 4 (Navigating
     Sociotechnical Constraints) for the cultural-commitment
     half that makes the workflow operative. Pair with
-    I-PASS (v2-204 when drafted) at the structured-handoff
-    layer, with CRM (v1 Case 12) at the aviation-to-clinical
+    I-PASS (Case 143 when drafted) at the structured-handoff
+    layer, with CRM (Case 12) at the aviation-to-clinical
     safety-culture translation layer, and with Case 116
     (anesthesia monitoring) as the prior anesthesia-domain
     sterile-cockpit precedent.

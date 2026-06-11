@@ -1,21 +1,21 @@
 // ============================================================================
-// V2 PILOT — Supplemental batch C (cases 171–177; v2-915..921)
+// V2 PILOT — Supplemental batch C (cases 171–177; Case 171..921)
 // ============================================================================
 //
 // Final seven of the 21 accepted weaker-evidence supplemental candidates.
 // Every case sets `evidence-flag:` and the standing "future validation
 // ongoing" language renders under the case title automatically.
 //
-//   171 (v2-915) Rwanda mHealth maternal-care CHW program — preprint-tier
-//   172 (v2-916) South Africa learning-analytics scoping review — practice-synthesis-tier
-//   173 (v2-917) Japan PMDA AI/SaMD conditional-approval pathway — preprint-tier
-//   174 (v2-918) CARE Principles for Indigenous Data Governance — practice-synthesis-tier
-//   175 (v2-919) Lutz reflective-practice journal account — practice-synthesis-tier
-//   176 (v2-920) CBE—Life Sciences Education reflective-practice primer — practice-synthesis-tier
-//   177 (v2-921) Software-engineering reflective-practice longitudinal — preprint-tier
+//   171 (Case 171) Rwanda mHealth maternal-care CHW program — preprint-tier
+//   172 (Case 172) South Africa learning-analytics scoping review — practice-synthesis-tier
+//   173 (Case 173) Japan PMDA AI/SaMD conditional-approval pathway — preprint-tier
+//   174 (Case 174) CARE Principles for Indigenous Data Governance — practice-synthesis-tier
+//   175 (Case 175) Lutz reflective-practice journal account — practice-synthesis-tier
+//   176 (Case 176) CBE—Life Sciences Education reflective-practice primer — practice-synthesis-tier
+//   177 (Case 177) Software-engineering reflective-practice longitudinal — preprint-tier
 //
-// Pair structure (per supplemental README index): v2-915 cross-listed Gap 5;
-// v2-919/920/921 are the Gap 6 first-person Practice Flywheel genre exemplars,
+// Pair structure (per supplemental README index): Case 171 cross-listed Gap 5;
+// Case 175/920/921 are the Gap 6 first-person Practice Flywheel genre exemplars,
 // to be cited alongside the editor-commissioned CIRCUIT/ERKS accounts.
 
 #import "../lib/case.typ": case
@@ -115,7 +115,7 @@
       maternal and newborn outcomes downstream. The case is
       included with the flag intact and pairs with the PEPFAR
       cross-country modality comparison as the Sub-Saharan
-      workforce-capability evidence the v2 corpus needs.#cn()
+      workforce-capability evidence the v2 corpus needs.
     ],
   ),
   beats: (
@@ -277,7 +277,7 @@
       improves, and as African scholars author more of the
       learning-analytics research that travels out of the
       continent rather than into it. The case carries the standing
-      tier language into print.#cn()
+      tier language into print.
     ],
   ),
   beats: (
@@ -322,8 +322,7 @@
     frontier-evidence case (induced 8.4; LENS D4/PT4). LENS
     uses it in Domain 4 (Navigating Sociotechnical
     Constraints) for the construct-travel problem and in
-    Domain 3 (Test and Evaluation) for the new CLO
-    *Judgment under inadequate evidence* — the deployer must
+    Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the deployer must
     decide on what to import and what to validate locally
     when the validation literature is thin. Pairs with the
     African data-privacy governance case for the
@@ -440,7 +439,7 @@
       honest: the regulatory framework is documented in
       program-report sources; the per-approval transparency
       analyses are preprint or recent. Future validation ongoing
-      on outcome durability across approved devices.#cn()
+      on outcome durability across approved devices.
     ],
   ),
   beats: (
@@ -485,8 +484,7 @@
     (induced 5.4; LENS D4/PT6). LENS uses it in Domain 4
     (Navigating Sociotechnical Constraints) for the
     delegation-with-revocation structure and in Domain 5
-    (Machine Teaming and Adaptation) for the new CLO
-    *Delegation with revocation* — the regulator delegates
+    (Machine Teaming and Adaptation) for the CLO *Delegation with revocation* — the regulator delegates
     in-scope modification authority and retains revocation,
     rather than defaulting to static approval. Pairs with the
     Epic-Sepsis governance gap as the structural contrast
@@ -534,8 +532,7 @@
     structure: not "this system should not deploy" but "this
     governance regime must be replaced for any deployment to be
     legitimate." The case sits alongside CARE-adjacent equity
-    threads in the v2 corpus and supports the new CLO
-    *Fairness beyond omission* — CARE specifies positive
+    threads in the v2 corpus and supports the CLO *Fairness beyond omission* — CARE specifies positive
     sovereignty, not merely the avoidance of harm. Practice-
     synthesis-tier flag preserved: principles are peer-reviewed;
     implementation literature is still emerging. Future
@@ -590,7 +587,7 @@
     ],
     [
       For the v2 framework revision, CARE is the case-grounded
-      basis for the new CLO *Fairness beyond omission*. Removing
+      basis for the CLO *Fairness beyond omission*. Removing
       a biased feature, omitting a demographic variable, or
       de-identifying a dataset is fairness-by-subtraction; CARE
       specifies fairness-by-replacement of the governance regime.
@@ -598,7 +595,7 @@
       are peer-reviewed, the implementation literature is still
       thin — and the case is included with the standing
       "future validation ongoing" language as multi-institution
-      adoption matures.#cn()
+      adoption matures.
     ],
   ),
   beats: (
@@ -606,7 +603,7 @@
     "Developed by Indigenous Data Sovereignty networks in Aotearoa NZ, Australia, US — explicit non-US-centered leadership",
     "Governance-replacement structure, not governance-supplementation — existing privacy regimes named as inadequate",
     "Lowitja Journal 2025 documents Ngangk Yira Institute implementation — first detailed case study at institutional scale",
-    "Supports new CLO *Fairness beyond omission* — fairness as positive sovereignty, not subtraction of biased features",
+    "Supports CLO *Fairness beyond omission* — fairness as positive sovereignty, not subtraction of biased features",
   ),
   approaches: (
     during: (
@@ -616,7 +613,7 @@
     ),
     after: (
       [Track implementation outcomes against the four CARE conditions separately; the Lowitja Journal paper is the genre exemplar for what such a tracking report can look like.],
-      [Use CARE as the case-grounded basis for the new CLO *Fairness beyond omission* — fairness as governance-regime replacement, not as feature-level subtraction.],
+      [Use CARE as the case-grounded basis for the CLO *Fairness beyond omission* — fairness as governance-regime replacement, not as feature-level subtraction.],
       [When asked whether CARE travels, name what the AU/NZ/US Indigenous Data Sovereignty networks supply (sustained institutional leadership, recognized peoplehood frameworks) before asserting transfer to other collective-rights contexts.],
     ),
   ),
@@ -643,7 +640,7 @@
     Sociotechnical Constraints) for the governance-regime
     replacement structure — existing privacy regimes named as
     inadequate to collective rights — and as the case-grounded
-    basis for the new CLO *Fairness beyond omission*: fairness
+    basis for the CLO *Fairness beyond omission*: fairness
     as positive sovereignty, not the subtraction of biased
     features. Companion to the equity-thread cases in the v2
     corpus.
@@ -749,7 +746,7 @@
       beyond single-practitioner self-report and on whether
       structured journal practices produce measurably different
       outcomes from unstructured reflection. The case carries the
-      standing tier language into print.#cn()
+      standing tier language into print.
     ],
   ),
   beats: (
@@ -775,7 +772,7 @@
     [Lutz, S. (2006), "Using a learning journal to improve professional practice: a journey of personal and professional self-discovery," _Reflective Practice_ 7(3), doi:10.1080/14623940600837517.],
     [Argyris, C., & Schön, D. (1974/1996), _Theory in Practice_ and _Organizational Learning II_ — the single-loop / double-loop distinction the article enacts.],
     [Cross-reference: the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts (to be authored), for the engineering-practice counterparts to this exemplar.],
-    [v2_research/01_LENS_revised_competencies_and_CLOs.md — the amended CLO-2 that calls for first-person process narration as a distinct evidence class.],
+    [the proposed revisions — the amended CLO-2 that calls for first-person process narration as a distinct evidence class.],
   ),
   quote: [The journal produces a finding about the writer's practice that an external evaluator could not produce.],
   quote-source: "Editors' paraphrase of the Lutz (2006) article's framing.",
@@ -802,7 +799,7 @@
   literature-items: (
     [Lutz (2006), _Reflective Practice_],
     [Argyris & Schön — single-loop / double-loop distinction],
-    [`v2_research/01_*` — amended CLO-2 framing],
+    [— amended CLO-2 framing],
   ),
   reflection-list: (
     [Identify a recent design iteration in your own practice. What would a peer-reviewed first-person account of that iteration have to do — in honesty convention, in epistemic scope, in structure — to count as a contribution distinct from a third-person case write-up?],
@@ -905,7 +902,7 @@
       primer does not close. Future validation ongoing on STEM-
       educator adoption and on whether the engineering-practice
       audience can adopt the genre with comparable fidelity. The
-      case carries the standing tier language into print.#cn()
+      case carries the standing tier language into print.
     ],
   ),
   beats: (
@@ -1063,7 +1060,7 @@
       package the CIRCUIT and ERKS-class Flywheel accounts will
       sit alongside. Future validation ongoing — both
       peer-review pipeline and replication across other
-      work-based engineering programs.#cn()
+      work-based engineering programs.
     ],
   ),
   beats: (
@@ -1089,7 +1086,7 @@
     ["The Development of Reflective Practice on a Work-Based Software Engineering Program: A Longitudinal Study," arXiv:2504.20956 (2025) — preprint.],
     [Cross-reference: Case 175 (Lutz learning journal) — reflective-practice genre exemplar.],
     [Cross-reference: Case 176 (CBE—LSE primer) — cross-domain bridge from teacher/nursing/counseling education into STEM and engineering-practice contexts.],
-    [v2_research/01_LENS_revised_competencies_and_CLOs.md — the amended CLO-2 (first-person narration of design iteration) the case evaluates.],
+    [the proposed revisions — the amended CLO-2 (first-person narration of design iteration) the case evaluates.],
   ),
   quote: [The construct is the development of reflective capability, not its presence. The instrument has to be sensitive to depth change.],
   quote-source: "Editors' paraphrase of the arXiv preprint's construct distinction.",
@@ -1108,8 +1105,7 @@
     the evaluation-pathway case for first-person practice
     accounts (induced 2.3; LENS D2/PT4). LENS uses it in
     Domain 2 (Iterative Development) for the amended CLO-2
-    and in Domain 3 (Test and Evaluation) for the new CLO
-    *Judgment under inadequate evidence* — the preprint
+    and in Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the preprint
     supplies the construct distinction (development vs.
     presence) without supplying peer-reviewed magnitudes.
     Pairs with Cases 175 and 176 as Gap 6 literature
@@ -1118,7 +1114,7 @@
   literature-items: (
     [arXiv:2504.20956 (2025) — longitudinal SE-program study],
     [Cross-reference: Case 175 (Lutz), Case 176 (CBE—LSE primer)],
-    [`v2_research/01_*` — amended CLO-2 framing],
+    [— amended CLO-2 framing],
   ),
   reflection-list: (
     [Identify a multi-year program in your context where reflective-practice capability is supposed to develop. What instrument would you build to measure development (intra-learner depth change over time) rather than presence (snapshot)? At what temporal cadence?],

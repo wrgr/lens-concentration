@@ -11,8 +11,8 @@
 //   107  Pain assessment — clinician-held false beliefs that systematically
 //        lower pain ratings (Hoffman et al., PNAS 2016).
 //
-// The trio motivates the new CLO "Gap attribution" proposed in
-// v2_research/01_*: distinguishing capability gaps attributable to human
+// The trio motivates the CLO "Gap attribution" proposed in
+// the proposed revisions: distinguishing capability gaps attributable to human
 // development (Hoffman: training in false beliefs), system design (pulse
 // oximetry: unstratified validation), and organizational performance (eGFR:
 // governance process that finally removed the coefficient).
@@ -115,10 +115,10 @@
       architecture rather than the equation; and with pain assessment
       (Case 107), where the failure was in clinician-held false beliefs
       rather than the instrument. The trio together is the case-grounded
-      basis for the new CLO *Gap attribution* — distinguishing capability
+      basis for the CLO *Gap attribution* — distinguishing capability
       gaps attributable to human development, system design, and
-      organizational performance — and for the new CLO *Fairness beyond
-      omission*, of which eGFR is the construct-removal instance.#cn()
+      organizational performance — and for the CLO *Fairness beyond
+      omission*, of which eGFR is the construct-removal instance.
     ],
   ),
   beats: (
@@ -160,7 +160,7 @@
   lens-approach: [
     eGFR is the construct-definition equity intervention in the
     race-construct trio (Cases 105–107). LENS uses it in Domain 3
-    (Test and Evaluation) for the new CLO *Gap attribution* —
+    (Test and Evaluation) for the CLO *Gap attribution* —
     attributing the gap to construct definition, not to clinicians
     or patients — and in Domain 4 (Navigating Sociotechnical
     Constraints) for the governance process that revised the
@@ -274,7 +274,7 @@
       Hoffman is clinician-held false belief — and the case-grounded
       lesson is that the diagnosis of the same surface harm has to
       attribute the gap to the right layer of the system before a
-      remediation can land.#cn()
+      remediation can land.
     ],
   ),
   beats: (
@@ -315,7 +315,7 @@
   lens-approach: [
     Pulse oximetry is the validation-architecture intervention in
     the race-construct trio (Cases 105–107). LENS uses it in
-    Domain 3 (Test and Evaluation) for the new CLO *Gap
+    Domain 3 (Test and Evaluation) for the CLO *Gap
     attribution* — the gap is in the validation architecture, not
     the device or the clinician — and in Domain 4 (Navigating
     Sociotechnical Constraints) for the FDA clearance / device
@@ -426,10 +426,10 @@
       layers of the system: the construct definition (eGFR), the
       validation architecture (pulse oximetry), and the
       human-development mechanism (Hoffman). The trio is the
-      case-grounded basis for the new CLO *Gap attribution*: distinguishing
+      case-grounded basis for the CLO *Gap attribution*: distinguishing
       capability gaps attributable to human development, system
       design, and organizational performance, and selecting
-      measurement that isolates the intended cause.#cn()
+      measurement that isolates the intended cause.
     ],
   ),
   beats: (
@@ -472,7 +472,7 @@
   lens-approach: [
     Hoffman is the human-development case in the race-construct
     trio (Cases 105–107). LENS uses it in Domain 3 (Test and
-    Evaluation) for the new CLO *Gap attribution* — the gap is in
+    Evaluation) for the CLO *Gap attribution* — the gap is in
     the clinician's training, not the construct or the device —
     and in Domain 2 (Learning Engineering Design) for the
     curriculum-design implication. The trio together is the

@@ -1,5 +1,5 @@
 // ============================================================================
-// V2 PILOT — Supplemental batch A: weaker-evidence cases (v2-901 .. v2-907)
+// V2 PILOT — Supplemental batch A: weaker-evidence cases (Case 157 .. Case 163)
 // ============================================================================
 //
 // First seven of the 21 accepted supplemental candidates. Every case in this
@@ -120,7 +120,7 @@
       The teaching point for LENS is that delegation of
       consequential decisions to an automated system creates a
       governance debt that the deploying organization owes the
-      public. The new CLO *Delegation with revocation* is the
+      public. The CLO *Delegation with revocation* is the
       capability the case exercises: the safety case framework
       is the artifact that makes revocation possible —
       regulators or auditors can identify which sub-claim has
@@ -148,7 +148,7 @@
     ),
     after: (
       [Treat the safety case framework as a living document — update the claims and evidence as post-deployment failure data accumulates, and publish the updates so the legitimacy artifact does not calcify.],
-      [Use the new CLO *Delegation with revocation*: design the framework so a regulator or auditor can identify which sub-claim has failed and trigger a revocation pathway, not only a "trust us, we will fix it" assurance.],
+      [Use the CLO *Delegation with revocation*: design the framework so a regulator or auditor can identify which sub-claim has failed and trigger a revocation pathway, not only a "trust us, we will fix it" assurance.],
       [Carry the practice-synthesis evidence-tier flag honestly in any program documentation citing the framework — the artifact pattern is teachable, but the magnitude of its public-trust effect is still being measured.],
     ),
   ),
@@ -174,7 +174,7 @@
   lens-approach: [
     Waymo is the AV-safety governance case (induced 5.1; LENS
     D4/PT6). LENS uses it in Domain 4 (Navigating
-    Sociotechnical Constraints) for the new CLO *Delegation
+    Sociotechnical Constraints) for the CLO *Delegation
     with revocation* — the safety case is what makes
     revocation possible — and in Domain 5 (Emerging Systems
     and Machine Teaming) for the deployer-side artifact that
@@ -189,7 +189,7 @@
   ),
   reflection-list: (
     [Identify an automated system in your context that faces a public-trust objection it cannot answer by full disclosure. What falsifiable argument structure could you publish that would make the system's reasoning auditable without requiring disclosure of the contested data?],
-    [Specify how a regulator or independent auditor would *revoke* the delegation in your system if a sub-claim of the safety case failed. The new CLO *Delegation with revocation* requires this pathway to exist before deployment, not only after a public-facing failure.],
+    [Specify how a regulator or independent auditor would *revoke* the delegation in your system if a sub-claim of the safety case failed. The CLO *Delegation with revocation* requires this pathway to exist before deployment, not only after a public-facing failure.],
     [The case is practice-synthesis tier. What additional independent evidence — failure-record analysis, multi-auditor replication, peer-reviewed evaluation — would you require before treating the safety-case-plus-audit posture as a substitute for the disclosure that was originally demanded?],
   ),
   courses: ("LEN 4", "LEN 8", "LEN 9"),
@@ -313,7 +313,7 @@
       [Build the verification path the regulator will use into the architecture. The DMV learning the fuller sequence from another agency is the failure mode the architecture has to preclude.],
     ),
     after: (
-      [Use the new CLO *Delegation with revocation*: revocation pathways must be designed and exercisable, and the deploying organization should expect the regulator to exercise them when the disclosure architecture fails.],
+      [Use the CLO *Delegation with revocation*: revocation pathways must be designed and exercisable, and the deploying organization should expect the regulator to exercise them when the disclosure architecture fails.],
       [Pair the case with Case 157 (Waymo) in any LENS Domain 4 module — the contrast between an engineered legitimacy artifact and partial crisis disclosure is the teaching point, not either case alone.],
       [Carry the journalism-tier flag honestly: the DMV Order is the investigation-grade primary; the internal-timeline reconstructions are journalistic; future validation will improve as Cruise's own post-mortem and any subsequent litigation discovery enter the public record.],
     ),
@@ -341,7 +341,7 @@
   lens-approach: [
     Cruise is the AV partial-disclosure failure (induced 5.4;
     LENS D4/PT6). LENS uses it in Domain 4 (Navigating
-    Sociotechnical Constraints) for the new CLO *Delegation
+    Sociotechnical Constraints) for the CLO *Delegation
     with revocation* — the case shows what revocation looks
     like when the disclosure architecture fails — and in
     Domain 5 (Emerging Systems and Machine Teaming) for the
@@ -467,7 +467,7 @@
       explicit, but the outcome evidence is not yet
       decision-grade. Future validation will continue as the
       program ages and as the equity outcomes are
-      independently measured.#cn()
+      independently measured.
     ],
   ),
   beats: (
@@ -628,13 +628,12 @@
       problem from Case 112 and the meta-analytic transfer finding
       from Case 113. SCM is the operational instrument that
       crosses the Level-2 / Level-3 seam by sampling where the
-      evidence is most informative — and it exercises the new CLO
-      *Judgment under inadequate evidence* directly, because the
+      evidence is most informative — and it exercises the CLO *Judgment under inadequate evidence* directly, because the
       method asks practitioners to act on detailed case
       reconstructions rather than wait for population-scale
       causal estimates that corporate L&D often cannot produce.
       Future validation will continue as more firms publish
-      their SCM outcome data.#cn()
+      their SCM outcome data.
     ],
   ),
   beats: (
@@ -652,7 +651,7 @@
     ),
     after: (
       [Translate the tail evidence into a redesign of the surrounding system — supervisor briefings, peer-support structures, on-job practice opportunity — rather than into a redesign of the training event alone. Pair with Case 161 (HILS).],
-      [Use the new CLO *Judgment under inadequate evidence*: act on the case-reconstruction evidence the method produces while being explicit that it is not a population causal estimate; document the uncertainty.],
+      [Use the CLO *Judgment under inadequate evidence*: act on the case-reconstruction evidence the method produces while being explicit that it is not a population causal estimate; document the uncertainty.],
       [Carry the practice-synthesis flag honestly in any program documentation citing SCM corporate deployments — the method is peer-reviewed, but the per-firm effect sizes are not.],
     ),
   ),
@@ -677,7 +676,7 @@
   lens-approach: [
     SCM is the corporate-L&D tail-sampling case (induced 2.1;
     LENS D3/PT5). LENS uses it in Domain 3 (Test and
-    Evaluation) for the new CLO *Judgment under inadequate
+    Evaluation) for the CLO *Judgment under inadequate
     evidence* — the method asks practitioners to act on
     case-reconstruction evidence rather than population
     estimates — and in Domain 2 (Iterative Development) by
@@ -797,7 +796,7 @@
       practice-synthesis — the model and the deployment
       pattern are durable in practitioner literature, the
       per-firm effect magnitudes are self-reported, future
-      validation will continue. The new CLO *Judgment under
+      validation will continue. The CLO *Judgment under
       inadequate evidence* is exactly the capability HILS
       asks the practitioner to bring: act on the strongest
       synthesis the field has produced while naming what is
@@ -820,7 +819,7 @@
     after: (
       [Pair with Case 160 (SCM) to measure whether the deployed program worked at the tails — HILS designs the environment, SCM samples the outcomes; together they structure the chain-of-evidence cross (Case 112).],
       [Carry the practice-synthesis flag honestly: the model is documented and durable, the per-firm effect sizes are self-reported, and any specific magnitude cited from vendor whitepapers should be flagged as such in program documentation.],
-      [Use the new CLO *Judgment under inadequate evidence*: the synthesis is the strongest the field has, and the practitioner has to decide whether to deploy HILS at organizational scale on practitioner-tier evidence while naming the validation that remains open.],
+      [Use the CLO *Judgment under inadequate evidence*: the synthesis is the strongest the field has, and the practitioner has to decide whether to deploy HILS at organizational scale on practitioner-tier evidence while naming the validation that remains open.],
     ),
   ),
   references: (
@@ -838,8 +837,7 @@
     the design-side counterpart of SCM (Case 160). Evidence
     is practice-synthesis: the model is durable in
     practitioner literature, per-firm effect sizes are
-    self-reported, future validation continues. The new CLO
-    *Judgment under inadequate evidence* is the capability
+    self-reported, future validation continues. The CLO *Judgment under inadequate evidence* is the capability
     the case asks for.
   ],
   lens-approach: [
@@ -848,7 +846,7 @@
     (Iterative Development / Learning Engineering Design)
     for the amended sub-competency that narrates the design
     iteration explicitly across pre / event / post phases,
-    and exercises the new CLO *Judgment under inadequate
+    and exercises the CLO *Judgment under inadequate
     evidence* because the practitioner must decide on
     practice-synthesis-tier evidence. Pairs with Case 160
     (SCM) and Cases 112 / 113 as the corporate-L&D cluster.
@@ -879,7 +877,7 @@
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "2.4",
   lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-2, CLO-4, AMENDED CLO Collaboration-measurement",
+  clo-anchor: "CLO-2, CLO-4, CLO Collaboration-measurement",
   summary: [
     Singapore's SkillsFuture Movement, launched in 2015, pairs
     individual training credits with employer subsidies, a
@@ -1126,11 +1124,11 @@
       printed case. The LENS teaching point is the
       cross-listed pair with the corporate / workforce L&D
       cluster (Cases 112, 113, 160, 161) and the non-US/UK/EU
-      cluster (Cases 162). The new CLO *Judgment under
+      cluster (Cases 162). The CLO *Judgment under
       inadequate evidence* is exercised: the study is the
       strongest evidence the field has for modality
       equivalence in this context, and it does not establish
-      L3 / L4 outcomes. Future validation is ongoing.#cn()
+      L3 / L4 outcomes. Future validation is ongoing.
     ],
   ),
   beats: (
@@ -1148,7 +1146,7 @@
     ),
     after: (
       [Pair with Case 162 (SkillsFuture) as the workforce-capability counterparts at national- and multi-country scale; together they teach what L&D measurement looks like in non-US/UK/EU settings with the evidence-tier honesty intact.],
-      [Use the new CLO *Judgment under inadequate evidence*: the study is the strongest evidence the field has for modality equivalence in this context, and the practitioner has to decide modality policy on L1–L2 evidence while L3/L4 evidence develops.],
+      [Use the CLO *Judgment under inadequate evidence*: the study is the strongest evidence the field has for modality equivalence in this context, and the practitioner has to decide modality policy on L1–L2 evidence while L3/L4 evidence develops.],
       [Carry the preprint-tier flag honestly: the medRxiv preprint and the PMC published article are both citable; future validation requires confirmatory replication and L3/L4 outcome measurement.],
     ),
   ),
@@ -1175,7 +1173,7 @@
     (Iterative Development) for the modality-design
     iteration COVID forced and in Domain 4 (Navigating
     Sociotechnical Constraints) for the multi-country
-    program scope. The new CLO *Judgment under inadequate
+    program scope. The CLO *Judgment under inadequate
     evidence* is exercised because the study is the
     strongest available at L1–L2 and does not settle L3 /
     L4. Pairs with Case 162 (SkillsFuture) as the workforce

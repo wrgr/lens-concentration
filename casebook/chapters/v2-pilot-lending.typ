@@ -4,8 +4,8 @@
 //
 // Same domain (consumer credit), opposite halves of the same teaching point:
 // "omit the variable" does not produce fairness, and competing fairness
-// definitions conflict. Together they motivate the new CLO "Fairness beyond
-// omission" proposed in v2_research/01_*. Coots carries evidence-flag:
+// definitions conflict. Together they motivate the CLO "Fairness beyond
+// omission" proposed in the proposed revisions. Coots carries evidence-flag:
 // "preprint-tier" — exercises the render path for weaker evidence.
 //
 // Numbering placeholders (103, 104) pending editor decision A1.
@@ -102,7 +102,7 @@
       once the practitioner accepts that omission is not the answer,
       competing fairness definitions disagree about which adjustment is
       the right one — and the choice has to be made on judgment under
-      irreducible uncertainty, not on a technical optimum.#cn()
+      irreducible uncertainty, not on a technical optimum.
     ],
   ),
   beats: (
@@ -144,7 +144,7 @@
   lens-approach: [
     Bartlett is the headline equity-and-construct case in
     consumer credit (induced 8.2; LENS D3+D5/PT6). LENS uses it
-    in Domain 3 (Test and Evaluation) for the new CLO *Fairness
+    in Domain 3 (Test and Evaluation) for the CLO *Fairness
     beyond omission*, in Domain 5 (Machine Teaming and
     Adaptation) for delegation to underwriting models, and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
@@ -259,9 +259,9 @@
       evaluated against, audit on outputs rather than reasoning about
       inputs, and decide on judgment that the trade-offs across
       competing definitions are acceptable for the deployment context.
-      This is the case-grounded basis for the new CLO *Fairness beyond
-      omission* and the new CLO *Judgment under inadequate evidence*
-      proposed in `v2_research/01_*` — the audit is itself a worked
+      This is the case-grounded basis for the CLO *Fairness beyond
+      omission* and the CLO *Judgment under inadequate evidence*
+      — the audit is itself a worked
       example of deciding under irreducible disagreement.#cn()
     ],
   ),
@@ -304,9 +304,7 @@
   ],
   lens-approach: [
     Coots is the small-tier frontier counter-case to Bartlett. LENS
-    uses the pair in Domain 3 (Test and Evaluation) for the new CLO
-    *Fairness beyond omission*; in Domain 3 again for the new CLO
-    *Judgment under inadequate evidence* (the pair is itself a
+    uses the pair in Domain 3 (Test and Evaluation) for the CLO *Fairness beyond omission*; in Domain 3 again for the CLO *Judgment under inadequate evidence* (the pair is itself a
     decision under irreducible disagreement); and in Domain 5
     (Machine Teaming and Adaptation) for delegation of
     consequential consumer-finance decisions to a model. The

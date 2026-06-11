@@ -18,7 +18,7 @@
 //        enthusiasm faster than outcomes.
 //   123  Implementation-science training — small-tier frontier. CTSA T32/
 //        TL1 survey: stated goals run ahead of operational competency-based
-//        practices. Workforce-training counterpart to v1 Case 41.
+//        practices. Workforce-training counterpart to Case 41.
 //
 // Numbering placeholders (119–123) pending editor decision A1.
 
@@ -183,8 +183,7 @@
   lens-approach: [
     CIRCUIT proofreading is the human-correction-layer frontier
     case (induced 3.4; LENS D5/PT6). LENS uses it in Domain 5
-    (Machine Teaming and Adaptation) for the new CLO
-    *Delegation with revocation* — what the verification layer
+    (Machine Teaming and Adaptation) for the CLO *Delegation with revocation* — what the verification layer
     is designed to catch — and in Domain 3 (Test and
     Evaluation) for the evidence-tier discipline (peer-reviewed
     for method, institutional for program outcomes). Pair with
@@ -309,7 +308,7 @@
       peer-reviewed evidence available with the institutional
       and program-evaluation gap honestly named. The book's
       credibility on these cases rests on plain disclosure, not
-      on hiding the affiliation.#cn()
+      on hiding the affiliation.
     ],
   ),
   beats: (
@@ -403,7 +402,7 @@
     Relations, the component the authors explicitly note is the
     hardest. The case treats interdisciplinary collaboration as an
     engineerable, measurable capability — the amended Domain 3
-    sub-competency proposed in `v2_research/01_*` (collaboration
+    sub-competency (collaboration
     as a unit of measurement, distinct from any individual
     operator) — and is honest about the interpersonal half moving
     least. The honest limit the authors name: outcomes are
@@ -469,12 +468,12 @@
       intervention companion to two frontier cases. Team-science
       training is one of the few cases in the corpus that
       operationalizes "collaboration as the unit of measurement"
-      — the AMENDED CLO proposed in `v2_research/01_*` — with a
+      — the CLO — with a
       validated instrument and structured evaluation. The case is
       a worked example of how a discipline can convert
       collaboration capability from an aspiration to a measurable
       target, while preserving the honest qualifications about
-      what the measurement does and does not establish.#cn()
+      what the measurement does and does not establish.
     ],
   ),
   beats: (
@@ -482,7 +481,7 @@
     "TEAMS instrument validated; three components — Team Planning, Managing a Team, Interpersonal Relations",
     "Statistically significant improvement (p<0.05) across all three; largest gains in structured/tool-based, smallest in interpersonal",
     "Honest limit: self-reported perceived competency, no longitudinal tracking, no comparison to non-trained control",
-    "Operationalizes 'collaboration as unit of measurement' — the AMENDED Domain 3 sub-competency",
+    "Operationalizes 'collaboration as unit of measurement' — the Domain 3 sub-competency",
   ),
   approaches: (
     during: (
@@ -493,7 +492,7 @@
     after: (
       [Report the pattern of gains, not just the aggregate; the smaller-gain-on-interpersonal finding is the honest signal about what the structured training can and cannot do.],
       [Commission longitudinal follow-up that tracks participants into their next collaborative projects and measures integration outcomes — the case names the gap and the next study addresses it.],
-      [Carry the "collaboration as the unit of measurement" sub-competency into the curriculum: the AMENDED Domain 3 sub-competency is grounded in evidence here, and the team-science training program is one of the few cases in the corpus that operationalizes it.],
+      [Carry the "collaboration as the unit of measurement" sub-competency into the curriculum: the Domain 3 sub-competency is grounded in evidence here, and the team-science training program is one of the few cases in the corpus that operationalizes it.],
     ),
   ),
   references: (
@@ -516,7 +515,7 @@
   ],
   lens-approach: [
     Team-science training is the case-grounded basis for the
-    AMENDED collaboration-as-measurement CLO (induced 4.3;
+    collaboration-as-measurement CLO (induced 4.3;
     LENS D4/PT4). LENS uses it in Domain 4 (Navigating
     Sociotechnical Constraints) for the team-coordination
     redesign and in Domain 3 (Test and Evaluation) for the
@@ -570,8 +569,8 @@
     core problem is that the field cannot yet measure whether the
     intervention works. It is the case-grounded basis for the
     enthusiasm-evidence gap as a curricular concept and motivates
-    the AMENDED Domain 3 sub-competency proposed in
-    `v2_research/01_*` — the recurring pattern that a field
+    the Domain 3 sub-competency proposed in
+    — the recurring pattern that a field
     instruments its enthusiasm faster than its outcomes.
   ],
   sections: (
@@ -626,9 +625,9 @@
       strongest synthesis of the outcome literature concludes that
       the field instrumented its enthusiasm faster than it
       instrumented outcomes. The case is the case-grounded basis
-      for the AMENDED Domain 3 sub-competency proposed in
-      `v2_research/01_*` — naming the enthusiasm-evidence gap as a
-      canonical anti-pattern — and for the new CLO *Judgment
+      for the Domain 3 sub-competency proposed in
+      — naming the enthusiasm-evidence gap as a
+      canonical anti-pattern — and for the CLO *Judgment
       under inadequate evidence*: practitioners and program
       designers in IPE have had to decide for decades on what to
       build, on evidence that does not establish the causal claim
@@ -642,17 +641,17 @@
       single-program scale with a validated instrument; IPE
       shows what happens when the field-scale evidence
       architecture has not been built. The pair-plus-trio
-      teaches the AMENDED Domain 3 sub-competency in both
+      teaches the Domain 3 sub-competency in both
       directions: collaboration as a unit of measurement is
       possible (Case 121), and the field-scale evidence is
-      structurally absent (this case).#cn()
+      structurally absent (this case).
     ],
   ),
   beats: (
     "IPE — decades-long well-funded movement premised on training health professionals together for collaborative care",
     "Reeves et al. Cochrane 2013: only 15 studies from 1999–2011 met inclusion; evidence base thin for linking IPE to practice and patient outcomes",
     "IOM 2015 makes the gap the central finding: 'paucity of high-quality research'; proposes a conceptual model for doing the measurement",
-    "Canonical enthusiasm-evidence gap case — field instruments enthusiasm faster than outcomes; basis for AMENDED Domain 3 sub-competency",
+    "Canonical enthusiasm-evidence gap case — field instruments enthusiasm faster than outcomes; basis for Domain 3 sub-competency",
     "Pair with Case 121 (team-science training) and 123 (implementation-science training) — collaboration measurement is possible at program scale, absent at field scale",
   ),
   approaches: (
@@ -689,8 +688,8 @@
     IPE is the field-scale enthusiasm-evidence-gap case
     (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3
     (Test and Evaluation) as the case-grounded basis for the
-    AMENDED enthusiasm-evidence-gap sub-competency and for the
-    new CLO *Judgment under inadequate evidence* — IPE is the
+    enthusiasm-evidence-gap sub-competency and for the
+    CLO *Judgment under inadequate evidence* — IPE is the
     pattern's largest instance. Pair with Case 121 (team-
     science training, where measurement is possible at program
     scale) and Case 123 (implementation-science training,
@@ -740,7 +739,7 @@
     should aim for, but where the operational practices lag the
     stated goals — the same enthusiasm-ahead-of-evidence pattern
     as IPE. The case is the workforce-training counterpart to
-    v1 Case 41 (the "17-year gap" between research evidence and
+    Case 41 (the "17-year gap" between research evidence and
     practice adoption); the v2 frame is the gap between what
     implementation-science training programs *say* they do and
     what they *operationally* do.
@@ -795,7 +794,7 @@
       infrastructure investment that competency-based training and
       assessment require, and that field-scale stated-goal
       convergence does not by itself produce. The pair with
-      v1 Case 41 (the 17-year gap) gives the case its frame: the
+      Case 41 (the 17-year gap) gives the case its frame: the
       implementation-science workforce is the recovery mechanism
       for the research-to-practice gap, and the operational
       capacity of that workforce is itself the capability the
@@ -806,16 +805,16 @@
       122 + 123), implementation-science training sits between
       team science (where the measurement is possible at program
       scale) and IPE (where the measurement is the field-scale
-      gap). The trio teaches the AMENDED enthusiasm-evidence-gap
+      gap). The trio teaches the enthusiasm-evidence-gap
       sub-competency from three angles — the program-scale
       success, the field-scale gap, and the operational-practice
       gap inside training programs themselves — and it teaches
-      the new CLO *Judgment under inadequate evidence* by
+      the CLO *Judgment under inadequate evidence* by
       example: practitioners designing implementation-science
       training programs have to decide what to build on incomplete
       evidence of what works, while the field is still building
       the evidence architecture that would let them decide
-      better.#cn()
+      better.
     ],
   ),
   beats: (
@@ -823,7 +822,7 @@
     "Survey N=50 CTSA-funded TL1 programs: most name collaboration / team science / multi-disc training as goals",
     "Far fewer (14–24%) embed competency-based training and assessment, program evaluation, or experiential learning",
     "Same enthusiasm-ahead-of-evidence pattern as IPE (Case 122) at smaller scale — operational practices lag stated goals",
-    "Workforce-training counterpart to v1 Case 41 ('17-year gap'); pair with Cases 121, 122 in the multidisciplinary-translation trio",
+    "Workforce-training counterpart to Case 41 ('17-year gap'); pair with Cases 121, 122 in the multidisciplinary-translation trio",
   ),
   approaches: (
     during: (
@@ -834,12 +833,12 @@
     after: (
       [Report the operational-practice gap honestly: stated goals are the convergence point, operational practices are the lag, and the lag is the addressable target.],
       [Treat the multidisciplinary-translation trio (Cases 121, 122, 123) as a unit; the three-angle teaching of the enthusiasm-evidence pattern is more useful than any single case can be.],
-      [Connect the case explicitly to v1 Case 41 (the 17-year gap): the implementation-science workforce is the recovery mechanism for that gap, and the operational capacity of the workforce is the capability that has to be built — which is the case's pedagogical point.],
+      [Connect the case explicitly to Case 41 (the 17-year gap): the implementation-science workforce is the recovery mechanism for that gap, and the operational capacity of the workforce is the capability that has to be built — which is the case's pedagogical point.],
     ),
   ),
   references: (
     [CTSA T32/TL1 program-goals study (2021), _Journal of Clinical and Translational Science_, PMC8826009.],
-    [Morris, Wooding, & Grant (2011), "The answer is 17 years, what is the question: understanding time lags in translational research," _Journal of the Royal Society of Medicine_ — the original 17-year-gap source for v1 Case 41.],
+    [Morris, Wooding, & Grant (2011), "The answer is 17 years, what is the question: understanding time lags in translational research," _Journal of the Royal Society of Medicine_ — the original 17-year-gap source for Case 41.],
     [Brownson, Colditz, & Proctor (2018), _Dissemination and Implementation Research in Health_ (2nd ed.) — the broader implementation-science synthesis.],
     [v2 paired cases: Team-science training (121), IPE evidence gap (122).],
   ),
@@ -861,13 +860,13 @@
     workforce-training case (induced 6.4; LENS D4/PT4). LENS
     uses it in Domain 4 (Navigating Sociotechnical Constraints)
     for the cross-disciplinary translation discipline; in
-    Domain 3 (Test and Evaluation) for the AMENDED enthusiasm-
+    Domain 3 (Test and Evaluation) for the enthusiasm-
     evidence-gap sub-competency; and in Domain 2 (Iterative
-    Development) for the new CLO *Judgment under inadequate
+    Development) for the CLO *Judgment under inadequate
     evidence* as practitioners design training programs while
     the field-scale evidence is still being built. Pair with
     Cases 121, 122 as the multidisciplinary-translation trio;
-    workforce-training counterpart to v1 Case 41.
+    workforce-training counterpart to Case 41.
   ],
   literature-items: (
     [CTSA TL1 program-goals study (2021), _JCTS_],
@@ -877,7 +876,7 @@
   reflection-list: (
     [Identify a training program in your domain whose stated goals include competency-based assessment, program evaluation, or experiential learning. What proportion of those stated goals are operationalized into specific instruments, cadences, and reporting structures — and which are at the goal-statement layer only?],
     [Specify the competency-based assessment instrument you would build into the next iteration of an implementation-science training program. The survey's 14–24% figure says the instrument is what is missing more than the intent; what is the instrument?],
-    [The implementation-science workforce is the recovery mechanism for the 17-year research-to-practice gap (v1 Case 41). What is the analog in your domain — the workforce whose operational capacity is the recovery for a documented systemic gap — and what is the case for investing in that workforce's training architecture?],
+    [The implementation-science workforce is the recovery mechanism for the 17-year research-to-practice gap (Case 41). What is the analog in your domain — the workforce whose operational capacity is the recovery for a documented systemic gap — and what is the case for investing in that workforce's training architecture?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )

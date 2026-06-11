@@ -2,36 +2,36 @@
 // V2 PILOT — Pass 2: Workforce L&D, human–automation boundary, equity
 // ============================================================================
 //
-// Ten cases drafted from v2_research/04_pass2_candidates.md. Load-bearing
+// Ten cases drafted from the v2 research backbone. Load-bearing
 // hedges preserved verbatim:
 //
-//   140  DARPA Digital Tutor (v2-201) — small intervention. Knowledge "an
+//   140  DARPA Digital Tutor (Case 140) — small intervention. Knowledge "an
 //        enabler of performance rather than a direct measure"; architecture
 //        detail too scant to reproduce. Pair with CIRCUIT (119/120).
-//   141  Purdue Course Signals (v2-202) — small failure. Reverse-causality
+//   141  Purdue Course Signals (Case 141) — small failure. Reverse-causality
 //        result (Caulfield 2013); never peer-reviewed outside conference
 //        proceedings; deeper-evidence-of v1 Cases 37 and 39.
-//   142  BCMA bar-code medication administration (v2-203) — small
+//   142  BCMA bar-code medication administration (Case 142) — small
 //        intervention. "Before-and-after / observational design" preserved;
-//        pair with 116 anesthesia/APSF and v1 Case 13 (WHO checklist).
-//   143  I-PASS handoff bundle (v2-204) — small intervention. "Our study
+//        pair with 116 anesthesia/APSF and Case 13 (WHO checklist).
+//   143  I-PASS handoff bundle (Case 143) — small intervention. "Our study
 //        design precludes definitively establishing a causal link"
 //        preserved verbatim. Pair with 117 CIRAS at the non-punitive layer.
-//   144  Surgical-skill video peer-rating (v2-205) — small intervention.
+//   144  Surgical-skill video peer-rating (Case 144) — small intervention.
 //        "Skill vs. volume confound" preserved; adjacent to JIGSAWS (150).
-//   145  NCSBN National Simulation Study (v2-206) — small intervention.
+//   145  NCSBN National Simulation Study (Case 145) — small intervention.
 //        Result holds only "under conditions comparable to those described
 //        in the study" (high-quality sim, trained faculty). Pair with 121.
-//   146  Glass-cockpit GA accidents (v2-207) — big failure. NTSB safety
+//   146  Glass-cockpit GA accidents (Case 146) — big failure. NTSB safety
 //        study; "advanced avionics can increase the safety potential" but
 //        the potential not yet realized in the period studied — open verdict.
 //        Pair with aging-system transitions in pass-1b (134–137).
-//   147  Proctoring algorithmic bias (v2-210) — small failure. Yoder-Himes
+//   147  Proctoring algorithmic bias (Case 147) — small failure. Yoder-Himes
 //        et al. 2022 first quantitative study; trio with 105/106/107.
-//   148  Spaced education RCTs (v2-211) — small intervention. Strongest
+//   148  Spaced education RCTs (Case 148) — small intervention. Strongest
 //        randomized strength in the small-tier batch; standard RCT scope.
 //        Pair with 128 Duolingo half-life.
-//   149  Growth-mindset national experiment (v2-212) — small "mixed".
+//   149  Growth-mindset national experiment (Case 149) — small "mixed".
 //        Effect "conditional on peer norms" preserved verbatim. Pair with
 //        138 Gándara.
 
@@ -144,7 +144,7 @@
       with CIRCUIT (Cases 119, 120), the case anchors the
       workforce-capability-at-the-edge-of-training axis that
       connectomics proofreading and submarine-system troubleshooting
-      share at the structural level.#cn()
+      share at the structural level.
     ],
   ),
   beats: (
@@ -315,7 +315,7 @@
       mode that the LENS Iterative Development domain and the
       Navigating Sociotechnical Constraints domain both have to
       protect against — and that v1 Cases 37 and 39 anchor at the
-      bias and the institutional-deployment layers respectively.#cn()
+      bias and the institutional-deployment layers respectively.
     ],
   ),
   beats: (
@@ -416,7 +416,7 @@
     required for the cue to land. The case is the canonical
     point-of-care cue/alert intervention, paired with Case 116
     (anesthesia monitoring / APSF) at the cue-as-deliverable layer
-    and with v1 Case 13 (WHO Surgical Checklist) at the
+    and with Case 13 (WHO Surgical Checklist) at the
     mandatory-mechanism layer.
   ],
   sections: (
@@ -483,12 +483,12 @@
       (anesthesia monitoring / APSF), bar-code eMAR shows the same
       structural form in a different specialty: the cue at the right
       point in the workflow converts an undetectable mismatch into a
-      monitored one. Paired with v1 Case 13 (WHO Surgical
+      monitored one. Paired with Case 13 (WHO Surgical
       Checklist), the case sits at the mandatory-mechanism layer:
       the bar-code scan, like the checklist, is a workflow artifact
       the operator cannot route around, and the institutional
       commitment to that non-routability is part of why the cue
-      lands.#cn()
+      lands.
     ],
   ),
   beats: (
@@ -536,7 +536,7 @@
     mechanism land in operation. Pair with Case 116
     (anesthesia monitoring / APSF) at the cue-as-deliverable
     layer — same structural pattern in a different specialty —
-    and with v1 Case 13 (WHO Surgical Checklist) at the
+    and with Case 13 (WHO Surgical Checklist) at the
     mandatory-mechanism layer.
   ],
   literature-items: (
@@ -660,7 +660,7 @@
       mnemonic real in operation. The pattern is partly borrowed
       from aviation discipline, so the case also seeds the
       cross-domain-adaptation conversation that v1 Cases 12 (CRM)
-      and 89 (ASRS) anchor in aviation evidence.#cn()
+      and 89 (ASRS) anchor in aviation evidence.
     ],
   ),
   beats: (
@@ -828,7 +828,7 @@
       naturalistic operative-video evidence, and the two together
       anchor the small-tier C3 conversation about measuring skill
       in surgery. The preliminary-findings language is part of
-      what the case teaches.#cn()
+      what the case teaches.
     ],
   ),
   beats: (
@@ -1004,7 +1004,7 @@
       workforce-intervention layer — both are small-tier
       interventions with measurable workforce-capability claims,
       and both depend on the legitimacy of the assessment
-      instrument the institution then has to defend.#cn()
+      instrument the institution then has to defend.
     ],
   ),
   beats: (
@@ -1183,7 +1183,7 @@
       moves in the wrong direction. The NTSB recommendations are
       the engineering response to that pattern, and their
       implementation is what closes (or fails to close) the open
-      verdict the study left.#cn()
+      verdict the study left.
     ],
   ),
   beats: (
@@ -1359,7 +1359,7 @@
       the Hoffman cross-reference is the human-judgment
       counterpart. All four sit in the small-and-big-tier
       conversation about validation discipline as an equity
-      design commitment.#cn()
+      design commitment.
     ],
   ),
   beats: (
@@ -1530,7 +1530,7 @@
       evidence. The Iterative Development discipline LENS teaches
       depends on having both the controlled-randomized closed
       loop (Kerfoot) and the operational-mechanism evidence
-      (Duolingo) available in the corpus.#cn()
+      (Duolingo) available in the corpus.
     ],
   ),
   beats: (
@@ -1709,7 +1709,7 @@
       methodologically clean model of how a population-scale RCT
       can earn the heterogeneity-as-finding stance, and the
       "conditional on peer norms" qualification is what makes the
-      result useful for the next adaptation.#cn()
+      result useful for the next adaptation.
     ],
   ),
   beats: (

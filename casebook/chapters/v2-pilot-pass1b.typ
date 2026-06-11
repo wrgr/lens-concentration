@@ -163,7 +163,7 @@
     after: (
       [Sustain the institutional momentum into the regulatory mandate; the task forces did the technical and political work that made the TAWS rule adoptable, and the rule consolidates what the field already does.],
       [Report the accident-rate decline with the multifactorial hedge intact; TAWS hardware, training, procedure, and fleet turnover all moved together, and isolating the task-force contribution overstates the available evidence.],
-      [Treat the institutional form as the transferable artifact: an independent convening body, cross-operator diagnostic tools without competitive restriction, coordinated path to regulatory mandate. The form pairs with CAST (v1 Case 12) and ASRS (v1 Case 89) at the industry-coordination layer.],
+      [Treat the institutional form as the transferable artifact: an independent convening body, cross-operator diagnostic tools without competitive restriction, coordinated path to regulatory mandate. The form pairs with CAST (Case 12) and ASRS (Case 89) at the industry-coordination layer.],
     ),
   ),
   references: (
@@ -191,9 +191,9 @@
     convening-body institutional form, and in Domain 2
     (Iterative Development) for the structured diagnostic
     instruments (Checklist, Tool Kit) as iterating deliverables.
-    Pair with CAST (v1 Case 12) and ASRS (v1 Case 89) at the
+    Pair with CAST (Case 12) and ASRS (Case 89) at the
     industry-coordination layer, and with WHO Surgical Checklist
-    (v1 Case 13) at the structured-instrument layer.
+    (Case 13) at the structured-instrument layer.
   ],
   literature-items: (
     [FSF _Flight Safety Digest_ (1998–1999) — CFIT and ALAR task-force record],
@@ -1186,8 +1186,8 @@
       frontier-shaped finding: fairness in equity-oriented
       prediction is a construct-definition problem before it is a
       model-bias problem. The induced framework's C8.2 sub-
-      competency and the AMENDED equity-construct CLOs proposed
-      in `v2_research/01_*` find their case-grounded basis here.
+      competency and the equity-construct CLOs proposed
+      find their case-grounded basis here.
       The case explicitly cross-references the v2 race-construct
       trio — eGFR (Case 105), pulse oximetry (Case 106), and
       Hoffman pain bias (Case 107) — at the construct-definition
@@ -1197,7 +1197,7 @@
       decision that produced the disparate outcome; in this case
       the construct (predicted enrollment vs. predicted need vs.
       predicted benefit) is the design decision the algorithmic-
-      targeting system has to make explicitly.#cn()
+      targeting system has to make explicitly.
     ],
   ),
   beats: (
@@ -1216,7 +1216,7 @@
     after: (
       [Report which construct the model maximizes, on which stratifications it was evaluated, and which intervention it is paired with — three pieces of information any deployed targeting system should publish together.],
       [Treat the fairness conversation as a construct-definition conversation first, and as a model-bias conversation second; the latter is operationally important, the former determines what the model is fair *about*.],
-      [Carry the race-construct trio (Cases 105, 106, 107) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the AMENDED equity-construct CLOs are anchored here.],
+      [Carry the race-construct trio (Cases 105, 106, 107) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the equity-construct CLOs are anchored here.],
     ),
   ),
   // CITE-RECHECK: Could not verify a Gándara paper in _Journal of Policy Analysis and Management_ on community-college predictive targeting via web search (FDA-style search, Google Scholar surrogates). The closest verified Gándara paper is Gándara, Anahideh, Ison, & Picchiarini (2024), "Inside the Black Box: Detecting and Mitigating Algorithmic Bias across Racialized Groups in College Student-Success Prediction," _AERA Open_ 10, doi:10.1177/23328584241258741 — a different venue and a college-success-prediction (not loan-outreach) framing. Editor: confirm whether the JPAM citation is correct, or substitute the AERA Open paper and revise summary/sections accordingly.
@@ -1248,8 +1248,8 @@
     fairness. Cross-reference the v2 race-construct trio
     (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) — in each
     the construct definition is the upstream design decision.
-    Case-grounded basis for the AMENDED equity-construct CLOs
-    in `v2_research/01_*`.
+    Case-grounded basis for the equity-construct CLOs
+   .
   ],
   literature-items: (
     [Gándara, _Journal of Policy Analysis and Management_],
@@ -1371,9 +1371,8 @@
       oximetry, pain perception in Hoffman). Together, the five
       cases stage the equity-construct competency across the
       construct-definition / attribute-handling / instrument-
-      construct axes — the case-grounded basis for the AMENDED
-      equity-construct sub-competencies proposed in
-      `v2_research/01_*`.#cn()
+      construct axes — the case-grounded basis for the equity-construct sub-competencies proposed in
+      the v2 research backbone.#cn()
     ],
   ),
   beats: (
@@ -1392,7 +1391,7 @@
     after: (
       [Publish the protected-attribute handling decisions for any deployed learning-analytics model — included, excluded, and with what reasoning — as part of the model's governance documentation.],
       [Operate stratified audit on a regular cadence; the include-or-exclude consequences in operation are what the audit catches, and audit absence makes the decision functionally invisible to the institution.],
-      [Carry the five-case equity-construct set into the curriculum: Cases 105 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 138 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the AMENDED equity-construct sub-competencies.],
+      [Carry the five-case equity-construct set into the curriculum: Cases 105 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 138 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
     ),
   ),
   references: (
@@ -1423,8 +1422,8 @@
     Cross-references Case 138 (Gándara, construct definition)
     and the v2 race-construct trio (Cases 105 eGFR, 106 pulse
     oximetry, 107 Hoffman, instrument construct). The five-case
-    set is the case-grounded basis for the AMENDED equity-
-    construct sub-competencies in `v2_research/01_*`.
+    set is the case-grounded basis for the equity-
+    construct sub-competencies.
   ],
   literature-items: (
     [Yu, Lee, & Kizilcec, LAK/EDM protected-attributes paper],
