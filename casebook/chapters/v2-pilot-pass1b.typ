@@ -40,6 +40,7 @@
 
 #case(
   number: 132,
+  slug: "fsf-cfit-and-alar-task-forces-industry",
   title: "FSF CFIT and ALAR Task Forces — Industry-Level Institution Building After a Spike",
   year: "1992 – 2000s",
   domains-list: ("aviation safety", "industry coordination", "training"),
@@ -210,6 +211,7 @@
 
 #case(
   number: 133,
+  slug: "barsuk-sbml-simulation-based-mastery",
   title: "Barsuk SBML — Simulation-Based Mastery Learning Dissemination from Northwestern to the VA",
   year: "2009 – 2020s",
   domains-list: ("medical education", "patient safety", "workforce dissemination"),
@@ -387,6 +389,7 @@
 
 #case(
   number: 134,
+  slug: "faa-aging-aircraft-program-widespread",
   title: "FAA Aging-Aircraft Program — Widespread Fatigue Damage and the Part 26 Rule",
   year: "1988 – 2010s",
   domains-list: ("aviation safety", "structural engineering", "regulatory rulemaking"),
@@ -563,6 +566,7 @@
 
 #case(
   number: 135,
+  slug: "faa-nextgen-and-the-ads-b-out-transition",
   title: "FAA NextGen and the ADS-B Out Transition",
   year: "2003 – 2020",
   domains-list: ("aviation infrastructure", "air traffic management", "regulatory transition"),
@@ -735,6 +739,7 @@
 
 #case(
   number: 136,
+  slug: "y2k-remediation-the-aging-system",
   title: "Y2K Remediation — The Aging-System Transition That Worked Because It Was Believed",
   year: "1996 – 2000",
   domains-list: ("software sustainment", "critical infrastructure", "federal program management"),
@@ -910,6 +915,7 @@
 
 #case(
   number: 137,
+  slug: "inl-lwrs-control-room-modernization",
   title: "INL / LWRS Control-Room Modernization — Sustainment Research for an Aging Fleet",
   year: "2010 – present",
   domains-list: ("nuclear engineering", "control-room human factors", "research and development"),
@@ -1089,6 +1095,7 @@
 
 #case(
   number: 138,
+  slug: "gandara-algorithmic-targeting-and",
   title: "Gándara — Algorithmic Targeting and Fairness in Community-College Outreach",
   year: "2020s",
   domains-list: ("higher education", "algorithmic fairness", "policy analysis"),
@@ -1266,6 +1273,7 @@
 
 #case(
   number: 139,
+  slug: "yu-lee-kizilcec-protected-attributes-in",
   title: "Yu / Lee / Kizilcec — Protected Attributes in Learning-Analytics Models",
   year: "2021 – 2024",
   domains-list: ("learning analytics", "algorithmic fairness", "ed-tech research"),

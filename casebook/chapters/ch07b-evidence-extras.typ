@@ -9,6 +9,7 @@
 
 #case(
   number: 83,
+  slug: "libor-manipulation",
   title: "LIBOR Manipulation",
   year: "2003 – 2012",
   domains-list: ("gov", "tech"),
@@ -156,6 +157,7 @@
 
 #case(
   number: 84,
+  slug: "atlanta-public-schools-cheating-scandal",
   title: "Atlanta Public Schools Cheating Scandal",
   year: "2009 – 2015",
   domains-list: ("education", "gov"),
@@ -301,6 +303,7 @@
 
 #case(
   number: 85,
+  slug: "bernard-madoff-sec-failures",
   title: "Bernard Madoff / SEC Failures",
   year: "1992 – 2008",
   domains-list: ("gov", "tech"),
@@ -446,6 +449,7 @@
 
 #case(
   number: 86,
+  slug: "9-11-intelligence-sharing-failures",
   title: "9/11 Intelligence Sharing Failures",
   year: "1996 – 2001",
   domains-list: ("defense", "gov"),
@@ -593,6 +597,7 @@
 
 #case(
   number: 87,
+  slug: "vioxx-withdrawal",
   title: "Vioxx Withdrawal",
   year: "1999 – 2004",
   domains-list: ("healthcare",),

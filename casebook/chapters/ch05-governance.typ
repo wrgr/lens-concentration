@@ -20,6 +20,7 @@
 
 #case(
   number: 8,
+  slug: "inbloom",
   title: "inBloom",
   year: "2014",
   domains-list: ("education",),
@@ -161,6 +162,7 @@
 
 #case(
   number: 10,
+  slug: "healthcare-gov-launch",
   title: "Healthcare.gov Launch",
   year: "2013",
   domains-list: ("gov",),
@@ -302,6 +304,7 @@
 
 #case(
   number: 17,
+  slug: "bhopal",
   title: "Bhopal",
   year: "1984",
   domains-list: ("industrial",),
@@ -442,6 +445,7 @@
 
 #case(
   number: 20,
+  slug: "grenfell-tower",
   title: "Grenfell Tower",
   year: "2017",
   domains-list: ("industrial",),
@@ -584,6 +588,7 @@
 
 #case(
   number: 21,
+  slug: "summit-learning-personalized-learning",
   title: "Summit Learning / Personalized Learning Rollout",
   year: "2014–2019",
   domains-list: ("education",),
@@ -732,6 +737,7 @@
 
 #case(
   number: 22,
+  slug: "tennessee-voluntary-pre-k-study",
   title: "Tennessee Voluntary Pre-K Study",
   year: "2009–2018",
   domains-list: ("education",),
@@ -879,6 +885,7 @@
 
 #case(
   number: 35,
+  slug: "uk-a-level-algorithm-ofqual",
   title: "UK A-Level Algorithm / Ofqual",
   year: "2020",
   domains-list: ("education",),
@@ -1021,6 +1028,7 @@
 
 #case(
   number: 36,
+  slug: "australia-robodebt",
   title: "Australia Robodebt",
   year: "2016 – 2020",
   domains-list: ("gov",),
@@ -1164,6 +1172,7 @@
 
 #case(
   number: 37,
+  slug: "algorithmic-bias-in-educational",
   title: "Algorithmic Bias in Educational Predictive Analytics",
   year: "ongoing",
   domains-list: ("education",),

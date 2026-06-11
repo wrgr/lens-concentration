@@ -31,6 +31,7 @@
 
 #case(
   number: 150,
+  slug: "language-of-surgery-jigsaws-decomposing",
   title: "Language of Surgery / JIGSAWS — Decomposing Skill into Measurable Units",
   year: "2009 – 2016",
   domains-list: ("surgery", "skill assessment", "human-motion analysis"),
@@ -208,6 +209,7 @@
 
 #case(
   number: 151,
+  slug: "lala-building-learning-analytics",
   title: "LALA — Building Learning-Analytics Governance Capacity Across Latin America",
   year: "2017 – 2020",
   domains-list: ("higher education (Latin America)", "learning analytics", "cross-national governance"),
@@ -382,6 +384,7 @@
 
 #case(
   number: 152,
+  slug: "data-privacy-and-learning-analytics-on",
   title: "Data Privacy and Learning Analytics on the African Continent",
   year: "2022",
   domains-list: ("higher education (Africa)", "data privacy law", "learning analytics"),
@@ -559,6 +562,7 @@
 
 #case(
   number: 153,
+  slug: "norways-national-expert-commission-on",
   title: "Norway's National Expert Commission on Learning Analytics",
   year: "2022 – 2023",
   domains-list: ("education (Norway)", "national policy", "learning analytics"),
@@ -737,6 +741,7 @@
 
 #case(
   number: 154,
+  slug: "mmala-a-maturity-model-for-responsible",
   title: "MMALA — A Maturity Model for Responsible Learning-Analytics Adoption (Brazil)",
   year: "2024",
   domains-list: ("higher education (Brazil)", "learning analytics", "institutional governance"),
@@ -912,6 +917,7 @@
 
 #case(
   number: 155,
+  slug: "watson-for-oncology-delegation-marketed",
   title: "Watson for Oncology — Delegation Marketed Ahead of Capability",
   year: "2013 – 2018",
   domains-list: ("healthcare/oncology", "commercial AI", "procurement"),
@@ -1108,6 +1114,7 @@
 
 #case(
   number: 156,
+  slug: "school-surveillance-and-black-student",
   title: "School Surveillance and Black Student Outcomes — Infrastructure as the Mechanism",
   year: "2010s – 2022",
   domains-list: ("K-12 education", "school safety infrastructure", "racial disparities"),

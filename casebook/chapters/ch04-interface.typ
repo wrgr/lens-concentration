@@ -20,6 +20,7 @@
 
 #case(
   number: 18,
+  slug: "uss-vincennes-and-iran-air-flight-655",
   title: "USS Vincennes & Iran Air Flight 655",
   year: "1988",
   domains-list: ("defense",),
@@ -171,6 +172,7 @@
 
 #case(
   number: 25,
+  slug: "ehr-cpoe-implementation",
   title: "EHR / CPOE Implementation",
   year: "2005 – present",
   domains-list: ("healthcare",),
@@ -326,6 +328,7 @@
 
 #case(
   number: 29,
+  slug: "uber-atg-tempe-fatality",
   title: "Uber ATG / Tempe Fatality",
   year: "2018",
   domains-list: ("autonomous",),

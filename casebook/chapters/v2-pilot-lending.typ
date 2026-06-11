@@ -16,6 +16,7 @@
 
 #case(
   number: 103,
+  slug: "algorithmic-mortgage-lending-omitting",
   title: "Algorithmic Mortgage Lending — Omitting the Variable Did Not Fix the Disparity",
   year: "2018 – 2022",
   domains-list: ("finance", "algorithmic fairness"),
@@ -169,6 +170,7 @@
 
 #case(
   number: 104,
+  slug: "fintech-lending-fairness-audit-when",
   title: "Fintech Lending Fairness Audit — When Including Race Reduces Disparity",
   year: "2025",
   domains-list: ("finance", "algorithmic fairness", "fintech"),

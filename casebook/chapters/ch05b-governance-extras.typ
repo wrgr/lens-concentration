@@ -9,6 +9,7 @@
 
 #case(
   number: 68,
+  slug: "uk-post-office-horizon-scandal",
   title: "UK Post Office Horizon Scandal",
   year: "1999 – 2015",
   domains-list: ("tech", "gov"),
@@ -154,6 +155,7 @@
 
 #case(
   number: 69,
+  slug: "theranos",
   title: "Theranos",
   year: "2003 – 2018",
   domains-list: ("healthcare", "tech"),
@@ -298,6 +300,7 @@
 
 #case(
   number: 70,
+  slug: "wells-fargo-fake-accounts",
   title: "Wells Fargo Fake Accounts",
   year: "2011 – 2016",
   domains-list: ("tech", "gov"),
@@ -440,6 +443,7 @@
 
 #case(
   number: 71,
+  slug: "volkswagen-dieselgate",
   title: "Volkswagen Dieselgate",
   year: "2015",
   domains-list: ("industrial", "gov"),
@@ -587,6 +591,7 @@
 
 #case(
   number: 72,
+  slug: "cambridge-analytica-facebook",
   title: "Cambridge Analytica / Facebook",
   year: "2014 – 2018",
   domains-list: ("tech",),
@@ -728,6 +733,7 @@
 
 #case(
   number: 73,
+  slug: "equifax-data-breach",
   title: "Equifax Data Breach",
   year: "2017",
   domains-list: ("tech", "gov"),
@@ -867,6 +873,7 @@
 
 #case(
   number: 74,
+  slug: "hyatt-regency-walkway-collapse",
   title: "Hyatt Regency Walkway Collapse",
   year: "1981",
   domains-list: ("industrial",),
@@ -1011,6 +1018,7 @@
 
 #case(
   number: 75,
+  slug: "fiu-pedestrian-bridge-collapse",
   title: "FIU Pedestrian Bridge Collapse",
   year: "2018",
   domains-list: ("industrial",),
@@ -1152,6 +1160,7 @@
 
 #case(
   number: 76,
+  slug: "camp-fire-pg-and-e",
   title: "Camp Fire / PG&E",
   year: "2018",
   domains-list: ("energy",),
@@ -1294,6 +1303,7 @@
 
 #case(
   number: 77,
+  slug: "texas-grid-freeze",
   title: "Texas Grid Freeze",
   year: "2021",
   domains-list: ("energy",),

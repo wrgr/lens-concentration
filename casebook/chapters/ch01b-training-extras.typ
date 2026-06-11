@@ -9,6 +9,7 @@
 
 #case(
   number: 43,
+  slug: "colgan-air-flight-3407",
   title: "Colgan Air Flight 3407",
   year: "2009",
   domains-list: ("aviation",),
@@ -152,6 +153,7 @@
 
 #case(
   number: 44,
+  slug: "asiana-airlines-flight-214",
   title: "Asiana Airlines Flight 214",
   year: "2013",
   domains-list: ("aviation",),
@@ -301,6 +303,7 @@
 
 #case(
   number: 45,
+  slug: "mark-14-torpedo-failures",
   title: "Mark 14 Torpedo Failures",
   year: "1941 – 1943",
   domains-list: ("defense",),
@@ -453,6 +456,7 @@
 
 #case(
   number: 46,
+  slug: "operation-eagle-claw",
   title: "Operation Eagle Claw",
   year: "1980",
   domains-list: ("defense",),
@@ -600,6 +604,7 @@
 
 #case(
   number: 47,
+  slug: "helios-airways-flight-522",
   title: "Helios Airways Flight 522",
   year: "2005",
   domains-list: ("aviation",),
@@ -748,6 +753,7 @@
 
 #case(
   number: 48,
+  slug: "aeroperu-flight-603",
   title: "AeroPerú Flight 603",
   year: "1996",
   domains-list: ("aviation",),
@@ -893,6 +899,7 @@
 
 #case(
   number: 49,
+  slug: "atlas-air-flight-3591",
   title: "Atlas Air Flight 3591",
   year: "2019",
   domains-list: ("aviation",),
@@ -1039,6 +1046,7 @@
 
 #case(
   number: 50,
+  slug: "transasia-airways-flight-235",
   title: "TransAsia Airways Flight 235",
   year: "2015",
   domains-list: ("aviation",),

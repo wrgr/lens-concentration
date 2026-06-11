@@ -20,6 +20,7 @@
 
 #case(
   number: 108,
+  slug: "launching-the-brain-initiative",
   title: "Launching the BRAIN Initiative — Governance of a Grand Challenge",
   year: "2011 – 2015 – present",
   domains-list: ("neuroscience", "science policy"),
@@ -188,6 +189,7 @@
 
 #case(
   number: 109,
+  slug: "eu-human-brain-project-top-down-vision",
   title: "EU Human Brain Project — Top-Down Vision That Unraveled",
   year: "2013 – 2023",
   domains-list: ("neuroscience", "science policy (EU)"),

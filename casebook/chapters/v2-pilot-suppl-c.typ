@@ -24,6 +24,7 @@
 
 #case(
   number: 171,
+  slug: "rwanda-mhealth-maternal-care-community",
   title: "Rwanda mHealth Maternal Care — Community Health Workers as the Capability Interface",
   year: "2013 – 2018",
   domains-list: ("global health", "mHealth", "maternal and newborn care"),
@@ -182,6 +183,7 @@
 
 #case(
   number: 172,
+  slug: "learning-analytics-on-the-african",
   title: "Learning Analytics on the African Continent — A Scoping Review as the Present-State Map",
   year: "2022",
   domains-list: ("learning analytics", "higher education", "Africa"),
@@ -343,6 +345,7 @@
 
 #case(
   number: 173,
+  slug: "japan-pmda-pre-approved-change",
   title: "Japan PMDA — Pre-Approved Change Management as Regulatory Architecture for AI/SaMD",
   year: "2014 – present",
   domains-list: ("medical-device regulation", "AI/SaMD", "Japan"),
@@ -505,6 +508,7 @@
 
 #case(
   number: 174,
+  slug: "care-principles-indigenous-data",
   title: "CARE Principles — Indigenous Data Governance as a Replaced Regime",
   year: "2019 – 2020 (principles); ongoing",
   domains-list: ("data governance", "Indigenous data sovereignty", "Australia / NZ / US"),
@@ -660,6 +664,7 @@
 
 #case(
   number: 175,
+  slug: "learning-journal-a-genre-exemplar-for",
   title: "The Learning Journal — A Genre Exemplar for First-Person Practice Accounts",
   year: "2006",
   domains-list: ("professional development", "reflective practice", "learning engineering pedagogy"),
@@ -811,6 +816,7 @@
 
 #case(
   number: 176,
+  slug: "reflective-practice-for-stem-educators",
   title: "Reflective Practice for STEM Educators — Genre Travel into Engineering Pedagogy",
   year: "2023",
   domains-list: ("STEM education", "professional reflection", "faculty development"),
@@ -968,6 +974,7 @@
 
 #case(
   number: 177,
+  slug: "reflective-practice-on-a-work-based",
   title: "Reflective Practice on a Work-Based Software Engineering Program — Longitudinal Capability Development",
   year: "2025 (preprint)",
   domains-list: ("software engineering education", "work-based learning", "reflective practice"),

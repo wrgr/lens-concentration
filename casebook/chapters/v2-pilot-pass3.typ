@@ -29,6 +29,7 @@
 
 #case(
   number: 114,
+  slug: "navy-subsafe-requirements-as-a-non",
   title: "Navy SUBSAFE — Requirements as a Non-Negotiable Sustainment Deliverable",
   year: "1963 – present",
   domains-list: ("naval engineering", "defense", "safety certification"),
@@ -202,6 +203,7 @@
 
 #case(
   number: 115,
+  slug: "california-nurse-staffing-ratios",
   title: "California Nurse Staffing Ratios — Legislating a Capability Requirement",
   year: "2004 – 2010",
   domains-list: ("healthcare", "workforce policy", "patient safety"),
@@ -359,6 +361,7 @@
 
 #case(
   number: 116,
+  slug: "anesthesia-monitoring-standards-and-the",
   title: "Anesthesia Monitoring Standards and the APSF — The Mortality Decline",
   year: "1986 – present",
   domains-list: ("anesthesiology", "patient safety", "medical devices"),
@@ -532,6 +535,7 @@
 
 #case(
   number: 117,
+  slug: "ciras-confidential-incident-reporting",
   title: "CIRAS — Confidential Incident Reporting for UK Rail",
   year: "1996 – present",
   domains-list: ("rail transport", "safety reporting", "safety culture"),
@@ -699,6 +703,7 @@
 
 #case(
   number: 118,
+  slug: "ipledge-isotretinoin-rems-when-the",
   title: "iPLEDGE Isotretinoin REMS — When the Authorization Mechanism Underperforms",
   year: "2006 – 2011",
   domains-list: ("pharmaceutical safety", "regulatory programs", "clinical care"),

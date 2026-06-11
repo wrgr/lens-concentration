@@ -41,6 +41,7 @@
 
 #case(
   number: 140,
+  slug: "darpa-digital-tutor-compressing-years",
   title: "DARPA Digital Tutor — Compressing Years of IT Expertise into 16 Weeks",
   year: "2009 – 2014",
   domains-list: ("defense", "workforce L&D", "intelligent tutoring"),
@@ -211,6 +212,7 @@
 
 #case(
   number: 141,
+  slug: "purdue-course-signals-the-reverse",
   title: "Purdue Course Signals — The Reverse-Causality Retention Claim",
   year: "2012 – 2013",
   domains-list: ("higher-ed analytics", "early-warning systems", "evidence architecture"),
@@ -382,6 +384,7 @@
 
 #case(
   number: 142,
+  slug: "bar-code-medication-administration-cue",
   title: "Bar-Code Medication Administration — Cue at the Point of Care",
   year: "2010",
   domains-list: ("clinical care", "patient safety", "health IT"),
@@ -554,6 +557,7 @@
 
 #case(
   number: 143,
+  slug: "i-pass-handoff-bundle-structuring-the",
   title: "I-PASS Handoff Bundle — Structuring the Human-to-Human Transfer",
   year: "2014",
   domains-list: ("clinical care", "patient safety", "team communication"),
@@ -728,6 +732,7 @@
 
 #case(
   number: 144,
+  slug: "surgical-skill-video-peer-rating",
   title: "Surgical Skill Video Peer-Rating Predicts Complications",
   year: "2013",
   domains-list: ("surgery", "clinical outcomes", "assessment"),
@@ -896,6 +901,7 @@
 
 #case(
   number: 145,
+  slug: "ncsbn-national-simulation-study",
   title: "NCSBN National Simulation Study — Licensing the 50% Substitution Rule",
   year: "2014",
   domains-list: ("nursing education", "clinical simulation", "regulation"),
@@ -1073,6 +1079,7 @@
 
 #case(
   number: 146,
+  slug: "glass-cockpit-transition-in-light",
   title: "Glass-Cockpit Transition in Light Aircraft — Technology Outran Training",
   year: "2010",
   domains-list: ("general aviation", "avionics", "pilot training"),
@@ -1251,6 +1258,7 @@
 
 #case(
   number: 147,
+  slug: "algorithmic-bias-in-automated-exam",
   title: "Algorithmic Bias in Automated Exam Proctoring",
   year: "2022",
   domains-list: ("ed-tech", "algorithmic fairness", "assessment"),
@@ -1425,6 +1433,7 @@
 
 #case(
   number: 148,
+  slug: "spaced-education-rcts-in-medical",
   title: "Spaced Education RCTs in Medical Training",
   year: "2007 – 2009",
   domains-list: ("medical education", "retention", "workforce L&D"),
@@ -1597,6 +1606,7 @@
 
 #case(
   number: 149,
+  slug: "growth-mindset-national-experiment",
   title: "Growth-Mindset National Experiment — Heterogeneous Effects",
   year: "2019",
   domains-list: ("K-12 education", "scalable interventions", "equity"),

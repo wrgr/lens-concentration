@@ -20,6 +20,7 @@
 
 #case(
   number: 4,
+  slug: "deepwater-horizon",
   title: "Deepwater Horizon",
   year: "2010",
   domains-list: ("energy",),
@@ -171,6 +172,7 @@
 
 #case(
   number: 6,
+  slug: "challenger-and-columbia",
   title: "Challenger & Columbia",
   year: "1986 / 2003",
   domains-list: ("space",),
@@ -316,6 +318,7 @@
 
 #case(
   number: 11,
+  slug: "v-22-osprey",
   title: "V-22 Osprey",
   year: "1991 – present",
   domains-list: ("defense",),

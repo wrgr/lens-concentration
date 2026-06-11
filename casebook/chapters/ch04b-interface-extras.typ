@@ -9,6 +9,7 @@
 
 #case(
   number: 63,
+  slug: "eastern-air-lines-flight-401",
   title: "Eastern Air Lines Flight 401",
   year: "1972",
   domains-list: ("aviation",),
@@ -158,6 +159,7 @@
 
 #case(
   number: 64,
+  slug: "boeing-737-rudder-hardovers",
   title: "Boeing 737 Rudder Hardovers",
   year: "1991, 1994",
   domains-list: ("aviation",),
@@ -306,6 +308,7 @@
 
 #case(
   number: 65,
+  slug: "crowdstrike-falcon-outage",
   title: "CrowdStrike Falcon Outage",
   year: "2024",
   domains-list: ("tech",),
@@ -458,6 +461,7 @@
 
 #case(
   number: 66,
+  slug: "stanislav-petrov-1983-false-alert",
   title: "Stanislav Petrov / 1983 False Alert",
   year: "1983",
   domains-list: ("defense",),
@@ -612,6 +616,7 @@
 
 #case(
   number: 67,
+  slug: "tsb-bank-it-migration",
   title: "TSB Bank IT Migration",
   year: "2018",
   domains-list: ("tech",),

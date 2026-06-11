@@ -20,6 +20,7 @@
 
 #case(
   number: 32,
+  slug: "va-wait-time-scandal",
   title: "VA Wait-Time Scandal",
   year: "2014",
   domains-list: ("gov",),
@@ -170,6 +171,7 @@
 
 #case(
   number: 38,
+  slug: "gift-and-the-adoption-gap",
   title: "GIFT and the Adoption Gap",
   year: "2012 – present",
   domains-list: ("defense", "education"),
@@ -312,6 +314,7 @@
 
 #case(
   number: 40,
+  slug: "xapi-total-learning-architecture",
   title: "xAPI / Total Learning Architecture — Interoperability Gap",
   year: "ongoing",
   domains-list: ("education", "defense"),
@@ -455,6 +458,7 @@
 
 #case(
   number: 41,
+  slug: "implementation-science-in-healthcare",
   title: "Implementation Science in Healthcare — The 17-Year Gap",
   year: "ongoing",
   domains-list: ("healthcare",),

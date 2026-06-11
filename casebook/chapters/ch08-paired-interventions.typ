@@ -22,6 +22,7 @@
 
 #case(
   number: 12,
+  slug: "crew-resource-management-and-cast",
   title: "Crew Resource Management & CAST",
   year: "1981 – present",
   domains-list: ("aviation",),
@@ -169,6 +170,7 @@
 
 #case(
   number: 14,
+  slug: "keystone-icu-pronovost-checklist",
   title: "Keystone ICU / Pronovost Checklist",
   year: "2004 – present",
   domains-list: ("healthcare",),
@@ -314,6 +316,7 @@
 
 #case(
   number: 16,
+  slug: "inpo-and-the-nuclear-academy",
   title: "INPO and the Nuclear Academy",
   year: "1979 – present",
   domains-list: ("energy",),

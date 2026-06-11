@@ -9,6 +9,7 @@
 
 #case(
   number: 56,
+  slug: "texas-city-bp-refinery-explosion",
   title: "Texas City BP Refinery Explosion",
   year: "2005",
   domains-list: ("energy", "industrial"),
@@ -161,6 +162,7 @@
 
 #case(
   number: 57,
+  slug: "davis-besse-reactor-head-corrosion",
   title: "Davis-Besse Reactor Head Corrosion",
   year: "2002",
   domains-list: ("energy",),
@@ -312,6 +314,7 @@
 
 #case(
   number: 58,
+  slug: "mid-staffordshire-nhs-foundation-trust",
   title: "Mid Staffordshire NHS Foundation Trust",
   year: "2005 – 2009",
   domains-list: ("healthcare",),
@@ -460,6 +463,7 @@
 
 #case(
   number: 59,
+  slug: "sago-mine-disaster",
   title: "Sago Mine Disaster",
   year: "2006",
   domains-list: ("energy", "industrial"),
@@ -606,6 +610,7 @@
 
 #case(
   number: 60,
+  slug: "upper-big-branch-mine-explosion",
   title: "Upper Big Branch Mine Explosion",
   year: "2010",
   domains-list: ("energy", "industrial"),
@@ -759,6 +764,7 @@
 
 #case(
   number: 61,
+  slug: "fukushima-daiichi",
   title: "Fukushima Daiichi",
   year: "2011",
   domains-list: ("energy",),
@@ -914,6 +920,7 @@
 
 #case(
   number: 62,
+  slug: "northeast-blackout",
   title: "Northeast Blackout",
   year: "2003",
   domains-list: ("energy",),

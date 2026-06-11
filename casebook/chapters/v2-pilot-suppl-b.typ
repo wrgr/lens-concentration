@@ -30,6 +30,7 @@
 
 #case(
   number: 164,
+  slug: "annual-screening-ui-redesign-cds-at",
   title: "Annual-Screening UI Redesign + CDS at University of Missouri Health Care",
   year: "2020",
   domains-list: ("healthcare", "EHR usability", "clinical decision support"),
@@ -192,6 +193,7 @@
 
 #case(
   number: 165,
+  slug: "alert-fatigue-redesign-cutting-ehr",
   title: "Alert-Fatigue Redesign — Cutting EHR Alerts Without Cutting the Safety Signal",
   year: "2019 – 2024",
   domains-list: ("healthcare", "clinical decision support", "EHR design", "nursing workflow"),
@@ -361,6 +363,7 @@
 
 #case(
   number: 166,
+  slug: "australian-hospital-pharmacy-technician",
   title: "Australian Hospital-Pharmacy Technician Role Redesign",
   year: "2016",
   domains-list: ("hospital pharmacy", "healthcare workforce", "role redesign"),
@@ -527,6 +530,7 @@
 
 #case(
   number: 167,
+  slug: "eurocat-atm-pilot-modernization-small",
   title: "Eurocat ATM Pilot Modernization — Small-Tier Verification as the Gateway to Big-Tier Change",
   year: "2005",
   domains-list: ("air traffic management", "legacy modernization", "software transformation"),
@@ -693,6 +697,7 @@
 
 #case(
   number: 168,
+  slug: "inl-turbine-control-upgrade-low-burden",
   title: "INL Turbine-Control Upgrade — Low-Burden Cutover as a Human-Factors Finding",
   year: "2014",
   domains-list: ("nuclear power", "control-room modernization", "human factors"),
@@ -861,6 +866,7 @@
 
 #case(
   number: 169,
+  slug: "estonia-x-road-continuous-migration-as",
   title: "Estonia X-Road — Continuous Migration as a Governance Pattern (and the No-Legacy Paradox)",
   year: "2001 – present",
   domains-list: ("e-government", "distributed data exchange", "national IT infrastructure"),
@@ -1031,6 +1037,7 @@
 
 #case(
   number: 170,
+  slug: "aadhaar-exclusion-litigation-judicial",
   title: "Aadhaar Exclusion Litigation — Judicial Correction of Biometric Welfare Delegation in India",
   year: "2018 – 2025",
   domains-list: ("digital identity", "welfare", "biometric authentication", "India"),

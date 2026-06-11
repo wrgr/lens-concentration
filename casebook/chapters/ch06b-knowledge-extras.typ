@@ -9,6 +9,7 @@
 
 #case(
   number: 78,
+  slug: "nasa-saturn-v-documentation",
   title: "NASA Saturn V Documentation",
   year: "1972 – present",
   domains-list: ("aviation",),
@@ -156,6 +157,7 @@
 
 #case(
   number: 79,
+  slug: "boeing-starliner",
   title: "Boeing Starliner",
   year: "2019 – 2024",
   domains-list: ("space",),
@@ -304,6 +306,7 @@
 
 #case(
   number: 80,
+  slug: "ariane-5-flight-501",
   title: "Ariane 5 Flight 501",
   year: "1996",
   domains-list: ("space",),
@@ -454,6 +457,7 @@
 
 #case(
   number: 81,
+  slug: "tacoma-narrows-bridge",
   title: "Tacoma Narrows Bridge",
   year: "1940",
   domains-list: ("industrial",),
@@ -603,6 +607,7 @@
 
 #case(
   number: 82,
+  slug: "aliso-canyon-methane-leak",
   title: "Aliso Canyon Methane Leak",
   year: "2015 – 2016",
   domains-list: ("energy",),

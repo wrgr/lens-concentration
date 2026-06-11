@@ -20,6 +20,7 @@
 
 #case(
   number: 1,
+  slug: "uss-fitzgerald-and-uss-john-s-mccain",
   title: "USS Fitzgerald & USS John S. McCain",
   year: "2017",
   domains-list: ("defense",),
@@ -169,6 +170,7 @@
 
 #case(
   number: 3,
+  slug: "air-france-flight-447",
   title: "Air France Flight 447",
   year: "2009",
   domains-list: ("aviation",),
@@ -315,6 +317,7 @@
 
 #case(
   number: 5,
+  slug: "three-mile-island",
   title: "Three Mile Island",
   year: "1979",
   domains-list: ("energy",),
@@ -466,6 +469,7 @@
 
 #case(
   number: 9,
+  slug: "marine-corps-training-in-the-indopacom",
   title: "Marine Corps Training in the INDOPACOM AOR",
   year: "ongoing",
   domains-list: ("defense",),
@@ -615,6 +619,7 @@
 
 #case(
   number: 26,
+  slug: "f-35-sustainment-and-maintainer-shortage",
   title: "F-35 Sustainment & Maintainer Shortage",
   year: "ongoing",
   domains-list: ("defense",),
@@ -763,6 +768,7 @@
 
 #case(
   number: 30,
+  slug: "kegworth-british-midland-92",
   title: "Kegworth / British Midland 92",
   year: "1989",
   domains-list: ("aviation",),
@@ -918,6 +924,7 @@
 
 #case(
   number: 33,
+  slug: "military-fratricide-desert-storm-to",
   title: "Military Fratricide — Desert Storm to Afghanistan",
   year: "1991 – 2014",
   domains-list: ("defense",),
@@ -1067,6 +1074,7 @@
 
 #case(
   number: 34,
+  slug: "acgme-80-hour-resident-duty-hour-reform",
   title: "ACGME 80-Hour Resident Duty-Hour Reform",
   year: "2003–2017",
   domains-list: ("healthcare",),

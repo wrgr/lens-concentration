@@ -22,6 +22,7 @@
 
 #case(
   number: 2,
+  slug: "boeing-737-max-mcas",
   title: "Boeing 737 MAX / MCAS",
   year: "2018 – 2019",
   domains-list: ("aviation",),
@@ -178,6 +179,7 @@
 
 #case(
   number: 7,
+  slug: "therac-25",
   title: "Therac-25",
   year: "1985 – 1987",
   domains-list: ("healthcare", "tech"),
@@ -327,6 +329,7 @@
 
 #case(
   number: 19,
+  slug: "patriot-missile-dhahran",
   title: "Patriot Missile / Dhahran",
   year: "1991",
   domains-list: ("defense",),

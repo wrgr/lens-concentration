@@ -23,6 +23,7 @@
 
 #case(
   number: 101,
+  slug: "trews-sepsis-watch",
   title: "TREWS / Sepsis Watch",
   year: "2018 – 2022",
   domains-list: ("healthcare", "clinical AI"),
@@ -174,6 +175,7 @@
 
 #case(
   number: 102,
+  slug: "epic-sepsis-model",
   title: "Epic Sepsis Model",
   year: "2017 – 2021",
   domains-list: ("healthcare", "clinical AI", "governance"),

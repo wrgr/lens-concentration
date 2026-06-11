@@ -28,6 +28,7 @@
 
 #case(
   number: 119,
+  slug: "circuit-microns-the-human-correction",
   title: "CIRCUIT / MICrONS — The Human Correction Layer at Petabyte Scale",
   year: "2017 – present",
   domains-list: ("neuroscience/connectomics", "human-AI teaming", "workforce training"),
@@ -183,13 +184,12 @@
   lens-approach: [
     CIRCUIT proofreading is the human-correction-layer frontier
     case (induced 3.4; LENS D5/PT6). LENS uses it in Domain 5
-    (Machine Teaming and Adaptation) for the CLO *Delegation with revocation* — what the verification layer
-    is designed to catch — and in Domain 3 (Test and
-    Evaluation) for the evidence-tier discipline (peer-reviewed
-    for method, institutional for program outcomes). Pair with
-    Case 120 (CIRCUIT workforce model, peer-reviewed) and with
-    the AI-delegation typology (Cases 101 / 102 / 111 / Watson).
-    COI under the title is binding.
+    (Machine Teaming and Adaptation) for the CLO *Delegation
+    with revocation* and in Domain 3 (Test and Evaluation) for
+    the evidence-tier split (peer-reviewed method, institutional
+    program outcomes). Pair with Case 120 (CIRCUIT workforce)
+    and the AI-delegation typology (Cases 101, 102, 111, 155).
+    COI under the title binds.
   ],
   literature-items: (
     [MICrONS program literature — connectomics method base],
@@ -206,6 +206,7 @@
 
 #case(
   number: 120,
+  slug: "circuit-a-scalable-equity-centered",
   title: "CIRCUIT — A Scalable, Equity-Centered Research Workforce Model",
   year: "2017 – 2023 (six cycles)",
   domains-list: ("workforce development", "STEM training", "equity"),
@@ -375,6 +376,7 @@
 
 #case(
   number: 121,
+  slug: "team-science-training-for-clinical-and",
   title: "Team Science Training for Clinical and Translational Scientists",
   year: "2020 – 2022",
   domains-list: ("clinical/translational research", "team science", "healthcare workforce"),
@@ -540,6 +542,7 @@
 
 #case(
   number: 122,
+  slug: "interprofessional-education-and-the",
   title: "Interprofessional Education and the Evidence Gap",
   year: "2013 – 2015",
   domains-list: ("health professions education", "interprofessional collaboration", "patient safety"),
@@ -710,6 +713,7 @@
 
 #case(
   number: 123,
+  slug: "implementation-science-training-stated",
   title: "Implementation-Science Training — Stated Goals Outrunning Operational Practice",
   year: "2020s",
   domains-list: ("implementation science", "translational workforce", "education"),

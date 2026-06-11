@@ -9,6 +9,7 @@
 
 #case(
   number: 51,
+  slug: "ford-pinto-fuel-tank",
   title: "Ford Pinto Fuel Tank",
   year: "1971 – 1978",
   domains-list: ("industrial",),
@@ -161,6 +162,7 @@
 
 #case(
   number: 52,
+  slug: "takata-airbag-inflators",
   title: "Takata Airbag Inflators",
   year: "2008 – 2023",
   domains-list: ("industrial",),
@@ -310,6 +312,7 @@
 
 #case(
   number: 53,
+  slug: "gm-ignition-switch",
   title: "GM Ignition Switch",
   year: "2002 – 2014",
   domains-list: ("industrial",),
@@ -456,6 +459,7 @@
 
 #case(
   number: 54,
+  slug: "mars-climate-orbiter-unit-mismatch",
   title: "Mars Climate Orbiter — Unit Mismatch",
   year: "1999",
   domains-list: ("space",),
@@ -599,6 +603,7 @@
 
 #case(
   number: 55,
+  slug: "knight-capital-trading-loss",
   title: "Knight Capital Trading Loss",
   year: "2012",
   domains-list: ("tech",),

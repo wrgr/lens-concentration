@@ -9,6 +9,7 @@
 
 #case(
   number: 88,
+  slug: "tylenol-recall",
   title: "Tylenol Recall",
   year: "1982",
   domains-list: ("healthcare", "industrial"),
@@ -156,6 +157,7 @@
 
 #case(
   number: 89,
+  slug: "aviation-safety-reporting-system-asrs",
   title: "Aviation Safety Reporting System (ASRS)",
   year: "1976 – present",
   domains-list: ("aviation",),
@@ -302,6 +304,7 @@
 
 #case(
   number: 90,
+  slug: "bristol-heart-babies-reform",
   title: "Bristol Heart Babies Reform",
   year: "1984 – present",
   domains-list: ("healthcare",),
@@ -456,6 +459,7 @@
 
 #case(
   number: 91,
+  slug: "singapore-airlines-safety-transformation",
   title: "Singapore Airlines Safety Transformation",
   year: "1980s – present",
   domains-list: ("aviation",),

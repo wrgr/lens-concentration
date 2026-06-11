@@ -25,6 +25,7 @@
 
 #case(
   number: 110,
+  slug: "open-university-ethical-use-of-student",
   title: "Open University 'Ethical Use of Student Data' and OU Analyse",
   year: "2014 – 2025",
   domains-list: ("higher education (UK)", "learning analytics", "data governance"),
@@ -191,6 +192,7 @@
 
 #case(
   number: 111,
+  slug: "dutch-syri-welfare-fraud-risk-scoring",
   title: "Dutch SyRI — Welfare-Fraud Risk Scoring Halted on Rights Grounds",
   year: "2014 – 2020",
   domains-list: ("government/welfare (Netherlands)", "algorithmic decision-making", "public-sector AI"),

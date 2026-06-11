@@ -28,6 +28,7 @@
 
 #case(
   number: 157,
+  slug: "waymos-safety-case-framework-governance",
   title: "Waymo's Safety Case Framework — Governance Objection Dissolved by Designed Artifact",
   year: "2023 / 2025",
   domains-list: ("autonomous vehicles", "transportation safety", "public-sector governance"),
@@ -197,6 +198,7 @@
 
 #case(
   number: 158,
+  slug: "cruises-partial-disclosure-how",
   title: "Cruise's Partial Disclosure — How Disclosure Posture Decides Deployment",
   year: "2023",
   domains-list: ("autonomous vehicles", "regulatory governance", "incident disclosure"),
@@ -365,6 +367,7 @@
 
 #case(
   number: 159,
+  slug: "cpuc-av-passenger-service-permits",
   title: "CPUC AV Passenger-Service Permits — Conditions as a Designed Objection-Dissolver",
   year: "2020 – 2024",
   domains-list: ("autonomous vehicles", "public-utility governance", "accessibility"),
@@ -532,6 +535,7 @@
 
 #case(
   number: 160,
+  slug: "brinkerhoff-success-case-method-tails",
   title: "Brinkerhoff Success Case Method — Tails as the Evaluation Instrument",
   year: "2005 – present",
   domains-list: ("corporate L&D", "training evaluation", "workforce development"),
@@ -699,6 +703,7 @@
 
 #case(
   number: 161,
+  slug: "high-impact-learning-system-engineering",
   title: "High-Impact Learning System — Engineering the Environment, Not Just the Event",
   year: "2001 – present",
   domains-list: ("corporate L&D", "performance consulting", "learning transfer"),
@@ -866,6 +871,7 @@
 
 #case(
   number: 162,
+  slug: "singapore-skillsfuture-national",
   title: "Singapore SkillsFuture — National Workforce Capability at Scale",
   year: "2015 – present",
   domains-list: ("workforce development", "national L&D policy", "Asia-Pacific"),
@@ -1031,6 +1037,7 @@
 
 #case(
   number: 163,
+  slug: "pepfar-hiv-training-across-16-sub",
   title: "PEPFAR HIV Training Across 16 Sub-Saharan African Countries — Modality Comparison Under Disruption",
   year: "2023",
   domains-list: ("global health", "HIV care", "training-modality comparison", "Sub-Saharan Africa"),

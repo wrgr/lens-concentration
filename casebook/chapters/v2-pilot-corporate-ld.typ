@@ -22,6 +22,7 @@
 
 #case(
   number: 112,
+  slug: "kirkpatrick-chain-of-evidence-where",
   title: "The Kirkpatrick Chain of Evidence — Where Corporate L&D Stops",
   year: "1959 – present",
   domains-list: ("corporate L&D", "training evaluation", "workforce development"),
@@ -191,6 +192,7 @@
 
 #case(
   number: 113,
+  slug: "training-transfer-the-gap-between",
   title: "Training Transfer — The Gap Between Learning and Doing",
   year: "2010",
   domains-list: ("corporate L&D", "training transfer", "organizational behavior"),

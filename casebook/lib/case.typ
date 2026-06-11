@@ -18,6 +18,7 @@
 
 #let case(
   number: 0,
+  slug: "",            // stable persistent ID (kebab-case from title); survives renumbering
   title: "",
   year: "",
   domains-list: (),
@@ -54,7 +55,7 @@
   // Emit case metadata for the back-matter indexes (e.g. the LEN-course
   // map). Carries number, title, and course tags for every case on both
   // the 4-page and legacy paths.
-  [#metadata((n: number, title: title, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag)) <caseinfo>]
+  [#metadata((n: number, slug: slug, title: title, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag)) <caseinfo>]
 
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.

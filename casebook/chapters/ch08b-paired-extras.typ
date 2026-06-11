@@ -11,6 +11,7 @@
 
 #case(
   number: 13,
+  slug: "who-surgical-safety-checklist",
   title: "WHO Surgical Safety Checklist",
   year: "2008 – present",
   domains-list: ("healthcare",),
@@ -157,6 +158,7 @@
 
 #case(
   number: 15,
+  slug: "navy-surface-warfare-readiness-reform",
   title: "Navy Surface Warfare Readiness Reform",
   year: "2018 – present",
   domains-list: ("defense",),
@@ -302,6 +304,7 @@
 
 #case(
   number: 23,
+  slug: "korean-air-safety-transformation",
   title: "Korean Air Safety Transformation",
   year: "2000 – present",
   domains-list: ("aviation",),
@@ -447,6 +450,7 @@
 
 #case(
   number: 24,
+  slug: "toyota-production-system-andon-cord",
   title: "Toyota Production System / Andon Cord",
   year: "1950s – present",
   domains-list: ("industrial",),
@@ -592,6 +596,7 @@
 
 #case(
   number: 27,
+  slug: "teamstepps",
   title: "TeamSTEPPS",
   year: "2006 – present",
   domains-list: ("healthcare",),
@@ -739,6 +744,7 @@
 
 #case(
   number: 28,
+  slug: "u-s-nuclear-navy-rickover-training-model",
   title: "U.S. Nuclear Navy / Rickover Training Model",
   year: "1954 – present",
   domains-list: ("defense",),
@@ -888,6 +894,7 @@
 
 #case(
   number: 39,
+  slug: "georgia-state-university-predictive",
   title: "Georgia State University Predictive Analytics",
   year: "2012 – present",
   domains-list: ("education",),
@@ -1032,6 +1039,7 @@
 
 #case(
   number: 42,
+  slug: "cognitive-tutor-carnegie-learning",
   title: "Cognitive Tutor / Carnegie Learning",
   year: "1990s – present",
   domains-list: ("education",),

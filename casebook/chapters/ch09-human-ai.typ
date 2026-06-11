@@ -19,6 +19,7 @@
 
 #case(
   number: 92,
+  slug: "tesla-autopilot-recurring-fatalities",
   title: "Tesla Autopilot — Recurring Fatalities",
   year: "2016 – present",
   domains-list: ("autonomous",),
@@ -166,6 +167,7 @@
 
 #case(
   number: 93,
+  slug: "cruise-robotaxi-pedestrian-drag",
   title: "Cruise Robotaxi — Pedestrian Drag",
   year: "2023",
   domains-list: ("autonomous",),
@@ -306,6 +308,7 @@
 
 #case(
   number: 94,
+  slug: "compas-recidivism-algorithm",
   title: "COMPAS Recidivism Algorithm",
   year: "2016 – present",
   domains-list: ("gov", "tech"),
@@ -456,6 +459,7 @@
 
 #case(
   number: 95,
+  slug: "radiology-ai-miscalibration",
   title: "Radiology AI Miscalibration",
   year: "2018 – present",
   domains-list: ("healthcare", "tech"),
@@ -605,6 +609,7 @@
 
 #case(
   number: 96,
+  slug: "chatgpt-in-healthcare-hallucination",
   title: "ChatGPT in Healthcare — Hallucination Cases",
   year: "2023 – present",
   domains-list: ("healthcare", "tech"),
@@ -748,6 +753,7 @@
 
 #case(
   number: 97,
+  slug: "predictive-policing-predpol",
   title: "Predictive Policing — PredPol",
   year: "2011 – present",
   domains-list: ("gov", "tech"),
@@ -890,6 +896,7 @@
 
 #case(
   number: 98,
+  slug: "alphafold-protein-structure-prediction",
   title: "AlphaFold — Protein Structure Prediction",
   year: "2020 – present",
   domains-list: ("healthcare", "tech"),
@@ -1034,6 +1041,7 @@
 
 #case(
   number: 99,
+  slug: "ai-augmented-coding-tools",
   title: "AI-Augmented Coding Tools",
   year: "2021 – present",
   domains-list: ("tech",),
@@ -1181,6 +1189,7 @@
 
 #case(
   number: 100,
+  slug: "discipline-we-build-next",
   title: "The Discipline We Build Next",
   year: "ongoing",
   domains-list: ("education", "healthcare", "defense"),

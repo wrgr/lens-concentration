@@ -25,6 +25,7 @@
 
 #case(
   number: 105,
+  slug: "removing-the-race-coefficient-from-egfr",
   title: "Removing the Race Coefficient from eGFR",
   year: "2021",
   domains-list: ("clinical medicine", "health equity"),
@@ -184,6 +185,7 @@
 
 #case(
   number: 106,
+  slug: "pulse-oximetry-across-skin-tones",
   title: "Pulse Oximetry Across Skin Tones",
   year: "1990 – 2020 – 2025",
   domains-list: ("medical devices", "clinical care", "health equity"),
@@ -339,6 +341,7 @@
 
 #case(
   number: 107,
+  slug: "racial-bias-in-pain-assessment-the",
   title: "Racial Bias in Pain Assessment — The False-Belief Mechanism",
   year: "2016",
   domains-list: ("clinical medicine", "medical education", "health equity"),

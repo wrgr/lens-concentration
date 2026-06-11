@@ -35,6 +35,7 @@
 
 #case(
   number: 124,
+  slug: "nasa-eva-23-water-intrusion-inside-a",
   title: "NASA EVA-23 — Water Intrusion Inside a Spacesuit",
   year: "2013",
   domains-list: ("space", "human spaceflight", "safety engineering"),
@@ -204,6 +205,7 @@
 
 #case(
   number: 125,
+  slug: "f-22-obogs-hypoxia-the-sustainment-era",
   title: "F-22 OBOGS Hypoxia — The Sustainment-Era Instrumentation Gap",
   year: "2008 – 2012",
   domains-list: ("aviation", "defense", "human factors"),
@@ -378,6 +380,7 @@
 
 #case(
   number: 126,
+  slug: "mil-std-1472h-human-engineering-as-a",
   title: "MIL-STD-1472H — Human Engineering as a Binding Acquisition Standard",
   year: "2020 revision (series since 1968)",
   domains-list: ("defense", "human factors", "standards"),
@@ -557,6 +560,7 @@
 
 #case(
   number: 127,
+  slug: "gao-weapon-system-sustainment-reviews",
   title: "GAO Weapon-System Sustainment Reviews — Operating Costs without Decision-Grade Data",
   year: "2022 (GAO-22-104533)",
   domains-list: ("defense", "sustainment", "audit"),
@@ -713,13 +717,12 @@
   lens-approach: [
     GAO weapon-system sustainment is the portfolio-evidence-
     architecture frontier case (induced 1.4; LENS D1/PT4).
-    LENS uses it in Domain 1 (Systems Analysis) for the
-    requirement-for-requirements form, and in Domain 3 (Test
-    and Evaluation) for the CLO *Judgment under inadequate
-    evidence* applied at portfolio scale. Pair with Case 126
-    (MIL-STD-1472H) at the design-side standards layer and
-    Case 114 (SUBSAFE) at the per-capability sustainment
-    certification layer.
+    LENS uses it in Domain 1 (Systems Analysis) for
+    requirement-for-requirements and in Domain 3 for the
+    CLO *Judgment under inadequate evidence* at portfolio
+    scale. Pair with Case 126 (MIL-STD-1472H) on the
+    design side and Case 114 (SUBSAFE) at the per-capability
+    sustainment layer.
   ],
   literature-items: (
     [GAO-22-104533 (2022), Weapon System Sustainment],
@@ -736,6 +739,7 @@
 
 #case(
   number: 128,
+  slug: "duolingo-half-life-regression-spaced",
   title: "Duolingo Half-Life Regression — Spaced Repetition at Consumer Scale",
   year: "2016",
   domains-list: ("education at scale", "machine learning", "memory and skill"),
@@ -914,6 +918,7 @@
 
 #case(
   number: 129,
+  slug: "egpws-taws-closing-the-cfit-category-in",
   title: "EGPWS / TAWS — Closing the CFIT Category in Commercial Aviation",
   year: "1996 – 2002",
   domains-list: ("aviation", "safety engineering", "human factors"),
@@ -1074,12 +1079,11 @@
   lens-approach: [
     EGPWS / TAWS is the aviation cue/alert intervention case
     (induced 3.1; LENS D3/PT5). LENS uses it in Domain 3
-    (Test and Evaluation) for the cue-design-as-deliverable
-    form and in Domain 5 (Machine Teaming and Adaptation) for
-    the operator-cue boundary. Direct pair with TCAS (Case 130)
-    as the second aviation engineered-recovery intervention,
-    and with anesthesia monitoring (Case 116) at the cue/alert-
-    as-capability cross-domain layer.
+    (Test and Evaluation) for cue-design-as-deliverable and
+    Domain 5 for the operator-cue boundary. Pair with TCAS
+    (Case 130) as the second aviation engineered-recovery
+    case, and with anesthesia monitoring (Case 116) at the
+    cross-domain layer.
   ],
   literature-items: (
     [Bateman (1999), FSF ALAR Task Force],
@@ -1096,6 +1100,7 @@
 
 #case(
   number: 130,
+  slug: "tcas-coordinated-collision-avoidance",
   title: "TCAS — Coordinated Collision Avoidance and the Überlingen Lesson",
   year: "1981 – 2008 (TCAS II Version 7.1)",
   domains-list: ("aviation", "automation", "human factors"),
@@ -1256,14 +1261,11 @@
   lens-approach: [
     TCAS is the coordinated-cockpit-automation case
     (induced 3.1; LENS D3/PT5). LENS uses it in Domain 3
-    (Test and Evaluation) for the coordinated-automation
-    design and Überlingen-driven V7.1 iteration, and in
-    Domain 5 (Machine Teaming and Adaptation) for the
-    crew–TCAS–ATC triangle and the precedence rule at the
-    human–automation boundary. Direct pair with EGPWS
-    (Case 129) as the second aviation engineered-recovery
-    intervention; pair with Case 116 (anesthesia monitoring)
-    at the cue/alert-as-capability cross-domain layer.
+    (Test and Evaluation) for the Überlingen-driven V7.1
+    iteration, and Domain 5 for the crew–TCAS–ATC
+    precedence rule. Pair with EGPWS (Case 129) as the
+    second aviation engineered-recovery case, and with
+    anesthesia monitoring (Case 116) cross-domain.
   ],
   literature-items: (
     [RTCA DO-185B (2008), TCAS II Version 7.1],
@@ -1280,6 +1282,7 @@
 
 #case(
   number: 131,
+  slug: "sterile-cockpit-ward-rounds-adapting-an",
   title: "Sterile-Cockpit Ward Rounds — Adapting an Aviation Principle to Clinical Handoff",
   year: "2024 – 2025",
   domains-list: ("healthcare", "patient safety", "human factors"),

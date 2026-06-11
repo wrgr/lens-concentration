@@ -20,6 +20,7 @@
 
 #case(
   number: 31,
+  slug: "medical-errors-as-systemic-failure",
   title: "Medical Errors as Systemic Failure",
   year: "ongoing",
   domains-list: ("healthcare",),
