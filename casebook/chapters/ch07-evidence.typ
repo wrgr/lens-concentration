@@ -187,11 +187,19 @@
     leaving it open is measured in lives at population scale.
   ],
   lens-approach: [
-    LENS treats this case as the central evidence anchor of the
-    curriculum: LEN 1 as the foundational problem statement, LEN 4 as the
-    canonical case for measurement systems blind to their own failures
-    (death certificates do not capture the failure mode), and LEN 10 as the
-    studio prompt for interventions at population scale.
+    Medical error is the central evidence anchor of the curriculum
+    (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3 (Test and
+    Evaluation; CLO-3) for the foundational measurement problem: the
+    death certificate cannot record the failure mode it is supposed
+    to govern, and the contested mortality estimates show what
+    happens when an instrument's gap is filled by extrapolation.
+    LENS uses it in Domain 1 (Systems Analysis) as the foundational
+    problem statement of the program and in Domain 4 (Navigating
+    Sociotechnical Constraints) for industry-level institution
+    building. The 25-year arc pairs the case with the WHO Surgical
+    Checklist (Case 13), Keystone ICU (Case 14), and TeamSTEPPS
+    (Case 27) as the bounded interventions that worked; pair with
+    Vioxx (Case 87) at the population-scale-surveillance layer.
   ],
   literature-items: (
     [Makary & Daniel (2016), BMJ],

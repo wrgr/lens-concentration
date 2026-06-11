@@ -602,7 +602,12 @@
   year: "1999 – 2004",
   domains-list: ("healthcare",),
   modes-code: "GD",
-  impact: "Tens of thousands of excess cardiovascular events estimated; Merck withdrew Vioxx in 2004; ~$4.85B settlement",
+  impact: "Tens of thousands of excess cardiovascular events estimated (FDA's Graham, 2004; Lancet 2005); Merck withdrew Vioxx in September 2004; ~\\$4.85B settlement; FDA Amendments Act of 2007 and the Sentinel Initiative (2008) institutionalized active post-market surveillance",
+  scale: "big",
+  evidence-source: "investigation",
+  induced-anchor: "2.4",
+  lens-anchor: "D3+D5/PT5",
+  clo-anchor: "CLO-3, CLO-5",
   diagram: dgm.dgm-curve(
     ((1.0, 1.0), (2.0, 1.4), (3.5, 1.8), (5.0, 2.4), (6.5, 3.0), (7.5, 0.8)),
     milestone: 7.5,
@@ -614,80 +619,134 @@
   ),
   kind: "failure",
   summary: [
-    Merck's painkiller Vioxx (rofecoxib) was approved by the FDA in 1999
-    and prescribed to millions. A 2000 trial, VIGOR, found a roughly
-    five-fold higher rate of heart attacks in the Vioxx arm than in the
-    comparison drug — a signal many read as a protective effect of the
-    comparator rather than a cardiovascular risk of Vioxx. Not until the
-    placebo-controlled APPROVe trial was halted in 2004 was the risk
-    established and the drug withdrawn. For nearly four years, the
-    disclosure architecture between Merck's internal data, FDA reviewers,
-    and prescribers failed to surface the magnitude of the danger to a
-    decision point; an FDA scientist estimated tens of thousands of excess
-    cardiovascular events. The reforms that followed — REMS and the
-    Sentinel Initiative — built post-market surveillance that had not
-    existed.
+    Merck's painkiller Vioxx (rofecoxib) was approved by the FDA in
+    May 1999 and prescribed to an estimated 80 million people
+    worldwide. The 2000 VIGOR trial (Bombardier et al., _NEJM_) found
+    a roughly five-fold higher rate of myocardial infarction in the
+    Vioxx arm than in the naproxen comparator — a signal Merck and
+    many readers attributed to a hypothesized cardio-protective
+    effect of naproxen rather than a cardiovascular risk of Vioxx,
+    a reading that required the absent placebo arm to be true. Not
+    until the placebo-controlled APPROVe trial (Bresalier et al.,
+    _NEJM_) was halted in September 2004 was the risk established and
+    the drug withdrawn. For nearly four years the disclosure
+    architecture between Merck's internal data, FDA reviewers, and
+    prescribers failed to surface the magnitude of the danger to a
+    decision point. FDA Office of Drug Safety scientist David Graham
+    testified to the Senate Finance Committee in November 2004 that
+    the risk had been visible well before withdrawal, and estimated
+    88,000–139,000 excess cardiovascular events attributable to
+    Vioxx; the 2005 Graham et al. _Lancet_ analysis put the figure
+    in similar range. Merck litigation discovery produced internal
+    Merck communications used in the Senate hearings to argue that
+    publication-bias and authorship-by-Merck-employees patterns had
+    suppressed the cardiovascular signal in the published record.
+    The reforms that followed — Risk Evaluation and Mitigation
+    Strategies (REMS), the FDA Amendments Act of 2007, and the
+    Sentinel Initiative (2008) — built the active post-market
+    surveillance architecture that had not previously existed.
   ],
   sections: (
     // -- Background --
     [
-      Vioxx, a COX-2 inhibitor for arthritis pain, was approved by the FDA
-      in 1999 and became one of the most widely prescribed drugs of its
-      era. Detecting rare or delayed harms in a drug at that scale depends
-      on post-market surveillance — aggregating adverse-event data after
-      approval — a function that, at the time, was thin relative to the
-      size of the exposed population. A risk too small to surface in a
-      pre-approval trial becomes a large absolute toll once a drug reaches
-      millions, which is precisely the regime that demands strong
-      after-market monitoring.#cn()
+      Vioxx, a selective COX-2 inhibitor for arthritis pain, was
+      approved by the FDA in May 1999 and became one of the most widely
+      prescribed drugs of its era — an estimated 80 million people
+      worldwide were exposed before withdrawal. Detecting rare or
+      delayed harms in a drug at that scale depends on post-market
+      surveillance — aggregating adverse-event data after approval — a
+      function that, at the time, was thin relative to the size of the
+      exposed population. The FDA's MedWatch system relied on voluntary
+      submission from clinicians; no active query of the underlying
+      claims and electronic-health-record data was operational. A risk
+      too small to surface in a pre-approval trial becomes a large
+      absolute toll once a drug reaches millions, which is precisely
+      the regime that demands strong after-market monitoring — and
+      precisely the regime in which voluntary reporting fails to
+      detect it.#cn()
     ],
     // -- What Happened --
     [
-      The VIGOR trial, published in 2000, reported about a five-fold
-      higher rate of myocardial infarction in patients taking Vioxx than
-      in those taking naproxen. Merck and many readers interpreted the gap
-      as naproxen being protective rather than Vioxx being harmful. That
-      reading was not absurd — it was the more comfortable of two
-      explanations for the same numbers — but it required the absent
-      placebo arm to be true, and the data could not adjudicate between
-      them. The placebo-controlled APPROVe trial, terminated in September
-      2004, established the cardiovascular risk directly, and Merck withdrew
-      the drug.#cn()
+      The VIGOR trial (Bombardier et al., _NEJM_ 2000) reported about
+      a five-fold higher rate of myocardial infarction in 8,076 patients
+      taking Vioxx than in those taking naproxen. Merck and many readers
+      interpreted the gap as naproxen being cardio-protective rather
+      than Vioxx being harmful. That reading was not absurd — it was the
+      more comfortable of two explanations for the same numbers — but it
+      required the absent placebo arm to be true, and the data could
+      not adjudicate between the readings. The placebo-controlled
+      APPROVe trial (Bresalier et al., _NEJM_ 2005), originally
+      designed to test Vioxx for colorectal-polyp prevention, was
+      terminated early in September 2004 when its data safety monitoring
+      board observed a doubling of cardiovascular events in the Vioxx
+      arm relative to placebo. Merck withdrew the drug worldwide within
+      days.#cn()
     ],
     // -- The Investigation --
     [
-      Congressional hearings and subsequent analysis found that signals of
-      cardiovascular harm had been present in the trial record for years
-      before withdrawal. FDA scientist David Graham testified that the
-      risk had been visible well before 2004 and estimated tens of
-      thousands of excess heart attacks and sudden cardiac deaths; a 2005
-      _Lancet_ analysis quantified the population-level harm. The harm was
-      not hidden in some unmeasured corner — it sat in the trial record the
-      whole time, waiting for an architecture that would carry it to a
-      decision rather than leave it to interpretation.#cn()
+      Senate Finance Committee hearings in November 2004 and the
+      subsequent FDA Office of Inspector General review found that
+      signals of cardiovascular harm had been present in the trial
+      record for years before withdrawal. FDA Office of Drug Safety
+      scientist David Graham testified under oath that the
+      cardiovascular risk had been visible to him by 2000, that he had
+      been pressured by FDA management not to publish his estimate,
+      and that he believed Vioxx had caused 88,000–139,000 excess
+      heart attacks and strokes in the United States, of which 30–40%
+      were probably fatal. The Graham et al. _Lancet_ 2005 analysis,
+      using Kaiser Permanente data, produced a population-level
+      estimate in similar range. Merck litigation discovery, made
+      public through New Jersey and federal court filings and reported
+      in the _NEJM_ editorial trail, included internal Merck
+      communications and ghost-authorship patterns in published Vioxx
+      papers; a 2008 _JAMA_ analysis by Ross et al. documented the
+      publication-bias and authorship patterns directly.#cn() The harm
+      was not hidden in some unmeasured corner — it sat in the trial
+      record the whole time, waiting for an architecture that would
+      carry it to a decision rather than leave it to interpretation.#cn()
     ],
     // -- The Capability Gap --
     [
-      The capability gap was in post-market surveillance: the disclosure
-      architecture between manufacturer-held data, FDA reviewers, and
-      prescribers did not aggregate the signal to a decision boundary for
-      nearly four years. The FDA's adverse-event reporting system relied on
-      voluntary submissions structured to minimize signal, and was not
-      adequate to the volume of the drug's distribution. A system that waits
-      for a clinician to choose to file a report will always lag a harm
+      The capability gap was in post-market surveillance: the
+      disclosure architecture between manufacturer-held data, FDA
+      reviewers, and prescribers did not aggregate the signal to a
+      decision boundary for nearly four years. The FDA's MedWatch
+      adverse-event reporting system relied on voluntary submissions
+      structured to minimize signal, and was not adequate to the
+      volume of the drug's distribution. A system that waits for a
+      clinician to choose to file a report will always lag a harm
       spread thinly across millions of prescriptions, because no single
-      prescriber sees enough of the pattern to recognize it.#cn()
+      prescriber sees enough of the pattern to recognize it. The
+      Merck-side gap was structural in a different way: VIGOR was
+      designed to test gastrointestinal safety (the COX-2 selling
+      point), and the cardiovascular signal was a secondary finding
+      that the trial was not powered to adjudicate against the
+      naproxen-protective hypothesis. That trial-design choice
+      compounded with a publication-bias pattern, an FDA
+      adverse-event-reporting architecture insufficient for the
+      population at risk, and a regulator–manufacturer disclosure
+      protocol that had no decision boundary for ambiguous signals.#cn()
     ],
     // -- Aftermath & Reform --
     [
-      Merck eventually settled litigation for about \$4.85 billion. The
-      case drove the creation of Risk Evaluation and Mitigation Strategies
-      (REMS) and, in 2008, the FDA's Sentinel Initiative — an active
-      post-market surveillance system that queries health-data partners
-      rather than waiting for voluntary reports. By going out to the data
-      instead of waiting for it to arrive, the reform inverted the logic that
-      had let the signal sit unaggregated for years. The reform built the
-      surveillance infrastructure that had not previously existed.#cn()
+      Merck eventually settled US litigation for about \$4.85 billion
+      across approximately 27,000 plaintiffs. The case drove a
+      coordinated regulatory response. The FDA Amendments Act of 2007
+      gave the FDA explicit authority to require Risk Evaluation and
+      Mitigation Strategies (REMS) and post-market study commitments
+      as conditions of approval. In 2008 the FDA launched the
+      Sentinel Initiative — an active post-market surveillance system
+      that queries distributed health-data partners covering hundreds
+      of millions of patient-years, rather than waiting for voluntary
+      reports — a direct response to the Vioxx-era detection failure.
+      The _NEJM_ tightened conflict-of-interest disclosure for trial
+      reports; the _JAMA_ Ross et al. (2008) analysis became the
+      reference point for publication-bias diagnosis in drug safety.
+      By going out to the data instead of waiting for it to arrive,
+      the reform inverted the logic that had let the signal sit
+      unaggregated for years. The reform built the surveillance
+      infrastructure that had not previously existed; the Vioxx
+      record is what made the case for it.#cn()
     ],
   ),
   beats: (
@@ -698,11 +757,12 @@
     "Merck settled near five billion; REMS and Sentinel built active post-market surveillance",
   ),
   references: (
-    [Graham, D. J. et al. (2005), _Lancet_ — population-level cardiovascular risk analysis.],
-    [Bombardier, C. et al. (2000), VIGOR trial, _NEJM_ — the five-fold myocardial-infarction signal.],
-    [Bresalier, R. et al. (2005), APPROVe trial, _NEJM_ — placebo-controlled confirmation of cardiovascular risk.],
-    [U.S. Senate Committee on Finance, hearings on Vioxx (Nov. 2004) — Graham testimony (paraphrased).],
-    [FDA Sentinel Initiative documentation (2008–present) — active post-market surveillance.],
+    [Bombardier, C. et al. (2000), "Comparison of upper gastrointestinal toxicity of rofecoxib and naproxen in patients with rheumatoid arthritis," VIGOR trial, _NEJM_ 343(21):1520–1528 — the five-fold myocardial-infarction signal and the naproxen-protective hypothesis.],
+    [Bresalier, R. et al. (2005), "Cardiovascular events associated with rofecoxib in a colorectal adenoma chemoprevention trial," APPROVe, _NEJM_ 352(11):1092–1102 — placebo-controlled confirmation of cardiovascular risk; early trial termination.],
+    [Graham, D. J. et al. (2005), "Risk of acute myocardial infarction and sudden cardiac death in patients treated with COX-2 selective and non-selective NSAIDs: nested case-control study," _Lancet_ 365(9458):475–481 — Kaiser Permanente population-level cardiovascular risk analysis.],
+    [US Senate Committee on Finance, hearings on Vioxx and FDA's drug-safety system (November 18, 2004) — Graham testimony; "88,000 to 139,000 Americans" estimate of excess cardiovascular events; described FDA management pressure.],
+    [Ross, J. S., Hill, K. P., Egilman, D. S., Krumholz, H. M. (2008), "Guest authorship and ghostwriting in publications related to rofecoxib," _JAMA_ 299(15):1800–1812 — publication-bias and ghost-authorship documentation from Merck litigation discovery.],
+    [FDA Amendments Act of 2007 (P.L. 110-85) and FDA Sentinel Initiative documentation (2008–present) — REMS authority, post-market study requirements, and active distributed-data post-market surveillance.],
   ),
   quote: [The cardiovascular risk was visible in Merck's internal data years before the drug was withdrawn.],
   quote-source: "Paraphrasing David Graham (FDA Office of Drug Safety), Senate Finance Committee testimony, November 2004",
@@ -715,9 +775,19 @@
     architecture too thin for the system that depended on it.
   ],
   lens-approach: [
-    LENS uses Vioxx in LEN 4 for post-market surveillance as a
-    measurement deliverable and in LEN 7 for the corporate-regulator
-    dynamics that allowed signal aggregation to be deferred.
+    Vioxx is the canonical pharmaceutical post-deployment-surveillance
+    case (induced 2.4; LENS D3+D5/PT5). LENS uses it in Domain 3
+    (Test and Evaluation; CLO-3) for post-market surveillance as a
+    measurement deliverable — the signal existed; the institutional
+    architecture to aggregate it did not. LENS uses it in Domain 5
+    (Machine Teaming and Adaptation; CLO-5) for the change-control
+    and disclosure architecture between manufacturer, regulator, and
+    prescriber that determines whether ambiguous safety signals reach
+    a decision boundary. Pair with Radiology AI (Case 95) as the
+    post-market-surveillance failure pattern at a new technological
+    boundary; pair with EHR/CPOE (Case 25) at the
+    measurement-architecture-too-thin layer; pair with Medical Errors
+    and IOM (Case 31) at the population-scale-instrument layer.
   ],
   literature-items: (
     [Graham et al. (2005), _Lancet_],
@@ -742,6 +812,4 @@
     ),
   ),
   courses: ("LEN 4", "LEN 7"),
-  scale: "big",
-  evidence-source: "investigation",
 )

@@ -611,6 +611,9 @@
   courses: ("LEN 1", "LEN 5"),
   scale: "big",
   evidence-source: "investigation",
+  induced-anchor: "6.1",
+  lens-anchor: "D4/PT4",
+  clo-anchor: "CLO-4, CLO-1",
 )
 
 #case(

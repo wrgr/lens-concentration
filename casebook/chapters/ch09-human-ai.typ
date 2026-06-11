@@ -464,7 +464,7 @@
   year: "2018 – present",
   domains-list: ("healthcare", "tech"),
   modes-code: "HKD",
-  impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines",
+  impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines; the canonical v1 anchor for clinical-AI deployment without surveillance, cross-referenced by the Epic Sepsis (Case 102) and pulse-oximetry (Case 106) deployment-evidence cases",
   diagram: dgm.dgm-compare(
     "validation",
     "AUC 0.9+",
@@ -474,77 +474,144 @@
     caption: "Radiology AI — clearance is not deployment",
   ),
   kind: "frontier",
+  scale: "big",
+  evidence-source: "peer-reviewed",
+  induced-anchor: "7.2",
+  lens-anchor: "D3+D5/PT5",
+  clo-anchor: "CLO-3, CLO-5",
   summary: [
     FDA-cleared radiology AI tools — for chest X-ray classification,
     mammography, CT triage — have been repeatedly documented performing
     worse in deployment than in their validation studies, often with the
     degradation concentrated in patient groups under-represented in the
-    training data. Larrazabal et al. (PNAS 2020) showed this structurally
-    for chest-X-ray classifiers, and Obermeyer et al. (Science 2019) showed
-    that bias in the labels used to train clinical AI can under-allocate
-    care to Black patients even when the model looks well-calibrated. The
-    FDA's 510(k) clearance process does not routinely require demographic
-    stratification of validation metrics or post-market monitoring of how a
-    tool performs in the population using it. The capability gap is in the
-    regulatory architecture, not the model: clearance is not the same thing
-    as clinically performable deployment.
+    training data. Larrazabal et al. (_PNAS_ 2020) showed this
+    structurally for chest-X-ray classifiers across gender imbalance;
+    Seyyed-Kalantari et al. (_Nature Medicine_ 2021) extended the
+    finding to under-served racial and socioeconomic subgroups across
+    three large public chest-X-ray datasets. Obermeyer et al. (_Science_
+    2019) showed that bias in the labels used to train clinical AI can
+    under-allocate care to Black patients even when the model looks
+    well-calibrated on its chosen proxy. Wachter and Brynjolfsson
+    (_JAMA_ 2023) raised the generative-AI extension. The FDA's 510(k)
+    clearance pathway — the route most cleared radiology AI tools have
+    taken — does not routinely require demographic stratification of
+    validation metrics or post-market monitoring of how a tool performs
+    in the population using it; the De Novo pathway used for a small
+    number of novel tools imposes more, but is rarely the chosen route.
+    The 2025 FDA draft guidance on AI/ML-based Software as a Medical
+    Device (SaMD), with its Predetermined Change Control Plan and
+    Good Machine Learning Practice provisions, begins to address this
+    gap; the institutional architecture for demographic post-market
+    surveillance is still being built. The capability gap is in the
+    regulatory architecture, not the model: clearance is not the same
+    thing as clinically performable deployment. The case is the v1
+    anchor for the cross-references in the Epic Sepsis (Case 102) and
+    pulse-oximetry (Case 106) deployment-evidence cases.
   ],
   sections: (
     // -- The Shift --
     [
-      Machine-learning tools are moving rapidly into radiology and other
-      diagnostic medicine, cleared for market and integrated into clinical
-      workflows that affect real patients. Unlike a drug, a model can pass
-      its validation study and still behave very differently once it meets
-      a population that differs from its training data — the same model file
-      that scored well on the clearance set can quietly carry a different
-      error profile into every hospital whose patients do not resemble it.#cn()
+      Machine-learning tools are moving rapidly into radiology and
+      other diagnostic medicine, cleared for market and integrated
+      into clinical workflows that affect real patients. The FDA has
+      now authorized more than 1,000 AI/ML-enabled medical devices,
+      the majority through the 510(k) clearance pathway as devices
+      substantially equivalent to a predicate. Unlike a drug, a model
+      can pass its validation study and still behave very differently
+      once it meets a population that differs from its training data —
+      the same model file that scored well on the clearance set can
+      quietly carry a different error profile into every hospital
+      whose patients do not resemble it. The 510(k)
+      substantial-equivalence framing was built for an era of
+      physical devices whose behavior was largely determined by their
+      design; it was not built for a class of systems whose behavior
+      depends on the distribution of the data they meet.#cn()
     ],
     // -- What Is Emerging --
     [
       Multiple FDA-cleared radiology tools — chest-X-ray classifiers,
-      mammography aids, CT triage systems — have been documented in the
-      peer-reviewed literature performing worse in deployment than in
-      validation, with the degradation often concentrated in
-      under-represented patient groups. Larrazabal et al. (PNAS 2020)
-      demonstrated structural sensitivity drops for groups under-represented
-      in chest-X-ray training data — evidence that the shortfall is not a
-      stray bug but a predictable consequence of which patients the training
-      set did and did not contain.#cn()
+      mammography aids, CT triage systems — have been documented in
+      the peer-reviewed literature performing worse in deployment
+      than in validation, with the degradation often concentrated in
+      under-represented patient groups. Larrazabal et al. (_PNAS_
+      2020) demonstrated structural sensitivity drops for groups
+      under-represented in chest-X-ray training data, using the NIH
+      ChestX-ray14 and CheXpert datasets to show that classifier
+      sensitivity for a given group tracks that group's prevalence in
+      the training set. Seyyed-Kalantari et al. (_Nature Medicine_
+      2021) extended the finding directly: across three large public
+      chest-X-ray datasets, classifiers under-diagnosed Black,
+      Hispanic, female, and lower-socioeconomic patients at higher
+      rates, with the disparity present across model architectures —
+      evidence that the shortfall is not a stray bug but a
+      predictable consequence of which patients the training set did
+      and did not contain.#cn()
     ],
     // -- The Capability Question --
     [
-      The problem is not confined to imaging. Obermeyer et al. (Science
-      2019) showed that a widely deployed care-management algorithm
-      systematically under-allocated resources to Black patients because it
-      was trained on healthcare cost as a proxy label for need. The
-      question is how a regulator can certify a model as safe without
-      checking how it behaves across the populations and labels it will
-      actually meet — since a model can look well-calibrated on its chosen
-      proxy while the proxy itself encodes the inequity it then propagates.#cn()
+      The problem is not confined to imaging. Obermeyer et al.
+      (_Science_ 2019) showed that a widely deployed care-management
+      algorithm covering an estimated 200 million Americans
+      systematically under-allocated resources to Black patients
+      because it was trained on healthcare cost as a proxy label for
+      need: equally sick Black patients had lower historical costs
+      because they had received less care, so the model rated them as
+      lower-need. The question is how a regulator can certify a model
+      as safe without checking how it behaves across the populations
+      and labels it will actually meet — since a model can look
+      well-calibrated on its chosen proxy while the proxy itself
+      encodes the inequity it then propagates. Wachter and
+      Brynjolfsson (_JAMA_ 2023) raised the generative-AI extension
+      of the same question: the proxy-and-population problem deepens
+      under LLM-class tools whose outputs are harder to validate
+      against any well-defined label at all.#cn()
     ],
     // -- Early Evidence --
     [
-      Similar degradation has been reported in mammography AI,
-      sepsis-prediction tools, and skin-lesion classifiers. Yet the FDA's
-      510(k) clearance pathway does not routinely require demographic
-      stratification of validation metrics, nor post-market monitoring of
-      in-use performance — so the divergence between clearance and
-      deployment is largely invisible while the tool is in use, and a
-      shortfall concentrated in one patient group can persist unmeasured
+      Similar deployment-performance degradation has been reported
+      in mammography AI (validation sets often under-represent
+      dense-breast tissue and Black women), sepsis-prediction tools
+      (the Epic Sepsis Model — Case 102 — is the canonical example of
+      an AI tool deployed at scale whose external validation found
+      it substantially worse than its developer-reported numbers),
+      pulse-oximetry behavior (the structural racial miscalibration
+      documented in Sjoding et al. — Case 106 — sits under several
+      downstream AI sepsis and triage tools), and skin-lesion
+      classifiers (training-set under-representation of darker skin
+      tones produces accuracy gaps in deployment). Yet the FDA's
+      510(k) clearance pathway does not routinely require
+      demographic stratification of validation metrics, nor
+      post-market monitoring of in-use performance — so the
+      divergence between clearance and deployment is largely
+      invisible while the tool is in use, and a shortfall
+      concentrated in one patient group can persist unmeasured
       across the entire period the tool is influencing care.#cn()
     ],
     // -- Open Problems --
     [
-      Radiology AI is the live, recurring case for the gap between
-      regulatory clearance and clinically performable deployment. The
-      capability gap is at the regulatory architecture, not the model: the
-      institutional machinery to require demographic post-market
-      surveillance has not been built. It is the medical-AI analog of the
-      Vioxx post-market-surveillance failure (Case 87) at a new
-      technological boundary — a case where the harm comes not from a hidden
-      defect but from the absence of any standing system to watch the tool
-      once it is in the population's hands.#cn()
+      The FDA's 2025 draft guidance on AI/ML-Based Software as a
+      Medical Device begins to address this gap. The proposed
+      Predetermined Change Control Plan would let manufacturers
+      pre-specify the model updates and validation procedures that
+      can be applied without a new clearance; the companion Good
+      Machine Learning Practice principles emphasize representative
+      training data, transparent performance metrics, and lifecycle
+      monitoring. The De Novo pathway, used for a small number of
+      novel tools, imposes more — but is rarely the chosen route.
+      What the guidance does not yet require, as of its draft form,
+      is mandatory demographic stratification of validation metrics
+      at clearance and mandatory population-level post-market
+      surveillance of in-use performance for the cleared model.
+      Radiology AI thus remains the live, recurring case for the gap
+      between regulatory clearance and clinically performable
+      deployment. The capability gap is at the regulatory
+      architecture, not the model: the institutional machinery to
+      require demographic post-market surveillance has not yet been
+      built. It is the medical-AI analog of the Vioxx
+      post-market-surveillance failure (Case 87) at a new
+      technological boundary — a case where the harm comes not from
+      a hidden defect but from the absence of any standing system to
+      watch the tool once it is in the population's hands.#cn()
     ],
   ),
   beats: (
@@ -567,11 +634,11 @@
     ),
   ),
   references: (
-    [FDA, "Proposed Regulatory Framework for Modifications to AI/ML-Based Software as a Medical Device" (2019) — clearance vs deployment (synthesized).],
-    [Larrazabal et al. (2020), "Gender imbalance in medical imaging datasets," _PNAS_ — sensitivity drops for under-represented groups.],
-    [Obermeyer et al. (2019), "Dissecting racial bias in an algorithm used to manage the health of populations," _Science_ — label bias.],
-    [Wachter & Brynjolfsson (2023), _JAMA_ — generative AI in health care.],
-    [FDA 510(k) clearance documentation — absence of required demographic stratification and post-market monitoring.],
+    [Larrazabal, A. J., Nieto, N., Peterson, V., Milone, D. H., & Ferrante, E. (2020), "Gender imbalance in medical imaging datasets produces biased classifiers for computer-aided diagnosis," _PNAS_ 117(23):12592–12594 — sensitivity drops for under-represented groups on NIH ChestX-ray14 and CheXpert.],
+    [Seyyed-Kalantari, L., Zhang, H., McDermott, M. B. A., Chen, I. Y., & Ghassemi, M. (2021), "Underdiagnosis bias of artificial intelligence algorithms applied to chest radiographs in under-served patient populations," _Nature Medicine_ 27:2176–2182 — disparities across Black, Hispanic, female, and lower-socioeconomic subgroups; persistence across model architectures.],
+    [Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019), "Dissecting racial bias in an algorithm used to manage the health of populations," _Science_ 366(6464):447–453 — proxy-label bias in care-management algorithm covering ~200 million Americans.],
+    [Wachter, R. M. & Brynjolfsson, E. (2023), "Will Generative Artificial Intelligence Deliver on Its Promise in Health Care?" _JAMA_ 331(1):65–69 — generative-AI extension of the proxy-and-population problem.],
+    [FDA, "Proposed Regulatory Framework for Modifications to AI/ML-Based Software as a Medical Device" (2019); FDA draft guidance on AI/ML-Based SaMD (2025), with Predetermined Change Control Plan and Good Machine Learning Practice principles — the regulatory trajectory; absence of mandatory demographic stratification at clearance and post-market monitoring of in-use performance.],
   ),
   quote: [Performance metrics on a clearance dataset are not the same as performance metrics in deployment populations.],
   quote-source: "Editors' synthesis of the FDA AI/ML-Based SaMD discussion paper (2019)",
@@ -584,14 +651,22 @@
     yet been built.
   ],
   lens-approach: [
-    LENS uses radiology AI in LEN 4 for clearance-vs-deployment
-    measurement architecture, in LEN 7 for FDA AI/ML regulatory
-    governance, and in LEN 9 for the technical bias-detection
-    pipeline. The case pairs with Vioxx (Case 87) as a post-market
-    surveillance failure pattern at a new technological boundary.
-    The Obermeyer (2019) finding generalizes the diagnosis: bias
-    enters through the labels and through the population, both of
-    which the 510(k) process currently treats as outside its scope.
+    Radiology AI is the canonical contemporary clinical-AI
+    deployment-and-surveillance case (induced 7.2; LENS D3+D5/PT5).
+    LENS uses it in Domain 3 (Test and Evaluation; CLO-3) for the
+    clearance-vs-deployment measurement architecture and for
+    demographic stratification of validation as a deliverable. LENS
+    uses it in Domain 5 (Machine Teaming and Adaptation; CLO-5) for
+    the human-AI deployment-without-surveillance pattern, and in
+    Domain 4 (Navigating Sociotechnical Constraints) for the
+    FDA AI/ML regulatory trajectory itself. The Obermeyer (2019)
+    finding generalizes the diagnosis: bias enters through the
+    labels and through the population, both of which the 510(k)
+    process currently treats as outside its scope. Pair with Vioxx
+    (Case 87) as the post-market-surveillance-failure pattern at a
+    new technological boundary; cross-references the Epic Sepsis
+    (Case 102) and pulse-oximetry (Case 106) cases at the
+    clinical-AI-without-surveillance layer.
   ],
   literature-items: (
     [Obermeyer et al. (2019), _Science_],
@@ -604,7 +679,6 @@
     [FDA 510(k) clearance does not currently require demographic stratification of validation metrics, nor does it require post-market monitoring of how a cleared tool actually performs on the population using it. What is the minimum reporting deliverable a regulator should require so the gap is visible while the tool is in use?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
-  scale: "big",
 )
 
 #case(

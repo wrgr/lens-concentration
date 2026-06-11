@@ -329,23 +329,36 @@
   sections: (
     // -- Background --
     [
-      Wells Fargo built its retail strategy on "cross-selling" — opening many
-      products per customer — and drove it with aggressive sales quotas
-      pushed down to branch employees, whose pay and jobs depended on hitting
-      them. The metric the bank chose to manage by thus became the thing every
-      front-line employee was structurally compelled to maximize, whatever it
-      took.#cn()
+      Wells Fargo built its retail strategy on "cross-selling" — opening
+      many products per customer — and drove it with aggressive sales
+      quotas pushed down to branch employees, whose pay and jobs
+      depended on hitting them. The bank's signature metric, "Gr-eight"
+      (an average of eight products per household), and a daily "solution"
+      scorecard reported up the management chain made cross-sell the
+      single most-watched proxy for branch performance. The metric the
+      bank chose to manage by thus became the thing every front-line
+      employee was structurally compelled to maximize, whatever it took.
+      The controls function carried no comparably visible counter-measure
+      — no widely reported figure for the share of those accounts that
+      customers had actually authorized — so the incentive ran without
+      a designed brake.#cn()
     ],
     // -- What Happened --
     [
       Unable to meet the quotas honestly, employees opened roughly 3.5
       million unauthorized accounts in customers' names — the rational
-      response to a target most could not reach by legitimate means. The
-      behavior was widespread and longstanding, and visible to internal risk
-      and compliance functions for years; the institutional response was to
-      discipline individual employees as bad apples while leaving the
-      incentive structure intact, fixing the symptom and preserving the
-      cause.#cn()
+      response to a target most could not reach by legitimate means.
+      Practices documented by investigators included opening checking,
+      savings, and credit-card accounts without customer consent,
+      forging signatures, moving funds between accounts to manufacture
+      activity, and enrolling customers in online banking they had not
+      requested. The behavior was widespread and longstanding, and
+      visible to internal risk and compliance functions for years
+      before the 2013 _Los Angeles Times_ reporting made it public;
+      the institutional response was to discipline individual employees
+      as bad apples — Wells Fargo terminated more than 5,300 employees
+      between 2011 and 2016 — while leaving the incentive structure
+      intact, fixing the symptom and preserving the cause.#cn()
     ],
     // -- The Investigation --
     [
@@ -373,14 +386,21 @@
     ],
     // -- Aftermath & Reform --
     [
-      The asset cap constrained the bank's growth for years — a rare,
-      structural consequence that hit the institution where it would feel it —
-      and the case became the standard teaching example of measurement-gaming
-      and incentive design.#cn() Its lesson is that any quota becomes a target
-      to be gamed, and that an institution is accountable for the behavior its
-      measurement system makes rational, not just the behavior endorsed in its
-      values statement — because employees respond to the incentive they are
-      paid on, not the value they are told to honor.
+      Stumpf's successor Tim Sloan, promoted from chief operating officer
+      in the immediate aftermath, was himself forced out in 2019 after the
+      Federal Reserve's asset cap proved more durable than the bank had
+      assumed. The cap — imposed in February 2018 at roughly \$1.95
+      trillion — restricted Wells Fargo's growth pending evidence of
+      governance and risk-management remediation, and as of 2024 it
+      remained in effect, constraining the bank's growth for a sixth
+      consecutive year and making it the longest-running enforcement
+      action of its kind against a major U.S. bank. The case became the
+      standard teaching example of measurement-gaming and incentive
+      design.#cn() Its lesson is that any quota becomes a target to be
+      gamed, and that an institution is accountable for the behavior its
+      measurement system makes rational, not just the behavior endorsed
+      in its values statement — because employees respond to the
+      incentive they are paid on, not the value they are told to honor.
     ],
   ),
   beats: (
@@ -409,10 +429,16 @@
     incentives.
   ],
   lens-approach: [
-    LENS uses Wells Fargo in LEN 4 as a measurement-gaming case and
-    in LEN 7 for the corporate-governance dynamics that allow such
-    incentives to persist for years. Studio projects redesign the
-    incentive architecture.
+    Wells Fargo is the canonical "protecting the measurement from
+    gaming" case (induced 2.2; LENS D3/PT5), with measuring-the-
+    failure-mode-you-care-about (induced 2.1) as the alternate
+    anchor. LENS uses it in LEN 4 as the measurement-gaming case
+    and in LEN 7 for the corporate-governance dynamics that allow
+    such incentives to persist for years. Studio projects redesign
+    the incentive architecture and the countervailing audit measure
+    that would have detected the gaming as a structural pattern
+    rather than as individual misconduct. Adjacent to Texas City
+    (Case 56) at the wrong-measurement-reported-as-a-win layer.
   ],
   literature-items: (
     [Independent Directors Report (2017)],
