@@ -1,5 +1,7 @@
 # Case sweep v2 — scoping note
 
+> **Status (June 2026):** the sweep described in this document has been executed via a chat / deep-research workflow. The outputs live in `v2_research/`: ~77 verified candidates with dual anchors in `v2_research/02_complete_case_list_build_reference.md`, framework revisions in `v2_research/01_LENS_revised_competencies_and_CLOs.md`, and the editor handoff in `v2_research/03_editor_request_memo.md`. This document is retained as the scoping record — the binding rules below originate here and inform the build conventions in `CLAUDE.md`.
+
 A second-pass case sweep to close the catastrophe-bias of the v1 casebook (100 cases, mostly news-visible disasters). v2 targets journal- and conference-scale evidence — the everyday work that doesn't make the news but is where most of a learning engineer's career actually lives.
 
 This document is a **plan**, not a commitment. It exists so the v1 framework in `competencies.md` can be read with the bias acknowledged, and so a v2 effort has a starting shape to react to rather than negotiate from zero.

@@ -1,5 +1,7 @@
 # Research brief — v2 candidate-case sweep
 
+> **Status (June 2026):** the brief was executed via a chat / deep-research workflow before the brief itself was committed to the repo. Outputs in `v2_research/`. The brief is retained as a methodology record — anyone designing a v3 (or v2.x) supplemental pass should start from this brief, adapt the priority quadrants to the post-v2 lift state, and treat the dual-tier floors in `CLAUDE.md` as binding.
+
 A self-contained brief for a research process (Claude.ai chat, deep-research workflow, or a human research assistant) to produce a structured candidate-case report for the v2 expansion of *Capability Matters: A Casebook*. The report should over-supply candidates; the editor will trim.
 
 The brief is self-contained: anyone can run it without needing to read the rest of the repo. It carries the induced competency framework, the tier definitions, the selection criteria, the venue list, and the output format. Background docs in this repo (`competencies.md`, `case-sweep-v2-plan.md`, `METHODOLOGY.md`, `CLAUDE.md`) are for context but are not required reading to act on the brief.
