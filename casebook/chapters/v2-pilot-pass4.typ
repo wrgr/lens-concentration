@@ -182,14 +182,13 @@
     the existing curriculum.
   ],
   lens-approach: [
-    CIRCUIT proofreading is the human-correction-layer frontier
-    case (induced 3.4; LENS D5/PT6). LENS uses it in Domain 5
-    (Machine Teaming and Adaptation) for the CLO *Delegation
-    with revocation* and in Domain 3 (Test and Evaluation) for
-    the evidence-tier split (peer-reviewed method, institutional
-    program outcomes). Pair with Case 120 (CIRCUIT workforce)
-    and the AI-delegation typology (Cases 101, 102, 111, 155).
-    COI under the title binds.
+    CIRCUIT proofreading is the human-correction-layer
+    frontier case (induced 3.4; LENS D5/PT6). LENS uses it in
+    Domain 5 for the CLO *Delegation with revocation* and in
+    Domain 3 for the evidence-tier split (peer-reviewed method,
+    internal-PM program outcomes). Pair with Case 120 (CIRCUIT
+    workforce) and the AI-delegation set (Cases 101, 102, 111,
+    155). COI binds.
   ],
   literature-items: (
     [MICrONS program literature — connectomics method base],
