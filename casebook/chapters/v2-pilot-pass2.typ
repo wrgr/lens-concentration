@@ -533,14 +533,10 @@
   lens-approach: [
     BCMA is the small-tier point-of-care cue/alert
     intervention (induced 3.1; LENS D3/PT5). LENS uses it in
-    Domain 3 (Test and Evaluation) for the cue-as-deliverable
-    design, and in Domain 5 (Machine Teaming and Adaptation)
-    for the workflow-around-the-cue that makes the
-    mechanism land in operation. Pair with Case 116
-    (anesthesia monitoring / APSF) at the cue-as-deliverable
-    layer — same structural pattern in a different specialty —
-    and with Case 13 (WHO Surgical Checklist) at the
-    mandatory-mechanism layer.
+    Domain 3 for cue-as-deliverable design and in Domain 5
+    for the workflow-around-the-cue that makes the mechanism
+    land in operation. Pair with Case 116 (anesthesia
+    monitoring / APSF) and Case 13 (WHO Surgical Checklist).
   ],
   literature-items: (
     [Poon et al. (2010), _NEJM_],
@@ -707,15 +703,11 @@
   lens-approach: [
     I-PASS is the state-transparency-under-stress case at the
     human–human boundary (induced 3.3; LENS D2/PT5). LENS
-    uses it in Domain 2 (Iterative Development) for the
-    bundle-as-intervention design discipline, and in Domain 4
-    (Navigating Sociotechnical Constraints) for the
-    institutional commitment to faculty development and
-    sustainability that makes the mnemonic land in operation.
-    Pair with Case 117 (CIRAS) at the
-    cultural-half-of-capability layer, and with v1 Cases 12
-    (CRM) and 89 (ASRS) at the aviation-lineage layer the
-    bundle partly borrows from.
+    uses it in Domain 2 for bundle-as-intervention discipline
+    and in Domain 4 for the institutional commitment to
+    faculty development that makes the mnemonic land. Pair
+    with Case 117 (CIRAS), and with v1 Cases 12 (CRM) and 89
+    (ASRS) at the aviation-lineage layer.
   ],
   literature-items: (
     [Starmer et al. (2014), _NEJM_],
@@ -1051,18 +1043,13 @@
     language has to travel with the result.
   ],
   lens-approach: [
-    The NCSBN study is the canonical regulator-owned
-    cross-organization knowledge-transfer case
-    (induced 6.1; LENS D2/PT4). LENS uses it in Domain 2
-    (Iterative Development) for the RCT-design discipline
-    that made the result credible, and in Domain 4
-    (Navigating Sociotechnical Constraints) for the
-    institutional-ownership move that let the evidence
-    propagate across decentralized regulators. Pair with
-    Case 121 (Colorado CTSA team-science training) at the
-    cross-domain workforce-intervention layer — both rest on
-    the legitimacy of the assessment instrument the
-    institution then has to defend.
+    NCSBN is the regulator-owned cross-organization
+    knowledge-transfer case (induced 6.1; LENS D2/PT4). LENS
+    uses it in Domain 2 for the RCT-design discipline that
+    made the result credible, and in Domain 4 for the
+    institutional-ownership move that propagated the evidence
+    across decentralized regulators. Pair with Case 121
+    (Colorado CTSA) at the workforce-intervention layer.
   ],
   literature-items: (
     [Hayden et al. (2014), _J Nursing Regulation_],
@@ -1760,16 +1747,12 @@
     readings in either direction miss the substance.
   ],
   lens-approach: [
-    Yeager et al. 2019 is the canonical
-    designing-predictions-to-trigger-support case
-    (induced 8.3; LENS D2/PT5). LENS uses it in Domain 2
-    (Iterative Development) for the pre-registered moderator
-    analysis as design discipline, and in Domain 4
-    (Navigating Sociotechnical Constraints) for the
-    equity-relevant commitment to target support to those
-    who benefit rather than to apply a blanket treatment.
-    Pair with Case 138 (Gándara) at the scalable-equity-
-    intervention layer.
+    Yeager et al. 2019 is the designing-predictions-to-trigger-
+    support case (induced 8.3; LENS D2/PT5). LENS uses it in
+    Domain 2 for pre-registered moderator analysis as design
+    discipline, and in Domain 4 for the equity-relevant
+    commitment to target support to those who benefit rather
+    than apply blanket treatment. Pair with Case 138 (Gándara).
   ],
   literature-items: (
     [Yeager et al. (2019), _Nature_],
