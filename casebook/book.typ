@@ -120,6 +120,7 @@
 #include "chapters/v2-pilot-suppl-b.typ"
 #include "chapters/v2-pilot-suppl-c.typ"
 #include "chapters/v2-pilot-pass9.typ"
+#include "chapters/v2-pilot-pass10.typ"
 
 // ============================================================
 // BACK MATTER
