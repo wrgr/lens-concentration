@@ -549,6 +549,9 @@
     caption: "LLMs in clinical use — fluency without warranty",
   ),
   kind: "frontier",
+  induced-anchor: "5.2",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-3, CLO-5",
   summary: [
     Since ChatGPT's public release in late 2022, the clinical and
     peer-reviewed literatures have documented a recurring pattern:
@@ -657,10 +660,21 @@
     analog to the bibliographic discipline of academic writing.
   ],
   lens-approach: [
-    LENS uses this case in LEN 2 as the live frontier for human-AI
-    teaming with LLMs, in LEN 7 for the governance of LLM deployment
-    in clinical workflows, and in LEN 10 (capstone) as a prompt for
-    designing verification practices at the moment of use.
+    The learning engineer's deliverable here is a specific artifact, not
+    a posture: a verification-at-point-of-use guardrail that counters
+    cognitive offloading. Concretely, a confirm-before-act gate wrapped
+    around the LLM output — every dosage, contraindication, or guideline
+    citation the clinician would rely on must clear a forced
+    source-attribution step that surfaces the underlying reference (or
+    its absence) and requires an explicit confirmation against it before
+    the output can be acted on. The gate is designed so the model's
+    fluency cannot satisfy it: a smooth, confident answer with no
+    attributable source fails the check and is held back from
+    patient-facing use. LENS builds and critiques exactly this guardrail
+    in LEN 2 (the human-AI verification interface), stresses it in LEN 7
+    (governing the gate as deployment policy), and in LEN 10 (capstone)
+    asks the student to design the confirm-before-act artifact for a
+    clinical workflow already in use.
   ],
   literature-items: (
     [JAMA editorials on LLM clinical use],
@@ -981,6 +995,9 @@
     caption: "AI-augmented coding — the capability question is open",
   ),
   kind: "frontier",
+  induced-anchor: "5.2",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5",
   summary: [
     AI-augmented coding tools — GitHub Copilot, Cursor, Codeium, and peers
     — represent the largest real-time experiment in human-AI collaboration
@@ -1093,10 +1110,21 @@
     discipline must learn to ask and answer.
   ],
   lens-approach: [
-    LENS uses AI-augmented coding in LEN 2 as the largest live human-
-    AI teaming case in the dataset, in LEN 8 for the long-term
-    capability-development question, and in LEN 10 (capstone) as a
-    prompt for evaluating AI augmentation in professional practice.
+    The teaching point is a measurement-design problem, and it is the
+    load-bearing one: productivity metrics count output and so cannot
+    distinguish a developer whose skill is growing from one whose skill
+    is quietly eroding under augmentation. The learning engineer's task
+    is to build the instrument that separates those two. The design is a
+    longitudinal, tool-removed probe — periodically measure each
+    developer on representative tasks with the assistant withheld,
+    scoring unaided correctness, debugging, and the ability to judge
+    generated code, and track that aided-minus-unaided gap over time. A
+    widening gap (rising aided output, flat-or-falling unaided
+    competence) reads as skill-atrophy; a narrowing one reads as
+    skill-growth. LENS uses this case in LEN 2 (human-AI teaming), in LEN
+    8 to build the capability-development instrument itself, and in LEN
+    10 (capstone) to have the student design the atrophy-versus-growth
+    measurement for an augmented practice in their own domain.
   ],
   literature-items: (
     [Peng et al. (2023)],

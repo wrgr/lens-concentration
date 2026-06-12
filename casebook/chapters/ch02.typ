@@ -644,10 +644,18 @@
     at the manufacturer's bench.
   ],
   lens-approach: [
-    LENS uses Takata in LEN 4 as a measurement-system case (the
-    manufacturer's data was reported but not interpreted as a class)
-    and in LEN 7 as an industrial-governance failure spanning
-    manufacturer, regulator, and customer auditors.
+    The load-bearing lesson is post-deployment surveillance. Field
+    rupture reports arrived over years but were never aggregated and
+    interpreted as a single class-level safety signal, so an obvious
+    failure mode stayed hidden inside a process that kept receiving the
+    evidence and reporting it back as noise. The ammonium-nitrate-without-desiccant
+    chemistry is the substrate of the hazard, but the capability that
+    should have caught it is the surveillance-aggregation function that
+    turns scattered field reports into one population-level signal with
+    authority to act. LENS uses Takata in LEN 5 to build that
+    aggregate-the-field-signal capability and in LEN 7 as an
+    industrial-governance failure spanning manufacturer, regulator, and
+    customer auditors.
   ],
   literature-items: (
     [DOJ deferred-prosecution documents (2017)],
@@ -673,6 +681,9 @@
   ),
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
+  induced-anchor: "2.4",
+  lens-anchor: "D3/PT3",
+  clo-anchor: "CLO-3",
 )
 
 #case(
@@ -790,11 +801,17 @@
     recall did not.
   ],
   lens-approach: [
-    LENS uses GM in LEN 7 as a corporate-governance failure case, in
-    LEN 8 to study Valukas-style retrospective institutional analysis,
-    and in LEN 4 for the part-number-as-measurement-instrument story
-    (changing the part without changing the number suppressed the
-    signal).
+    The load-bearing lesson is change control. Engineers changed the
+    ignition switch but kept the same part number, defeating
+    configuration traceability so the field failures could never be tied
+    back to a design change and the records insisted the part had "never
+    changed." The capability to build is configuration management that
+    forbids altering a part without renumbering it, so the system can
+    always see what changed and connect a field failure to the revision
+    that caused it. LENS uses GM in LEN 4 for that change-control and
+    part-number-as-signal discipline, and secondarily in LEN 7 and LEN 8
+    for the corporate-cover-up and Valukas-style retrospective
+    accountability framing.
   ],
   literature-items: (
     [Valukas (2014), report to GM],
@@ -820,6 +837,9 @@
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8", "LEN 6",),
   scale: "big",
+  induced-anchor: "5.4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-3",
 )
 
 #case(

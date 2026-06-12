@@ -710,9 +710,16 @@
     institutional asset.
   ],
   lens-approach: [
-    LENS uses the Saturn V case in LEN 8 as the foundational
-    organizational-memory case and in LEN 1 to teach the distinction
-    between recorded knowledge and institutional capability.
+    LENS uses the Saturn V case in LEN 8 to teach that retaining and
+    overlapping the expert personnel who hold tacit making-knowledge
+    is itself an engineered deliverable (induced 6.3) — not a
+    by-product of writing better documents. The capability to rebuild
+    a Saturn V was lost because workforce overlap and retention were
+    never treated as a designed retention deliverable, and
+    documentation alone cannot carry tacit process knowledge across a
+    generation. The teaching point in LEN 1 is therefore not
+    "document more thoroughly" but "engineer the personnel continuity
+    that the archive can never substitute for."
   ],
   literature-items: (
     [Polanyi (1966), _The Tacit Dimension_],
@@ -738,6 +745,9 @@
   ),
   courses: ("LEN 1", "LEN 8"),
   scale: "big",
+  induced-anchor: "6.3",
+  lens-anchor: "D4/PT2",
+  clo-anchor: "CLO-2",
 )
 
 #case(
@@ -858,9 +868,16 @@
     institutional architecture for catching it did not exist.
   ],
   lens-approach: [
-    LENS uses Starliner in LEN 8 as a contemporary contractor-
-    capability erosion case and in LEN 5 for the contractor-NASA
-    interface capability that has thinned over decades.
+    LENS uses Starliner in LEN 5 to teach one clean capability gap:
+    the contractor-NASA interface capability that thinned over a
+    decade. As NASA shifted to fixed-price commercial contracting, its
+    own oversight and insight capacity eroded, so the problems an
+    integrated review would have caught instead surfaced in flight
+    (against the cross-subsystem troubles as the visible symptom). The
+    teaching point is that the buyer's review capability is an
+    engineered deliverable in its own right — let it thin and a
+    slipping supplier becomes legible only when a crewed flight forces
+    the reckoning.
   ],
   literature-items: (
     [GAO Commercial Crew reports (GAO-19-504; GAO-20-121)],
@@ -887,6 +904,9 @@
   courses: ("LEN 5", "LEN 8", "LEN 6",),
   scale: "big",
   evidence-source: "investigation",
+  induced-anchor: "6.3",
+  lens-anchor: "D4/PT2",
+  clo-anchor: "CLO-1",
 )
 
 #case(

@@ -10075,9 +10075,9 @@
   scale: "big",
   evidence-source: "investigation",
   evidence-flag: "journalism-tier",
-  induced-anchor: "8.1",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4",
+  induced-anchor: "5.2",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     Aadhaar — India's biometric digital-identity system, with
     roughly one billion enrolled — was designed to streamline
@@ -10219,11 +10219,26 @@
     implementation of the remedy.
   ],
   lens-approach: [
-    Aadhaar exclusion is the automated-welfare-delegation case
-    with judicial correction (induced 8.1, 5.2; LENS D4/PT6) —
-    Domain 4 for *Fairness beyond omission* and *Delegation
-    with revocation* (court bounded, not revoked). Pair with
-    SyRI (Case 64) and the UK Post Office Horizon thread.
+    The designed teaching point is operational failure-mode
+    attribution (induced 5.2; canonical competency 8.1; LENS
+    D4/PT5). At the ration-shop card-reader and the pension
+    window, a biometric authentication that did not match was
+    logged as user error — the claimant's worn fingerprints,
+    the elderly applicant's failed iris read — when it was in
+    fact a designed exclusion mode of the system: manual
+    laborers and the elderly are precisely the populations
+    whose biometrics the design could not reliably read, so the
+    failure belongs to the authentication design, not to the
+    excluded person. The capability discipline is to attribute
+    an authentication failure to the system that produced it
+    rather than to the user it shut out, and to name who the
+    design predictably excludes before deployment. The Pragya
+    Prasun court enacted exactly this attribution: it bounded
+    the system — alternatives to biometric authentication must
+    be provided — rather than revoking it, holding that
+    exclusion through no fault of the individual is the
+    system's failure to answer for. Pair with SyRI (Case 64)
+    and the UK Post Office Horizon thread.
   ],
   literature-items: (
     [Puttaswamy II (2018) and Pragya Prasun (2025) — Supreme Court of India judgments],

@@ -410,10 +410,16 @@
     canonical form.
   ],
   lens-approach: [
-    LENS treats Bhopal in LEN 5 as a multi-failure capability analysis
-    case and in LEN 7 as the largest-magnitude governance failure in
-    the dataset. The Failure → Reform arc to the CSB demonstrates the
-    institution-building pattern at industry scale.
+    LENS names the specific capability gap, not "governance matters" in
+    the abstract: at a transferred and cost-pressured plant, the
+    maintenance and operating capability had been hollowed out —
+    refrigeration and scrubber safety systems off-line, maintenance
+    deferred, staff and training cut, deviance quietly normalized. Each
+    eroded layer was individually tolerated, so the failure is a
+    multi-layer drift (induced 7.4) that no single inspection or metric
+    could see. The teaching point is the multi-layer-drift analysis and
+    the treatment of maintenance capability as a deliverable that must be
+    sustained, not a ledger line available for trimming.
   ],
   literature-items: (
     [Meshkati (1991), _Industrial Crisis Quarterly_],
@@ -440,6 +446,9 @@
   courses: ("LEN 5", "LEN 7", "LEN 3",),
   scale: "big",
   evidence-source: "investigation",
+  induced-anchor: "7.4",
+  lens-anchor: "D4/PT4",
+  clo-anchor: "CLO-1, CLO-4",
 )
 
 #case(
@@ -553,11 +562,15 @@
     high-consequence domain.
   ],
   lens-approach: [
-    LENS treats Grenfell in LEN 7 as the canonical multi-actor governance
-    failure case, in LEN 8 to discuss institutional memory of warnings
-    across the LFB and other agencies, and in LEN 10 as a studio prompt
-    for designing the integrated capability-and-governance deliverable
-    that would have caught the cladding decision.
+    LENS reads Grenfell through the institutional-memory-of-warnings
+    channel (induced 7.4, with a 6.2 secondary): prior cladding-fire
+    warnings existed — Lakanal House, the London Fire Brigade's own
+    knowledge from earlier incidents — but none ever reached the
+    refurbishment and cladding decision that could have acted on them.
+    The capability deliverable is the channel that carries a known
+    warning to the decision empowered to stop the work; the cladding
+    firms' systematic dishonesty was a real aggravator but is the
+    secondary thread, not the lesson.
   ],
   literature-items: (
     [Grenfell Tower Inquiry, full reports],
@@ -583,6 +596,9 @@
   ),
   courses: ("LEN 10", "LEN 7", "LEN 8", "LEN 3",),
   scale: "big",
+  induced-anchor: "7.4",
+  lens-anchor: "D4/PT4",
+  clo-anchor: "CLO-2, CLO-4",
 )
 
 #case(
@@ -1607,10 +1623,14 @@
     boundary.
   ],
   lens-approach: [
-    LENS uses Dieselgate in LEN 4 as the canonical case for
-    measurement-system evasion and in LEN 7 for the corporate-
-    governance dynamics of engineered fraud. The reform pattern
-    parallels Takata (Case 20).
+    LENS reads Dieselgate at the independent-instrument and
+    operator-inspector boundary (induced 2.2): the defeat device worked
+    by detecting the test condition itself, so the measurement was one
+    the operator could see coming and game. The lesson is designing an
+    emissions-measurement and inspection regime the operator cannot
+    detect and defeat — real-driving emissions, surprise and
+    outside-the-loop testing — rather than the bare observation that
+    fraud occurred. The reform pattern parallels Takata (Case 20).
   ],
   literature-items: (
     [Ewing (2017), _Faster, Higher, Farther_],
@@ -1636,6 +1656,9 @@
   ),
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
+  induced-anchor: "2.2",
+  lens-anchor: "D3/PT3",
+  clo-anchor: "CLO-3",
 )
 
 #case(
@@ -1750,9 +1773,14 @@
     design assumption was wrong.
   ],
   lens-approach: [
-    LENS uses Cambridge Analytica in LEN 7 as the foundational case
-    for platform governance and data ethics, and in LEN 1 to teach
-    that "design assumption" is a load-bearing capability deliverable.
+    LENS anchors Cambridge Analytica cleanly to the platform and API
+    governance seam (induced 5.3): the app-permission model let one
+    app harvest friends-of-friends data far beyond the consenting user.
+    This is a governance-seam case — acceptable under canonical
+    competency 5 — about where a platform's interface contract carries
+    obligations its design never enforced; it is not a
+    capability-development or problem-framing case, and is not taught
+    as one.
   ],
   literature-items: (
     [Zuboff (2019), _The Age of Surveillance Capitalism_],
@@ -1778,6 +1806,9 @@
   ),
   courses: ("LEN 1", "LEN 7", "LEN 6",),
   scale: "big",
+  induced-anchor: "5.3",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
 )
 
 #case(

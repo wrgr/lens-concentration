@@ -341,11 +341,16 @@
     SOFR — re-engineered the measurement at the architecture level.
   ],
   lens-approach: [
-    LENS uses LIBOR in LEN 4 as the canonical measurement-architecture
-    case at financial-system scale and in LEN 7 for the cross-
-    jurisdictional governance reform that produced SOFR. The case
-    pairs with Wells Fargo (Case 54) and Volkswagen (Case 55) as
-    measurement-gaming cases.
+    LIBOR is a measurement-gaming exemplar (induced 2.2): the benchmark
+    was a self-reported estimate panel with no independent instrument
+    behind the number, so the parties being measured authored the
+    measurement, and the figure flowed into hundreds of trillions in
+    contracts. LENS binds it to the measurement-gaming cluster alongside
+    Wells Fargo (Case 54) and Volkswagen (Case 55): in each, the reporting
+    party controlled the input it was judged on. The design lesson is to
+    build an instrument the reporting party cannot author — anchor the
+    measure in observations the measured party cannot supply, rather than
+    in declarations they can.
   ],
   literature-items: (
     [Wheatley Review (2012)],
@@ -371,6 +376,9 @@
   ),
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
+  induced-anchor: "2.2",
+  lens-anchor: "D3/PT3",
+  clo-anchor: "CLO-3",
 )
 
 #case(
@@ -488,10 +496,16 @@
     but rarely implemented at scale.
   ],
   lens-approach: [
-    LENS uses APS in LEN 4 as the foundational U.S. education
-    measurement-gaming case and in LEN 7 for the incentive-
-    architecture failure. Studio projects examine how an independent
-    audit would have caught the cheating.
+    APS is the protect-the-instrument-from-the-operator-who-controls-it
+    case (induced 2.2): the educators measured on the test also
+    administered and scored it, so the instrument was capturable by the
+    very people it judged. LENS pairs it explicitly with VA wait-times
+    (Case 84), a same-shape instrument-integrity failure where the unit
+    being measured operated the measurement and quietly rewrote the
+    number. The lesson is an instrument-integrity design choice —
+    separate the measured from the measurer, and audit independently of
+    the institution being judged — not the surface reading that people
+    cheated under pressure.
   ],
   literature-items: (
     [Special Investigators Final Report (2011)],
@@ -517,6 +531,9 @@
   ),
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
+  induced-anchor: "2.2",
+  lens-anchor: "D3/PT3",
+  clo-anchor: "CLO-3",
 )
 
 #case(
