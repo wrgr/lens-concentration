@@ -8,7 +8,7 @@ Draft for discussion — Revised June 2026. Maps LDT program and LENS concentrat
 
 # 1. Program Context
 
-The LDT M.Ed. is a 10-course, 30-credit, online/asynchronous master's degree in the School of Education. The program currently enrolls 28 students, primarily from K–12 education and adult education (training, instructional design). LDT comprises three concentrations: Learning Experience Design (LXD, currently operating), AI Leadership in Education (AILE, launching August 2026), and Learning Engineering (LENS, launching August 2026).
+The LDT M.Ed. is a 10-course, 30-credit, online/asynchronous master's degree in the School of Education. LDT comprises three concentrations: Learning Experience Design (LXD, currently operating), AI Leadership in Education (AILE, launching August 2026), and Learning Engineering (LENS, launching August 2026).
 
 Program structure is fixed by MHEC approval. The total number of courses (10) and the number of concentration-specific courses (3) are not subject to change within the next two to three years. Course content within the concentration, methods, capstone, and elective slots is shapeable.
 
