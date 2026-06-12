@@ -37,16 +37,20 @@
 #let view = sys.inputs.at("view", default: "book")
 
 // ---- Case entry for the overview booklets -------------------------------
-// Layout discipline:
-//   - Title at 14pt: fits one line for ~90% of cases.
-//   - Summary at 9pt: condensed but readable.
-//   - 5 beats each on one line — beat text truncated where needed by smaller font.
-//   - LENS Applicability: SHORT lens lesson (uses le-insight or the brief lens
-//     field — intentionally compact, ~2-3 lines).
-//   - Course mapping: induced anchor · LENS anchor · CLO anchor · LEN courses
-//     on one line below LENS Applicability.
-//   - 1–3 key references inline with " · " separators, taken from refs as
-//     they're authored.
+// Layout discipline (per editor direction):
+//   Header (case # · domains · year)
+//   Title    14pt — fits one line for ~90% of cases
+//   Impact   the case's 1-sentence consequence line — replaces the long
+//            full-book summary; sized so it never spills the entry block
+//   5 beats  2-column grid (label · beat), each beat on one line
+//   v(1fr)   distributes slack so refs/connectivity/banner sit at bottom
+//   Refs     1–3 key references, 7pt bulleted
+//   Connectivity panel — clearly labeled with row labels:
+//      Induced   X.Y
+//      LENS      D#/PT#
+//      CLO       CLO-N, …
+//      Courses   LEN N, …
+//   Bottom banner — LENS lesson, ~2 lines, from le-insight, navy tint
 //
 // Two layouts, chosen by `view`:
 //   "overview"      US Letter, two half-page entries per page (fixed height)
@@ -54,11 +58,10 @@
 #let overview-entry(number, title, year, domains, modes, summary, refs, lens,
                     sections: (), beats: (), kind: none,
                     courses: (), clo-anchor: none, induced-anchor: none, lens-anchor: none,
-                    le-insight: none) = {
+                    le-insight: none, impact: "") = {
   let big = view == "overview-half"
   let labels = section-sets.at(kind, default: section-sets.failure)
-  // Consistent vertical-spacing primitives. All inter-block gaps come from
-  // these — no irregular v() values scattered through the layout.
+  // Consistent vertical-spacing primitives.
   let gap-small = 2pt
   let gap-med = 4pt
   let gap-big = 6pt
@@ -72,9 +75,14 @@
     eyebrow(year),
   )
   let titleblock = text(font: serif, size: if big { 14pt } else { 12.5pt }, fill: navy, title)
-  // 5 beats — each one line. We use a 2-column grid (label · beat) at 6.8pt
-  // so labels align in a tight column and beats truncate by font size rather
-  // than wrapping. Hard cap at one line per beat row.
+  // Impact replaces summary as the lead. The `impact` field is a single
+  // consequence sentence (~40-60 words) authored per case; renders in
+  // dark navy at 9pt with tight leading.
+  let leadblock = block({
+    set par(justify: true, leading: 0.55em)
+    text(font: sans, size: 9pt, fill: text-dark, impact)
+  })
+  // 5 beats — 2-column grid. Each beat row is one line at 6.8pt.
   let beatsblock = {
     eyebrow("The full case, in five beats", color: navy-mid)
     v(gap-small)
@@ -95,9 +103,7 @@
       }
     })
   }
-  // Key references — 1 to 3 entries, bulleted at 7pt, tight leading. The
-  // function takes whatever the case authored; if 2 entries are present we
-  // render 2, if 3 we render 3, etc.
+  // Key references — 1 to 3 entries, bulleted at 7pt.
   let refsblock = {
     eyebrow("Key references", color: gold)
     v(gap-small)
@@ -110,73 +116,93 @@
       }
     })
   }
-  // LENS Applicability: SHORT lens lesson — uses le-insight when available
-  // (already the ~3-line editorial takeaway), falling back to the longer
-  // lens-approach when not. Goal is a 2–3 line standardized answer to
-  // "what does LENS teach with this case?"
-  let lens-lesson-text = if le-insight != none { le-insight } else { lens }
-  let lensblock = {
-    eyebrow("LENS applicability", color: teal)
-    v(gap-small)
-    block({
-      set par(justify: false, leading: 0.46em)
-      text(font: sans, size: 7.5pt, fill: text-dark, lens-lesson-text)
-    })
-    // Course mapping line — inline after the eyebrow to save vertical room.
-    if courses.len() > 0 or clo-anchor != none or induced-anchor != none or lens-anchor != none {
+  // Connectivity panel — clearly labeled 2-column grid of where this case
+  // sits in the framework. Renders only fields that are populated; absent
+  // anchors are silently omitted.
+  let connectivityblock = {
+    let rows = ()
+    if induced-anchor != none and induced-anchor != "" {
+      rows.push((
+        text(font: sans, size: 7pt, weight: "medium", tracking: 1pt, fill: navy-mid, upper("Induced")),
+        text(font: sans, size: 7.5pt, weight: "medium", fill: navy, induced-anchor),
+      ))
+    }
+    if lens-anchor != none and lens-anchor != "" {
+      rows.push((
+        text(font: sans, size: 7pt, weight: "medium", tracking: 1pt, fill: navy-mid, upper("LENS")),
+        text(font: sans, size: 7.5pt, weight: "medium", fill: navy, lens-anchor),
+      ))
+    }
+    if clo-anchor != none and clo-anchor != "" {
+      rows.push((
+        text(font: sans, size: 7pt, weight: "medium", tracking: 1pt, fill: navy-mid, upper("CLO")),
+        text(font: sans, size: 7.5pt, weight: "medium", fill: navy, clo-anchor),
+      ))
+    }
+    if courses.len() > 0 {
+      rows.push((
+        text(font: sans, size: 7pt, weight: "medium", tracking: 1pt, fill: navy-mid, upper("Courses")),
+        text(font: sans, size: 7.5pt, weight: "medium", fill: navy, courses.join(", ")),
+      ))
+    }
+    if rows.len() > 0 {
+      eyebrow("Connectivity", color: teal)
       v(gap-small)
       block({
-        set par(justify: false, leading: 0.42em)
-        eyebrow("Course mapping", color: navy-mid)
-        h(4pt)
-        let parts = ()
-        if induced-anchor != none and induced-anchor != "" {
-          parts.push("induced " + induced-anchor)
-        }
-        if lens-anchor != none and lens-anchor != "" {
-          parts.push(lens-anchor)
-        }
-        if clo-anchor != none and clo-anchor != "" {
-          parts.push(clo-anchor)
-        }
-        if courses.len() > 0 {
-          parts.push(courses.join(" · "))
-        }
-        text(font: sans, size: 7pt, weight: "medium", fill: navy, parts.join(" · "))
+        set par(leading: 0.4em, spacing: 1pt)
+        grid(
+          columns: (auto, 1fr),
+          column-gutter: 6pt,
+          row-gutter: 1pt,
+          ..rows.flatten()
+        )
       })
     }
   }
+  // Bottom banner — LENS lesson, ~2 lines, from le-insight. Tight inset,
+  // breakable: false so it stays whole if it fits, but doesn't force its
+  // own height. Falls back to `lens` (lens-approach) if le-insight unset.
+  let lesson-text = if le-insight != none and le-insight != [] { le-insight } else { lens }
+  let bannerblock = block(
+    width: 100%,
+    fill: rgb("#F1F5FB"),
+    stroke: (left: 1.5pt + navy-mid),
+    inset: (x: 6pt, y: 3pt),
+    breakable: false,
+    {
+      set par(justify: false, leading: 0.42em)
+      text(font: sans, size: 6.8pt, weight: "medium", tracking: 1pt, fill: navy, upper("LENS lesson"))
+      h(5pt)
+      text(font: sans, size: 7pt, fill: text-dark, lesson-text)
+    },
+  )
 
   if big {
-    // One case per Half-Letter page. Sequence: header → title → summary →
-    // 5 beats → references → LENS Applicability + Course mapping.
-    // All inter-block gaps use the gap-* primitives for regularity.
+    // One case per Half-Letter page. Header → title → impact → beats →
+    // (filler) → connectivity → refs → bottom banner.
     header
     v(gap-med)
     titleblock
     v(gap-big)
-    block({
-      set par(justify: true, leading: 0.55em)
-      text(font: sans, size: 9pt, fill: text-dark, summary)
-    })
+    leadblock
     v(gap-big)
     beatsblock
     v(1fr)
-    refsblock
+    connectivityblock
     v(gap-med)
-    lensblock
+    refsblock
+    v(gap-small)
+    bannerblock
     pagebreak(weak: true)
   } else {
-    let callout = block({
-      set par(justify: true, leading: 0.55em)
-      text(font: sans, size: 9pt, fill: text-dark, summary)
-    })
     block(
       width: 100%, height: 113mm, breakable: false,
       inset: (top: 5pt, bottom: 4pt), stroke: (top: 0.6pt + rule-soft),
       {
-        header; v(gap-small); titleblock; v(gap-med); callout;
-        v(gap-med); beatsblock; v(gap-med); refsblock; v(gap-small); lensblock
+        header; v(gap-small); titleblock; v(gap-med); leadblock;
+        v(gap-med); beatsblock; v(gap-med);
+        connectivityblock; v(gap-small);
+        refsblock; v(gap-small); bannerblock
       },
     )
   }

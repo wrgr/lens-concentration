@@ -64,7 +64,7 @@
                    sections: sections, beats: beats, kind: kind,
                    courses: courses, clo-anchor: clo-anchor,
                    induced-anchor: induced-anchor, lens-anchor: lens-anchor,
-                   le-insight: le-insight)
+                   le-insight: le-insight, impact: impact)
   } else {
 
   // Shared header: case number / domains / year, title, mode line, impact.
