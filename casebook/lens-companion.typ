@@ -28,8 +28,9 @@
 )
 
 #set page(
-  paper: "us-letter",
-  margin: (x: 22mm, top: 20mm, bottom: 18mm),
+  width:  8in,
+  height: 10in,
+  margin: (x: 18mm, top: 18mm, bottom: 16mm),
   fill: white,
   header: context {
     let p = counter(page).get().first()
@@ -186,6 +187,107 @@
       the flywheel: see the system → build → integrate humans → measure
       → deploy. Prior versions are preserved in the program docs'
       change logs (`lens_program/1_LENS_Five_Competencies.md`).
+    ]
+  }
+)
+
+#pagebreak()
+
+// ============================================================
+// THE THESIS — salient framing from the casebook introduction
+// (condensed for the companion; the full argument lives in the
+// casebook's introduction proper)
+// ============================================================
+#h1("Why a companion — the thesis in brief")
+
+#text(font: sans, size: 11pt, fill: text-dark)[
+  Learning engineering is a toolbox, not a single tool. At its centre is
+  a dialogue between two traditions — the engineering disciplines that
+  design, build, and sustain complex systems, and the learning sciences
+  and education that study how people come to know and do. Around that
+  dialogue gather many other fields: cognitive and human-factors
+  engineering, measurement, implementation science, design, data and
+  computation, and the operational domains themselves. The work is
+  plural by design.
+]
+
+#v(8pt)
+
+#text(font: serif, size: 22pt, fill: navy, "Capability is a system parameter.")
+
+#v(4pt)
+
+#text(font: serif, size: 11pt, style: "italic", fill: teal)[
+  Every complex system depends on what people can do inside it. That
+  dependency is measurable, designable, and too important to leave to
+  chance.
+]
+
+#v(8pt)
+
+#block(
+  width: 100%,
+  inset: (left: 12pt, top: 6pt, bottom: 6pt),
+  stroke: (left: 1.5pt + gold),
+  {
+    set par(leading: 0.6em)
+    text(font: sans, size: 9pt, fill: navy)[
+      *01.* Systems don't fail because the technology breaks. They fail because someone couldn't do what the system required. #parbreak()
+      *02.* We engineer every parameter of a system except the people. #parbreak()
+      *03.* Capability is not a soft problem. It is a systems engineering problem. #parbreak()
+      *04.* Decision-grade evidence. Not opinions about training. #parbreak()
+      *05.* Capability without agency is automation. The goal is operators who can perform, adapt, and lead — not comply. #parbreak()
+      *06.* Sometimes the constraints make the goal unreachable. Saying so early is a result, not a failure.
+    ]
+  }
+)
+
+#v(10pt)
+
+#text(font: sans, size: 10pt, fill: text-dark)[
+  Capability lives at the *interface* between what a system requires of
+  its operators and the impact the system has to deliver. When that
+  interface is wrong, the gap may originate in human development, in
+  system design, in organisational performance, or in the interaction
+  among them. Distinguishing which is itself a measurement and
+  engineering problem; the casebook calls it *gap attribution*, and
+  treats it as the diagnostic move that the rest of the discipline
+  depends on.
+]
+
+#v(6pt)
+
+#text(font: sans, size: 10pt, fill: text-dark)[
+  The premise of the Johns Hopkins School of Education's Learning Design
+  & Technology program — and of the Learning Engineering for
+  Next-Generation Systems specialisation that has grown out of it — is
+  that the capability parameter is engineerable. Not by accident. Not by
+  declaration. By the same kind of evidence-grounded, methods-grounded,
+  cross-domain discipline that built modern reliability engineering,
+  modern epidemiology, and modern systems safety. The discipline does
+  not yet exist at the scale the evidence demands. LDT and LENS are
+  organised to help build it.
+]
+
+#v(8pt)
+
+#block(
+  width: 100%,
+  fill: rgb("#FBF7EE"),
+  inset: 10pt,
+  stroke: (left: 2pt + gold),
+  {
+    set par(leading: 0.55em)
+    text(font: sans, size: 8.5pt, fill: text-muted)[
+      *The casebook's method, in one sentence.* Each case is an *unpacking*:
+      take a real outcome, recover the capability question behind it,
+      and attribute the gap to human development, system design, or
+      organisational performance. The discipline of unpacking is what
+      LENS teaches; the casebook is its primary instrument. The
+      framework that follows is the analytic lens the unpacking method
+      uses — five competencies, each a way of asking what the work the
+      system requires actually is, and whether the people inside it can
+      do it.
     ]
   }
 )
