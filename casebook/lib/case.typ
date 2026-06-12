@@ -58,9 +58,15 @@
   // domain index can render dynamically across the full corpus.
   [#metadata((n: number, slug: slug, title: title, year: year, domains: domains-list, modes: modes-code, kind: kind, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag, references: references)) <caseinfo>]
 
+  // Companion build (view "companion"): emit metadata only, no case body.
+  // The metadata above is enough for the dynamic appendices (domain index,
+  // course index, references-by-case) to render in the LENS companion PDF;
+  // the case narrative itself is the casebook's territory.
+  if view == "companion" {
+    // intentionally empty — case body is not rendered in the companion
+  } else if view != "book" {
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.
-  if view != "book" {
     overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach,
                    sections: sections, beats: beats, kind: kind,
                    courses: courses, clo-anchor: clo-anchor,

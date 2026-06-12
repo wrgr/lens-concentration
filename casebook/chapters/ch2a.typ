@@ -17,7 +17,9 @@
 )
 
 // ---- Editor's framing essay: the iteration gap (Ch 2A) ----
-#block(
+// Rendered in the book; suppressed in the companion (view=companion) since
+// the companion ships no case bodies — the essay belongs with the cases.
+#if view == "book" { block(
   width: 100%,
   fill: rgb("#FBF7EE"),
   inset: 14pt,
@@ -57,8 +59,8 @@
       working to make legible.
     ]
   }
-)
-#v(8pt)
+) }
+#if view == "book" { v(8pt) }
 
 
 #case(
