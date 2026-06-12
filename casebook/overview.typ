@@ -48,6 +48,7 @@
 #include "chapters/ch07.typ"
 #include "chapters/ch08.typ"
 #include "chapters/ch09.typ"
+#include "chapters/ch-v21-iteration.typ"
 
 // ============================================================
 // CLOSING CASE — about LENS itself; appears at the end of the book

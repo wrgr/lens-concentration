@@ -82,6 +82,12 @@
 #include "chapters/ch08.typ"
 #include "chapters/ch09.typ"
 
+// v2.1 additions — Iterative Development stagnation cases. These two
+// drop into the v2.1 Ch 2A (Iterative Development — what fails) during
+// the upcoming 12-chapter restructure; included here at end-of-corpus
+// in the interim so they ship with the v2.1 sync.
+#include "chapters/ch-v21-iteration.typ"
+
 // ============================================================
 // CLOSING CASE — about LENS itself; appears at the end of the book
 // ============================================================
