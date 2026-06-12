@@ -1,6 +1,11 @@
 // ============================================================
 // Introduction — Why Capability Matters
-// The exposition and justification for LDT / LENS
+// Framing only: the argument for the casebook.
+// Structure: welcome → thesis → argument (I–III) → method (IV) →
+//            analytic lens (V) → how to read (VI).
+// The program orientation (pillars, JHU record, pilots) and the
+// CLO/course-coverage appendix live in the back matter:
+// backmatter/about-lens.typ and backmatter/appendix-clo-courses.typ.
 // ============================================================
 
 #import "../lib/theme.typ": *
@@ -52,7 +57,7 @@
     So you don't need to know everything before you start. You need to
     know what you bring, stay honest about what you don't, and find the
     people who carry the tools you're missing. What you bring is yours
-    to decide. The hundred cases that follow are an invitation to find
+    to decide. The cases that follow are an invitation to find
     your part in the work.
   ]
 })
@@ -453,7 +458,7 @@
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("IV  ·  lens as an iterative learning-engineering process"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("IV  ·  the method  ·  unpacking the case"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
@@ -497,164 +502,35 @@
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  LENS is organized as that loop made teachable. Required coursework
-  carries students through the cycle: framing the system whose
-  capability is at stake, eliciting requirements from operational
-  analysis, building the evidence architecture that lets an institution
-  know whether its interventions worked, examining the human and AI
-  roles inside the designed system, and running the loop end-to-end
-  on a real operational problem in an integrated capstone studio.
-  Electives extend the loop into governance and risk, knowledge
-  transfer and organizational learning, and computational methods.
-  The program graduates a practitioner who has been around the loop
-  enough times to know where it breaks. Specific course titles and
-  sequencing evolve with the program — current titles and detailed
-  descriptions live in the LDT/LENS catalogue; this casebook tags
-  each case to the courses that most directly use it as a worked
-  example so the mapping remains legible as the curriculum iterates.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The casebook is itself an iteration artifact. Each case is read,
-  diagnosed, paired with a learning-engineering response, and tested
-  in studio against students' own operational domains. The cases that
-  return as success stories in Part II are the cases whose
+  The casebook turns this loop into a reading method. Each case is
+  read, diagnosed, paired with a learning-engineering response, and
+  tested in studio against students' own operational domains. The
+  cycle — framing the system whose capability is at stake, eliciting
+  requirements from operational analysis, building the evidence
+  architecture that lets an institution know whether its interventions
+  worked, examining the human and AI roles inside the designed system,
+  and running the loop end-to-end on a real problem — is the same
+  discipline the casebook applies to every case it reads. The cases
+  that return as success stories in Part II are the cases whose
   institutions completed the loop. The cases in Part I are the cases
-  whose institutions did not — or did not loop fast enough. The
-  pedagogical commitment of the program is that the practitioner who
-  graduates can identify, instrument, and close the next such loop
-  before the next case is written.
+  whose institutions did not — or did not loop fast enough.
+  Unpacking the case *is* the method: identify, instrument, and close
+  the next such loop before the next case is written.
 ]
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  why LENS  ·  the five pillars"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("V  ·  the analytic lens  ·  the five capabilities the cases turn on"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  A specialization that promises to teach a discipline still being
-  built must show that its credibility rests on more than its
-  ambitions. LENS stands on five pillars: *Mission Literacy*, *JHU
-  Ecosystem*, *Intersectional Expertise*, *Capability Focus*, and
-  *Flywheel Iteration*. Each is a real institutional asset, with
-  a record. None of them, alone, would carry the argument; the
-  pillars are load-bearing together.
-]
-
-#v(10pt)
-
-#dgm.dgm-why-lens
-
-#v(10pt)
-
-#block(
-  width: 100%,
-  fill: rgb("#FBF7EE"),
-  inset: 12pt,
-  stroke: (left: 2pt + gold),
-  {
-    set par(leading: 0.6em)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Mission Literacy"))
-    v(2pt)
-    text(font: sans, size: 9.5pt, fill: text-dark)[
-      Real operational problems, real sponsors, real consequences —
-      and the disciplined ability to read them. LENS is anchored in
-      the conviction that the practitioner must be able to enter an
-      operational setting, listen to the people doing the work,
-      understand what the mission actually requires, and translate
-      that understanding into design and measurement decisions that
-      a serious reviewer would accept. Mission literacy is what makes
-      the cases in this book teachable as cases and not as anecdotes.
-    ]
-    v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("JHU Ecosystem"))
-    v(2pt)
-    text(font: sans, size: 9.5pt, fill: text-dark)[
-      An institutional environment broad and deep enough to host the
-      discipline. At Johns Hopkins this is the School of Education
-      with its centers, doctoral programs, and faculty in learning
-      sciences, educational measurement, and design-based research;
-      the practice partners across the university (Armstrong Institute
-      for Patient Safety and Quality at the School of Medicine; the
-      Bloomberg School of Public Health's implementation-science
-      tradition; Whiting School engineering and cognitive science;
-      the Berman Institute's governance and ethics work); and the
-      partnerships with sponsor and operational organizations that
-      bring real problems through the door.
-    ]
-    v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: rgb("#D26B43"), upper("Intersectional Expertise"))
-    v(2pt)
-    text(font: sans, size: 9.5pt, fill: text-dark)[
-      The distinguishing pillar — and the most demanding. The work
-      sits at the intersection of the learning sciences, educational
-      measurement, instructional design, design-based research,
-      cognitive engineering, implementation science, the
-      equity-and-governance disciplines, the relevant operational
-      domain, and the engineering tradition that produced the
-      artifact under study. No one of those disciplines is sufficient,
-      and the work fails when the disciplines do not translate to
-      one another. Intersectional expertise is what allows a single
-      practitioner — or a single team — to hold the engineering,
-      the learning, the measurement, the equity, and the
-      operational context in the same conversation, and to make
-      design decisions that survive scrutiny from any of them.
-      Cultivating it is the central pedagogical task of LENS.
-    ]
-    v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Capability Focus"))
-    v(2pt)
-    text(font: sans, size: 9.5pt, fill: text-dark)[
-      The outcome — the central claim of the book. Capability is a
-      designable, measurable, engineerable property of every complex
-      system. The program produces it in graduates; the cases
-      document where it was absent and where it was successfully
-      engineered; the curriculum teaches how to recognize it,
-      instrument it, and reproduce it. Capability focus is the
-      discipline that keeps every artifact, every measurement, and
-      every iteration accountable to what the system can actually
-      do when the work is done.
-    ]
-    v(8pt)
-    text(font: sans, size: 8pt, tracking: 1.4pt, fill: teal, upper("Flywheel Iteration"))
-    v(2pt)
-    text(font: sans, size: 9.5pt, fill: text-dark)[
-      The iterative method — the Practice Flywheel — that animates
-      the other four pillars:
-      *Identify → Activate → Prototype → Analyze → Transition*, the
-      cycle through which mission literacy turns into capability and
-      capability turns back into refined mission literacy. The
-      flywheel is what prevents the discipline from being a series of
-      unconnected projects and makes it instead a compounding
-      institutional asset — each cohort, each case, each pilot
-      shortening the implementation gap for the next. The casebook
-      itself is a flywheel artifact: the work of prior cohorts
-      produces the reference dataset for the next.
-    ]
-  }
-)
-
-#v(10pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The pillars compound. Mission literacy reveals what is needed; the
-  JHU ecosystem hosts the inquiry; intersectional expertise designs
-  the intervention; capability focus keeps the loop closed on the
-  outcome; the practice flywheel turns each iteration into the
-  starting condition of the next.
-]
-
-#v(10pt)
-
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: teal, upper("what LENS graduates can do  ·  the five competencies"))
-#v(4pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The five pillars describe why LENS exists. The five concentration
-  learning outcomes describe what its graduates can do. They map to
-  the work the cases in this book required.
+  The cases in this book turn on five capabilities. They are the
+  analytic lens the casebook reads each case through, and the cases
+  that follow are tagged to them: where capability was absent, one or
+  more of these five was the capability that was missing; where it was
+  engineered, one or more of these five was the capability that was
+  built. Named as concentration learning outcomes, they are also what
+  the discipline sets out to teach.
 ]
 
 #v(8pt)
@@ -751,538 +627,23 @@
 #v(10pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  Three phrases recur across those five competencies and across the
-  curriculum that produces them: *within and across disparate
-  systems* (the scope at which capability is actually engineered),
-  *speed and scale* (the operational tempo the discipline must
-  match), and *gap attribution between learning, system design, and
-  organizational performance problems* (the diagnostic that decides
-  what kind of intervention will actually move the outcome). They
-  are the working language of the program. They appear, repeatedly,
-  in the cases that follow.
-]
-
-#v(10pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The remainder of this section
-  names the three operational anchors the pillars are currently
-  producing — the CIRCUIT–MERIT–COMPASS lineage, the Practice
-  Flywheel in action across LE pilots, and the studio and
-  applied-project model — as proof of work the pillars have already
-  delivered.
-]
-
-#v(10pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The first operational anchor is the *CIRCUIT model, MERIT framework, and COMPASS
-  content* — a more-than-decade record originating at the JHU
-  Applied Physics Laboratory. CIRCUIT (Cohort-based Integrated
-  Research Community for Undergraduate Innovation and Trailblazing)
-  was built as the best operational solution to the IARPA MICrONS
-  connectomics program's proofreading requirement, and was
-  subsequently extended to additional sponsor problems. The
-  *scientific and engineering impact* the trained cohorts produced
-  — peer-reviewed contributions to the MICrONS reconstructions in
-  *Nature*, the open-data infrastructure of BossDB and CAVE, the
-  NeuVue proofreading framework — is the headline result; the
-  student development was a deliberate and well-engineered
-  byproduct of the mission solution, making doing well for the
-  sponsor compound with doing good for the students. MERIT
-  (Mentoring Exceptional Researchers to Innovate and Thrive) is the
-  generalization of the CIRCUIT model into a replicable framework:
-  holistic recruiting, the CIRCUIT eight pillars, the CCR
-  competency framework, and the explicit "hidden curriculum"
-  literature. *COMPASS* is the layer of targeted mentor
-  interventions that operates MERIT inside a specific institutional
-  setting — designed to help students uncover the *tacit and
-  explicit knowledge gaps* that block independent research practice.
-  COMPASS is not bound to a fixed workshop count; the COMPASS-Core
-  curriculum is one instance, with an example set of workshops
-  covering orientation and goal-setting, resilience and mindset,
-  research-navigation, networking and faculty engagement, scientific
-  reading and writing, presentations and figures, metacognition and
-  advanced study, professional conduct and ethics, STEM identity,
-  and long-term career and funding strategy. The
-  CIRCUIT → MERIT → COMPASS lineage is documented in the
-  peer-reviewed engineering-education literature #cite-num(24).
-  Section VII expands on this evidence.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The second operational anchor is the *Practice Flywheel*: the iterative cycle
-  — *Identify → Activate → Prototype → Analyze → Transition* — that
-  has now been demonstrated across multiple LE pilots run by the
-  LENS partner team at JHU/APL. Each iteration produces working
-  artifacts, sponsor-visible evidence, and curriculum material for
-  the next cohort. The flywheel is what prevents the program from
-  being a series of unconnected projects and makes it instead a
-  compounding institutional asset — each cohort shortening the
-  implementation gap for the next. The casebook itself is a
-  flywheel artifact: the work of prior cohorts produces the
-  reference dataset for the next.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The third operational anchor is *integrated student work* — the studio,
-  practicum, and applied-project model that ensures every LENS
-  graduate has, in addition to coursework, a portfolio of capability
-  engineering deliverables produced inside real operational systems.
-  The Summer 2025 PISTA incubator (Section VII) is the most recent
-  example: a JHU/APL cohort of forty-four students collaborated across
-  projects, with nine student fellows specifically shipping a working
-  CBRNE (chemical, biological, radiological, nuclear, and explosives)
-  decision-support prototype to DTRA leadership in ten weeks, with
-  three full redesigns inside that window. The cases in
-  this book are not the only operational record the program produces.
-  Every graduate carries an addition to it. The credibility of the
-  program is, in the end, the credibility of the artifacts its
-  graduates have produced in the field.
+  Three phrases recur across those five capabilities and across the
+  cases that follow: *within and across disparate systems* (the scope
+  at which capability is actually engineered), *speed and scale* (the
+  operational tempo the discipline must match), and *gap attribution
+  between learning, system design, and organizational performance
+  problems* (the diagnostic that decides what kind of intervention will
+  actually move the outcome). They are the working language the cases
+  are read in.
 ]
 
 // -------------------------------------------------------------------
 #v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VI  ·  why the school of education"))
+#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VI  ·  how to read this book"))
 #v(6pt)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  A reasonable reader asks: if learning engineering is engineering,
-  why does this program live in a School of Education rather than a
-  School of Engineering? The answer is that the binding constraint on
-  the discipline is not the engineering, which is mature. It is the
-  learning sciences, the educational measurement, the implementation
-  science, and the equity-and-governance machinery — which live in
-  Schools of Education and which the cases in this book establish as
-  the load-bearing elements when capability interventions actually
-  scale.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The learning sciences are the discipline that knows how skill,
-  knowledge, and judgment develop, decay, and transfer across
-  contexts. CRM was not an engineering achievement; the engineering
-  of the cockpit was already mature in 1976. CRM was a *learning*
-  achievement — a redesign of how aircrews learn to operate as a
-  coordinated team, drawn from psychological research on group
-  performance under stress. The same is true of TeamSTEPPS, the WHO
-  Checklist's pause protocol, INPO's accreditation regime, and the
-  Rickover oral examination tradition. The interventions that move
-  the curves are interventions in how capability is learned, retained,
-  and transferred — not in how the hardware is built.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Educational measurement is the discipline that knows how to construct
-  the instruments that determine, validly and reliably, whether a
-  person can do something. The cases in this book that turn on
-  measurement failures — the VA wait-time scandal, Atlanta Public
-  Schools, LIBOR, Wells Fargo, the F-35 readiness reporting — are
-  measurement-instrument failures at heart. The capability to design
-  measurement instruments that survive contact with the institutions
-  measuring themselves is an educational-measurement competence. It
-  lives in Schools of Education.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Implementation science — the field that studies the gap between
-  evidence and practice — was developed largely in public-health
-  schools and schools of education. Its frameworks (Fixsen et al.,
-  Aarons et al., Damschroder et al.) are the operational backbone of
-  any serious capability-engineering effort, and Schools of Education
-  have been their institutional home for two decades. A School of
-  Engineering can teach the artifact. A School of Education teaches
-  the artifact, the measurement instrument that decides if the artifact
-  works, and the implementation pathway by which the artifact reaches
-  scale. The casebook's central argument — that capability is a system
-  parameter — requires all three.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Equity, governance, and ethics in education at scale are also,
-  evidently, education problems. The inBloom, A-Level, COMPAS,
-  Robodebt, and educational-predictive-analytics cases in this book
-  are not failures of engineering competence. They are failures of
-  the disciplines that know how to engineer measurement instruments,
-  credentialing systems, and decision regimes that do not encode
-  structural inequity. Those disciplines live in Schools of Education.
-  The School of Engineering can build the model. The School of
-  Education is where the construct gets validated, the consent
-  framework gets designed, and the equity audit gets conducted.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The case for housing LENS in the Johns Hopkins School of Education
-  is, finally, a case for treating capability engineering as the
-  applied form of the educational sciences — engineering applied
-  through learning, measurement, and equity, not engineering applied
-  to learning as content. That is a real distinction. Schools of
-  Engineering routinely build artifacts; the cases in this book show
-  that the artifacts then need disciplines that those schools are not
-  organized to provide. The placement is not a default. It is the
-  shortest path between the discipline as it is and the discipline as
-  it needs to be.
-]
-
-#v(10pt)
-
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: teal, upper("the record at Johns Hopkins"))
-#v(4pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The argument above would be theoretical if Johns Hopkins did not
-  already have an operating record. It does — and the deeper, longer
-  half of that record is the School of Education's. The SoE has been
-  studying the learner, designing the assessment, and engineering the
-  intervention since long before the discipline of learning
-  engineering had its current name. The disciplines this casebook
-  argues are load-bearing — learning sciences, educational
-  measurement, design-based research, implementation science, and
-  equity-and-governance work — are disciplines the school's faculty
-  have published in, taught, and applied at scale, in K–12,
-  higher-education, clinical, military, and corporate settings, for
-  decades.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Three durable lines of work make the point. The Center for Talented
-  Youth, founded in 1979, has built one of the longest continuous
-  evidence bases in U.S. education on the identification, assessment,
-  and accelerated instruction of academically advanced learners; its
-  measurement and program-evaluation work has been the empirical
-  foundation of an entire sub-discipline. The Center for Research and
-  Reform in Education has, since 2004, run large-scale evaluations of
-  educational programs against rigorous evidence standards (Every
-  Student Succeeds Act tiers, What Works Clearinghouse review),
-  publishing the Best Evidence Encyclopedia and synthesizing what is
-  known about which interventions actually work for which learners
-  under which conditions. The Institute for Education Policy carries
-  the same evidence-first orientation into the governance,
-  curriculum-policy, and reform-design work that the case studies in
-  Chapter 5 of this book name as the binding capability in modern
-  education systems. These are not adjacent to the LDT program;
-  they are the institutional environment that taught the program how
-  to be rigorous.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The Learning Design and Technology program sits inside that
-  environment and inherits it. For two decades the LDT M.Ed. and EdD
-  tracks have graduated cohorts who entered as practitioners and left
-  as designers and evaluators of learning systems — instructional
-  designers and architects of learning experience, learning-analytics
-  specialists, technology-mediated-learning researchers, professional
-  developers, evaluators, and program leaders across the same K–12,
-  higher-education, military, clinical, and corporate settings the
-  cases in this book draw on. The program's intellectual core has
-  always been the learning-engineering question — what does the
-  system have to do in order to produce reliably capable people? —
-  and its pedagogical core has always been design-based research:
-  put the artifact in front of real learners, measure what happens,
-  iterate, and publish what was learned about both the artifact and
-  the learner. LENS is the formalization of that orientation as a
-  specialization, not a departure from it.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Alongside that academic record runs a complementary thread of
-  applied collaboration. Faculty and graduates of the LDT program
-  have, over the past decade, partnered with operational
-  organizations — including teams at the Johns Hopkins Applied
-  Physics Laboratory — to study capability in real mission settings.
-  Programs such as CIRCUIT (the workforce arm of the IARPA/MICrONS
-  consortium, whose connectomics result appeared in #emph[Nature] in
-  2025), the precision-medicine clinical-decision-trainer pilot
-  reported in 2024, the DARPA AIE-supported TITAN work, and the
-  DTRA-supported PISTA incubator in 2025 are useful proving grounds
-  for the learning-engineering question because the deliverables are
-  evaluated by sponsors who care whether the system worked. These
-  collaborations have informed the program's case-based pedagogy and
-  contribute several of the operational vignettes that follow. They
-  are not the institutional home of the discipline; the School of
-  Education is. They are how the school's disciplines meet operational
-  settings, and how operational settings show up in the curriculum.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Other parts of the Johns Hopkins ecosystem do adjacent work the
-  program draws on. The Armstrong Institute for Patient Safety and
-  Quality at the School of Medicine — the institutional descendant of
-  the Keystone ICU work foregrounded in Chapter 8 — is the most
-  visible example: a continuing program of capability-engineering in
-  clinical settings, with measurement and implementation methods that
-  the casebook treats as canonical. The Bloomberg School of Public
-  Health contributes the implementation-science tradition the program
-  rests on, with departments and centers that have spent decades
-  studying how interventions reach scale. The Whiting School of
-  Engineering contributes human-systems engineering, AI methods, and
-  cognitive-engineering research relevant to the human-AI teaming
-  cases in Chapter 9. The Krieger School's Department of Cognitive
-  Science and adjacent psychology programs contribute the learning-
-  science methods the LDT program teaches. The Berman Institute of
-  Bioethics contributes the governance-and-ethics framing that the
-  cases in Chapter 5 require. None of these are formal partners in
-  this volume; all of them are part of the institutional environment
-  in which the discipline this casebook describes is recognizably at
-  home.
-]
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  That meeting is also embodied in the editors. One of us has spent a
-  career in applied research environments thinking about how to make
-  scientific and engineering teams reliably capable; the other has
-  spent a career in the School of Education thinking about how to
-  design, study, and evaluate the learning of learners. Both of us
-  have, in practice, lived in the other half. The casebook is one
-  product of that doubling. The discipline it describes is not new.
-  The institutional home that lets it be taught at scale — the
-  School of Education at Johns Hopkins, with its faculty, centers,
-  doctoral programs, and the practitioner partnerships those carry —
-  is where the work continues.
-]
-
-// -------------------------------------------------------------------
-#v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VII  ·  pathways evidence  ·  LE pilots"))
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  A program built on the claim that capability is engineerable should
-  be able to point to the institutional evidence that it has done that
-  work. LENS draws on a documented record of learning-engineering
-  pilots — operated at the Johns Hopkins University Applied Physics
-  Laboratory and across collaborating sites — that demonstrate the
-  iterative LE process at operational scale before LENS itself
-  enrolled its first cohort. The pilots span the same three domains
-  the casebook treats as co-equal — science (instantiated here as
-  connectomics and precision medicine), defense, and education —
-  and they each carry independent evidence of the loop closing.
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "The Practice Flywheel")
-#v(4pt)
-
-#dgm.dgm-flywheel
-
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The pilots share an operating cycle: *identify* a real challenge in
-  an operational setting, *activate* a cohort of practitioners and the
-  tools they need, *prototype* a working artifact under realistic
-  constraints, *analyze* the evidence the prototype produces, and
-  *transition* validated solutions to the sponsor or institution that
-  asked the original question. Each iteration generates artifacts,
-  evidence, and refined practice; each cohort inherits the prior
-  cohort's tools and lessons. The flywheel makes the program
-  compounding rather than serially episodic.
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · CIRCUIT, MERIT, COMPASS — scientific and engineering impact at MICrONS / BRAIN CONNECTS scale")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  CIRCUIT — the *Cohort-based Integrated Research Community for
-  Undergraduate Innovation and Trailblazing* — was built at JHU/APL
-  as the best operational solution to a sponsor problem: the IARPA
-  MICrONS connectomics program needed a proofreading workforce that
-  could exercise expert biological judgment at scale, and CIRCUIT
-  was the architecture that delivered it. The headline result is
-  scientific. The trained cohorts contributed materially to the
-  MICrONS reconstructions now published in *Nature*, with downstream
-  contributions to FlyWire and H01 datasets, the BossDB and CAVE
-  open-data platforms, and the NeuVue proofreading framework
-  #cite-num(23). These are not auxiliary outputs of a workforce
-  program. They are the foundational datasets and infrastructure on
-  which contemporary connectomics depends.
-]
-
-#v(4pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The student training was a *byproduct* of the mission solution —
-  but a deliberate, well-engineered byproduct that turned an
-  operational requirement into a sustained opportunity to develop
-  the next generation of computational neuroscientists. Doing well
-  for the sponsor and doing good for the students compounded
-  rather than competed. That structural alignment between
-  scientific mission and human-capability development is the
-  pattern LENS treats as the canonical positive case for how the
-  Practice Flywheel operates at the boundary between science and
-  workforce.
-]
-
-#v(4pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The model that produced those outputs was then *generalized into
-  MERIT (Mentoring Exceptional Researchers to Innovate and Thrive)*
-  — a replicable research-training framework built on holistic
-  recruiting, the CIRCUIT eight pillars, the CCR competency
-  framework, the hidden-curriculum literature, and the DoD KSAT
-  alignment vocabulary #cite-num(24). MERIT operates across five
-  developmental stages — Holistic Recruiting, Orientation and
-  Research Foundations, Guided Research Practice, Independent
-  Research with Mentorship, and Leadership / National Impact —
-  and has been instantiated in computational neuroscience, AI,
-  cybersecurity, threat assessment, and pandemic modeling.
-  *COMPASS* is the layer of targeted mentor interventions that
-  operates MERIT inside a given institutional setting — designed to
-  help students uncover the *tacit and explicit knowledge gaps*
-  that separate competent execution from independent research
-  practice. COMPASS is not bound to a fixed workshop count. The
-  COMPASS-Core curriculum is one well-documented instance, with an
-  example set spanning orientation and SMART goal-setting,
-  resilience and growth mindset, research navigation, networking
-  and faculty engagement, scientific reading and writing, figures
-  and oral presentations, metacognition and study skills,
-  professional conduct and research ethics, STEM identity and
-  belonging, and long-term career and funding strategy. The
-  casebook treats the trio (CIRCUIT model, MERIT framework, COMPASS
-  mentor interventions) as
-  the load-bearing instance of the Practice Flywheel: requirements
-  elicited from operational science, instrumented measurement of
-  cohort progress, paired technical and cultural scaffolding, and
-  an explicit iteration cycle that has now produced multiple
-  cohorts and hundreds of student-authored contributions to the
-  peer-reviewed scientific literature.
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · TITAN (DARPA AIE)")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  TITAN — a DARPA Artificial Intelligence Exploration program — was
-  implemented and explored by junior staff and student fellows when
-  senior staff did not take it up, and produced both technical
-  artifacts and a demonstrated proof of concept for the cohort-based
-  incubator model the program now treats as a primary delivery
-  mechanism. The pattern — talent identification, rapid
-  prototyping under sponsor constraints, transition planning — is the
-  same Practice Flywheel the casebook describes. TITAN is the
-  earliest evidence that the model scales beyond the connectomics
-  domain in which it was first piloted #cite-num(25).
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · PISTA (DTRA, Summer 2025)")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  PISTA — the *Perceptual Inference System for Tactical Agentic AI* —
-  was a ten-week incubator delivering tactical AI decision support
-  for the Defense Threat Reduction Agency's chemical, biological,
-  radiological, nuclear, and explosives mission. Nine student fellows
-  shipped PISTA, drawn from the broader Summer 2025 cohort of
-  forty-four students at the JHU/APL AI Pathfinding Lab; all
-  forty-four benefited from the shared cohort infrastructure, mentor
-  pool, and cross-project collaboration even when working on other
-  sponsor problems. The PISTA team delivered a working
-  perception-reason-report agentic pipeline on a COTS stack (Gemini
-  Flash, GPT-4o, Firebase) with deployed sensors on UGVs and small
-  UAS. Three full redesigns inside ten weeks. Live demonstration to
-  DTRA leadership. Follow-on funding under exploration. The pilot
-  demonstrates the Practice Flywheel at compressed timescale in a
-  defense context #cite-num(26).
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · ECHO (healthcare, culturally responsive provider training)")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  ECHO is an AI simulator for limited-English-proficiency patient
-  encounters — a population of more than twenty-five million Americans
-  whose access to safe care is structurally constrained by language
-  barriers. The system pairs scenario-driven practice with
-  rubric-based assessment and real-time coaching, designed for
-  implementation inside existing medical-curriculum infrastructure.
-  ECHO is the healthcare instance of the casebook's central argument:
-  health equity is a *design commitment*, not an audit. The pilot
-  shows the same flywheel operating in the clinical-training context.
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · TeachMe EDDIE (methodology)")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  TeachMe EDDIE is the methodological instance of the pilot
-  portfolio: an AI-augmented knowledge engineering system built around
-  a 100-plus-node causal knowledge graph, a dual-axis learner model
-  (declarative and procedural), and Mentor and Narrator agents
-  bounded by a curated corpus. EDDIE operationalizes the difference
-  between *retrieval* and *learning* — between an LLM that can
-  produce a fluent answer and an instructional system that can move
-  a learner from competence in one context to competence in another.
-  Transfer is the north star. EDDIE is the LENS instance of the
-  learning-engineering question that the rest of the dataset asks at
-  scale.
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "Pilot · Precision-medicine community detection (clinical decision support)")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Precision-medicine clinical decision tools represent the program's
-  pilot in the application of evidence-based methodology to a
-  high-consequence operational domain. Students and staff at APL
-  contributed to community-detection methods for precision-medicine
-  cohort identification — the kind of work that combines computational
-  rigor with the clinical interpretive judgment LENS is organized to
-  teach. The preprint is publicly available on medRxiv
-  #cite-num(27). The same pattern recurs across the pilots: the
-  technical artifact is necessary, the institutional scaffolding to
-  use it under operational constraints is what makes it capability.
-]
-
-#v(8pt)
-#text(font: sans, size: 8.5pt, fill: navy, weight: "medium", "What the pilots demonstrate together")
-#v(2pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  No single pilot would settle the LENS proposition. The cumulative
-  record is what matters. Across pilots, the same set of LE practices
-  recurs: explicit capability requirements; structured pedagogical
-  scaffolding; instrumented measurement linked to operational outcomes;
-  paired technical and cultural interventions; cohort-based delivery
-  with deliberate inheritance of tools and lessons across cohorts; and
-  an explicit Identify → Activate → Prototype → Analyze → Transition
-  cycle. The same artifacts produced in those pilots — the rubrics,
-  the prompts, the dashboards, the after-action reports, the published
-  papers — become the curriculum material for the next cohort. The
-  program is, in this sense, the institutional flywheel its case
-  studies argue every high-consequence domain requires.
-]
-
-// -------------------------------------------------------------------
-#v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("VIII  ·  how to read this book"))
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  Part I, "The Failure Modes," organizes one hundred cases under six
+  Part I, "The Failure Modes," organizes the failure cases under six
   recurring patterns: training gap, capability designed out,
   normalization of deviance, interface failure, governance failure, and
   knowledge loss. A seventh chapter — the Evidence Gap — anchors the
@@ -1331,63 +692,3 @@
   curriculum crosswalk in the closing matter maps each case to the
   specific courses in the program that use it as a worked example.
 ]
-
-// -------------------------------------------------------------------
-#v(20pt)
-#text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("IX  ·  course coverage and pedagogical gaps"))
-#v(6pt)
-
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The one hundred cases in this volume are mapped to the LENS courses
-  they most directly inform. The distribution is itself diagnostic.
-  The strongly covered topics are the ones the existing case
-  literature most readily supports: bias and governance (LEN 7, ~49
-  cases) and knowledge transfer (LEN 8, ~45 cases); capability
-  analysis (LEN 5, ~36 cases) and evidence and measurement (LEN 4,
-  ~31 cases); human-AI teaming (LEN 2, ~23 cases) and principles of
-  learning engineering (LEN 1, ~21 cases). These are not arbitrary
-  numbers — they describe a dataset saturated with cases of *what
-  goes wrong when ethics, governance, evidence, and institutional
-  learning are not engineered.*
-]
-
-#v(6pt)
-#text(font: sans, size: 9.5pt, fill: text-dark)[
-  The thin coverage is also informative. The computational-methods
-  topic (LEN 9, ~10 cases) has the failure modes of algorithmic
-  systems well-represented but the computational tools for capability
-  instrumentation under-represented. The capstone (LEN 10, ~19 cases)
-  maps to fewer cases than the number of studio projects each LENS
-  cohort undertakes. The systems-integration topic (LEN 3, ~18 cases)
-  and applied problem-solving topic (LEN 6, ~13 cases) required
-  focused retagging to reach defensible coverage; the work surfaced
-  that operational systems-engineering content is *under-represented
-  in the published case literature* relative to its curricular
-  centrality, and that stakeholder-analysis and problem-framing have
-  not historically been packaged as case material by other
-  disciplines. These are pedagogical gaps the LENS studio sequence is
-  organized to close — not by adding more failure cases, but by
-  having students produce the missing artifacts in real operational
-  settings and entering them into the dataset for the next cohort.
-]
-
-#v(20pt)
-
-#block(
-  width: 100%,
-  fill: rgb("#FBF7EE"),
-  inset: 10pt,
-  stroke: (left: 2pt + gold),
-  {
-    text(font: serif, size: 12pt, style: "italic", fill: navy)[
-      Capability is a designable, measurable, engineerable property
-      of every complex system. The strongest argument for the
-      discipline of learning engineering is the cumulative record of
-      what its absence has cost. The strongest argument *for* its
-      possibility is the cumulative record of what its presence has
-      produced. Both records are in this book. The work of LDT and
-      LENS at the Johns Hopkins School of Education is to add to the
-      second record and shorten the first.
-    ]
-  }
-)

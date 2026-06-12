@@ -134,4 +134,8 @@
 #include "backmatter/domain-index.typ"
 #include "backmatter/course-index.typ"
 #include "backmatter/references.typ"
+
+// ---- Appendix + program page (all versions) ----
+#include "backmatter/appendix-clo-courses.typ"
+#include "backmatter/about-lens.typ"
 #include "backmatter/editors.typ"
