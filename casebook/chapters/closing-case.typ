@@ -16,7 +16,7 @@
 #import "../lib/diagrams.typ" as dgm
 
 #case(
-  number: 194,
+  number: 192,
   slug: "discipline-we-build-next",
   title: "The Discipline We Build Next",
   year: "ongoing",

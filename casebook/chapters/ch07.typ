@@ -633,11 +633,22 @@
     the regulator's expertise pipeline, not at the evidence.
   ],
   lens-approach: [
-    LENS uses Madoff in LEN 4 for technical-evidence evaluation and
-    in LEN 7 for regulator-capability deliverables. The case pairs
-    with Theranos (Case 53) as cases where regulators lacked the
-    technical depth to challenge the evidence presented to them.
+    LENS uses Madoff in LEN 6 as an operator-to-institution
+    feedback-channel failure: Harry Markopolos sent the SEC a specific,
+    checkable memo — the channel existed and the signal was correct —
+    and the institution had no one able to act on what came through it.
+    The teaching point is the receiving capability a feedback channel
+    requires to be real: a tip line without the technical expertise to
+    evaluate the tip is not a channel. It pairs with the Mark 14
+    torpedo (Case 11), where the Bureau of Ordnance dismissed
+    submariners' field reports for the same structural reason — the
+    channel carried the truth and the institution could not receive it
+    — and with Theranos (Case 53) on the regulator's missing technical
+    depth. The Ponzi narrative is not the lesson; the channel is.
   ],
+  induced-anchor: "6.2",
+  lens-anchor: "D4/PT3",
+  clo-anchor: "CLO-2",
   literature-items: (
     [SEC OIG Report (2009)],
     [Markopolos (2010), _No One Would Listen_],
@@ -1001,7 +1012,7 @@
     (Machine Teaming and Adaptation; CLO-5) for the change-control
     and disclosure architecture between manufacturer, regulator, and
     prescriber that determines whether ambiguous safety signals reach
-    a decision boundary. Pair with Radiology AI (Case 182) as the
+    a decision boundary. Pair with Radiology AI (Case 180) as the
     post-market-surveillance failure pattern at a new technological
     boundary; pair with EHR/CPOE (Case 35) at the
     measurement-architecture-too-thin layer; pair with Medical Errors
@@ -1566,7 +1577,7 @@
     finding rather than as a nuisance. The intervention is not
     universally effective; naming where it does and does not work
     is the contribution. The "conditional on peer norms" language
-    survives verbatim into the case. Pair with Case 188 (Gándara)
+    survives verbatim into the case. Pair with Case 186 (Gándara)
     at the scalable-equity-intervention layer.
   ],
   sections: (
@@ -1632,7 +1643,7 @@
       defensible.#cn()
     ],
     [
-      Drafted alongside Case 188 (Gándara) at the
+      Drafted alongside Case 186 (Gándara) at the
       scalable-equity-intervention layer, the case carries the
       design-predictions-to-trigger-support pattern (induced 8.3,
       LENS D2/PT5). The intervention targets the students who
@@ -1654,7 +1665,7 @@
     "Yeager et al. _Nature_ 2019 — nationally representative RCT of US 9th-graders; less-than-1-hour online module; pre-registered moderator analysis",
     "Headline outcome: improved grades among lower-achieving students; increased advanced-math enrollment relative to active control",
     "Conditional preserved verbatim: 'effect was conditional on peer norms' — intervention changed grades only where peer norms aligned with the intervention's message",
-    "Methodological importance: treatment-effect heterogeneity as the finding, not as a nuisance; pair with Case 188 (Gándara) at the scalable-equity-intervention layer",
+    "Methodological importance: treatment-effect heterogeneity as the finding, not as a nuisance; pair with Case 186 (Gándara) at the scalable-equity-intervention layer",
   ),
   approaches: (
     during: (
@@ -1691,7 +1702,7 @@
     support case (induced 8.3; LENS D2/PT5) — Domain 2 for
     pre-registered moderator analysis; Domain 4 for the
     equity-relevant commitment to target support to those who
-    benefit. Pair with Case 188 (Gándara).
+    benefit. Pair with Case 186 (Gándara).
   ],
   literature-items: (
     [Yeager et al. (2019), _Nature_],

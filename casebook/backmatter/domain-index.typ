@@ -235,9 +235,9 @@
       operator-feedback failure in the dataset.
     ]
     v(6pt)
-    standout-line("Note", 185, text-muted)[
+    standout-line("Note", 183, text-muted)[
       The technology dataset's success story is filed under Healthcare:
-      AlphaFold (Case 185), the contemporary worked example of
+      AlphaFold (Case 183), the contemporary worked example of
       computational capability-engineering done as a discipline.
     ]
   },
@@ -249,10 +249,10 @@
       the heart of partial-autonomy operator roles.
     ]
     v(6pt)
-    standout-line("Note", 194, text-muted)[
+    standout-line("Note", 192, text-muted)[
       No paired-intervention success in the autonomous-systems dataset.
       The capability engineering this category needs is still being
-      built — see Case 194 (*The Discipline We Build Next*) for the
+      built — see Case 192 (*The Discipline We Build Next*) for the
       open question this volume closes on.
     ]
   },

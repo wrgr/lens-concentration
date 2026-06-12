@@ -2341,7 +2341,7 @@
     ],
     [
       What TREWS teaches is that the failure pattern of clinical AI
-      (Case 182) is not inevitable. When the model is treated as one
+      (Case 180) is not inevitable. When the model is treated as one
       component of a deliberately designed human–machine system — with an
       alert that fits the workflow, a clinician role that retains
       authority, a deployment that is observed prospectively, and a
@@ -2711,7 +2711,7 @@
     attribution* — the gap is in the validation architecture, not
     the device or the clinician — and in Domain 4 (Navigating
     Sociotechnical Constraints) for the FDA clearance / device
-    oversight regime. Adjacent to Case 182 (radiology AI
+    oversight regime. Adjacent to Case 180 (radiology AI
     miscalibration), which is the same diagnosis at a different
     technological boundary, and to the Epic Sepsis Model
     (Case 60) for the post-deployment-surveillance pattern.
@@ -3775,7 +3775,7 @@
     the causal claim, and the case says so rather than overstate.
     The COI render under the title (editor is the senior author)
     is binding. The case is the paired peer-reviewed companion to
-    CIRCUIT proofreading (Case 187) — that case is about deploying
+    CIRCUIT proofreading (Case 185) — that case is about deploying
     capability against automation failure; this case is about
     building the capability in the first place at the edge of the
     trainees' prior preparation.
@@ -3834,10 +3834,10 @@
       The case names the open question rather than answering it.#cn()
     ],
     [
-      In pair with Case 187 (CIRCUIT proofreading + MICrONS), the
+      In pair with Case 185 (CIRCUIT proofreading + MICrONS), the
       case completes the CIRCUIT picture: building the capability
       (this case, peer-reviewed) and deploying it against
-      automation failure (Case 187, frontier with evidence-tier
+      automation failure (Case 185, frontier with evidence-tier
       flag). The pair also exercises the corpus's COI discipline
       — both cases carry editor-related COI, both are rendered
       with the standing gold-bordered "Disclosure" block under
@@ -3853,7 +3853,7 @@
     "2022 program supported >100 undergraduate, graduate, and ROTC students from 'trailblazing' backgrounds",
     "Model is operationalized: holistic recruiting, targeted training, high-resolution assessment, diverse mentorship, partnerships",
     "Honest framing preserved: self-authored multi-cycle program evaluation at a single program; external comparative would strengthen causal claim",
-    "Pair with Case 187 — building capability (this case) vs. deploying it against automation failure (proofreading); both carry COI render",
+    "Pair with Case 185 — building capability (this case) vs. deploying it against automation failure (proofreading); both carry COI render",
   ),
   approaches: (
     during: (
@@ -3893,7 +3893,7 @@
     Evaluation) for the high-resolution assessment; and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
     holistic-recruiting design choice that converts equity from
-    rhetoric to enrolled cohort. Pair with Case 187 (CIRCUIT
+    rhetoric to enrolled cohort. Pair with Case 185 (CIRCUIT
     proofreading) — building capability vs. deploying it against
     automation failure. COI render is binding.
   ],
@@ -6390,7 +6390,7 @@
     documentation is too scant to fully reproduce. The case is the
     canonical small-tier instance of compressing the capability
     envelope at the edge of training, paired with CIRCUIT
-    (Cases 187 and 127) on the workforce-capability-at-the-edge axis.
+    (Cases 185 and 127) on the workforce-capability-at-the-edge axis.
   ],
   sections: (
     [
@@ -6458,7 +6458,7 @@
       substantially faster than the inherited course assumed —
       under one rating, one program, one evaluation — and the
       hedges name what the evidence does and does not close. Paired
-      with CIRCUIT (Cases 187, 127), the case anchors the
+      with CIRCUIT (Cases 185, 127), the case anchors the
       workforce-capability-at-the-edge-of-training axis that
       connectomics proofreading and submarine-system troubleshooting
       share at the structural level.
@@ -6507,7 +6507,7 @@
     tutorial-discipline-as-instructional-artifact design move,
     and in Domain 3 (Test and Evaluation) for the
     operational-comparison evaluation against fleet ITs with
-    7.2 years of experience. Pair with CIRCUIT (Cases 187, 127)
+    7.2 years of experience. Pair with CIRCUIT (Cases 185, 127)
     at the workforce-capability-at-the-edge axis — connectomics
     proofreading and Navy IT troubleshooting share the
     structural pattern of compressing operational expertise
@@ -10716,318 +10716,12 @@
   courses: ("LEN 4", "LEN 5", "LEN 8"),
 )
 
+
+
+
+
 #case(
   number: 168,
-  slug: "learning-journal-a-genre-exemplar-for",
-  title: "The Learning Journal — A Genre Exemplar for First-Person Practice Accounts",
-  year: "2006",
-  domains-list: ("professional development", "reflective practice", "learning engineering pedagogy"),
-  modes-code: "K",
-  impact: "A peer-reviewed first-person account in _Reflective Practice_ documenting a practitioner's structured use of a learning journal to surface theories-in-use, including a shift from single-loop to double-loop reflection — included as a genre exemplar for the first-person Practice Flywheel accounts the LENS-revised Domain 2 specifies",
-  kind: "intervention",
-  scale: "small",
-  evidence-source: "practitioner",
-  evidence-flag: "practice-synthesis-tier",
-  induced-anchor: "6.3",
-  lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2",
-  summary: [
-    A 2006 article in _Reflective Practice_ ("Using a learning
-    journal to improve professional practice: a journey of personal
-    and professional self-discovery") documents a single
-    practitioner's structured use of a learning journal over an
-    extended period, surfacing theories-in-use and narrating a
-    shift from single-loop to double-loop reflection. The case is
-    included not as a deployed capability outcome the casebook
-    teaches, but as a genre exemplar: an example of the
-    first-person, peer-reviewed reflective-practice account the
-    LENS-revised Domain 2 specifies as a distinct evidence class
-    with its own honesty convention. The editor may want to cite
-    it alongside the commissioned CIRCUIT and ERKS-class Practice
-    Flywheel accounts to establish the genre's prior art. The
-    practice-synthesis-tier flag is load-bearing — a single-author
-    reflection in a reflective-practice journal is the evidence
-    base, not a population-scale outcome study. Future validation
-    ongoing on whether the form scales beyond single-practitioner
-    self-report.
-  ],
-  sections: (
-    [
-      The v2 framework revisions amend CLO-2 to ask the learner
-      to narrate and defend the design iteration in first person —
-      not only to describe it as a third-person artifact. The
-      pedagogical question that follows is whether first-person
-      process narration is a distinct evidence class with its
-      own honesty convention, or whether it collapses into
-      autobiography. The Lutz article is one of the published
-      cases the field can point to as evidence the genre travels.#cn()
-    ],
-    [
-      The article documents a practitioner's structured use of a
-      learning journal over an extended period — entries written
-      against prompts, reviewed against prior entries, and
-      analyzed for theories-in-use the practitioner had not
-      previously surfaced. The narrative arc names a shift from
-      single-loop reflection (adjustments within an existing
-      frame) to double-loop reflection (adjustment of the frame
-      itself), with the journal serving as both the instrument
-      and the artifact.#cn()
-    ],
-    [
-      The honesty convention worth naming is the article's own
-      acknowledgement that single-author reflection is a specific
-      form with specific epistemic limits. The article does not
-      claim that the journal produces a finding generalizable
-      across practitioners; it claims that the journal produces
-      a finding about the writer's practice that an external
-      evaluator could not produce. This is the distinct
-      contribution the genre makes — and the distinct constraint
-      the genre carries.#cn()
-    ],
-    [
-      The case is included as genre exemplar rather than as a
-      deployed-intervention outcome. What it supplies the v2
-      corpus is the existence proof: a peer-reviewed,
-      first-person account of capability development that names
-      what it can and cannot evidence. The editor's commissioned
-      first-person Flywheel accounts from CIRCUIT and an
-      ERKS-class effort will need to navigate the same
-      epistemic terrain, and the Lutz article is one of the
-      prior-art references for what that navigation looks like
-      in print.#cn()
-    ],
-    [
-      The practice-synthesis-tier flag is honest. The article is
-      a single-author reflection in a peer-reviewed
-      reflective-practice journal; the genre is established but
-      population-scale evidence on its impact is not the article's
-      offer. Future validation ongoing on whether the form scales
-      beyond single-practitioner self-report and on whether
-      structured journal practices produce measurably different
-      outcomes from unstructured reflection. The case carries the
-      standing tier language into print.
-    ],
-  ),
-  beats: (
-    "Lutz (2006) _Reflective Practice_ first-person account of structured learning-journal use over an extended period",
-    "Narrative arc: shift from single-loop reflection to double-loop reflection, journal as instrument and artifact",
-    "Honesty convention: single-author reflection is a distinct evidence class with specific epistemic limits, named in the article itself",
-    "Included as genre exemplar for v2's amended CLO-2 (narrate and defend the design iteration in first person)",
-    "Practice-synthesis-tier flag preserved; future validation ongoing on whether the form scales beyond single-practitioner self-report",
-  ),
-  approaches: (
-    during: (
-      [When commissioning or producing a first-person practice account, name the epistemic class explicitly — what the account can evidence (the writer's theories-in-use, the iteration arc) and what it cannot (population-scale outcome claims).],
-      [Treat the journal as instrument and artifact, with structured prompts that surface theories-in-use rather than narrative-only entries; the article documents this discipline as the load-bearing methodological choice.],
-      [Carry the practice-synthesis-tier flag through the citation; genre exemplars belong in the literature companion to the commissioned Flywheel accounts, not as the primary evidence base for the framework.],
-    ),
-    after: (
-      [Distinguish single-loop and double-loop reflection in the account's structure; the article's arc is the worked example of how the distinction shows up in print.],
-      [When deciding whether to commission additional first-person Flywheel accounts, use the Lutz article as the prior-art reference for the honesty conventions the genre supports.],
-      [Treat the genre's epistemic limits as a feature of the evidence class, not a defect: first-person accounts deliver what external evaluation cannot, and external evaluation delivers what first-person accounts cannot.],
-    ),
-  ),
-  references: (
-    [Lutz, S. (2006), "Using a learning journal to improve professional practice: a journey of personal and professional self-discovery," _Reflective Practice_ 7(3), doi:10.1080/14623940600837517.],
-    [Argyris, C., & Schön, D. (1974/1996), _Theory in Practice_ and _Organizational Learning II_ — the single-loop / double-loop distinction the article enacts.],
-    [Cross-reference: the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts (to be authored), for the engineering-practice counterparts to this exemplar.],
-    [the proposed revisions — the amended CLO-2 that calls for first-person process narration as a distinct evidence class.],
-  ),
-  quote: [The journal produces a finding about the writer's practice that an external evaluator could not produce.],
-  quote-source: "Editors' paraphrase of the Lutz (2006) article's framing.",
-  le-insight: [
-    Lutz (2006) is a peer-reviewed first-person account of
-    structured learning-journal use, narrating a shift from
-    single-loop to double-loop reflection. Included as genre
-    exemplar for the LENS-revised CLO-2 (narrate and defend the
-    design iteration in first person), not as a deployed
-    capability outcome. Practice-synthesis-tier flag preserved;
-    future validation ongoing on whether the form scales beyond
-    single-practitioner self-report.
-  ],
-  lens-approach: [
-    Lutz is the reflective-practice genre exemplar (induced
-    6.3; LENS D2/PT4). LENS uses it in Domain 2 (Iterative
-    Development) for the amended CLO-2 — first-person
-    narration of design iteration as a distinct evidence class
-    with its own honesty convention. Sits in the literature
-    companion to the editor-commissioned CIRCUIT and ERKS-class
-    Practice Flywheel accounts, establishing the genre's prior
-    art for engineering-practice readers.
-  ],
-  literature-items: (
-    [Lutz (2006), _Reflective Practice_],
-    [Argyris & Schön — single-loop / double-loop distinction],
-    [— amended CLO-2 framing],
-  ),
-  reflection-list: (
-    [Identify a recent design iteration in your own practice. What would a peer-reviewed first-person account of that iteration have to do — in honesty convention, in epistemic scope, in structure — to count as a contribution distinct from a third-person case write-up?],
-    [The case is a single-author reflection in a reflective-practice journal. What is the minimum additional evidence — comparative analyses of structured-vs-unstructured journaling, multi-practitioner replication — you would require before treating the genre's pedagogical value as settled in your program?],
-    [Specify what the first-person Flywheel account from a CIRCUIT or ERKS-class effort would have to evidence (the writer's design iteration, the theories-in-use, the frame shifts) and what it would not (population-scale outcome claims); use the Lutz article as the prior-art reference.],
-  ),
-  courses: ("LEN 2", "LEN 7", "LEN 8"),
-)
-
-#case(
-  number: 169,
-  slug: "reflective-practice-for-stem-educators",
-  title: "Reflective Practice for STEM Educators — Genre Travel into Engineering Pedagogy",
-  year: "2023",
-  domains-list: ("STEM education", "professional reflection", "faculty development"),
-  modes-code: "K",
-  impact: "A 2023 _CBE—Life Sciences Education_ primer synthesizes the reflective-practice tradition (Schon, Brookfield, and adjacent frameworks) for a STEM-faculty audience, supplying adaptation prompts — included as evidence the genre travels from teaching, nursing, and counseling into STEM educator and engineering-practice contexts",
-  kind: "intervention",
-  scale: "small",
-  evidence-source: "peer-reviewed",
-  evidence-flag: "practice-synthesis-tier",
-  induced-anchor: "6.4",
-  lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2",
-  summary: [
-    The 2023 _CBE—Life Sciences Education_ primer ("Reflective
-    Practices in Education: A Primer for Practitioners")
-    synthesizes the reflective-practice tradition — Schon's
-    reflection-in-action and reflection-on-action, Brookfield's
-    critical-lens framework, and adjacent practitioner literatures
-    from nursing and counseling — for a STEM-faculty audience and
-    supplies adaptation prompts for the STEM educator's
-    design-and-improvement workflow. The case is included as a
-    cross-domain bridge: it demonstrates that the
-    reflective-practice genre, often anchored in education,
-    nursing, and counseling, travels into STEM education and by
-    extension into engineering-practice contexts. The
-    practice-synthesis-tier flag is load-bearing — the primer is
-    a peer-reviewed synthesis, not an empirical study of
-    educator-adoption outcomes. The case pairs with the Lutz
-    learning-journal exemplar (Case 168) as the literature
-    companion to the editor-commissioned first-person Practice
-    Flywheel accounts: Lutz is the genre exemplar, the primer is
-    the cross-domain bridge that shows the genre can be adopted
-    by the LENS-audience-adjacent STEM educator and engineer.
-    Future validation ongoing on STEM-educator adoption outcomes.
-  ],
-  sections: (
-    [
-      Reflective practice as a tradition has been anchored, in
-      its strongest published forms, in teacher education,
-      nursing education, and counseling training. The LENS-
-      revised CLO-2 asks the learner to narrate and defend the
-      design iteration in first person — a competency the
-      reflective-practice tradition has well-developed
-      conventions for, but in domains adjacent to the LENS
-      audience. The primer's contribution is the adaptation
-      into the STEM-educator workflow.#cn()
-    ],
-    [
-      The primer synthesizes the canonical frameworks. Schon's
-      _reflection-in-action_ (thinking while doing) and
-      _reflection-on-action_ (analyzing after doing) supply the
-      temporal structure. Brookfield's _four lenses_ —
-      autobiographical, learner, colleague, theoretical —
-      supply the perspectival structure. The nursing and
-      counseling literatures supply the structured-prompt
-      conventions. Together these are the reflective-practice
-      grammar the primer translates for STEM faculty.#cn()
-    ],
-    [
-      The adaptation prompts are the operational contribution.
-      The primer does not stop at describing the frameworks; it
-      supplies the structured questions a STEM educator would
-      ask of a recent teaching iteration, a recent design
-      decision, or a recent student-outcome surprise. The
-      questions are the genre-translation artifact — the
-      vocabulary in which the STEM educator can produce the
-      reflective-practice account without learning the full
-      adjacent-discipline literature first.#cn()
-    ],
-    [
-      Why the case matters to LENS: the LENS audience overlaps
-      STEM education and engineering practice, and the
-      first-person Flywheel accounts the editor will commission
-      from CIRCUIT and an ERKS-class effort sit on the same
-      bridge the primer is building. If the genre can travel
-      from teacher education into STEM educator pedagogy, it can
-      travel from STEM educator pedagogy into the engineering-
-      practice account the v2 framework is asking for. The case
-      is the precondition evidence — not the destination, the
-      proof the bridge holds.#cn()
-    ],
-    [
-      The practice-synthesis-tier flag is honest. The primer is
-      peer-reviewed but is a review/primer format rather than an
-      empirical study of STEM-faculty adoption outcomes. The
-      adaptation prompts are the operational contribution;
-      whether STEM educators who use them produce measurably
-      different teaching outcomes is the open question the
-      primer does not close. Future validation ongoing on STEM-
-      educator adoption and on whether the engineering-practice
-      audience can adopt the genre with comparable fidelity. The
-      case carries the standing tier language into print.
-    ],
-  ),
-  beats: (
-    "CBE—LSE primer (2023) synthesizes reflective-practice frameworks (Schon, Brookfield, nursing/counseling lit) for STEM faculty",
-    "Operational contribution: adaptation prompts — structured questions for STEM educator design-and-improvement workflow",
-    "Cross-domain bridge case — genre travels from teacher/nursing/counseling education into STEM educator pedagogy",
-    "Precondition evidence for engineering-practice first-person Flywheel accounts (CIRCUIT, ERKS-class) the editor will commission",
-    "Practice-synthesis-tier flag preserved; future validation ongoing on STEM-educator adoption outcomes",
-  ),
-  approaches: (
-    during: (
-      [When designing a reflective-practice instrument for engineers or STEM educators, start from the primer's adaptation prompts rather than from the source teacher-education literature; the translation work is already done at one bridge.],
-      [Specify which of the canonical frameworks (Schon temporal structure, Brookfield perspectival structure, nursing structured-prompt conventions) the instrument draws on, so the genre lineage is auditable.],
-      [Carry the practice-synthesis-tier flag through any pedagogical decision the primer informs; the synthesis is peer-reviewed but adoption-outcome evidence is the open question.],
-    ),
-    after: (
-      [Track adoption among the intended STEM-educator or engineering-practice audience separately from the primer's framing; whether the genre travels in practice is the validation the primer asks for.],
-      [Use the primer as the prior-art bridge for first-person Flywheel accounts in engineering-practice domains; the primer demonstrates the genre can cross one disciplinary boundary, and that is the precondition for asking it to cross another.],
-      [When commissioning Flywheel accounts, supply the adaptation prompts as scaffolding rather than the source frameworks; the translation work the primer did is the load-bearing pedagogical contribution.],
-    ),
-  ),
-  references: (
-    [Brookfield, S. (2017), _Becoming a Critically Reflective Teacher_ (2nd ed.) — the four-lens framework the primer synthesizes.],
-    ["Reflective Practices in Education: A Primer for Practitioners," _CBE—Life Sciences Education_ (2023), doi:10.1187/cbe.22-07-0148, PMC10228263.],
-    [Schon, D. (1983), _The Reflective Practitioner_ — the temporal structure (reflection-in-action / reflection-on-action) the primer carries forward.],
-    [Cross-reference: Case 168 (Lutz learning journal) as the genre exemplar; the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts as the engineering-practice destination.],
-  ),
-  quote: [The genre travels. The adaptation prompts are the bridge.],
-  quote-source: "Editors' synthesis of the CBE—LSE primer.",
-  le-insight: [
-    The CBE—LSE primer is the cross-domain bridge case for
-    reflective practice: peer-reviewed synthesis of the canonical
-    frameworks with adaptation prompts for STEM faculty.
-    Included as evidence the genre can travel from teacher /
-    nursing / counseling education into STEM-educator and
-    engineering-practice contexts. Practice-synthesis-tier flag
-    preserved; future validation ongoing on STEM-educator
-    adoption outcomes.
-  ],
-  lens-approach: [
-    The CBE—LSE primer is the cross-domain bridge case for
-    first-person practice accounts (induced 6.4; LENS D2/PT4).
-    LENS uses it in Domain 2 (Iterative Development) for the
-    amended CLO-2 — the primer's adaptation prompts are the
-    operational scaffolding that lets engineering-practice
-    audiences adopt the reflective-practice genre. Sits in the
-    literature companion to Case 168 (Lutz) and the
-    editor-commissioned CIRCUIT and ERKS-class Flywheel
-    accounts.
-  ],
-  literature-items: (
-    [CBE—LSE primer (2023), PMC10228263],
-    [Brookfield (2017), four-lens framework],
-    [Schon (1983), reflection-in-action / reflection-on-action],
-  ),
-  reflection-list: (
-    [Identify a STEM-educator or engineering-practice context in your program where reflective practice could be embedded. Which of the primer's adaptation prompts would you use as the scaffolding, and which would you have to translate further for your audience?],
-    [The case is a peer-reviewed primer without empirical adoption-outcome evidence. What is the minimum additional evidence — STEM-faculty adoption studies, engineering-practice replication — you would require before treating the genre-travel claim as settled for your context?],
-    [Specify the bridge work that would be required for the first-person Flywheel account in your domain (CIRCUIT-class capability engineering, an ERKS-class effort, or your own program). What adaptation prompts would you author for that translation, on the model of the primer's contribution?],
-  ),
-  courses: ("LEN 2", "LEN 7", "LEN 8"),
-)
-
-#case(
-  number: 170,
   slug: "reflective-practice-on-a-work-based",
   title: "Reflective Practice on a Work-Based Software Engineering Program — Longitudinal Capability Development",
   year: "2025 (preprint)",
@@ -11057,11 +10751,12 @@
     evidence that the capability to do so is developing. The
     preprint-tier flag is load-bearing: not yet peer-reviewed at
     the time of this drafting, and the case carries the standing
-    "future validation ongoing" language into print. Pairs with
-    Cases 168 (Lutz genre exemplar) and 176 (CBE—LSE
-    cross-domain bridge) as the Gap 6 literature companions to
-    the editor-commissioned first-person Practice Flywheel
-    accounts.
+    "future validation ongoing" language into print. It is the v2
+    corpus's reference instance of an instrument built to measure
+    the *development* of reflective capability over time, not only
+    its presence at a single point — the prior art the editor-
+    commissioned first-person Practice Flywheel accounts will sit
+    alongside.
   ],
   sections: (
     [
@@ -11111,17 +10806,14 @@
       rather than the specific magnitudes the preprint reports.#cn()
     ],
     [
-      In pair with Lutz (Case 168, the genre exemplar) and the
-      CBE—LSE primer (Case 169, the cross-domain bridge), the
-      preprint completes the Gap 6 literature companion to the
-      editor-commissioned first-person Practice Flywheel
-      accounts. Lutz shows the genre's existence; the primer
-      shows the genre's travel; this preprint shows the
-      evaluation pathway. Together they are the prior-art
-      package the CIRCUIT and ERKS-class Flywheel accounts will
-      sit alongside. Future validation ongoing — both
-      peer-review pipeline and replication across other
-      work-based engineering programs.
+      What the case supplies the editor-commissioned first-person
+      Practice Flywheel accounts (CIRCUIT, ERKS-class) is the
+      evaluation pathway: evidence that reflective-practice
+      capability can be measured as it develops, not only observed
+      once. That is the prior art a Flywheel account's evaluation
+      design can build on. Future validation ongoing — both
+      peer-review pipeline and replication across other work-based
+      engineering programs.
     ],
   ),
   beats: (
@@ -11129,7 +10821,7 @@
     "Instrument designed to measure development of reflective capability over time, not only presence at a snapshot",
     "Construct boundary: intra-learner depth-change measurement vs. cross-learner presence measurement",
     "Preprint-tier flag load-bearing — not yet peer-reviewed at time of drafting; structural signal extracted, not specific magnitudes",
-    "Pairs with Lutz (175) and CBE—LSE primer (176) as Gap 6 literature companions to commissioned Flywheel accounts",
+    "Prior art for the editor-commissioned first-person Practice Flywheel accounts: shows the evaluation pathway, not only the genre",
   ),
   approaches: (
     during: (
@@ -11145,8 +10837,8 @@
   ),
   references: (
     ["The Development of Reflective Practice on a Work-Based Software Engineering Program: A Longitudinal Study," arXiv:2504.20956 (2025) — preprint.],
-    [Cross-reference: Case 168 (Lutz learning journal) — reflective-practice genre exemplar.],
-    [Cross-reference: Case 169 (CBE—LSE primer) — cross-domain bridge from teacher/nursing/counseling education into STEM and engineering-practice contexts.],
+    [D. Schön, _The Reflective Practitioner_ (1983) — the foundational account of reflection-in-action the genre rests on.],
+    [Boud, Keogh & Walker (eds.), _Reflection: Turning Experience into Learning_ (1985) — reflection as a learning process, and the measurement problem it raises.],
     [the proposed revisions — the amended CLO-2 (first-person narration of design iteration) the case evaluates.],
   ),
   quote: [The construct is the development of reflective capability, not its presence. The instrument has to be sensitive to depth change.],
@@ -11169,24 +10861,22 @@
     and in Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the preprint
     supplies the construct distinction (development vs.
     presence) without supplying peer-reviewed magnitudes.
-    Pairs with Cases 168 and 169 as Gap 6 literature
-    companions.
   ],
   literature-items: (
     [arXiv:2504.20956 (2025) — longitudinal SE-program study],
-    [Cross-reference: Case 168 (Lutz), Case 169 (CBE—LSE primer)],
+    [Schön (1983); Boud, Keogh & Walker (1985) — reflective-practice canon],
     [— amended CLO-2 framing],
   ),
   reflection-list: (
     [Identify a multi-year program in your context where reflective-practice capability is supposed to develop. What instrument would you build to measure development (intra-learner depth change over time) rather than presence (snapshot)? At what temporal cadence?],
     [The case is a preprint not yet peer-reviewed. What is the minimum additional evidence — peer-review pipeline outcome, replication across other work-based programs, comparison with snapshot-based instruments — you would require before treating any specific magnitude from this work as settled in your program design?],
-    [Specify the prior-art package (Lutz exemplar, CBE—LSE primer, this preprint) you would assemble around a first-person Flywheel evaluation pathway for an engineering-practice account; which construct distinctions and adaptation prompts would you carry forward, and which would you supplement with locally produced evidence?],
+    [Specify the prior art you would assemble around a first-person Flywheel evaluation pathway for an engineering-practice account; which construct distinctions (development vs. presence) would you carry forward, and which would you supplement with locally produced evidence?],
   ),
   courses: ("LEN 2", "LEN 7", "LEN 8"),
 )
 
 #case(
-  number: 171,
+  number: 169,
   slug: "cognitive-tutor-algebra-i-at-scale-year",
   title: "Cognitive Tutor Algebra I at Scale — Year-One Null, Year-Two Positive",
   year: "2007 – 2014",
@@ -11292,7 +10982,7 @@
       one-year evaluation would have been inadequate evidence,
       and a field that publishes the one-year null without
       noting the planned second-year horizon publishes a wrong
-      answer on the available data. Pair with Case 172
+      answer on the available data. Pair with Case 170
       (ASSISTments) for the multi-year follow-through paired
       case, and with Case 60 (Epic Sepsis) for the
       evaluation-horizon discipline in clinical AI. The closed
@@ -11306,7 +10996,7 @@
     "Year-one posttest: no significant difference; year-two posttest: CTAI significantly outperforms control",
     "A one-year evaluation would have published a null on the same intervention; both findings in the same trial",
     "Timeline of evaluation is itself a falsifiable design choice; year-two horizon required for deployment-substrate stabilization",
-    "Deeper-evidence-of v1 Case 113; pair with Case 172 (ASSISTments) and Case 60 (Epic Sepsis horizon discipline)",
+    "Deeper-evidence-of v1 Case 113; pair with Case 170 (ASSISTments) and Case 60 (Epic Sepsis horizon discipline)",
   ),
   approaches: (
     during: (
@@ -11317,7 +11007,7 @@
     after: (
       [Publish the year-by-year result pattern, not the aggregate effect; the case's teaching power depends on the year-one null being on the same page as the year-two positive.],
       [Carry the timeline-of-evidence lesson into the curriculum's evaluation-design teaching; the case grounds the CLO on judgment under inadequate evidence with a rare worked example where the inadequacy is the horizon, not the sample size.],
-      [Pair the case with Case 172 (ASSISTments multi-year follow-through) so the field-level discipline is taught with two converging examples; the methodological lesson is more useful as a pattern than as a single instance.],
+      [Pair the case with Case 170 (ASSISTments multi-year follow-through) so the field-level discipline is taught with two converging examples; the methodological lesson is more useful as a pattern than as a single instance.],
     ),
   ),
   references: (
@@ -11344,7 +11034,7 @@
     discipline and in Domain 2 (Iterative Development) for the
     deployment-substrate-stabilization frame — teacher fluency,
     scheduling, workflow familiarity are designable parts of
-    the intervention substrate, not noise. Pair with Case 172
+    the intervention substrate, not noise. Pair with Case 170
     (ASSISTments follow-through), v1 Case 113 (Cognitive Tutor
     system), and Case 60 (Epic Sepsis horizon discipline).
   ],
@@ -11362,7 +11052,7 @@
 )
 
 #case(
-  number: 172,
+  number: 170,
   slug: "assistments-national-replication-and",
   title: "ASSISTments — National Replication and Long-Term Follow-Through",
   year: "2014 – present",
@@ -11465,8 +11155,8 @@
       arm's effect size is still under analysis. Whether the
       effect persists past grade 8 is the longer-horizon
       question that the corpus's evaluation-horizon discipline
-      (Case 171) directly applies to. Pair the case with Case
-      171 (Cognitive Tutor at-scale evaluation) for the
+      (Case 169) directly applies to. Pair the case with Case
+      169 (Cognitive Tutor at-scale evaluation) for the
       evaluation-horizon thread, with Case 147 (spaced education
       RCTs) for the replication-discipline thread, and with
       Case 71 (Engler enrollment algorithms) for the
@@ -11480,7 +11170,7 @@
     "Heterogeneity: largest gains for lower-performing students; minority students benefited more — pre-specified equity-relevant outcome",
     "Murphy et al. 2020: 7th-grade effect persisted into 8th-grade outcomes (longitudinal follow-through)",
     "Arnold Ventures extension: lower-cost virtual-training adaptation in rural areas, longitudinal through end of 8th grade",
-    "Pair with Case 171 (Cognitive Tutor horizon), Case 147 (spaced ed RCTs), Case 71 (Engler — equity-relevant inversion of gatekeeping)",
+    "Pair with Case 169 (Cognitive Tutor horizon), Case 147 (spaced ed RCTs), Case 71 (Engler — equity-relevant inversion of gatekeeping)",
   ),
   approaches: (
     during: (
@@ -11491,7 +11181,7 @@
     after: (
       [Publish the heterogeneity result with the aggregate result; the case's equity-relevant pedagogical value depends on the heterogeneity finding being on the same page as the average effect.],
       [Track the adaptation arm — the lower-cost virtual-training condition — as a separate replication; the closed-loop evidence architecture the case demonstrates includes adaptation-under-different-conditions as a distinct evidence layer.],
-      [Carry the case in syllabi alongside Case 171 so the evaluation-horizon discipline and the heterogeneity-pre-specification discipline are taught together; the two methodological lessons are independent and both load-bearing for EdTech-evaluation design.],
+      [Carry the case in syllabi alongside Case 169 so the evaluation-horizon discipline and the heterogeneity-pre-specification discipline are taught together; the two methodological lessons are independent and both load-bearing for EdTech-evaluation design.],
     ),
   ),
   references: (
@@ -11517,7 +11207,7 @@
     (Iterative Development) for the teacher-side minimum-change
     design discipline and in Domain 3 (Test and Evaluation) for
     the heterogeneity-pre-specification and longitudinal-
-    follow-through structure. Pair with Case 171 (Cognitive
+    follow-through structure. Pair with Case 169 (Cognitive
     Tutor at-scale evaluation horizon), Case 147 (spaced
     education RCTs), and Case 71 (Engler enrollment algorithms
     inversion — prediction-triggers-support).
@@ -11536,7 +11226,7 @@
 )
 
 #case(
-  number: 173,
+  number: 171,
   slug: "ou-analyse-predictive-learning",
   title: "OU Analyse — Predictive Learning Analytics and Teacher Use at Scale",
   year: "2019 – 2023",
@@ -11646,7 +11336,7 @@
       multi-institution transfer — OU Analyse has been licensed
       beyond the Open University, and the transfer outcomes are
       not yet in the peer-reviewed literature. Pair with Case
-      122 (OU consent governance), Case 171 (Cognitive Tutor
+      122 (OU consent governance), Case 169 (Cognitive Tutor
       at-scale evaluation), and the Purdue Course Signals
       cautionary case from v1 — the OU Analyse evaluation is
       the methodologically more careful descendant of the
@@ -11699,8 +11389,8 @@
     and in Domain 5 (Machine Teaming and Adaptation) for the
     delegation-with-revocation structure — the teacher chooses,
     each time, whether to act on the prediction. Pair with
-    Case 122 (OU consent governance), Case 171 (Cognitive
-    Tutor at-scale), and Case 172 (ASSISTments multi-year).
+    Case 122 (OU consent governance), Case 169 (Cognitive
+    Tutor at-scale), and Case 170 (ASSISTments multi-year).
   ],
   literature-items: (
     [Herodotou et al. (2019), _BJET_ — OU Analyse teacher-use evaluation],
@@ -11716,7 +11406,7 @@
 )
 
 #case(
-  number: 174,
+  number: 172,
   slug: "doer-effect-at-scale-replication-ai",
   title: "The Doer Effect at Scale — Replication, AI-Generated Questions, Non-WEIRD Extension",
   year: "2016 – 2025",
@@ -11892,7 +11582,7 @@
 )
 
 #case(
-  number: 175,
+  number: 173,
   slug: "hybrid-human-ai-tutoring-augmentation",
   title: "Hybrid Human-AI Tutoring — Augmentation, Not Delegation",
   year: "2024",
@@ -11920,7 +11610,7 @@
     learning rather than AI-system fidelity. The case is the
     small-tier intervention-side counterpart to Case 118 (TREWS,
     the clinician-AI teaming case that worked) translated into
-    education. Pair also with Cases 187 and 127 (CIRCUIT human-
+    education. Pair also with Cases 185 and 127 (CIRCUIT human-
     AI workforce) and Case 60 (Epic Sepsis, the delegation
     case that did not work). Open questions: longitudinal
     persistence; transfer to lower-resource tutoring contexts
@@ -11930,7 +11620,7 @@
     [
       The deployment record for AI in tutoring has been pulled
       in two directions. The fully-automated tutoring track —
-      from Cognitive Tutor through LLM-based tutoring (Case 191)
+      from Cognitive Tutor through LLM-based tutoring (Case 189)
       — has tested whether AI alone can replace or substantially
       reduce the human-tutor role. The augmentation track has
       tested whether AI can extend the reach and effectiveness
@@ -11974,7 +11664,7 @@
       the evidence base that grounds the analog.#cn()
     ],
     [
-      The case anchors with the CIRCUIT pair (Cases 187 and
+      The case anchors with the CIRCUIT pair (Cases 185 and
       127) at the workforce-augmentation layer. CIRCUIT
       proofreading positions human capability as the recovery
       mechanism for automation failure at petabyte scale; the
@@ -12050,7 +11740,7 @@
     and in Domain 2 (Iterative Development) for the three-study
     converging-design replication. Pair with Cases 118 (TREWS)
     and 102 (Epic Sepsis) at the clinical analog, and with
-    Cases 187 and 127 (CIRCUIT) at the workforce-augmentation
+    Cases 185 and 127 (CIRCUIT) at the workforce-augmentation
     analog.
   ],
   literature-items: (
@@ -12067,7 +11757,7 @@
 )
 
 #case(
-  number: 176,
+  number: 174,
   slug: "zhang-scardamalia-knowledge-building",
   title: "Zhang/Scardamalia — Knowledge Building Across Three Cohorts",
   year: "2009",
@@ -12171,9 +11861,9 @@
       counterpart in the small-tier evidence base. Pair with
       Case 128 (Colorado CTSA team science) for the
       collaboration-measurement thread at a different scale and
-      domain; with Case 175 (Hybrid Human-AI Tutoring) for the
+      domain; with Case 173 (Hybrid Human-AI Tutoring) for the
       small-tier deployment-success counterpart; with Case 122
-      and Case 173 (OU Analyse) for the distance-higher-education
+      and Case 171 (OU Analyse) for the distance-higher-education
       governance frame at a different population. The LE Lens
       uses the case as the JLS-anchored small-tier complement to
       v1 Case 113 (Cognitive Tutor's single-site arc); the two
@@ -12227,8 +11917,8 @@
     multi-cohort design-based-research discipline and in Domain 3
     (Test and Evaluation) for the depth-and-distribution paired
     outcome measure. Pair with Case 128 (Colorado CTSA team
-    science collaboration measurement), Case 175 (Hybrid Human-AI
-    Tutoring small-tier deployment), and Cases 122 and 173 (OU
+    science collaboration measurement), Case 173 (Hybrid Human-AI
+    Tutoring small-tier deployment), and Cases 122 and 171 (OU
     Analyse — distance higher-education governance at a different
     scale). The LE Lens uses it as the small-tier complement to
     v1 Case 113 (Cognitive Tutor single-site arc).
@@ -12247,7 +11937,7 @@
 )
 
 #case(
-  number: 177,
+  number: 175,
   slug: "chen-rural-china-ai-devices",
   title: "Chen et al. — Rural China AI Devices and the Equity-Direction Finding",
   year: "2025",
@@ -12338,11 +12028,11 @@
     [
       The case's structural placement in the corpus is the
       equity-direction-finding case at the non-WEIRD deployment
-      seam. Pair with Case 188 (Gándara / community-college
+      seam. Pair with Case 186 (Gándara / community-college
       predictive equity in _AERA Open_) for the equity-direction
-      thread at the higher-education scale; with Case 191
+      thread at the higher-education scale; with Case 189
       (LiveHint AI bias across foundation models) for the bias-
-      surfacing thread in AI-supported instruction; with Case 174
+      surfacing thread in AI-supported instruction; with Case 172
       (Doer Effect non-WEIRD radio-and-phone extension) for the
       non-WEIRD methodological discipline at the heterogeneity-
       finding axis. The first-author-from-deployment-country
@@ -12381,7 +12071,7 @@
     "Rural experimental classes +17.93% math, +13.46% history; urban experimental classes +10.96% math, +9.55% history",
     "Equity-direction finding: rural gain exceeds urban gain across both subjects — the load-bearing teaching point",
     "Load-bearing hedges in prose: 3-month horizon, 12 schools, non-randomized assignment, self-report and observation bias acknowledged",
-    "First-author-from-deployment-country structure; pair with Cases 188 (Gándara), 187 (LiveHint bias), 186 (Doer Effect non-WEIRD)",
+    "First-author-from-deployment-country structure; pair with Cases 186 (Gándara), 187 (LiveHint bias), 186 (Doer Effect non-WEIRD)",
   ),
   approaches: (
     during: (
@@ -12391,15 +12081,15 @@
     ),
     after: (
       [Commission the longer-horizon and larger-sample replication the three-month 12-school study cannot perform; the equity-direction finding's persistence past three months and across more schools is the validation question the case names.],
-      [Pair the case in syllabi with Case 188 (Gándara community-college equity) and Case 174 (Doer Effect non-WEIRD extension) so the equity-direction reading is taught across deployment scales and population settings.],
+      [Pair the case in syllabi with Case 186 (Gándara community-college equity) and Case 172 (Doer Effect non-WEIRD extension) so the equity-direction reading is taught across deployment scales and population settings.],
       [Use the case to anchor the CLO on fairness beyond omission with a rare published equity-direction finding; the corpus needs equity-narrowing results as visible as equity-widening ones, and the methodological discipline that lets the result be reported credibly is the curricular target.],
     ),
   ),
   references: (
     [Chen, R., Wu, Y., Chen, Z., & Zhou, P. (2025), "Advancing educational equity in rural China: the impact of AI devices on teaching quality and learning outcomes for sustainable development," _Frontiers in Psychology_ 16:1588047, doi:10.3389/fpsyg.2025.1588047.],
-    [Paired Case 188 (Gándara et al., _AERA Open_) — community-college predictive equity at the higher-education scale.],
-    [Paired Case 191 (LiveHint AI bias across foundation models, AIED 2025) — bias-surfacing in AI-supported instruction.],
-    [Paired Case 174 (Doer Effect non-WEIRD LAK 2025 radio-and-phone extension) — non-WEIRD methodological discipline at the heterogeneity-finding axis.],
+    [Paired Case 186 (Gándara et al., _AERA Open_) — community-college predictive equity at the higher-education scale.],
+    [Paired Case 189 (LiveHint AI bias across foundation models, AIED 2025) — bias-surfacing in AI-supported instruction.],
+    [Paired Case 172 (Doer Effect non-WEIRD LAK 2025 radio-and-phone extension) — non-WEIRD methodological discipline at the heterogeneity-finding axis.],
   ),
   quote: [Rural experimental classes gained 17.93 percent on mathematics and 13.46 percent on history; urban experimental classes gained 10.96 percent on mathematics and 9.55 percent on history. The rural gain exceeded the urban gain across both subjects — and the load-bearing hedges are three-month horizon, twelve schools, non-randomized assignment, self-report and observation bias acknowledged by the authors.],
   quote-source: "Editors' synthesis of Chen, Wu, Chen, & Zhou (2025).",
@@ -12421,17 +12111,17 @@
     (Iterative Development) for the deployment-on-a-defined-
     horizon discipline and in Domain 4 (Navigating Sociotechnical
     Constraints) for the equity-direction reading that anchors
-    the fairness-beyond-omission CLO. Pair with Case 188
-    (Gándara community-college predictive equity), Case 191
-    (LiveHint AI bias across foundation models), and Case 174
+    the fairness-beyond-omission CLO. Pair with Case 186
+    (Gándara community-college predictive equity), Case 189
+    (LiveHint AI bias across foundation models), and Case 172
     (Doer Effect non-WEIRD radio-and-phone extension). The
     case's pedagogical value depends on the four binding
     hedges traveling with the result into print.
   ],
   literature-items: (
     [Chen et al. (2025), _Frontiers in Psychology_ — rural China AI devices],
-    [Paired Cases 188 (Gándara) and 186 (Doer Effect non-WEIRD)],
-    [Paired Case 191 (LiveHint AI bias)],
+    [Paired Cases 186 (Gándara) and 186 (Doer Effect non-WEIRD)],
+    [Paired Case 189 (LiveHint AI bias)],
   ),
   reflection-list: (
     [Identify a deployment in your domain whose equity-direction finding — narrowing or widening a between-setting gap — has not been pre-specified as a primary outcome. What would the pre-specification require, and what data infrastructure would support it?],
@@ -12442,7 +12132,7 @@
 )
 
 #case(
-  number: 178,
+  number: 176,
   slug: "nyc-ll144-aedt-2023",
   title: "NYC Local Law 144 — Bias Audits as Governance Artifact",
   year: "2023 – present",
@@ -12475,7 +12165,7 @@
     metrics require — and wide variability in audit quality
     across published audits. The case pairs with Case 122 (OU
     Analyse — governance-objection dissolved by design), Case
-    188 (Gándara community-college predictive equity), and Case
+    186 (Gándara community-college predictive equity), and Case
     81 (Amazon hiring AI). The intervention is the audit-as-
     governance-artifact discipline; whether the audits reduce
     actual disparate impact at the hiring level remains under-
@@ -12538,7 +12228,7 @@
       design process resolved structurally; Local Law 144's
       audit regime surfaces equity questions structurally
       through disclosure rather than through a design change.
-      Pair with Case 188 (Gándara community-college predictive
+      Pair with Case 186 (Gándara community-college predictive
       equity) for the predictive-equity thread at higher-
       education scale. Pair with Case 81 (Amazon hiring AI) for
       the same domain — the audit regime is the governance
@@ -12577,7 +12267,7 @@
     "Three requirements: annual independent bias audit, publication of audit summary, candidate notice and alternative-selection request process",
     "Audit metrics: selection rate and impact ratio by sex, race/ethnicity, intersectional categories; computed by independent auditor not associated with the AEDT",
     "Yam & Skirpan 2024 \"bias audits without bias data\": employers often lack protected-attribute data; Wright & Brown 2024 audit-quality study finds wide variability",
-    "Pair with Case 122 (OU Analyse), Case 188 (Gándara), Case 81 (Amazon hiring AI); whether audits reduce actual disparate impact remains under-evidenced",
+    "Pair with Case 122 (OU Analyse), Case 186 (Gándara), Case 81 (Amazon hiring AI); whether audits reduce actual disparate impact remains under-evidenced",
   ),
   approaches: (
     during: (
@@ -12618,7 +12308,7 @@
     in Domain 4 (Navigating Sociotechnical Constraints) for the
     audit-as-governance-instrument discipline. Pair with Case
     122 (OU Analyse governance-objection-dissolved-by-design),
-    Case 188 (Gándara community-college predictive equity), and
+    Case 186 (Gándara community-college predictive equity), and
     Case 81 (Amazon hiring AI). The intervention is real and
     its limits are real; the disclosure-and-audit structure is
     not a substantive-standards structure, and the reduction-
@@ -12639,7 +12329,7 @@
 )
 
 #case(
-  number: 179,
+  number: 177,
   slug: "composer-sepsis-prediction",
   title: "COMPOSER Sepsis Prediction — The Third Clinical-AI Sepsis Case",
   year: "2022 – 2024",
@@ -12675,7 +12365,7 @@
     (the COMPOSER deployment ran alongside other process
     improvements at UCSD), and the author team is explicit
     about the structural attribution question. Pair with Case
-    118, Case 60, and Case 182 (Radiology AI Miscalibration).
+    118, Case 60, and Case 180 (Radiology AI Miscalibration).
   ],
   sections: (
     [
@@ -12744,7 +12434,7 @@
       (Epic Sepsis Score) for the external-validation-revealed-
       gaps thread: COMPOSER's abstention structure is one
       response to the calibration-gap failure mode that the Epic
-      Sepsis evidence base named. Pair with Case 182 (Radiology
+      Sepsis evidence base named. Pair with Case 180 (Radiology
       AI Miscalibration) for the broader medical-AI
       miscalibration-in-deployment thread. The three sepsis
       cases together — Case 118, Case 60, COMPOSER — define
@@ -12781,7 +12471,7 @@
     "Conformal-prediction framework: calibrated uncertainty intervals enable model abstention when input is out-of-distribution",
     "Deployment outcomes: 1.9 pp absolute decrease in in-hospital sepsis mortality; 5.0 pp absolute decrease in 28-day sepsis-related readmission vs pre-deployment baseline",
     "Hedges binding: prospective not RCT; mortality reduction multifactorial — concurrent process improvements at UCSD cannot be cleanly separated from COMPOSER's contribution",
-    "Completes AI-delegation typology in sepsis: Case 118 (TREWS), Case 60 (Epic Sepsis Score), COMPOSER (Case 179)",
+    "Completes AI-delegation typology in sepsis: Case 118 (TREWS), Case 60 (Epic Sepsis Score), COMPOSER (Case 177)",
   ),
   approaches: (
     during: (
@@ -12822,9 +12512,9 @@
     evaluation discipline and in Domain 5 (Machine Teaming and
     Adaptation) for the abstention-as-clinical-workflow-
     capability anchor. Pair with Case 118 (TREWS), Case 60
-    (Epic Sepsis), and Case 182 (Radiology AI Miscalibration).
+    (Epic Sepsis), and Case 180 (Radiology AI Miscalibration).
     The three sepsis cases together — Case 118, Case 60, Case
-    179 — define the AI-delegation typology in sepsis at the
+    177 — define the AI-delegation typology in sepsis at the
     deployment-evidence level.
   ],
   literature-items: (

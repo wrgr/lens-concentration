@@ -394,7 +394,7 @@
   failure: a single-string sensor, a flight-control law that assumed
   pilot mental models from prior models, and a certification chain
   that did not knit the pieces together (Case 17). The successful
-  cases — AlphaFold (Case 185), MICrONS, CRM (Case 103 paired with
+  cases — AlphaFold (Case 183), MICrONS, CRM (Case 103 paired with
   Case 108), Keystone (Case 105), the paired-intervention examples in
   Chapter 8 — are, equivalently, cases of disciplined translation
   and integration: biology into computation, science into
@@ -424,7 +424,7 @@
   are not the discipline. They are the discipline's instruments —
   and the cases in this book show, repeatedly, that powerful
   instruments do not by themselves engineer capability (Cases 45,
-  49, 35, 85, 183, 186). The LENS curriculum teaches the practitioner
+  49, 35, 85, 181, 184). The LENS curriculum teaches the practitioner
   to choose, configure, evaluate, and govern these tools with the
   same evidentiary discipline applied to any other intervention,
   and to recognize when the binding constraint is the surrounding

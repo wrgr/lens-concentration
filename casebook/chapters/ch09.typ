@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 180,
+  number: 178,
   slug: "tesla-autopilot-recurring-fatalities",
   title: "Tesla Autopilot — Recurring Fatalities",
   year: "2016 – present",
@@ -166,7 +166,7 @@
 )
 
 #case(
-  number: 181,
+  number: 179,
   slug: "cruise-robotaxi-pedestrian-drag",
   title: "Cruise Robotaxi — Pedestrian Drag",
   year: "2023",
@@ -309,7 +309,7 @@
 
 
 #case(
-  number: 182,
+  number: 180,
   slug: "radiology-ai-miscalibration",
   title: "Radiology AI Miscalibration",
   year: "2018 – present",
@@ -533,7 +533,7 @@
 )
 
 #case(
-  number: 183,
+  number: 181,
   slug: "chatgpt-in-healthcare-hallucination",
   title: "ChatGPT in Healthcare — Hallucination Cases",
   year: "2023 – present",
@@ -677,7 +677,7 @@
 )
 
 #case(
-  number: 184,
+  number: 182,
   slug: "predictive-policing-predpol",
   title: "Predictive Policing — PredPol",
   year: "2011 – present",
@@ -820,7 +820,7 @@
 )
 
 #case(
-  number: 185,
+  number: 183,
   slug: "alphafold-protein-structure-prediction",
   title: "AlphaFold — Protein Structure Prediction",
   year: "2020 – present",
@@ -965,7 +965,7 @@
 )
 
 #case(
-  number: 186,
+  number: 184,
   slug: "ai-augmented-coding-tools",
   title: "AI-Augmented Coding Tools",
   year: "2021 – present",
@@ -1113,7 +1113,7 @@
 )
 
 #case(
-  number: 187,
+  number: 185,
   slug: "circuit-microns-the-human-correction",
   title: "CIRCUIT / MICrONS — The Human Correction Layer at Petabyte Scale",
   year: "2017 – present",
@@ -1159,7 +1159,7 @@
       Connectomics — the reconstruction of detailed wiring diagrams
       of brain tissue from electron-microscopy imaging — is the
       modern incarnation of a problem with the same structural shape
-      as the early radiology-AI cases (Case 182): automation produces
+      as the early radiology-AI cases (Case 180): automation produces
       a primary output at scale that no human team could produce
       manually, and the output is too important and too error-prone
       to be deployed without verification. The MICrONS program,
@@ -1288,7 +1288,7 @@
 )
 
 #case(
-  number: 188,
+  number: 186,
   slug: "gandara-algorithmic-targeting-and",
   title: "Gándara — Detecting and Mitigating Algorithmic Bias in College Student-Success Prediction",
   year: "2024",
@@ -1470,7 +1470,7 @@
 )
 
 #case(
-  number: 189,
+  number: 187,
   slug: "yu-lee-kizilcec-protected-attributes-in",
   title: "Yu / Lee / Kizilcec — Protected Attributes in Learning-Analytics Models",
   year: "2021 – 2024",
@@ -1566,10 +1566,10 @@
       specific deployment.#cn()
     ],
     [
-      In pair with Case 188 (Gándara on community-college
+      In pair with Case 186 (Gándara on community-college
       targeting) and with the v2 race-construct trio (Cases 119
       eGFR, 106 pulse oximetry, 107 Hoffman), the case completes
-      the v2 equity-construct frontier picture. Case 188 names
+      the v2 equity-construct frontier picture. Case 186 names
       the construct-definition layer; this case names the
       protected-attribute-in-the-model layer; the race-construct
       trio names the construct-encoded-in-the-instrument layer
@@ -1586,7 +1586,7 @@
     "Fairness-through-unawareness intuitive but incomplete: omitted attributes reconstructable from correlated features (zip code, prior achievement)",
     "Yu, Lee, Kizilcec (LAK/EDM): include-or-exclude effect depends on construct, model class, downstream intervention, population — no general answer",
     "Right framing is governance and audit: explicit decision recorded with reasoning, stratified evaluation, audit cadence that catches the consequences",
-    "Cross-references Case 188 (Gándara), the v2 race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman) — five-case equity-construct frontier set",
+    "Cross-references Case 186 (Gándara), the v2 race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman) — five-case equity-construct frontier set",
   ),
   approaches: (
     during: (
@@ -1597,7 +1597,7 @@
     after: (
       [Publish the protected-attribute handling decisions for any deployed learning-analytics model — included, excluded, and with what reasoning — as part of the model's governance documentation.],
       [Operate stratified audit on a regular cadence; the include-or-exclude consequences in operation are what the audit catches, and audit absence makes the decision functionally invisible to the institution.],
-      [Carry the five-case equity-construct set into the curriculum: Cases 119 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 188 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
+      [Carry the five-case equity-construct set into the curriculum: Cases 119 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 186 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
     ),
   ),
   references: (
@@ -1623,7 +1623,7 @@
     governance case (induced 8.4; LENS D3/PT5) — Domain 3 for
     stratified-evaluation-by-attribute; Domain 4 for the
     decision-plus-reasoning-plus-audit architecture. Cross-
-    reference Case 188 and the race-construct trio (105, 106,
+    reference Case 186 and the race-construct trio (105, 106,
     107).
   ],
   literature-items: (
@@ -1634,13 +1634,13 @@
   reflection-list: (
     [Identify a learning-analytics or analogous predictive model in your domain. Which protected attributes are inputs to the model, which are not, and is the include-or-exclude decision on the record with reasoning, or absorbed into the data-engineering pipeline?],
     [Specify the stratified-audit cadence you would operate for the model regardless of whether protected attributes are inputs; the audit catches the consequences of the include-or-exclude decision in operation, and its absence makes the decision functionally invisible.],
-    [The case sits in a five-case equity-construct set with Case 188 (Gándara) on construct definition and the v2 race-construct trio (Cases 119, 120, 63) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
+    [The case sits in a five-case equity-construct set with Case 186 (Gándara) on construct definition and the v2 race-construct trio (Cases 119, 120, 63) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
   ),
   courses: ("LEN 3", "LEN 6", "LEN 9"),
 )
 
 #case(
-  number: 190,
+  number: 188,
   slug: "learning-analytics-on-the-african",
   title: "Learning Analytics on the African Continent — A Scoping Review as the Present-State Map",
   year: "2022",
@@ -1802,7 +1802,7 @@
 )
 
 #case(
-  number: 191,
+  number: 189,
   slug: "livehint-ai-evaluating-an-ai-tutor-for",
   title: "LiveHint AI — Evaluating an AI Tutor for Bias Across Foundation Models",
   year: "2025",
@@ -1912,10 +1912,10 @@
       educational-AI procurement pipeline is a market-evolution
       question the present study can name but cannot resolve.
       The case pairs with the race-construct trio for the
-      stratified-validation discipline and with Case 175
+      stratified-validation discipline and with Case 173
       (hybrid human-AI tutoring) for the deployment-side
-      complement — the augmentation pattern Case 175 documents
-      depends on the foundation-model-level evaluation Case 191
+      complement — the augmentation pattern Case 173 documents
+      depends on the foundation-model-level evaluation Case 189
       is methodologically grounding.
     ],
   ),
@@ -1924,7 +1924,7 @@
     "Choice of foundation model materially affects differentiation level; vendor-selection decision is itself fairness-relevant",
     "Methods-development paper (LiveHint in development), not deployment-bias audit; grounds demographic-stratification at foundation-model layer",
     "Structurally new variable beyond race-construct trio (Cases 119/105/106/155): the foundation-model layer above the deployed system",
-    "Open: lab probing vs. deployed-conversation match; vendor selection as routine fairness deliverable; pair with Case 175",
+    "Open: lab probing vs. deployed-conversation match; vendor selection as routine fairness deliverable; pair with Case 173",
   ),
   approaches: (
     during: (
@@ -1965,7 +1965,7 @@
     and Adaptation) for the foundation-model-selection-as-
     fairness-decision frame. Pair with the race-construct trio
     (Cases 119, 120, 63, 69) at the deployment-audit layer
-    and with Case 175 (hybrid human-AI tutoring) as the
+    and with Case 173 (hybrid human-AI tutoring) as the
     augmentation-pattern complement.
   ],
   literature-items: (
@@ -1982,7 +1982,7 @@
 )
 
 #case(
-  number: 192,
+  number: 190,
   slug: "multimodal-learning-analytics-in-the",
   title: "Multimodal Learning Analytics In-the-Wild — A First-Person Lessons-Learned Account",
   year: "2023",
@@ -1993,7 +1993,7 @@
   scale: "small",
   evidence-source: "practitioner",
   evidence-flag: "preprint-tier",
-  induced-anchor: "6.3",
+  induced-anchor: "2.2",
   lens-anchor: "D2/PT4",
   clo-anchor: "CLO-2, CLO-3",
   summary: [
@@ -2081,7 +2081,7 @@
       operational knowledge accumulates and propagates across
       practitioner cohorts. The pair with the CIRCUIT cases
       (119, 120) is the workforce-and-capability layer; the
-      pair with Case 175 (hybrid human-AI tutoring) is the
+      pair with Case 173 (hybrid human-AI tutoring) is the
       design-iteration layer.#cn()
     ],
     [
@@ -2145,8 +2145,8 @@
     reflective-narration-of-design-iteration discipline and in
     Domain 3 (Test and Evaluation) for the evidence-tier
     discipline binding the preprint-tier framing to the genre's
-    pedagogical role. Pair with Cases 187 and 127 (CIRCUIT
-    workforce-and-capability layer) and Case 175 (hybrid human-
+    pedagogical role. Pair with Cases 185 and 127 (CIRCUIT
+    workforce-and-capability layer) and Case 173 (hybrid human-
     AI tutoring design-iteration layer). Preprint-tier flag
     binding under the title.
   ],
@@ -2164,7 +2164,7 @@
 )
 
 #case(
-  number: 193,
+  number: 191,
   slug: "deepmind-mammography-2020",
   title: "DeepMind Mammography — High-Profile Nature Paper, Replicability Pushback",
   year: "2020",
@@ -2198,7 +2198,7 @@
     framing the original paper offered has been refined by
     subsequent deployment evidence rather than confirmed at the
     deployment scale the headline implied. The case pairs with
-    Case 182 (Radiology AI Miscalibration), Case 60 (Epic
+    Case 180 (Radiology AI Miscalibration), Case 60 (Epic
     Sepsis), and Case 120 (Pulse oximetry).
   ],
   sections: (
@@ -2258,7 +2258,7 @@
       established.#cn()
     ],
     [
-      The case pairs with Case 182 (Radiology AI Miscalibration)
+      The case pairs with Case 180 (Radiology AI Miscalibration)
       for the medical-imaging-AI-deployment-evidence thread:
       retrospective evaluation produces one class of evidence;
       prospective deployment produces another, and the two are
@@ -2298,7 +2298,7 @@
     "Press framing: \"AI outperforms radiologists\"; paper's careful claims do not carry the framing's deployment implications",
     "Haibe-Kains et al. Nature Oct 14 2020 comment: code not released, models not released, methodology not reproducible from publication",
     "Comment does not allege error; argues reproducibility not established; large fraction of methodology not independently verifiable",
-    "Pair with Case 182 (Radiology AI miscalibration), Case 60 (Epic Sepsis), Case 120 (pulse oximetry population heterogeneity)",
+    "Pair with Case 180 (Radiology AI miscalibration), Case 60 (Epic Sepsis), Case 120 (pulse oximetry population heterogeneity)",
   ),
   approaches: (
     during: (
@@ -2308,7 +2308,7 @@
     ),
     after: (
       [Carry the Haibe-Kains comment's specific framing into print without softening; the comment is a finding on reproducibility, not a finding of error, and the case's pedagogical value depends on the distinction being preserved.],
-      [Pair in syllabi with Case 182 and Case 60 so the high-profile-result-versus-deployment-evidence pattern is taught across the medical-imaging-AI deployment seam at multiple instances.],
+      [Pair in syllabi with Case 180 and Case 60 so the high-profile-result-versus-deployment-evidence pattern is taught across the medical-imaging-AI deployment seam at multiple instances.],
       [Use the case to anchor the verification-as-deployment-event frame; the curricular target is the discipline of treating a high-profile retrospective result as the starting point of a multi-year verification arc rather than as a deployment-ready endpoint.],
     ),
   ),
@@ -2337,7 +2337,7 @@
     reproducibility-infrastructure-as-verification-condition
     discipline and in Domain 5 (Machine Teaming and Adaptation)
     for the retrospective-versus-prospective-evidence distinction.
-    Pair with Case 182 (Radiology AI Miscalibration), Case 60
+    Pair with Case 180 (Radiology AI Miscalibration), Case 60
     (Epic Sepsis), and Case 120 (pulse oximetry population
     heterogeneity). The Haibe-Kains comment is a reproducibility
     finding, not a finding of error; the distinction is the

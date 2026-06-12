@@ -1889,10 +1889,20 @@
     None alone produced the breach. The combination was the breach.
   ],
   lens-approach: [
-    LENS uses Equifax in LEN 5 for cumulative-inadequacy analysis in
-    cybersecurity and in LEN 7 for the institutional dynamics that
-    allow routine work to be chronically underfunded.
+    LENS uses Equifax in LEN 6 as a feedback-channel failure: the
+    security team identified the Apache Struts patch and told IT to
+    apply it — the operator-to-institution escalation existed, was
+    correct, and died before reaching anyone with the asset map and
+    the authority to act. The teaching point is not "patch your
+    systems" but the engineered escalation deliverable: a flagged,
+    agreed-upon fix has to be wired to an owner who can map it to
+    every affected asset and is funded to close it before the gap
+    costs everything. LEN 7 carries the institutional half — routine
+    defenses run as a cost center have no slack on the bad day.
   ],
+  induced-anchor: "6.2",
+  lens-anchor: "D4/PT3",
+  clo-anchor: "CLO-2",
   literature-items: (
     [Senate Subcommittee report (2019)],
     [GAO-18-559],
@@ -2178,11 +2188,21 @@
     actual conditions did not exist as an institutional deliverable.
   ],
   lens-approach: [
-    LENS uses the Camp Fire in LEN 7 for utility regulatory governance
-    and in LEN 8 for institutional response to changing operating
-    conditions. The case is paired with the Northeast Blackout (Case
-    33) as utility-capability failures of different kinds.
+    LENS uses the Camp Fire in LEN 7 as a legacy-asset case (induced
+    7.3): infrastructure designed for one operating regime and run
+    unchanged into another as the climate shifted the fire risk
+    underneath it. The teaching point is the assumption-migration
+    review as a recurring engineered obligation — an asset whose
+    safety case rests on conditions that no longer hold needs a
+    standing, funded re-verification that the original design
+    assumptions still match the world, not a one-time sign-off. It is
+    the single taught example of the legacy-asset-aged-past-its-regime
+    pattern; the case pairs with the Northeast Blackout (Case 33) as
+    utility-capability failures of different kinds.
   ],
+  induced-anchor: "7.3",
+  lens-anchor: "D4/PT1",
+  clo-anchor: "CLO-1, CLO-4",
   literature-items: (
     [CalFire Camp Fire Investigation Report (2019)],
     [Wuebbles et al. (2017), Climate Science Special Report],
@@ -2292,7 +2312,7 @@
     ],
     [
       The Epic case is the negative pair to TREWS (Case 118) and the
-      governance-seam analog to Radiology AI Miscalibration (Case 182).
+      governance-seam analog to Radiology AI Miscalibration (Case 180).
       Together they teach a typology: delegation done well as a paired
       intervention with engineered interface and outcome-grounded
       evidence (TREWS); delegation done badly as a proprietary
@@ -4156,7 +4176,7 @@
     [
       The case sits as the structural inverse of Case 112 (Georgia
       State's predictive advising) and pairs with Case 61 (mortgage-
-      lending fairness) and Case 188 (community-college predictive
+      lending fairness) and Case 186 (community-college predictive
       equity). Georgia State used prediction to trigger support;
       enrollment-management algorithms use prediction to reduce
       the help allocated. Bartlett's lending analysis names the
@@ -4232,7 +4252,7 @@
     for the evidence-tier discipline — practice-synthesis is the
     strongest available tier, and the case says so. Pair with
     Case 112 (Georgia State support-trigger inversion), Case 61
-    (Bartlett lending fairness), and Case 188 (Gándara community-
+    (Bartlett lending fairness), and Case 186 (Gándara community-
     college equity). coi-light render under the title is binding.
   ],
   literature-items: (
@@ -5362,8 +5382,8 @@
     technical report acknowledges that the standardisation goal
     was incompatible with population-level fairness given
     individual-student variance and the dependence of the model
-    on cohort size. The case pairs with Case 188 (Gándara / AERA
-    Open community-college fairness), Case 191 (LiveHint AI bias
+    on cohort size. The case pairs with Case 186 (Gándara / AERA
+    Open community-college fairness), Case 189 (LiveHint AI bias
     across foundation models), and Case 69 (Johnson school
     surveillance).
   ],
@@ -5425,13 +5445,13 @@
       students in advance of deployment.#cn()
     ],
     [
-      The case pairs with Case 188 (Gándara / community-college
+      The case pairs with Case 186 (Gándara / community-college
       predictive equity in _AERA Open_) at the higher-education
       scale: both cases turn on the question of whether a
       standardisation or prediction mechanism that is statistically
       defensible at the population level can be deployed in a way
       that is defensible at the individual-student level. Pair
-      with Case 191 (LiveHint AI bias across foundation models)
+      with Case 189 (LiveHint AI bias across foundation models)
       for the bias-surfacing thread in education-deployed
       algorithms. Pair with Case 69 (Johnson school surveillance)
       for the algorithmic-administration-in-education parallel at
@@ -5465,7 +5485,7 @@
     "~39.1% of teacher-estimated grades downgraded; state-school students in large cohorts downgraded at higher rates than independent-school students in small cohorts",
     "Results released Aug 13 2020; withdrawn Aug 17 2020 after four days of public protest; Centre Assessment Grades substituted",
     "Cohort-size dependence of model is structural; technical report acknowledges incompatibility of standardisation with individual-level fairness",
-    "Pair with Case 188 (Gándara community-college equity), Case 191 (LiveHint bias), Case 69 (Johnson school surveillance)",
+    "Pair with Case 186 (Gándara community-college equity), Case 189 (LiveHint bias), Case 69 (Johnson school surveillance)",
   ),
   approaches: (
     during: (
@@ -5475,7 +5495,7 @@
     ),
     after: (
       [Carry the technical report's hedge — "standardisation incompatible with population-level fairness given individual-student variance" — into print without softening; the case's pedagogical value depends on the internal documentation of the seam being visible alongside the public withdrawal.],
-      [Pair in syllabi with Case 188 (Gándara) so the population-level-versus-individual-level fairness tension is taught at both the secondary-to-higher-education transition scale and the community-college transition scale.],
+      [Pair in syllabi with Case 186 (Gándara) so the population-level-versus-individual-level fairness tension is taught at both the secondary-to-higher-education transition scale and the community-college transition scale.],
       [Use the case as the rare example of an algorithmic deployment withdrawn at national scale within days; the four-day withdrawal arc is the curricular target for governance-response speed under public pressure.],
     ),
   ),
@@ -5505,8 +5525,8 @@
     stakeholders process as the test surface and in Domain 4
     (Navigating Sociotechnical Constraints) for the cohort-size
     dependence as the distributional seam the deployment carried.
-    Pair with Case 188 (Gándara community-college predictive
-    equity), Case 191 (LiveHint AI bias across foundation
+    Pair with Case 186 (Gándara community-college predictive
+    equity), Case 189 (LiveHint AI bias across foundation
     models), and Case 69 (Johnson school surveillance). The
     technical report's acknowledgement of incompatibility is the
     load-bearing hedge.
@@ -5747,7 +5767,7 @@
     individual credit decisions to applicants who challenged them.
     DFS required Goldman Sachs to overhaul its customer-service
     process. The case pairs with Case 61 (Bartlett mortgage),
-    Case 62 (Coots), and Case 188 (Gándara). The DFS finding of
+    Case 62 (Coots), and Case 186 (Gándara). The DFS finding of
     "no violation but lack of transparency" is the load-bearing
     nuance.
   ],
@@ -5810,7 +5830,7 @@
       competing-fairness-definitions thread; the DFS standard is
       one of several available standards, and the case teaches
       that "no violation under a specific statutory standard" is
-      not "fair." Pair with Case 188 (Gándara) for the
+      not "fair." Pair with Case 186 (Gándara) for the
       explainability-of-individual-predictions thread at a
       different population and scale. The case is unusual in the
       casebook for the speed of regulatory response — DFS opened
@@ -5885,7 +5905,7 @@
     for the human-in-the-loop-for-consequential-decisions anchor
     at the appeal seam. Pair with Case 61 (Bartlett mortgage),
     Case 62 (Coots competing fairness definitions), and Case
-    188 (Gándara explainability of individual predictions). The
+    186 (Gándara explainability of individual predictions). The
     precise DFS finding — "no violation but lack of transparency"
     — is the load-bearing hedge.
   ],
@@ -6002,7 +6022,7 @@
       correlated signal. Pair with Case 69 (Johnson school
       surveillance) for the algorithmic-employment-and-
       surveillance-decisions parallel at a different population.
-      Pair with Case 191 (LiveHint AI bias across foundation
+      Pair with Case 189 (LiveHint AI bias across foundation
       models) for the trained-bias-in-foundation-models thread
       at contemporary scale. The Amazon case is unusual in that
       the project was deprecated rather than deployed; most
@@ -6079,7 +6099,7 @@
     discipline and in Domain 3 (Test and Evaluation) for the
     construct-validity-at-the-training-data-layer anchor. Pair
     with Case 61 (Bartlett mortgage), Case 69 (Johnson school
-    surveillance), and Case 191 (LiveHint AI bias across
+    surveillance), and Case 189 (LiveHint AI bias across
     foundation models). The journalism-tier evidence-flag is
     binding; the structural teaching point is the case's
     curricular value.
@@ -6132,7 +6152,7 @@
     limited precedential weight outside BC but has been cited
     widely as articulating the delegation-without-revocation
     principle. The case pairs with Case 60 (Epic Sepsis), Case
-    68 (Watson for Oncology), and Case 175 (Hybrid Human-AI
+    68 (Watson for Oncology), and Case 173 (Hybrid Human-AI
     Tutoring).
   ],
   sections: (
@@ -6201,7 +6221,7 @@
       organization's accountability for the agent's outputs is
       the load-bearing governance question. Pair with Case 68
       (Watson for Oncology) for the AI-agent-recommendations-in-
-      practice thread. Pair with Case 175 (Hybrid Human-AI
+      practice thread. Pair with Case 173 (Hybrid Human-AI
       Tutoring) for the educational-AI-agent thread at adjacent
       scale. The Air Canada ruling is a small-claims-tribunal
       decision with limited precedential weight outside BC, but
@@ -6275,7 +6295,7 @@
     Teaming and Adaptation) for the
     organization-is-liable-for-agent-representations principle.
     Pair with Case 60 (Epic Sepsis delegation-without-
-    validation), Case 68 (Watson for Oncology), and Case 175
+    validation), Case 68 (Watson for Oncology), and Case 173
     (Hybrid Human-AI Tutoring). The small-claims-tribunal
     venue limits precedential weight; the structural reading is
     the load-bearing one.
@@ -6327,7 +6347,7 @@
     2023 investigation by Todd Feathers documented the
     disparate-impact finding and the agency's response. Both
     findings are load-bearing. The case pairs with Case 69
-    (Johnson school surveillance), Case 188 (Gándara
+    (Johnson school surveillance), Case 186 (Gándara
     community-college predictive equity), and Case 101 (Purdue
     Course Signals — reverse causality). This case carries both
     the peer-reviewed and journalism-investigation evidence
@@ -6404,7 +6424,7 @@
       parallel; both cases involve administrative-data
       predictions deployed against student populations and both
       surface disparate-impact concerns at the deployment
-      surface. Pair with Case 188 (Gándara community-college
+      surface. Pair with Case 186 (Gándara community-college
       predictive equity) for the predictive-equity-in-education
       thread at adjacent population scale. Pair with Case 101
       (Purdue Course Signals) for the reverse-causality and
@@ -6446,7 +6466,7 @@
     "Perdomo, Britton, Hardt, Abebe FAccT 2025 RDD on ~10 years of data: cannot rule out zero treatment effect of being above DEWS threshold on graduation",
     "Wisconsin DPI 2021 internal equity audit \"Is DEWS Fair?\": less accurate for Black, Hispanic, English-learner students; agency continued unchanged",
     "The Markup 2023 investigation (Feathers) documented disparate-impact finding and agency response",
-    "Both streams load-bearing; pair with Case 69 (Johnson), Case 188 (Gándara), Case 101 (Purdue Course Signals reverse causality)",
+    "Both streams load-bearing; pair with Case 69 (Johnson), Case 186 (Gándara), Case 101 (Purdue Course Signals reverse causality)",
   ),
   approaches: (
     during: (
@@ -6487,7 +6507,7 @@
     on-multi-year-deployment discipline and in Domain 4
     (Navigating Sociotechnical Constraints) for the equity-
     audit-as-binding-input anchor. Pair with Case 69 (Johnson
-    school surveillance), Case 188 (Gándara community-college
+    school surveillance), Case 186 (Gándara community-college
     predictive equity), and Case 101 (Purdue Course Signals
     reverse causality). Both the peer-reviewed null and the
     journalism-and-agency-audit disparate-impact finding are
