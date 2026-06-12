@@ -380,22 +380,22 @@
   agency, or discipline to carry meaning reliably from one part of a
   system to another, or failures of subsystems built to different
   assumptions to compose into a working whole. Mars Climate Orbiter was a metric-versus-
-  imperial translation failure (Case 22). Tenerife was a translation
+  imperial translation failure (Case 9). Tenerife was a translation
   failure at the takeoff-clearance boundary between two cockpits and
-  a tower under fog and time pressure (Case 103). The Patriot at
+  a tower under fog and time pressure (Case 70). The Patriot at
   Dhahran failed because the manufacturer's assumption about run
   time and the operator's actual run time were on opposite sides of
   a documentation boundary that had not been engineered to be
-  crossed (Case 19). Eagle Claw failed because the rotary-wing,
+  crossed (Case 8). Eagle Claw failed because the rotary-wing,
   fixed-wing, ground, and command components were assembled across
-  service boundaries that had no shared operating practice (Case 12).
+  service boundaries that had no shared operating practice (Case 5).
   9/11 was a cross-agency translation failure measured in thousands
-  of dead (Case 97). Boeing 737 MAX was, at one level, an integration
+  of dead (Case 167). Boeing 737 MAX was, at one level, an integration
   failure: a single-string sensor, a flight-control law that assumed
   pilot mental models from prior models, and a certification chain
-  that did not knit the pieces together (Case 17). The successful
-  cases — AlphaFold (Case 183), MICrONS, CRM (Case 103 paired with
-  Case 108), Keystone (Case 105), the paired-intervention examples in
+  that did not knit the pieces together (Case 7). The successful
+  cases — AlphaFold (Case 132), MICrONS, CRM (Case 70 paired with
+  Case 72), Keystone (Case 71), the paired-intervention examples in
   Chapter 8 — are, equivalently, cases of disciplined translation
   and integration: biology into computation, science into
   operational practice, technical reform into cultural reform,
@@ -415,16 +415,16 @@
   and high-fidelity rehearsal under conditions that would be
   unsafe or impossible in the field — together with learning-
   management systems, adaptive learning platforms (the lineage from
-  Cognitive Tutor and ASSISTments to current ITS work; Cases 113,
-  85), intelligent tutoring frameworks such as GIFT, learning-
+  Cognitive Tutor and ASSISTments to current ITS work; Cases 38,
+  33), intelligent tutoring frameworks such as GIFT, learning-
   analytics infrastructures such as xAPI and the Total Learning
-  Architecture (Case 86), game-based learning environments, LLM-
+  Architecture (Case 171), game-based learning environments, LLM-
   augmented tutors and authoring tools, and high-fidelity simulators
   in aviation, surgery, defense, and process industries. These tools
   are not the discipline. They are the discipline's instruments —
   and the cases in this book show, repeatedly, that powerful
-  instruments do not by themselves engineer capability (Cases 45,
-  49, 35, 85, 181, 184). The LENS curriculum teaches the practitioner
+  instruments do not by themselves engineer capability (Cases 146,
+  149, 61, 33, 79, 80). The LENS curriculum teaches the practitioner
   to choose, configure, evaluate, and govern these tools with the
   same evidentiary discipline applied to any other intervention,
   and to recognize when the binding constraint is the surrounding
@@ -440,9 +440,9 @@
   specification. That reading collapses the very property the cases
   reveal as load-bearing. Every successful institution in Part II —
   INPO operators trained to challenge their reactor team, Keystone
-  ICU nurses authorized to halt a procedure (Case 105), the Nuclear
-  Navy's questioning attitude (Case 111), the first-officer authority
-  CRM built into the cockpit (Case 103) — engineered for capability
+  ICU nurses authorized to halt a procedure (Case 71), the Nuclear
+  Navy's questioning attitude (Case 18), the first-officer authority
+  CRM built into the cockpit (Case 70) — engineered for capability
   *and* for the operator's capacity to exercise independent
   judgment, to adapt to conditions the system was not designed for,
   and to shape the surrounding architecture rather than only

@@ -681,3 +681,60 @@ Editorial pass anchoring the 62 v1 cases that lacked `induced-anchor`, `lens-anc
 
 *Case 194 — The Discipline We Build Next* — closing framing essay; intentionally unanchored.
 
+
+
+---
+
+## Stage 4 — 10-chapter restructure (June 2026)
+
+The book is now organized by v2.1 competency × {what fails / what works + frontier} — 10 chapters plus the closing case. Cases are placed by their `lens-anchor` primary D and `kind` field; numbering 1–194 runs in chapter order.
+
+**Chapter sizes (post-fix):**
+
+| Chapter | Cases |
+|---|---|
+| 1A Systems Analysis — what fails | 16 |
+| 1B Systems Analysis — what works + frontier | 11 |
+| 2A Iterative Development — the iteration gap *(small + editor essay)* | 4 |
+| 2B Iterative Development — what works + frontier | 22 |
+| 3A Human-System Collaboration — what fails | 16 |
+| 3B Human-System Collaboration — what works + frontier | 12 |
+| 4A Test and Evaluation — what fails | 25 |
+| 4B Test and Evaluation — what works + frontier | 30 |
+| 5A Sociotechnical Constraints — what fails | 31 |
+| 5B Sociotechnical Constraints — what works + frontier | 26 |
+| Closing — The Discipline We Build Next | 1 |
+
+**Three clear-error placements fixed during the Q&A pass** (anchors corrected, cases moved chapters in the same atomic renumber):
+
+- **Three Mile Island** — `lens-anchor` was `D4/PT4` (T&E); content is a control-room interface case with the audit's recommended `induced: 3.1` (cue/alert). Fixed to `D3/PT4`, `CLO-3, CLO-1`. Moved from 4A to 3A.
+- **USS Vincennes** — `lens-anchor` was `D2/PT6` (drafted incorrectly; never corrected by the v1→v2.1 remap because D2 doesn't shift). Mode/state-transparency case. Fixed to `D3/PT6`, `CLO-3`. Moved from 2A to 3A.
+- **Texas City BP** — `lens-anchor` was `D4/PT5` but induced `5.4` (change-control / disclosure) is governance, not measurement. Fixed to `D5/PT4`, `CLO-5`. Moved from 4A to 5A.
+
+**Outstanding `induced` / `lens` mismatches** (deferred for editor judgement; documented for the human-review pass):
+
+The Q&A pass also surfaced 66 cases where `induced-anchor` and `lens-anchor` disagree about the case's primary domain. Most are legitimate (a case can teach one analytic dimension through a different competency lens), but some warrant editor judgement. Categorized:
+
+| Cluster | Count | Description | Action |
+|---|---|---|---|
+| Cue/alert tagged D4 | 7 | Cases with `induced: 3.x` (cue/alert) but `lens: D4` (T&E). Mostly v2 intervention cases where the case teaches *evaluation of an alert system* rather than the alert design itself. | Editor review (case-by-case): if the case's teaching point is the alert architecture, move to D3; if it's the evaluation of an alert intervention, keep at D4. |
+| Sociotech induced (5/6/7.x) tagged D1 | 10 | System-change / aging-asset / knowledge-transfer cases anchored to D1 (Systems Analysis) for the "analyse the transition" reading. | Editor review: confirm D1 (analyse) vs D5 (operate-through-change). |
+| Equity induced (8.x) tagged D5 | 4 | Equity / construct cases tagged Sociotech instead of T&E fairness. | Editor review: confirm D5 (governance) vs D4 (fairness beyond omission). |
+| D2 cases with non-2.x induced | 24 | Intervention cases tagged D2 (iterative development) whose `induced` is a different cluster (1.x capability req, 3.x interface, 5.x governance, etc.). | Most are legitimate cross-dimensional reads; spot-check at the editor's discretion. |
+| Other | 21 | Mixed; smaller clusters and one-offs. | Spot-check. |
+
+Full list in `/tmp/mismatches.json` (will be regenerated at print time) and queryable via `python3 -c "import re,glob; ..."`.
+
+**Cue/alert cases tagged D4** (the highest-priority cluster for editor review):
+- Case 85 Deepwater Horizon
+- Case 116 Anesthesia Monitoring Standards (APSF)
+- Case 118 EGPWS / TAWS
+- Case 119 TCAS
+- Case 120 Bar-Code Medication Administration
+- Case 125 Annual-Screening UI Redesign (Univ. of Missouri Health)
+- Case 126 Alert-Fatigue Redesign
+
+The pattern across all seven: v2 cases drafted to discuss the *evaluation outcomes* of an alert / cue intervention, tagged `lens: D4/PT5` (T&E, problem-type 5 = evaluation). The `induced: 3.1` (cue/alert) is correct as an analytic crosswalk. Whether the case's primary teaching point is the alert *design* (move to D3) or the alert *evaluation evidence* (keep at D4) is a per-case editorial call.
+
+**Verification log artifact.** A separate file `casebook/verification-log.md` carries the per-case manual-review table with editor-guideline check columns (clarity, refs real, refs support the claim, conclusions reasonable, no overclaim, anchor fit, cross-references resolve, verified by, date, notes). The first three columns are populated from the anchor pass; the rest are placeholders.
+

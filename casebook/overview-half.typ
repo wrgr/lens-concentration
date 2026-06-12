@@ -69,17 +69,17 @@
 #include "overview-frontmatter.typ"
 
 // ----------------------------------------------------- the cases (overview)
-// v1 + v2 interleaved into thematic chapters, appearance order 1–202.
-#include "chapters/ch01.typ"
-#include "chapters/ch02.typ"
-#include "chapters/ch03.typ"
-#include "chapters/ch04.typ"
-#include "chapters/ch05.typ"
-#include "chapters/ch06.typ"
-#include "chapters/ch07.typ"
-#include "chapters/ch08.typ"
-#include "chapters/ch09.typ"
-#include "chapters/ch-v21-iteration.typ"
+// v2.1 — 10 chapters by competency × {fails, works/frontier}; closing case last.
+#include "chapters/ch1a.typ"
+#include "chapters/ch1b.typ"
+#include "chapters/ch2a.typ"
+#include "chapters/ch2b.typ"
+#include "chapters/ch3a.typ"
+#include "chapters/ch3b.typ"
+#include "chapters/ch4a.typ"
+#include "chapters/ch4b.typ"
+#include "chapters/ch5a.typ"
+#include "chapters/ch5b.typ"
 
 // ============================================================
 // CLOSING CASE — about LENS itself; appears at the end of the book

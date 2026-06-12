@@ -67,26 +67,20 @@
 #include "frontmatter/matrix.typ"
 
 // ============================================================
-// All cases — v1 + v2 interleaved into thematic chapters, numbered
-// in appearance order 1–202 (slugs are the stable IDs across
-// renumbering). Part I — The Failure Modes (ch01–07); Part II —
-// What Works (ch08); Part III — The Frontier (ch09).
+// All cases — organised by v2.1 competency × {what fails, what works
+// and frontier}. Ten chapters; closing case last. Numbering 1-194
+// runs in this chapter order; slugs are the stable IDs.
 // ============================================================
-#include "chapters/ch01.typ"
-#include "chapters/ch02.typ"
-#include "chapters/ch03.typ"
-#include "chapters/ch04.typ"
-#include "chapters/ch05.typ"
-#include "chapters/ch06.typ"
-#include "chapters/ch07.typ"
-#include "chapters/ch08.typ"
-#include "chapters/ch09.typ"
-
-// v2.1 additions — Iterative Development stagnation cases. These two
-// drop into the v2.1 Ch 2A (Iterative Development — what fails) during
-// the upcoming 12-chapter restructure; included here at end-of-corpus
-// in the interim so they ship with the v2.1 sync.
-#include "chapters/ch-v21-iteration.typ"
+#include "chapters/ch1a.typ"
+#include "chapters/ch1b.typ"
+#include "chapters/ch2a.typ"
+#include "chapters/ch2b.typ"
+#include "chapters/ch3a.typ"
+#include "chapters/ch3b.typ"
+#include "chapters/ch4a.typ"
+#include "chapters/ch4b.typ"
+#include "chapters/ch5a.typ"
+#include "chapters/ch5b.typ"
 
 // ============================================================
 // CLOSING CASE — about LENS itself; appears at the end of the book
