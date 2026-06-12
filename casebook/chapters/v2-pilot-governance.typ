@@ -52,9 +52,9 @@
     prediction system — operated on top of that architecture, and the
     Analytics4Action framework (Herodotou et al., _JIME_ 2016) paired
     predictions with tutor judgment and documented interventions on
-    modules of 3,000+ students. A 2025 evaluation across 559 teachers
-    and 14,000+ students examined how degree of system usage related
-    to outcomes. The honest open question, raised by the OU's own
+    modules of 3,000+ students. A 2019 evaluation (Herodotou et al.,
+    _BJET_) across 559 teachers and 14,000+ students examined how
+    degree of system usage related to outcomes. The honest open question, raised by the OU's own
     researchers, is whether predictive analytics genuinely serves
     students versus surveils them — a tension that remains contested,
     and the policy has since been superseded by a broader Data Ethics
@@ -94,8 +94,9 @@
       decision: tutors reviewed flagged students, made the
       intervention call, and documented what action they took. The
       framework was evaluated on modules of more than 3,000 students.
-      A 2025 evaluation across 559 teachers and 14,000+ students
-      examined how degree of teacher engagement with the system
+      A 2019 evaluation (Herodotou et al., _BJET_) across 559 teachers
+      and 14,000+ students examined how degree of teacher engagement
+      with the system
       related to outcomes; the pattern was that engagement, not the
       raw prediction, was what tracked with intervention success.#cn()
     ],
@@ -130,7 +131,7 @@
     "Predictive learning analytics at distance-scale; the governance objection is credible, not abstract",
     "OU authors first higher-education 'Ethical Use of Student Data' policy in 2014 — eight principles, co-designed with students",
     "OU Analyse operates on top of the consent architecture; Analytics4Action pairs predictions with tutor judgment",
-    "2025 evaluation: 559 teachers, 14,000+ students; teacher engagement, not raw prediction, is what tracks with success",
+    "2019 evaluation (Herodotou et al., BJET): 559 teachers, 14,000+ students; teacher engagement, not raw prediction, is what tracks with success",
     "Governance objection was about trust — dissolvable by design; pair with SyRI where the objection was correct",
   ),
   approaches: (
@@ -148,8 +149,8 @@
   references: (
     [Slade & Prinsloo (2013), "Learning Analytics: Ethical Issues and Dilemmas," _American Behavioral Scientist_ 57(10):1510–1529, doi:10.1177/0002764213479366.],
     [Open University (2014), "Ethical Use of Student Data for Learning Analytics" — first institutional policy of its kind in higher education.],
-    [Herodotou, Rienties, Boroowa, Zdrahal, Hlosta, & Naydenova (2017), "Analytics4Action," _Journal of Interactive Media in Education_, doi:10.5334/jime.394.],
-    [Open University (2025), OU Analyse evaluation across 559 teachers and 14,000+ students — re-confirm citation at draft.],
+    [Rienties, Boroowa, Cross, Kubiak, Mayles, & Murphy (2016), "Analytics4Action Evaluation Framework: A Review of Evidence-Based Learning Analytics Interventions at the Open University UK," _Journal of Interactive Media in Education_ 2016(1):2, doi:10.5334/jime.394.],
+    [Herodotou, Hlosta, Boroowa, Rienties, Zdrahal, & Mangafa (2019), "Empowering online teachers through predictive learning analytics," _British Journal of Educational Technology_ 50(6):3064–3079, doi:10.1111/bjet.12853 — OU Analyse evaluation across 559 teachers (189 with OUA access) and 14,000+ students in 15 undergraduate courses; average-use teachers benefited students most.],
   ),
   quote: [The consent architecture is the enabling engineering. The deployment is what follows once trust is established.],
   quote-source: "Editors' synthesis of the OU 2014 policy and Slade & Prinsloo (2013).",
@@ -158,7 +159,7 @@
     sweep of a governance objection dissolved by design. The
     2014 ethical-use policy was the enabling engineering; OU
     Analyse and Analytics4Action operated on top of it; the
-    2025 evaluation showed teacher engagement tracked with
+    2019 evaluation showed teacher engagement tracked with
     intervention success. The open question — serve vs.
     surveil — remains contested, and the policy is a living
     artifact, not a solved problem.

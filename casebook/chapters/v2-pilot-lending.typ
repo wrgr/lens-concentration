@@ -287,7 +287,7 @@
     ),
   ),
   references: (
-    [Coots et al. (2025), fintech lending fairness audit (preprint, arXiv) — citation re-confirm at draft; the evidence-tier flag is binding until peer review completes.],
+    [Coots, Bartlett, Nyarko, & Goel (2025), "Algorithmic Bias in Lending: Evidence from a Fintech Audit," arXiv:2512.20753 — audit of ~80,000 personal loans showing model miscalibration disparities and that controlled inclusion of protected attributes could correct them; the evidence-tier flag is binding until peer review completes.],
     [Bartlett, Morse, Stanton, & Wallace (2022), "Consumer-lending discrimination in the FinTech era," _Journal of Financial Economics_ 143(1):30–56 — the paired big-tier case (103).],
     [Chouldechova (2017), "Fair Prediction with Disparate Impact," _Big Data_ 5(2):153–163 — the impossibility result for calibration and error-rate parity.],
     [Kleinberg, Mullainathan, & Raghavan (2017), "Inherent Trade-Offs in the Fair Determination of Risk Scores," _ITCS_ — competing fairness definitions are not jointly achievable.],
@@ -313,7 +313,7 @@
     preprint-tier flag is binding until peer review completes.
   ],
   literature-items: (
-    [Coots et al. (2025), fintech lending fairness audit, preprint],
+    [Coots, Bartlett, Nyarko, & Goel (2025), arXiv:2512.20753 — fintech lending audit],
     [Chouldechova (2017), _Big Data_ — impossibility result],
     [Kleinberg, Mullainathan, & Raghavan (2017), _ITCS_],
   ),

@@ -672,7 +672,7 @@
     set par(leading: 0.6em)
     text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("1 · Systems Analysis — see the whole system"))
     v(1pt)
-    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Systems Thinking and Analysis · CLO-1"))
+    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Systems Thinking and Analysis"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       Decompose system performance requirements into measurable human
@@ -685,7 +685,7 @@
     v(8pt)
     text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("2 · Iterative Development — build, test, refine"))
     v(1pt)
-    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Learning Engineering Design and Implementation · CLO-2"))
+    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Learning Engineering Design and Implementation"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       Design capability-development interventions that integrate
@@ -699,7 +699,7 @@
     v(8pt)
     text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("3 · Test and Evaluation — show what works"))
     v(1pt)
-    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Data, Measurement, and Evaluation · CLO-3"))
+    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Data, Measurement, and Evaluation"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       Design ethical instrumentation strategies that produce
@@ -713,7 +713,7 @@
     v(8pt)
     text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("4 · Navigating Sociotechnical Constraints — make it work in the real world"))
     v(1pt)
-    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Context and Domain Fluency · CLO-4"))
+    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Context and Domain Fluency"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       Analyze the regulatory, organizational, and cultural
@@ -727,7 +727,7 @@
     v(8pt)
     text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("5 · Machine Teaming and Adaptation — team with the machine"))
     v(1pt)
-    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Human-AI Teaming and Adaptive Systems · CLO-5"))
+    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Human-AI Teaming and Adaptive Systems"))
     v(2pt)
     text(font: sans, size: 9.5pt, fill: text-dark)[
       Design human-AI teaming configurations that *leverage AI as a
