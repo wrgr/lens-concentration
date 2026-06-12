@@ -350,7 +350,7 @@
   year: "2014 – present",
   domains-list: ("medical-device regulation", "AI/SaMD", "Japan"),
   modes-code: "GN",
-  impact: "Japan's 2019 PMD Act amendment introduced conditional early approval and the Post-Approval Change Management Protocol (PACMP) — a pre-agreed scope for product modification that receives streamlined review post-approval; a 2025 scoping review of PMDA-approved AI radiology software documents transparency variability across the approvals",
+  impact: "Japan's 2019 PMD Act amendment introduced the Post-Approval Change Management Protocol (PACMP): a pre-agreed modification scope at initial approval, streamlined review for in-scope changes. The 2025 scoping review of PMDA-approved AI radiology software documents transparency variability — hedge preserved",
   kind: "intervention",
   scale: "big",
   evidence-source: "program-report",

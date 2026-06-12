@@ -846,11 +846,11 @@
     ],
   ),
   beats: (
-    "Equifax held identity data on most U.S. adults; security had flagged an Apache Struts patch to IT",
-    "The unapplied patch let attackers exfiltrate 147 million Americans' data over two and a half months",
-    "The Senate subcommittee found systematically inadequate patching and no comprehensive IT asset inventory",
-    "Routine work; patching, inventory, monitoring, response; was each below standard and starved as a cost center",
-    "A 700-million-dollar settlement funded compensation; patching, inventory, and disclosure timelines rose on the agenda",
+    "Equifax held identity data on most US adults; security flagged an Apache Struts patch to IT",
+    "Unapplied patch let attackers exfiltrate 147M Americans' data over 2.5 months",
+    "Senate subcommittee found systematically inadequate patching and no comprehensive IT asset inventory",
+    "Routine work — patching, inventory, monitoring, response — each below standard, starved as a cost center",
+    "$700M settlement funded compensation; patching, inventory, and disclosure timelines rose on the agenda",
   ),
   references: (
     [U.S. Senate Permanent Subcommittee on Investigations, _How Equifax Neglected Cybersecurity and Suffered a Devastating Data Breach_ (2019) — the unpatched Apache Struts vulnerability.],
