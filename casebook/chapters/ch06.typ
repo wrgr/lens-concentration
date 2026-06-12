@@ -165,6 +165,9 @@
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
   scale: "big",
+  induced-anchor: "2.2",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
   evidence-source: "investigation",
 )
 
@@ -309,6 +312,9 @@
   ),
   courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 6",),
   scale: "big",
+  induced-anchor: "1.4",
+  lens-anchor: "D2/PT4",
+  clo-anchor: "CLO-2",
 )
 
 #case(
@@ -453,6 +459,9 @@
   ),
   courses: ("LEN 4", "LEN 8", "LEN 6",),
   scale: "big",
+  induced-anchor: "5.3",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-5",
 )
 
 #case(
@@ -590,6 +599,9 @@
   ),
   courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 6",),
   scale: "big",
+  induced-anchor: "1.4",
+  lens-anchor: "D2/PT4",
+  clo-anchor: "CLO-2",
 )
 
 #case(
@@ -1058,6 +1070,9 @@
   ),
   courses: ("LEN 5", "LEN 8"),
   scale: "big",
+  induced-anchor: "7.2",
+  lens-anchor: "D1/PT1",
+  clo-anchor: "CLO-1",
 )
 
 

@@ -839,6 +839,9 @@
   ),
   courses: ("LEN 7", "LEN 8", "LEN 3",),
   scale: "big",
+  induced-anchor: "5.3",
+  lens-anchor: "D5/PT1",
+  clo-anchor: "CLO-5",
 )
 
 #case(

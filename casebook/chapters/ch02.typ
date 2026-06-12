@@ -372,6 +372,9 @@
   ),
   courses: ("LEN 5", "LEN 7", "LEN 2"),
   scale: "big",
+  induced-anchor: "3.1",
+  lens-anchor: "D3/PT3",
+  clo-anchor: "CLO-3",
 )
 
 #case(
@@ -520,6 +523,9 @@
   ),
   courses: ("LEN 5", "LEN 8", "LEN 9", "LEN 6",),
   scale: "big",
+  induced-anchor: "1.2",
+  lens-anchor: "D1/PT1",
+  clo-anchor: "CLO-1",
   evidence-source: "investigation",
 )
 
@@ -983,6 +989,9 @@
   ),
   courses: ("LEN 5", "LEN 8"),
   scale: "big",
+  induced-anchor: "1.3",
+  lens-anchor: "D1/PT1",
+  clo-anchor: "CLO-1",
   evidence-source: "investigation",
 )
 
