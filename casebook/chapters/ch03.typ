@@ -30,8 +30,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     On 20 April 2010 the Macondo well blew out beneath the Deepwater Horizon
     rig in the Gulf of Mexico, killing 11 workers and releasing roughly 4.9
@@ -227,8 +227,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "7.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     NASA lost two Space Shuttle crews to the same organizational pathology
     seventeen years apart: Challenger in 1986, when O-ring seals failed in
@@ -729,8 +729,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.4",  // alternate framing adopted: change-control lens captures the "1000 Day"/"Forward" cost-cutting programs as program drivers; the personal-safety-vs-process-safety measurement insight (2.1) preserved as the canonical alternate,
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
 )
 
 #case(

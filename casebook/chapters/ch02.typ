@@ -30,8 +30,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "1.1",
-  lens-anchor: "D1+D4/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D1+D5/PT4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     The Boeing 737 MAX was a re-engined 737 meant to fly without new pilot
     training — the commercial promise that sold it against the Airbus
@@ -682,8 +682,8 @@
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
   induced-anchor: "2.4",
-  lens-anchor: "D3/PT3",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT3",
+  clo-anchor: "CLO-4",
 )
 
 #case(
@@ -838,8 +838,8 @@
   courses: ("LEN 4", "LEN 7", "LEN 8", "LEN 6",),
   scale: "big",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-4",
 )
 
 #case(
@@ -1157,5 +1157,5 @@
   evidence-source: "investigation",
   induced-anchor: "7.1",  // alternate framing adopted: deprecated test code activated under partial deployment is the dead-code-as-inherited-design pattern; preserves 5.4 as the post-incident Reg SCI lens,
   lens-anchor: "D1/PT3",
-  clo-anchor: "CLO-1, CLO-3",
+  clo-anchor: "CLO-1, CLO-4",
 )

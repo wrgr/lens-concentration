@@ -176,8 +176,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",  // alternate framing adopted: closed-loop evidence lens captures the Haynes→Urbach replication arc more directly than pre-committed institutional response,
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     In 2008, Atul Gawande's team and the WHO introduced a single-page,
     nineteen-item surgical checklist applied at three junctures — before
@@ -2273,8 +2273,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "3.1",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   // coi: none — TREWS carries no COI; sentinel left default. For a COI case
   // the field would render a gold-bordered "Disclosure" block under the title:
   //   coi: "An editor of this volume is the senior author of the underlying study.",
@@ -2425,8 +2425,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     For two decades the standard equation used to estimate glomerular
     filtration rate from serum creatinine — the kidney-function number on
@@ -2585,8 +2585,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.2",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Pulse oximetry — the noninvasive bedside measurement of blood oxygen
     saturation — is one of the most widely used patient-monitoring tools
@@ -2741,8 +2741,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "5.1",
-  lens-anchor: "D4+D1/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D5+D1/PT4",
+  clo-anchor: "CLO-1, CLO-5",
   coi: "An editor of this volume has research adjacency to connectomics programs discussed in this case. The case is anchored to widely cited primary position papers and to independent journalism, not to the editor's own work; the inclusion of the critical retrospective is the deliberate safeguard against boosterism.",
   summary: [
     The BRAIN Initiative is one of the few large-program launches in the
@@ -2910,8 +2910,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "5.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Predictive learning analytics at the Open University faced a real
     governance objection: large-scale processing of student data for
@@ -3079,7 +3079,7 @@
   evidence-source: "investigation",
   induced-anchor: "1.4",
   lens-anchor: "D1/PT3",
-  clo-anchor: "CLO-1, CLO-3",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     USS Thresher was lost with 129 aboard on April 10, 1963. Within
     fifty-four days the US Navy created SUBSAFE — a program that
@@ -3253,7 +3253,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "1.1",
   lens-anchor: "D1/PT3",
-  clo-anchor: "CLO-1, CLO-3",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     California in 2004 became the first US state to mandate minimum
     nurse-to-patient ratios in acute-care hospitals — unit-level
@@ -3410,8 +3410,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Through the early 1980s, anesthesia in the United States carried a
     documented patient-safety crisis: silent intraoperative hypoxemia
@@ -3584,8 +3584,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "4.2",
-  lens-anchor: "D4/PT2",
-  clo-anchor: "CLO-4",
+  lens-anchor: "D5/PT2",
+  clo-anchor: "CLO-5",
   summary: [
     CIRAS began as a 1995–1997 ScotRail pilot — a structured channel
     for rail workers to report hazards and near-misses confidentially,
@@ -3753,7 +3753,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "1.2",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   coi: "An editor of this volume is the senior author of the underlying study. The case is included on the strength of the published peer-reviewed evidence (ASEE 2023, peer-reviewed full paper with DOI); the editorial framing has been written to maintain a critical distance from the program's own self-presentation, and the open question about external/comparative evaluation is preserved in the case text.",
   summary: [
     CIRCUIT is a research workforce-development program at Johns
@@ -3922,8 +3922,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "4.3",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     The Colorado Clinical and Translational Sciences Institute
     built a structured team-science training program — explicit
@@ -4088,8 +4088,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
   summary: [
     Interprofessional Education (IPE) is a decades-long,
     well-funded movement premised on the idea that doctors,
@@ -4259,8 +4259,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "6.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Implementation science — the discipline of moving validated
     evidence into operational practice — is one of the most
@@ -4434,7 +4434,7 @@
   evidence-source: "investigation",
   induced-anchor: "1.1",
   lens-anchor: "D1/PT3",
-  clo-anchor: "CLO-1, CLO-4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     MIL-STD-1472 is the US Department of Defense's design-criteria
     standard for human engineering — the discipline of making
@@ -4614,7 +4614,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Settles and Meeder (Association for Computational Linguistics,
     2016) introduced Half-Life Regression (HLR), a trainable
@@ -4792,8 +4792,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Controlled flight into terrain (CFIT) — a serviceable aircraft
     under the pilot's control flown unintentionally into the
@@ -4970,8 +4970,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     TCAS — the Traffic Alert and Collision Avoidance System,
     standardized in RTCA DO-185 and successors — is the
@@ -5150,8 +5150,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "3.2",
-  lens-anchor: "D5/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D3/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     The "sterile cockpit" rule in commercial aviation (FAR
     121.542, codified 1981) prohibits non-essential communication
@@ -5337,8 +5337,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "6.1",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-5",
   summary: [
     Through the late 1980s and into the early 1990s, Controlled
     Flight Into Terrain — a serviceable aircraft flown under control
@@ -5505,7 +5505,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "6.4",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Central venous catheter (CVC) insertion is a high-volume,
     high-consequence procedure whose complications — pneumothorax,
@@ -5676,7 +5676,7 @@
   evidence-source: "investigation",
   induced-anchor: "7.3",
   lens-anchor: "D1/PT3",
-  clo-anchor: "CLO-1, CLO-4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     On April 28, 1988, Aloha Airlines Flight 243 lost an 18-foot
     section of upper fuselage in flight; the aircraft, a Boeing
@@ -5849,7 +5849,7 @@
   evidence-source: "program-report",
   induced-anchor: "7.1",
   lens-anchor: "D1/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     The FAA's Next Generation Air Transportation System (NextGen)
     is the multi-decade transition of US air-traffic management
@@ -6022,7 +6022,7 @@
   evidence-source: "investigation",
   induced-anchor: "7.1",
   lens-anchor: "D1/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     The "Year 2000 problem" — Y2K — was the structural consequence
     of decades of legacy software representing year fields as two
@@ -6192,8 +6192,8 @@
   scale: "big",
   evidence-source: "program-report",
   induced-anchor: "7.1",
-  lens-anchor: "D5/PT4",
-  clo-anchor: "CLO-1, CLO-5",
+  lens-anchor: "D3/PT4",
+  clo-anchor: "CLO-1, CLO-3",
   summary: [
     The US commercial nuclear fleet is dominated by reactors
     originally licensed in the 1970s and 1980s with analog
@@ -6368,7 +6368,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "1.2",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     DARPA's Digital Tutor program asked whether a one-on-one
     intelligent tutoring system, modelled on expert human tutoring,
@@ -6538,8 +6538,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Wrong-drug and wrong-patient administration errors are a
     persistent failure mode in hospital pharmacy: the cue the human
@@ -6707,7 +6707,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "3.3",
   lens-anchor: "D2/PT5",
-  clo-anchor: "CLO-2, CLO-4",
+  clo-anchor: "CLO-2, CLO-5",
   summary: [
     The shift-change handoff is the moment in inpatient care where
     patient state has to be transferred accurately across a human
@@ -6875,8 +6875,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Surgical complications are conventionally attributed to patient
     factors, hospital factors, and case-mix. Birkmeyer et al.
@@ -7045,7 +7045,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "6.1",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Pre-licensure nursing education had long rested on a regulatory
     requirement for traditional clinical hours — time spent caring
@@ -7217,7 +7217,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Spacing — distributing study sessions over time rather than
     massing them — is one of the most robust findings in basic
@@ -7389,8 +7389,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-2, CLO-3",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-2, CLO-4",
   coi: "This case originates at the editors' home institution (Johns Hopkins). The case is anchored to the peer-reviewed PLOS One paper and the publicly released JIGSAWS dataset rather than institutional press; the affiliation is disclosed openly.",
   summary: [
     The Language of Surgery project at Johns Hopkins, led by Gregory
@@ -7562,8 +7562,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "5.1",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     The LALA (Learning Analytics for Latin America) project, funded
     under EU grant 586120-EPP-1-2017-1-ES, ran from 2017 to 2020
@@ -7733,8 +7733,8 @@
   scale: "big",
   evidence-source: "program-report",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     Norway's Ministry of Education convened a national Expert
     Commission on Learning Analytics in 2022 — a national-government
@@ -7912,8 +7912,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "5.4",
-  lens-anchor: "D3/PT4",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT4",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Freitas, Mello, Gasevic, Costa, and Andrade (_Journal of
     Learning Analytics_, 2024) developed and validated MMALA — a
@@ -8089,8 +8089,8 @@
   evidence-source: "practitioner",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "5.1",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5, NEW CLO Delegation-with-revocation",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     In 2022 a California court permitted Waymo to withhold
     trade-secret-laden safety details from a public DMV disclosure,
@@ -8259,8 +8259,8 @@
   evidence-source: "program-report",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "5.1",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     The California Public Utilities Commission established an AV
     passenger-service permit framework whose conditions are
@@ -8427,8 +8427,8 @@
   evidence-source: "practitioner",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-2",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-2",
   summary: [
     The Success Case Method (SCM), introduced by Robert Brinkerhoff
     in 2005, deliberately samples the tails of a training program's
@@ -8596,7 +8596,7 @@
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "2.4",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, NEW CLO Judgment-under-inadequate-evidence",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     The High-Impact Learning System (HILS), introduced by
     Brinkerhoff and Apking in 2001, reframes L&D as a system
@@ -8763,8 +8763,8 @@
   evidence-source: "program-report",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "2.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-2, CLO-4, CLO Collaboration-measurement",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-2, CLO-5, CLO-3",
   summary: [
     Singapore's SkillsFuture Movement, launched in 2015, pairs
     individual training credits with employer subsidies, a
@@ -8930,7 +8930,7 @@
   evidence-flag: "preprint-tier",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3, CLO-4",
+  clo-anchor: "CLO-2, CLO-4, CLO-5",
   summary: [
     Across 16 PEPFAR-supported Sub-Saharan African countries, a
     2023 real-world program evaluation compared in-person
@@ -9093,8 +9093,8 @@
   evidence-source: "program-report",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-1",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-1",
   summary: [
     A multidisciplinary team at University of Missouri Health Care
     redesigned the EHR interface clinicians use to prompt and perform
@@ -9252,8 +9252,8 @@
   evidence-source: "peer-reviewed",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "3.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Alert fatigue is the structural failure mode the C3 thread names
     at the small tier: an EHR that fires so many alerts the
@@ -9418,8 +9418,8 @@
   evidence-source: "program-report",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "3.2",
-  lens-anchor: "D4/PT3",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D5/PT3",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     Australian hospital pharmacies faced the structural problem most
     healthcare workforces meet at some point: the pharmacist's
@@ -9745,7 +9745,7 @@
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "7.1",
   lens-anchor: "D1/PT1",
-  clo-anchor: "CLO-1, CLO-3",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     Nuclear-plant control-room modernization is one of the canonical
     C7 problems — legacy analog systems that have to be replaced
@@ -9910,7 +9910,7 @@
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "7.1",
   lens-anchor: "D1/PT1",
-  clo-anchor: "CLO-1, CLO-4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     Estonia launched X-Road in 2001 as the answer to fragmented
     government databases: a distributed data-exchange layer that
@@ -10076,8 +10076,8 @@
   evidence-source: "investigation",
   evidence-flag: "journalism-tier",
   induced-anchor: "5.2",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     Aadhaar — India's biometric digital-identity system, with
     roughly one billion enrolled — was designed to streamline
@@ -10266,8 +10266,8 @@
   evidence-source: "peer-reviewed",
   evidence-flag: "preprint-tier",
   induced-anchor: "6.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-2, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-2, CLO-5",
   summary: [
     Between 2013 and 2018 Rwanda's Ministry of Health, working with
     research partners, deployed an mHealth monitoring system that
@@ -10425,8 +10425,8 @@
   evidence-source: "program-report",
   evidence-flag: "preprint-tier",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     Japan's Pharmaceuticals and Medical Devices Agency (PMDA)
     operates one of the regulatory regimes most explicitly
@@ -10588,8 +10588,8 @@
   evidence-source: "peer-reviewed",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "5.1",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-5",
   summary: [
     The CARE Principles for Indigenous Data Governance — Collective
     Benefit, Authority to Control, Responsibility, Ethics — were
@@ -10749,7 +10749,7 @@
   evidence-flag: "preprint-tier",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     A 2025 arXiv preprint ("The Development of Reflective Practice
     on a Work-Based Software Engineering Program: A Longitudinal
@@ -10902,8 +10902,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",
-  lens-anchor: "D3/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  lens-anchor: "D4/PT4",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Pane, Griffin, McCaffrey, and Karam's 2014 paper in
     _Educational Evaluation and Policy Analysis_ reports the
@@ -11079,7 +11079,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     The Roschelle, Feng, Murphy, and Mason cluster RCT (AERA
     Open 2016), conducted across 46 schools and 3,035 students,
@@ -11252,8 +11252,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "5.2",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Herodotou et al.'s 2019 _British Journal of Educational
     Technology_ paper reports the evaluation of OU Analyse, the
@@ -11433,7 +11433,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     The original "doer effect" causal claim — Koedinger and
     colleagues at LAK 2016 — held that students who interact
@@ -11608,8 +11608,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "6.4",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-2, CLO-5",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-2, CLO-3",
   summary: [
     Thomas et al.'s LAK 2024 best paper, "Improving Student
     Learning with Hybrid Human-AI Tutoring: A Three-Study
@@ -11784,7 +11784,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "2.2",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Zhang, Scardamalia, Reeve, and Messina's 2009 _Journal of the
     Learning Sciences_ paper reports a three-year design study in
@@ -11964,7 +11964,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "8.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-3, fairness beyond omission",
+  clo-anchor: "CLO-4",
   summary: [
     Chen, Wu, Chen, and Zhou's 2025 paper in _Frontiers in
     Psychology_ reports a three-month quasi-experimental study of
@@ -12158,8 +12158,8 @@
   scale: "small",
   evidence-source: "program-report",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     New York City Local Law 144 of 2021 became operationally
     effective on July 5, 2023, after the New York City Department
@@ -12355,8 +12355,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "3.1",
-  lens-anchor: "D3+D5/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4+D3/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Aaron Boussina, Shamim Nemati, and colleagues at UC San Diego
     Health published the COMPOSER (COnformal Multidimensional

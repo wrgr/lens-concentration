@@ -31,7 +31,7 @@
   evidence-source: "investigation",
   induced-anchor: "3.3",
   lens-anchor: "D2/PT6",
-  clo-anchor: "CLO-5, CLO-2",
+  clo-anchor: "CLO-3, CLO-2",
   summary: [
     On 3 July 1988, during a surface skirmish with Iranian gunboats in the
     Persian Gulf, the USS Vincennes shot down Iran Air Flight 655 — a
@@ -1293,8 +1293,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "3.4",
-  lens-anchor: "D5/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D3/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     On July 16, 2013, during EVA-23 outside the International Space
     Station, water began collecting inside the helmet of European
@@ -1463,8 +1463,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "2.4",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Between 2008 and 2012 the USAF accumulated a cluster of F-22
     Raptor "physiological events" — pilot reports consistent with
@@ -1638,7 +1638,7 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "7.1",
-  lens-anchor: "D1+D5/PT1",
+  lens-anchor: "D1+D3/PT1",
   clo-anchor: "CLO-1, CLO-2",
   summary: [
     Glass cockpits — integrated digital primary flight displays and

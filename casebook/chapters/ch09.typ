@@ -328,8 +328,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "7.2",
-  lens-anchor: "D3+D5/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4+D3/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     FDA-cleared radiology AI tools — for chest X-ray classification,
     mammography, CT triage — have been repeatedly documented performing
@@ -550,8 +550,8 @@
   ),
   kind: "frontier",
   induced-anchor: "5.2",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Since ChatGPT's public release in late 2022, the clinical and
     peer-reviewed literatures have documented a recurring pattern:
@@ -996,8 +996,8 @@
   ),
   kind: "frontier",
   induced-anchor: "5.2",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-5",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-3",
   summary: [
     AI-augmented coding tools — GitHub Copilot, Cursor, Codeium, and peers
     — represent the largest real-time experiment in human-AI collaboration
@@ -1153,8 +1153,8 @@
   evidence-source: "program-report",
   evidence-flag: "internal-pm",
   induced-anchor: "3.4",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   coi: "An editor of this volume has research adjacency to connectomics programs discussed in this case and the case originates at the editors' home institution (Johns Hopkins / APL). The connectomics method and infrastructure are anchored to peer-reviewed work; the program training-outcome evidence is institutional documentation rather than independent peer-reviewed evaluation, and that gap is rendered as the evidence-tier flag above.",
   summary: [
     Under IARPA's Machine Intelligence from Cortical Networks (MICrONS)
@@ -1327,8 +1327,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.2",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Predictive models of college student success — models that
     score students on predicted graduation, retention, or course
@@ -1509,8 +1509,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.4",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     A long-running practical question in learning analytics is
     whether protected attributes — race/ethnicity, gender,
@@ -1680,8 +1680,8 @@
   evidence-source: "peer-reviewed",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "8.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Prinsloo and colleagues (2022) published a scoping review of
     learning-analytics research on the African continent for the
@@ -1841,8 +1841,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.2",
-  lens-anchor: "D3/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     The AIED 2025 paper "Evaluating an AI Tutor for Bias Across
     Different Foundation Models" tests LiveHint AI, an LLM-based
@@ -2023,7 +2023,7 @@
   evidence-flag: "preprint-tier",
   induced-anchor: "2.2",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Martinez-Maldonado et al.'s 2023 arXiv paper, "Lessons
     Learnt from a Multimodal Learning Analytics Deployment
@@ -2203,8 +2203,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "7.2",
-  lens-anchor: "D3+D5/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4+D3/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Scott Mayer McKinney and colleagues at Google Health and
     DeepMind published "International evaluation of an AI system

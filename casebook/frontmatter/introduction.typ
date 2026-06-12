@@ -573,7 +573,23 @@
       boundaries.
     ]
     v(8pt)
-    text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("3 · Test and Evaluation — show what works"))
+    text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("3 · Human-System Collaboration — work together"))
+    v(1pt)
+    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Human-System Collaboration and Adaptive Systems"))
+    v(2pt)
+    text(font: sans, size: 9.5pt, fill: text-dark)[
+      Design role architectures, interface and alert systems,
+      mode/state transparency, authority gradients, and recoverability
+      mechanisms that engineer collaborative capability at the
+      human-system boundary — including human-AI partnership as one
+      sub-pattern; evaluate the measured impact of system-mediated work
+      on human performance, naming automation bias, cognitive
+      offloading, and skill atrophy; specify *delegation with
+      revocation* — the disconfirming evidence that would revoke a
+      delegation — and measure collaboration as the unit of analysis.
+    ]
+    v(8pt)
+    text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("4 · Test and Evaluation — show what works"))
     v(1pt)
     text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Data, Measurement, and Evaluation"))
     v(2pt)
@@ -581,13 +597,15 @@
       Design ethical instrumentation strategies that produce
       measurable evidence in regulated or high-consequence
       environments; construct *decision-grade evidence* artifacts —
-      dashboards, reports, governance documentation — that link
-      learning outcomes to operational impact; differentiate
-      capability gaps from system-design and organizational-
-      performance problems using mixed-methods *gap attribution*.
+      dashboards, reports, governance documentation — under
+      irreducible uncertainty, naming what is known, what is assumed,
+      and what would change the decision; differentiate capability
+      gaps from system-design and organizational-performance problems
+      using *gap attribution*; demonstrate that omitting a protected
+      attribute does not establish fairness.
     ]
     v(8pt)
-    text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("4 · Navigating Sociotechnical Constraints — make it work in the real world"))
+    text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("5 · Navigating Sociotechnical Constraints — make it work in the real world"))
     v(1pt)
     text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Context and Domain Fluency"))
     v(2pt)
@@ -598,22 +616,10 @@
       frameworks to evaluate the measurable impact of capability
       approaches on operational environments; synthesize and
       communicate stakeholder requirements across disciplinary and
-      institutional boundaries into coherent design specifications.
-    ]
-    v(8pt)
-    text(font: sans, size: 8.5pt, tracking: 1.4pt, fill: teal, upper("5 · Machine Teaming and Adaptation — team with the machine"))
-    v(1pt)
-    text(font: sans, size: 6.5pt, tracking: 1pt, fill: text-muted, upper("Human-AI Teaming and Adaptive Systems"))
-    v(2pt)
-    text(font: sans, size: 9.5pt, fill: text-dark)[
-      Design human-AI teaming configurations that *leverage AI as a
-      creative partner* in capability development while preserving
-      human agency and judgment; evaluate the measurable impact of
-      AI-mediated learning systems on human performance — both the
-      gains AI enables and the risks it introduces, including
-      automation bias and cognitive offloading; communicate
-      evidence-based recommendations for when AI augmentation
-      improves versus degrades capability outcomes.
+      institutional boundaries into coherent design specifications,
+      including cross-regime / platform-dependency governance where
+      capability is deployed on a platform governed by a different
+      regime than the one operating it.
     ]
   }
 )
@@ -621,7 +627,7 @@
 #v(8pt)
 
 #align(center, text(font: serif, size: 11pt, fill: navy, style: "italic")[
-  See the whole system. Build, test, refine. Show what works. Make it work in the real world. Team with the machine.
+  See the whole system. Build, test, refine. Work together. Show what works. Make it work in the real world.
 ])
 
 #v(10pt)

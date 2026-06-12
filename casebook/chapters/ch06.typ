@@ -746,7 +746,7 @@
   courses: ("LEN 1", "LEN 8"),
   scale: "big",
   induced-anchor: "6.3",
-  lens-anchor: "D4/PT2",
+  lens-anchor: "D5/PT2",
   clo-anchor: "CLO-2",
 )
 
@@ -905,7 +905,7 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "6.3",
-  lens-anchor: "D4/PT2",
+  lens-anchor: "D5/PT2",
   clo-anchor: "CLO-1",
 )
 
@@ -1077,8 +1077,8 @@
   evidence-source: "journalism",
   evidence-flag: "journalism-tier",
   induced-anchor: "5.1",
-  lens-anchor: "D1+D4/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D1+D5/PT4",
+  clo-anchor: "CLO-1, CLO-5",
   summary: [
     The EU Human Brain Project, launched in 2013 as one of the EU's
     Future and Emerging Technologies Flagship programs, set out to
@@ -1241,7 +1241,7 @@
   evidence-source: "investigation",
   induced-anchor: "1.4",
   lens-anchor: "D1/PT4",
-  clo-anchor: "CLO-1, CLO-3",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     The Government Accountability Office's recurring portfolio
     reviews of DoD weapon-system sustainment — including

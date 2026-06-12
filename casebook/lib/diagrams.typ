@@ -1196,8 +1196,8 @@
     line((xs.at(0), cy), (xs.at(-1), cy), stroke: 0.8pt + rgb("#2CC4B3").lighten(40%))
 
     // Two-line labels under each node — canonical competency names
-    let labels-top = ("Systems", "Iterative", "Test and", "Sociotech.", "Machine")
-    let labels-bot = ("Analysis", "Development", "Evaluation", "Constraints", "Teaming")
+    let labels-top = ("Systems", "Iterative", "Human-System", "Test and", "Sociotech.")
+    let labels-bot = ("Analysis", "Development", "Collaboration", "Evaluation", "Constraints")
 
     // Rings and labels first
     for i in range(xs.len()) {

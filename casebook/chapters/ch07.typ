@@ -30,8 +30,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
   summary: [
     Medical error in the United States is not a single incident but a
     systemic condition that the system's own measurement instruments
@@ -377,8 +377,8 @@
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
   induced-anchor: "2.2",
-  lens-anchor: "D3/PT3",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT3",
+  clo-anchor: "CLO-4",
 )
 
 #case(
@@ -532,8 +532,8 @@
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
   induced-anchor: "2.2",
-  lens-anchor: "D3/PT3",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT3",
+  clo-anchor: "CLO-4",
 )
 
 #case(
@@ -664,7 +664,7 @@
     depth. The Ponzi narrative is not the lesson; the channel is.
   ],
   induced-anchor: "6.2",
-  lens-anchor: "D4/PT3",
+  lens-anchor: "D5/PT3",
   clo-anchor: "CLO-2",
   literature-items: (
     [SEC OIG Report (2009)],
@@ -852,8 +852,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "2.4",
-  lens-anchor: "D3+D5/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4+D3/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   diagram: dgm.dgm-curve(
     ((1.0, 1.0), (2.0, 1.4), (3.5, 1.8), (5.0, 2.4), (6.5, 3.0), (7.5, 0.8)),
     milestone: 7.5,
@@ -1073,8 +1073,8 @@
   evidence-source: "practitioner",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
   summary: [
     Donald Kirkpatrick's four-level model — Reaction, Learning,
     Behavior, Results — has been the dominant corporate-training
@@ -1243,7 +1243,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "2.3",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-3",
+  clo-anchor: "CLO-2, CLO-4",
   summary: [
     Blume, Ford, Baldwin, and Huang (_Journal of Management_ 2010)
     synthesized 89 empirical studies on training transfer — the
@@ -1399,8 +1399,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "2.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Purdue's Course Signals was one of the most-cited early-warning
     learning-analytics interventions of the early 2010s. The
@@ -1572,7 +1572,7 @@
   evidence-source: "peer-reviewed",
   induced-anchor: "8.3",
   lens-anchor: "D2/PT5",
-  clo-anchor: "CLO-2, CLO-4",
+  clo-anchor: "CLO-2, CLO-5",
   summary: [
     Growth-mindset interventions — short, scalable psychological
     interventions that teach students that intellectual ability is

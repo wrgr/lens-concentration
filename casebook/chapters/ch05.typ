@@ -447,8 +447,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "7.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-1, CLO-5",
 )
 
 #case(
@@ -597,8 +597,8 @@
   courses: ("LEN 10", "LEN 7", "LEN 8", "LEN 3",),
   scale: "big",
   induced-anchor: "7.4",
-  lens-anchor: "D4/PT4",
-  clo-anchor: "CLO-2, CLO-4",
+  lens-anchor: "D5/PT4",
+  clo-anchor: "CLO-2, CLO-5",
 )
 
 #case(
@@ -1502,8 +1502,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "2.1",  // alternate framing adopted: the "Gr-eight" cross-sell metric was measuring the wrong failure mode (sales activity vs. account legitimacy); 2.2 (gaming protection) preserved as alternate framing,
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
 )
 
 #case(
@@ -1657,8 +1657,8 @@
   courses: ("LEN 4", "LEN 7"),
   scale: "big",
   induced-anchor: "2.2",
-  lens-anchor: "D3/PT3",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT3",
+  clo-anchor: "CLO-4",
 )
 
 #case(
@@ -1807,8 +1807,8 @@
   courses: ("LEN 1", "LEN 7", "LEN 6",),
   scale: "big",
   induced-anchor: "5.3",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-4",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-5",
 )
 
 #case(
@@ -1932,7 +1932,7 @@
     defenses run as a cost center have no slack on the bad day.
   ],
   induced-anchor: "6.2",
-  lens-anchor: "D4/PT3",
+  lens-anchor: "D5/PT3",
   clo-anchor: "CLO-2",
   literature-items: (
     [Senate Subcommittee report (2019)],
@@ -2232,8 +2232,8 @@
     utility-capability failures of different kinds.
   ],
   induced-anchor: "7.3",
-  lens-anchor: "D4/PT1",
-  clo-anchor: "CLO-1, CLO-4",
+  lens-anchor: "D5/PT1",
+  clo-anchor: "CLO-1, CLO-5",
   literature-items: (
     [CalFire Camp Fire Investigation Report (2019)],
     [Wuebbles et al. (2017), Climate Science Special Report],
@@ -2275,8 +2275,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "2.4",
-  lens-anchor: "D3+D5/PT6",
-  clo-anchor: "CLO-3, CLO-4, CLO-5",
+  lens-anchor: "D4+D3/PT6",
+  clo-anchor: "CLO-4, CLO-5, CLO-3",
   summary: [
     The Epic Sepsis Model was a proprietary machine-learning sepsis
     prediction tool embedded in the Epic EHR and deployed in hundreds of
@@ -2428,8 +2428,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.2",
-  lens-anchor: "D3+D5/PT6",
-  clo-anchor: "CLO-3, CLO-4, CLO-5",
+  lens-anchor: "D4+D3/PT6",
+  clo-anchor: "CLO-4, CLO-5, CLO-3",
   summary: [
     Bartlett, Morse, Stanton, and Wallace (_Journal of Financial Economics_,
     2022) analyzed several million US mortgage applications across the
@@ -2583,8 +2583,8 @@
   evidence-source: "peer-reviewed",
   evidence-flag: "preprint-tier",
   induced-anchor: "8.1",
-  lens-anchor: "D3/PT6",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D4/PT6",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     The Coots et al. (2025) fintech lending fairness audit, posted as a
     preprint, examines a deployed consumer-lending model under both the
@@ -2739,8 +2739,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
   summary: [
     Hoffman, Trawalter, Axt, and Oliver (_PNAS_ 2016) surveyed medical
     students and residents on a battery of false beliefs about
@@ -2897,8 +2897,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.1",
-  lens-anchor: "D4+D5/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5+D3/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     The Dutch System Risk Indication (SyRI) combined up to 17 categories
     of previously siloed government data — tax, benefits, housing,
@@ -3060,8 +3060,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "4.4",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-3, CLO-5",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-4, CLO-3",
   summary: [
     Isotretinoin is a highly effective acne medication and a known
     teratogen: fetal exposure causes severe birth defects. The FDA
@@ -3233,8 +3233,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.2",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     The COVID-era expansion of remote learning produced a rapid
     deployment of automated exam-proctoring software across higher
@@ -3408,8 +3408,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "5.3",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     Prinsloo, Slade, and Khalil (_British Journal of Educational
     Technology_, 2022) mapped the legal and regulatory privacy
@@ -3583,8 +3583,8 @@
   evidence-source: "journalism",
   evidence-flag: "journalism-tier",
   induced-anchor: "2.4",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-1, CLO-3",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-1, CLO-4",
   summary: [
     Watson for Oncology was IBM's heavily marketed clinical-decision-
     support system, sold to hospitals worldwide as a cancer-
@@ -3773,8 +3773,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.1",
-  lens-anchor: "D3/PT5",
-  clo-anchor: "CLO-3, new Gap-attribution CLO",
+  lens-anchor: "D4/PT5",
+  clo-anchor: "CLO-4",
   coi: "An editor of this volume shares an institution (Johns Hopkins School of Engineering) with the underlying study's authors. The case is included on the strength of the published peer-reviewed evidence in the Journal of Criminal Justice (2022); editorial framing maintains critical distance.",
   summary: [
     Johnson and colleagues, writing in the _Journal of Criminal
@@ -3962,8 +3962,8 @@
   evidence-source: "journalism",
   evidence-flag: "journalism-tier",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, NEW CLO Delegation-with-revocation",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     On 2 October 2023 a pedestrian was struck by a human-driven
     vehicle in San Francisco and propelled into the path of a Cruise
@@ -4131,8 +4131,8 @@
   evidence-source: "program-report",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "8.3",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   coi: "John Katzman is a collaborator with the editors' home institution (Johns Hopkins) without being intimately involved in the underlying work; the affiliation is disclosed. Katzman is not associated with the specific vendors named in this case.",
   summary: [
     Engler's 2021 Brookings paper documents the two-stage
@@ -4312,8 +4312,8 @@
   evidence-source: "program-report",
   evidence-flag: "practice-synthesis-tier",
   induced-anchor: "8.1",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   coi: "John Katzman is a collaborator with the editors' home institution (Johns Hopkins) without being intimately involved in the underlying work; the affiliation is disclosed. Burd's volume is independent of Katzman.",
   summary: [
     Burd's 2020 New America report analyzes federal IPEDS data on
@@ -4487,8 +4487,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.3",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   coi: "John Katzman is a collaborator with the editors' home institution (Johns Hopkins) without being intimately involved in the underlying work; the affiliation is disclosed. Katzman founded 2U, which is central to the OPM debate but not named in this GAO report; the affiliation is disclosed for transparency.",
   summary: [
     The Government Accountability Office's April 2022 audit
@@ -4666,8 +4666,8 @@
   evidence-source: "journalism",
   evidence-flag: "journalism-tier",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   coi: "John Katzman is a collaborator with the editors' home institution (Johns Hopkins) without being intimately involved in the underlying work; the affiliation is disclosed. Katzman founded 2U but had departed by the time of the USC MSW expansion documented in this case.",
   summary: [
     USC's online Master of Social Work program grew from about
@@ -4845,8 +4845,8 @@
   scale: "small",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.4",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   coi: "John Katzman is a collaborator with the editors' home institution (Johns Hopkins) without being intimately involved in the underlying work; the affiliation is disclosed. Pyle and Andalibi's study is independent of Katzman; the case is placed in this cluster because it sits at the applicant-side of the enrollment-management deployment.",
   summary: [
     Pyle and Andalibi (CSCW 2025) report an interview study with
@@ -5017,8 +5017,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.4",
-  lens-anchor: "D4/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D5/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   coi: "John Katzman co-founded 2U and is a collaborator with the editors' home institution (Johns Hopkins) without being intimately involved in the underlying litigation; the affiliation is disclosed.",
   summary: [
     The consolidated federal securities class action against 2U,
@@ -5203,8 +5203,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.2",
-  lens-anchor: "D4+D5/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5+D3/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     The Royal Commission into the Robodebt Scheme delivered its
     final report on July 7, 2023, under the leadership of
@@ -5393,8 +5393,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.4",
-  lens-anchor: "D3+D4/PT5",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4+D5/PT5",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     With summer 2020 examinations cancelled in response to the
     COVID-19 pandemic, the UK Office of Qualifications and
@@ -5587,8 +5587,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.4",
-  lens-anchor: "D3+D4/PT6",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4+D5/PT6",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Northpointe's COMPAS risk-assessment instrument, deployed in
     pretrial, parole, and sentencing decisions across multiple
@@ -5778,8 +5778,8 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "5.2",
-  lens-anchor: "D4/PT6",
-  clo-anchor: "CLO-4, CLO-5",
+  lens-anchor: "D5/PT6",
+  clo-anchor: "CLO-5, CLO-3",
   summary: [
     On November 7, 2019, software developer David Heinemeier
     Hansson posted on Twitter that his Apple Card credit limit
@@ -5966,8 +5966,8 @@
   evidence-source: "journalism",
   evidence-flag: "journalism-tier",
   induced-anchor: "8.1",
-  lens-anchor: "D2+D3/PT6",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D2+D4/PT6",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     Jeffrey Dastin's Reuters investigation, published October 10,
     2018, reported that Amazon had initiated an internal
@@ -6160,8 +6160,8 @@
   scale: "small",
   evidence-source: "investigation",
   induced-anchor: "5.2",
-  lens-anchor: "D5/PT6",
-  clo-anchor: "CLO-5, CLO-4",
+  lens-anchor: "D3/PT6",
+  clo-anchor: "CLO-3, CLO-5",
   summary: [
     On February 14, 2024, the British Columbia Civil Resolution
     Tribunal issued its decision in _Moffatt v. Air Canada_, 2024
@@ -6356,8 +6356,8 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "8.3",
-  lens-anchor: "D3+D4/PT6",
-  clo-anchor: "CLO-3, CLO-4",
+  lens-anchor: "D4+D5/PT6",
+  clo-anchor: "CLO-4, CLO-5",
   summary: [
     The Wisconsin Department of Public Instruction has operated
     the Dropout Early Warning System (DEWS) since 2012,
