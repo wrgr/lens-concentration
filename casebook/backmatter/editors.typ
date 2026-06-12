@@ -80,12 +80,13 @@
     Hopkins University Applied Physics Laboratory, applying systems
     engineering across defense, space, biomedical, and learning systems, with
     research sponsored by DARPA, IARPA, NIH, and DoD. He developed the College
-    Prep and CIRCUIT workforce-development models, mentoring nearly 500
-    students, and leads the LENS (Learning Engineering for Next-Generation
-    Systems) specialization in the Johns Hopkins Master of Education in
-    Learning Design and Technology. He holds a Ph.D. in Computer Science from
-    Johns Hopkins, an M.S. in Electrical Engineering from USC, and a B.S. from
-    Vanderbilt.
+    Prep and CIRCUIT workforce-development models, through which he has
+    mentored nearly 500 students, and leads the development of the LENS
+    (Learning Engineering for Next-Generation Systems) specialization within
+    the Johns Hopkins Master of Education in Learning Design and Technology,
+    the program directed by James Diamond at the School of Education. He holds
+    a Ph.D. in Computer Science from Johns Hopkins, an M.S. in Electrical
+    Engineering from USC, and a B.S. from Vanderbilt.
   ] else [
     William Gray-Roncal, Ph.D., is Principal Research Engineer at the Johns
     Hopkins University Applied Physics Laboratory, where he applies systems
@@ -94,13 +95,14 @@
     DoD — bridges computational neuroscience, artificial intelligence, and
     large-scale data infrastructure. He developed the College Prep and
     CIRCUIT workforce-development models, through which he has mentored
-    nearly 500 students, and is currently pursuing research on quantitative
+    nearly 500 students, and his current work develops quantitative
     measures of human cognitive performance in operational contexts. He
-    leads the LENS (Learning Engineering for Next-Generation Systems)
-    specialization in the Johns Hopkins Master of Education in Learning
-    Design and Technology program. Gray-Roncal holds a Ph.D. in Computer
-    Science from Johns Hopkins, an M.S. in Electrical Engineering from USC,
-    and a B.S. in Electrical Engineering from Vanderbilt.
+    leads the development of the LENS (Learning Engineering for
+    Next-Generation Systems) specialization within the Johns Hopkins Master
+    of Education in Learning Design and Technology, the program directed by
+    James Diamond at the School of Education. Gray-Roncal holds a Ph.D. in
+    Computer Science from Johns Hopkins, an M.S. in Electrical Engineering
+    from USC, and a B.S. in Electrical Engineering from Vanderbilt.
   ],
 )
 
@@ -121,10 +123,10 @@
     micro-credentialing, and disciplinary literacy. Earlier he was Senior
     Research Associate at the Education Development Center's Center for
     Children and Technology, where he led projects including #emph[Zoom In] and
-    the #emph[Who Built America?] Teacher Mastery Badge System. He is a
-    principal faculty member of the LENS specialization and holds a Ph.D. from
-    New York University, an Ed.M. from Boston University, and a B.A. in History
-    from Boston University.
+    the #emph[Who Built America?] Teacher Mastery Badge System. As Program
+    Director, he oversees the LDT program within which the LENS specialization
+    is offered, and holds a Ph.D. from New York University, an Ed.M. from
+    Boston University, and a B.A. in History from Boston University.
   ] else [
     James Diamond, Ph.D., is Assistant Professor in the Johns Hopkins
     University School of Education and Program Director of the Master of
@@ -143,12 +145,12 @@
     Technology in New York City, where he led projects including #emph[Zoom
     In] and the #emph[Who Built America?] Teacher Mastery Badge System,
     contributed to #emph[Mission US] and #emph[Possible Worlds], and taught
-    at New York University as an adjunct. He is a principal faculty member
-    of the LENS (Learning Engineering for Next-Generation Systems)
-    specialization in the LDT program. Diamond holds a Ph.D. in Educational
-    Communication and Technology from New York University, an Ed.M. in
-    Educational Technology from Boston University, and a B.A. in History
-    from Boston University.
+    at New York University as an adjunct. As Program Director, he oversees the
+    LDT program within which the LENS (Learning Engineering for
+    Next-Generation Systems) specialization is offered. Diamond holds a Ph.D.
+    in Educational Communication and Technology from New York University, an
+    Ed.M. in Educational Technology from Boston University, and a B.A. in
+    History from Boston University.
   ],
 )
 

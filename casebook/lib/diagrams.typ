@@ -1195,9 +1195,9 @@
     let xs = (1.1, 3.0, 4.9, 6.8, 8.7)
     line((xs.at(0), cy), (xs.at(-1), cy), stroke: 0.8pt + rgb("#2CC4B3").lighten(40%))
 
-    // Two-line labels under each node
-    let labels-top = ("Systems", "Engineering", "Data and", "Domain", "Human-AI")
-    let labels-bot = ("Thinking", "Design", "Measurement", "Fluency", "Teaming")
+    // Two-line labels under each node — canonical competency names
+    let labels-top = ("Systems", "Iterative", "Test and", "Sociotech.", "Machine")
+    let labels-bot = ("Analysis", "Development", "Evaluation", "Constraints", "Teaming")
 
     // Rings and labels first
     for i in range(xs.len()) {
