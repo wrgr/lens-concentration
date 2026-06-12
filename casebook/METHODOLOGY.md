@@ -18,9 +18,9 @@ for that argument — these notes connect the two.
 what people can do inside it. That dependency is measurable,
 designable, and too important to leave to chance. The cases in this
 book are the evidence base for that claim, examined from both
-directions: where capability was absent or eroding (Part I — the
-failure modes), and where it was successfully engineered (Part II —
-paired interventions).
+directions: where capability was absent or eroding (the failure cases
+in the "what fails" half of each chapter), and where it was
+successfully engineered (the "what works + frontier" half).
 
 ## Capability as the interface
 
@@ -52,13 +52,16 @@ who comply with a system specification but operators who can perform,
 adapt, and lead when the system encounters conditions it was not
 designed for.
 
-The successful institutions in Part II — INPO operators trained to
-challenge their reactor team, Keystone ICU nurses authorized to halt
-a procedure (Case 14), the Nuclear Navy's questioning attitude (Case
-28), the first-officer authority CRM built into the cockpit (Case
-12) — all engineered for capability **and** for the operator's
-capacity to think against the procedure when the procedure was
-wrong.
+The successful institutions in the "what works" half of the book —
+INPO operators trained to challenge their reactor team, the Keystone
+ICU's authorisation for nurses to halt a procedure, the Nuclear Navy's
+questioning attitude, the first-officer authority CRM built into the
+cockpit — all engineered for capability **and** for the operator's
+capacity to think against the procedure when the procedure was wrong.
+*(Cases are queryable by slug — `keystone-icu-pronovost-checklist`,
+`u-s-nuclear-navy-rickover-training-model`,
+`crew-resource-management-and-cast` — and by current number via the
+case matrix at the front.)*
 
 ## Three commitments threaded through the curriculum
 
@@ -154,13 +157,22 @@ the curriculum names: a creative partner that accelerated drafting,
 cross-referencing, layout, citation lookup, and editorial pass — and
 an epistemic risk that had to be hand-checked against the record.
 
-Every case in the book was reviewed by the editors and hand-checked
-by students for:
+Every case in the book is reviewed by the editors. The per-case
+manual review is scaffolded as a two-pass rubric (quality scan +
+content scan, 5–15 min/case target) in
+[verification-log.md](verification-log.md), with the seven check
+columns being: clarity · references exist · references support the
+claim · conclusions reasonable · no overclaim · anchor fit · cross-
+references resolve. Six of the seven are auto pre-filled by mechanical
+detection across all 194 cases; the seventh (*conclusions reasonable*)
+requires a human read.
 
-- **Source existence.** The cited sources exist and are findable.
-- **Attribution fairness.** Quoted material is fairly represented.
-- **Account accuracy.** The case-study narrative is an accurate
-  account of the incident and the investigations it draws on.
+Before press, an automated references-validation pass checked all
+~951 references against publisher / agency / DOI sources. The pass
+came in at **VERIFIED ~777 / UNCERTAIN ~121 / ISSUE 10** — a 1.05%
+ISSUE rate, with all ten ISSUE-class items resolved in source before
+print (full record in [AUDIT.md](AUDIT.md) §"Automated references
+validation").
 
 Items where the source could not be confirmed are marked
 "Paraphrasing…" so the attribution is honest about what is the
@@ -175,24 +187,30 @@ in [AUDIT.md](AUDIT.md) alongside the source repository.
 
 ### Case architecture
 
-Each case occupies **three pages** in a consistent "2 + 1" structure:
+Each v2 case occupies **four pages** in a consistent "3 + 1" structure;
+shorter v1 cases land at three pages where the dual-anchor + COI /
+evidence-tier render is light. `scripts/check-cases.sh` permits 3–5
+page envelopes:
 
-- **Pages 1–2 — the case study.** A shaded ~130-word "In brief" summary,
+- **Pages 1–3 — the case study.** A shaded ~130-word "In brief" summary,
   then a five-beat sourced narrative under fixed section headings (the
   beats vary by case `kind` — failure, intervention, or frontier; see
   `section-sets` in `lib/theme.typ`). Inline `#cn()` markers carry numbered
   citations; the code-generated diagram sits on page 2, and the numbered
-  reference list closes page 2 in two compact columns.
-- **Page 3 — the Learning Engineering Lens.** Pull quote, LE Insight,
-  LENS Approach, reflection questions, sources, further reading, and LEN
-  course tags.
+  reference list closes the narrative.
+- **Final page — the Learning Engineering Lens.** Pull quote, LE
+  Insight, LENS Approach, reflection questions, the during/after
+  approaches block, the team-block (T/D/N/H/G/K), sources, and further
+  reading. *(The per-case LEN-course chips were dropped from the
+  printed body per editor decision (June 2026); courses remain as case
+  metadata and surface in the back-matter `course-index.typ`.)*
 
 Cases flow with a weak page break (`pagebreak(weak: true)` in
-`lib/case.typ`) and are **not** forced to start on a verso, so the 3-page
-units pack without inserting blank pages. `scripts/check-cases.sh` (run via
-`make check`) reads invisible `<cmeta>` probes to verify, for every case:
-citation parity (marker count == reference count), that the unit is exactly
-three pages, and that the reference list begins on page 2.
+`lib/case.typ`) and are **not** forced to start on a verso, so the
+units pack without inserting blank pages. `scripts/check-cases.sh`
+(run via `make check`) reads invisible `<cmeta>` probes to verify, for
+every case: citation parity (marker count == reference-list length),
+the 3–5 page envelope, and that the reference list begins on page 2.
 
 ### Conservative voice for additions
 
