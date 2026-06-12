@@ -530,7 +530,7 @@
       broken learning channel, the gulf between what indicators
       displayed and what crews inferred, and the institutional absence
       of a body responsible for cross-fleet learning. TMI is paired
-      later with INPO (Case 114) as the book's strongest argument that
+      later with INPO (Case 107) as the book's strongest argument that
       failure can engineer durable industry-level reform.
     ],
   ),
@@ -576,7 +576,7 @@
     D1), examine the control-room interface and post-accident
     instrumentation as evidence-architecture problems (LENS D3), and
     design the cross-fleet learning channel whose absence at
-    Davis-Besse let TMI happen. The case pairs with INPO (Case 114) as
+    Davis-Besse let TMI happen. The case pairs with INPO (Case 107) as
     the institution-building counterpart to the failure that produced
     it, and with Fitzgerald/McCain (Case 1) as the contrasting failure
     where the missing learning channel was internal to one service
@@ -610,8 +610,8 @@
   courses: ("LEN 1", "LEN 5"),
   scale: "big",
   evidence-source: "investigation",
-  induced-anchor: "6.1",
-  lens-anchor: "D4/PT4",
+  induced-anchor: "3.1",
+  lens-anchor: "D3/PT4",
   clo-anchor: "CLO-4, CLO-1",
 )
 
@@ -1331,7 +1331,7 @@
   le-insight: [
     The clearest healthcare case in the dataset of a single-variable
     intervention into a multi-variable capability system. Pairs with
-    Case 7 (fratricide) and Case 27 (V-22). The success cases —
+    Case 7 (fratricide) and Case 26 (V-22). The success cases —
     Keystone (14), CRM (12), Korean Air (23) — engineered
     supervisory, hand-off, and measurement architecture *together
     with* the behavioral change.
@@ -1935,7 +1935,7 @@
   lens-approach: [
     LENS uses Eagle Claw in LEN 5 as a worked case for cross-
     organizational capability requirements and in LEN 8 for the
-    institutional reform that followed; it pairs with INPO (Case 114) as
+    institutional reform that followed; it pairs with INPO (Case 107) as
     the defense analog of failure-driven institution building. The
     seven-year arc to Goldwater-Nichols (1986) and USSOCOM (1987) is
     itself a measurement: the institutional response time when the fix

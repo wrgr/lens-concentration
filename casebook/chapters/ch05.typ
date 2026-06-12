@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 46,
+  number: 45,
   slug: "inbloom",
   title: "inBloom",
   year: "2014",
@@ -160,7 +160,7 @@
 )
 
 #case(
-  number: 47,
+  number: 46,
   slug: "healthcare-gov-launch",
   title: "Healthcare.gov Launch",
   year: "2013",
@@ -302,7 +302,7 @@
 )
 
 #case(
-  number: 48,
+  number: 47,
   slug: "bhopal",
   title: "Bhopal",
   year: "1984",
@@ -443,7 +443,7 @@
 )
 
 #case(
-  number: 49,
+  number: 48,
   slug: "grenfell-tower",
   title: "Grenfell Tower",
   year: "2017",
@@ -586,7 +586,7 @@
 )
 
 #case(
-  number: 50,
+  number: 49,
   slug: "summit-learning-personalized-learning",
   title: "Summit Learning / Personalized Learning Rollout",
   year: "2014–2019",
@@ -653,7 +653,7 @@
       architecture — consent, evidence, measurement, exit — had not been
       engineered alongside it. A working tool with no accountability contract
       is a liability waiting for the first organized objection. The pattern
-      recurs across the ed-tech dataset (inBloom, Case 46): a well-intentioned
+      recurs across the ed-tech dataset (inBloom, Case 45): a well-intentioned
       tool, a well-funded rollout, and no institutional contract with the
       families and teachers operating inside it — the same omission producing
       the same collapse in a second case.#cn()
@@ -684,7 +684,7 @@
     [N. Singer, "The Silicon Valley Billionaires Remaking America's Schools," _New York Times_ (2017) — the CZI/Summit rollout.],
     [B. Herold, Education Week coverage of Summit / CZI implementation (2019) — district adoptions and withdrawals.],
     [A. Watters, "The Stories We Tell About Personalized Learning," _Hack Education_ (2019) — the governance critique.],
-    [Chan Zuckerberg Initiative & Summit Learning public program documentation (2015–2019); cf. inBloom (Case 46).],
+    [Chan Zuckerberg Initiative & Summit Learning public program documentation (2015–2019); cf. inBloom (Case 45).],
   ),
   quote: [The tools were free. The accountability architecture had not been built.],
   quote-source: "Editors' synthesis of Summit Learning rollout coverage (New York Times, Wired, Education Week, 2018–2019)",
@@ -696,8 +696,8 @@
     pattern — well-intentioned tool, well-funded rollout, no
     institutional contract with the families and teachers operating
     inside it — recurs across the educational-technology dataset
-    (Cases 46, 90, 120) and is the educator's-side analog of the
-    governance failures in Cases 52 and 53.
+    (Cases 45, 85, 113) and is the educator's-side analog of the
+    governance failures in Cases 78 and 77.
   ],
   lens-approach: [
     LENS uses Summit Learning in LEN 7 as the foundational
@@ -735,7 +735,7 @@
 )
 
 #case(
-  number: 51,
+  number: 50,
   slug: "tennessee-voluntary-pre-k-study",
   title: "Tennessee Voluntary Pre-K Study",
   year: "2009–2018",
@@ -844,7 +844,7 @@
     happens when a discipline has not engineered its own capacity to
     update on contrary evidence. The measurement instrument worked.
     The institutional architecture for acting on what it found did
-    not. Compare to Case 18 (Makary methodology debate) and Case 89
+    not. Compare to Case 18 (Makary methodology debate) and Case 84
     (VA Wait-Time): in each, a measurement that returned an
     unwelcome answer was contested rather than absorbed.
   ],
@@ -882,295 +882,12 @@
   scale: "big",
 )
 
-#case(
-  number: 52,
-  slug: "uk-a-level-algorithm-ofqual",
-  title: "UK A-Level Algorithm / Ofqual",
-  year: "2020",
-  domains-list: ("education",),
-  modes-code: "GHD",
-  impact: "≈ 280,000 A-level entries downgraded; disadvantaged students disproportionately harmed; government U-turn within days",
-  diagram: dgm.dgm-alevel,
-  kind: "failure",
-  summary: [
-    When COVID-19 cancelled the UK's 2020 exams, the regulator Ofqual used an
-    algorithm to "standardize" teacher-predicted A-level grades against each
-    school's historical performance. About 39% of grades were adjusted
-    downward and roughly 280,000 entries were downgraded; high-achieving
-    students at historically low-performing state schools were systematically
-    capped by their school's past results, while small-cohort private-school
-    students kept their predicted grades. The algorithm encoded existing
-    structural inequality and amplified it nationwide in a single day. After
-    public outcry — Hannah Fry called it the first time an entire nation felt
-    an algorithm's injustice at once — the government withdrew the algorithm
-    within days and reverted to teacher assessment. It is the book's clearest
-    case of an algorithm deployed without the governance to catch its
-    discriminatory effect.
-  ],
-  sections: (
-    // -- Background --
-    [
-      When COVID-19 cancelled the UK's 2020 exams, the qualifications
-      regulator Ofqual needed grades without exams and a defensible way to
-      produce them at national scale. Rather than accept teacher-predicted
-      grades — which tend to run optimistic — it built an algorithm to
-      "standardize" them against each school's historical performance, on the
-      logic that a school's past results were the best available anchor for
-      its present cohort.#cn()
-    ],
-    // -- What Happened --
-    [
-      Roughly 39% of A-level grades were adjusted downward from
-      teacher assessment — about 280,000 entries — with some dropped two or
-      more grades, each one a university place or career path put at risk.
-      High-achieving students at historically low-performing state schools
-      were systematically capped by their school's past results; small-cohort
-      private-school students, by contrast, kept their predicted grades
-      because small classes escaped the standardization. The pattern fell
-      hardest on those whose individual achievement was hidden inside a school
-      average, punishing exactly the students the system claimed to serve.#cn()
-    ],
-    // -- The Investigation --
-    [
-      Analysts identified the trap quickly: the algorithm assumed schools
-      that had historically underperformed — often for reasons of funding,
-      not student capability — would continue to, and used that assumption to
-      suppress individual grades, so a student's result was decided partly by
-      who had attended their school in prior years. It encoded structural
-      inequality and amplified it at national scale in a single release.#cn()
-      The mathematician Hannah Fry observed it was "the first time that an
-      entire nation has felt the injustice of an algorithm simultaneously," a
-      harm whose very visibility forced the reckoning.#cn()
-    ],
-    // -- The Capability Gap --
-    [
-      The missing capability was governance: an equity and impact assessment
-      that would have surfaced, before deployment, that the model traded
-      individual fairness for aggregate calibration and would hit
-      disadvantaged cohorts hardest — a tradeoff that was a property of the
-      design, not a surprise it sprang. The mathematics was no mystery; what
-      was absent was any process with the authority to ask whether the result
-      was just before it was applied to hundreds of thousands of students, and
-      any appeal route for the students it would harm.#cn()
-    ],
-    // -- Aftermath & Reform --
-    [
-      Within days the government withdrew the algorithm and accepted teacher
-      predictions, the speed of the reversal matching the speed and visibility
-      of the harm, and the episode became a landmark in algorithmic-
-      accountability debate and policy.#cn() Its lesson is the chapter's: an
-      algorithm that distributes life-shaping outcomes is a governance
-      instrument, and deploying one without an equity check and an appeal
-      path is a governance failure no amount of statistical sophistication
-      redeems — the model can be flawless at the task it was set and still
-      unjust in the task that mattered.
-    ],
-  ),
-  beats: (
-    "COVID cancelled exams; Ofqual built an algorithm standardizing teacher grades against school historical performance",
-    "About 280,000 entries downgraded; state-school high achievers capped; private small cohorts kept predictions",
-    "Analysts found the model encoded structural inequality; Fry called it a nationally felt algorithmic injustice",
-    "Missing capability was governance; no equity assessment, sign-off on fairness tradeoff, or appeal path",
-    "Government reversed within days, accepting teacher grades; case became algorithmic-accountability landmark",
-  ),
-  references: (
-    [MIT Technology Review, "The UK Exam Algorithm Fiasco" (2020) — Ofqual's standardization approach.],
-    [University of Bristol Centre for Multilevel Modelling and Ofqual analyses — ~39% downgraded, ~280,000 entries, and the school-prior cap.],
-    [Oxford Internet Institute commentary (2020) — the algorithm as encoded structural inequality ("magical thinking").],
-    [H. Fry (2020) — "the first time that an entire nation has felt the injustice of an algorithm simultaneously" (quoted).],
-    [LSE Impact Blog, "F*ck the Algorithm" (2020) — the student protests and reversal.],
-    [The UK government U-turn (August 2020) reverting to centre-assessed (teacher) grades.],
-  ),
-  quote: [I think it's the first time that an entire nation has felt the injustice of an algorithm simultaneously.],
-  quote-source: "Hannah Fry, 2020",
-  le-insight: [
-    A-Level is the defining national-scale algorithmic-bias case. The
-    algorithm worked exactly as specified; the specification encoded
-    inequality. The harm was visible, immediate, and felt
-    simultaneously by an entire cohort. The case stands as the
-    strongest argument that *construct definition* — what the algorithm
-    is trying to predict — is itself a capability-engineering decision.
-  ],
-  lens-approach: [
-    LENS uses A-Level in LEN 7 as the foundational case for bias, risk,
-    and governance, in LEN 4 as a measurement-instrument case (an
-    instrument that encodes the bias of its training data), and in LEN
-    10 as a technical case for bias detection and mitigation. The case
-    is paired in this book with Robodebt (Case 53) and educational
-    algorithmic bias (Case 54).
-  ],
-  literature-items: (
-    [Ofqual technical report on the 2020 standardization model],
-    [Eubanks, _Automating Inequality_ (2018)],
-    [Selbst et al. (2019), "Fairness and Abstraction in Sociotechnical Systems"],
-  ),
-  reflection-list: (
-    [Identify a measurement instrument in your domain that encodes structural inequality. What would it take to surface that bias before deployment?],
-    [The A-Level algorithm worked as specified. Redesign the *specification* — not the algorithm — to remove the bias.],
-    [Ofqual's model traded individual fairness for aggregate calibration, a choice baked into its design. Find a decision system in your domain that makes the same tradeoff implicitly, and name who should hold the authority to ask whether its output is just before it is applied.],
-  ),
-  approaches: (
-    during: (
-      [Run an equity and impact assessment before deployment that tests how the model distributes harm across cohorts, not just whether it calibrates in aggregate.],
-      [Treat the tradeoff between individual fairness and aggregate calibration as an explicit design decision requiring sign-off, not a buried property of the method.],
-      [Build an appeal path for affected individuals into the system from the start, so a person can contest an outcome the model imposed.],
-    ),
-    after: (
-      [Audit live algorithmic decisions for disparate impact on disadvantaged groups, since a model can be statistically sound and socially unjust at once.],
-      [Monitor outcomes against the populations the instrument claims to serve, watching for the pattern where high achievers are capped by a group average.],
-      [Keep a fast withdrawal-and-revert capability ready, so a system distributing life-shaping outcomes can be pulled when its injustice surfaces.],
-    ),
-  ),
-  courses: ("LEN 4", "LEN 7", "LEN 9"),
-  scale: "big",
-)
+
+
+
 
 #case(
-  number: 53,
-  slug: "australia-robodebt",
-  title: "Australia Robodebt",
-  year: "2016 – 2020",
-  domains-list: ("gov",),
-  modes-code: "GDH",
-  impact: "Roughly 1 million debt notices issued; ~470,000 found wholly or partially unlawful for ~433,000 people; A$1.8B Prygodicz class-action settlement (debts zeroed/refunded plus interest); Royal Commission found \"venality, incompetence and cowardice\"",
-  diagram: dgm.dgm-robodebt,
-  kind: "failure",
-  summary: [
-    From 2016 the Australian government automated welfare-debt recovery with
-    an income-averaging algorithm that compared welfare records against
-    annual tax data spread evenly across the year. That assumption — steady,
-    year-round employment — fit only about 7% of recipients; the
-    rest, with irregular work, were misclassified as overpaid. Roughly a
-    million debt notices went out, about 470,000 of them later found wholly
-    or partly unlawful, with the burden of proof reversed onto recipients
-    and no human review. The scheme was linked to deaths, including
-    suicides. A 2023 Royal Commission found it sustained by "venality,
-    incompetence and cowardice," and a class action settled for A\$1.8
-    billion. Robodebt is the canonical case of full automation deployed
-    without a human in the loop and without lawful basis.
-  ],
-  sections: (
-    // -- Background --
-    [
-      From 2016 the Australian government sought to automate welfare-debt
-      recovery, drawn by the promise of recovering money at a fraction of the
-      administrative cost. Its Robodebt scheme compared recipients' welfare
-      records against annual tax data, averaging income evenly across the year
-      to estimate overpayments — and issuing debts on that basis at scale,
-      replacing the individual case review the work had previously required.#cn()
-    ],
-    // -- What Happened --
-    [
-      The averaging assumed stable, year-round employment, which fit only
-      about 7% of recipients; the other 93%, with irregular
-      work, were misclassified as overpaid — so the assumption at the core of
-      the method was wrong for almost everyone it touched. Roughly a million
-      debt notices were issued, default judgments raised without human review,
-      and the burden of proof reversed onto recipients to disprove debts the
-      government had invented, demanding records many of the poorest could not
-      produce. The scheme was linked to deaths, including by suicide.#cn()
-    ],
-    // -- The Investigation --
-    [
-      A 2023 Royal Commission found the scheme unlawful and sustained by
-      "venality, incompetence and cowardice," with ministers failing to
-      ensure it was lawful before unleashing it on a million people.#cn()
-      Analysts noted the algorithm was "comparatively simple" and its harms
-      "entirely predictable from the outset" — meaning no technical advance
-      was needed to foresee them, only the will to look; about 470,000 debts
-      were found wholly or partly unlawful, and a class action settled for
-      A\$1.8 billion, with debts zeroed or refunded plus interest, the public
-      paying back what the automation had wrongly taken.#cn()
-    ],
-    // -- The Capability Gap --
-    [
-      Robodebt is the canonical case of full automation without a human in
-      the loop and without lawful basis. The algorithm was not sophisticated
-      and the harm was not technical: the scheme survived four years because
-      the governance architecture treated automation as an efficiency
-      mechanism rather than a decision regime requiring accountability,
-      legality, and a path to contest. Calling it "automation" disguised that
-      every notice was still a government decision to take money from a
-      citizen. Reversing the burden of proof onto the citizen was a governance
-      choice, not a coding one, made by people who could have chosen
-      otherwise.#cn()
-    ],
-    // -- Aftermath & Reform --
-    [
-      The debts were zeroed and refunded, the settlement paid, and the Royal
-      Commission's findings referred for further action; "Robodebt" entered
-      Australian political memory as a byword for automated administrative
-      harm, a label now reached for whenever a new scheme proposes to
-      automate a consequential decision.#cn() Its lesson is exact: a
-      government decision that takes money from people is a decision, however
-      it is computed — and automating it does not relieve the state of the
-      duty to make it lawfully, reviewably, and with the burden of proof where
-      the law puts it, because the duty attaches to the decision, not to the
-      method.
-    ],
-  ),
-  beats: (
-    "Australia automated welfare-debt recovery from 2016, replacing case review with income-averaging against tax data",
-    "Averaging fit only seven percent; roughly a million notices issued with reversed burden of proof",
-    "Royal Commission found unlawful scheme sustained by venality, incompetence, cowardice; harms entirely predictable",
-    "Full automation without human-in-the-loop or lawful basis; reversing burden was a governance choice",
-    "Debts refunded; A\$1.8 billion settlement paid; Robodebt entered political memory as byword for automated harm",
-  ),
-  references: (
-    [Royal Commission into the Robodebt Scheme, _Final Report_ (2023) — the scheme and its "venality, incompetence and cowardice."],
-    [Royal Commission (2023) — the income-averaging mechanism, the ~7%/93% mismatch, the reversed burden of proof, and deaths associated with the scheme.],
-    [Royal Commission (2023) — the finding of unlawfulness and ministerial failure ("a costly failure of public administration," quoted).],
-    [University of Melbourne / Pursuit analysis (2023) — the algorithm "comparatively simple," harms "entirely predictable," ~470,000 debts unlawful.],
-    [_Prygodicz v Commonwealth_ class-action settlement (A\$1.8 billion; debts zeroed/refunded plus interest, 2021).],
-    [Blavatnik School of Government (Oxford) case study (2023); IAPP privacy analysis of Robodebt.],
-  ),
-  quote: [A costly failure of public administration, in both human and economic terms.],
-  quote-source: "Royal Commission into the Robodebt Scheme, 2023",
-  le-insight: [
-    Robodebt is the canonical case of full automation without
-    human-in-the-loop and without lawful basis. The algorithm was not
-    sophisticated and the harm was not technical: the system survived
-    four years because the governance architecture treated automation
-    as an efficiency mechanism rather than as a decision regime that
-    required accountability.
-  ],
-  lens-approach: [
-    LENS treats Robodebt in LEN 7 as the canonical case for automated
-    decision-making without human oversight and in LEN 2 as a Human-AI
-    Teaming failure at the institutional scale: the human role was
-    designed out of the decision loop entirely. The case anchors the
-    program's argument that automated decision systems require
-    deliverable-grade accountability artifacts before deployment.
-  ],
-  literature-items: (
-    [Royal Commission Final Report (2023)],
-    [Eubanks, _Automating Inequality_ (2018)],
-    [Citron, "Technological Due Process" (2008)],
-  ),
-  reflection-list: (
-    [Robodebt automated a decision that legally required individual review. Identify a current process in your domain at risk of equivalent automation-without-due-process.],
-    [Design the accountability artifact that would have to be signed before a Robodebt-equivalent could be deployed.],
-    [Robodebt's income-averaging assumption fit only about 7% of recipients, yet ran for four years. What assumption in an automated process you rely on would be wrong for most of the people it touches — and who is responsible for testing it before deployment?],
-  ),
-  approaches: (
-    during: (
-      [Establish lawful basis and confirm it before deployment, treating an automated decision regime as bound by the same legal duties as a human one.],
-      [Validate the model's core assumption against the population it will act on, since an averaging rule that fits 7% of recipients is a designed-in error.],
-      [Keep a human in the loop for consequential decisions and leave the burden of proof where the law puts it, not on the citizen.],
-    ),
-    after: (
-      [Audit issued decisions against ground truth and watch for the predictable harms — wrongful debts, contested notices — that signal a flawed assumption at scale.],
-      [Provide an accessible path to contest and review every automated decision, and monitor whether affected people can actually use it.],
-      [Track downstream harm, including welfare and safety signals, so a scheme linked to severe consequences is halted rather than left to run for years.],
-    ),
-  ),
-  courses: ("LEN 7", "LEN 2"),
-  scale: "big",
-  evidence-source: "investigation",
-)
-
-#case(
-  number: 54,
+  number: 51,
   slug: "algorithmic-bias-in-educational",
   title: "Algorithmic Bias in Educational Predictive Analytics",
   year: "ongoing",
@@ -1265,7 +982,7 @@
     [D. Gándara, H. Anahideh, M. Ison & L. Picchiarini, "Inside the Black Box: Detecting and Mitigating Algorithmic Bias across Racialized Groups in College Student-Success Prediction," _AERA Open_ (2024) — bias traced to training data encoding historical discrimination.],
     [R. Baker & A. Hawn, "Algorithmic Bias in Education," _International Journal of Artificial Intelligence in Education_ (2021) — "poses significant threats to educational equity…" (quoted).],
     [Analyses of deficit framing and the interpretation of "at-risk" flags by faculty.],
-    [Cf. UK A-Level / Ofqual (Case 52); V. Eubanks, _Automating Inequality_ (2018).],
+    [Cf. UK A-Level / Ofqual (Case 78); V. Eubanks, _Automating Inequality_ (2018).],
   ),
   quote: [Algorithmic bias in educational systems poses significant threats to educational equity, potentially amplifying existing social and economic disparities.],
   quote-source: "Baker & Hawn, 2021",
@@ -1279,7 +996,7 @@
   ],
   lens-approach: [
     LENS treats this case as the positive counterpart to Georgia State
-    (Case 119). LEN 4 examines construct definition as the load-bearing
+    (Case 112). LEN 4 examines construct definition as the load-bearing
     measurement choice. LEN 7 examines the governance architecture that
     determines whose construct gets adopted. LEN 9 covers the
     technical bias-mitigation methods.
@@ -1311,7 +1028,7 @@
 )
 
 #case(
-  number: 55,
+  number: 52,
   slug: "uk-post-office-horizon-scandal",
   title: "UK Post Office Horizon Scandal",
   year: "1999 – 2015",
@@ -1457,7 +1174,7 @@
 )
 
 #case(
-  number: 56,
+  number: 53,
   slug: "theranos",
   title: "Theranos",
   year: "2003 – 2018",
@@ -1602,7 +1319,7 @@
 )
 
 #case(
-  number: 57,
+  number: 54,
   slug: "wells-fargo-fake-accounts",
   title: "Wells Fargo Fake Accounts",
   year: "2011 – 2016",
@@ -1741,7 +1458,7 @@
     the incentive architecture and the countervailing audit measure
     that would have detected the gaming as a structural pattern
     rather than as individual misconduct. Adjacent to Texas City
-    (Case 28) at the wrong-measurement-reported-as-a-win layer.
+    (Case 27) at the wrong-measurement-reported-as-a-win layer.
   ],
   literature-items: (
     [Independent Directors Report (2017)],
@@ -1774,7 +1491,7 @@
 )
 
 #case(
-  number: 58,
+  number: 55,
   slug: "volkswagen-dieselgate",
   title: "Volkswagen Dieselgate",
   year: "2015",
@@ -1857,7 +1574,7 @@
       real-world driving-emissions testing, moving the measurement off the
       predictable bench and onto the road the standard actually cared about,
       making it far harder to game.#cn() The pattern parallels Takata (Case
-      21) — a manufacturer's fraud meeting a regulator whose evidence pipeline
+      20) — a manufacturer's fraud meeting a regulator whose evidence pipeline
       trusted the manufacturer's test conditions, and a fix that had to
       upgrade the measurement itself, not just punish the cheat, because
       punishing the cheat leaves the exploitable instrument in place for the
@@ -1877,7 +1594,7 @@
     [U.S. Department of Justice Plea Agreement with Volkswagen AG (2017) — the institutional decision, \$33B+ in penalties, and convictions (quoted).],
     [Volkswagen internal documents released through litigation — authorization of the defeat device within the engineering hierarchy.],
     [EU Real Driving Emissions (RDE) testing regulation — the post-Dieselgate measurement reform.],
-    [J. Ewing, _Faster, Higher, Farther: The Volkswagen Scandal_ (2017); cf. Takata (Case 21).],
+    [J. Ewing, _Faster, Higher, Farther: The Volkswagen Scandal_ (2017); cf. Takata (Case 20).],
   ),
   quote: [The defeat device was the product of a long-standing institutional decision to evade emissions standards.],
   quote-source: "Paraphrasing the U.S. Department of Justice Plea Agreement with Volkswagen AG, 2017",
@@ -1893,7 +1610,7 @@
     LENS uses Dieselgate in LEN 4 as the canonical case for
     measurement-system evasion and in LEN 7 for the corporate-
     governance dynamics of engineered fraud. The reform pattern
-    parallels Takata (Case 21).
+    parallels Takata (Case 20).
   ],
   literature-items: (
     [Ewing (2017), _Faster, Higher, Farther_],
@@ -1922,7 +1639,7 @@
 )
 
 #case(
-  number: 59,
+  number: 56,
   slug: "cambridge-analytica-facebook",
   title: "Cambridge Analytica / Facebook",
   year: "2014 – 2018",
@@ -2064,7 +1781,7 @@
 )
 
 #case(
-  number: 60,
+  number: 57,
   slug: "equifax-data-breach",
   title: "Equifax Data Breach",
   year: "2017",
@@ -2089,7 +1806,7 @@
     for years as a cost center. The CEO resigned and Equifax settled for
     about \$700 million. No single failure caused the breach; cumulative
     inadequacy across routine cybersecurity work did. Equifax is the
-    data-breach analog of the Sago mine disaster (Case 31).
+    data-breach analog of the Sago mine disaster (Case 30).
   ],
   sections: (
     // -- Background --
@@ -2142,7 +1859,7 @@
       the breach pushed patching discipline, asset inventory, and
       breach-disclosure timelines up the corporate agenda — elevating, after
       the loss, the unglamorous work that had been deferred before it.#cn() It
-      is the data-breach analog of the Sago mine disaster (Case 31): no
+      is the data-breach analog of the Sago mine disaster (Case 30): no
       dramatic single cause, just several routine defenses each left
       marginally inadequate, failing together on the day a determined attacker
       arrived to test all of them at once.
@@ -2161,7 +1878,7 @@
     [Senate PSI (2019) — "Equifax lacked a comprehensive IT asset inventory" (quoted).],
     [U.S. FTC / CFPB / state settlement (~\$700 million, 2019) and the CEO's resignation.],
     [U.S. GAO, _Actions Taken by Equifax and Federal Agencies in Response to the 2017 Breach_, GAO-18-559 (2018).],
-    [Apache Struts CVE-2017-5638 advisory; cf. the Sago mine disaster (Case 31).],
+    [Apache Struts CVE-2017-5638 advisory; cf. the Sago mine disaster (Case 30).],
   ),
   quote: [Equifax lacked a comprehensive IT asset inventory.],
   quote-source: "U.S. Senate Permanent Subcommittee on Investigations, How Equifax Neglected Cybersecurity, March 2019",
@@ -2204,7 +1921,7 @@
 )
 
 #case(
-  number: 61,
+  number: 58,
   slug: "hyatt-regency-walkway-collapse",
   title: "Hyatt Regency Walkway Collapse",
   year: "1981",
@@ -2348,150 +2065,10 @@
   scale: "big",
 )
 
-#case(
-  number: 62,
-  slug: "fiu-pedestrian-bridge-collapse",
-  title: "FIU Pedestrian Bridge Collapse",
-  year: "2018",
-  domains-list: ("industrial",),
-  modes-code: "DGN",
-  impact: "6 killed in Miami when a pedestrian bridge collapsed during construction; NTSB found systemic design and review failures",
-  diagram: dgm.dgm-timeline(
-    (("design errors", "—"), ("cracks observed", "days before"), ("\"monitor\"", "classified"), ("collapse", "—")),
-    emphasis: 2,
-    caption: "FIU — observed cracks classified as not safety-critical",
-  ),
-  kind: "failure",
-  summary: [
-    On 15 March 2018 a pedestrian bridge under construction at Florida
-    International University collapsed onto the road below, killing six. The
-    NTSB found the design firm had made calculation errors — underestimating
-    demand and overestimating capacity at a critical truss connection — that
-    the independent peer review failed to catch. In the days before, large
-    cracks appeared at that connection; they were inspected, discussed in a
-    meeting the morning of the collapse, and judged not a safety concern,
-    even as crews worked on the span and traffic ran beneath it. The errors
-    were the timeless ones — a connection under-designed, a review that
-    missed it, warning signs rationalized away — in a structure built with
-    state-of-the-art tools. FIU is the contemporary proof that better design
-    software does not retire the old failure modes.
-  ],
-  sections: (
-    // -- Background --
-    [
-      The FIU-Sweetwater pedestrian bridge over Southwest Eighth Street in
-      Miami was a modern, computationally designed concrete truss, built to
-      be assembled beside the road and lifted into place — engineered with
-      tools more capable than any prior era's, the kind of software that lets
-      a designer model a structure in detail no slide rule ever could. That
-      sophistication framed the bridge as a showcase of modern method.#cn()
-    ],
-    // -- What Happened --
-    [
-      It collapsed during construction on 15 March 2018, dropping onto the
-      road and the cars stopped beneath it, killing six — the failure landing
-      on the very traffic the bridge would one day span. The NTSB found the
-      design firm had made calculation errors at a critical truss connection —
-      underestimating the load demand and overestimating the capacity, an
-      error in both directions at once — and that the independent peer review,
-      the safeguard meant to catch exactly such mistakes, had not caught
-      them.#cn()
-    ],
-    // -- The Investigation --
-    [
-      The warnings were there. Large cracks had appeared at that connection
-      in the days before, were inspected, and were judged not to threaten
-      safety — a judgment reaffirmed in a meeting the morning of the collapse,
-      even as workers operated on the span and traffic ran underneath, so the
-      structure was failing visibly while being declared safe.#cn() The errors
-      that produced the collapse were the timeless ones: a load case
-      inadequately considered, a review that did not catch the gap, and
-      visible distress rationalized as not safety-critical — each a failure
-      mode older than the software that drew the bridge.#cn()
-    ],
-    // -- The Capability Gap --
-    [
-      FIU is the contemporary reminder that more capable design tools do not
-      retire the old failure modes. The bridge was designed with
-      sophisticated software, yet failed for the same reasons structures have
-      failed for a century — because the human and institutional capabilities
-      around the tools (independent review that re-derives the answer, a rule
-      that visible cracking on a critical member stops work) had not kept
-      pace with the software's sophistication, leaving the newest tools
-      guarded by the oldest, weakest procedures.#cn()
-    ],
-    // -- Aftermath & Reform --
-    [
-      The NTSB faulted the design firm, the peer reviewer, and the parties
-      who kept the road open beneath a cracking structure — spreading the
-      responsibility across every layer that could have intervened — and the
-      case sharpened scrutiny of accelerated-bridge-construction methods and
-      independent design review.#cn() Its lesson pairs with the Hyatt Regency
-      (Case 61) across forty years: the computer drew a better bridge, but
-      the governance of the calculation — who checks it, and what a crack is
-      allowed to mean — is still where safety lives, unchanged by four decades
-      of better software.
-    ],
-  ),
-  beats: (
-    "The FIU-Sweetwater pedestrian bridge was a modern, computationally designed concrete truss over a Miami road",
-    "On 15 March 2018 it collapsed during construction, killing six; NTSB found truss-connection calculation errors",
-    "Large cracks were inspected, judged not safety-critical, and reaffirmed in a meeting the morning of collapse",
-    "More capable design tools did not retire timeless failure modes; review and stop-work rules lagged the software",
-    "NTSB faulted designer, peer reviewer, and parties keeping the road open; the case paired with Hyatt Regency",
-  ),
-  references: (
-    [NTSB, _Pedestrian Bridge Collapse over SW 8th Street, Miami_, Highway Accident Report HAR-19/02 (2019) — the FIGG design calculation errors (quoted).],
-    [NTSB HAR-19/02 (2019) — the 15 March 2018 collapse during construction; six killed.],
-    [NTSB HAR-19/02 (2019) — the observed cracking judged not safety-critical and the morning-of meeting.],
-    [NTSB HAR-19/02 (2019) — the failure of the independent design peer review.],
-    [OSHA report on the FIU bridge collapse (2019); Engineering News-Record coverage.],
-    [Cf. the Hyatt Regency collapse (Case 61); accelerated-bridge-construction review practice.],
-  ),
-  quote: [The probable cause of the collapse was the load and capacity calculation errors made by FIGG Bridge Engineers in its design of the main span truss.],
-  quote-source: "NTSB Highway Accident Report HAR-19/02 on the FIU pedestrian bridge, 2019",
-  le-insight: [
-    The FIU bridge is the canonical modern engineering case for
-    cumulative review failure. Each layer of review failed in its
-    own way. The collapse was not predicted but was predictable. The
-    cracks that had been observed were classified as not safety-
-    critical because the institutional protocol for "potentially
-    significant crack on a new structure" defaulted to "monitor."
-  ],
-  lens-approach: [
-    LENS uses FIU in LEN 5 to teach review-process deliverables and
-    in LEN 8 to compare with the Hyatt Regency (Case 61) case from
-    forty years earlier — same failure mode, different decade.
-  ],
-  literature-items: (
-    [NTSB HAR-19/02 (2019)],
-    [Roddis & Roberts (1997) on engineering-review architecture],
-    [Petroski, _To Forgive Design_ (2012)],
-  ),
-  reflection-list: (
-    [The FIU and Hyatt Regency cases are 40 years apart and structurally similar. What has not been engineered in the discipline that would change that?],
-    [Design the field-observation escalation protocol that would have brought the FIU cracks to a decision-maker with the authority to halt work.],
-    [At FIU the most capable design software in history was guarded by a peer review that missed the error and a crack-response rule that defaulted to "monitor." Where in your domain has tooling outrun the human and institutional checks meant to catch its mistakes?],
-  ),
-  approaches: (
-    during: (
-      [Require an independent peer review that re-derives the load and capacity at critical connections, rather than re-reading the original firm's calculation.],
-      [Keep the human and institutional checks — review, escalation, stop-work authority — abreast of the design tools, so sophisticated software is not guarded by weak procedures.],
-      [Set a rule that visible cracking on a critical member halts work, so distress cannot be rationalized away while crews and traffic remain exposed.],
-    ),
-    after: (
-      [Audit observed field distress against design intent, treating a crack on a new structure as potentially significant until re-analysis proves otherwise.],
-      [Route field observations to a decision-maker with authority to stop work, rather than resolving them in a meeting that defaults to "monitor."],
-      [Sustain scrutiny of accelerated-construction methods and independent review, so the same century-old failure mode does not recur a decade later.],
-    ),
-  ),
-  courses: ("LEN 5", "LEN 8"),
-  scale: "big",
-  evidence-source: "investigation",
-)
+
 
 #case(
-  number: 63,
+  number: 59,
   slug: "camp-fire-pg-and-e",
   title: "Camp Fire / PG&E",
   year: "2018",
@@ -2568,7 +2145,7 @@
       and California restructured how it regulates utility wildfire-risk
       planning — mandatory mitigation plans, inspections, and public-safety
       power shutoffs, turning the deferred work into requirements with teeth
-      behind them.#cn() Paired with the Northeast Blackout (Case 34), Camp
+      behind them.#cn() Paired with the Northeast Blackout (Case 33), Camp
       Fire shows utility capability failing in a second way: not a silent
       control-room failure but a slow, known erosion of physical
       infrastructure against a rising hazard the institution declined to fund
@@ -2589,7 +2166,7 @@
     [Butte County District Attorney, _The Camp Fire Public Report_ (2020) — PG&E's knowledge and deferred maintenance (quoted).],
     [California Public Utilities Commission, Order Instituting Investigation into PG&E (2019) — the regulatory dimension.],
     [PG&E bankruptcy and California wildfire-mitigation reforms (2019– ).],
-    [Cf. the Northeast Blackout (Case 34); climate-and-infrastructure literature.],
+    [Cf. the Northeast Blackout (Case 33); climate-and-infrastructure literature.],
   ),
   quote: [PG&E knew its equipment was failing in high-fire-risk areas and continued operating without remediation.],
   quote-source: "Paraphrasing the Butte County District Attorney's Camp Fire Report, 2020",
@@ -2604,7 +2181,7 @@
     LENS uses the Camp Fire in LEN 7 for utility regulatory governance
     and in LEN 8 for institutional response to changing operating
     conditions. The case is paired with the Northeast Blackout (Case
-    34) as utility-capability failures of different kinds.
+    33) as utility-capability failures of different kinds.
   ],
   literature-items: (
     [CalFire Camp Fire Investigation Report (2019)],
@@ -2633,149 +2210,10 @@
   evidence-source: "investigation",
 )
 
-#case(
-  number: 64,
-  slug: "texas-grid-freeze",
-  title: "Texas Grid Freeze",
-  year: "2021",
-  domains-list: ("energy",),
-  modes-code: "GKN",
-  impact: "~246 official deaths (Texas DSHS); academic excess-mortality estimates range 700–1,000; ~$130B in damages; foundational U.S. grid-resilience case",
-  diagram: dgm.dgm-timeline(
-    (("1989 warning", "—"), ("2011", "—"), ("2014", "—"), ("2021 freeze", "246 dead")),
-    emphasis: 3,
-    caption: "Texas grid — four warnings across three decades, no winterization mandated",
-  ),
-  kind: "failure",
-  summary: [
-    In February 2021 Winter Storm Uri drove temperatures across Texas far
-    below what the ERCOT grid's generators and gas supply were built to
-    withstand. Gas wells froze, gas-fired generation (the bulk of the lost
-    capacity) tripped, and coal, nuclear, and wind also fell; over roughly
-    four days ERCOT shed load and millions lost power in blackouts that, in
-    many cases, never rolled. Texas officially recorded 246 deaths;
-    peer-reviewed excess-mortality estimates run 700–1,000, with about \$130
-    billion in damage. The proximate failure was the absence of
-    winterization requirements for Texas generators — and ERCOT had been
-    warned, after similar storms in 1989, 2011, and 2014, that winterization
-    was inadequate. The warnings never produced a mandate, because the cost
-    would pass to consumers and the rare event was judged acceptable.
-  ],
-  sections: (
-    // -- Background --
-    [
-      Texas runs its own electric grid under ERCOT, largely outside federal
-      reliability jurisdiction — a structure that prized low cost and light
-      regulation, and that kept federal reliability mandates at arm's length.
-      Its generators and the gas supply feeding them were built for Texas
-      heat, not sustained deep cold, and winterization was not required, so
-      cold-weather hardening was left to each operator's discretion and
-      largely skipped.#cn()
-    ],
-    // -- What Happened --
-    [
-      In February 2021 Winter Storm Uri drove temperatures far below those
-      design assumptions, exposing every unhardened system at once. Gas wells
-      and wellheads froze, gas-fired generation — the bulk of the lost
-      capacity — tripped offline, and coal, nuclear, and wind also lost
-      output, the cold defeating each fuel source in its own way. Over roughly
-      four days ERCOT directed load shed, and millions of Texans lost power in
-      rolling blackouts that, in many places, did not roll but simply stayed
-      off. Officially 246 died; peer-reviewed excess-mortality estimates run
-      700–1,000, with around \$130 billion in damage.#cn()
-    ],
-    // -- The Investigation --
-    [
-      The FERC-NERC joint inquiry identified the absence of winterization
-      requirements as the proximate capability failure — the single missing
-      requirement behind a cascade of frozen equipment.#cn() And it was no
-      surprise: ERCOT and Texas generators had been warned after similar
-      cold-weather events in 1989, 2011, and 2014 that winterization was
-      inadequate — warnings that never produced a mandate, because the cost
-      would pass to consumers and the rare event was judged acceptable, so
-      three decades of foresight changed nothing about the build.#cn()
-    ],
-    // -- The Capability Gap --
-    [
-      The Texas freeze is a designed-out capability meeting a changing
-      climate. Winterization was treated as optional because the rare event
-      was deemed acceptable — but the acceptable rate of the rare event
-      changed while the designed-out capability did not, so a bet that once
-      looked reasonable kept being renewed long after the odds had moved. Four
-      warnings across three decades did not move the institution, because
-      nothing in its structure forced the cost of resilience to be paid before
-      the catastrophe rather than after, and a warning with no mechanism
-      behind it is only a forecast of the bill.#cn()
-    ],
-    // -- Aftermath & Reform --
-    [
-      After 2021 Texas finally mandated weatherization of generation and key
-      gas facilities, with inspections and penalties behind it — converting,
-      after the deaths, the discretionary hardening that three decades of
-      warnings had failed to compel.#cn() The case sits beside the chapter's
-      other slow-erosion failures: a known, repeatedly flagged vulnerability
-      accepted as routine until the tolerances aligned — here, with a
-      population-scale death toll the warnings had, in effect, predicted, the
-      cost of resilience finally paid in full and after the fact.
-    ],
-  ),
-  beats: (
-    "Texas ran its ERCOT grid outside federal reliability jurisdiction with winterization left optional for operators",
-    "Winter Storm Uri froze gas wells and tripped generation; about 246 died officially and damage reached 130 billion",
-    "The FERC-NERC joint inquiry named absent winterization as the proximate failure, with warnings from 1989, 2011, 2014",
-    "Optional winterization persisted because costs would pass to consumers and the rare event was judged acceptable",
-    "Texas mandated weatherization of generation and gas with inspections and penalties behind the new requirements",
-  ),
-  references: (
-    [FERC–NERC, _The February 2021 Cold Weather Outages in Texas and the South Central United States_ (Joint Inquiry, 2021) — winterization as the proximate failure (quoted).],
-    [Texas DSHS official death count (246); peer-reviewed excess-mortality estimates (700–1,000); ~\$130 billion in damage.],
-    [FERC–NERC (2021) — the prior cold-weather warnings (1989, 2011, 2014).],
-    [Public Utility Commission of Texas reports on the February 2021 event.],
-    [University of Texas at Austin Energy Institute analyses (Busby et al., 2021).],
-    [Texas weatherization legislation (SB 3, 2021) and the PUCT/ERCOT reforms.],
-  ),
-  quote: [Texas generators had been warned across three decades that winterization was inadequate. The warnings did not produce winterization.],
-  quote-source: "Paraphrasing the FERC-NERC Joint Inquiry Report on the February 2021 Texas event",
-  le-insight: [
-    The Texas Grid Freeze is the case for designed-out capability under
-    changing climate conditions. Winterization was treated as
-    optional because the rare event was acceptable. The acceptable
-    rate of the rare event changed; the designed-out capability did
-    not.
-  ],
-  lens-approach: [
-    LENS uses the Texas Grid Freeze in LEN 7 as a regulatory-governance
-    case and in LEN 8 for institutional learning across repeated near-
-    misses (1989, 2011, 2014) that did not produce remediation.
-  ],
-  literature-items: (
-    [FERC-NERC Joint Inquiry (2021)],
-    [Busby et al. (2021), Energy Institute analyses],
-    [PUC Texas reports],
-  ),
-  reflection-list: (
-    [Identify a capability in your domain that has been designed out because the relevant rare event was judged acceptable. Is the rate still acceptable?],
-    [The Texas grid was warned four times in three decades. What institutional architecture allows that pattern, and what would change it?],
-    [Winterization stayed optional because its cost would pass to consumers while the rare event was judged acceptable. Where in your domain is a resilience cost being deferred onto a future catastrophe, and what would force it to be paid before rather than after?],
-  ),
-  approaches: (
-    during: (
-      [Re-test the "acceptable rare event" assumption against current climate odds, since a bet that looked reasonable decades ago may no longer hold.],
-      [Build winterization or equivalent resilience into the design where the hazard reaches, rather than leaving hardening to each operator's discretion.],
-      [Create a structural mechanism that forces the cost of resilience to be paid up front, so a warning is backed by a mandate rather than left as a forecast.],
-    ),
-    after: (
-      [Audit repeated cold-weather or near-miss warnings to confirm they actually produced hardening, treating an unactioned warning as an open liability.],
-      [Mandate weatherization with inspections and penalties behind it, so compliance does not depend on each operator absorbing a cost it can pass to consumers.],
-      [Track the changing rate of the rare event so a designed-out capability is reconsidered when the odds move, not only after a catastrophe.],
-    ),
-  ),
-  courses: ("LEN 7", "LEN 8"),
-  scale: "big",
-)
+
 
 #case(
-  number: 65,
+  number: 60,
   slug: "epic-sepsis-model",
   title: "Epic Sepsis Model",
   year: "2017 – 2021",
@@ -2804,7 +2242,7 @@
     model sat outside the FDA's medical-device oversight regime, so the
     machinery that would have surfaced its limitations at clearance was
     never engaged. The post-deployment surveillance pattern (Vioxx,
-    Case 105) is the analog: the harm was the absence of a standing system
+    Case 98) is the analog: the harm was the absence of a standing system
     to check the tool once it was in the population's hands.
   ],
   sections: (
@@ -2853,8 +2291,8 @@
       was supposed to have.#cn()
     ],
     [
-      The Epic case is the negative pair to TREWS (Case 125) and the
-      governance-seam analog to Radiology AI Miscalibration (Case 190).
+      The Epic case is the negative pair to TREWS (Case 118) and the
+      governance-seam analog to Radiology AI Miscalibration (Case 182).
       Together they teach a typology: delegation done well as a paired
       intervention with engineered interface and outcome-grounded
       evidence (TREWS); delegation done badly as a proprietary
@@ -2911,7 +2349,7 @@
     delegation-with-revocation CLO — Epic was delegated without a
     pre-specified revocation criterion; and in Domain 4 (Navigating
     Sociotechnical Constraints) for the cross-regime / platform
-    governance seam. Pairs directly against TREWS (Case 125) and
+    governance seam. Pairs directly against TREWS (Case 118) and
     sits in the AI-delegation typology with SyRI and Watson.
   ],
   literature-items: (
@@ -2928,7 +2366,7 @@
 )
 
 #case(
-  number: 66,
+  number: 61,
   slug: "algorithmic-mortgage-lending-omitting",
   title: "Algorithmic Mortgage Lending — Omitting the Variable Did Not Fix the Disparity",
   year: "2018 – 2022",
@@ -2956,7 +2394,7 @@
     with race in the present US population. The case is the canonical
     instance of why "fairness through unawareness" is not, by itself,
     fairness. It pairs directly with the Coots et al. fintech fairness
-    audit (Case 67, preprint-tier): the next teaching step is that
+    audit (Case 62, preprint-tier): the next teaching step is that
     competing fairness definitions can disagree about what counts as fair
     even when the inputs are held constant.
   ],
@@ -3009,10 +2447,10 @@
     ],
     [
       The case is the headline mortgage-finance instance of a pattern that
-      now surfaces in clinical algorithms (eGFR, Cases 126, 127 and 68), in
-      hiring and proctoring tools (Case 71 small-tier proctoring bias),
+      now surfaces in clinical algorithms (eGFR, Cases 119, 120 and 63), in
+      hiring and proctoring tools (Case 66 small-tier proctoring bias),
       and in welfare administration (SyRI). It pairs with the Coots et
-      al. fintech fairness audit (Case 67) which shows the next layer:
+      al. fintech fairness audit (Case 62) which shows the next layer:
       once the practitioner accepts that omission is not the answer,
       competing fairness definitions disagree about which adjustment is
       the right one — and the choice has to be made on judgment under
@@ -3062,9 +2500,9 @@
     beyond omission*, in Domain 5 (Machine Teaming and
     Adaptation) for delegation to underwriting models, and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
-    fair-lending regulatory regime. Direct pair with Case 67
+    fair-lending regulatory regime. Direct pair with Case 62
     (Coots fintech fairness audit). Adjacent to the race-construct
-    trio in clinical medicine (Cases 126, 127 and 68) — same structural
+    trio in clinical medicine (Cases 119, 120 and 63) — same structural
     lesson at the construct-definition layer rather than the
     pricing layer.
   ],
@@ -3082,7 +2520,7 @@
 )
 
 #case(
-  number: 67,
+  number: 62,
   slug: "fintech-lending-fairness-audit-when",
   title: "Fintech Lending Fairness Audit — When Including Race Reduces Disparity",
   year: "2025",
@@ -3119,7 +2557,7 @@
   ],
   sections: (
     [
-      The lending pair (Cases 66 and 67) takes the practitioner past
+      The lending pair (Cases 61 and 62) takes the practitioner past
       the first equity intuition — *just don't use the protected
       attribute* — and into the harder territory the equity literature
       now operates in. Bartlett showed that omission preserves the
@@ -3140,7 +2578,7 @@
       audit reports lower measured disparity on standard
       group-fairness metrics under controlled mitigation than under
       unawareness — small scale, but the pattern matches the
-      mortgage-finance finding (Case 66) and the broader fair-ML
+      mortgage-finance finding (Case 61) and the broader fair-ML
       literature.#cn()
     ],
     [
@@ -3168,7 +2606,7 @@
       updated when peer review lands.#cn()
     ],
     [
-      What the pair (Cases 66 + 103) teaches together is the form of
+      What the pair (Cases 61 + 103) teaches together is the form of
       the equity capability deliverable: the practitioner must specify,
       in advance, the fairness definition the deployment will be
       evaluated against, audit on outputs rather than reasoning about
@@ -3212,7 +2650,7 @@
     The Coots audit is the small-tier frontier instance of the
     finding that controlled inclusion of a protected attribute can
     produce lower measured disparity than omission. With Bartlett
-    (Case 66) it forms the canonical lending pair: omission does
+    (Case 61) it forms the canonical lending pair: omission does
     not fix the harm; competing fairness definitions disagree about
     what fix is. Evidence is preprint-tier; future validation will
     continue.
@@ -3233,13 +2671,13 @@
   reflection-list: (
     [Identify a fairness audit in your domain conducted at preprint or unpublished stage. What part of its claim survives if peer review modifies the metric choices? What part is contingent on the specific magnitudes?],
     [Specify which fairness definition your deployment is being held to before the audit is run. What trade-off — across calibration, equalized odds, demographic parity — does that choice accept?],
-    [Coots' finding is consistent with Bartlett (Case 66) and with the broader fair-ML literature, but the specific magnitudes are preprint-tier. What is the minimum follow-up evidence you would require before allowing this case to drive an operational decision in your context?],
+    [Coots' finding is consistent with Bartlett (Case 61) and with the broader fair-ML literature, but the specific magnitudes are preprint-tier. What is the minimum follow-up evidence you would require before allowing this case to drive an operational decision in your context?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
 )
 
 #case(
-  number: 68,
+  number: 63,
   slug: "racial-bias-in-pain-assessment-the",
   title: "Racial Bias in Pain Assessment — The False-Belief Mechanism",
   year: "2016",
@@ -3321,8 +2759,8 @@
       that more diffuse bias findings did not.#cn()
     ],
     [
-      Hoffman pairs with pulse oximetry (Case 127) and eGFR
-      (Case 126) in the race-construct trio. The three cases are the
+      Hoffman pairs with pulse oximetry (Case 120) and eGFR
+      (Case 119) in the race-construct trio. The three cases are the
       same surface harm — minority patients systematically under-served
       across a clinical decision — attributable to three distinct
       layers of the system: the construct definition (eGFR), the
@@ -3373,14 +2811,14 @@
   ],
   lens-approach: [
     Hoffman is the human-development case in the race-construct
-    trio (Cases 126, 127 and 68). LENS uses it in Domain 3 (Test and
+    trio (Cases 119, 120 and 63). LENS uses it in Domain 3 (Test and
     Evaluation) for the CLO *Gap attribution* — the gap is in
     the clinician's training, not the construct or the device —
     and in Domain 2 (Learning Engineering Design) for the
     curriculum-design implication. The trio together is the
     case-grounded basis for *Gap attribution*: same surface
     harm, three distinct layers, three distinct remediations.
-    Adjacent to the lending pair (Cases 66–67) at the
+    Adjacent to the lending pair (Cases 61–62) at the
     construct layer.
   ],
   literature-items: (
@@ -3391,13 +2829,13 @@
   reflection-list: (
     [Identify a documented disparity in your domain whose mechanism is treated as diffuse. What would a Hoffman-style survey look like — a battery of named false beliefs or assumptions whose endorsement could be measured and whose presence predicts the operational decision?],
     [Design the curriculum-evaluation instrument you would use to test whether a curriculum has actually disconfirmed the false beliefs. What endorsement-rate change would you require before claiming the mechanism has been addressed?],
-    [Hoffman is the human-development case in the race-construct trio. Pulse oximetry (Case 127) is the validation-architecture case; eGFR (Case 126) is the construct-definition case. Which of the three layers does your domain currently address, and which does it leave invisible?],
+    [Hoffman is the human-development case in the race-construct trio. Pulse oximetry (Case 120) is the validation-architecture case; eGFR (Case 119) is the construct-definition case. Which of the three layers does your domain currently address, and which does it leave invisible?],
   ),
   courses: ("LEN 1", "LEN 4", "LEN 7"),
 )
 
 #case(
-  number: 69,
+  number: 64,
   slug: "dutch-syri-welfare-fraud-risk-scoring",
   title: "Dutch SyRI — Welfare-Fraud Risk Scoring Halted on Rights Grounds",
   year: "2014 – 2020",
@@ -3422,7 +2860,7 @@
     reporting also found that, on its own terms, the system did not
     work: none of the algorithmic investigations had detected new
     fraud. The case is the paired contrast to the Open University
-    (Case 129): SyRI's governance objection was correct, not
+    (Case 122): SyRI's governance objection was correct, not
     dissolvable by design — the system was both rights-violating and
     ineffective. The court left open that a more transparent system
     could pass, which makes the case a governance-objection-diagnostic
@@ -3474,7 +2912,7 @@
       transparent system, with auditability and a credibly
       narrower scope, might pass. The case is therefore the
       governance-objection-diagnostic counter to the Open
-      University (Case 129): both faced credible governance
+      University (Case 122): both faced credible governance
       objections at the same era; OU's was about trust and
       accountability and was dissolved by a co-authored consent
       architecture; SyRI's was about rights and proportionality
@@ -3482,7 +2920,7 @@
       the rights violation.#cn()
     ],
     [
-      The pair (Cases 129 + 110) is the case-grounded basis for
+      The pair (Cases 122 + 110) is the case-grounded basis for
       the governance-objection diagnostic proposed in
       the v2 research backbone: distinguishing a governance objection
       that good design can dissolve from one that correctly
@@ -3500,7 +2938,7 @@
     "Civil-society and citizen coalition sue; District Court of The Hague halts program 5 Feb 2020 as Article 8 ECHR violation",
     "Investigative reporting: on its own terms, SyRI did not work — no new fraud detected in six years of algorithmic investigations",
     "Court leaves open that a more transparent and narrower system could pass; the ruling is system-specific, not categorical",
-    "Pair with OU (Case 129): governance-objection diagnostic — when design dissolves the objection vs. when the objection is correct",
+    "Pair with OU (Case 122): governance-objection diagnostic — when design dissolves the objection vs. when the objection is correct",
   ),
   approaches: (
     during: (
@@ -3535,7 +2973,7 @@
   lens-approach: [
     SyRI is the negative Domain 4 / Problem Type 6 governance
     case (induced 5.1; LENS D4+D5/PT6) drafted as the
-    contrast to the Open University (Case 129). LENS uses
+    contrast to the Open University (Case 122). LENS uses
     the pair in Domain 4 (Navigating Sociotechnical
     Constraints) for the governance-objection
     diagnostic — distinguishing dissolvable from correct
@@ -3554,13 +2992,13 @@
   reflection-list: (
     [Identify a public-sector analytics system in your jurisdiction. Are the data subjects informed they are being scored? Is the model and its inputs disclosed? What is the proportionality argument the deploying agency would make if challenged?],
     [Specify the pre-registered operational evidence — what the system has to demonstrate, on what cadence — that would let a deployment be evaluated against its capability claim. SyRI ran for six years without published evidence of the headline claim.],
-    [The pair OU (Case 129) and SyRI (Case 69) teaches the governance-objection diagnostic. Construct a candidate diagnostic for your own domain: what features of an objection indicate that good design could dissolve it, and what features indicate that the objection is to the design itself?],
+    [The pair OU (Case 122) and SyRI (Case 64) teaches the governance-objection diagnostic. Construct a candidate diagnostic for your own domain: what features of an objection indicate that good design could dissolve it, and what features indicate that the objection is to the design itself?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
 )
 
 #case(
-  number: 70,
+  number: 65,
   slug: "ipledge-isotretinoin-rems-when-the",
   title: "iPLEDGE Isotretinoin REMS — When the Authorization Mechanism Underperforms",
   year: "2006 – 2011",
@@ -3571,7 +3009,7 @@
   scale: "big",
   evidence-source: "peer-reviewed",
   induced-anchor: "4.4",
-  lens-anchor: "D5/PT5",
+  lens-anchor: "D4/PT5",
   clo-anchor: "CLO-3, CLO-5",
   summary: [
     Isotretinoin is a highly effective acne medication and a known
@@ -3582,7 +3020,7 @@
     pregnancy testing, two contraception methods (or documented
     abstinence), and pharmacy lockout authorization before each
     dispense. The case is the productive counterpoint to SUBSAFE
-    (Case 130) and the WHO Surgical Checklist (Case 111): the
+    (Case 123) and the WHO Surgical Checklist (Case 104): the
     structural move is the same — mandatory pre-authorization
     gating a consequential action — and the measured outcome is
     very different. The Brinker et al. Kaiser Permanente cohort
@@ -3618,8 +3056,8 @@
       pregnancy tests, and receive a per-cycle authorization code
       before the pharmacy can fill the prescription. Each prescriber,
       pharmacy, and wholesaler must also enroll in the program. The
-      structural form is the same one SUBSAFE (Case 130) and the
-      WHO Surgical Checklist (Case 111) both use successfully:
+      structural form is the same one SUBSAFE (Case 123) and the
+      WHO Surgical Checklist (Case 104) both use successfully:
       mandatory pre-authorization gating a consequential action,
       with the authorization withheld until pre-conditions are
       verifiably met.#cn()
@@ -3657,8 +3095,8 @@
       training that keep the certification real in operation.#cn()
     ],
     [
-      Drafted alongside SUBSAFE (Case 130) and the WHO Surgical
-      Checklist (Case 111), iPLEDGE is the most analytically
+      Drafted alongside SUBSAFE (Case 123) and the WHO Surgical
+      Checklist (Case 104), iPLEDGE is the most analytically
       useful "mixed" case in the v2 sweep. It is not a failure of
       the form (the form has demonstrated successes); it is evidence
       that the form alone does not deliver capability when the
@@ -3694,7 +3132,7 @@
     [Brinker, Kornegay, Nourjah, Smith, & Reichman (2011), "The impact of the iPLEDGE program on isotretinoin fetal exposure in an integrated health care system," _Journal of the American Academy of Dermatology_, PMID:21565419.],
     [FDA, iPLEDGE program documentation (2006 – present) — REMS architecture and enrollment requirements.],
     [Pinheiro et al. (2013), "Isotretinoin and pregnancy in the era of iPLEDGE," _Journal of the American Academy of Dermatology_ — broader outcome literature documenting the ~150 annual exposures figure.],
-    [Sullivan et al. (2003), House Science Committee statement on SUBSAFE — the structural counterpoint (Case 130).],
+    [Sullivan et al. (2003), House Science Committee statement on SUBSAFE — the structural counterpoint (Case 123).],
   ),
   quote: [The authorization mechanism is operating as designed. The capability sits downstream of the authorization, and the program does not reach that far.],
   quote-source: "Editors' synthesis of Brinker et al. (2011).",
@@ -3715,9 +3153,9 @@
     mechanism delegates and what it does not — and in Domain 3
     (Test and Evaluation) for the CLO *Judgment under
     inadequate evidence* on whether the form will deliver in a
-    specific context. Direct pair with SUBSAFE (Case 130) at
+    specific context. Direct pair with SUBSAFE (Case 123) at
     the form-vs-context layer; pair with WHO Surgical Checklist
-    (Case 111) at the mandatory-mechanism layer.
+    (Case 104) at the mandatory-mechanism layer.
   ],
   literature-items: (
     [Brinker et al. (2011), _Journal of the American Academy of Dermatology_],
@@ -3733,7 +3171,7 @@
 )
 
 #case(
-  number: 71,
+  number: 66,
   slug: "algorithmic-bias-in-automated-exam",
   title: "Algorithmic Bias in Automated Exam Proctoring",
   year: "2022",
@@ -3765,7 +3203,7 @@
     remediation, so it is a failure / diagnosis case. The harm
     comes directly from validation that did not stratify across
     skin tone, surfacing a group-specific failure in a deployed
-    system. Trio with Cases 126 (eGFR), 106 (pulse oximetry), and
+    system. Trio with Cases 119 (eGFR), 106 (pulse oximetry), and
     107 (Hoffman pain bias) at the race-construct-and-validation
     layer.
   ],
@@ -3830,7 +3268,7 @@
       researchers.#cn()
     ],
     [
-      Drafted alongside the race-construct trio (Cases 126
+      Drafted alongside the race-construct trio (Cases 119
       eGFR, 106 pulse oximetry, 107 Hoffman pain bias), the
       proctoring case extends the validation-must-be-
       demographically-stratified lesson into the ed-tech and
@@ -3851,7 +3289,7 @@
     "Yoder-Himes et al. _Frontiers in Education_ 2022 — first published quantitative study of facial-detection bias in this class of software",
     "Students with darker skin tones and Black students significantly more likely to be flagged for instructor review for potential cheating",
     "Intersectional finding: women with the darkest skin tones far more likely to be flagged than other groups",
-    "Failure / diagnosis case: documents the disparity, not a remediation; trio with Cases 126 (eGFR), 106 (pulse oximetry), 107 (Hoffman pain bias)",
+    "Failure / diagnosis case: documents the disparity, not a remediation; trio with Cases 119 (eGFR), 106 (pulse oximetry), 107 (Hoffman pain bias)",
   ),
   approaches: (
     during: (
@@ -3862,14 +3300,14 @@
     after: (
       [Treat the Yoder-Himes finding as the diagnosis it is: the disparity is documented in one product; the remediation is not.],
       [Carry the intersectional reading explicitly (women with the darkest skin tones far more likely to be flagged) in any communication about the case; the broader race-by-sex intersectional finding is consistent with the face-recognition-bias literature and should not be smoothed into a single-dimension finding.],
-      [Build the cross-case reading with eGFR (Case 126), pulse oximetry (Case 127), and Hoffman pain bias (Case 68): the validation-must-be-demographically-stratified lesson runs across clinical, device, and assessment domains, and the proctoring case is the assessment-domain anchor.],
+      [Build the cross-case reading with eGFR (Case 119), pulse oximetry (Case 120), and Hoffman pain bias (Case 63): the validation-must-be-demographically-stratified lesson runs across clinical, device, and assessment domains, and the proctoring case is the assessment-domain anchor.],
     ),
   ),
   references: (
     [Yoder-Himes, D. R., Asif, A., Kinney, K., Brandt, T. J., Cecil, R. E., Himes, P. R., Cashon, C., Hopp, R. M. P., \& Ross, E. (2022). Racial, skin tone, and sex disparities in automated proctoring software. _Frontiers in Education_, 7:881449. doi:10.3389/feduc.2022.881449 — the case's primary study.],
     [Buolamwini, J., \& Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. _Proceedings of Machine Learning Research_, 81:77–91 — the foundational intersectional-bias finding in face recognition.],
     [Raji, I. D., \& Buolamwini, J. (2019). Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products. _AAAI/ACM Conference on AI, Ethics, and Society_ — the audit-and-disclosure mechanism the case calls for.],
-    [Sjoding, M. W., Dickson, R. P., Iwashyna, T. J., Gay, S. E., \& Valley, T. S. (2020). Racial bias in pulse oximetry measurement. _New England Journal of Medicine_, 383(25):2477–2478 — the structural analog in the medical-device context (Case 127).],
+    [Sjoding, M. W., Dickson, R. P., Iwashyna, T. J., Gay, S. E., \& Valley, T. S. (2020). Racial bias in pulse oximetry measurement. _New England Journal of Medicine_, 383(25):2477–2478 — the structural analog in the medical-device context (Case 120).],
   ),
   quote: [The product may employ biased AI algorithms that unfairly disadvantage students.],
   quote-source: "Yoder-Himes et al., Frontiers in Education 2022.",
@@ -3890,7 +3328,7 @@
     discipline, and in Domain 4 (Navigating Sociotechnical
     Constraints) for the institutional resolution mechanism
     that has to handle the case where the flag was generated
-    by software bias. Trio with Cases 126 (eGFR), 106 (pulse
+    by software bias. Trio with Cases 119 (eGFR), 106 (pulse
     oximetry), and 107 (Hoffman pain bias) at the
     race-construct-and-validation layer.
   ],
@@ -3908,7 +3346,7 @@
 )
 
 #case(
-  number: 72,
+  number: 67,
   slug: "data-privacy-and-learning-analytics-on",
   title: "Data Privacy and Learning Analytics on the African Continent",
   year: "2022",
@@ -4065,8 +3503,8 @@
     governance case (induced 5.3; LENS D4/PT6) — Domain 4 for
     the cross-regime seam; Domain 5 for *Judgment under
     inadequate evidence* on a frontier where the architectural
-    response is recommended but not built. Pair with Case 129
-    and Case 156.
+    response is recommended but not built. Pair with Case 122
+    and Case 149.
   ],
   literature-items: (
     [Prinsloo, Slade, & Khalil (2022), _BJET_, doi:10.1111/bjet.13226],
@@ -4082,7 +3520,7 @@
 )
 
 #case(
-  number: 73,
+  number: 68,
   slug: "watson-for-oncology-delegation-marketed",
   title: "Watson for Oncology — Delegation Marketed Ahead of Capability",
   year: "2013 – 2018",
@@ -4093,7 +3531,7 @@
   scale: "big",
   evidence-source: "journalism",
   evidence-flag: "journalism-tier",
-  induced-anchor: "1.1",
+  induced-anchor: "2.4",
   lens-anchor: "D5/PT6",
   clo-anchor: "CLO-1, CLO-3",
   summary: [
@@ -4193,7 +3631,7 @@
       tier the case rests on.#cn()
     ],
     [
-      In the AI-delegation typology (Cases 125 TREWS, 102 Epic
+      In the AI-delegation typology (Cases 118 TREWS, 102 Epic
       Sepsis Model, 111 SyRI, and this case), Watson is the
       marketing-ahead-of-capability failure mode: the procurement
       decision rode on marketed concordance rates that were not
@@ -4236,7 +3674,7 @@
     [Ross & Swetlitz (2017–2018), "IBM Watson recommended unsafe and incorrect cancer treatments" and adjacent investigations, _STAT News_ — the load-bearing primary source; investigative journalism drawing on leaked IBM internal documents.],
     [Strickland (2019), "How IBM Watson Overpromised and Underdelivered on AI Health Care," _IEEE Spectrum_ — independent retrospective synthesis of the public record.],
     [Topol (2019), _Deep Medicine_, Basic Books — secondary academic situating of Watson within the broader clinical-AI delegation discourse.],
-    [v2 paired cases: TREWS (Case 125), Epic Sepsis Model (Case 65), SyRI (Case 69) — the AI-delegation typology.],
+    [v2 paired cases: TREWS (Case 118), Epic Sepsis Model (Case 60), SyRI (Case 64) — the AI-delegation typology.],
   ),
   quote: [The capability the procurement was buying — accurate, real-world treatment recommendation at the marketed concordance rate — was not the capability the system carried.],
   quote-source: "Editors' synthesis of Ross & Swetlitz (STAT News 2017–2018).",
@@ -4256,7 +3694,7 @@
     AI-delegation failure (induced 1.1; LENS D5/PT6) — Domain 5
     for *Delegation with revocation* (MD Anderson wind-downs
     are the revocation half); Domain 3 for requirements-vs-
-    marketing. Pair with Cases 125, 65, 69. Evidence-tier
+    marketing. Pair with Cases 118, 60, 64. Evidence-tier
     flag binds.
   ],
   literature-items: (
@@ -4273,7 +3711,7 @@
 )
 
 #case(
-  number: 74,
+  number: 69,
   slug: "school-surveillance-and-black-student",
   title: "School Surveillance and Black Student Outcomes — Infrastructure as the Mechanism",
   year: "2010s – 2022",
@@ -4312,7 +3750,7 @@
     an institution with the study's authors, and the case is
     anchored to the peer-reviewed _Journal of Criminal Justice_
     evidence rather than to institutional press. The case
-    extends the race-construct trio (Cases 126 eGFR, 106 pulse
+    extends the race-construct trio (Cases 119 eGFR, 106 pulse
     oximetry, 107 Hoffman) into the K-12 education domain at the
     infrastructure layer.
   ],
@@ -4363,7 +3801,7 @@
       attributing the outcome gap to the students rather than to
       the infrastructure mis-locates the mechanism in a way the
       data does not support. The case extends the race-construct
-      trio (Cases 126 eGFR, 106 pulse oximetry, 107 Hoffman)
+      trio (Cases 119 eGFR, 106 pulse oximetry, 107 Hoffman)
       into K-12 education at the infrastructure layer: in eGFR
       and pulse oximetry the mechanism was in the device or the
       formula; in Hoffman the mechanism was in the practitioner's
@@ -4394,7 +3832,7 @@
       established the pattern at the device/formula/cognitive-
       baseline layers; this case carries the pattern at the
       institutional-infrastructure layer. The four-case set
-      (Cases 126, 127, 68, 74) is the case-grounded basis for
+      (Cases 119, 120, 63, 69) is the case-grounded basis for
       Gap attribution as a designed competency: practitioners
       and program designers have to be trained to look for the
       mechanism in the infrastructure they built, not only in
@@ -4406,7 +3844,7 @@
     "US school-surveillance infrastructure (cameras, metal detectors, SROs, ID checks) distributed unevenly — schools with predominantly Black students carry more",
     "Johnson et al. 2022 (Journal of Criminal Justice): separates student-level from school-level variables; measured share of outcome gap attributable to the infrastructure, not the students",
     "Mechanism is the infrastructure, not the students — attributing the gap to the population mis-locates the mechanism in a measurable sense",
-    "Extends race-construct trio (Cases 126 eGFR, 106 pulse oximetry, 107 Hoffman) into K-12 education at the institutional-infrastructure layer",
+    "Extends race-construct trio (Cases 119 eGFR, 106 pulse oximetry, 107 Hoffman) into K-12 education at the institutional-infrastructure layer",
     "One of the motivating cases for the CLO Gap attribution — discipline of asking which share is the infrastructure vs. the population",
   ),
   approaches: (
@@ -4417,15 +3855,15 @@
     ),
     after: (
       [Carry the Gap-attribution discipline into curriculum design: practitioners have to be trained to look for the mechanism in the infrastructure they built, not only in the population they are serving.],
-      [Pair the case with the race-construct trio (Cases 126, 127, 68) so the gap-attribution pattern is taught at multiple layers — device, formula, cognitive baseline, institutional architecture.],
+      [Pair the case with the race-construct trio (Cases 119, 120, 63) so the gap-attribution pattern is taught at multiple layers — device, formula, cognitive baseline, institutional architecture.],
       [Preserve the COI render — shared institution, anchored to peer-reviewed evidence, critical editorial distance — as the standing language for home-institution-shared cases across the corpus.],
     ),
   ),
   references: (
     [Johnson and colleagues (2022), school-surveillance infrastructure and Black student outcomes, _Journal of Criminal Justice_ — the load-bearing peer-reviewed source for the case.],
-    [Hoffman, Trawalter, Axt, & Oliver (2016), "Racial bias in pain assessment and treatment recommendations, and false beliefs about biological differences between blacks and whites," _PNAS_ 113(16):4296–4301 — race-construct trio at the cognitive-baseline layer (Case 68).],
-    [Inker, Eneanya, Coresh, et al. (2021), "New Creatinine- and Cystatin C–Based Equations to Estimate GFR without Race," _NEJM_ — race-construct trio at the formula layer (Case 126).],
-    [Sjoding, Dickson, Iwashyna, Gay, & Valley (2020), "Racial Bias in Pulse Oximetry Measurement," _NEJM_ 383:2477–2478 — race-construct trio at the device layer (Case 127).],
+    [Hoffman, Trawalter, Axt, & Oliver (2016), "Racial bias in pain assessment and treatment recommendations, and false beliefs about biological differences between blacks and whites," _PNAS_ 113(16):4296–4301 — race-construct trio at the cognitive-baseline layer (Case 63).],
+    [Inker, Eneanya, Coresh, et al. (2021), "New Creatinine- and Cystatin C–Based Equations to Estimate GFR without Race," _NEJM_ — race-construct trio at the formula layer (Case 119).],
+    [Sjoding, Dickson, Iwashyna, Gay, & Valley (2020), "Racial Bias in Pulse Oximetry Measurement," _NEJM_ 383:2477–2478 — race-construct trio at the device layer (Case 120).],
   ),
   quote: [The mechanism is the infrastructure, not the students. Attributing the outcome gap to the population mis-locates the mechanism in a measurable sense the data does not support.],
   quote-source: "Editors' synthesis of Johnson et al. (Journal of Criminal Justice, 2022).",
@@ -4445,7 +3883,7 @@
     (induced 8.1; LENS D3/PT5) — Domain 3 as the case-grounded
     basis for *Gap attribution*; Domain 4 for the
     institutional-architecture-as-mechanism framing. Pair with
-    Cases 126, 127, 68. COI binds.
+    Cases 119, 120, 63. COI binds.
   ],
   literature-items: (
     [Johnson et al. (2022), _Journal of Criminal Justice_],
@@ -4461,7 +3899,7 @@
 )
 
 #case(
-  number: 75,
+  number: 70,
   slug: "cruises-partial-disclosure-how",
   title: "Cruise's Partial Disclosure — How Disclosure Posture Decides Deployment",
   year: "2023",
@@ -4487,7 +3925,7 @@
     later. On 24 October the DMV suspended Cruise's driverless
     deployment and testing permits, citing misrepresentation of
     safety-relevant information. The case is the explicit contrast to
-    Case 159 (Waymo): the same regulatory regime, the same
+    Case 152 (Waymo): the same regulatory regime, the same
     delegation problem, the opposite governance choice. Partial
     disclosure was the load-bearing failure mode, not the
     underlying collision sequence. The evidence-tier flag is
@@ -4536,7 +3974,7 @@
       timeline rests on contemporaneous journalism.#cn()
     ],
     [
-      The case is the explicit foil to Case 159 (Waymo). Same
+      The case is the explicit foil to Case 152 (Waymo). Same
       regulatory regime, same delegation problem, opposite
       governance choice. Where Waymo answered an opacity
       objection by engineering a published safety-case
@@ -4580,7 +4018,7 @@
     ),
     after: (
       [Use the CLO *Delegation with revocation*: revocation pathways must be designed and exercisable, and the deploying organization should expect the regulator to exercise them when the disclosure architecture fails.],
-      [Pair the case with Case 159 (Waymo) in any LENS Domain 4 module — the contrast between an engineered legitimacy artifact and partial crisis disclosure is the teaching point, not either case alone.],
+      [Pair the case with Case 152 (Waymo) in any LENS Domain 4 module — the contrast between an engineered legitimacy artifact and partial crisis disclosure is the teaching point, not either case alone.],
       [Carry the journalism-tier flag honestly: the DMV Order is the investigation-grade primary; the internal-timeline reconstructions are journalistic; future validation will improve as Cruise's own post-mortem and any subsequent litigation discovery enter the public record.],
     ),
   ),
@@ -4613,7 +4051,7 @@
     Domain 5 (Emerging Systems and Machine Teaming) for the
     oversight obligations that follow when a system acts
     autonomously after a triggering event. Direct foil to
-    Case 159 (Waymo); pairs with Case 160 (CPUC) on the
+    Case 152 (Waymo); pairs with Case 153 (CPUC) on the
     regulator-side.
   ],
   literature-items: (
@@ -4623,14 +4061,14 @@
   ),
   reflection-list: (
     [Imagine you operate an autonomous system that has just been involved in a safety-relevant event. Design the disclosure decision: what is reported, to whom, on what cadence, with what verification — *before* you have the lawyer's advice on what the disclosure obligation strictly requires. Where does your architecture leave you exposed?],
-    [Compare Cases 159 (Waymo) and 158 (Cruise) as a paired teaching unit. What is the smallest pre-incident artifact a deploying organization could publish that would make the post-incident disclosure architecture credible to a regulator?],
+    [Compare Cases 152 (Waymo) and 158 (Cruise) as a paired teaching unit. What is the smallest pre-incident artifact a deploying organization could publish that would make the post-incident disclosure architecture credible to a regulator?],
     [The case rests partly on journalism-tier reconstruction of internal decisions. What evidence would you want to see — court discovery, the company's full post-mortem, a multi-source corroboration — before treating any specific internal-timeline claim as decision-grade?],
   ),
   courses: ("LEN 4", "LEN 8", "LEN 9"),
 )
 
 #case(
-  number: 76,
+  number: 71,
   slug: "enrollment-algorithm-yield-optimization",
   title: "Enrollment-Algorithm Yield Optimization Across U.S. Higher Education",
   year: "2010s – present (Brookings synthesis 2021)",
@@ -4655,7 +4093,7 @@
     Othot, Whiteboard, Civitas Learning — touching hundreds of
     U.S. institutions. Vendor-reported case studies cite large
     gains in yield or tuition revenue per matriculant. The
-    structural critique is the inversion of Case 119 (Georgia
+    structural critique is the inversion of Case 112 (Georgia
     State, where prediction triggered support): here, the
     algorithm identifies "willingness to pay" so the institution
     can offer the minimum scholarship that will still yield
@@ -4716,9 +4154,9 @@
       cost is the completion gap that grant aid was buying down.#cn()
     ],
     [
-      The case sits as the structural inverse of Case 119 (Georgia
-      State's predictive advising) and pairs with Case 66 (mortgage-
-      lending fairness) and Case 196 (community-college predictive
+      The case sits as the structural inverse of Case 112 (Georgia
+      State's predictive advising) and pairs with Case 61 (mortgage-
+      lending fairness) and Case 188 (community-college predictive
       equity). Georgia State used prediction to trigger support;
       enrollment-management algorithms use prediction to reduce
       the help allocated. Bartlett's lending analysis names the
@@ -4752,7 +4190,7 @@
     "Two-stage architecture: predict enrollment probability per accepted applicant, then optimize aid offer for net tuition or yield",
     "Seven major vendors named: Ruffalo Noel Levitz, EAB, Rapid Insight, Capture Higher Ed, Othot, Whiteboard, Civitas Learning",
     "Vendor-reported case studies: 23% yield gain (Washington), 33% net tuition gain with 6-point discount cut (EAB), 173 added freshmen (Othot)",
-    "Inversion of Case 119 (Georgia State support-trigger) and pair with Cases 66 (Bartlett lending) and 138 (Gándara community college)",
+    "Inversion of Case 112 (Georgia State support-trigger) and pair with Cases 61 (Bartlett lending) and 138 (Gándara community college)",
     "Engler hedges binding: vendor obscurity, algorithmic vs. manual leveraging, no audit of specific protected-class impact; future validation ongoing",
   ),
   approaches: (
@@ -4764,7 +4202,7 @@
     after: (
       [Commission an external audit of the deployed enrollment-management model against protected-class outcomes; the audit Engler says cannot be done from outside the institution is the audit institutions can choose to commission from inside.],
       [Publish the discount-rate-and-completion link as a paired metric; institutions that report only net-tuition gains and not the completion consequences are publishing a partial scorecard.],
-      [Treat the gatekeeping-vs-support inversion as a curricular pattern: pair this case in syllabi with Case 119 so the design choice — which direction the prediction points — is taught as the design choice, not as an institutional default.],
+      [Treat the gatekeeping-vs-support inversion as a curricular pattern: pair this case in syllabi with Case 112 so the design choice — which direction the prediction points — is taught as the design choice, not as an institutional default.],
     ),
   ),
   references: (
@@ -4793,8 +4231,8 @@
     the deployment lacks, and in Domain 3 (Test and Evaluation)
     for the evidence-tier discipline — practice-synthesis is the
     strongest available tier, and the case says so. Pair with
-    Case 119 (Georgia State support-trigger inversion), Case 66
-    (Bartlett lending fairness), and Case 196 (Gándara community-
+    Case 112 (Georgia State support-trigger inversion), Case 61
+    (Bartlett lending fairness), and Case 188 (Gándara community-
     college equity). coi-light render under the title is binding.
   ],
   literature-items: (
@@ -4805,13 +4243,13 @@
   reflection-list: (
     [Identify a deployed prediction system in your domain whose optimization target is named on the institutional side and obscure on the applicant or user side. What is the construct the optimization is built around — and what would change if the construct were named at the point of transaction?],
     [Specify a vendor-disclosure clause you would require as a condition of contracting an enrollment-management or analogous optimization system. What inputs, training data, and objective function would the institution insist on auditing, and which would the vendor be willing to disclose under contract?],
-    [The case sits as the inversion of Case 119 (Georgia State, prediction to trigger support). Pick a prediction system in your domain and ask: in which direction does the prediction point — toward more help or less — and where is that design choice documented?],
+    [The case sits as the inversion of Case 112 (Georgia State, prediction to trigger support). Pick a prediction system in your domain and ask: in which direction does the prediction point — toward more help or less — and where is that design choice documented?],
   ),
   courses: ("LEN 3", "LEN 5", "LEN 8"),
 )
 
 #case(
-  number: 77,
+  number: 72,
   slug: "crisis-point-merit-aid-leveraging-at",
   title: "Crisis Point — Merit-Aid Leveraging at Public Flagships",
   year: "2001 – 2017 (Burd IPEDS analysis); 2024 (Lifting the Veil)",
@@ -4902,7 +4340,7 @@
       2020 report opens: the construct substitution that drove
       the merit-aid arms race was never debated as a policy
       change, and the disclosure architecture that would have
-      surfaced it never existed. The case pairs with Case 76
+      surfaced it never existed. The case pairs with Case 71
       (Engler / enrollment algorithms) as the institutional-
       governance frame to its technical-deployment frame.#cn()
     ],
@@ -4928,7 +4366,7 @@
     "Mechanism: state disinvestment + ranking-driven adoption of private-sector enrollment-management practices at public flagships",
     "Consequence: low-income students at high-merit-aid publics face larger unmet-need gaps; need-based dollars redirected to yield",
     "2024 Lifting the Veil (Harvard Ed Press, Burd ed.): multi-author synthesis — researchers, journalists, industry insiders",
-    "Construct substitution: 'students served' → 'net tuition revenue per matriculant'; never deliberated as policy; pair with Case 76",
+    "Construct substitution: 'students served' → 'net tuition revenue per matriculant'; never deliberated as policy; pair with Case 71",
   ),
   approaches: (
     during: (
@@ -4967,9 +4405,9 @@
     disclosure-architecture lesson — the deliberation that did
     not happen — and in Domain 3 (Test and Evaluation) for the
     evidence-tier discipline binding policy-tier analysis to
-    audit-tier verification. Pair with Case 76 (Engler /
+    audit-tier verification. Pair with Case 71 (Engler /
     enrollment algorithms) as governance frame to technical
-    frame, and with Cases 66 (Bartlett) and 138 (Gándara) for
+    frame, and with Cases 61 (Bartlett) and 138 (Gándara) for
     the construct-choice anchor across deployed prediction
     systems. coi-light render under the title is binding.
   ],
@@ -4987,7 +4425,7 @@
 )
 
 #case(
-  number: 78,
+  number: 73,
   slug: "gao-online-program-manager-oversight",
   title: "GAO Online Program Manager Oversight Gap (GAO-22-104463)",
   year: "2022",
@@ -5080,9 +4518,9 @@
       universities that delegated student recruitment under the
       pre-2024 regime retain the operational dependencies and the
       brand-and-program commitments built during the decade of
-      growth. The pair with Case 79 (USC × 2U Luna class action)
+      growth. The pair with Case 74 (USC × 2U Luna class action)
       shows the consumer-side litigation half of the same
-      delegation; the pair with Case 76 (Engler / enrollment
+      delegation; the pair with Case 71 (Engler / enrollment
       algorithms) shows the pricing-side optimization half.#cn()
     ],
     [
@@ -5108,7 +4546,7 @@
     "GAO 2022: at least 550 colleges, 2,900 programs, OPM revenue-share typically 40–60% of tuition (some 80%) per recruit",
     "Oversight gap: colleges/auditors lacked instructions to detect violations; ED not collecting information needed to oversee arrangements",
     "2024 partial rescission + 2U Chapter 11 closed one boundary; successor OPMs and underlying delegation problem persist",
-    "Investigation-grade delegation-with-revocation case at population scale; pair with Case 79 (USC × 2U Luna) and Case 76 (Engler)",
+    "Investigation-grade delegation-with-revocation case at population scale; pair with Case 74 (USC × 2U Luna) and Case 71 (Engler)",
   ),
   approaches: (
     during: (
@@ -5118,7 +4556,7 @@
     ),
     after: (
       [Carry the investigation-grade audit into the curriculum without softening: the GAO's central finding is that the oversight architecture was not built, and that is the load-bearing teaching point.],
-      [Pair the case with Case 79 (USC × 2U) so the regulator-side audit and the consumer-side litigation are taught together; one half names what the regulator missed, the other names what the delegated marketing actually did.],
+      [Pair the case with Case 74 (USC × 2U) so the regulator-side audit and the consumer-side litigation are taught together; one half names what the regulator missed, the other names what the delegated marketing actually did.],
       [Track post-rescission and post-2U-bankruptcy successor structures as a continuation of the case; the underlying delegation problem persists, and the case's frame is the regime-level oversight gap, not the specific 2U arrangement.],
     ),
   ),
@@ -5147,7 +4585,7 @@
     pattern and in Domain 5 (Machine Teaming and Adaptation) for
     the delegation-with-revocation frame — the contract is
     reversible in principle, locked-in in practice. Pair with
-    Case 79 (USC × 2U Luna, the litigation half) and Case 76
+    Case 74 (USC × 2U Luna, the litigation half) and Case 71
     (Engler / enrollment algorithms, the pricing-optimization
     half). coi-light render under the title is binding.
   ],
@@ -5165,7 +4603,7 @@
 )
 
 #case(
-  number: 79,
+  number: 74,
   slug: "usc-2u-online-msw-when-the-delegation",
   title: "USC × 2U Online MSW — When the Delegation Becomes the Product (Luna v. USC)",
   year: "2010s – 2024",
@@ -5257,11 +4695,11 @@
       under the prior arrangement, and did not produce an
       independent record of what the delegated operations
       actually delivered. The case sits at the consumer-side
-      counterpart to Case 78 (GAO OPM oversight gap): one half
+      counterpart to Case 73 (GAO OPM oversight gap): one half
       is the regulator-side audit of the regime, the other is
       the litigation that names what happened to specific
       applicants and enrollees under the regime. Pair also with
-      Case 76 (Engler / enrollment algorithms) for the pricing-
+      Case 71 (Engler / enrollment algorithms) for the pricing-
       optimization half.#cn()
     ],
     [
@@ -5285,7 +4723,7 @@
     "Luna 2023 complaint: USC marketed online program as 'same' as residential while outsourcing recruiting, advising, clinical placement to 2U",
     "Complaint alleges aggressive targeting of students of color and veterans; usc.edu email cover on OPM-employee operations",
     "Licensure half: clinical-placement quality independently unstudied; downstream what-can-graduates-do question carried as gap",
-    "Partnership terminated 2024; pair with Case 78 (GAO regulator-side) and Case 76 (Engler pricing); journalism-tier flag binding",
+    "Partnership terminated 2024; pair with Case 73 (GAO regulator-side) and Case 71 (Engler pricing); journalism-tier flag binding",
   ),
   approaches: (
     during: (
@@ -5295,7 +4733,7 @@
     ),
     after: (
       [Carry the journalism-tier framing into print without softening; the litigation is ongoing, the targeting reconstruction is allegation-tier, and the case's pedagogical power rests on naming the evidence tier honestly.],
-      [Pair the case in syllabi with Case 78 so the regulator-side and consumer-side halves of the OPM regime are taught together; one half names what the audit missed, the other names what the affected students alleged happened.],
+      [Pair the case in syllabi with Case 73 so the regulator-side and consumer-side halves of the OPM regime are taught together; one half names what the audit missed, the other names what the affected students alleged happened.],
       [Track the licensure-board half over time; an independent study of clinical-placement quality and post-graduation practice capacity is the audit the case names as the missing evidence.],
     ),
   ),
@@ -5303,13 +4741,13 @@
     [_Stephanie Luna v. University of Southern California_, class action complaint, Los Angeles County Superior Court, May 2023.],
     [Higher Ed Dive reporting on the Luna complaint, May 2023; classaction.org and topclassactions.com summaries.],
     [Project on Predatory Student Lending statement on USC-2U partnership termination, 2024.],
-    [2U Inc. and USC public statements on partnership termination, 2024; broader 2U commercial-collapse reporting referenced through Case 78.],
+    [2U Inc. and USC public statements on partnership termination, 2024; broader 2U commercial-collapse reporting referenced through Case 73.],
   ),
   quote: [The tuition tracked residential pricing. The delivered student experience tracked the OPM-operated structure. The gap between what was promised and what was delivered is the case.],
   quote-source: "Editors' synthesis of the Luna v. USC complaint and contemporaneous reporting.",
   le-insight: [
     Luna v. USC is the consumer-side journalism-tier counterpart
-    to GAO-22-104463 (Case 78). The complaint alleges USC
+    to GAO-22-104463 (Case 73). The complaint alleges USC
     marketed the online MSW as the "same" as the residential
     program while outsourcing the student-facing operations to 2U;
     the licensure-board half of the consequence chain is
@@ -5326,15 +4764,15 @@
     Teaming and Adaptation) for the delegation-with-revocation
     pattern — the partnership terminated in 2024, but the
     consequences for students who enrolled under the prior
-    arrangement persist. Pair with Case 78 (GAO regulator-side
-    audit), Case 76 (Engler pricing optimization), and Case 65
+    arrangement persist. Pair with Case 73 (GAO regulator-side
+    audit), Case 71 (Engler pricing optimization), and Case 60
     (Epic Sepsis governance gap). coi-light render under the
     title is binding.
   ],
   literature-items: (
     [_Luna v. USC_ complaint (2023)],
     [Higher Ed Dive and Project on Predatory Student Lending reporting],
-    [GAO-22-104463 — paired regulator-side audit (Case 78)],
+    [GAO-22-104463 — paired regulator-side audit (Case 73)],
   ),
   reflection-list: (
     [Identify a program in your domain where the student-facing surface — recruiting, advising, placement — has been delegated to a contracted vendor operating under institutional brand. What is the disclosure your institution makes to applicants about that delegation, and at what point in the transaction?],
@@ -5345,7 +4783,7 @@
 )
 
 #case(
-  number: 80,
+  number: 75,
   slug: "algorithmic-college-admissions-vendors",
   title: "Algorithmic College Admissions — Vendors' Claims vs. Applicants' Perceptions",
   year: "2025",
@@ -5370,8 +4808,8 @@
     treat them: opacity about the algorithm's existence, distrust
     of its objectives, and anticipated discrimination across
     protected characteristics. The case is the peer-reviewed
-    consent-side companion to Case 76 (Engler / enrollment
-    algorithms) and Case 78 (GAO OPM oversight gap). The
+    consent-side companion to Case 71 (Engler / enrollment
+    algorithms) and Case 73 (GAO OPM oversight gap). The
     authors' own hedge is explicit: 18 interviews is the right
     sample for the speculative-design method but not for
     prevalence claims, and "future validation ongoing" applies
@@ -5425,9 +4863,9 @@
       algorithmic disparate-impact findings.#cn()
     ],
     [
-      The case sits as the consent-side counterpart to Case 76
+      The case sits as the consent-side counterpart to Case 71
       (Engler / Brookings, the deployment-side mapping) and Case
-      78 (GAO-22-104463, the regulator-side audit). Engler
+      73 (GAO-22-104463, the regulator-side audit). Engler
       documents the deployed algorithmic optimization; the GAO
       audit documents the regulatory oversight gap; Pyle and
       Andalibi document what the affected applicants understand
@@ -5435,7 +4873,7 @@
       structural seam: a deployed system about which the
       institutional side, the regulator, and the affected
       population each hold partial and non-overlapping
-      information. The case also pairs with Cases 66 (Bartlett
+      information. The case also pairs with Cases 61 (Bartlett
       lending fairness) and 138 (Gándara community-college equity)
       as the applicant-perception strand of the equity-in-
       deployed-prediction thread.#cn()
@@ -5459,9 +4897,9 @@
   beats: (
     "Pyle & Andalibi CSCW 2025: 18 semi-structured interviews with U.S. university applicants, speculative-design probes",
     "Systematic distance: vendor marketing (efficiency, fairness, fit) vs. applicant perceptions (opacity, distrust, anticipated discrimination)",
-    "Consent-side companion to Case 76 (Engler deployment) and Case 78 (GAO regulator-side); applicants as structurally absent voice",
+    "Consent-side companion to Case 71 (Engler deployment) and Case 73 (GAO regulator-side); applicants as structurally absent voice",
     "Authors' hedge: 18 interviews is right for speculative-design depth, not for prevalence claims; future validation ongoing",
-    "Anchors the applicant-perception strand alongside Cases 66 (Bartlett) and 138 (Gándara) in the equity-in-prediction thread",
+    "Anchors the applicant-perception strand alongside Cases 61 (Bartlett) and 138 (Gándara) in the equity-in-prediction thread",
   ),
   approaches: (
     during: (
@@ -5471,14 +4909,14 @@
     ),
     after: (
       [Commission the prevalence study the speculative-design study cannot perform; the perception patterns the 18-interview study surfaces are testable at survey scale, and the deployment-side institutions are best positioned to commission the survey.],
-      [Pair the consent-side study with the regulator-side audit (Case 78) and the deployment-side mapping (Case 76) in the curriculum; the three cases together name the partial-information structure of the deployment.],
+      [Pair the consent-side study with the regulator-side audit (Case 73) and the deployment-side mapping (Case 71) in the curriculum; the three cases together name the partial-information structure of the deployment.],
       [Track the perception findings over time as the algorithmic-deployment landscape evolves; the case's value as a longitudinal baseline depends on the comparison studies that come next.],
     ),
   ),
   references: (
     [Pyle, C., & Andalibi, N. (2025), "Algorithmic College Admissions in the U.S.: Distances Between Vendors' Claims and Applicants' Perceptions," _Proceedings of the ACM on Human-Computer Interaction_ 9(7), CSCW369, doi:10.1145/3757550.],
-    [Engler (2021), Brookings — paired deployment-side mapping (Case 76).],
-    [GAO-22-104463 (2022) — paired regulator-side audit (Case 78).],
+    [Engler (2021), Brookings — paired deployment-side mapping (Case 71).],
+    [GAO-22-104463 (2022) — paired regulator-side audit (Case 73).],
     [Dunne, A., & Raby, F. (2013), _Speculative Everything_ — methodological backdrop for speculative-design probes.],
   ),
   quote: [Vendors pitch efficiency, fairness, and fit. Applicants name opacity, distrust, and anticipated discrimination. The distance between the two is the case.],
@@ -5490,7 +4928,7 @@
     vendor marketing and applicant perception across three axes;
     the authors' methodological hedge is binding on prevalence
     claims. The case completes the partial-information triangle
-    with Cases 76 (deployment-side) and 180 (regulator-side).
+    with Cases 71 (deployment-side) and 180 (regulator-side).
   ],
   lens-approach: [
     Pyle & Andalibi is the governance-rather-than-technique case
@@ -5498,7 +4936,7 @@
     it in Domain 4 (Navigating Sociotechnical Constraints) for
     the affected-voice inclusion lesson and in Domain 5 (Machine
     Teaming and Adaptation) for the disclosure-architecture
-    design at the applicant interface. Pair with Cases 76
+    design at the applicant interface. Pair with Cases 71
     (Engler deployment), 180 (GAO oversight), 103 (Bartlett),
     and 138 (Gándara). coi-light render under the title is
     binding for cluster placement.
@@ -5517,7 +4955,7 @@
 )
 
 #case(
-  number: 81,
+  number: 76,
   slug: "in-re-2u-securities-class-action",
   title: "In re 2U, Inc. Securities Class Action — When Yield Management Crashes Into Disclosure",
   year: "2019 – 2022",
@@ -5545,10 +4983,10 @@
     Exchange Act. The settlement is not an admission of liability,
     and the case is pedagogically useful for what the disclosure
     architecture failed to do, not for any adjudicated finding of
-    wrongdoing. The case pairs with Case 78 (GAO OPM oversight)
-    and Case 79 (USC × 2U Luna) to complete the regulator-side,
+    wrongdoing. The case pairs with Case 73 (GAO OPM oversight)
+    and Case 74 (USC × 2U Luna) to complete the regulator-side,
     consumer-side, and investor-side triangle around the same
-    delegation structure that Case 76 names at the pricing layer.
+    delegation structure that Case 71 names at the pricing layer.
   ],
   sections: (
     [
@@ -5557,7 +4995,7 @@
       yield mechanics the casebook documents elsewhere. 2U's
       stock price depended on continued growth in program
       partnerships and per-program enrollments; the OPM revenue-
-      share structure documented in Case 78 transmitted
+      share structure documented in Case 73 transmitted
       university enrollment outcomes onto the company's quarterly
       results. When enrollment trends weakened, the disclosure
       question that securities law imposes on a public company
@@ -5593,17 +5031,17 @@
       the structural one. A company whose revenue line is built
       on partner-university enrollments must disclose changes in
       enrollment trajectory under federal securities law; the
-      enrollment-management vendor relationship Case 76 maps
+      enrollment-management vendor relationship Case 71 maps
       operates downstream of the same trajectory the disclosure
       must describe. The class period closes in the same window
-      — late 2019 through 2022 — that the GAO audit (Case 78)
-      and the Luna complaint (Case 79) cover, and the alignment
+      — late 2019 through 2022 — that the GAO audit (Case 73)
+      and the Luna complaint (Case 74) cover, and the alignment
       is not coincidental. Multiple oversight surfaces converged
       on the same delegation structure at the same time.#cn()
     ],
     [
-      The case sits as the investor-side complement to Case 78
-      (regulator-side audit of the OPM regime) and Case 79
+      The case sits as the investor-side complement to Case 73
+      (regulator-side audit of the OPM regime) and Case 74
       (consumer-side litigation by online MSW enrollees against
       USC). Each surface saw the same underlying business
       arrangement from a different vantage. The regulator asked
@@ -5617,7 +5055,7 @@
       the projection signal the operating record was generating.
       The three surfaces together define the disclosure-as-
       governance frame the case anchors. Pair also with Cases
-      76 and 77 (Engler and Burd) for the enrollment-
+      71 and 72 (Engler and Burd) for the enrollment-
       management context this litigation operates inside of.#cn()
     ],
     [
@@ -5631,7 +5069,7 @@
       that a public-company disclosure regime is one of the few
       external oversight mechanisms that operated on the OPM-
       enrollment-management model during its growth window, and
-      that the convergence with Cases 78 and 79 across the
+      that the convergence with Cases 73 and 74 across the
       same calendar window is a structural rather than incidental
       pattern. The coi-light disclosure under the title is
       binding for the affiliation, and the case's editorial
@@ -5645,7 +5083,7 @@
     "Class period Feb 26 2018 – Jul 30 2019; §10(b) and §20(a) allegations on enrollment-projection disclosure to investors",
     "Lead plaintiff Fiyyaz Pirani; co-lead Oklahoma City Employees Retirement System",
     "$37M settlement July 2022; final approval Dec 9 2022; not an admission of liability — case teaches disclosure pattern, not fault",
-    "Investor-side complement to Case 78 (regulator audit) and Case 79 (consumer litigation); pair with Cases 76 and 77",
+    "Investor-side complement to Case 73 (regulator audit) and Case 74 (consumer litigation); pair with Cases 71 and 72",
   ),
   approaches: (
     during: (
@@ -5655,7 +5093,7 @@
     ),
     after: (
       [Carry the case in print with the hedge intact — settlement is not an admission of liability, and the case teaches the disclosure-architecture pattern, not adjudicated wrongdoing.],
-      [Pair in syllabi with Case 78 (GAO audit) and Case 79 (Luna complaint) so the three oversight surfaces are taught together; the pedagogical move is to show how a single delegation structure looked from three vantage points across overlapping windows.],
+      [Pair in syllabi with Case 73 (GAO audit) and Case 74 (Luna complaint) so the three oversight surfaces are taught together; the pedagogical move is to show how a single delegation structure looked from three vantage points across overlapping windows.],
       [Use the case to teach the disclosure-as-governance frame: federal securities law is one of the few external regimes whose disclosure standards apply to the OPM-enrollment-management model, and the standards' application is itself the artifact the case names.],
     ),
   ),
@@ -5663,7 +5101,7 @@
     [In re 2U, Inc. Securities Class Action, Civil Action No. TDC-19-3455 (consolidated with TDC-20-1006), D. Md., before Hon. Theodore D. Chuang; consolidated complaint filed December 2019.],
     [Stipulation of settlement and motion for final approval, In re 2U, Inc. Securities Class Action, July 2022; final approval order, December 9, 2022.],
     [Securities Exchange Act of 1934, §10(b) and §20(a); SEC Rule 10b-5 — the statutory and regulatory basis the complaint sounded in.],
-    [Paired investigation-grade record: U.S. Government Accountability Office, GAO-22-104463 (2022); _Luna v. USC_ class action complaint (2023) — the regulator-side and consumer-side surfaces of the same delegation structure (Cases 78, 79).],
+    [Paired investigation-grade record: U.S. Government Accountability Office, GAO-22-104463 (2022); _Luna v. USC_ class action complaint (2023) — the regulator-side and consumer-side surfaces of the same delegation structure (Cases 73, 74).],
   ),
   quote: [The settlement is not an admission of liability. The case teaches the disclosure-architecture pattern, not adjudicated wrongdoing — and the convergence of three oversight surfaces on the same delegation structure within the same calendar window is the structural diagnostic.],
   quote-source: "Editors' synthesis of the In re 2U class action record (2019 – 2022).",
@@ -5674,7 +5112,7 @@
     enrollment window settled for \$37 million without admission
     of liability. The case teaches the disclosure pattern, not
     adjudicated fault, and completes the regulator-side and
-    consumer-side oversight triangle with Cases 78 and 79 across
+    consumer-side oversight triangle with Cases 73 and 74 across
     the same calendar window.
   ],
   lens-approach: [
@@ -5683,16 +5121,16 @@
     LENS uses it in Domain 4 (Navigating Sociotechnical Constraints)
     for the change-control and disclosure-architecture anchor and
     in Domain 3 (Test and Evaluation) for the convergence-of-
-    oversight-surfaces diagnostic. Pair with Case 78 (GAO
-    regulator-side audit), Case 79 (Luna consumer-side complaint),
-    and Cases 76 and 77 (Engler and Burd, the enrollment-
+    oversight-surfaces diagnostic. Pair with Case 73 (GAO
+    regulator-side audit), Case 74 (Luna consumer-side complaint),
+    and Cases 71 and 72 (Engler and Burd, the enrollment-
     management context). coi-light render under the title is
     binding for the affiliation.
   ],
   literature-items: (
     [In re 2U, Inc. Securities Class Action (D. Md., 2019 – 2022)],
     [Securities Exchange Act §10(b), §20(a); Rule 10b-5],
-    [Paired Cases 78 (GAO-22-104463) and 181 (Luna v. USC)],
+    [Paired Cases 73 (GAO-22-104463) and 181 (Luna v. USC)],
   ),
   reflection-list: (
     [Identify a business arrangement in your domain whose revenue trajectory depends on a delegated operational counterpart. What disclosure surfaces — to investors, regulators, customers, affected populations — currently apply, and which of them are absent in the architecture as built?],
@@ -5703,7 +5141,7 @@
 )
 
 #case(
-  number: 82,
+  number: 77,
   slug: "australia-robodebt",
   title: "Australia Robodebt — Algorithmic Debt-Recovery and the Royal Commission Verdict",
   year: "2016 – 2023",
@@ -5733,9 +5171,9 @@
     not a direct legal finding of individual causation — but the
     finding that multiple deaths were associated with the scheme's
     operation is part of the adjudicated record. The case pairs
-    with Case 69 (SyRI, the governance-objection-correct
-    precedent), Case 74 (Johnson school surveillance, the
-    algorithmic-public-administration parallel), and Case 65
+    with Case 64 (SyRI, the governance-objection-correct
+    precedent), Case 69 (Johnson school surveillance, the
+    algorithmic-public-administration parallel), and Case 60
     (Epic Sepsis, the delegation-without-validation form).
   ],
   sections: (
@@ -5794,17 +5232,17 @@
       bodies.#cn()
     ],
     [
-      The case pairs with Case 69 (SyRI, the Dutch System Risk
+      The case pairs with Case 64 (SyRI, the Dutch System Risk
       Indication ruling by the Hague District Court) as the
       governance-objection-correct precedent — SyRI was struck
       down before it produced a debt-scale harm record;
       Robodebt operated for three years and the harm record is
-      what the Commission adjudicated. Pair with Case 74
+      what the Commission adjudicated. Pair with Case 69
       (Johnson school surveillance) for the algorithmic-public-
       administration parallel at a different population and a
       smaller scale; the structural form — algorithm asserts,
       affected party must disprove — recurs across the two
-      cases. Pair with Case 65 (Epic Sepsis) for the
+      cases. Pair with Case 60 (Epic Sepsis) for the
       delegation-without-validation form: in Epic Sepsis the
       delegated system asserts a clinical risk; in Robodebt the
       delegated system asserts a financial debt; in both, the
@@ -5834,7 +5272,7 @@
     "~470,000 wrongful debts raised 2016–2019; burden of proof reversed onto recipients; agency legal advice flagged the seam and was set aside",
     "Prygodicz 2019 Federal Court judgment found the method unlawful; Royal Commission final report July 7 2023 adjudicated the governance question",
     "Commission attribution on deaths is circumstantial — not individual legal findings of causation; the careful language is part of the record",
-    "Pair with Case 69 (SyRI precedent), Case 74 (Johnson algorithmic public administration), Case 65 (Epic Sepsis delegation without validation)",
+    "Pair with Case 64 (SyRI precedent), Case 69 (Johnson algorithmic public administration), Case 60 (Epic Sepsis delegation without validation)",
   ),
   approaches: (
     during: (
@@ -5844,7 +5282,7 @@
     ),
     after: (
       [Carry the Commission's careful attribution language on deaths into print without softening; the case's load-bearing quality depends on the circumstantial nature of the attribution being preserved alongside the structural finding.],
-      [Pair in syllabi with Case 69 (SyRI) so the governance-objection-correct precedent and the governance-objection-overridden harm record are taught together; the two cases together teach what advance objection can prevent and what its absence can produce.],
+      [Pair in syllabi with Case 64 (SyRI) so the governance-objection-correct precedent and the governance-objection-overridden harm record are taught together; the two cases together teach what advance objection can prevent and what its absence can produce.],
       [Use the case to anchor the human-in-the-loop CLO at population scale; the form Robodebt makes legible is what consequential-decision delegation looks like when the loop is removed and the asserting party operates on arithmetic that cannot establish its assertion.],
     ),
   ),
@@ -5873,9 +5311,9 @@
     for the agency-legal-advice-as-binding-gate discipline and in
     Domain 5 (Machine Teaming and Adaptation) for the human-in-
     the-loop-for-consequential-decisions anchor. Pair with Case
-    69 (SyRI governance-objection-correct precedent), Case 74
+    64 (SyRI governance-objection-correct precedent), Case 69
     (Johnson school surveillance algorithmic-public-administration
-    parallel), and Case 65 (Epic Sepsis delegation-without-
+    parallel), and Case 60 (Epic Sepsis delegation-without-
     validation form). The Commission's circumstantial attribution
     on deaths is the load-bearing hedge.
   ],
@@ -5893,7 +5331,7 @@
 )
 
 #case(
-  number: 83,
+  number: 78,
   slug: "ofqual-a-level-algorithm-2020",
   title: "UK Ofqual A-Level Algorithm — National-Scale Grading Replaced by Algorithm, Withdrawn in Days",
   year: "2020",
@@ -5924,9 +5362,9 @@
     technical report acknowledges that the standardisation goal
     was incompatible with population-level fairness given
     individual-student variance and the dependence of the model
-    on cohort size. The case pairs with Case 196 (Gándara / AERA
-    Open community-college fairness), Case 199 (LiveHint AI bias
-    across foundation models), and Case 74 (Johnson school
+    on cohort size. The case pairs with Case 188 (Gándara / AERA
+    Open community-college fairness), Case 191 (LiveHint AI bias
+    across foundation models), and Case 69 (Johnson school
     surveillance).
   ],
   sections: (
@@ -5987,15 +5425,15 @@
       students in advance of deployment.#cn()
     ],
     [
-      The case pairs with Case 196 (Gándara / community-college
+      The case pairs with Case 188 (Gándara / community-college
       predictive equity in _AERA Open_) at the higher-education
       scale: both cases turn on the question of whether a
       standardisation or prediction mechanism that is statistically
       defensible at the population level can be deployed in a way
       that is defensible at the individual-student level. Pair
-      with Case 199 (LiveHint AI bias across foundation models)
+      with Case 191 (LiveHint AI bias across foundation models)
       for the bias-surfacing thread in education-deployed
-      algorithms. Pair with Case 74 (Johnson school surveillance)
+      algorithms. Pair with Case 69 (Johnson school surveillance)
       for the algorithmic-administration-in-education parallel at
       a different scale. The Ofqual case is unusual in the
       casebook because it is the rare deployment that was
@@ -6027,7 +5465,7 @@
     "~39.1% of teacher-estimated grades downgraded; state-school students in large cohorts downgraded at higher rates than independent-school students in small cohorts",
     "Results released Aug 13 2020; withdrawn Aug 17 2020 after four days of public protest; Centre Assessment Grades substituted",
     "Cohort-size dependence of model is structural; technical report acknowledges incompatibility of standardisation with individual-level fairness",
-    "Pair with Case 196 (Gándara community-college equity), Case 199 (LiveHint bias), Case 74 (Johnson school surveillance)",
+    "Pair with Case 188 (Gándara community-college equity), Case 191 (LiveHint bias), Case 69 (Johnson school surveillance)",
   ),
   approaches: (
     during: (
@@ -6037,7 +5475,7 @@
     ),
     after: (
       [Carry the technical report's hedge — "standardisation incompatible with population-level fairness given individual-student variance" — into print without softening; the case's pedagogical value depends on the internal documentation of the seam being visible alongside the public withdrawal.],
-      [Pair in syllabi with Case 196 (Gándara) so the population-level-versus-individual-level fairness tension is taught at both the secondary-to-higher-education transition scale and the community-college transition scale.],
+      [Pair in syllabi with Case 188 (Gándara) so the population-level-versus-individual-level fairness tension is taught at both the secondary-to-higher-education transition scale and the community-college transition scale.],
       [Use the case as the rare example of an algorithmic deployment withdrawn at national scale within days; the four-day withdrawal arc is the curricular target for governance-response speed under public pressure.],
     ),
   ),
@@ -6067,9 +5505,9 @@
     stakeholders process as the test surface and in Domain 4
     (Navigating Sociotechnical Constraints) for the cohort-size
     dependence as the distributional seam the deployment carried.
-    Pair with Case 196 (Gándara community-college predictive
-    equity), Case 199 (LiveHint AI bias across foundation
-    models), and Case 74 (Johnson school surveillance). The
+    Pair with Case 188 (Gándara community-college predictive
+    equity), Case 191 (LiveHint AI bias across foundation
+    models), and Case 69 (Johnson school surveillance). The
     technical report's acknowledgement of incompatibility is the
     load-bearing hedge.
   ],
@@ -6087,7 +5525,7 @@
 )
 
 #case(
-  number: 84,
+  number: 79,
   slug: "compas-recidivism-prediction",
   title: "COMPAS Recidivism Prediction — Calibration vs. Equal Error Rate",
   year: "2014 – 2018",
@@ -6117,9 +5555,9 @@
     rates of the outcome differ across groups, calibration
     (predictive parity) and equal false-positive and false-
     negative rates cannot be simultaneously satisfied except in
-    degenerate cases. The case pairs with Case 66 (Bartlett
-    mortgage — fairness through unawareness fails), Case 67
-    (Coots — competing fairness definitions), and Case 69
+    degenerate cases. The case pairs with Case 61 (Bartlett
+    mortgage — fairness through unawareness fails), Case 62
+    (Coots — competing fairness definitions), and Case 64
     (SyRI). The impossibility result is the load-bearing
     teaching point.
   ],
@@ -6177,13 +5615,13 @@
       technical one.#cn()
     ],
     [
-      The case pairs with Case 66 (Bartlett mortgage discrimination)
+      The case pairs with Case 61 (Bartlett mortgage discrimination)
       for the fairness-through-unawareness-fails thread: removing
       protected attributes from training data does not eliminate
       disparate-impact concerns when the remaining features carry
-      protected-attribute signal. Pair with Case 67 (Coots) for
+      protected-attribute signal. Pair with Case 62 (Coots) for
       the competing-fairness-definitions thread at a different
-      domain and scale. Pair with Case 69 (SyRI) for the
+      domain and scale. Pair with Case 64 (SyRI) for the
       governance-objection-correct-in-advance complement; in
       COMPAS the objection surfaces in the auditing record, in
       SyRI the objection succeeded in court before population-
@@ -6216,7 +5654,7 @@
     "ProPublica finding: ~2× false-positive rate for Black defendants among non-reoffenders; Northpointe response: predictive parity within risk scores",
     "Both findings correct by their respective definitions; Chouldechova 2017 and Kleinberg/Mullainathan/Raghavan 2017 formalize the impossibility result",
     "Calibration and equal FPR/FNR cannot be simultaneously satisfied when base rates differ across groups except in degenerate cases — binding mathematics",
-    "Pair with Case 66 (Bartlett), Case 67 (Coots), Case 69 (SyRI); central reference for the algorithmic-fairness literature",
+    "Pair with Case 61 (Bartlett), Case 62 (Coots), Case 64 (SyRI); central reference for the algorithmic-fairness literature",
   ),
   approaches: (
     during: (
@@ -6226,7 +5664,7 @@
     ),
     after: (
       [Carry the impossibility result into print as the load-bearing teaching point; the case does not teach that COMPAS is fair or that COMPAS is unfair, and the editorial framing must preserve the formal constraint that both audit findings instantiate.],
-      [Pair in syllabi with Case 66 (Bartlett) so the fairness-through-unawareness-fails thread and the impossibility-of-multiple-criteria thread are taught together as complementary structural arguments about disparate impact.],
+      [Pair in syllabi with Case 61 (Bartlett) so the fairness-through-unawareness-fails thread and the impossibility-of-multiple-criteria thread are taught together as complementary structural arguments about disparate impact.],
       [Use the case to anchor the fairness-beyond-omission CLO; the curricular target is the discipline of choosing and disclosing the fairness criterion when the impossibility result rules out satisfying all of them simultaneously.],
     ),
   ),
@@ -6257,9 +5695,9 @@
     the multi-criterion-audit discipline and in Domain 4
     (Navigating Sociotechnical Constraints) for the
     surfacing-bias-through-governance-not-just-technique anchor.
-    Pair with Case 66 (Bartlett mortgage — fairness through
-    unawareness fails), Case 67 (Coots — competing fairness
-    definitions), and Case 69 (SyRI governance-objection-
+    Pair with Case 61 (Bartlett mortgage — fairness through
+    unawareness fails), Case 62 (Coots — competing fairness
+    definitions), and Case 64 (SyRI governance-objection-
     correct precedent). The impossibility result is the load-
     bearing teaching point; both Northpointe and ProPublica are
     correct by their respective definitions.
@@ -6278,7 +5716,7 @@
 )
 
 #case(
-  number: 85,
+  number: 80,
   slug: "apple-card-algorithmic-gender-disparity",
   title: "Apple Card / Goldman Sachs — When the Lender Cannot Explain Its Own Model",
   year: "2019 – 2021",
@@ -6308,8 +5746,8 @@
     structural problem: Goldman Sachs could not adequately explain
     individual credit decisions to applicants who challenged them.
     DFS required Goldman Sachs to overhaul its customer-service
-    process. The case pairs with Case 66 (Bartlett mortgage),
-    Case 67 (Coots), and Case 196 (Gándara). The DFS finding of
+    process. The case pairs with Case 61 (Bartlett mortgage),
+    Case 62 (Coots), and Case 188 (Gándara). The DFS finding of
     "no violation but lack of transparency" is the load-bearing
     nuance.
   ],
@@ -6366,13 +5804,13 @@
       at the individual-applicant level.#cn()
     ],
     [
-      The case pairs with Case 66 (Bartlett mortgage) for the
+      The case pairs with Case 61 (Bartlett mortgage) for the
       consumer-credit-fairness thread at adjacent scale and
-      regulatory regime. Pair with Case 67 (Coots) for the
+      regulatory regime. Pair with Case 62 (Coots) for the
       competing-fairness-definitions thread; the DFS standard is
       one of several available standards, and the case teaches
       that "no violation under a specific statutory standard" is
-      not "fair." Pair with Case 196 (Gándara) for the
+      not "fair." Pair with Case 188 (Gándara) for the
       explainability-of-individual-predictions thread at a
       different population and scale. The case is unusual in the
       casebook for the speed of regulatory response — DFS opened
@@ -6414,7 +5852,7 @@
     ),
     after: (
       [Carry the precise DFS finding into print without softening; "no violation under the applicable statutory standard, but lack of transparency as the structural problem" is the load-bearing nuance and the case's pedagogical value depends on the nuance being preserved.],
-      [Pair in syllabi with Case 66 (Bartlett) so the consumer-credit-fairness regulatory architecture is taught at both the mortgage and credit-card scales.],
+      [Pair in syllabi with Case 61 (Bartlett) so the consumer-credit-fairness regulatory architecture is taught at both the mortgage and credit-card scales.],
       [Use the case as the anchor for the explainability-as-governance frame at consumer-credit scale; the curricular target is the appeal-and-explanation infrastructure that converts an algorithmic decision into a contestable one.],
     ),
   ),
@@ -6445,16 +5883,16 @@
     Constraints) for the appeal-and-explanation-infrastructure
     discipline and in Domain 5 (Machine Teaming and Adaptation)
     for the human-in-the-loop-for-consequential-decisions anchor
-    at the appeal seam. Pair with Case 66 (Bartlett mortgage),
-    Case 67 (Coots competing fairness definitions), and Case
-    196 (Gándara explainability of individual predictions). The
+    at the appeal seam. Pair with Case 61 (Bartlett mortgage),
+    Case 62 (Coots competing fairness definitions), and Case
+    188 (Gándara explainability of individual predictions). The
     precise DFS finding — "no violation but lack of transparency"
     — is the load-bearing hedge.
   ],
   literature-items: (
     [NY DFS, _Report on Apple Card Investigation_ (March 2021)],
     [Heinemeier Hansson Twitter thread (Nov 7 2019); contemporaneous press coverage],
-    [Paired Case 66 (Bartlett mortgage) consumer-credit-fairness architecture],
+    [Paired Case 61 (Bartlett mortgage) consumer-credit-fairness architecture],
   ),
   reflection-list: (
     [Identify a consequential-decision system in your domain whose individual-applicant explanation infrastructure has not been built. What is the customer-service escalation path when an affected person challenges a decision, and what would the path look like with an appeal-and-explanation seam built into the deployment?],
@@ -6465,7 +5903,7 @@
 )
 
 #case(
-  number: 86,
+  number: 81,
   slug: "amazon-hiring-ai-deprecated",
   title: "Amazon Hiring AI — Trained Bias, Deprecated 2018",
   year: "2014 – 2018",
@@ -6557,14 +5995,14 @@
       investigation.#cn()
     ],
     [
-      The case pairs with Case 66 (Bartlett mortgage) for the
+      The case pairs with Case 61 (Bartlett mortgage) for the
       fairness-through-unawareness-fails thread: removing the
       gender feature from the training data does not eliminate
       the gender signal when the remaining features carry
-      correlated signal. Pair with Case 74 (Johnson school
+      correlated signal. Pair with Case 69 (Johnson school
       surveillance) for the algorithmic-employment-and-
       surveillance-decisions parallel at a different population.
-      Pair with Case 199 (LiveHint AI bias across foundation
+      Pair with Case 191 (LiveHint AI bias across foundation
       models) for the trained-bias-in-foundation-models thread
       at contemporary scale. The Amazon case is unusual in that
       the project was deprecated rather than deployed; most
@@ -6610,7 +6048,7 @@
     ),
     after: (
       [Carry the journalism-tier evidence-flag under the title without softening; the case rests on single-source reporting and the future-validation-ongoing language is binding for the specific technical detail.],
-      [Pair in syllabi with Case 66 (Bartlett) so the fairness-through-unawareness-fails thread is taught at adjacent scales and in adjacent decision domains.],
+      [Pair in syllabi with Case 61 (Bartlett) so the fairness-through-unawareness-fails thread is taught at adjacent scales and in adjacent decision domains.],
       [Use the case to anchor the construct-choice CLO; the curricular target is the discipline of refusing to deploy when the historical record from which the model would be learned does not defensibly support the prediction the deployment requires.],
     ),
   ),
@@ -6640,8 +6078,8 @@
     for the irreducibility-verification-as-deployment-gate
     discipline and in Domain 3 (Test and Evaluation) for the
     construct-validity-at-the-training-data-layer anchor. Pair
-    with Case 66 (Bartlett mortgage), Case 74 (Johnson school
-    surveillance), and Case 199 (LiveHint AI bias across
+    with Case 61 (Bartlett mortgage), Case 69 (Johnson school
+    surveillance), and Case 191 (LiveHint AI bias across
     foundation models). The journalism-tier evidence-flag is
     binding; the structural teaching point is the case's
     curricular value.
@@ -6660,7 +6098,7 @@
 )
 
 #case(
-  number: 87,
+  number: 82,
   slug: "air-canada-chatbot-liability",
   title: "Air Canada Chatbot Liability — Delegation Without Revocation",
   year: "2022 – 2024",
@@ -6693,8 +6131,8 @@
     for representations made by its chatbot. The ruling has
     limited precedential weight outside BC but has been cited
     widely as articulating the delegation-without-revocation
-    principle. The case pairs with Case 65 (Epic Sepsis), Case
-    73 (Watson for Oncology), and Case 182 (Hybrid Human-AI
+    principle. The case pairs with Case 60 (Epic Sepsis), Case
+    68 (Watson for Oncology), and Case 175 (Hybrid Human-AI
     Tutoring).
   ],
   sections: (
@@ -6755,15 +6193,15 @@
       finding.#cn()
     ],
     [
-      The case pairs with Case 65 (Epic Sepsis) for the
+      The case pairs with Case 60 (Epic Sepsis) for the
       delegation-without-validation thread in healthcare AI; the
       structural form is the same — the organization deploys an
       AI agent that produces representations or assertions
       consequential for the affected person, and the
       organization's accountability for the agent's outputs is
-      the load-bearing governance question. Pair with Case 73
+      the load-bearing governance question. Pair with Case 68
       (Watson for Oncology) for the AI-agent-recommendations-in-
-      practice thread. Pair with Case 182 (Hybrid Human-AI
+      practice thread. Pair with Case 175 (Hybrid Human-AI
       Tutoring) for the educational-AI-agent thread at adjacent
       scale. The Air Canada ruling is a small-claims-tribunal
       decision with limited precedential weight outside BC, but
@@ -6807,7 +6245,7 @@
     ),
     after: (
       [Carry the precedential-weight hedge into print without softening; the ruling is a small-claims-tribunal decision and the precedential limits are part of what the case teaches alongside the structural form it names.],
-      [Pair in syllabi with Case 65 (Epic Sepsis) so the delegation-without-validation form is taught at both the healthcare and the customer-interaction-agent scales.],
+      [Pair in syllabi with Case 60 (Epic Sepsis) so the delegation-without-validation form is taught at both the healthcare and the customer-interaction-agent scales.],
       [Use the case to anchor the human-in-the-loop CLO at the customer-interaction-AI-agent seam; the curricular target is the discipline of treating the agent's outputs as the organization's representations, and of building the deployment architecture to that constraint.],
     ),
   ),
@@ -6836,8 +6274,8 @@
     CLO-5 and CLO-4). LENS uses it in Domain 5 (Machine
     Teaming and Adaptation) for the
     organization-is-liable-for-agent-representations principle.
-    Pair with Case 65 (Epic Sepsis delegation-without-
-    validation), Case 73 (Watson for Oncology), and Case 182
+    Pair with Case 60 (Epic Sepsis delegation-without-
+    validation), Case 68 (Watson for Oncology), and Case 175
     (Hybrid Human-AI Tutoring). The small-claims-tribunal
     venue limits precedential weight; the structural reading is
     the load-bearing one.
@@ -6845,7 +6283,7 @@
   literature-items: (
     [_Moffatt v. Air Canada_, 2024 BCCRT 149 (Feb 14 2024)],
     [Solaiman (2024), _CLSR_ — generative AI and law of agency synthesis],
-    [Paired Case 65 (Epic Sepsis) delegation-without-validation form],
+    [Paired Case 60 (Epic Sepsis) delegation-without-validation form],
   ),
   reflection-list: (
     [Identify a customer-interaction AI agent in your domain whose outputs have not been integrity-checked against the organization's policy text. What divergence between agent representation and policy text would produce a Moffatt-style reliance harm, and what mechanism would close the divergence?],
@@ -6856,7 +6294,7 @@
 )
 
 #case(
-  number: 88,
+  number: 83,
   slug: "wisconsin-dews-merged",
   title: "Wisconsin DEWS — A Decade of Algorithmic Dropout Prediction",
   year: "2012 – 2024",
@@ -6888,9 +6326,9 @@
     agency continued to operate it unchanged. The Markup's
     2023 investigation by Todd Feathers documented the
     disparate-impact finding and the agency's response. Both
-    findings are load-bearing. The case pairs with Case 74
-    (Johnson school surveillance), Case 196 (Gándara
-    community-college predictive equity), and Case 108 (Purdue
+    findings are load-bearing. The case pairs with Case 69
+    (Johnson school surveillance), Case 188 (Gándara
+    community-college predictive equity), and Case 101 (Purdue
     Course Signals — reverse causality). This case carries both
     the peer-reviewed and journalism-investigation evidence
     streams in one entry rather than parallel ones.
@@ -6961,14 +6399,14 @@
       structural problems with it.#cn()
     ],
     [
-      The case pairs with Case 74 (Johnson school surveillance)
+      The case pairs with Case 69 (Johnson school surveillance)
       for the algorithmic-public-administration-in-education
       parallel; both cases involve administrative-data
       predictions deployed against student populations and both
       surface disparate-impact concerns at the deployment
-      surface. Pair with Case 196 (Gándara community-college
+      surface. Pair with Case 188 (Gándara community-college
       predictive equity) for the predictive-equity-in-education
-      thread at adjacent population scale. Pair with Case 108
+      thread at adjacent population scale. Pair with Case 101
       (Purdue Course Signals) for the reverse-causality and
       null-effect thread in education predictive analytics; the
       Purdue case named the same conceptual problem that the
@@ -7008,7 +6446,7 @@
     "Perdomo, Britton, Hardt, Abebe FAccT 2025 RDD on ~10 years of data: cannot rule out zero treatment effect of being above DEWS threshold on graduation",
     "Wisconsin DPI 2021 internal equity audit \"Is DEWS Fair?\": less accurate for Black, Hispanic, English-learner students; agency continued unchanged",
     "The Markup 2023 investigation (Feathers) documented disparate-impact finding and agency response",
-    "Both streams load-bearing; pair with Case 74 (Johnson), Case 196 (Gándara), Case 108 (Purdue Course Signals reverse causality)",
+    "Both streams load-bearing; pair with Case 69 (Johnson), Case 188 (Gándara), Case 101 (Purdue Course Signals reverse causality)",
   ),
   approaches: (
     during: (
@@ -7018,7 +6456,7 @@
     ),
     after: (
       [Carry both evidence streams into print as load-bearing and complementary; the case's pedagogical value depends on the peer-reviewed null and the agency-audit disparate-impact finding traveling together rather than being separated into parallel entries.],
-      [Pair in syllabi with Case 74 (Johnson) and Case 108 (Purdue) so the algorithmic-public-administration-in-education and reverse-causality threads are taught alongside the multi-year-deployment-with-null-causal-effect finding.],
+      [Pair in syllabi with Case 69 (Johnson) and Case 101 (Purdue) so the algorithmic-public-administration-in-education and reverse-causality threads are taught alongside the multi-year-deployment-with-null-causal-effect finding.],
       [Use the case as the anchor for the designing-predictions-to-trigger-support CLO; the curricular target is the multi-year deployment record that demonstrates the gap between the prediction's operational theory and the evidence the deployment produces.],
     ),
   ),
@@ -7048,9 +6486,9 @@
     Domain 3 (Test and Evaluation) for the causal-inference-
     on-multi-year-deployment discipline and in Domain 4
     (Navigating Sociotechnical Constraints) for the equity-
-    audit-as-binding-input anchor. Pair with Case 74 (Johnson
-    school surveillance), Case 196 (Gándara community-college
-    predictive equity), and Case 108 (Purdue Course Signals
+    audit-as-binding-input anchor. Pair with Case 69 (Johnson
+    school surveillance), Case 188 (Gándara community-college
+    predictive equity), and Case 101 (Purdue Course Signals
     reverse causality). Both the peer-reviewed null and the
     journalism-and-agency-audit disparate-impact finding are
     load-bearing.

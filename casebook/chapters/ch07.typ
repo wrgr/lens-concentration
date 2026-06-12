@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 100,
+  number: 93,
   slug: "medical-errors-as-systemic-failure",
   title: "Medical Errors as Systemic Failure",
   year: "1999 – present",
@@ -50,8 +50,8 @@
     Safety_, 2017; Carr in _Health Affairs_), a dispute that is itself a
     worked example of the gap-attribution problem. The field's
     25-year arc shows bounded interventions that work — computerized
-    order entry, handoff protocols, the WHO surgical checklist (Case 111),
-    the Keystone ICU project (Case 112), TeamSTEPPS (Case 117) — alongside
+    order entry, handoff protocols, the WHO surgical checklist (Case 104),
+    the Keystone ICU project (Case 105), TeamSTEPPS (Case 110) — alongside
     a population-scale mortality count that has resisted both
     intervention and precise estimation.
   ],
@@ -127,8 +127,8 @@
       effective interventions struggle to prove their worth at
       population scale. The bounded interventions that have worked —
       computerized physician order entry, structured handoff protocols
-      (I-PASS), the WHO Surgical Checklist (Case 111), the Keystone ICU
-      central-line bundle (Case 112), TeamSTEPPS (Case 117) — each move a
+      (I-PASS), the WHO Surgical Checklist (Case 104), the Keystone ICU
+      central-line bundle (Case 105), TeamSTEPPS (Case 110) — each move a
       specific harm in a specific setting, and each can prove it. What
       none can prove is movement on the population count, because the
       population count does not exist in a form precise enough to be
@@ -182,7 +182,7 @@
     because of its scale, its provenance (Johns Hopkins), and its
     framing — system failure rather than individual error. The seventeen
     years between *To Err Is Human* and Makary's reassessment is also
-    the implementation gap of Case 92 in another guise — and the cost of
+    the implementation gap of Case 87 in another guise — and the cost of
     leaving it open is measured in lives at population scale.
   ],
   lens-approach: [
@@ -196,9 +196,9 @@
     problem statement of the program and in Domain 4 (Navigating
     Sociotechnical Constraints) for industry-level institution
     building. The 25-year arc pairs the case with the WHO Surgical
-    Checklist (Case 111), Keystone ICU (Case 112), and TeamSTEPPS
-    (Case 117) as the bounded interventions that worked; pair with
-    Vioxx (Case 105) at the population-scale-surveillance layer.
+    Checklist (Case 104), Keystone ICU (Case 105), and TeamSTEPPS
+    (Case 110) as the bounded interventions that worked; pair with
+    Vioxx (Case 98) at the population-scale-surveillance layer.
   ],
   literature-items: (
     [Makary & Daniel (2016), BMJ],
@@ -226,7 +226,7 @@
 )
 
 #case(
-  number: 101,
+  number: 94,
   slug: "libor-manipulation",
   title: "LIBOR Manipulation",
   year: "2003 – 2012",
@@ -344,7 +344,7 @@
     LENS uses LIBOR in LEN 4 as the canonical measurement-architecture
     case at financial-system scale and in LEN 7 for the cross-
     jurisdictional governance reform that produced SOFR. The case
-    pairs with Wells Fargo (Case 57) and Volkswagen (Case 58) as
+    pairs with Wells Fargo (Case 54) and Volkswagen (Case 55) as
     measurement-gaming cases.
   ],
   literature-items: (
@@ -374,7 +374,7 @@
 )
 
 #case(
-  number: 102,
+  number: 95,
   slug: "atlanta-public-schools-cheating-scandal",
   title: "Atlanta Public Schools Cheating Scandal",
   year: "2009 – 2015",
@@ -520,7 +520,7 @@
 )
 
 #case(
-  number: 103,
+  number: 96,
   slug: "bernard-madoff-sec-failures",
   title: "Bernard Madoff / SEC Failures",
   year: "1992 – 2008",
@@ -605,7 +605,7 @@
       pipeline — getting the tip in, getting it to someone who could read it,
       and having someone who could — so that a future Markopolos memo would
       meet an evaluator able to test it. Madoff is paired with Theranos
-      (Case 56) as a case in which a regulator lacked the technical
+      (Case 53) as a case in which a regulator lacked the technical
       capability to challenge the evidence in front of it.#cn()
     ],
   ),
@@ -635,7 +635,7 @@
   lens-approach: [
     LENS uses Madoff in LEN 4 for technical-evidence evaluation and
     in LEN 7 for regulator-capability deliverables. The case pairs
-    with Theranos (Case 56) as cases where regulators lacked the
+    with Theranos (Case 53) as cases where regulators lacked the
     technical depth to challenge the evidence presented to them.
   ],
   literature-items: (
@@ -666,7 +666,7 @@
 )
 
 #case(
-  number: 104,
+  number: 97,
   slug: "9-11-intelligence-sharing-failures",
   title: "9/11 Intelligence Sharing Failures",
   year: "1996 – 2001",
@@ -814,7 +814,7 @@
 )
 
 #case(
-  number: 105,
+  number: 98,
   slug: "vioxx-withdrawal",
   title: "Vioxx Withdrawal",
   year: "1999 – 2004",
@@ -989,7 +989,7 @@
     surveillance as a capability deliverable. The signal existed; the
     institutional architecture to aggregate it did not. The reform
     pattern — Sentinel — built the architecture. The case is the
-    drug-industry analog of the EHR case (Case 36): a measurement
+    drug-industry analog of the EHR case (Case 35): a measurement
     architecture too thin for the system that depended on it.
   ],
   lens-approach: [
@@ -1001,11 +1001,11 @@
     (Machine Teaming and Adaptation; CLO-5) for the change-control
     and disclosure architecture between manufacturer, regulator, and
     prescriber that determines whether ambiguous safety signals reach
-    a decision boundary. Pair with Radiology AI (Case 190) as the
+    a decision boundary. Pair with Radiology AI (Case 182) as the
     post-market-surveillance failure pattern at a new technological
-    boundary; pair with EHR/CPOE (Case 36) at the
+    boundary; pair with EHR/CPOE (Case 35) at the
     measurement-architecture-too-thin layer; pair with Medical Errors
-    and IOM (Case 100) at the population-scale-instrument layer.
+    and IOM (Case 93) at the population-scale-instrument layer.
   ],
   literature-items: (
     [Graham et al. (2005), _Lancet_],
@@ -1033,7 +1033,7 @@
 )
 
 #case(
-  number: 106,
+  number: 99,
   slug: "kirkpatrick-chain-of-evidence-where",
   title: "The Kirkpatrick Chain of Evidence — Where Corporate L&D Stops",
   year: "1959 – present",
@@ -1066,7 +1066,7 @@
     structurally sub-decision-grade. The evidence base is
     practice-synthesis: Devlin Peck, D2L, Valamis, and related
     evaluation-practice guides documenting the stop-at-L2 pattern,
-    plus the Blume meta-analysis (Case 107) for the transfer half of
+    plus the Blume meta-analysis (Case 100) for the transfer half of
     the chain. The evidence-tier flag is rendered under the title;
     future validation will continue as the corporate-L&D evaluation
     literature consolidates.
@@ -1097,7 +1097,7 @@
     [
       The consequence is a field that spends heavily on training —
       US organizations reported >\$125B/year on workplace training,
-      per the ASTD figure cited in Blume et al. (Case 107) — while
+      per the ASTD figure cited in Blume et al. (Case 100) — while
       measuring mostly the variable that flatters the program.
       Satisfaction scores do not predict on-job performance;
       knowledge retention measured immediately after training does
@@ -1122,7 +1122,7 @@
       practitioner consensus is durable.#cn()
     ],
     [
-      What the case teaches in pair with Blume (Case 107) is the
+      What the case teaches in pair with Blume (Case 100) is the
       structural form of the enthusiasm-evidence gap at corporate
       scale, and it is the case-grounded basis for the revised
       "decision-grade evidence" framing proposed in
@@ -1144,7 +1144,7 @@
     "Practice-literature synthesis: most organizations stop at Levels 1–2; Levels 3 and 4 require data the training org typically can't access",
     "US corporate-training market sized >\$125B/year per ASTD; measurement concentrated on variable that flatters the program",
     "Evidence-tier flag: practice-synthesis, not single peer-reviewed study; pattern is consistent, magnitudes still consolidating",
-    "Capability deliverable is an evaluation architecture that crosses the Level-2/Level-3 seam; pair with Blume (Case 107) for transfer",
+    "Capability deliverable is an evaluation architecture that crosses the Level-2/Level-3 seam; pair with Blume (Case 100) for transfer",
   ),
   approaches: (
     during: (
@@ -1154,7 +1154,7 @@
     ),
     after: (
       [When Level 3 and Level 4 data are not available, say so plainly in the evaluation report rather than substituting Level 2 metrics; the CLO *Judgment under inadequate evidence* is what the practitioner needs to do well here.],
-      [Track the work environment as a separate variable — Blume's meta-analysis (Case 107) names it as decisive — and report the training outcome conditional on environment, not as a property of the training alone.],
+      [Track the work environment as a separate variable — Blume's meta-analysis (Case 100) names it as decisive — and report the training outcome conditional on environment, not as a property of the training alone.],
       [Use the structural pattern to argue for the evaluation architecture investment, not to abandon evaluation. The gap is a capability gap, not an argument against measurement.],
     ),
   ),
@@ -1185,7 +1185,7 @@
     on structurally sub-decision-grade evidence — and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
     Level-2/Level-3 seam that the training organization
-    cannot cross alone. Direct pair with Case 107 (Blume
+    cannot cross alone. Direct pair with Case 100 (Blume
     transfer meta-analysis) for the workplace-environment
     half of the chain.
   ],
@@ -1203,7 +1203,7 @@
 )
 
 #case(
-  number: 107,
+  number: 100,
   slug: "training-transfer-the-gap-between",
   title: "Training Transfer — The Gap Between Learning and Doing",
   year: "2010",
@@ -1233,7 +1233,7 @@
     note that organizations frequently see limited return because
     learning fails to transfer to the workplace. The case is the
     paired peer-reviewed half of the corporate-L&D pair with
-    Kirkpatrick (Case 106): together they close the gap the v1
+    Kirkpatrick (Case 99): together they close the gap the v1
     corpus had open at the workforce-L&D layer, and they motivate
     the LENS framing that the human is the biggest variable at the
     interface — here, the return-to-work interface.
@@ -1243,7 +1243,7 @@
       Training transfer is the structural question corporate L&D
       sits inside: does what learners did in training produce
       observable change on the job, and what predicts whether it
-      does? The Kirkpatrick chain of evidence (Case 106) frames the
+      does? The Kirkpatrick chain of evidence (Case 99) frames the
       question; the Blume et al. meta-analysis is the strongest
       single peer-reviewed answer the field has consolidated.#cn()
     ],
@@ -1280,7 +1280,7 @@
       behavior. The human is the biggest variable at the
       interface, and the interface is the return-to-work
       boundary. Training that ignores this boundary is training
-      that delivers Level 2 evidence (Kirkpatrick, Case 106) and
+      that delivers Level 2 evidence (Kirkpatrick, Case 99) and
       does not deliver Level 3 capability.#cn()
     ],
     [
@@ -1302,7 +1302,7 @@
     "Transfer positively related to cognitive ability, conscientiousness, motivation, and work environment",
     "Work environment (supervisor + peer support) among strongest predictors and the decisive system-layer variable",
     "Load-bearing hedge: 'inconsistent measurement of transfer and significant variability in findings' — preserved in case",
-    "Pair with Kirkpatrick (Case 106) — together they close the corporate-L&D gap and motivate the return-to-work interface",
+    "Pair with Kirkpatrick (Case 99) — together they close the corporate-L&D gap and motivate the return-to-work interface",
   ),
   approaches: (
     during: (
@@ -1320,7 +1320,7 @@
     [Blume, Ford, Baldwin, & Huang (2010), "Transfer of Training: A Meta-Analytic Review," _Journal of Management_ 36(4):1065–1105, doi:10.1177/0149206309352880.],
     [Baldwin & Ford (1988), "Transfer of Training: A Review and Directions for Future Research," _Personnel Psychology_ 41(1):63–105 — the foundational synthesis the 2010 meta-analysis updates.],
     [Burke & Hutchins (2007), "Training Transfer: An Integrative Literature Review," _Human Resource Development Review_ 6(3):263–296 — the integrative-review companion synthesis.],
-    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the framework the meta-analysis informs (paired Case 106).],
+    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the framework the meta-analysis informs (paired Case 99).],
   ),
   quote: [The training event is not the capability deliverable. The transfer is. And the decisive variable at transfer is the work environment.],
   quote-source: "Editors' synthesis of Blume et al. (2010).",
@@ -1343,7 +1343,7 @@
     CLO *Judgment under inadequate evidence* — the
     meta-analysis is the strongest synthesis the field has,
     and it explicitly names what it cannot settle. Direct
-    pair with Case 106 (Kirkpatrick); together they close
+    pair with Case 99 (Kirkpatrick); together they close
     the corporate-L&D gap the v1 corpus had open.
   ],
   literature-items: (
@@ -1360,7 +1360,7 @@
 )
 
 #case(
-  number: 108,
+  number: 101,
   slug: "purdue-course-signals-the-reverse",
   title: "Purdue Course Signals — The Reverse-Causality Retention Claim",
   year: "2012 – 2013",
@@ -1392,7 +1392,7 @@
     became one of the most-referenced learning-analytics studies of
     its era — which is itself the cautionary point about the field's
     evidence architecture. The case is the small-tier methodological
-    companion to v1 Cases 54 (educational predictive-analytics bias)
+    companion to v1 Cases 51 (educational predictive-analytics bias)
     and 39 (Georgia State predictive analytics).
   ],
   sections: (
@@ -1453,7 +1453,7 @@
       with a design the institution can deceive itself with.#cn()
     ],
     [
-      Drafted as a deeper-evidence-of v1 Cases 54 and 119, the
+      Drafted as a deeper-evidence-of v1 Cases 51 and 112, the
       Purdue case carries a named methodological failure into the
       corpus's predictive-analytics conversation. The cautionary
       thread runs through three places at once: the original
@@ -1465,7 +1465,7 @@
       network. The case teaches the evidence-architecture failure
       mode that the LENS Iterative Development domain and the
       Navigating Sociotechnical Constraints domain both have to
-      protect against — and that v1 Cases 54 and 119 anchor at the
+      protect against — and that v1 Cases 51 and 112 anchor at the
       bias and the institutional-deployment layers respectively.
     ],
   ),
@@ -1474,7 +1474,7 @@
     "Caulfield 2013 (_e-Literate_, _Inside Higher Ed_) — identifies dose–response curve as reverse-causality artifact: persistence enables more Signals classes, not the reverse",
     "Essa simulation — substituting 'received a piece of chocolate' for 'took a Signals class' reproduces the apparent retention gain",
     "Original study never peer-reviewed outside conference proceedings yet became one of the most-referenced learning-analytics studies",
-    "Deeper-evidence-of v1 Cases 54 (predictive-analytics bias) and 39 (Georgia State); a named methodological failure distinct from the bias finding",
+    "Deeper-evidence-of v1 Cases 51 (predictive-analytics bias) and 39 (Georgia State); a named methodological failure distinct from the bias finding",
   ),
   approaches: (
     during: (
@@ -1514,7 +1514,7 @@
     (Navigating Sociotechnical Constraints) for the
     citation-practice failure mode in which a headline outcome
     outpaces the evidence it rests on. Deeper-evidence-of v1
-    Cases 54 (predictive-analytics bias) and 39 (Georgia State
+    Cases 51 (predictive-analytics bias) and 39 (Georgia State
     predictive analytics) — distinct because this is a named
     methodological-validity failure, not a bias finding.
   ],
@@ -1532,7 +1532,7 @@
 )
 
 #case(
-  number: 109,
+  number: 102,
   slug: "growth-mindset-national-experiment",
   title: "Growth-Mindset National Experiment — Heterogeneous Effects",
   year: "2019",
@@ -1566,7 +1566,7 @@
     finding rather than as a nuisance. The intervention is not
     universally effective; naming where it does and does not work
     is the contribution. The "conditional on peer norms" language
-    survives verbatim into the case. Pair with Case 196 (Gándara)
+    survives verbatim into the case. Pair with Case 188 (Gándara)
     at the scalable-equity-intervention layer.
   ],
   sections: (
@@ -1632,7 +1632,7 @@
       defensible.#cn()
     ],
     [
-      Drafted alongside Case 196 (Gándara) at the
+      Drafted alongside Case 188 (Gándara) at the
       scalable-equity-intervention layer, the case carries the
       design-predictions-to-trigger-support pattern (induced 8.3,
       LENS D2/PT5). The intervention targets the students who
@@ -1654,7 +1654,7 @@
     "Yeager et al. _Nature_ 2019 — nationally representative RCT of US 9th-graders; less-than-1-hour online module; pre-registered moderator analysis",
     "Headline outcome: improved grades among lower-achieving students; increased advanced-math enrollment relative to active control",
     "Conditional preserved verbatim: 'effect was conditional on peer norms' — intervention changed grades only where peer norms aligned with the intervention's message",
-    "Methodological importance: treatment-effect heterogeneity as the finding, not as a nuisance; pair with Case 196 (Gándara) at the scalable-equity-intervention layer",
+    "Methodological importance: treatment-effect heterogeneity as the finding, not as a nuisance; pair with Case 188 (Gándara) at the scalable-equity-intervention layer",
   ),
   approaches: (
     during: (
@@ -1691,7 +1691,7 @@
     support case (induced 8.3; LENS D2/PT5) — Domain 2 for
     pre-registered moderator analysis; Domain 4 for the
     equity-relevant commitment to target support to those who
-    benefit. Pair with Case 196 (Gándara).
+    benefit. Pair with Case 188 (Gándara).
   ],
   literature-items: (
     [Yeager et al. (2019), _Nature_],

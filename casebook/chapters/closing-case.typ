@@ -1,11 +1,13 @@
 // ============================================================================
-// CLOSING CASE — Case 202, "The Discipline We Build Next"
+// CLOSING CASE — "The Discipline We Build Next"
 // ============================================================================
-// The case about LENS itself. Per editor direction, this case is the closing
-// case of the book — included after all v1 and v2 case content, immediately
-// before the back matter, in book.typ, overview.typ, and overview-half.typ.
-// The case's source number remains 100 (stable identifier) regardless of its
-// position in the rendered book.
+// The case about LENS itself. Per editor direction, this is the closing case
+// of the book — included after all v1 and v2 case content, immediately before
+// the back matter, in book.typ, overview.typ, and overview-half.typ. It always
+// carries the last appearance number (the slug "discipline-we-build-next" is
+// the stable identifier across renumbering). The fit audit flags it as framing
+// rather than an analyzable case; its prose is kept count-agnostic so it reads
+// correctly regardless of the corpus size.
 
 #import "../lib/theme.typ": *
 #import "../lib/chapter.typ": chapter-divider
@@ -14,7 +16,7 @@
 #import "../lib/diagrams.typ" as dgm
 
 #case(
-  number: 202,
+  number: 194,
   slug: "discipline-we-build-next",
   title: "The Discipline We Build Next",
   year: "ongoing",
@@ -22,14 +24,14 @@
   modes-code: "TKNGHD",
   impact: "Open: the case that has not yet been written. The discipline that this casebook documents is the one practitioners now in training must build.",
   diagram: dgm.dgm-stat(
-    "100th",
-    "case · open",
+    "Open",
+    "the unwritten case",
     micro: "what the practitioners reading this volume do next is what fills it in",
     caption: "The case that has not yet been written",
   ),
   kind: "frontier",
   summary: [
-    The ninety-nine cases that precede this one are closed: the
+    The cases that precede this one are closed: the
     investigations are complete, the failures diagnosed, the interventions
     evaluated. This one is open. It belongs to the practitioners now in
     training — the students of the LDT program and the LENS specialization,
@@ -69,7 +71,7 @@
     [
       The capability question this case poses is the largest one: can the
       discipline be built fast enough, and at enough scale, to close the
-      gaps the preceding ninety-nine cases document? The strongest evidence
+      gaps the preceding cases document? The strongest evidence
       for the discipline is the cumulative record of what its absence has
       cost; the strongest argument for its possibility is the record of
       what its presence has produced — and the case stays open precisely
@@ -99,7 +101,7 @@
     ],
   ),
   beats: (
-    "The hundredth case belongs to practitioners now in training across the program's domains",
+    "The closing case belongs to practitioners now in training across the program's domains",
     "A teachable discipline of engineerable capability is emerging from training, interfaces, evidence, institutions",
     "Whether the discipline can be built fast enough to close the documented gaps",
     "Capability engineering sits where INPO did in 1979 or CRM in 1981",
@@ -120,8 +122,8 @@
   references: (
     [LDT / LENS program statement, Johns Hopkins School of Education — the program and its commitments.],
     [Goodell & Kolodner (2022), _Learning Engineering Toolkit_ — the discipline's methods.],
-    [The preceding ninety-nine cases of this volume — the cumulative record of cost and of possibility.],
-    [INPO (Case 114) and CRM/CAST (Case 110) — institution-building precedents (1979, 1981).],
+    [The preceding cases of this volume — the cumulative record of cost and of possibility.],
+    [INPO (Case 107) and CRM/CAST (Case 103) — institution-building precedents (1979, 1981).],
     [IEEE ICICLE Learning Engineering Body of Knowledge (LEBoK); the introduction to this volume.],
   ),
   quote: [Capability is engineerable. The institution to engineer it has not yet been built. That is the work.],
@@ -140,7 +142,7 @@
     work. The curriculum's commitments — capability as a system
     parameter, evidence as a deliverable, ethics as design,
     implementation as a thread — are the operational form of the
-    argument the ninety-nine preceding cases evidence. Every studio
+    argument the preceding cases evidence. Every studio
     project (LEN 10) is a small attempt at this case.
   ],
   literature-items: (
@@ -150,7 +152,7 @@
   ),
   reflection-list: (
     [What is the case you are positioned to add to this dataset in the next ten years — a failure prevented, a success engineered, an institution built?],
-    [If this book is read by the practitioners who will write its hundred-and-first case, what should that case look like?],
+    [If this book is read by the practitioners who will write its next case, what should that case look like?],
     [Capability engineering in 2026 is compared here to where INPO stood in 1979 — a plausible trajectory, not a guaranteed one. What would have to be true a generation from now for that comparison to hold, and what is the first institution you would build to make it so?],
   ),
   courses: ("LEN 1", "LEN 10", "LEN 8", "LEN 3",),

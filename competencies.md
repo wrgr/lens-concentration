@@ -50,12 +50,12 @@ Cases: 3 (Air France 447), 30 (Kegworth), 47 (Helios 522), 48 (AeroPerú 603), 5
 ### 1.3 Cross-organization and joint-service requirements
 
 When a capability spans services, agencies, or contractors, no single party owns the integrated requirement, and the interface between them becomes the load-bearing artifact. The recurring failure is that each party did its piece correctly while the whole did not work.
-Cases: 33 (Military Fratricide), 46 (Operation Eagle Claw), 54 (Mars Climate Orbiter), 79 (Boeing Starliner), 86 (9/11 Intelligence Sharing).
+Cases: 46 (Operation Eagle Claw), 54 (Mars Climate Orbiter), 79 (Boeing Starliner), 86 (9/11 Intelligence Sharing). (Military Fratricide moved to 3.3 — the load-bearing lesson is combat-ID trust in automated identification, not the joint-service requirement layer, which remains a secondary.)
 
 ### 1.4 Requirements as a sustainment deliverable
 
 Capability requirements are not satisfied at fielding; they must be continuously specified for the maintainer pipeline, the technical-data pathway, the depot, and the operator population. The recurring failure is fielding a platform faster than the infrastructure to sustain it.
-Cases: 11 (V-22 Osprey), 18 (USS Vincennes), 26 (F-35 Sustainment), 79 (Boeing Starliner).
+Cases: 11 (V-22 Osprey), 26 (F-35 Sustainment), 79 (Boeing Starliner). (USS Vincennes cross-listing dropped — nothing in the case is a sustainment deliverable; its true home is 3.3, mode/state transparency under stress.)
 
 ## 2. Evidence architecture the institution cannot deceive itself with
 
@@ -98,7 +98,7 @@ Cases: 29 (Uber ATG / Tempe), 36 (Robodebt), 62 (Northeast Blackout), 68 (UK Pos
 ### 3.3 Mode and state transparency under stress
 
 When the human is most loaded — combat, system reconfiguration, an evolving fault — the interface must make the system's mode and state legible without further cognitive cost. The recurring failure is that the operator's mental model and the system's actual state diverged silently.
-Cases: 1 (USS McCain helm), 18 (USS Vincennes), 19 (Patriot/Dhahran), 44 (Asiana 214), 65 (CrowdStrike).
+Cases: 1 (USS McCain helm), 18 (USS Vincennes), 19 (Patriot/Dhahran), 33 (Military Fratricide), 44 (Asiana 214), 65 (CrowdStrike).
 
 ### 3.4 Recoverability from automation failure
 

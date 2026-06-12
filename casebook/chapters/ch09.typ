@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 187,
+  number: 180,
   slug: "tesla-autopilot-recurring-fatalities",
   title: "Tesla Autopilot — Recurring Fatalities",
   year: "2016 – present",
@@ -98,7 +98,7 @@
     // -- Open Problems --
     [
       Tesla Autopilot is the consumer-scale version of the Uber ATG problem
-      (Case 37): a passive-monitoring role deployed without the capability
+      (Case 36): a passive-monitoring role deployed without the capability
       infrastructure — training, engagement design, attention measurement —
       to make it performable. The open problem is what driver-engagement
       architecture, if any, could make Level-2 monitoring sustainable for
@@ -166,7 +166,7 @@
 )
 
 #case(
-  number: 188,
+  number: 181,
   slug: "cruise-robotaxi-pedestrian-drag",
   title: "Cruise Robotaxi — Pedestrian Drag",
   year: "2023",
@@ -306,165 +306,16 @@
   scale: "big",
 )
 
-#case(
-  number: 189,
-  slug: "compas-recidivism-algorithm",
-  title: "COMPAS Recidivism Algorithm",
-  year: "2016 – present",
-  domains-list: ("gov", "tech"),
-  modes-code: "GHD",
-  impact: "Risk-assessment algorithm used by U.S. courts; ProPublica analysis identified racial bias in error rates; foundational AI-governance case in criminal justice",
-  diagram: dgm.dgm-pair-bars(
-    "white",
-    0.235,
-    "Black",
-    0.449,
-    framing: "false-positive rate by group (ProPublica 2016): 23.5% vs 44.9%",
-    caption: "COMPAS — accuracy is not the same question as distribution of errors",
-  ),
-  kind: "frontier",
-  summary: [
-    COMPAS is a proprietary risk-assessment algorithm used in some U.S.
-    jurisdictions to inform bail, sentencing, and parole. A 2016 ProPublica
-    investigation found Black defendants were nearly twice as likely as
-    white defendants to be wrongly flagged high-risk (a false-positive rate
-    of about 44.9% versus 23.5%), while white defendants were more often
-    wrongly flagged low-risk. The vendor responded that COMPAS satisfied
-    predictive parity — equal calibration within each group. The literature
-    that followed (Chouldechova 2017; Kleinberg, Mullainathan & Raghavan
-    2017) proved this an impossibility: when base rates differ, calibration
-    and equal error rates cannot all hold at once. COMPAS surfaced, at
-    criminal-justice scale, that a model can be "accurate" by one metric
-    and inequitable by another — and that choosing the metric is a
-    governance decision, not a technical one.
-  ],
-  sections: (
-    // -- The Shift --
-    [
-      Statistical risk-assessment tools have moved into the heart of the
-      U.S. criminal-justice system, informing decisions about bail,
-      sentencing, and parole. COMPAS, a proprietary instrument, scores a
-      defendant's likelihood of reoffending and hands that score to judges
-      — relocating a consequential human judgment to an algorithm whose
-      workings are largely opaque. Because the instrument is proprietary,
-      the people most affected by its scores, and often the courts using
-      them, cannot inspect how the number was reached — opacity that becomes
-      part of the decision rather than incidental to it.#cn()
-    ],
-    // -- What Is Emerging --
-    [
-      A 2016 ProPublica investigation analyzed COMPAS scores against actual
-      reoffense outcomes and found a racial asymmetry in the errors: Black
-      defendants were roughly twice as likely as white defendants to be
-      incorrectly flagged as high-risk (about 44.9% versus 23.5%), while
-      white defendants were more often incorrectly flagged as low-risk. The
-      disparity was not in whether the tool was right on average but in who
-      bore the cost when it was wrong, so two defendants with identical
-      outcomes could be served very different errors depending on group.#cn()
-    ],
-    // -- The Capability Question --
-    [
-      The vendor, Northpointe, responded that COMPAS satisfied predictive
-      parity — it was equally well calibrated within each racial group.
-      Both claims were true, which is the point: the case poses whether
-      "fair" even has a single technical meaning, or whether the
-      institution must choose, in public, among incompatible fairness
-      definitions. The dispute was not one side misreading the data; it was
-      two defensible metrics pointing in opposite directions, with no purely
-      technical tie-breaker available to settle which one governs.#cn()
-    ],
-    // -- Early Evidence --
-    [
-      The academic literature resolved the dispute as an impossibility
-      result. Chouldechova (2017) and Kleinberg, Mullainathan & Raghavan
-      (2017) proved that calibration within groups and equalized
-      false-positive and false-negative rates cannot all be satisfied at
-      once when base rates differ across groups. The choice is not between
-      fair and unfair models but among mutually exclusive definitions of
-      fairness — a mathematical result, not a deficiency of COMPAS, meaning
-      no future model, however well built, can escape the same trade-off.#cn()
-    ],
-    // -- Open Problems --
-    [
-      COMPAS is the canonical case for the distribution of algorithmic
-      errors as a question separate from accuracy. The technical literature
-      can characterize the trade-offs, but the institution has to decide
-      which one it is willing to defend — and on what definition of
-      "recidivism." It pairs with the A-Level (Case 52) and educational-bias
-      (Case 54) cases as examples of construct definition as a
-      capability-engineering decision, because how the outcome is defined in
-      the first place shapes the error distribution long before any metric
-      is chosen to judge it.#cn()
-    ],
-  ),
-  beats: (
-    "Proprietary risk-assessment scores enter bail and sentencing with opacity built into the decision",
-    "ProPublica found Black defendants twice as likely as whites wrongly flagged high-risk",
-    "Whether fairness has a single technical meaning, or institutions must choose among definitions",
-    "Chouldechova and Kleinberg proved calibration and equal error rates cannot coexist with differing base rates",
-    "Distribution of errors is the canonical question; construct definition shapes the trade-off first",
-  ),
-  approaches: (
-    during: (
-      [Require the deploying institution to choose and publicly justify a fairness criterion before the tool is fielded, since the impossibility result means a choice cannot be avoided.],
-      [Define the target construct — what "recidivism" actually counts — explicitly, because the error distribution is set by that definition before any model is trained.],
-      [Mandate inspectability of a score's basis for courts and defendants, so a proprietary instrument cannot make opacity part of the decision.],
-    ),
-    after: (
-      [Audit error rates disaggregated by group against actual outcomes on an ongoing basis, as ProPublica did, rather than accepting an aggregate accuracy figure.],
-      [Monitor whether the deployed criterion still matches the one the institution publicly committed to defend, and surface drift to oversight.],
-      [Track the downstream decisions the score influenced, so the human cost of the chosen trade-off remains visible and contestable.],
-    ),
-  ),
-  references: (
-    [Angwin, Larson, Mattu & Kirchner, "Machine Bias," _ProPublica_ (2016) — the false-positive-rate disparity (quoted).],
-    [Northpointe technical response (2016) — the predictive-parity (calibration) defense.],
-    [Chouldechova, A. (2017) — the fairness impossibility result for differing base rates.],
-    [Kleinberg, Mullainathan & Raghavan (2017), "Inherent Trade-Offs in the Fair Determination of Risk Scores."],
-    [Eubanks, V. (2018), _Automating Inequality_ — algorithmic decision-making and equity.],
-  ),
-  quote: [Blacks are almost twice as likely as whites to be labeled a higher risk but not actually re-offend.],
-  quote-source: "Angwin, Larson, Mattu & Kirchner, ProPublica, \"Machine Bias,\" 2016",
-  le-insight: [
-    COMPAS is the canonical case for the distribution of algorithmic
-    errors across populations as a separate question from algorithmic
-    accuracy. The capability gap is at the governance layer that
-    decides which fairness criterion to optimize. The decision is
-    not technical. It is institutional. The Chouldechova and
-    Kleinberg–Mullainathan–Raghavan results showed the choice is not
-    between fair and unfair models but among incompatible definitions
-    of fairness. The technical literature can characterize the
-    trade-offs; the institutional layer has to choose, in public,
-    which trade-off it is willing to defend.
-  ],
-  lens-approach: [
-    LENS uses COMPAS in LEN 7 as a foundational algorithmic-
-    accountability case in criminal justice, in LEN 9 for the
-    technical fairness-criterion analysis, and in LEN 4 for the
-    construct-definition question (what counts as recidivism?).
-  ],
-  literature-items: (
-    [Angwin et al. (2016), ProPublica],
-    [Kleinberg, Mullainathan & Raghavan (2017)],
-    [Eubanks (2018), _Automating Inequality_],
-  ),
-  reflection-list: (
-    [Identify a predictive instrument in your domain. Which fairness criterion does it optimize, and what does that imply for the population whose errors are distributed against them?],
-    [Design the institutional governance deliverable that would have to be produced before COMPAS-style algorithms can be deployed in criminal justice.],
-    [The ProPublica analysis surfaced the COMPAS disparity in 2016 only because reporters obtained the data. What is the equivalent public-interest investigation that should exist for a comparable model in your domain — and what data would have to be released for it to be possible?],
-  ),
-  courses: ("LEN 4", "LEN 7", "LEN 9"),
-  scale: "big",
-)
+
 
 #case(
-  number: 190,
+  number: 182,
   slug: "radiology-ai-miscalibration",
   title: "Radiology AI Miscalibration",
   year: "2018 – present",
   domains-list: ("healthcare", "tech"),
   modes-code: "HKD",
-  impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines; the canonical v1 anchor for clinical-AI deployment without surveillance, cross-referenced by the Epic Sepsis (Case 65) and pulse-oximetry (Case 127) deployment-evidence cases",
+  impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines; the canonical v1 anchor for clinical-AI deployment without surveillance, cross-referenced by the Epic Sepsis (Case 60) and pulse-oximetry (Case 120) deployment-evidence cases",
   diagram: dgm.dgm-compare(
     "validation",
     "AUC 0.9+",
@@ -505,8 +356,8 @@
     surveillance is still being built. The capability gap is in the
     regulatory architecture, not the model: clearance is not the same
     thing as clinically performable deployment. The case is the v1
-    anchor for the cross-references in the Epic Sepsis (Case 65) and
-    pulse-oximetry (Case 127) deployment-evidence cases.
+    anchor for the cross-references in the Epic Sepsis (Case 60) and
+    pulse-oximetry (Case 120) deployment-evidence cases.
   ],
   sections: (
     // -- The Shift --
@@ -571,11 +422,11 @@
       Similar deployment-performance degradation has been reported
       in mammography AI (validation sets often under-represent
       dense-breast tissue and Black women), sepsis-prediction tools
-      (the Epic Sepsis Model — Case 65 — is the canonical example of
+      (the Epic Sepsis Model — Case 60 — is the canonical example of
       an AI tool deployed at scale whose external validation found
       it substantially worse than its developer-reported numbers),
       pulse-oximetry behavior (the structural racial miscalibration
-      documented in Sjoding et al. — Case 127 — sits under several
+      documented in Sjoding et al. — Case 120 — sits under several
       downstream AI sepsis and triage tools), and skin-lesion
       classifiers (training-set under-representation of darker skin
       tones produces accuracy gaps in deployment). Yet the FDA's
@@ -608,7 +459,7 @@
       architecture, not the model: the institutional machinery to
       require demographic post-market surveillance has not yet been
       built. It is the medical-AI analog of the Vioxx
-      post-market-surveillance failure (Case 105) at a new
+      post-market-surveillance failure (Case 98) at a new
       technological boundary — a case where the harm comes not from
       a hidden defect but from the absence of any standing system to
       watch the tool once it is in the population's hands.#cn()
@@ -663,9 +514,9 @@
     finding generalizes the diagnosis: bias enters through the
     labels and through the population, both of which the 510(k)
     process currently treats as outside its scope. Pair with Vioxx
-    (Case 105) as the post-market-surveillance-failure pattern at a
+    (Case 98) as the post-market-surveillance-failure pattern at a
     new technological boundary; cross-references the Epic Sepsis
-    (Case 65) and pulse-oximetry (Case 127) cases at the
+    (Case 60) and pulse-oximetry (Case 120) cases at the
     clinical-AI-without-surveillance layer.
   ],
   literature-items: (
@@ -682,7 +533,7 @@
 )
 
 #case(
-  number: 191,
+  number: 183,
   slug: "chatgpt-in-healthcare-hallucination",
   title: "ChatGPT in Healthcare — Hallucination Cases",
   year: "2023 – present",
@@ -826,7 +677,7 @@
 )
 
 #case(
-  number: 192,
+  number: 184,
   slug: "predictive-policing-predpol",
   title: "Predictive Policing — PredPol",
   year: "2011 – present",
@@ -904,8 +755,8 @@
     // -- Open Problems --
     [
       Predictive policing is the canonical algorithmic-governance case in
-      U.S. policing and pairs with COMPAS (Case 189) and educational
-      algorithmic bias (Case 54). The open problem is a construct-validity
+      U.S. policing and pairs with COMPAS (Case 79) and educational
+      algorithmic bias (Case 51). The open problem is a construct-validity
       audit — a way to establish, before deployment, whether a predictive
       system's training data is a record of ground truth or merely of
       institutional behavior — implemented in some jurisdictions and absent
@@ -969,7 +820,7 @@
 )
 
 #case(
-  number: 193,
+  number: 185,
   slug: "alphafold-protein-structure-prediction",
   title: "AlphaFold — Protein Structure Prediction",
   year: "2020 – present",
@@ -1114,7 +965,7 @@
 )
 
 #case(
-  number: 194,
+  number: 186,
   slug: "ai-augmented-coding-tools",
   title: "AI-Augmented Coding Tools",
   year: "2021 – present",
@@ -1262,7 +1113,7 @@
 )
 
 #case(
-  number: 195,
+  number: 187,
   slug: "circuit-microns-the-human-correction",
   title: "CIRCUIT / MICrONS — The Human Correction Layer at Petabyte Scale",
   year: "2017 – present",
@@ -1308,7 +1159,7 @@
       Connectomics — the reconstruction of detailed wiring diagrams
       of brain tissue from electron-microscopy imaging — is the
       modern incarnation of a problem with the same structural shape
-      as the early radiology-AI cases (Case 190): automation produces
+      as the early radiology-AI cases (Case 182): automation produces
       a primary output at scale that no human team could produce
       manually, and the output is too important and too error-prone
       to be deployed without verification. The MICrONS program,
@@ -1400,7 +1251,7 @@
     [MICrONS program literature (IARPA) — connectomics method and automated segmentation evidence base.],
     [APL BossDB documentation — petabyte-scale connectomics data infrastructure.],
     [CIRCUIT program documentation (JHU Hub, 2017 – present) — institutional/program description; the training-outcome evidence is at this tier and the evidence-tier flag is binding.],
-    [Cervantes et al. (2023), ASEE Annual Conference — the paired peer-reviewed CIRCUIT case (Case 134).],
+    [Cervantes et al. (2023), ASEE Annual Conference — the paired peer-reviewed CIRCUIT case (Case 127).],
     [Wachter & Brynjolfsson (2023), _JAMA_ — generative AI verification framing, applicable across domains.],
   ),
   quote: [The recovery mechanism for automation failure is a designed human capability, not an emergent workforce.],
@@ -1420,8 +1271,8 @@
     CIRCUIT proofreading is the human-correction-layer
     frontier case (induced 3.4; LENS D5/PT6) — Domain 5 for
     *Delegation with revocation*; Domain 3 for the evidence-
-    tier split. Pair with Case 134 and Cases 125, 65, 69,
-    73. COI binds.
+    tier split. Pair with Case 127 and Cases 118, 60, 64,
+    68. COI binds.
   ],
   literature-items: (
     [MICrONS program literature — connectomics method base],
@@ -1437,7 +1288,7 @@
 )
 
 #case(
-  number: 196,
+  number: 188,
   slug: "gandara-algorithmic-targeting-and",
   title: "Gándara — Detecting and Mitigating Algorithmic Bias in College Student-Success Prediction",
   year: "2024",
@@ -1473,7 +1324,7 @@
     fairness in equity-oriented prediction is a construct-definition
     and stratified-evaluation problem before it is a model-bias
     problem. The case pairs explicitly with the v2 race-construct
-    trio (Cases 126 eGFR, 106 pulse oximetry, 107 Hoffman) and with
+    trio (Cases 119 eGFR, 106 pulse oximetry, 107 Hoffman) and with
     the broader equity-construct competency C8.2: demographic
     stratification of validation and outcomes as a design
     commitment.
@@ -1548,8 +1399,8 @@
       competency and the equity-construct CLOs proposed
       find their case-grounded basis here.
       The case explicitly cross-references the v2 race-construct
-      trio — eGFR (Case 126), pulse oximetry (Case 127), and
-      Hoffman pain bias (Case 68) — at the construct-definition
+      trio — eGFR (Case 119), pulse oximetry (Case 120), and
+      Hoffman pain bias (Case 63) — at the construct-definition
       layer: in those cases the construct (race correction in
       eGFR, single-sensor calibration in pulse oximetry, the
       pain-perception assumption in Hoffman) was the design
@@ -1564,7 +1415,7 @@
     "Gándara et al. (AERA Open, 2024): models less accurate for Black and Hispanic students; overestimate success for white and Asian students — overall accuracy masks the disparity",
     "Stratified evaluation by income, race/ethnicity, first-generation status reveals disparity that overall-accuracy summary metrics hide",
     "Decision context and mitigation matter: train end users to contextualize a flagged prediction; bias-mitigation reduces but does not eliminate the cross-group gap",
-    "Cross-references v2 race-construct trio (Cases 126 eGFR, 106 pulse oximetry, 107 Hoffman) — construct definition is the upstream design decision in each",
+    "Cross-references v2 race-construct trio (Cases 119 eGFR, 106 pulse oximetry, 107 Hoffman) — construct definition is the upstream design decision in each",
   ),
   approaches: (
     during: (
@@ -1575,7 +1426,7 @@
     after: (
       [Report which construct the model maximizes, on which stratifications it was evaluated, and which intervention it is paired with — three pieces of information any deployed targeting system should publish together.],
       [Treat the fairness conversation as a construct-definition conversation first, and as a model-bias conversation second; the latter is operationally important, the former determines what the model is fair *about*.],
-      [Carry the race-construct trio (Cases 126, 127, 68) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the equity-construct CLOs are anchored here.],
+      [Carry the race-construct trio (Cases 119, 120, 63) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the equity-construct CLOs are anchored here.],
     ),
   ),
   references: (
@@ -1602,7 +1453,7 @@
     equity-construct-definition case (induced 8.2; LENS
     D3/PT5) — Domain 3 for stratified evaluation; Domain 4 for
     the decision-context and mitigation question. Cross-reference
-    Cases 126, 127, 68 — case-grounded basis for the equity-
+    Cases 119, 120, 63 — case-grounded basis for the equity-
     construct CLOs.
   ],
   literature-items: (
@@ -1613,13 +1464,13 @@
   reflection-list: (
     [Identify a predictive-targeting model in your domain. Which construct does it maximize — observed outcome, predicted benefit, predicted need — and is the choice on the record as a normative institutional decision, or absorbed into the model's training objective without disclosure?],
     [Specify the stratifications you would build into the model's validation: which equity-relevant axes (income, race/ethnicity, first-generation, geography, disability) and what comparison structure (per-axis accuracy, per-axis calibration, per-axis intervention effectiveness)?],
-    [The case cross-references the v2 race-construct trio (Cases 126, 127, 68). In each, the construct definition is the upstream design decision that produced the disparate outcome. Identify a construct decision in your domain that is currently absorbed into the design rather than on the record — and what would it take to make the choice explicit?],
+    [The case cross-references the v2 race-construct trio (Cases 119, 120, 63). In each, the construct definition is the upstream design decision that produced the disparate outcome. Identify a construct decision in your domain that is currently absorbed into the design rather than on the record — and what would it take to make the choice explicit?],
   ),
   courses: ("LEN 3", "LEN 6", "LEN 9"),
 )
 
 #case(
-  number: 197,
+  number: 189,
   slug: "yu-lee-kizilcec-protected-attributes-in",
   title: "Yu / Lee / Kizilcec — Protected Attributes in Learning-Analytics Models",
   year: "2021 – 2024",
@@ -1653,7 +1504,7 @@
     case is the small-tier frontier instance of "surfacing bias
     through governance, not just technique" (C8.4 in the induced
     framework). It cross-references the v2 race-construct trio
-    (Cases 126 eGFR, 106 pulse oximetry, 107 Hoffman) at the
+    (Cases 119 eGFR, 106 pulse oximetry, 107 Hoffman) at the
     model-fairness layer: in those cases the construct was the
     design decision; in this case the question is whether the
     attribute is allowed into the model that operationalizes the
@@ -1715,10 +1566,10 @@
       specific deployment.#cn()
     ],
     [
-      In pair with Case 196 (Gándara on community-college
-      targeting) and with the v2 race-construct trio (Cases 126
+      In pair with Case 188 (Gándara on community-college
+      targeting) and with the v2 race-construct trio (Cases 119
       eGFR, 106 pulse oximetry, 107 Hoffman), the case completes
-      the v2 equity-construct frontier picture. Case 196 names
+      the v2 equity-construct frontier picture. Case 188 names
       the construct-definition layer; this case names the
       protected-attribute-in-the-model layer; the race-construct
       trio names the construct-encoded-in-the-instrument layer
@@ -1735,7 +1586,7 @@
     "Fairness-through-unawareness intuitive but incomplete: omitted attributes reconstructable from correlated features (zip code, prior achievement)",
     "Yu, Lee, Kizilcec (LAK/EDM): include-or-exclude effect depends on construct, model class, downstream intervention, population — no general answer",
     "Right framing is governance and audit: explicit decision recorded with reasoning, stratified evaluation, audit cadence that catches the consequences",
-    "Cross-references Case 196 (Gándara), the v2 race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman) — five-case equity-construct frontier set",
+    "Cross-references Case 188 (Gándara), the v2 race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman) — five-case equity-construct frontier set",
   ),
   approaches: (
     during: (
@@ -1746,7 +1597,7 @@
     after: (
       [Publish the protected-attribute handling decisions for any deployed learning-analytics model — included, excluded, and with what reasoning — as part of the model's governance documentation.],
       [Operate stratified audit on a regular cadence; the include-or-exclude consequences in operation are what the audit catches, and audit absence makes the decision functionally invisible to the institution.],
-      [Carry the five-case equity-construct set into the curriculum: Cases 126 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 196 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
+      [Carry the five-case equity-construct set into the curriculum: Cases 119 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 188 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
     ),
   ),
   references: (
@@ -1772,7 +1623,7 @@
     governance case (induced 8.4; LENS D3/PT5) — Domain 3 for
     stratified-evaluation-by-attribute; Domain 4 for the
     decision-plus-reasoning-plus-audit architecture. Cross-
-    reference Case 196 and the race-construct trio (105, 106,
+    reference Case 188 and the race-construct trio (105, 106,
     107).
   ],
   literature-items: (
@@ -1783,13 +1634,13 @@
   reflection-list: (
     [Identify a learning-analytics or analogous predictive model in your domain. Which protected attributes are inputs to the model, which are not, and is the include-or-exclude decision on the record with reasoning, or absorbed into the data-engineering pipeline?],
     [Specify the stratified-audit cadence you would operate for the model regardless of whether protected attributes are inputs; the audit catches the consequences of the include-or-exclude decision in operation, and its absence makes the decision functionally invisible.],
-    [The case sits in a five-case equity-construct set with Case 196 (Gándara) on construct definition and the v2 race-construct trio (Cases 126, 127, 68) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
+    [The case sits in a five-case equity-construct set with Case 188 (Gándara) on construct definition and the v2 race-construct trio (Cases 119, 120, 63) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
   ),
   courses: ("LEN 3", "LEN 6", "LEN 9"),
 )
 
 #case(
-  number: 198,
+  number: 190,
   slug: "learning-analytics-on-the-african",
   title: "Learning Analytics on the African Continent — A Scoping Review as the Present-State Map",
   year: "2022",
@@ -1951,7 +1802,7 @@
 )
 
 #case(
-  number: 199,
+  number: 191,
   slug: "livehint-ai-evaluating-an-ai-tutor-for",
   title: "LiveHint AI — Evaluating an AI Tutor for Bias Across Foundation Models",
   year: "2025",
@@ -1978,8 +1829,8 @@
     audit (LiveHint is in development); it is a methods-
     development paper proposing how foundation-model-level
     fairness evaluation should be done before deployment. The
-    case extends the race-construct trio (Cases 126, 127, 68,
-    74) into the LLM-tutoring layer where the structurally new
+    case extends the race-construct trio (Cases 119, 120, 63,
+    69) into the LLM-tutoring layer where the structurally new
     variable is the foundation model. Open questions: whether
     lab-style probing matches deployed-conversation patterns;
     whether vendor selection across foundation models becomes
@@ -2041,7 +1892,7 @@
       methods-development paper proposing how foundation-model-
       level fairness evaluation should be done before
       deployment. The case is not the deployment-bias-audit
-      case the corpus carries at Cases 126 (Hoffman pain
+      case the corpus carries at Cases 119 (Hoffman pain
       assessment), 106 (pulse oximetry), 107 (eGFR), and 156
       (Johnson school surveillance). It is the structurally
       new methods-development case at the layer above those
@@ -2061,10 +1912,10 @@
       educational-AI procurement pipeline is a market-evolution
       question the present study can name but cannot resolve.
       The case pairs with the race-construct trio for the
-      stratified-validation discipline and with Case 182
+      stratified-validation discipline and with Case 175
       (hybrid human-AI tutoring) for the deployment-side
-      complement — the augmentation pattern Case 182 documents
-      depends on the foundation-model-level evaluation Case 199
+      complement — the augmentation pattern Case 175 documents
+      depends on the foundation-model-level evaluation Case 191
       is methodologically grounding.
     ],
   ),
@@ -2072,8 +1923,8 @@
     "LiveHint AI (Carnegie Learning) probed with identity-marked student queries across tone, detail, pedagogical appropriateness",
     "Choice of foundation model materially affects differentiation level; vendor-selection decision is itself fairness-relevant",
     "Methods-development paper (LiveHint in development), not deployment-bias audit; grounds demographic-stratification at foundation-model layer",
-    "Structurally new variable beyond race-construct trio (Cases 126/105/106/155): the foundation-model layer above the deployed system",
-    "Open: lab probing vs. deployed-conversation match; vendor selection as routine fairness deliverable; pair with Case 182",
+    "Structurally new variable beyond race-construct trio (Cases 119/105/106/155): the foundation-model layer above the deployed system",
+    "Open: lab probing vs. deployed-conversation match; vendor selection as routine fairness deliverable; pair with Case 175",
   ),
   approaches: (
     during: (
@@ -2084,13 +1935,13 @@
     after: (
       [Commission the deployed-conversation evaluation that the lab-style probing cannot perform; the open question on whether probing patterns match deployment patterns is testable against deployment logs as the system moves toward release.],
       [Publish the foundation-model-level fairness findings as part of the procurement record; the case argues that vendor selection across foundation models is a fairness deliverable, and the publication discipline is what would make that deliverable operational.],
-      [Pair the case in the curriculum with the race-construct trio (Cases 126, 127, 68, 74) so the demographic-stratification anchor is taught across both the deployed-system layer and the foundation-model layer above it.],
+      [Pair the case in the curriculum with the race-construct trio (Cases 119, 120, 63, 69) so the demographic-stratification anchor is taught across both the deployed-system layer and the foundation-model layer above it.],
     ),
   ),
   references: (
     [AIED 2025, "Evaluating an AI Tutor for Bias Across Different Foundation Models," Springer/ACM proceedings, doi:10.1007/978-3-031-98465-5_43; preprint at renzheyu.com/papers/AIED2025_Tutor.pdf.],
     [Bommasani, R. et al. (2021), "On the Opportunities and Risks of Foundation Models," Stanford CRFM — the foundation-model framing the case builds on.],
-    [Race-construct trio reference set: Hoffman et al. (2016), Sjoding et al. (2020) pulse oximetry, Inker et al. (2021) eGFR-without-race — paired with Cases 126, 127, 68.],
+    [Race-construct trio reference set: Hoffman et al. (2016), Sjoding et al. (2020) pulse oximetry, Inker et al. (2021) eGFR-without-race — paired with Cases 119, 120, 63.],
     [Carnegie Learning LiveHint product documentation — the subject system; case framing is binding on LiveHint being in development, not deployment.],
   ),
   quote: [The choice of foundation model is itself a fairness-relevant design decision. The evaluation should be a pre-deployment deliverable, not a post-deployment audit.],
@@ -2113,8 +1964,8 @@
     pair probing methodology and in Domain 5 (Machine Teaming
     and Adaptation) for the foundation-model-selection-as-
     fairness-decision frame. Pair with the race-construct trio
-    (Cases 126, 127, 68, 74) at the deployment-audit layer
-    and with Case 182 (hybrid human-AI tutoring) as the
+    (Cases 119, 120, 63, 69) at the deployment-audit layer
+    and with Case 175 (hybrid human-AI tutoring) as the
     augmentation-pattern complement.
   ],
   literature-items: (
@@ -2131,7 +1982,7 @@
 )
 
 #case(
-  number: 200,
+  number: 192,
   slug: "multimodal-learning-analytics-in-the",
   title: "Multimodal Learning Analytics In-the-Wild — A First-Person Lessons-Learned Account",
   year: "2023",
@@ -2230,7 +2081,7 @@
       operational knowledge accumulates and propagates across
       practitioner cohorts. The pair with the CIRCUIT cases
       (119, 120) is the workforce-and-capability layer; the
-      pair with Case 182 (hybrid human-AI tutoring) is the
+      pair with Case 175 (hybrid human-AI tutoring) is the
       design-iteration layer.#cn()
     ],
     [
@@ -2294,8 +2145,8 @@
     reflective-narration-of-design-iteration discipline and in
     Domain 3 (Test and Evaluation) for the evidence-tier
     discipline binding the preprint-tier framing to the genre's
-    pedagogical role. Pair with Cases 195 and 134 (CIRCUIT
-    workforce-and-capability layer) and Case 182 (hybrid human-
+    pedagogical role. Pair with Cases 187 and 127 (CIRCUIT
+    workforce-and-capability layer) and Case 175 (hybrid human-
     AI tutoring design-iteration layer). Preprint-tier flag
     binding under the title.
   ],
@@ -2313,7 +2164,7 @@
 )
 
 #case(
-  number: 201,
+  number: 193,
   slug: "deepmind-mammography-2020",
   title: "DeepMind Mammography — High-Profile Nature Paper, Replicability Pushback",
   year: "2020",
@@ -2347,8 +2198,8 @@
     framing the original paper offered has been refined by
     subsequent deployment evidence rather than confirmed at the
     deployment scale the headline implied. The case pairs with
-    Case 190 (Radiology AI Miscalibration), Case 65 (Epic
-    Sepsis), and Case 127 (Pulse oximetry).
+    Case 182 (Radiology AI Miscalibration), Case 60 (Epic
+    Sepsis), and Case 120 (Pulse oximetry).
   ],
   sections: (
     [
@@ -2407,17 +2258,17 @@
       established.#cn()
     ],
     [
-      The case pairs with Case 190 (Radiology AI Miscalibration)
+      The case pairs with Case 182 (Radiology AI Miscalibration)
       for the medical-imaging-AI-deployment-evidence thread:
       retrospective evaluation produces one class of evidence;
       prospective deployment produces another, and the two are
-      not interchangeable. Pair with Case 65 (Epic Sepsis) for
+      not interchangeable. Pair with Case 60 (Epic Sepsis) for
       the high-profile-result-versus-deployment-evidence thread
       in healthcare AI; Epic Sepsis is the load-bearing case in
       the corpus for the gap between vendor or developer claims
       and external evaluation, and DeepMind Mammography sits in
       the same conceptual family at a different domain. Pair
-      with Case 127 (Pulse oximetry) for the population-
+      with Case 120 (Pulse oximetry) for the population-
       heterogeneity-in-medical-AI thread; the McKinney paper's
       UK-versus-U.S. effect-size difference (5.7 vs 1.2 pp on
       false-positives) is itself evidence that the system's
@@ -2447,7 +2298,7 @@
     "Press framing: \"AI outperforms radiologists\"; paper's careful claims do not carry the framing's deployment implications",
     "Haibe-Kains et al. Nature Oct 14 2020 comment: code not released, models not released, methodology not reproducible from publication",
     "Comment does not allege error; argues reproducibility not established; large fraction of methodology not independently verifiable",
-    "Pair with Case 190 (Radiology AI miscalibration), Case 65 (Epic Sepsis), Case 127 (pulse oximetry population heterogeneity)",
+    "Pair with Case 182 (Radiology AI miscalibration), Case 60 (Epic Sepsis), Case 120 (pulse oximetry population heterogeneity)",
   ),
   approaches: (
     during: (
@@ -2457,7 +2308,7 @@
     ),
     after: (
       [Carry the Haibe-Kains comment's specific framing into print without softening; the comment is a finding on reproducibility, not a finding of error, and the case's pedagogical value depends on the distinction being preserved.],
-      [Pair in syllabi with Case 190 and Case 65 so the high-profile-result-versus-deployment-evidence pattern is taught across the medical-imaging-AI deployment seam at multiple instances.],
+      [Pair in syllabi with Case 182 and Case 60 so the high-profile-result-versus-deployment-evidence pattern is taught across the medical-imaging-AI deployment seam at multiple instances.],
       [Use the case to anchor the verification-as-deployment-event frame; the curricular target is the discipline of treating a high-profile retrospective result as the starting point of a multi-year verification arc rather than as a deployment-ready endpoint.],
     ),
   ),
@@ -2486,8 +2337,8 @@
     reproducibility-infrastructure-as-verification-condition
     discipline and in Domain 5 (Machine Teaming and Adaptation)
     for the retrospective-versus-prospective-evidence distinction.
-    Pair with Case 190 (Radiology AI Miscalibration), Case 65
-    (Epic Sepsis), and Case 127 (pulse oximetry population
+    Pair with Case 182 (Radiology AI Miscalibration), Case 60
+    (Epic Sepsis), and Case 120 (pulse oximetry population
     heterogeneity). The Haibe-Kains comment is a reproducibility
     finding, not a finding of error; the distinction is the
     load-bearing hedge.

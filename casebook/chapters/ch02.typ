@@ -523,161 +523,10 @@
   evidence-source: "investigation",
 )
 
-#case(
-  number: 20,
-  slug: "ford-pinto-fuel-tank",
-  title: "Ford Pinto Fuel Tank",
-  year: "1971 – 1978",
-  domains-list: ("industrial",),
-  modes-code: "DG",
-  impact: "Fatalities attributed to rear-impact fuel-tank fires; foundational case in U.S. engineering ethics",
-  diagram: dgm.dgm-stat(
-    "$11",
-    "per car · the fix of legend",
-    micro: "the cost-benefit story is largely myth — the memo behind it was a fleet-wide rollover submission, not a Pinto ledger",
-    caption: "Pinto — the cost-benefit story that became myth",
-  ),
-  kind: "failure",
-  summary: [
-    The Ford Pinto, a rushed early-1970s subcompact, placed its fuel tank
-    where rear-impact collisions could rupture it; fuel-fed fires killed and
-    burned people, and in _Grimshaw v. Ford_ (1981) a jury found Ford
-    liable, having known of the hazard and not fixed it. A *common
-    misconception*, popularized by a 1977 _Mother Jones_ exposé, holds that
-    Ford ran a cost-benefit calculation and chose to pay death settlements
-    rather than install an \$11 fix. The memo invoked for that story was
-    actually a generic federal submission about rollover fires across the
-    whole U.S. fleet — it never mentioned the Pinto. Strip away the myth and
-    the real designed-out failure remains: rear-impact survivability lost to
-    cost and packaging, and a known hazard went unfixed. It is the founding
-    engineering-ethics case — and a lesson in accuracy.
-  ],
-  sections: (
-    // -- Background --
-    [
-      The Pinto was Ford's rushed early-1970s answer to imported
-      subcompacts, built to aggressive cost and weight targets on a compressed
-      schedule that left little slack for late design changes. To save room
-      and money, its fuel tank sat behind the rear axle with little crush
-      space; in rear-impact tests it could be punctured and the filler neck
-      torn away, releasing fuel near potential ignition sources. Engineers
-      knew of the vulnerability from the company's own crash tests, and cheap
-      fixes — a shield, a revised tank position — existed, but none was adopted
-      before the car shipped to dealers.#cn()
-    ],
-    // -- What Happened --
-    [
-      In service, rear-impact collisions produced fuel-fed fires that killed
-      and burned people, the precise failure mode the crash tests had shown.
-      The reckoning came in court: in _Grimshaw v. Ford_ — a 1972 crash that
-      killed the driver and severely burned teenage passenger Richard Grimshaw
-      — a jury found Ford liable, and the 1981 appellate court upheld
-      liability, finding Ford had known of the hazard and not acted on it.
-      Ford recalled some 1.5 million Pintos and Mercury Bobcats in 1978, and
-      an Indiana prosecutor even charged it with reckless homicide (Ford was
-      acquitted at trial). The car became the enduring emblem of corporate
-      disregard for safety.#cn()
-    ],
-    // -- The Investigation --
-    [
-      That emblem rests partly on a common misconception that has hardened
-      into folklore. Mother Jones's 1977 exposé "Pinto Madness" popularized
-      the claim that Ford had calculated it was cheaper to pay death
-      settlements than install an eleven-dollar fix. The document invoked —
-      the Grush-Saunby analysis — was actually a generic submission to
-      regulators about fuel-fed fires in *rollovers* across the *entire* U.S.
-      fleet; it valued societal costs using a government figure, never
-      mentioned the Pinto by name, concerned a different crash mode, and
-      postdated the car's design. Gary Schwartz later documented the gap in
-      detail, including a death toll far below the hundreds the article
-      implied.#cn()
-    ],
-    // -- The Capability Gap --
-    [
-      Strip away the myth and the designed-out failure remains — which is why
-      the case is worth keeping rather than discarding with the legend.
-      Rear-impact survivability was a real capability that lost to cost,
-      weight, and packaging, and a known vulnerability went unaddressed long
-      enough for people to die and a jury to find Ford liable. The cartoon
-      version — a villain coldly pricing lives against a cheap part — actually
-      makes the lesson easy to dismiss as something that happens only to
-      monsters. The truer one is ordinary and therefore more dangerous: safety
-      capability erodes not through a single monstrous choice but through many
-      small trades against cost and weight that no one owns as a
-      requirement.#cn()
-    ],
-    // -- Aftermath & Reform --
-    [
-      The Pinto drove enforcement of rear-impact fuel-system standards and
-      helped shape the modern consumer-safety and punitive-liability regime,
-      and for fifty years it has been the founding engineering-ethics case
-      taught to new engineers. Its honest telling earns the place twice: as a
-      lesson in how cost and weight quietly design out a safety capability,
-      and as a caution in how a case itself gets mythologized into a shape
-      more satisfying to repeat than accurate to learn from — the value of a
-      statistical life is a real and legitimate regulatory tool, and the true
-      objection was never that a number was used to weigh safety but that a
-      known hazard went unfixed.#cn()
-    ],
-  ),
-  beats: (
-    "Rushed subcompact with tank behind rear axle and little crush space, known to engineers.",
-    "Rear impacts produced fuel-fed fires; Grimshaw verdict and 1.5 million-vehicle recall followed.",
-    "Mother Jones cost-benefit story rested on a generic rollover memo, not a Pinto ledger.",
-    "Real failure was rear-impact survivability quietly traded against cost, weight, and packaging.",
-    "Founding ethics case shaped fuel-system rules and taught how myths obscure lessons.",
-  ),
-  references: (
-    [M. Dowie, "Pinto Madness," _Mother Jones_ (Sept./Oct. 1977) — the contemporaneous exposé that popularized the \$11-fix / cost-benefit framing.],
-    [_Grimshaw v. Ford Motor Co._, 119 Cal. App. 3d 757 (1981) — Ford held liable for the rear-impact fuel-system hazard; punitive damages upheld in reduced amount.],
-    [G. T. Schwartz, "The Myth of the Ford Pinto Case," _Rutgers Law Review_ 43: 1013–1068 (1991) — the Grush-Saunby memo was a generic NHTSA rollover-fire submission for the whole fleet, not a Pinto-specific litigation calculation; the death toll was far lower than popularly claimed. _(See AUDIT: corrects the prior edition's framing.)_],
-    [U.S. NHTSA Pinto investigation files (1978) and Federal Motor Vehicle Safety Standard 301 (fuel-system integrity) — the regulatory record.],
-    [L. Birsch & J. Fielder (eds.), _The Ford Pinto Case: A Study in Applied Ethics, Business, and Technology_ (SUNY Press, 1994) — the case and its later reassessments.],
-  ),
-  quote: [Much of what people believe about the Pinto — a deliberate trade of lives against an eleven-dollar part — is myth; what is not myth is that a known fuel-system hazard went unfixed.],
-  quote-source: "Paraphrasing G. T. Schwartz, \"The Myth of the Ford Pinto Case,\" 1991",
-  le-insight: [
-    The Pinto is the founding Designed-Out ethics case — and a lesson in
-    accuracy. The popular cost-benefit story is largely myth, but the
-    designed-out capability (rear-impact survivability, traded against cost
-    and packaging) was real, and Ford was held liable for it. LENS keeps the
-    case for both halves: how cost quietly removes safety capability, and how
-    a case can be mythologized into something easier to repeat than to learn
-    from.
-  ],
-  lens-approach: [
-    LENS uses the Pinto in LEN 7 as the foundational engineering-ethics
-    case and in LEN 1 as a problem-framing case for what happens when
-    safety capability is treated as a cost line item.
-  ],
-  literature-items: (
-    [Dowie (1977), _Mother Jones_],
-    [Birsch & Fielder (eds.) _The Ford Pinto Case_ (1994)],
-    [Vandenberg, _The Engineering Ethics_ casebook],
-  ),
-  reflection-list: (
-    [Identify a current product in your domain where a safety capability is being priced against expected litigation. Whose signature would close that decision?],
-    [Design the regulatory deliverable that would have made the Pinto cost-benefit calculation unworkable in 1971.],
-    [The Pinto failure came not from one villainous choice but from many small trades against cost and weight that no one owned as a requirement. Map such an accumulation in a current program and name who should hold the safety capability as an explicit, non-tradable line.],
-  ),
-  approaches: (
-    during: (
-      [Make rear-impact survivability — or its equivalent safety capability — an explicit, owned requirement that cost and weight targets must be reconciled against, not silently traded away under schedule pressure.],
-      [Treat the company's own crash-test evidence of a hazard as a design gate: a known vulnerability with a cheap fix cannot pass to production unaddressed.],
-      [Bring an inexpensive mitigation (a shield, a revised tank position) into the design before ship rather than weighing it against expected litigation after.],
-    ),
-    after: (
-      [Audit fielded products against the failure modes the company's testing already revealed, so a known hazard is fixed by recall before it accumulates a casualty record.],
-      [Use the value-of-a-statistical-life calculation honestly — as a tool to justify fixing hazards, not to defend leaving them — and document the reasoning where it can be reviewed.],
-      [Guard the case's lesson against its own myth: review failures for the ordinary accumulation of cost trades, not just for a single bad actor who is easy to disown.],
-    ),
-  ),
-  courses: ("LEN 1", "LEN 7", "LEN 6",),
-  scale: "big",
-)
+
 
 #case(
-  number: 21,
+  number: 20,
   slug: "takata-airbag-inflators",
   title: "Takata Airbag Inflators",
   year: "2008 – 2023",
@@ -827,7 +676,7 @@
 )
 
 #case(
-  number: 22,
+  number: 21,
   slug: "gm-ignition-switch",
   title: "GM Ignition Switch",
   year: "2002 – 2014",
@@ -974,7 +823,7 @@
 )
 
 #case(
-  number: 23,
+  number: 22,
   slug: "mars-climate-orbiter-unit-mismatch",
   title: "Mars Climate Orbiter — Unit Mismatch",
   year: "1999",
@@ -1118,7 +967,7 @@
 )
 
 #case(
-  number: 24,
+  number: 23,
   slug: "knight-capital-trading-loss",
   title: "Knight Capital Trading Loss",
   year: "2012",
@@ -1245,7 +1094,7 @@
   quote-source: "Paraphrasing the SEC Order against Knight Capital, 2013",
   le-insight: [
     Knight Capital is the financial-industry version of Mars Climate
-    Orbiter (Case 23): a small, unspecified boundary inside a large
+    Orbiter (Case 22): a small, unspecified boundary inside a large
     system that took the institution down. The capability that was
     missing was deployment verification. The dead code was the
     proximate trigger; the absent procedure was the cause.
@@ -1257,7 +1106,7 @@
     deployment deliverable that would have caught the eighth
     server — and in LEN 9 for the technical-debt argument: every
     line of dead code carries an option on a future failure.
-    Adjacent to Mars Climate Orbiter (Case 23) at the small-
+    Adjacent to Mars Climate Orbiter (Case 22) at the small-
     boundary-no-owner layer and to Regulation SCI as the
     institutional response that codified the missing controls.
   ],

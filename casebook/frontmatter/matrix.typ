@@ -100,7 +100,7 @@
       *Parts.* Part II — *What Works* — opens at Chapter 8 with the
       paired-intervention successes. Part III — *The Frontier* —
       and the contemporary expansion carry the human-AI teaming cases;
-      the open question closes the volume at Case 202.
+      the open question closes the volume at Case 194.
     ]
   }
 )

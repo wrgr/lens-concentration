@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 89,
+  number: 84,
   slug: "va-wait-time-scandal",
   title: "VA Wait-Time Scandal",
   year: "2014",
@@ -169,7 +169,7 @@
 )
 
 #case(
-  number: 90,
+  number: 85,
   slug: "gift-and-the-adoption-gap",
   title: "GIFT and the Adoption Gap",
   year: "2012 – present",
@@ -312,7 +312,7 @@
 )
 
 #case(
-  number: 91,
+  number: 86,
   slug: "xapi-total-learning-architecture",
   title: "xAPI / Total Learning Architecture — Interoperability Gap",
   year: "ongoing",
@@ -332,7 +332,7 @@
     data sharing that matters most for high-consequence domains has not
     materialized at scale. The technical standard exists and reference
     implementations exist; what lags is governance — who owns the data, what
-    consent applies, how quality is assured. xAPI mirrors inBloom (Case 46) in
+    consent applies, how quality is assured. xAPI mirrors inBloom (Case 45) in
     structure — technology ahead of governance — across the whole
     learning-technology ecosystem. It is the book's case for treating data
     governance as a capability deliverable.
@@ -386,7 +386,7 @@
     ],
     // -- Open Problems --
     [
-      xAPI mirrors inBloom (Case 46) in essential structure — technology in
+      xAPI mirrors inBloom (Case 45) in essential structure — technology in
       advance of governance — but across the whole learning-technology
       ecosystem rather than one initiative.#cn() It is the book's clearest
       case that an interoperability standard is necessary but not sufficient:
@@ -410,7 +410,7 @@
     [xAPI specification (#link("https://xapi.com/")[xapi.com]) — the technical standard and reference implementations.],
     [IEEE ICICLE proceedings on TLA adoption challenges — the persistence of siloed implementations.],
     [B. Saxberg, learning-engineering infrastructure essays; IEEE ICICLE LEBoK chapters on data and analytics.],
-    [Cf. inBloom (Case 46) — technology in advance of governance.],
+    [Cf. inBloom (Case 45) — technology in advance of governance.],
   ),
   quote: [The standard exists. The governance does not.],
   quote-source: "Editors' synthesis of ICICLE / ADL TLA discussion",
@@ -456,7 +456,7 @@
 )
 
 #case(
-  number: 92,
+  number: 87,
   slug: "implementation-science-in-healthcare",
   title: "Implementation Science in Healthcare — The 17-Year Gap",
   year: "ongoing",
@@ -503,7 +503,7 @@
     // -- The Capability Question --
     [
       This is not a single case but a systemic condition — the same
-      structural problem the medical-error data (Case 100) describes from the
+      structural problem the medical-error data (Case 93) describes from the
       outcome side. Effective interventions exist; the institutional system
       to adopt, sustain, adapt, and measure them at scale does not.#cn()
       Where the medical-error data counts the harm at the far end of the
@@ -548,7 +548,7 @@
     [Z. Morris, S. Wooding & J. Grant, "The answer is 17 years, what is the question," _J. Royal Society of Medicine_ (2011) (quoted).],
     [D. Fixsen et al., _Implementation Research: A Synthesis of the Literature_ (2005) — the Active Implementation Frameworks.],
     [G. Aarons et al. (2011), the EPIS framework; L. Damschroder et al. (2009), CFIR.],
-    [Cf. medical error as systemic failure (Case 100); Goodell & Kolodner, _Learning Engineering Toolkit_ (2022).],
+    [Cf. medical error as systemic failure (Case 93); Goodell & Kolodner, _Learning Engineering Toolkit_ (2022).],
   ),
   quote: [The answer is 17 years. What is the question?],
   quote-source: "Morris, Wooding & Grant, J Royal Soc Med, 2011",
@@ -593,7 +593,7 @@
 )
 
 #case(
-  number: 93,
+  number: 88,
   slug: "nasa-saturn-v-documentation",
   title: "NASA Saturn V Documentation",
   year: "1972 – present",
@@ -741,7 +741,7 @@
 )
 
 #case(
-  number: 94,
+  number: 89,
   slug: "boeing-starliner",
   title: "Boeing Starliner",
   year: "2019 – 2024",
@@ -825,7 +825,7 @@
       NASA leaned harder on independent reviews and on SpaceX as the reliable
       alternative, and the episode sharpened questions about how to
       sustain — and verify — capability at sole-source and legacy
-      suppliers.#cn() It pairs with Saturn V (Case 93): where that case lost
+      suppliers.#cn() It pairs with Saturn V (Case 88): where that case lost
       a capability to retirement, Starliner shows the same erosion in slow
       motion at a living institution still carrying the brand of the
       capability it had let thin. Having a second supplier to fall back on is
@@ -847,7 +847,7 @@
     [NASA reviews and reporting on the Starliner test program — issues across software, valves, propulsion, and integration testing (editors' synthesis).],
     [NASA Aerospace Safety Advisory Panel reports (2020–2024) — the institutional and generational factors.],
     [The 2024–2025 return of the Starliner crew aboard a SpaceX vehicle.],
-    [Cf. Saturn V (Case 93); N. Augustine, _Augustine's Laws_ (1986).],
+    [Cf. Saturn V (Case 88); N. Augustine, _Augustine's Laws_ (1986).],
   ),
   quote: [Starliner has demonstrated significant readiness shortfalls across multiple engineering disciplines.],
   quote-source: "Editors' synthesis of GAO and NASA reviews of the Commercial Crew Program",
@@ -890,7 +890,7 @@
 )
 
 #case(
-  number: 95,
+  number: 90,
   slug: "ariane-5-flight-501",
   title: "Ariane 5 Flight 501",
   year: "1996",
@@ -977,7 +977,7 @@
       reuse became a verification event, with explicit checking of every
       inherited assumption against the new system's operating
       conditions.#cn() The case rhymes with the Patriot (Case 19) and the
-      Mars Climate Orbiter (Case 23) — small, unexamined assumptions
+      Mars Climate Orbiter (Case 22) — small, unexamined assumptions
       inherited across a boundary, fatal when the boundary's conditions
       changed. What unites the three is that each inherited a quantity sound
       in its original setting and lethal in the new one, so the reform is the
@@ -998,7 +998,7 @@
     [Lions Report (1996) — the 64-bit-to-16-bit conversion overflow and the simultaneous shutdown of both inertial reference systems.],
     [Lions Report (1996) — the reused code path neither removed nor re-verified for Ariane 5's envelope.],
     [N. Leveson, _Safeware_ (1995) — software-reuse hazards; G. Le Lann, "An Analysis of the Ariane 5 Flight 501 Failure" (1997).],
-    [Cf. Patriot (Case 19) and Mars Climate Orbiter (Case 23).],
+    [Cf. Patriot (Case 19) and Mars Climate Orbiter (Case 22).],
   ),
   quote: [The internal SRI software exception was caused during execution of a data conversion from 64-bit floating point to 16-bit signed integer value.],
   quote-source: "Ariane 5 Flight 501 Failure Inquiry Board, 1996",
@@ -1040,309 +1040,12 @@
   scale: "big",
 )
 
-#case(
-  number: 96,
-  slug: "tacoma-narrows-bridge",
-  title: "Tacoma Narrows Bridge",
-  year: "1940",
-  domains-list: ("industrial",),
-  modes-code: "DK",
-  impact: "Bridge collapsed in ~40 mph wind four months after opening; foundational case in aeroelasticity and structural-engineering pedagogy",
-  diagram: dgm.dgm-stat(
-    "4 mo.",
-    "from opening to collapse",
-    micro: "aeroelastic flutter — a failure mode the discipline had not yet learned to recognize",
-    caption: "Tacoma Narrows — a discipline-level learning event",
-  ),
-  kind: "failure",
-  summary: [
-    The Tacoma Narrows Bridge over Puget Sound twisted itself apart on 7
-    November 1940, four months after opening, in a wind no stronger than a
-    stiff breeze and well within its design speed. The piers and cables were
-    sound; the failure mode was aeroelastic flutter — a wind-driven
-    oscillation that the bridge's slender, shallow deck (chosen for elegance
-    and economy over a deeper, stiffer truss) was prone to, and that the
-    discipline had not yet learned to recognize in long-span suspension
-    bridges. No one died, and the collapse was captured on film shown to
-    nearly every civil-engineering student since. The cost of the lesson was
-    a bridge; the payoff is that no comparable bridge has failed the same
-    way. Tacoma Narrows is the book's clearest example of an entire
-    discipline learning permanently from one failure.
-  ],
-  sections: (
-    // -- Background --
-    [
-      The Tacoma Narrows Bridge, opened in July 1940 across Puget Sound, used
-      a slender, shallow deck chosen for elegance and economy over an earlier
-      proposal for a deeper, stiffer stiffening truss. It was sound by the
-      design knowledge of its day.#cn() The choice was a deliberate trade of
-      a deeper, stiffer truss for a slimmer, cheaper, more elegant deck — and
-      every analysis the discipline then had to bring to bear judged the
-      result safe, which is what makes the collapse a failure of the available
-      knowledge rather than of the calculation.
-    ],
-    // -- What Happened --
-    [
-      On 7 November 1940, in a wind of only about 40 mph — well within what
-      the bridge was designed for — the deck began to twist in growing
-      oscillations until it tore itself apart and fell into the sound. The
-      piers held and the cables held; the deck destroyed itself.#cn() That the
-      piers and cables survived is the diagnostic detail: the structure did
-      not fail where engineers knew to look but in the slender deck, and not
-      under an extreme load but in an ordinary wind the bridge was expressly
-      built to withstand, which is why the cause lay outside what could then
-      be calculated.
-    ],
-    // -- The Investigation --
-    [
-      The failure mode was aeroelastic flutter — a wind-driven,
-      self-amplifying oscillation — that had not been recognized as a design
-      hazard for long-span suspension bridges. The bridge had not been
-      designed against the thing that destroyed it because that thing was not
-      yet known to the discipline.#cn() Because the oscillation fed on itself,
-      a modest steady wind could pump ever more energy into the slender deck
-      until it tore apart — a self-amplifying mechanism nothing in the era's
-      static load analysis was equipped to anticipate, so no competent
-      designer of the day would have thought to check for it.
-    ],
-    // -- The Capability Gap --
-    [
-      Tacoma Narrows is the canonical case of a failure that was not the
-      engineer's fault but the discipline's not-yet-knowing. The missing
-      capability lived above any individual: a body of knowledge that did not
-      yet include flutter. It is the rarer, more hopeful kind of capability
-      gap — the one a profession can close by learning, rather than one a
-      single institution failed to manage.#cn() The distinction matters for
-      how the gap is closed: a failure of management is fixed by holding an
-      institution to what was already known, whereas a failure of the
-      discipline's knowledge can only be fixed by the whole profession
-      learning something it did not previously have.
-    ],
-    // -- Aftermath & Reform --
-    [
-      And the profession did learn: wind-tunnel testing of deck sections
-      became standard, aeroelasticity entered the curriculum, and the
-      collapse film became a permanent teaching artifact. No comparable
-      bridge has failed in the same mode since.#cn() The case is the book's
-      strongest evidence that discipline-level learning across an entire
-      profession is possible — and, set against the recurrence in
-      Challenger/Columbia (Case 26), a reminder of how rare it is to absorb a
-      lesson that completely. The reform worked because it lodged the new
-      knowledge in the field's permanent machinery — a required test, a
-      curriculum topic, a teaching film every student sees — rather than in
-      the memory of the engineers who happened to witness it.
-    ],
-  ),
-  beats: (
-    "The 1940 bridge used a slender shallow deck chosen for elegance and economy",
-    "A 40 mph wind twisted the deck apart while piers and cables held",
-    "Aeroelastic flutter was a self-amplifying oscillation static load analysis could not anticipate",
-    "The missing capability lived above any engineer in a discipline not yet knowing flutter",
-    "Wind-tunnel testing, aeroelasticity teaching, and the collapse film locked the lesson into the profession",
-  ),
-  references: (
-    [O. Ammann, T. von Kármán & G. Woodruff, _The Failure of the Tacoma Narrows Bridge_ (1941) — the failure inquiry.],
-    [The 7 Nov. 1940 collapse in a ~40 mph wind and the slender-deck design choice.],
-    [K. Y. Billah & R. Scanlan, "Resonance, Tacoma Narrows Bridge Failure, and Undergraduate Physics Textbooks," _American Journal of Physics_ (1991) — the aeroelastic-flutter analysis.],
-    [H. Petroski, _To Engineer Is Human_ (1985) — failure and disciplinary learning (quoted).],
-    [The incorporation of wind-tunnel testing and aeroelasticity into structural-engineering practice; cf. Argyris & Schön on discipline-level learning.],
-  ),
-  quote: [The bridge was not designed against the failure mode that destroyed it because that failure mode was not yet known to the discipline.],
-  quote-source: "Paraphrasing Petroski, To Engineer Is Human, 1985",
-  le-insight: [
-    Tacoma Narrows is the canonical case for a discipline-level
-    learning event. The failure was not the engineer's fault; it was
-    the discipline's not yet knowing. The discipline absorbed the
-    lesson permanently. The case is the strongest available evidence
-    that institutional learning across an entire profession is
-    possible — and rare.
-  ],
-  lens-approach: [
-    LENS uses Tacoma Narrows in LEN 1 as a problem-framing exemplar
-    for discipline-level learning, in LEN 8 as the canonical case for
-    successful institutional knowledge absorption, and in studio
-    (LEN 10) as a worked example of what discipline-level reform
-    requires.
-  ],
-  literature-items: (
-    [Petroski (1985), _To Engineer Is Human_],
-    [Ammann et al. (1941), failure inquiry report],
-    [Argyris & Schön (1996), _Organizational Learning II_],
-  ),
-  reflection-list: (
-    [Identify a failure mode in your discipline that the field has not yet learned to recognize. What would be the equivalent Tacoma Narrows event?],
-    [What institutional architecture absorbed the Tacoma Narrows lesson into the structural-engineering curriculum so durably? Describe its equivalent in your discipline.],
-    [Tacoma Narrows was a failure of the discipline's knowledge, not of one engineer's management. For a recent failure in your field, decide which kind it was — and explain how the fix differs depending on the answer.],
-  ),
-  approaches: (
-    during: (
-      [Test designs against dynamic and self-amplifying behavior, not only static loads, so an unfamiliar failure mode has a chance to reveal itself before fielding.],
-      [Treat a novel design choice — a slenderer deck, an untried configuration — as a reason to test beyond the standard envelope rather than to trust prior practice.],
-      [Build physical or model testing into the design process for any structure pushing past the regime where the discipline's analysis is proven.],
-    ),
-    after: (
-      [Lodge each hard-won lesson in the field's permanent machinery — required tests, curriculum, teaching artifacts — so it outlives the engineers who witnessed the failure.],
-      [Distinguish discipline-level gaps from management failures when reviewing an incident, since only the former requires the whole profession to learn something new.],
-      [Watch for novel structures operating where the discipline's knowledge is thin, and treat them as candidates for the next not-yet-recognized failure mode.],
-    ),
-  ),
-  courses: ("LEN 1", "LEN 8"),
-  scale: "big",
-)
+
+
+
 
 #case(
-  number: 97,
-  slug: "aliso-canyon-methane-leak",
-  title: "Aliso Canyon Methane Leak",
-  year: "2015 – 2016",
-  domains-list: ("energy",),
-  modes-code: "GNK",
-  impact: "Largest methane leak in U.S. history; ~8,000 households evacuated; ~100,000 tons of methane released",
-  diagram: dgm.dgm-stat(
-    "100K t",
-    "methane released over ~4 months",
-    micro: "legacy wells aging past the inspection regime designed for them",
-    caption: "Aliso Canyon — infrastructure outpacing its oversight",
-  ),
-  kind: "failure",
-  summary: [
-    In October 2015 a well at SoCalGas's Aliso Canyon underground gas-storage
-    field ruptured and could not be capped for nearly four months, releasing
-    roughly 100,000 tons of methane — the largest such leak in U.S. history,
-    equivalent to the annual emissions of half a million cars — and forcing
-    the evacuation of about 8,000 households in Porter Ranch. The root-cause
-    analysis found external corrosion of the well casing, a subsurface safety
-    valve removed in the 1970s and never replaced, and a pattern of deferring
-    integrity checks on the field's aging wells. The operator knew the wells
-    were old and their integrity uncertain; so did the regulator; the
-    inspection regime had not been engineered to catch the failure mode that
-    occurred. Aliso Canyon is the book's case for legacy infrastructure aging
-    past its oversight.
-  ],
-  sections: (
-    // -- Background --
-    [
-      SoCalGas's Aliso Canyon facility stores natural gas underground in
-      depleted oil wells, some dating to the 1950s. Over decades the field's
-      wells aged while the regime for inspecting them did not keep pace — and
-      a subsurface safety valve on the well that would fail had been removed
-      in the 1970s and never replaced.#cn() Storing high-pressure gas in wells
-      first drilled for oil decades earlier meant the assets were being asked
-      to do a job their age had not been qualified for, while the one piece of
-      equipment that might have contained a downhole failure had been gone for
-      forty years without replacement.
-    ],
-    // -- What Happened --
-    [
-      In October 2015 well SS-25 ruptured and could not be capped for nearly
-      four months. About 100,000 tons of methane vented to the atmosphere —
-      the largest such leak in U.S. history, roughly the annual greenhouse
-      emissions of half a million cars — and some 8,000 households were
-      evacuated from the Porter Ranch neighborhood.#cn() That it took nearly
-      four months to cap a single well is its own measure of the gap: the
-      failure was not only unprevented but, once underway, beyond the
-      operator's ready means to stop, so the release ran on and the evacuation
-      of the Porter Ranch households stretched across the whole period.
-    ],
-    // -- The Investigation --
-    [
-      The Blade Energy root-cause analysis identified external corrosion of
-      the well casing as the failure — a known, inspectable mode the operator
-      had not adequately inspected.#cn() It also found missing safety
-      equipment and an institutional pattern of deferring integrity checks on
-      the older wells; SoCalGas knew the field's wells were aging and their
-      integrity uncertain, and so did the regulator.#cn() External corrosion
-      was not an exotic or unforeseeable mode but a familiar one with an
-      established inspection technique, so the failure turned on the deferral
-      itself: the pattern of putting off integrity checks on the oldest wells
-      meant the very inspections that existed to catch corrosion were the ones
-      not being done.
-    ],
-    // -- The Capability Gap --
-    [
-      Aliso Canyon is the case for legacy infrastructure aging past the
-      inspection regime designed for it. The wells were older than the
-      regulations governing them; the operator knew, the regulator knew, and
-      the capability deliverable to update the inspection regime to the
-      assets' actual engineering condition did not exist. Knowledge of the
-      risk was present everywhere except in the rules that would have acted
-      on it.#cn() The gap was therefore not one of awareness but of
-      translation: everyone holding the knowledge that the wells were past
-      their safe life lacked the mechanism to convert that knowledge into a
-      mandatory, updated inspection, so the awareness sat inert until the well
-      ruptured.
-    ],
-    // -- Aftermath & Reform --
-    [
-      The leak prompted tighter California rules for underground gas
-      storage — required inspections, pressure limits, and risk-management
-      plans — and a long fight over the field's future. The lesson pairs with
-      the chapter's other memory failures: an institution can hold the
-      knowledge that an asset is past its safe life and still not act, until
-      the rules that translate knowledge into inspection are themselves
-      rebuilt. Each of the new requirements addresses a specific part of the
-      failure — inspections for the uninspected corrosion, pressure limits for
-      the overtaxed old wells, risk plans for the deferral pattern — which is
-      what it looks like to rebuild the rules so that knowledge of an aging
-      asset is finally forced into action.
-    ],
-  ),
-  beats: (
-    "SoCalGas stored gas in 1950s oil wells whose subsurface safety valve was long removed",
-    "Well SS-25 ruptured in October 2015, venting 100,000 tons and evacuating thousands of households",
-    "External corrosion was a known inspectable mode the operator had deferred on aging wells",
-    "Operator and regulator both knew the wells were aging; no rule forced inspection",
-    "California tightened rules with required inspections, pressure limits, and risk-management plans",
-  ),
-  references: (
-    [Blade Energy Partners, _Aliso Canyon Root Cause Analysis_ (2019) — external corrosion of the well casing (quoted).],
-    [The leak record — ~100,000 tons of methane; ~8,000 households evacuated; the largest U.S. methane leak.],
-    [Blade Energy (2019) — the removed subsurface safety valve and the deferred integrity checks on aging wells.],
-    [S. Conley et al., "Methane emissions from the 2015 Aliso Canyon blowout," _Science_ (2016) — atmospheric measurement of the leak.],
-    [California Public Utilities Commission / CalGEM orders on underground gas storage after Aliso Canyon.],
-  ),
-  quote: [The leak resulted from external corrosion of the well casing — a known and inspectable failure mode that the operator did not adequately inspect.],
-  quote-source: "Paraphrasing Blade Energy Partners, Aliso Canyon Root Cause Analysis, 2019",
-  le-insight: [
-    Aliso Canyon is the case for legacy infrastructure aging past the
-    inspection regime designed for it. The wells were older than the
-    inspection regulations. The operator knew. The regulator knew.
-    The capability deliverable to update the inspection regime did
-    not exist.
-  ],
-  lens-approach: [
-    LENS uses Aliso Canyon in LEN 7 for regulatory-architecture
-    capability and in LEN 8 for the institutional pattern of legacy
-    assets aging past the regime governing them.
-  ],
-  literature-items: (
-    [Blade Energy Partners Report (2019)],
-    [Conley et al. (2016), Science],
-    [California PUC orders on Aliso Canyon],
-  ),
-  reflection-list: (
-    [Identify legacy infrastructure in your domain whose age exceeds the inspection regime designed for it. What is the capability deliverable to update the regime?],
-    [Design the regulator's deliverable that would force re-inspection of legacy infrastructure as the inspection regime is updated.],
-    [At Aliso Canyon the operator and the regulator both knew the wells were aging, yet the knowledge sat inert because nothing translated it into a mandatory inspection. Identify a known risk in your domain that everyone is aware of but no rule yet forces action on — and design the translation.],
-  ),
-  approaches: (
-    during: (
-      [Match the inspection regime to the asset's actual engineering condition and age, not to the rules written when the asset was new.],
-      [Require, not just permit, the safety equipment a hazard calls for — a removed subsurface valve left unreplaced is a designed-in failure path.],
-      [Build a mechanism that converts known risk into mandatory action, so awareness that an asset is aging cannot sit inert in the absence of a rule.],
-    ),
-    after: (
-      [Audit for deferred integrity checks on the oldest assets, since a familiar, inspectable failure mode going uninspected is the warning the system is slipping.],
-      [Re-qualify legacy infrastructure for the duty it now performs, especially where old assets have been repurposed beyond their original design intent.],
-      [Maintain ready means to arrest a failure once begun, so a rupture is not compounded by months of inability to cap it.],
-    ),
-  ),
-  courses: ("LEN 7", "LEN 8"),
-  scale: "big",
-)
-
-#case(
-  number: 98,
+  number: 91,
   slug: "eu-human-brain-project-top-down-vision",
   title: "EU Human Brain Project — Top-Down Vision That Unraveled",
   year: "2013 – 2023",
@@ -1365,7 +1068,7 @@
     decade-long funding commitment of about €1 billion, and a
     research community asked to align around the simulation goal. The
     case is drafted as the paired contrast to the BRAIN Initiative
-    (Case 128), not as a standalone study: the same era, the same
+    (Case 121), not as a standalone study: the same era, the same
     field-scale ambition, opposite governance models, opposite
     trajectories. The evidence base is largely journalism — MIT
     Technology Review retrospective, _In Silico_ documentary, science
@@ -1403,7 +1106,7 @@
       the founding framing was not what it delivered.#cn()
     ],
     [
-      The case pairs directly with the BRAIN Initiative (Case 128).
+      The case pairs directly with the BRAIN Initiative (Case 121).
       The two programs launched within months of each other, at
       comparable field-scale ambition, in the same decade of
       neuroscience. The governance models were not comparable: BRAIN
@@ -1430,7 +1133,7 @@
       before publication. Future validation will continue.#cn()
     ],
     [
-      What the pair (Cases 128 + 108) teaches is that the governance
+      What the pair (Cases 121 + 108) teaches is that the governance
       model — distributed working-group with public-record
       contestation versus top-down single-PI with unified framing —
       is itself the variable that explains why one field-scale
@@ -1448,7 +1151,7 @@
     "Community contestation surfaces quickly: feasibility, leadership breadth, no scope-revision process",
     "EU commissions mediation and restructuring; scope re-shaped around infrastructure platforms, not simulation",
     "Project runs to 2023 conclusion; founding framing is not what was delivered",
-    "Pair with BRAIN (Case 128): same era and ambition, opposite governance models, opposite trajectories — governance is the variable",
+    "Pair with BRAIN (Case 121): same era and ambition, opposite governance models, opposite trajectories — governance is the variable",
   ),
   approaches: (
     during: (
@@ -1467,13 +1170,13 @@
     [_In Silico_ (2020), documentary by Noah Hutton — long-form follow of Markram and the HBP through the contestation period.],
     [_Science_ and _Nature_ contemporaneous coverage of the open letters and the mediation/restructuring (2014–2016).],
     [Human Brain Project final reports (2023) — the project's own restructuring and concluding documentation.],
-    [Alivisatos et al. (2012), _Neuron_ — the BRAIN position paper that is the paired contrast (Case 128).],
+    [Alivisatos et al. (2012), _Neuron_ — the BRAIN position paper that is the paired contrast (Case 121).],
   ),
   quote: [A program that cannot re-scope without external mediation is a program designed to fail open.],
   quote-source: "Editors' synthesis of the Human Brain Project record.",
   le-insight: [
     The EU Human Brain Project is the paired contrast to the BRAIN
-    Initiative (Case 128): same era, same field-scale ambition,
+    Initiative (Case 121): same era, same field-scale ambition,
     opposite governance models, opposite trajectories. Top-down
     single-PI governance with a unified framing did not survive
     community contestation; the program was mediated away from its
@@ -1484,7 +1187,7 @@
   lens-approach: [
     HBP is the field-scale failure case in the v2 corpus
     (induced 5.1; LENS D1+D4/PT4) drafted as the contrast to BRAIN
-    (Case 128). LENS uses the pair in Domain 1 (Systems Analysis)
+    (Case 121). LENS uses the pair in Domain 1 (Systems Analysis)
     for the governance-variable comparison and in Domain 4
     (Navigating Sociotechnical Constraints) for the
     contestation-absorption capability. The
@@ -1506,7 +1209,7 @@
 )
 
 #case(
-  number: 99,
+  number: 92,
   slug: "gao-weapon-system-sustainment-reviews",
   title: "GAO Weapon-System Sustainment Reviews — Operating Costs without Decision-Grade Data",
   year: "2022 (GAO-22-104533)",
@@ -1538,7 +1241,7 @@
     reporting cycles — and the decisions that should be
     grounded in those data are being made on evidence the
     auditor describes as insufficient. The case is the
-    sustainment-side companion to MIL-STD-1472H (Case 138):
+    sustainment-side companion to MIL-STD-1472H (Case 131):
     the standards layer produces engineered design
     requirements; the sustainment-data layer is where the
     operating evidence to manage those systems over decades is
@@ -1608,9 +1311,9 @@
     ],
     [
       What LENS takes from the case is the requirement-for-
-      requirements form. MIL-STD-1472H (Case 138) is the
+      requirements form. MIL-STD-1472H (Case 131) is the
       requirements-discipline mechanism for the design phase;
-      SUBSAFE (Case 130) is the certification-discipline
+      SUBSAFE (Case 123) is the certification-discipline
       mechanism for the sustainment phase of a specific
       capability boundary. The GAO finding identifies the
       gap that those mechanisms do not fill: the portfolio-
@@ -1642,7 +1345,7 @@
     after: (
       [Carry the "judgment under inadequate evidence" framing into portfolio-decision documentation. The decision-maker does not get to wait for the evidence architecture to be fixed; the case asks what minimum evidence quality is required to act and what hedges should be documented.],
       [Treat the GAO recommendation set as the structural-fix roadmap, with progress measured by the narrowing of the comparability gap in specific cost categories rather than by claims of overall improvement.],
-      [Pair the sustainment-evidence frontier with the design-side standards mechanism (Case 138) so the program understands both halves of the requirements architecture: design criteria for the equipment, evidence architecture for the portfolio.],
+      [Pair the sustainment-evidence frontier with the design-side standards mechanism (Case 131) so the program understands both halves of the requirements architecture: design criteria for the equipment, evidence architecture for the portfolio.],
     ),
   ),
   references: (
@@ -1665,8 +1368,8 @@
     GAO weapon-system sustainment is the portfolio-evidence-
     architecture frontier case (induced 1.4; LENS D1/PT4) — used
     in Domain 3 for the CLO *Judgment under inadequate
-    evidence* at portfolio scale. Pair with Case 138 and
-    Case 130.
+    evidence* at portfolio scale. Pair with Case 131 and
+    Case 123.
   ],
   literature-items: (
     [GAO-22-104533 (2022), Weapon System Sustainment],

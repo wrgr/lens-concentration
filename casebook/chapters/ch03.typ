@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 25,
+  number: 24,
   slug: "deepwater-horizon",
   title: "Deepwater Horizon",
   year: "2010",
@@ -182,9 +182,9 @@
     equipment; and in Domain 4 (Navigating Sociotechnical
     Constraints) for the OSHA-vs-EPA enforcement gap and the
     leasing-vs-safety regulator conflict the BSEE/BOEM split conceded.
-    Pair with Texas City (Case 28) on the
+    Pair with Texas City (Case 27) on the
     process-safety-vs-personal-safety inversion, and with Challenger /
-    Columbia (Case 26) on the multi-layer-drift form.
+    Columbia (Case 25) on the multi-layer-drift form.
   ],
   literature-items: (
     [National Commission (2011), _Deep Water: The Gulf Oil Disaster_],
@@ -215,7 +215,7 @@
 )
 
 #case(
-  number: 26,
+  number: 25,
   slug: "challenger-and-columbia",
   title: "Challenger & Columbia",
   year: "1986 / 2003",
@@ -227,7 +227,7 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "7.4",
-  lens-anchor: "D1/PT4",
+  lens-anchor: "D4/PT4",
   clo-anchor: "CLO-1, CLO-4",
   summary: [
     NASA lost two Space Shuttle crews to the same organizational pathology
@@ -373,9 +373,9 @@
     (Navigating Sociotechnical Constraints) for the governance
     failure that allowed a diagnosed pathology to persist and for
     the upward-channel design the CAIB called a piece of safety
-    hardware. Pair with Deepwater Horizon (Case 25) on the
-    multi-layer-drift form, and with Bhopal (Case 48) and Fukushima
-    (Case 33) on cumulative inadequacy in catastrophic-system
+    hardware. Pair with Deepwater Horizon (Case 24) on the
+    multi-layer-drift form, and with Bhopal (Case 47) and Fukushima
+    (Case 32) on cumulative inadequacy in catastrophic-system
     operations.
   ],
   literature-items: (
@@ -407,7 +407,7 @@
 )
 
 #case(
-  number: 27,
+  number: 26,
   slug: "v-22-osprey",
   title: "V-22 Osprey",
   year: "1991 – present",
@@ -559,7 +559,7 @@
 )
 
 #case(
-  number: 28,
+  number: 27,
   slug: "texas-city-bp-refinery-explosion",
   title: "Texas City BP Refinery Explosion",
   year: "2005",
@@ -700,7 +700,7 @@
     and in LEN 7 for the governance failure that allowed years of
     cost-cutting to be reported as wins. Studio projects design the
     process-safety measurement deliverable BP's executives should
-    have been receiving in 2003. Adjacent to Wells Fargo (Case 57)
+    have been receiving in 2003. Adjacent to Wells Fargo (Case 54)
     at the measurement-system-blind-to-the-real-failure-mode layer.
   ],
   literature-items: (
@@ -734,7 +734,7 @@
 )
 
 #case(
-  number: 29,
+  number: 28,
   slug: "davis-besse-reactor-head-corrosion",
   title: "Davis-Besse Reactor Head Corrosion",
   year: "2002",
@@ -886,7 +886,7 @@
 )
 
 #case(
-  number: 30,
+  number: 29,
   slug: "mid-staffordshire-nhs-foundation-trust",
   title: "Mid Staffordshire NHS Foundation Trust",
   year: "2005 – 2009",
@@ -952,7 +952,7 @@
     ],
     // -- The Capability Gap --
     [
-      Mid Staffs is the British analog of the VA wait-time scandal (Case 89):
+      Mid Staffs is the British analog of the VA wait-time scandal (Case 84):
       measurement and reality diverged over years while every layer of
       governance acted on the measurement. The capability that was missing
       was not clinical skill on the ward but the institutional habit of
@@ -989,13 +989,13 @@
     [Francis QC (2013) — the ~2,000-page report and 290 recommendations.],
     [Francis QC (2013) — "the system as a whole failed in its most essential duty — to protect patients from unacceptable risks of harm" (quoted).],
     [D. Berwick, _A Promise to Learn — A Commitment to Act_ (National Advisory Group on the Safety of Patients in England, 2013).],
-    [K. Walshe & J. Higgins (2002) on NHS safety governance; cf. the VA wait-time scandal (Case 89).],
+    [K. Walshe & J. Higgins (2002) on NHS safety governance; cf. the VA wait-time scandal (Case 84).],
   ),
   quote: [The system as a whole failed in its most essential duty — to protect patients from unacceptable risks of harm.],
   quote-source: "Robert Francis QC, Report of the Mid Staffordshire NHS Foundation Trust Public Inquiry, 2013",
   le-insight: [
     Mid Staffordshire is the British analog of the VA wait-time scandal
-    (Case 89). Measurement and reality diverged over years; every layer
+    (Case 84). Measurement and reality diverged over years; every layer
     of governance above the operating environment was acting on the
     measurement; patients paid the cost of the divergence. The Francis
     Inquiry recommendations changed how the NHS thinks about patient
@@ -1035,7 +1035,7 @@
 )
 
 #case(
-  number: 31,
+  number: 30,
   slug: "sago-mine-disaster",
   title: "Sago Mine Disaster",
   year: "2006",
@@ -1152,7 +1152,7 @@
   lens-approach: [
     LENS uses Sago in LEN 5 for cumulative-inadequacy analysis and in
     LEN 8 for the legislative-reform arc that followed. Studio projects
-    compare Sago and Upper Big Branch (Case 32) as paired cases.
+    compare Sago and Upper Big Branch (Case 31) as paired cases.
   ],
   literature-items: (
     [MSHA Sago report (2007)],
@@ -1182,7 +1182,7 @@
 )
 
 #case(
-  number: 32,
+  number: 31,
   slug: "upper-big-branch-mine-explosion",
   title: "Upper Big Branch Mine Explosion",
   year: "2010",
@@ -1336,7 +1336,7 @@
 )
 
 #case(
-  number: 33,
+  number: 32,
   slug: "fukushima-daiichi",
   title: "Fukushima Daiichi",
   year: "2011",
@@ -1408,7 +1408,7 @@
     ],
     // -- The Capability Gap --
     [
-      Fukushima is the post-TMI case showing that the INPO pattern (Case 114)
+      Fukushima is the post-TMI case showing that the INPO pattern (Case 107)
       is not self-executing. The U.S. industry built INPO to force operating
       discipline and shared learning; the Japanese industry did not build an
       equivalent with the independence to override a utility's optimistic
@@ -1447,13 +1447,13 @@
     [NAIIC (2012) — the "made in Japan" cultural and regulatory-capture conclusion (quoted).],
     [Investigation Committee on the Accident (Hatamura government commission, 2012); IAEA Director General, _The Fukushima Daiichi Accident_ (2015) — external-hazard under-estimation.],
     [C. Lochbaum, E. Lyman & S. Stranahan, _Fukushima: The Story of a Nuclear Disaster_ (2014).],
-    [Y. Funabashi & K. Kitazawa, _Fukushima in Review_ (2012); cf. INPO (Case 114) and Davis-Besse (Case 29).],
+    [Y. Funabashi & K. Kitazawa, _Fukushima in Review_ (2012); cf. INPO (Case 107) and Davis-Besse (Case 28).],
   ),
   quote: [What must be admitted — very painfully — is that this was a disaster \"Made in Japan.\"],
   quote-source: "National Diet of Japan Fukushima Nuclear Accident Independent Investigation Commission, 2012",
   le-insight: [
     Fukushima is the post-TMI case that establishes that the INPO
-    pattern (Case 114) is not self-executing. The U.S. industry built
+    pattern (Case 107) is not self-executing. The U.S. industry built
     INPO; the Japanese industry did not. The cost of the difference,
     paid in 2011, is the strongest available evidence that capability
     institutions must be deliberately built, not assumed.
@@ -1492,7 +1492,7 @@
 )
 
 #case(
-  number: 34,
+  number: 33,
   slug: "northeast-blackout",
   title: "Northeast Blackout",
   year: "2003",

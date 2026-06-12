@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 35,
+  number: 34,
   slug: "uss-vincennes-and-iran-air-flight-655",
   title: "USS Vincennes & Iran Air Flight 655",
   year: "1988",
@@ -188,7 +188,7 @@
     fails wherever automation is fast and the human is the last check.
     The case sits at the heart of the program's argument that
     interface design is a capability deliverable, not an aesthetic
-    one. Pair with EHR/CPOE (Case 36) at the
+    one. Pair with EHR/CPOE (Case 35) at the
     interface-built-to-wrong-specification layer.
   ],
   literature-items: (
@@ -217,7 +217,7 @@
 )
 
 #case(
-  number: 36,
+  number: 35,
   slug: "ehr-cpoe-implementation",
   title: "EHR / CPOE Implementation",
   year: "2005 – present",
@@ -373,7 +373,7 @@
 )
 
 #case(
-  number: 37,
+  number: 36,
   slug: "uber-atg-tempe-fatality",
   title: "Uber ATG / Tempe Fatality",
   year: "2018",
@@ -526,7 +526,7 @@
 )
 
 #case(
-  number: 38,
+  number: 37,
   slug: "eastern-air-lines-flight-401",
   title: "Eastern Air Lines Flight 401",
   year: "1972",
@@ -608,7 +608,7 @@
     // -- Aftermath & Reform --
     [
       Eastern 401 was one of the formative events behind Crew Resource
-      Management (Case 110) — the explicit allocation of monitoring and
+      Management (Case 103) — the explicit allocation of monitoring and
       cross-checking roles — and behind modern standards for prioritized
       cockpit alerting.#cn() Both reforms encode the same correction: CRM
       assigns someone to keep flying the aircraft while others troubleshoot,
@@ -632,7 +632,7 @@
     [NTSB-AAR-73-14 (1973) — the crew's preoccupation with the landing-gear indication that distracted them from maintaining altitude (paraphrased).],
     [C. D. Wickens et al., _Engineering Psychology and Human Performance_ — attention, monitoring, and alert design.],
     [R. Helmreich & H. Foushee (1993), aircrew-coordination research — the Crew Resource Management origins.],
-    [Eastern 401 as a formative case behind CRM (Case 110) and prioritized cockpit alerting standards.],
+    [Eastern 401 as a formative case behind CRM (Case 103) and prioritized cockpit alerting standards.],
   ),
   quote: [The crew became so engrossed in the landing-gear difficulty that they failed to maintain altitude.],
   quote-source: "Paraphrasing NTSB Aircraft Accident Report NTSB-AAR-73-14 on Eastern 401, 1973",
@@ -676,7 +676,7 @@
 )
 
 #case(
-  number: 39,
+  number: 38,
   slug: "boeing-737-rudder-hardovers",
   title: "Boeing 737 Rudder Hardovers",
   year: "1991, 1994",
@@ -825,7 +825,7 @@
 )
 
 #case(
-  number: 40,
+  number: 39,
   slug: "crowdstrike-falcon-outage",
   title: "CrowdStrike Falcon Outage",
   year: "2024",
@@ -915,7 +915,7 @@
       and the concentration-risk scrutiny acknowledges that a single vendor
       had become a shared point of failure for much of the economy. It is the
       cybersecurity-vendor analog of Knight
-      Capital (Case 24) — an unverified deployment to a system wired into
+      Capital (Case 23) — an unverified deployment to a system wired into
       critical operations — at a scale six orders of magnitude larger.
     ],
   ),
@@ -931,7 +931,7 @@
     [CrowdStrike PIR (2024) — the configuration-file logic error, the kernel crash, and ~8.5 million affected Windows machines.],
     [Microsoft resilient-engineering analyses and Windows kernel-access review (2024).],
     [U.S. GAO post-incident analysis and Senate Homeland Security hearings (2024) — concentration risk in endpoint security.],
-    [B. Beyer et al. (eds.), _Site Reliability Engineering_ (2016) — staged rollout and canarying; cf. Knight Capital (Case 24).],
+    [B. Beyer et al. (eds.), _Site Reliability Engineering_ (2016) — staged rollout and canarying; cf. Knight Capital (Case 23).],
   ),
   quote: [Our content configuration update process did not include the same depth of testing and staged rollout as our code releases.],
   quote-source: "Paraphrasing CrowdStrike Preliminary Post-Incident Review, July 2024",
@@ -978,7 +978,7 @@
 )
 
 #case(
-  number: 41,
+  number: 40,
   slug: "stanislav-petrov-1983-false-alert",
   title: "Stanislav Petrov / 1983 False Alert",
   year: "1983",
@@ -1133,7 +1133,7 @@
 )
 
 #case(
-  number: 42,
+  number: 41,
   slug: "tsb-bank-it-migration",
   title: "TSB Bank IT Migration",
   year: "2018",
@@ -1220,7 +1220,7 @@
       merely the platform was the right diagnosis: the failure had been one
       of who could say "stop" and be heeded, so the durable fix had to live
       in the decision structure rather than the code. It is the financial-sector analog of
-      Healthcare.gov (Case 47): a large migration shipped without the testing
+      Healthcare.gov (Case 46): a large migration shipped without the testing
       the institution knew it needed, because schedule pressure overrode a
       technical signal that had no authority to win.
     ],
@@ -1238,7 +1238,7 @@
     [Slaughter and May (2019) — inadequate load testing and an unchallenged readiness certification.],
     [Financial Conduct Authority, Final Notice on TSB Bank (2022) — the regulatory penalty and proceeding against technical advice.],
     [House of Commons Treasury Committee, report on the TSB IT migration (2018).],
-    [Cf. Healthcare.gov (Case 47) and the migration-safety literature.],
+    [Cf. Healthcare.gov (Case 46) and the migration-safety literature.],
   ),
   quote: [The migration proceeded notwithstanding clear signals that the platform was not ready.],
   quote-source: "Paraphrasing the Slaughter and May Independent Review of the TSB migration, 2019",
@@ -1282,7 +1282,7 @@
 )
 
 #case(
-  number: 43,
+  number: 42,
   slug: "nasa-eva-23-water-intrusion-inside-a",
   title: "NASA EVA-23 — Water Intrusion Inside a Spacesuit",
   year: "2013",
@@ -1434,8 +1434,8 @@
     detection-by-skin-contact at the edge of the engineered
     envelope, and in Domain 3 (Test and Evaluation) for the
     anomaly-investigation discipline the MIB pressed. Pair with
-    Case 132 (anesthesia monitoring) at the cue/alert-as-
-    capability layer and with Case 44 (F-22 OBOGS) as the
+    Case 125 (anesthesia monitoring) at the cue/alert-as-
+    capability layer and with Case 43 (F-22 OBOGS) as the
     aerospace companion in instrumentation-gap failure.
   ],
   literature-items: (
@@ -1452,7 +1452,7 @@
 )
 
 #case(
-  number: 44,
+  number: 43,
   slug: "f-22-obogs-hypoxia-the-sustainment-era",
   title: "F-22 OBOGS Hypoxia — The Sustainment-Era Instrumentation Gap",
   year: "2008 – 2012",
@@ -1608,9 +1608,9 @@
     and the bundle-of-corrections evaluation problem, and in
     Domain 5 (Machine Teaming and Adaptation) for the operator
     burden when an automatic action cuts a life-critical
-    supply. Pair with Case 43 (EVA-23) as the human-
+    supply. Pair with Case 42 (EVA-23) as the human-
     spaceflight instrumentation-gap companion and with
-    Case 132 (anesthesia monitoring) at the cue/alert-as-
+    Case 125 (anesthesia monitoring) at the cue/alert-as-
     capability layer.
   ],
   literature-items: (
@@ -1627,7 +1627,7 @@
 )
 
 #case(
-  number: 45,
+  number: 44,
   slug: "glass-cockpit-transition-in-light",
   title: "Glass-Cockpit Transition in Light Aircraft — Technology Outran Training",
   year: "2010",
@@ -1638,7 +1638,7 @@
   scale: "big",
   evidence-source: "investigation",
   induced-anchor: "7.1",
-  lens-anchor: "D5/PT1",
+  lens-anchor: "D1+D5/PT1",
   clo-anchor: "CLO-1, CLO-2",
   summary: [
     Glass cockpits — integrated digital primary flight displays and
@@ -1661,7 +1661,7 @@
     verdict. The case is the canonical 7.1 failure of an inherited
     capability regime (pilot proficiency) not being re-verified
     against the new envelope the technology transition introduced.
-    Pair with the aging-system transitions in Cases 145–148
+    Pair with the aging-system transitions in Cases 138–141
     (drafted in parallel).
   ],
   sections: (
@@ -1727,7 +1727,7 @@
     ],
     [
       Drafted alongside the aging-system transitions in Cases
-      145–148, the glass-cockpit GA study carries the
+      138–141, the glass-cockpit GA study carries the
       capability-under-system-change pattern at the
       consumer-aviation scale where the analog cases run at the
       defense and commercial-aviation scale. The structural
@@ -1758,7 +1758,7 @@
     after: (
       [Preserve the NTSB's open-verdict language ("can increase the safety potential ... not yet realized in the period studied") in any report on the transition's outcome; the study did not say glass is unsafe, and the precise language is what makes the recommendation set actionable.],
       [Track implementation of the NTSB recommendation set (A-10-36 through A-10-40) as the engineering response to the open verdict; the verdict closes when the recommendations are implemented and the next round of evidence is collected.],
-      [Carry the structural lesson into adjacent transitions — aging-system transitions in Cases 145–148 — as evidence that the inherited certification of operator proficiency has to be re-verified against the new envelope across consumer, commercial, and defense scales.],
+      [Carry the structural lesson into adjacent transitions — aging-system transitions in Cases 138–141 — as evidence that the inherited certification of operator proficiency has to be re-verified against the new envelope across consumer, commercial, and defense scales.],
     ),
   ),
   references: (
@@ -1789,7 +1789,7 @@
     automation-induced failure modes (mode confusion,
     automation surprises, attention capture) the transition
     introduced. Pair with the aging-system transitions in
-    Cases 145–148 at the cross-scale capability-under-
+    Cases 138–141 at the cross-scale capability-under-
     change layer.
   ],
   literature-items: (

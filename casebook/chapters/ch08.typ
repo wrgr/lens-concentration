@@ -18,7 +18,7 @@
 )
 
 #case(
-  number: 110,
+  number: 103,
   slug: "crew-resource-management-and-cast",
   title: "Crew Resource Management & CAST",
   year: "1981 – present",
@@ -164,7 +164,7 @@
 )
 
 #case(
-  number: 111,
+  number: 104,
   slug: "who-surgical-safety-checklist",
   title: "WHO Surgical Safety Checklist",
   year: "2008 – present",
@@ -319,7 +319,7 @@
     artifact prototyped, a multi-site pilot, a measurement regime, and
     global scale-out — and in LEN 4 for the measurement architecture
     that made the pilot effect provable and the Ontario null
-    interpretable. Adjacent to SUBSAFE (Case 130) at the
+    interpretable. Adjacent to SUBSAFE (Case 123) at the
     mandatory-mechanism layer, where the artifact's authority is the
     intervention.
   ],
@@ -349,7 +349,7 @@
 )
 
 #case(
-  number: 112,
+  number: 105,
   slug: "keystone-icu-pronovost-checklist",
   title: "Keystone ICU / Pronovost Checklist",
   year: "2004 – present",
@@ -493,7 +493,7 @@
 )
 
 #case(
-  number: 113,
+  number: 106,
   slug: "navy-surface-warfare-readiness-reform",
   title: "Navy Surface Warfare Readiness Reform",
   year: "2018 – present",
@@ -639,7 +639,7 @@
 )
 
 #case(
-  number: 114,
+  number: 107,
   slug: "inpo-and-the-nuclear-academy",
   title: "INPO and the Nuclear Academy",
   year: "1979 – present",
@@ -782,7 +782,7 @@
 )
 
 #case(
-  number: 115,
+  number: 108,
   slug: "korean-air-safety-transformation",
   title: "Korean Air Safety Transformation",
   year: "2000 – present",
@@ -897,7 +897,7 @@
     LENS uses Korean Air in LEN 8 as the canonical organizational-
     learning case under cultural constraint and in LEN 2 as a CRM-
     extension case for high-power-distance contexts. The case is
-    paired in this book with the Toyota Andon Cord (Case 116) as
+    paired in this book with the Toyota Andon Cord (Case 109) as
     cultural intervention success stories.
   ],
   literature-items: (
@@ -928,7 +928,7 @@
 )
 
 #case(
-  number: 116,
+  number: 109,
   slug: "toyota-production-system-andon-cord",
   title: "Toyota Production System / Andon Cord",
   year: "1950s – present",
@@ -950,7 +950,7 @@
     problem-solving, and the codified "Five Whys" method. When the line
     stops at Toyota, the team treats it as a learning opportunity. The
     Andon Cord is the manufacturing twin of the Keystone nurse-authority
-    intervention (Case 112).
+    intervention (Case 105).
   ],
   sections: (
     // -- Background --
@@ -1008,7 +1008,7 @@
       interventions and technical artifacts are inseparable — the cord
       means nothing without the protected authority to pull it, and vice
       versa. It is the manufacturing counterpart of the Keystone nurse-stop
-      authority (Case 112): same logic, different industry, same
+      authority (Case 105): same logic, different industry, same
       load-bearing element, and the same failure mode when only the
       artifact is copied. That the identical pattern recurs across
       manufacturing and medicine is what elevates it from a Toyota practice
@@ -1074,7 +1074,7 @@
 )
 
 #case(
-  number: 117,
+  number: 110,
   slug: "teamstepps",
   title: "TeamSTEPPS",
   year: "2006 – present",
@@ -1086,7 +1086,7 @@
   summary: [
     TeamSTEPPS — developed jointly by the Agency for Healthcare Research
     and Quality and the Department of Defense and released in 2006 — is the
-    healthcare analog of Crew Resource Management (Case 110): an
+    healthcare analog of Crew Resource Management (Case 103): an
     evidence-based team-training framework distilled from fifty years of
     aviation, military, and nuclear research and adapted for clinical
     settings. It trains four core competencies: communication, leadership,
@@ -1222,7 +1222,7 @@
 )
 
 #case(
-  number: 118,
+  number: 111,
   slug: "u-s-nuclear-navy-rickover-training-model",
   title: "U.S. Nuclear Navy / Rickover Training Model",
   year: "1954 – present",
@@ -1301,7 +1301,7 @@
       The cleanest test of the model is internal. The same Navy that
       engineered the nuclear program to this standard let surface-warfare
       training decay to CD-ROM self-study and paid the price at Fitzgerald
-      and McCain (Cases 1 and 113). Same institution, same era, opposite
+      and McCain (Cases 1 and 106). Same institution, same era, opposite
       philosophies, radically different outcomes — the strongest available
       demonstration of capability treated as a system parameter versus
       deferred as a cost. The internal comparison controls for nearly
@@ -1372,7 +1372,7 @@
 )
 
 #case(
-  number: 119,
+  number: 112,
   slug: "georgia-state-university-predictive",
   title: "Georgia State University Predictive Analytics",
   year: "2012 – present",
@@ -1517,7 +1517,7 @@
 )
 
 #case(
-  number: 120,
+  number: 113,
   slug: "cognitive-tutor-carnegie-learning",
   title: "Cognitive Tutor / Carnegie Learning",
   year: "1990s – present",
@@ -1662,7 +1662,7 @@
 )
 
 #case(
-  number: 121,
+  number: 114,
   slug: "tylenol-recall",
   title: "Tylenol Recall",
   year: "1982",
@@ -1810,7 +1810,7 @@
 )
 
 #case(
-  number: 122,
+  number: 115,
   slug: "aviation-safety-reporting-system-asrs",
   title: "Aviation Safety Reporting System (ASRS)",
   year: "1976 – present",
@@ -1957,7 +1957,7 @@
 )
 
 #case(
-  number: 123,
+  number: 116,
   slug: "bristol-heart-babies-reform",
   title: "Bristol Heart Babies Reform",
   year: "1984 – present",
@@ -2044,7 +2044,7 @@
       Bristol is the foundational UK case for outcomes transparency as a
       paired-intervention deliverable, and its registry model has been
       extended across NHS specialties and influenced later national-quality
-      reforms. It pairs with Keystone ICU (Case 112) as healthcare-outcomes
+      reforms. It pairs with Keystone ICU (Case 105) as healthcare-outcomes
       interventions operating at different layers — the bedside protocol and
       the system-level measurement regime. The two layers are complementary
       rather than competing: Keystone changes what happens at the point of
@@ -2081,7 +2081,7 @@
     LENS uses Bristol in LEN 4 for outcomes-transparency as a paired-
     intervention deliverable and in LEN 7 for the institutional reform
     that made surgeon-level publication acceptable. The case pairs
-    with Keystone ICU (Case 112) as healthcare-outcomes interventions
+    with Keystone ICU (Case 105) as healthcare-outcomes interventions
     at different layers.
   ],
   literature-items: (
@@ -2112,7 +2112,7 @@
 )
 
 #case(
-  number: 124,
+  number: 117,
   slug: "singapore-airlines-safety-transformation",
   title: "Singapore Airlines Safety Transformation",
   year: "1980s – present",
@@ -2136,7 +2136,7 @@
     self-examination — operational changes, training updates, and public
     transparency about what had happened — that became a model in the
     literature on post-accident learning. The airline is the operational
-    successor to Korean Air (Case 115): an Asian carrier that engineered its
+    successor to Korean Air (Case 108): an Asian carrier that engineered its
     safety capability deliberately and sustained the investment as a
     competitive differentiator, not only in response to crisis.
   ],
@@ -2195,7 +2195,7 @@
     [
       Singapore Airlines is the case for sustained capability investment
       under competitive pressure, and the operational successor to Korean
-      Air (Case 115): where Korean Air is a transformation forced by crisis,
+      Air (Case 108): where Korean Air is a transformation forced by crisis,
       Singapore Airlines is deliberate investment sustained without one.
       Together they show two routes — crisis-driven and voluntary — to the
       same engineered safety capability. The voluntary route is the harder
@@ -2231,7 +2231,7 @@
   lens-approach: [
     LENS uses Singapore Airlines in LEN 8 for sustained institutional
     capability investment under competitive pressure. The case pairs
-    with Korean Air (Case 115) as Asian-carrier capability stories of
+    with Korean Air (Case 108) as Asian-carrier capability stories of
     different shapes — one transformation under crisis, the other
     sustained investment without crisis.
   ],
@@ -2262,7 +2262,7 @@
 )
 
 #case(
-  number: 125,
+  number: 118,
   slug: "trews-sepsis-watch",
   title: "TREWS / Sepsis Watch",
   year: "2018 – 2022",
@@ -2294,7 +2294,7 @@
     the alert actionable at the bedside. The honest hedge in the literature
     is that the evidence is prospective and observational, not RCT; the
     field notes RCTs are still pending. The case is the positive counter to
-    the Epic Sepsis Model (Case 65): same delegation task, opposite outcome,
+    the Epic Sepsis Model (Case 60): same delegation task, opposite outcome,
     and the difference is in the engineering of the human–machine boundary
     and the discipline of the surrounding evidence work.
   ],
@@ -2341,7 +2341,7 @@
     ],
     [
       What TREWS teaches is that the failure pattern of clinical AI
-      (Case 190) is not inevitable. When the model is treated as one
+      (Case 182) is not inevitable. When the model is treated as one
       component of a deliberately designed human–machine system — with an
       alert that fits the workflow, a clinician role that retains
       authority, a deployment that is observed prospectively, and a
@@ -2398,7 +2398,7 @@
     judgment-under-inadequate-evidence CLO, and in Domain 4
     (Navigating Sociotechnical Constraints) for the workflow-fit
     discipline. It is the foil drafted directly against the Epic
-    Sepsis Model (Case 65).
+    Sepsis Model (Case 60).
   ],
   literature-items: (
     [Adams et al. (2022), _Nature Medicine_],
@@ -2414,7 +2414,7 @@
 )
 
 #case(
-  number: 126,
+  number: 119,
   slug: "removing-the-race-coefficient-from-egfr",
   title: "Removing the Race Coefficient from eGFR",
   year: "2021",
@@ -2444,8 +2444,8 @@
     commentaries, is that the new equation introduces a small bias
     for all groups, the disparities effect *remains unknown*, and the
     case is the construct-definition act, not a closed outcome
-    proof. It pairs with pulse oximetry (Case 127) and pain
-    assessment (Case 68) as the trio of "what counts as the same
+    proof. It pairs with pulse oximetry (Case 120) and pain
+    assessment (Case 63) as the trio of "what counts as the same
     patient across race."
   ],
   sections: (
@@ -2502,9 +2502,9 @@
       deliverables are construct-definition acts: choosing what gets
       predicted and what counts as the same patient is the design
       decision, not a downstream remediation. It pairs with pulse
-      oximetry (Case 127), where the failure was in the validation
+      oximetry (Case 120), where the failure was in the validation
       architecture rather than the equation; and with pain assessment
-      (Case 68), where the failure was in clinician-held false beliefs
+      (Case 63), where the failure was in clinician-held false beliefs
       rather than the instrument. The trio together is the case-grounded
       basis for the CLO *Gap attribution* — distinguishing capability
       gaps attributable to human development, system design, and
@@ -2550,15 +2550,15 @@
   ],
   lens-approach: [
     eGFR is the construct-definition equity intervention in the
-    race-construct trio (Cases 126, 127 and 68). LENS uses it in Domain 3
+    race-construct trio (Cases 119, 120 and 63). LENS uses it in Domain 3
     (Test and Evaluation) for the CLO *Gap attribution* —
     attributing the gap to construct definition, not to clinicians
     or patients — and in Domain 4 (Navigating Sociotechnical
     Constraints) for the governance process that revised the
-    standard. Direct trio with Case 127 (pulse oximetry — the
-    validation-architecture mechanism) and Case 68 (pain
+    standard. Direct trio with Case 120 (pulse oximetry — the
+    validation-architecture mechanism) and Case 63 (pain
     assessment — the human-development mechanism). Adjacent to the
-    lending pair (Cases 66–67) at a different layer.
+    lending pair (Cases 61–62) at a different layer.
   ],
   literature-items: (
     [Delgado et al. (2021), _American Journal of Kidney Diseases_],
@@ -2574,7 +2574,7 @@
 )
 
 #case(
-  number: 127,
+  number: 120,
   slug: "pulse-oximetry-across-skin-tones",
   title: "Pulse Oximetry Across Skin Tones",
   year: "1990 – 2020 – 2025",
@@ -2660,7 +2660,7 @@
       and that the capability deliverable is a validation architecture
       that surfaces group-specific failure modes by stratifying outcome
       metrics by relevant demographic characteristics. Pulse oximetry
-      pairs with eGFR (Case 126) and pain assessment (Case 68) in the
+      pairs with eGFR (Case 119) and pain assessment (Case 63) in the
       race-construct trio. The mechanisms are distinct — eGFR is
       construct definition; pulse oximetry is validation architecture;
       Hoffman is clinician-held false belief — and the case-grounded
@@ -2706,15 +2706,15 @@
   ],
   lens-approach: [
     Pulse oximetry is the validation-architecture intervention in
-    the race-construct trio (Cases 126, 127 and 68). LENS uses it in
+    the race-construct trio (Cases 119, 120 and 63). LENS uses it in
     Domain 3 (Test and Evaluation) for the CLO *Gap
     attribution* — the gap is in the validation architecture, not
     the device or the clinician — and in Domain 4 (Navigating
     Sociotechnical Constraints) for the FDA clearance / device
-    oversight regime. Adjacent to Case 190 (radiology AI
+    oversight regime. Adjacent to Case 182 (radiology AI
     miscalibration), which is the same diagnosis at a different
     technological boundary, and to the Epic Sepsis Model
-    (Case 65) for the post-deployment-surveillance pattern.
+    (Case 60) for the post-deployment-surveillance pattern.
   ],
   literature-items: (
     [Sjoding et al. (2020), _NEJM_],
@@ -2730,7 +2730,7 @@
 )
 
 #case(
-  number: 128,
+  number: 121,
   slug: "launching-the-brain-initiative",
   title: "Launching the BRAIN Initiative — Governance of a Grand Challenge",
   year: "2011 – 2015 – present",
@@ -2762,7 +2762,7 @@
     Review retrospective assessed that the big-science brain projects,
     BRAIN included, did not deliver the unified understanding their
     framing promised. The case pairs with the EU Human Brain Project
-    (Case 98) as a contrast in governance models — distributed
+    (Case 91) as a contrast in governance models — distributed
     working-group versus top-down single-PI — at the same era, the
     same ambition, and opposite trajectories.
   ],
@@ -2827,7 +2827,7 @@
       sequence, the working-group composition decision, and the
       public airing of scope drift are the artifacts a future
       capability-development program can study. Paired with the EU
-      Human Brain Project (Case 98), the case shows that the
+      Human Brain Project (Case 91), the case shows that the
       governance model — distributed working-group versus top-down
       single-PI — was the variable that explained why one program
       survived and adapted while the other unraveled. The framing,
@@ -2879,7 +2879,7 @@
     Constraints) for the public-record governance contestation;
     and in Domain 3 (Test and Evaluation) for the
     enthusiasm-evidence gap as the framing exceeded delivered
-    science. Direct pair with Case 98 (EU Human Brain Project),
+    science. Direct pair with Case 91 (EU Human Brain Project),
     same era and ambition, opposite governance model. The COI
     disclosure under the title is binding: the editor's research
     adjacency is what motivated the critical retrospective being
@@ -2893,13 +2893,13 @@
   reflection-list: (
     [Identify a large research or capability-development program in your domain whose launch artifacts (position papers, working-group reports, milestone plans) are publicly auditable. What governance choices were made openly and which were made in private?],
     [Specify the founding-framing-vs-delivered-capability comparison you would publish at year five and year ten of a program you are designing. What is the evidence form, who commissions it, and where does it live in the record?],
-    [BRAIN survived and adapted while the EU Human Brain Project (Case 98) unraveled. What is the minimum governance documentation that would let a future program-designer learn the difference, rather than reconstruct it from contested press accounts?],
+    [BRAIN survived and adapted while the EU Human Brain Project (Case 91) unraveled. What is the minimum governance documentation that would let a future program-designer learn the difference, rather than reconstruct it from contested press accounts?],
   ),
   courses: ("LEN 1", "LEN 7", "LEN 8"),
 )
 
 #case(
-  number: 129,
+  number: 122,
   slug: "open-university-ethical-use-of-student",
   title: "Open University 'Ethical Use of Student Data' and OU Analyse",
   year: "2014 – 2025",
@@ -2989,12 +2989,12 @@
       participate in the deciding.#cn()
     ],
     [
-      What OU teaches in the pair (Cases 129 + 110) is the
+      What OU teaches in the pair (Cases 122 + 110) is the
       governance-objection diagnostic: when the objection is about
       trust and accountability — as it was at the OU — good
       design can dissolve it, and the deployment can proceed under
       a credibly co-authored consent architecture. The pair's
-      contrast case is the Dutch SyRI (Case 69), where the
+      contrast case is the Dutch SyRI (Case 64), where the
       governance objection was correct: the system was both
       rights-violating and operationally ineffective, and the
       District Court of The Hague stopped it on Article 8 ECHR
@@ -3046,9 +3046,9 @@
     the governance-objection diagnostic — the
     dissolvable-objection side — and in Domain 3 (Test and
     Evaluation) for the engagement-tracked-outcome evidence.
-    Direct pair with Case 69 (Dutch SyRI), where the
+    Direct pair with Case 64 (Dutch SyRI), where the
     governance objection was correct and design could not
-    have dissolved it. Adjacent to Case 65 (Epic Sepsis
+    have dissolved it. Adjacent to Case 60 (Epic Sepsis
     Model) as the inverse pattern: OU built consent before
     deployment; Epic deployed without validation, and the
     objection that should have been raised wasn't.
@@ -3067,7 +3067,7 @@
 )
 
 #case(
-  number: 130,
+  number: 123,
   slug: "navy-subsafe-requirements-as-a-non",
   title: "Navy SUBSAFE — Requirements as a Non-Negotiable Sustainment Deliverable",
   year: "1963 – present",
@@ -3223,9 +3223,9 @@
     recurring-audit cycle; and in Domain 4 (Navigating
     Sociotechnical Constraints) for the non-waiverable
     culture that resists schedule pressure. Adjacent to the
-    nurse-ratios case (Case 131) at the requirements-becomes-
+    nurse-ratios case (Case 124) at the requirements-becomes-
     engineered layer, and to the WHO Surgical Checklist
-    (Case 111) at the mandatory-mechanism layer.
+    (Case 104) at the mandatory-mechanism layer.
   ],
   literature-items: (
     [Sullivan (2003), House Science Committee statement],
@@ -3241,7 +3241,7 @@
 )
 
 #case(
-  number: 131,
+  number: 124,
   slug: "california-nurse-staffing-ratios",
   title: "California Nurse Staffing Ratios — Legislating a Capability Requirement",
   year: "2004 – 2010",
@@ -3333,7 +3333,7 @@
       years from enactment to implementation, sustained industry
       opposition, contested evidence, and a study design constrained
       by the absence of a pre-implementation California baseline. In
-      pair with SUBSAFE (Case 130), the case shows that engineered
+      pair with SUBSAFE (Case 123), the case shows that engineered
       capability requirements at scale require both the
       requirements-discipline mechanism and an evidence architecture
       that survives the political process around the requirement.
@@ -3344,7 +3344,7 @@
     "Aiken et al. 2010 surveyed 22,336 nurses across CA / PA / NJ; California nurses cared for 1–2 fewer patients each",
     "Modeled implication: PA and NJ would have 10.6% and 13.9% fewer surgical deaths at California's medical-surgical ratios",
     "Hedge preserved: observational cross-sectional; no California baseline; contested stakeholder debate on causation",
-    "Pair with SUBSAFE (Case 130) — converting stated requirement to engineered requirement, with political-process cost",
+    "Pair with SUBSAFE (Case 123) — converting stated requirement to engineered requirement, with political-process cost",
   ),
   approaches: (
     during: (
@@ -3382,7 +3382,7 @@
     Domain 3 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* — the evaluation evidence is
     observational cross-sectional, the strongest available
-    and not closed proof. Pair with Case 130 SUBSAFE at the
+    and not closed proof. Pair with Case 123 SUBSAFE at the
     requirements-as-deliverable layer.
   ],
   literature-items: (
@@ -3399,7 +3399,7 @@
 )
 
 #case(
-  number: 132,
+  number: 125,
   slug: "anesthesia-monitoring-standards-and-the",
   title: "Anesthesia Monitoring Standards and the APSF — The Mortality Decline",
   year: "1986 – present",
@@ -3500,7 +3500,7 @@
       entire effect to the standards overstates what the evidence
       can support. The device standards themselves still fail in
       documented edge cases: pulse oximetry is unreliable across
-      skin tones (Case 127 in this same v2 batch), and capnography
+      skin tones (Case 120 in this same v2 batch), and capnography
       can mislead in specific physiology. The case teaches the
       cue/alert-design form of capability engineering at its most
       durable, with the honest qualification that the institutional
@@ -3513,13 +3513,13 @@
     "1982 ABC special + malpractice-insurance crisis + APSF founding (1985) force institutional change",
     "Harvard standards (Eichhorn JAMA 1986): minimum monitoring with continuous pulse oximetry and capnography; ASA adopts 1986–87",
     "Anesthesia mortality falls dramatically over subsequent decades; malpractice premiums decline alongside",
-    "Hedge preserved: decline is multifactorial; device standards still fail in documented edge cases (cf. Case 127 pulse oximetry across skin tones)",
+    "Hedge preserved: decline is multifactorial; device standards still fail in documented edge cases (cf. Case 120 pulse oximetry across skin tones)",
   ),
   approaches: (
     during: (
       [Design the cue/alert to surface the failure mode that produces harm — silent hypoxemia, misplaced tube — at the point in the workflow where the operator can still recover, not in a post-hoc record.],
       [Pair the device standard with the institutional commitment (APSF, ASA) that makes the standard non-waiverable across the specialty, so adoption is a profession-level deliverable rather than a per-institution choice.],
-      [Build the standard with edge-case acknowledgment: the device is the strongest available signal, not closed proof; pulse oximetry across skin tones (Case 127) is the canonical edge case the standard has to keep visible.],
+      [Build the standard with edge-case acknowledgment: the device is the strongest available signal, not closed proof; pulse oximetry across skin tones (Case 120) is the canonical edge case the standard has to keep visible.],
     ),
     after: (
       [Track outcome metrics (mortality, malpractice premiums) alongside the standards, while attributing carefully — multifactorial declines are the norm, not the exception, in long-window safety interventions.],
@@ -3532,7 +3532,7 @@
     [Eichhorn (1989), "Prevention of intraoperative anesthesia accidents and related severe injury through safety monitoring," _Anesthesiology_ 70(4):572–577.],
     [Anesthesia Patient Safety Foundation (1985 – present), founding documents and the _APSF Newsletter_ — institutional-history record of the broader change effort.],
     [American Society of Anesthesiologists (1986), "Standards for Basic Anesthetic Monitoring" — original ASA standard.],
-    [Sjoding et al. (2020), _NEJM_ — the racial-bias edge case the standard still carries (cross-reference Case 127).],
+    [Sjoding et al. (2020), _NEJM_ — the racial-bias edge case the standard still carries (cross-reference Case 120).],
   ),
   quote: [The deliverable is not the device. It is the standard that makes the device's signal non-waiverable across the specialty.],
   quote-source: "Editors' synthesis of Eichhorn et al. (1986) and APSF founding documents.",
@@ -3544,7 +3544,7 @@
     recoverable ones, and the specialty's mortality and
     malpractice record moved over subsequent decades. The
     decline is multifactorial; the device standards still fail
-    in documented edge cases (Case 127).
+    in documented edge cases (Case 120).
   ],
   lens-approach: [
     Anesthesia monitoring is the canonical cue/alert
@@ -3554,9 +3554,9 @@
     Constraints) for the APSF / ASA institutional discipline
     that made the standard non-waiverable; and in Domain 5
     (Machine Teaming and Adaptation) at the human–device
-    boundary. Adjacent to Case 127 (pulse oximetry across
+    boundary. Adjacent to Case 120 (pulse oximetry across
     skin tones) — same instrument, the canonical edge case the
-    standard still carries. Pair with Case 111 (WHO Surgical
+    standard still carries. Pair with Case 104 (WHO Surgical
     Checklist) at the mandatory-standard layer.
   ],
   literature-items: (
@@ -3573,7 +3573,7 @@
 )
 
 #case(
-  number: 133,
+  number: 126,
   slug: "ciras-confidential-incident-reporting",
   title: "CIRAS — Confidential Incident Reporting for UK Rail",
   year: "1996 – present",
@@ -3604,7 +3604,7 @@
     that survives into the case: the 45%-led-to-improvement figure is
     self-reported by the operating program, not independently
     audited. The case is the non-aviation companion to ASRS / CRM in
-    v1 (Cases 110 + 89), keeping the
+    v1 (Cases 103 + 89), keeping the
     non-punitive-reporting-with-credible-commitment competency from
     resting entirely on aviation evidence.
   ],
@@ -3617,7 +3617,7 @@
       — is exactly the information that an employer-controlled
       reporting channel cannot collect, because reporters with
       anything to lose will not put it there. The aviation
-      experience (ASRS, CRM; v1 Cases 110 and 122) establishes the
+      experience (ASRS, CRM; v1 Cases 103 and 115) establishes the
       pattern at the canonical safety-culture scale. CIRAS is the
       same pattern, in a different industry, with the credible
       commitment supplied differently — and the corpus needs the
@@ -3672,7 +3672,7 @@
       the credible commitment (independence from the employer's
       disciplinary process, written into operating structure) is the
       cultural half of capability that the aviation cases also
-      teach. Drafted together, ASRS (Case 122), CRM/CAST (Case 110),
+      teach. Drafted together, ASRS (Case 115), CRM/CAST (Case 103),
       and CIRAS (this case) show that the structural form is
       transferable across high-consequence operational industries —
       and that the credible commitment, not the channel alone, is
@@ -3684,7 +3684,7 @@
     "Ladbroke Grove crash 1999 (31 deaths); CIRAS mandated across UK mainline rail in 2000",
     "Independent unit within RSSB from 2008; the independence is the credible commitment, written into operating structure",
     "Operating program reports 2,228 reports 2008–2012, 45% led to tangible safety improvements (program self-report)",
-    "Non-aviation depth for the C4 competency; same structural form as ASRS/CRM (Cases 122, 110)",
+    "Non-aviation depth for the C4 competency; same structural form as ASRS/CRM (Cases 115, 103)",
   ),
   approaches: (
     during: (
@@ -3723,9 +3723,9 @@
     operating structure — and in Domain 3 (Test and
     Evaluation) for the CLO *Judgment under inadequate
     evidence* on the operating self-report tier. Pair with
-    ASRS (Case 122) and CRM/CAST (Case 110) as the
+    ASRS (Case 115) and CRM/CAST (Case 103) as the
     cross-industry C4 set, and with the WHO Surgical
-    Checklist (Case 111) at the mandatory-mechanism layer.
+    Checklist (Case 104) at the mandatory-mechanism layer.
   ],
   literature-items: (
     [Davies et al., _Cognition, Technology & Work_],
@@ -3741,7 +3741,7 @@
 )
 
 #case(
-  number: 134,
+  number: 127,
   slug: "circuit-a-scalable-equity-centered",
   title: "CIRCUIT — A Scalable, Equity-Centered Research Workforce Model",
   year: "2017 – 2023 (six cycles)",
@@ -3775,7 +3775,7 @@
     the causal claim, and the case says so rather than overstate.
     The COI render under the title (editor is the senior author)
     is binding. The case is the paired peer-reviewed companion to
-    CIRCUIT proofreading (Case 195) — that case is about deploying
+    CIRCUIT proofreading (Case 187) — that case is about deploying
     capability against automation failure; this case is about
     building the capability in the first place at the edge of the
     trainees' prior preparation.
@@ -3834,10 +3834,10 @@
       The case names the open question rather than answering it.#cn()
     ],
     [
-      In pair with Case 195 (CIRCUIT proofreading + MICrONS), the
+      In pair with Case 187 (CIRCUIT proofreading + MICrONS), the
       case completes the CIRCUIT picture: building the capability
       (this case, peer-reviewed) and deploying it against
-      automation failure (Case 195, frontier with evidence-tier
+      automation failure (Case 187, frontier with evidence-tier
       flag). The pair also exercises the corpus's COI discipline
       — both cases carry editor-related COI, both are rendered
       with the standing gold-bordered "Disclosure" block under
@@ -3853,7 +3853,7 @@
     "2022 program supported >100 undergraduate, graduate, and ROTC students from 'trailblazing' backgrounds",
     "Model is operationalized: holistic recruiting, targeted training, high-resolution assessment, diverse mentorship, partnerships",
     "Honest framing preserved: self-authored multi-cycle program evaluation at a single program; external comparative would strengthen causal claim",
-    "Pair with Case 195 — building capability (this case) vs. deploying it against automation failure (proofreading); both carry COI render",
+    "Pair with Case 187 — building capability (this case) vs. deploying it against automation failure (proofreading); both carry COI render",
   ),
   approaches: (
     during: (
@@ -3893,7 +3893,7 @@
     Evaluation) for the high-resolution assessment; and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
     holistic-recruiting design choice that converts equity from
-    rhetoric to enrolled cohort. Pair with Case 195 (CIRCUIT
+    rhetoric to enrolled cohort. Pair with Case 187 (CIRCUIT
     proofreading) — building capability vs. deploying it against
     automation failure. COI render is binding.
   ],
@@ -3911,7 +3911,7 @@
 )
 
 #case(
-  number: 135,
+  number: 128,
   slug: "team-science-training-for-clinical-and",
   title: "Team Science Training for Clinical and Translational Scientists",
   year: "2020 – 2022",
@@ -4001,8 +4001,8 @@
       the case carries the qualification rather than collapsing it.#cn()
     ],
     [
-      In pair with IPE (Case 136) and Implementation Science
-      Training (Case 137), the Colorado CTSA case is the small-tier
+      In pair with IPE (Case 129) and Implementation Science
+      Training (Case 130), the Colorado CTSA case is the small-tier
       intervention companion to two frontier cases. Team-science
       training is one of the few cases in the corpus that
       operationalizes "collaboration as the unit of measurement"
@@ -4059,7 +4059,7 @@
     redesign and in Domain 3 (Test and Evaluation) for the
     TEAMS instrument validation and the perceived-competency
     vs. downstream-impact discipline. Direct pair with Cases
-    136 (IPE) and 123 (implementation science training) — the
+    129 (IPE) and 123 (implementation science training) — the
     intervention with measurement against two frontier cases
     where the measurement is the gap.
   ],
@@ -4077,7 +4077,7 @@
 )
 
 #case(
-  number: 136,
+  number: 129,
   slug: "interprofessional-education-and-the",
   title: "Interprofessional Education and the Evidence Gap",
   year: "2013 – 2015",
@@ -4182,7 +4182,7 @@
       architecture has not been built. The pair-plus-trio
       teaches the Domain 3 sub-competency in both
       directions: collaboration as a unit of measurement is
-      possible (Case 135), and the field-scale evidence is
+      possible (Case 128), and the field-scale evidence is
       structurally absent (this case).
     ],
   ),
@@ -4191,13 +4191,13 @@
     "Reeves et al. Cochrane 2013: only 15 studies from 1999–2011 met inclusion; evidence base thin for linking IPE to practice and patient outcomes",
     "IOM 2015 makes the gap the central finding: 'paucity of high-quality research'; proposes a conceptual model for doing the measurement",
     "Canonical enthusiasm-evidence gap case — field instruments enthusiasm faster than outcomes; basis for Domain 3 sub-competency",
-    "Pair with Case 135 (team-science training) and 123 (implementation-science training) — collaboration measurement is possible at program scale, absent at field scale",
+    "Pair with Case 128 (team-science training) and 123 (implementation-science training) — collaboration measurement is possible at program scale, absent at field scale",
   ),
   approaches: (
     during: (
       [Design the IPE intervention with an outcome-measurement chain in mind from the start: learner outcome → collaborative behavior → organizational practice → patient outcome. The IOM model is the published reference.],
       [Specify, before the intervention launches, which links in the chain the evaluation will measure and which it will leave as assumed; the field-scale gap is partly the result of every program leaving the same links unmeasured.],
-      [Treat enthusiasm-as-evidence as a foreseeable failure mode in any field-scale capability movement; the IPE pattern recurs across other interdisciplinary translation efforts (see Case 137).],
+      [Treat enthusiasm-as-evidence as a foreseeable failure mode in any field-scale capability movement; the IPE pattern recurs across other interdisciplinary translation efforts (see Case 130).],
     ),
     after: (
       [Commission field-level evidence architecture, not only program-level evaluation; the gap the IOM names is at the field level and the program-level studies cannot close it on their own.],
@@ -4229,9 +4229,9 @@
     (Test and Evaluation) as the case-grounded basis for the
     enthusiasm-evidence-gap sub-competency and for the
     CLO *Judgment under inadequate evidence* — IPE is the
-    pattern's largest instance. Pair with Case 135 (team-
+    pattern's largest instance. Pair with Case 128 (team-
     science training, where measurement is possible at program
-    scale) and Case 137 (implementation-science training,
+    scale) and Case 130 (implementation-science training,
     where stated goals run ahead of operational practices).
   ],
   literature-items: (
@@ -4248,7 +4248,7 @@
 )
 
 #case(
-  number: 137,
+  number: 130,
   slug: "implementation-science-training-stated",
   title: "Implementation-Science Training — Stated Goals Outrunning Operational Practice",
   year: "2020s",
@@ -4279,7 +4279,7 @@
     should aim for, but where the operational practices lag the
     stated goals — the same enthusiasm-ahead-of-evidence pattern
     as IPE. The case is the workforce-training counterpart to
-    Case 92 (the "17-year gap" between research evidence and
+    Case 87 (the "17-year gap" between research evidence and
     practice adoption); the v2 frame is the gap between what
     implementation-science training programs *say* they do and
     what they *operationally* do.
@@ -4289,7 +4289,7 @@
       Implementation science exists because the gap between
       research evidence and operational practice in medicine — the
       so-called "17-year gap" the v1 corpus documents at v1
-      Case 92 — is large enough to constitute a discipline-level
+      Case 87 — is large enough to constitute a discipline-level
       capability question. Moving validated evidence into clinical
       practice reliably is itself a competency that has to be
       designed, trained, and evaluated. The CTSA (Clinical and
@@ -4315,7 +4315,7 @@
     ],
     [
       The structural form is the same pattern IPE shows at field
-      scale (Case 136): the field has converged on what
+      scale (Case 129): the field has converged on what
       interdisciplinary translation training should aim for, but
       the operational practices lag the stated goals. At the
       implementation-science training scale, the lag has specific
@@ -4334,14 +4334,14 @@
       infrastructure investment that competency-based training and
       assessment require, and that field-scale stated-goal
       convergence does not by itself produce. The pair with
-      Case 92 (the 17-year gap) gives the case its frame: the
+      Case 87 (the 17-year gap) gives the case its frame: the
       implementation-science workforce is the recovery mechanism
       for the research-to-practice gap, and the operational
       capacity of that workforce is itself the capability the
       training programs are trying to build.#cn()
     ],
     [
-      In the multidisciplinary-translation trio (Cases 135 +
+      In the multidisciplinary-translation trio (Cases 128 +
       121 + 122), implementation-science training sits between
       team science (where the measurement is possible at program
       scale) and IPE (where the measurement is the field-scale
@@ -4361,8 +4361,8 @@
     "Implementation science = moving validated evidence into operational practice; CTSA TL1/T32 is the US training mechanism",
     "Survey N=50 CTSA-funded TL1 programs: most name collaboration / team science / multi-disc training as goals",
     "Far fewer (14–24%) embed competency-based training and assessment, program evaluation, or experiential learning",
-    "Same enthusiasm-ahead-of-evidence pattern as IPE (Case 136) at smaller scale — operational practices lag stated goals",
-    "Workforce-training counterpart to Case 92 ('17-year gap'); pair with Cases 135, 136 in the multidisciplinary-translation trio",
+    "Same enthusiasm-ahead-of-evidence pattern as IPE (Case 129) at smaller scale — operational practices lag stated goals",
+    "Workforce-training counterpart to Case 87 ('17-year gap'); pair with Cases 128, 129 in the multidisciplinary-translation trio",
   ),
   approaches: (
     during: (
@@ -4372,13 +4372,13 @@
     ),
     after: (
       [Report the operational-practice gap honestly: stated goals are the convergence point, operational practices are the lag, and the lag is the addressable target.],
-      [Treat the multidisciplinary-translation trio (Cases 135, 136, 137) as a unit; the three-angle teaching of the enthusiasm-evidence pattern is more useful than any single case can be.],
-      [Connect the case explicitly to Case 92 (the 17-year gap): the implementation-science workforce is the recovery mechanism for that gap, and the operational capacity of the workforce is the capability that has to be built — which is the case's pedagogical point.],
+      [Treat the multidisciplinary-translation trio (Cases 128, 129, 130) as a unit; the three-angle teaching of the enthusiasm-evidence pattern is more useful than any single case can be.],
+      [Connect the case explicitly to Case 87 (the 17-year gap): the implementation-science workforce is the recovery mechanism for that gap, and the operational capacity of the workforce is the capability that has to be built — which is the case's pedagogical point.],
     ),
   ),
   references: (
     [CTSA T32/TL1 program-goals study (2021), _Journal of Clinical and Translational Science_, PMC8826009.],
-    [Morris, Wooding, & Grant (2011), "The answer is 17 years, what is the question: understanding time lags in translational research," _Journal of the Royal Society of Medicine_ — the original 17-year-gap source for Case 92.],
+    [Morris, Wooding, & Grant (2011), "The answer is 17 years, what is the question: understanding time lags in translational research," _Journal of the Royal Society of Medicine_ — the original 17-year-gap source for Case 87.],
     [Brownson, Colditz, & Proctor (2018), _Dissemination and Implementation Research in Health_ (2nd ed.) — the broader implementation-science synthesis.],
     [v2 paired cases: Team-science training (121), IPE evidence gap (122).],
   ),
@@ -4405,8 +4405,8 @@
     Development) for the CLO *Judgment under inadequate
     evidence* as practitioners design training programs while
     the field-scale evidence is still being built. Pair with
-    Cases 135, 136 as the multidisciplinary-translation trio;
-    workforce-training counterpart to Case 92.
+    Cases 128, 129 as the multidisciplinary-translation trio;
+    workforce-training counterpart to Case 87.
   ],
   literature-items: (
     [CTSA TL1 program-goals study (2021), _JCTS_],
@@ -4416,13 +4416,13 @@
   reflection-list: (
     [Identify a training program in your domain whose stated goals include competency-based assessment, program evaluation, or experiential learning. What proportion of those stated goals are operationalized into specific instruments, cadences, and reporting structures — and which are at the goal-statement layer only?],
     [Specify the competency-based assessment instrument you would build into the next iteration of an implementation-science training program. The survey's 14–24% figure says the instrument is what is missing more than the intent; what is the instrument?],
-    [The implementation-science workforce is the recovery mechanism for the 17-year research-to-practice gap (Case 92). What is the analog in your domain — the workforce whose operational capacity is the recovery for a documented systemic gap — and what is the case for investing in that workforce's training architecture?],
+    [The implementation-science workforce is the recovery mechanism for the 17-year research-to-practice gap (Case 87). What is the analog in your domain — the workforce whose operational capacity is the recovery for a documented systemic gap — and what is the case for investing in that workforce's training architecture?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
 
 #case(
-  number: 138,
+  number: 131,
   slug: "mil-std-1472h-human-engineering-as-a",
   title: "MIL-STD-1472H — Human Engineering as a Binding Acquisition Standard",
   year: "2020 revision (series since 1968)",
@@ -4508,7 +4508,7 @@
     [
       The case's value to LENS is the requirement-discipline
       form. MIL-STD-1472H is the human-engineering analog of
-      what SUBSAFE (Case 130) does for submarine
+      what SUBSAFE (Case 123) does for submarine
       watertight-integrity: a binding, recurring, auditable
       requirement set that the program-management chain
       cannot trade away without a documented deviation. The
@@ -4533,7 +4533,7 @@
       guarantee usable equipment; it makes usability a
       contractable, auditable deliverable. Cases of
       operator-platform mismatch in fielded DoD systems
-      (e.g., the F-22 OBOGS instrumentation gap in Case 44)
+      (e.g., the F-22 OBOGS instrumentation gap in Case 43)
       are not failures of the standard's existence but of the
       tailoring and verification around it. The case teaches
       the requirements-as-deliverable form at the
@@ -4545,7 +4545,7 @@
     "MIL-STD-1472 series 1968 – present; eight revisions through H (Sept 15, 2020)",
     "Design Criteria Standard: controls, displays, anthropometry, workspace, environment, hazards — binding, not advisory",
     "Converts human-factors findings into engineered requirements an acquisition contract can specify",
-    "Structural analog of SUBSAFE (Case 130) at the human-engineering scale — requirements-as-deliverable form",
+    "Structural analog of SUBSAFE (Case 123) at the human-engineering scale — requirements-as-deliverable form",
     "Necessary but not sufficient: standard is the mechanism, program tailoring and verification determine the outcome",
   ),
   approaches: (
@@ -4584,8 +4584,8 @@
     into engineered requirements, and in Domain 4 (Navigating
     Sociotechnical Constraints) for the tailoring and
     verification disciplines around the standard. Direct pair
-    with Case 130 (SUBSAFE) at the requirements-as-deliverable
-    layer and with Case 44 (F-22 OBOGS) at the
+    with Case 123 (SUBSAFE) at the requirements-as-deliverable
+    layer and with Case 43 (F-22 OBOGS) at the
     standard-versus-tailoring layer.
   ],
   literature-items: (
@@ -4602,7 +4602,7 @@
 )
 
 #case(
-  number: 139,
+  number: 132,
   slug: "duolingo-half-life-regression-spaced",
   title: "Duolingo Half-Life Regression — Spaced Repetition at Consumer Scale",
   year: "2016",
@@ -4734,7 +4734,7 @@
     after: (
       [Carry the single-vendor hedge into communication about the case. HLR is the strongest available evidence for trainable scheduling at consumer scale; it is not multi-vendor evidence and it is not a language-proficiency study.],
       [Distinguish the structural argument (per-item half-life estimation should outperform heuristic scheduling) from the domain transfer claim (HLR specifically generalizes to other learning content), which the published evidence does not yet support.],
-      [Pair the case with spaced-education clinical RCTs (Case 154) when those are drafted, so the corpus has both a consumer-scale single-vendor deployment and a clinical-domain replication base for the same underlying mechanism.],
+      [Pair the case with spaced-education clinical RCTs (Case 147) when those are drafted, so the corpus has both a consumer-scale single-vendor deployment and a clinical-domain replication base for the same underlying mechanism.],
     ),
   ),
   references: (
@@ -4761,7 +4761,7 @@
     (Iterative Development) for the production-deployment
     evaluation form, and in Domain 3 (Test and Evaluation) for
     the engagement-proxy-vs-proficiency-assessment distinction.
-    Pair with the spaced-education clinical RCTs (Case 154) for
+    Pair with the spaced-education clinical RCTs (Case 147) for
     the cross-domain replication base, and with the
     machine-teaming AI-delegation typology where the
     delegation is to a scheduler optimizing on a proxy
@@ -4781,7 +4781,7 @@
 )
 
 #case(
-  number: 140,
+  number: 133,
   slug: "egpws-taws-closing-the-cfit-category-in",
   title: "EGPWS / TAWS — Closing the CFIT Category in Commercial Aviation",
   year: "1996 – 2002",
@@ -4879,8 +4879,8 @@
       of terrain was the limiting variable was converted into
       a monitored, recoverable mode by surfacing the forward
       terrain picture as an actionable alert. Pair with
-      anesthesia monitoring (Case 132) at the cue/alert-as-
-      capability layer, and with TCAS (Case 141) at the
+      anesthesia monitoring (Case 125) at the cue/alert-as-
+      capability layer, and with TCAS (Case 134) at the
       automated-advisory-system layer.#cn()
     ],
     [
@@ -4943,7 +4943,7 @@
     EGPWS / TAWS is the aviation cue/alert intervention case
     (induced 3.1; LENS D3/PT5) — Domain 3 for cue-design-as-
     deliverable; Domain 5 for the operator-cue boundary. Pair
-    with TCAS (Case 141) and Case 132 (anesthesia monitoring).
+    with TCAS (Case 134) and Case 125 (anesthesia monitoring).
   ],
   literature-items: (
     [Bateman (1999), FSF 11th European Aviation Safety Seminar],
@@ -4959,7 +4959,7 @@
 )
 
 #case(
-  number: 141,
+  number: 134,
   slug: "tcas-coordinated-collision-avoidance",
   title: "TCAS — Coordinated Collision Avoidance and the Überlingen Lesson",
   year: "1981 – 2008 (TCAS II Version 7.1)",
@@ -5097,7 +5097,7 @@
     after: (
       [Carry the Überlingen failure mode into the case rather than smoothing it away. The intervention is not less effective for having a documented coordination edge case; it is more credible because the edge case is named and addressed.],
       [Track the post-V7.1 outcome record as evidence about the correction, not just about the original intervention; the lesson is the iterative-design discipline that the human–automation triangle requires after a failure mode is exposed.],
-      [Use the case as the canonical pair to EGPWS (Case 140): two cockpit automations, two outcome categories closed, one with a coordination edge case that drove a version revision and one without.],
+      [Use the case as the canonical pair to EGPWS (Case 133): two cockpit automations, two outcome categories closed, one with a coordination edge case that drove a version revision and one without.],
     ),
   ),
   references: (
@@ -5122,8 +5122,8 @@
     TCAS is the coordinated-cockpit-automation case
     (induced 3.1; LENS D3/PT5) — Domain 3 for the
     Überlingen-driven V7.1 iteration; Domain 5 for the
-    crew–TCAS–ATC precedence rule. Pair with EGPWS (Case 140)
-    and Case 132.
+    crew–TCAS–ATC precedence rule. Pair with EGPWS (Case 133)
+    and Case 125.
   ],
   literature-items: (
     [RTCA DO-185B (2008), TCAS II Version 7.1],
@@ -5139,7 +5139,7 @@
 )
 
 #case(
-  number: 142,
+  number: 135,
   slug: "sterile-cockpit-ward-rounds-adapting-an",
   title: "Sterile-Cockpit Ward Rounds — Adapting an Aviation Principle to Clinical Handoff",
   year: "2024 – 2025",
@@ -5241,9 +5241,9 @@
       defined permitted interruption classes, defined triage
       responsibility) rather than the principle imported
       without translation. Pair the case with I-PASS (a
-      structured-handoff intervention; Case 151 when drafted)
+      structured-handoff intervention; Case 144 when drafted)
       at the handoff-as-capability layer, and with CRM
-      (Case 110) at the aviation-safety-culture-to-
+      (Case 103) at the aviation-safety-culture-to-
       clinical-care translation layer.#cn()
     ],
     [
@@ -5309,8 +5309,8 @@
     Sterile-cockpit ward rounds is the cross-domain adaptation
     case (induced 3.2; LENS D5/PT5) — Domain 5 for workflow-
     context-as-design-variable; Domain 4 for the cultural-
-    commitment half. Pair with I-PASS (Case 151), CRM (Case 110),
-    and Case 132.
+    commitment half. Pair with I-PASS (Case 144), CRM (Case 103),
+    and Case 125.
   ],
   literature-items: (
     [PMC12515027 — sterile-cockpit ward rounds],
@@ -5326,7 +5326,7 @@
 )
 
 #case(
-  number: 143,
+  number: 136,
   slug: "fsf-cfit-and-alar-task-forces-industry",
   title: "FSF CFIT and ALAR Task Forces — Industry-Level Institution Building After a Spike",
   year: "1992 – 2000s",
@@ -5431,7 +5431,7 @@
       mechanism that organized the response, and the response
       worked. The case is the canonical C6.1 instance of
       industry-level institution building after a catastrophe-class
-      spike, paired with v1 ASRS (Case 122) and CAST (Case 110) at
+      spike, paired with v1 ASRS (Case 115) and CAST (Case 103) at
       the industry-coordination layer.#cn()
     ],
   ),
@@ -5451,7 +5451,7 @@
     after: (
       [Sustain the institutional momentum into the regulatory mandate; the task forces did the technical and political work that made the TAWS rule adoptable, and the rule consolidates what the field already does.],
       [Report the accident-rate decline with the multifactorial hedge intact; TAWS hardware, training, procedure, and fleet turnover all moved together, and isolating the task-force contribution overstates the available evidence.],
-      [Treat the institutional form as the transferable artifact: an independent convening body, cross-operator diagnostic tools without competitive restriction, coordinated path to regulatory mandate. The form pairs with CAST (Case 110) and ASRS (Case 122) at the industry-coordination layer.],
+      [Treat the institutional form as the transferable artifact: an independent convening body, cross-operator diagnostic tools without competitive restriction, coordinated path to regulatory mandate. The form pairs with CAST (Case 103) and ASRS (Case 115) at the industry-coordination layer.],
     ),
   ),
   references: (
@@ -5476,8 +5476,8 @@
     FSF CFIT/ALAR is the canonical industry-coordination case
     (induced 6.1; LENS D4/PT4) — Domain 4 for the independent-
     convening-body form; Domain 2 for the structured diagnostic
-    instruments as iterating deliverables. Pair with Cases 110,
-    122, and 13.
+    instruments as iterating deliverables. Pair with Cases 103,
+    115, and 13.
   ],
   literature-items: (
     [FSF _Flight Safety Digest_ (1998–1999) — CFIT and ALAR task-force record],
@@ -5493,7 +5493,7 @@
 )
 
 #case(
-  number: 144,
+  number: 137,
   slug: "barsuk-sbml-simulation-based-mastery",
   title: "Barsuk SBML — Simulation-Based Mastery Learning Dissemination from Northwestern to the VA",
   year: "2009 – 2020s",
@@ -5524,7 +5524,7 @@
     distinguishes the case from a successful single-site
     intervention. The case is the canonical small-tier instance of
     cross-domain adaptation of a proven intervention (C6.4), and
-    pairs with the multidisciplinary-translation trio (Cases 135
+    pairs with the multidisciplinary-translation trio (Cases 128
     team science, 122 IPE, 123 implementation-science training) as
     cross-domain workforce evidence. The honest hedge: the
     dissemination outcome literature is thinner than the original
@@ -5591,7 +5591,7 @@
     ],
     [
       In pair with the multidisciplinary-translation trio (Cases
-      135 team science, 122 IPE, 123 implementation-science
+      128 team science, 122 IPE, 123 implementation-science
       training), the Barsuk SBML case completes the workforce-
       evidence picture: an intervention with strong single-center
       controlled-comparison evidence (this case) sits alongside a
@@ -5622,7 +5622,7 @@
     after: (
       [Plan the dissemination as a deliverable of the original program, not as a separate downstream activity; the VA rollout is what makes Barsuk SBML a cross-institutional intervention rather than a successful single-site study.],
       [Build multi-site outcome measurement into the dissemination from the start; the published evidence at national-VA scale is thinner than the single-center evidence, and the gap is a live frontier the case names.],
-      [Carry the cross-domain pairing with team-science training (Case 135), IPE (Case 136), and implementation-science training (Case 137) into the curricular framing — the four cases together stage what cross-domain workforce dissemination looks like with measurement and what it looks like without.],
+      [Carry the cross-domain pairing with team-science training (Case 128), IPE (Case 129), and implementation-science training (Case 130) into the curricular framing — the four cases together stage what cross-domain workforce dissemination looks like with measurement and what it looks like without.],
     ),
   ),
   references: (
@@ -5648,7 +5648,7 @@
     (induced 6.4; LENS D2/PT4) — Domain 2 for mastery-learning
     replacing exposure-based progression; Domain 3 for the
     procedural-outcome + cost-effectiveness pairing. Pair with
-    the translation trio (Cases 135, 136, 137).
+    the translation trio (Cases 128, 129, 130).
   ],
   literature-items: (
     [Barsuk et al. (2009), _Archives of Internal Medicine_],
@@ -5664,7 +5664,7 @@
 )
 
 #case(
-  number: 145,
+  number: 138,
   slug: "faa-aging-aircraft-program-widespread",
   title: "FAA Aging-Aircraft Program — Widespread Fatigue Damage and the Part 26 Rule",
   year: "1988 – 2010s",
@@ -5821,7 +5821,7 @@
     case (induced 7.3; LENS D1/PT3) — Domain 1 for LOV-as-
     operational-service-goal; Domain 4 for the AAWG
     institutional discipline. Closes the C7 zero-state. Pair
-    with Cases 146, 147, 148 as the v2 aging-system quartet.
+    with Cases 139, 140, 141 as the v2 aging-system quartet.
   ],
   literature-items: (
     [NTSB (1989), AAR-89/03 _Aloha Airlines 243_],
@@ -5837,7 +5837,7 @@
 )
 
 #case(
-  number: 146,
+  number: 139,
   slug: "faa-nextgen-and-the-ads-b-out-transition",
   title: "FAA NextGen and the ADS-B Out Transition",
   year: "2003 – 2020",
@@ -5941,8 +5941,8 @@
       schedule slippage and benefit-realization gaps are not
       anomalies in the case but part of what infrastructure
       transitions at this scale look like in practice. Together
-      with the FAA Aging Aircraft program (Case 145), Y2K
-      (Case 147), and LWRS (Case 148), NextGen is part of the v2
+      with the FAA Aging Aircraft program (Case 138), Y2K
+      (Case 140), and LWRS (Case 141), NextGen is part of the v2
       quartet that closes the C7 zero-state in the induced
       framework — and is the instance where the hedges are
       largest.#cn()
@@ -5953,7 +5953,7 @@
     "NextGen launched 2003 (Vision 100 Act); ADS-B Out is the load-bearing equipage-mandate piece of the broader program",
     "ADS-B Out final rule published 2010; January 1, 2020 compliance deadline; substantial compliance reported at the deadline",
     "Load-bearing hedge: GAO / DOT IG documented significant schedule slippage and benefit-realization gaps across the broader NextGen program",
-    "Closes C7 (aging-infrastructure transition) zero-state alongside Cases 145, 147, 148 — the instance where the hedges are largest",
+    "Closes C7 (aging-infrastructure transition) zero-state alongside Cases 138, 140, 141 — the instance where the hedges are largest",
   ),
   approaches: (
     during: (
@@ -5993,7 +5993,7 @@
     realization business case, and in Domain 4 (Navigating
     Sociotechnical Constraints) for the decade of lead time
     and the sustained external-audit discipline. Closes the C7
-    zero-state alongside Cases 145 (FAA aging aircraft), 136
+    zero-state alongside Cases 138 (FAA aging aircraft), 136
     (Y2K), and 137 (LWRS) as the v2 aging-system quartet.
   ],
   literature-items: (
@@ -6010,7 +6010,7 @@
 )
 
 #case(
-  number: 147,
+  number: 140,
   slug: "y2k-remediation-the-aging-system",
   title: "Y2K Remediation — The Aging-System Transition That Worked Because It Was Believed",
   year: "1996 – 2000",
@@ -6139,7 +6139,7 @@
     after: (
       [Preserve the counterfactual hedge: a transition that succeeds because it was treated cannot prove the threat was as large as the response implies. The case is teachable on the institutional discipline, not on the closed answer to "was it worth it."],
       [Carry the public/private parallel-execution lesson: the federal program and the broader private-sector effort moved together because the deadline was external to both, and the coordination mechanisms operated alongside each other rather than depending on each other.],
-      [Treat the Y2K case as part of the v2 aging-system quartet (Cases 145, 146, 148) — the instance where the transition was a software-sustainment problem with the largest counterfactual-debate hedge.],
+      [Treat the Y2K case as part of the v2 aging-system quartet (Cases 138, 139, 141) — the instance where the transition was a software-sustainment problem with the largest counterfactual-debate hedge.],
     ),
   ),
   references: (
@@ -6164,7 +6164,7 @@
     Y2K is the legacy-software-sustainment case (induced 7.1;
     LENS D1/PT4) — Domain 1 for line-item inventory + immovable
     deadline; Domain 4 for OMB-reporting + GAO-audit. Closes C7
-    with Cases 145, 146, 148. Counterfactual-debate hedge
+    with Cases 138, 139, 141. Counterfactual-debate hedge
     preserved.
   ],
   literature-items: (
@@ -6181,7 +6181,7 @@
 )
 
 #case(
-  number: 148,
+  number: 141,
   slug: "inl-lwrs-control-room-modernization",
   title: "INL / LWRS Control-Room Modernization — Sustainment Research for an Aging Fleet",
   year: "2010 – present",
@@ -6220,7 +6220,7 @@
     sustainment-research form — a federally-funded research
     program operating across decades to support an industry's
     aging-fleet decisions — and closes a C7 zero-state in the
-    induced framework, paired with Cases 145, 146, 147 as the v2
+    induced framework, paired with Cases 138, 139, 140 as the v2
     aging-system quartet.
   ],
   sections: (
@@ -6287,10 +6287,10 @@
       research-and-pilot record that supports licensing decisions
       on aging-fleet modernization. The form is the
       sustainment-engineering analog of the FAA Aging Aircraft
-      Program (Case 145): a long-horizon institutional discipline
+      Program (Case 138): a long-horizon institutional discipline
       that produces the technical record that aging-fleet
-      decisions can rest on. With NextGen/ADS-B (Case 146) and
-      Y2K (Case 147), LWRS completes the v2 aging-system quartet
+      decisions can rest on. With NextGen/ADS-B (Case 139) and
+      Y2K (Case 140), LWRS completes the v2 aging-system quartet
       that closes the C7 zero-state in the induced framework. The
       LWRS instance is where the evidence is most explicitly
       pilot-scale, and the case carries that as the program's
@@ -6302,7 +6302,7 @@
     "NRC regulatory environment (RG 1.180, BTP 7-19, SRP Ch. 7) makes the qualification path for safety-related digital I&C deliberately stringent",
     "DOE LWRS program executed at INL in partnership with utilities — federally-funded research-and-pilot work across multi-decade horizon",
     "Research line covers hybrid digital/analog operator interfaces, human-factors validation in full-scope simulators, qualification-pathway research",
-    "Hedge preserved: LWRS observations are pilot-scale; operational-fleet evidence at scale is forward-looking; closes C7 zero-state with Cases 145, 146, 147",
+    "Hedge preserved: LWRS observations are pilot-scale; operational-fleet evidence at scale is forward-looking; closes C7 zero-state with Cases 138, 139, 140",
   ),
   approaches: (
     during: (
@@ -6312,7 +6312,7 @@
     ),
     after: (
       [Track fleet-scale outcomes as utility implementations proceed: fleet-wide reliability, human-error rate, maintenance burden under modernized control rooms. The forward-looking evidence will accumulate over the next two decades; the program is the institutional carrier of that accumulation.],
-      [Carry the LWRS case in pair with FAA Aging Aircraft (Case 145) as the sustainment-engineering analog at multi-decade horizon, and with Y2K (Case 147) and NextGen (Case 146) as the broader aging-system quartet.],
+      [Carry the LWRS case in pair with FAA Aging Aircraft (Case 138) as the sustainment-engineering analog at multi-decade horizon, and with Y2K (Case 140) and NextGen (Case 139) as the broader aging-system quartet.],
       [Treat the structured-sustainment-research institutional form as the transferable artifact: federal research program plus industry partnership plus regulator engagement, operating across decades to produce the technical record aging-fleet decisions can rest on.],
     ),
   ),
@@ -6340,7 +6340,7 @@
     Domain 1 for the long-horizon partnership; Domain 4 for the
     federal-research + industry + regulator triple structure;
     Domain 5 for the hybrid digital/analog research line.
-    Closes C7 with Cases 145, 146, 147.
+    Closes C7 with Cases 138, 139, 140.
   ],
   literature-items: (
     [LWRS annual reports (INL, 2010 – present)],
@@ -6356,7 +6356,7 @@
 )
 
 #case(
-  number: 149,
+  number: 142,
   slug: "darpa-digital-tutor-compressing-years",
   title: "DARPA Digital Tutor — Compressing Years of IT Expertise into 16 Weeks",
   year: "2009 – 2014",
@@ -6390,7 +6390,7 @@
     documentation is too scant to fully reproduce. The case is the
     canonical small-tier instance of compressing the capability
     envelope at the edge of training, paired with CIRCUIT
-    (Cases 195 and 134) on the workforce-capability-at-the-edge axis.
+    (Cases 187 and 127) on the workforce-capability-at-the-edge axis.
   ],
   sections: (
     [
@@ -6458,7 +6458,7 @@
       substantially faster than the inherited course assumed —
       under one rating, one program, one evaluation — and the
       hedges name what the evidence does and does not close. Paired
-      with CIRCUIT (Cases 195, 134), the case anchors the
+      with CIRCUIT (Cases 187, 127), the case anchors the
       workforce-capability-at-the-edge-of-training axis that
       connectomics proofreading and submarine-system troubleshooting
       share at the structural level.
@@ -6507,7 +6507,7 @@
     tutorial-discipline-as-instructional-artifact design move,
     and in Domain 3 (Test and Evaluation) for the
     operational-comparison evaluation against fleet ITs with
-    7.2 years of experience. Pair with CIRCUIT (Cases 195, 134)
+    7.2 years of experience. Pair with CIRCUIT (Cases 187, 127)
     at the workforce-capability-at-the-edge axis — connectomics
     proofreading and Navy IT troubleshooting share the
     structural pattern of compressing operational expertise
@@ -6527,7 +6527,7 @@
 )
 
 #case(
-  number: 150,
+  number: 143,
   slug: "bar-code-medication-administration-cue",
   title: "Bar-Code Medication Administration — Cue at the Point of Care",
   year: "2010",
@@ -6561,9 +6561,9 @@
     quasi-experimental — before-and-after / observational — not a
     randomized trial, and that significant workflow changes were
     required for the cue to land. The case is the canonical
-    point-of-care cue/alert intervention, paired with Case 132
+    point-of-care cue/alert intervention, paired with Case 125
     (anesthesia monitoring / APSF) at the cue-as-deliverable layer
-    and with Case 111 (WHO Surgical Checklist) at the
+    and with Case 104 (WHO Surgical Checklist) at the
     mandatory-mechanism layer.
   ],
   sections: (
@@ -6590,7 +6590,7 @@
       cue lands at the moment of administration, before the harm,
       and the system refuses to acknowledge the administration if
       any element does not match. The structural form is the same as
-      the cue/alert interventions in Case 132 (continuous pulse
+      the cue/alert interventions in Case 125 (continuous pulse
       oximetry, capnography under anesthesia): the cue at the right
       point in the workflow converts an undetectable failure into a
       monitored, recoverable one.#cn()
@@ -6626,11 +6626,11 @@
     [
       What the case carries for the corpus is the cue-as-deliverable
       pattern at the point of care, with the explicit
-      before-and-after-design hedge. Paired with Case 132
+      before-and-after-design hedge. Paired with Case 125
       (anesthesia monitoring / APSF), bar-code eMAR shows the same
       structural form in a different specialty: the cue at the right
       point in the workflow converts an undetectable mismatch into a
-      monitored one. Paired with Case 111 (WHO Surgical
+      monitored one. Paired with Case 104 (WHO Surgical
       Checklist), the case sits at the mandatory-mechanism layer:
       the bar-code scan, like the checklist, is a workflow artifact
       the operator cannot route around, and the institutional
@@ -6678,7 +6678,7 @@
     BCMA is the small-tier point-of-care cue/alert
     intervention (induced 3.1; LENS D3/PT5) — Domain 3 for
     cue-as-deliverable; Domain 5 for the workflow-around-the-
-    cue. Pair with Case 132 (anesthesia/APSF) and Case 111
+    cue. Pair with Case 125 (anesthesia/APSF) and Case 104
     (WHO Surgical Checklist).
   ],
   literature-items: (
@@ -6695,7 +6695,7 @@
 )
 
 #case(
-  number: 151,
+  number: 144,
   slug: "i-pass-handoff-bundle-structuring-the",
   title: "I-PASS Handoff Bundle — Structuring the Human-to-Human Transfer",
   year: "2014",
@@ -6728,7 +6728,7 @@
     establishing a causal link." Published correspondence cautions
     against implementing the mnemonic alone without the full
     bundle. The case is the structured-transfer companion to Case
-    133 (CIRAS) at the cultural-half-of-capability layer, and the
+    126 (CIRAS) at the cultural-half-of-capability layer, and the
     small-tier intervention spine for state-transparency under
     stress.
   ],
@@ -6795,14 +6795,14 @@
       boundary (induced 3.3, LENS D2/PT5). The handoff is the
       moment of cognitive transfer at the team boundary; the
       bundle is the workflow artifact that makes the patient
-      state legible across that boundary. Paired with Case 133
+      state legible across that boundary. Paired with Case 126
       (CIRAS) at the cultural-half-of-capability layer, the case
       shows that the mnemonic alone is not the intervention — the
       institutional commitment to the bundle (trainee education,
       faculty development, sustainability) is what makes the
       mnemonic real in operation. The pattern is partly borrowed
       from aviation discipline, so the case also seeds the
-      cross-domain-adaptation conversation that v1 Cases 110 (CRM)
+      cross-domain-adaptation conversation that v1 Cases 103 (CRM)
       and 89 (ASRS) anchor in aviation evidence.
     ],
   ),
@@ -6822,7 +6822,7 @@
     after: (
       [Report the 23\% relative reduction together with the verbatim hedge that "our study design precludes definitively establishing a causal link"; the strongest available evidence is not closed proof.],
       [Carry the bundle-not-mnemonic warning into any adaptation: implementations that drop the faculty-development and sustainability components are not implementations of the intervention the published evidence is about.],
-      [Build the cross-domain adaptation conversation deliberately — aviation CRM and ASRS evidence (v1 Cases 110, 122) is part of the I-PASS lineage and CIRAS (Case 133) is the non-aviation companion at the cultural-commitment layer.],
+      [Build the cross-domain adaptation conversation deliberately — aviation CRM and ASRS evidence (v1 Cases 103, 115) is part of the I-PASS lineage and CIRAS (Case 126) is the non-aviation companion at the cultural-commitment layer.],
     ),
   ),
   references: (
@@ -6847,8 +6847,8 @@
     I-PASS is the state-transparency-under-stress case at the
     human–human boundary (induced 3.3; LENS D2/PT5) — Domain 2
     for bundle-as-intervention; Domain 4 for the institutional
-    faculty-development commitment. Pair with Case 133 (CIRAS)
-    and v1 Cases 110 (CRM) and 89 (ASRS).
+    faculty-development commitment. Pair with Case 126 (CIRAS)
+    and v1 Cases 103 (CRM) and 89 (ASRS).
   ],
   literature-items: (
     [Starmer et al. (2014), _NEJM_],
@@ -6864,7 +6864,7 @@
 )
 
 #case(
-  number: 152,
+  number: 145,
   slug: "surgical-skill-video-peer-rating",
   title: "Surgical Skill Video Peer-Rating Predicts Complications",
   year: "2013",
@@ -6897,7 +6897,7 @@
     hedge is part of the case. The proposed primary anchor is 2.1
     (measuring the failure mode you care about) with C3 and C1
     alternates; the editor may move it. Adjacent to JIGSAWS
-    (Case 155) at the surgical-skill-measurement layer.
+    (Case 148) at the surgical-skill-measurement layer.
   ],
   sections: (
     [
@@ -6960,7 +6960,7 @@
       architecture move of measuring the operator's actual
       technical capability against the outcome the institution
       cares about, with the volume-confound hedge intact. The case
-      is adjacent to JIGSAWS (Case 155) at the
+      is adjacent to JIGSAWS (Case 148) at the
       surgical-skill-measurement layer — JIGSAWS provides the
       controlled-task instrumented evidence and Birkmeyer the
       naturalistic operative-video evidence, and the two together
@@ -7013,7 +7013,7 @@
     measure-the-capability-against-the-outcome design move,
     and in Domain 5 (Machine Teaming and Adaptation) for the
     peer-rating workflow that makes the assessment scalable.
-    Adjacent to JIGSAWS (Case 155) at the
+    Adjacent to JIGSAWS (Case 148) at the
     surgical-skill-measurement layer — JIGSAWS the
     controlled-task instrumented evidence, Birkmeyer the
     naturalistic operative-video evidence. The
@@ -7033,7 +7033,7 @@
 )
 
 #case(
-  number: 153,
+  number: 146,
   slug: "ncsbn-national-simulation-study",
   title: "NCSBN National Simulation Study — Licensing the 50% Substitution Rule",
   year: "2014",
@@ -7069,7 +7069,7 @@
     across an entire regulatory field. The hedge survives: the
     result holds only "under conditions comparable to those
     described in the study" (high-quality simulation, trained
-    faculty). Pair with Case 135 (Colorado CTSA team-science
+    faculty). Pair with Case 128 (Colorado CTSA team-science
     training) at the cross-domain workforce-intervention layer.
   ],
   sections: (
@@ -7138,7 +7138,7 @@
       multi-site, blinded outcomes), the alignment of its outcome
       measure with the boards' own licensure mechanism (NCLEX),
       and the institutional ownership of the evidence (the
-      regulators commissioned it and own it). Pair with Case 135
+      regulators commissioned it and own it). Pair with Case 128
       (Colorado CTSA team-science training) at the cross-domain
       workforce-intervention layer — both are small-tier
       interventions with measurable workforce-capability claims,
@@ -7151,7 +7151,7 @@
     "Hayden et al. 2014 (_J Nursing Regulation_): no statistically significant differences in clinical competency, nursing knowledge, or NCLEX pass rates across groups; 660+ took the NCLEX",
     "Result holds only 'under conditions comparable to those described in the study' (high-quality simulation, trained faculty, structured debriefing)",
     "Institutional transfer: number of nursing regulatory boards permitting up to 50% substitution increased 20-fold from 2014 to 2022 — single evidence base propagating across the regulatory field",
-    "Pair with Case 135 (Colorado CTSA team-science) at the cross-domain workforce-intervention layer",
+    "Pair with Case 128 (Colorado CTSA team-science) at the cross-domain workforce-intervention layer",
   ),
   approaches: (
     during: (
@@ -7188,7 +7188,7 @@
     knowledge-transfer case (induced 6.1; LENS D2/PT4) —
     Domain 2 for the RCT-design discipline; Domain 4 for the
     institutional-ownership move that propagated evidence
-    across decentralized regulators. Pair with Case 135
+    across decentralized regulators. Pair with Case 128
     (Colorado CTSA).
   ],
   literature-items: (
@@ -7205,7 +7205,7 @@
 )
 
 #case(
-  number: 154,
+  number: 147,
   slug: "spaced-education-rcts-in-medical",
   title: "Spaced Education RCTs in Medical Training",
   year: "2007 – 2009",
@@ -7239,7 +7239,7 @@
     delivery-pattern manipulation in the email-delivered
     validated-question context, not to spacing in general or to
     other modalities. The strongest randomized strength in the
-    small-tier batch. Pair with Case 139 (Duolingo half-life
+    small-tier batch. Pair with Case 132 (Duolingo half-life
     regression) at the spacing-mechanism-in-deployment layer.
   ],
   sections: (
@@ -7301,7 +7301,7 @@
       the LENS Iterative Development domain anchors on.#cn()
     ],
     [
-      Pair with Case 139 (Duolingo half-life regression) at the
+      Pair with Case 132 (Duolingo half-life regression) at the
       spacing-mechanism-in-deployment layer. Duolingo is the
       large-scale operational deployment of a spacing-and-
       retrieval-practice system in a consumer language-learning
@@ -7331,14 +7331,14 @@
     after: (
       [Report the result in the scope it speaks to: email-delivered validated-question delivery pattern with urology residents; the spacing-in-general claim sits in the basic literature, and the case's contribution is the workplace-L&D closed-loop evidence.],
       [Treat the two-year persistence figure as the workplace-L&D headline; persistence over years is rare in the workplace-L&D RCT literature, and the figure is what makes the result actionable as a training design.],
-      [Pair the result with Duolingo (Case 139) at the spacing-mechanism layer in any communication of the broader conversation, so the controlled-randomized evidence and the deployed-product evidence are read together.],
+      [Pair the result with Duolingo (Case 132) at the spacing-mechanism layer in any communication of the broader conversation, so the controlled-randomized evidence and the deployed-product evidence are read together.],
     ),
   ),
   references: (
     [Kerfoot, B. P., DeWolf, W. C., Masser, B. A., Church, P. A., \& Federman, D. D. (2007). Spaced education improves the retention of clinical knowledge by medical students: A randomised controlled trial. _Journal of Urology_, 177(4):1481–1487. doi:10.1016/j.juro.2006.11.074 — the case's primary RCT.],
     [Kerfoot, B. P. (2009). Learning benefits of on-line spaced education persist for 2 years. _Journal of Urology_, 181(6):2671 — the two-year persistence follow-up.],
     [Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., \& Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. _Psychological Bulletin_, 132(3):354–380 — the basic-literature spacing-effect review the workplace-L&D RCT sits against.],
-    [Settles, B., \& Meeder, B. (2016). A trainable spaced repetition model for language learning. _Proceedings of ACL 2016_, 1848–1858 — Duolingo half-life regression (Case 139), the operational deployment companion.],
+    [Settles, B., \& Meeder, B. (2016). A trainable spaced repetition model for language learning. _Proceedings of ACL 2016_, 1848–1858 — Duolingo half-life regression (Case 132), the operational deployment companion.],
   ),
   quote: [The learning benefit persisted for two years.],
   quote-source: "Kerfoot, Journal of Urology 2009 follow-up.",
@@ -7359,7 +7359,7 @@
     intervention-and-measurement-as-single-design discipline,
     and in Domain 3 (Test and Evaluation) for the persistence-
     follow-up that makes the result a workplace-L&D headline.
-    Pair with Case 139 (Duolingo half-life regression) at the
+    Pair with Case 132 (Duolingo half-life regression) at the
     spacing-mechanism-in-deployment layer — controlled-
     randomized evidence with deployed-product evidence
     together.
@@ -7378,7 +7378,7 @@
 )
 
 #case(
-  number: 155,
+  number: 148,
   slug: "language-of-surgery-jigsaws-decomposing",
   title: "Language of Surgery / JIGSAWS — Decomposing Skill into Measurable Units",
   year: "2009 – 2016",
@@ -7413,7 +7413,7 @@
     question — preserved here verbatim — is whether automated
     motion-level feedback accelerates trainee skill acquisition or
     improves patient outcomes. The dataset enables the question more
-    than it answers it. The case pairs directly with Case 152
+    than it answers it. The case pairs directly with Case 145
     (Birkmeyer's video-rated bariatric-surgical-skill outcome study),
     which establishes that skill matters; together they form the
     skill-measurement spine the corpus needed.
@@ -7479,7 +7479,7 @@
       the standing safeguard against boosterism.#cn()
     ],
     [
-      In pair with Case 152 (Birkmeyer et al.'s video-rated bariatric
+      In pair with Case 145 (Birkmeyer et al.'s video-rated bariatric
       surgical-skill study), the case completes a skill-measurement
       pair the corpus had needed: Birkmeyer shows that rated skill
       predicts patient outcome at scale (skill matters), and this
@@ -7498,7 +7498,7 @@
     "JIGSAWS released as a public da Vinci dataset with synchronized kinematic, video, gesture, and skill-rating tracks",
     "Vedula et al. 2016: experts use fewer gestures (26.29 vs 31.30) and fewer gesture errors than novices on knot-tying",
     "Open question preserved: whether automated motion-level feedback accelerates skill acquisition or improves patient outcomes",
-    "Pair with Case 152 (Birkmeyer) — Birkmeyer shows skill matters; this case shows skill is decomposable and machine-measurable",
+    "Pair with Case 145 (Birkmeyer) — Birkmeyer shows skill matters; this case shows skill is decomposable and machine-measurable",
   ),
   approaches: (
     during: (
@@ -7516,7 +7516,7 @@
     [Vedula, Ishii, & Hager (2016), "Analysis of the Structure of Surgical Activity for a Suturing and Knot-Tying Task," _PLOS One_ 11(3):e0149174, doi:10.1371/journal.pone.0149174.],
     [Gao, Vedula, Reiley, Ahmidi, Varadarajan, Lin, Tao, Zappella, Bejar, Yuh, Chen, Vidal, Khudanpur, & Hager (2014), "JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling," _MICCAI Workshop_ — JIGSAWS dataset release paper.],
     [Reiley, Lin, Yuh, & Hager (2011), "Review of methods for objective surgical skill evaluation," _Surgical Endoscopy_ 25(2):356–366 — situates the decomposition within the broader skill-assessment literature.],
-    [Birkmeyer, Finks, O'Reilly, et al. (2013), _NEJM_ — the paired skill-matters study (Case 152).],
+    [Birkmeyer, Finks, O'Reilly, et al. (2013), _NEJM_ — the paired skill-matters study (Case 145).],
   ),
   quote: [Surgical motion is language. The unit of skill is the gesture; the corpus is the dataset; the benchmark is the field's continued use of it more than a decade after release.],
   quote-source: "Editors' synthesis of Vedula et al. (2016) and the JIGSAWS release.",
@@ -7534,7 +7534,7 @@
     Language of Surgery is the skill-decomposition case
     (induced 2.1; LENS D3/PT5) — Domain 3 for construct-
     resolution; Domain 1 for task-decomposition. Pair with
-    Case 152 (Birkmeyer) and Case 132. Home-institution
+    Case 145 (Birkmeyer) and Case 125. Home-institution
     disclosure under the title.
   ],
   literature-items: (
@@ -7551,7 +7551,7 @@
 )
 
 #case(
-  number: 156,
+  number: 149,
   slug: "lala-building-learning-analytics",
   title: "LALA — Building Learning-Analytics Governance Capacity Across Latin America",
   year: "2017 – 2020",
@@ -7585,7 +7585,7 @@
     student retention or learning. The contribution is the
     participatory governance method that made adoption locally
     legitimate — and the case is the non-US companion to OU Analyse
-    (Case 129), where governance-by-design unblocked deployment in
+    (Case 122), where governance-by-design unblocked deployment in
     a different cross-cultural context.
   ],
   sections: (
@@ -7649,13 +7649,13 @@
       claim.#cn()
     ],
     [
-      In pair with the Open University case (Case 129, the UK
+      In pair with the Open University case (Case 122, the UK
       consent-by-design intervention), LALA shows that the
       governance-by-design pattern is transferable across regimes:
       OU built consent for a single-institution intervention under
       pre-GDPR UK scrutiny; LALA built participatory adoption for
       multi-country capacity-building under three different Latin
-      American regulatory regimes. The pair plus SyRI (Case 69)
+      American regulatory regimes. The pair plus SyRI (Case 64)
       teaches the non-US LA governance triple — design that
       unblocked deployment (OU), participatory governance that
       built adoption capacity (LALA), and rights-grounded halt
@@ -7686,7 +7686,7 @@
   references: (
     [Hilliger, Ortiz-Rojas, Pesántez-Cabrera, Scheihing, Tsai, Muñoz-Merino, Broos, Whitelock-Wainwright, & Pérez-Sanagustín (2020), "Identifying needs for learning analytics adoption in Latin American universities: A mixed-methods approach," _The Internet and Higher Education_ 45:100726, doi:10.1016/j.iheduc.2020.100726.],
     [LALA project — EU Erasmus+ grant 586120-EPP-1-2017-1-ES (2017–2020) — program documentation and the LALA CANVAS artifact.],
-    [Open University Ethical Use of Student Data policy (2014) and OU Analyse — UK companion governance-by-design case (Case 129).],
+    [Open University Ethical Use of Student Data policy (2014) and OU Analyse — UK companion governance-by-design case (Case 122).],
     [Slade & Prinsloo (2013), "Learning Analytics: Ethical Issues and Dilemmas," _American Behavioral Scientist_ 57(10):1510–1529 — the broader field-scale ethics framing.],
   ),
   quote: [Stakeholders did not want the analytics if the governance was wrong. They wanted both, in that order, with ethical responsibility as the precondition rather than the afterthought.],
@@ -7705,7 +7705,7 @@
     (induced 5.1; LENS D4/PT4) — Domain 4 for the cross-regime
     participatory method; Domain 5 on *Judgment under
     inadequate evidence* (adoption-readiness, not closed
-    outcome proof). Pair with Case 129 (OU) and Case 69
+    outcome proof). Pair with Case 122 (OU) and Case 64
     (SyRI).
   ],
   literature-items: (
@@ -7722,7 +7722,7 @@
 )
 
 #case(
-  number: 157,
+  number: 150,
   slug: "norways-national-expert-commission-on",
   title: "Norway's National Expert Commission on Learning Analytics",
   year: "2022 – 2023",
@@ -7757,7 +7757,7 @@
     are not yet documented. This is process-level evidence (a
     national governance artifact exists, the dilemmas are named),
     not yet deployment-outcome evidence. The case pairs with the
-    OU (Case 129) and SyRI (Case 69) cases as the national
+    OU (Case 122) and SyRI (Case 64) cases as the national
     Nordic complement to the institutional-UK and judicial-Dutch
     governance modes.
   ],
@@ -7823,8 +7823,8 @@
       qualification rather than collapsing it.#cn()
     ],
     [
-      In pair with the Open University (Case 129, institutional
-      governance-by-design, UK) and SyRI (Case 69, judicial
+      In pair with the Open University (Case 122, institutional
+      governance-by-design, UK) and SyRI (Case 64, judicial
       rights-grounded halt, Netherlands), Norway's commission is
       the national-scale governance-architecture mode. The three
       cases together teach that learning-analytics governance can
@@ -7842,7 +7842,7 @@
     "Mandate covers pedagogical, ethical, legal, and privacy dimensions across the whole education sector",
     "Interim report June 2022, final report 2023 (NOU) names central dilemmas: predictive support vs gatekeeping, transparency vs model complexity, benchmarking vs data protection",
     "Honest limit: process-level evidence (artifact exists, dilemmas named); downstream sector outcomes not yet documented — governance-process success, not yet deployment-outcome success",
-    "Pair with OU (Case 129, institutional) and SyRI (Case 69, judicial); national-scale governance-architecture mode in the non-US LA triple",
+    "Pair with OU (Case 122, institutional) and SyRI (Case 64, judicial); national-scale governance-architecture mode in the non-US LA triple",
   ),
   approaches: (
     during: (
@@ -7860,7 +7860,7 @@
     [Norwegian Expert Commission on Learning Analytics, interim report to the Minister of Education and Research (June 2022).],
     [Norwegian Expert Commission on Learning Analytics, final NOU report (2023), _Norges offentlige utredninger_.],
     [Misiejuk & Wasson (2023), "Learning analytics in Norway: A national perspective," _Journal of Learning Analytics_ — secondary academic synthesis of the commission and its dilemmas.],
-    [Hilliger et al. (2020), _Internet and Higher Education_ — the LALA companion at multi-country participatory scale (Case 156).],
+    [Hilliger et al. (2020), _Internet and Higher Education_ — the LALA companion at multi-country participatory scale (Case 149).],
   ),
   quote: [The commission did not resolve learning-analytics governance for Norway. It named the dilemmas the sector will live with and produced the artifact deployment can be governed under.],
   quote-source: "Editors' synthesis of the Norwegian Expert Commission interim and final reports.",
@@ -7881,9 +7881,9 @@
     control-and-disclosure-as-artifact discipline and in
     Domain 3 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* on the process-vs-outcome tier.
-    Pair with Case 129 (OU, institutional), Case 69 (SyRI,
-    judicial), Case 156 (LALA, multi-country participatory),
-    and Case 72 (African data privacy, frontier) — the non-US
+    Pair with Case 122 (OU, institutional), Case 64 (SyRI,
+    judicial), Case 149 (LALA, multi-country participatory),
+    and Case 67 (African data privacy, frontier) — the non-US
     LA governance pentad teaching the level-of-governance
     decision.
   ],
@@ -7901,7 +7901,7 @@
 )
 
 #case(
-  number: 158,
+  number: 151,
   slug: "mmala-a-maturity-model-for-responsible",
   title: "MMALA — A Maturity Model for Responsible Learning-Analytics Adoption (Brazil)",
   year: "2024",
@@ -7938,7 +7938,7 @@
     institutions that used it to adopt LA — it is an instrument
     for responsible adoption, with the downstream effect on
     student learning still to be measured. The case pairs with the
-    OU policy (Case 129) and the LALA CANVAS (Case 156) as the
+    OU policy (Case 122) and the LALA CANVAS (Case 149) as the
     institutional-instrument layer of the non-US LA governance
     set.
   ],
@@ -7999,10 +7999,10 @@
       "students learned more" is not yet closed by evidence.#cn()
     ],
     [
-      In the non-US LA governance set — OU (Case 129, policy and
-      operating system), LALA (Case 156, participatory adoption
-      framework), African data privacy (Case 72, cross-regime
-      seam), Norway (Case 157, national commission), and MMALA
+      In the non-US LA governance set — OU (Case 122, policy and
+      operating system), LALA (Case 149, participatory adoption
+      framework), African data privacy (Case 67, cross-regime
+      seam), Norway (Case 150, national commission), and MMALA
       (this case, institutional maturity model) — the cases
       together teach the level structure of governance for the
       same underlying capability. MMALA's specific contribution
@@ -8036,9 +8036,9 @@
   ),
   references: (
     [Freitas, Mello, Gasevic, Costa, & Andrade (2024), "MMALA: Developing and Evaluating a Maturity Model for Adopting Learning Analytics," _Journal of Learning Analytics_ 11(1):67–86.],
-    [Open University Ethical Use of Student Data policy (2014) — institutional-policy companion (Case 129).],
-    [Hilliger et al. (2020), _Internet and Higher Education_ — LALA participatory adoption companion (Case 156).],
-    [Norwegian Expert Commission on Learning Analytics, final NOU (2023) — national-scale companion (Case 157).],
+    [Open University Ethical Use of Student Data policy (2014) — institutional-policy companion (Case 122).],
+    [Hilliger et al. (2020), _Internet and Higher Education_ — LALA participatory adoption companion (Case 149).],
+    [Norwegian Expert Commission on Learning Analytics, final NOU (2023) — national-scale companion (Case 150).],
   ),
   quote: [The instrument converts "we should adopt responsibly" into a structured per-dimension self-assessment. The instrument is validated; the downstream learning outcome is the next study.],
   quote-source: "Editors' synthesis of Freitas et al. (2024).",
@@ -8059,7 +8059,7 @@
     Domain 4 (Navigating Sociotechnical Constraints) for the
     governance-as-instrument framing; and on the CLO *Judgment under inadequate evidence* for the
     instrument-validation-vs-outcome-validation tier
-    distinction. Pair with Cases 129, 156, 72, 157 as the
+    distinction. Pair with Cases 122, 149, 67, 150 as the
     non-US LA governance pentad; MMALA is the
     institutional-instrument layer.
   ],
@@ -8077,7 +8077,7 @@
 )
 
 #case(
-  number: 159,
+  number: 152,
   slug: "waymos-safety-case-framework-governance",
   title: "Waymo's Safety Case Framework — Governance Objection Dissolved by Designed Artifact",
   year: "2023 / 2025",
@@ -8176,10 +8176,10 @@
       is the artifact that makes revocation possible —
       regulators or auditors can identify which sub-claim has
       failed, on what evidence, and require the deploying
-      organization to act on the gap. Pair with Case 75
+      organization to act on the gap. Pair with Case 70
       (Cruise) as the foil: the same regulatory regime, the
       opposite governance choice, the opposite outcome. Pair
-      with Case 160 (CPUC permit framework) as the
+      with Case 153 (CPUC permit framework) as the
       regulator-side counterpart of the deployer-side
       artifact.#cn()
     ],
@@ -8189,7 +8189,7 @@
     "2023 response: structured safety case framework — claims/sub-claims/evidence types public; trade-secret items remain proprietary",
     "November 2025 independent third-party audits of safety case and remote-assistance program — the audits disclosed, not the underlying data",
     "Practice-synthesis tier: Waymo whitepaper + Montreal AI Ethics Institute + 2025 audit summaries; future validation ongoing",
-    "Pairs with Case 75 (Cruise foil) and Case 160 (CPUC permit framework); exercises NEW CLO Delegation with revocation",
+    "Pairs with Case 70 (Cruise foil) and Case 153 (CPUC permit framework); exercises NEW CLO Delegation with revocation",
   ),
   approaches: (
     during: (
@@ -8207,8 +8207,8 @@
     [Waymo (2023), "A Blueprint for AV Safety: Waymo's Toolkit For Building a Credible Safety Case," whitepaper.],
     [Waymo (November 2025), "Independent Audits of Waymo's Safety Case and Remote Assistance Programs," summary release.],
     [Montreal AI Ethics Institute (2023), summary and analysis of the Waymo safety case framework.],
-    [California Public Utilities Commission, AV passenger-service permit framework documents — paired Case 160 for the regulator-side artifact.],
-    [Cruise / California DMV Order of Suspension (October 2023) — paired Case 75 as the foil.],
+    [California Public Utilities Commission, AV passenger-service permit framework documents — paired Case 153 for the regulator-side artifact.],
+    [Cruise / California DMV Order of Suspension (October 2023) — paired Case 70 as the foil.],
   ),
   quote: [Where opacity could not be defended, a structured falsifiable argument plus audited assurance took its place.],
   quote-source: "Editors' synthesis of the Waymo safety case framework and the November 2025 third-party audits.",
@@ -8230,8 +8230,8 @@
     revocation possible — and in Domain 5 (Emerging Systems
     and Machine Teaming) for the deployer-side artifact that
     permits oversight of a system whose internals are trade
-    secret. Pair with Case 75 (Cruise) as the foil and Case
-    160 (CPUC) as the regulator-side complement.
+    secret. Pair with Case 70 (Cruise) as the foil and Case
+    153 (CPUC) as the regulator-side complement.
   ],
   literature-items: (
     [Waymo (2023), safety case framework whitepaper],
@@ -8247,7 +8247,7 @@
 )
 
 #case(
-  number: 160,
+  number: 153,
   slug: "cpuc-av-passenger-service-permits",
   title: "CPUC AV Passenger-Service Permits — Conditions as a Designed Objection-Dissolver",
   year: "2020 – 2024",
@@ -8274,8 +8274,8 @@
     other disabilities. A 2024 update strengthened the DMV's
     authority to impose targeted operational restrictions for
     safety, and the case shows the regime in operation: the
-    Cruise suspension (Case 75) shows the regime can revoke; the
-    Waymo continuation (Case 159) shows it can permit
+    Cruise suspension (Case 70) shows the regime can revoke; the
+    Waymo continuation (Case 152) shows it can permit
     conditionally. The structural complement to the Waymo
     deployer-side safety case framework is exactly this
     regulator-side artifact — the permit conditions make the
@@ -8326,8 +8326,8 @@
       satisfy and that the regulator can re-tune.#cn()
     ],
     [
-      The case is the structural complement to Case 159 (Waymo)
-      and the inverse-outcome companion of Case 75 (Cruise). The
+      The case is the structural complement to Case 152 (Waymo)
+      and the inverse-outcome companion of Case 70 (Cruise). The
       Waymo safety case framework is the deployer-side artifact;
       the CPUC permit conditions are the regulator-side artifact
       that makes the safety case operative as a regulatory
@@ -8358,17 +8358,17 @@
     "CPUC and California DMV regulate AV passenger service in a split-jurisdiction regime; binary deploy/don't-deploy risked either blocking deployment or losing governance handle",
     "Permit conditions: time-of-day limits, weather restrictions, fleet caps, geographic carve-outs, mandatory Passenger Safety Plan for riders with disabilities",
     "August 2024 update: DMV authority strengthened to impose targeted operational restrictions for safety during deployment lifecycle",
-    "Structural complement to Case 159 (Waymo deployer-side safety case) and inverse-outcome companion of Case 75 (Cruise revocation)",
+    "Structural complement to Case 152 (Waymo deployer-side safety case) and inverse-outcome companion of Case 70 (Cruise revocation)",
     "Practice-synthesis tier: program guidance and permit decisions documented; no peer-reviewed evaluation of equity-of-service outcomes yet — future validation ongoing",
   ),
   approaches: (
     during: (
       [Treat governance objections as design parameters rather than as binary blockers — write them into the permit conditions where compliance is verifiable and violation triggers enforcement.],
       [Require a documented Passenger Safety Plan (or equivalent equity-of-service artifact) at initial permit issuance so the equity objection has an operational answer the regulator can audit.],
-      [Build the regulatory authority to re-tune the conditions during the deployment lifecycle into the regime itself; the Cruise suspension (Case 75) is what re-tuning under a failure event looks like.],
+      [Build the regulatory authority to re-tune the conditions during the deployment lifecycle into the regime itself; the Cruise suspension (Case 70) is what re-tuning under a failure event looks like.],
     ),
     after: (
-      [Pair the case with Case 159 (Waymo) as the regulator-deployer artifact dyad — the safety case framework and the permit conditions are co-constitutive, not independent moves.],
+      [Pair the case with Case 152 (Waymo) as the regulator-deployer artifact dyad — the safety case framework and the permit conditions are co-constitutive, not independent moves.],
       [Use the case in LENS Domain 4 modules on cross-regime governance seams (CPUC and DMV) — the regime structure is itself part of the capability question.],
       [Carry the practice-synthesis flag honestly: the condition-design pattern is teachable, but the equity-of-service outcome data are not yet peer-reviewed; future validation requires independent evaluation of the Passenger Safety Plan deliverables.],
     ),
@@ -8377,13 +8377,13 @@
     [California Public Utilities Commission, "Autonomous Vehicle Passenger Service Programs," CPUC program page and August 2024 application guidance.],
     [CPUC permit decisions for Cruise and Waymo, 2020–2024.],
     [California Department of Motor Vehicles, AV regulatory program — strengthened safety-restriction authority, 2024.],
-    [Paired Cases 159 (Waymo deployer-side artifact) and 158 (Cruise revocation under regime).],
+    [Paired Cases 152 (Waymo deployer-side artifact) and 158 (Cruise revocation under regime).],
   ),
   quote: [The governance objection was not refused. It was made a permit condition.],
   quote-source: "Editors' synthesis of the CPUC AV passenger-service permit framework.",
   le-insight: [
     The CPUC permit framework is the regulator-side
-    counterpart to the Waymo safety case (Case 159): conditions
+    counterpart to the Waymo safety case (Case 152): conditions
     operationalize objections rather than blocking deployment.
     Evidence-tier flag is practice-synthesis; the regulatory
     architecture is documented in CPUC decisions, but no
@@ -8397,8 +8397,8 @@
     governance seams (DMV regulates the vehicle; CPUC
     regulates the service; both can act) and for the
     condition-as-design-parameter pattern that makes the
-    deployer-side safety case (Case 159) operative as a
-    regulatory instrument. Pairs with Case 75 as the
+    deployer-side safety case (Case 152) operative as a
+    regulatory instrument. Pairs with Case 70 as the
     revocation event under the regime.
   ],
   literature-items: (
@@ -8415,7 +8415,7 @@
 )
 
 #case(
-  number: 161,
+  number: 154,
   slug: "brinkerhoff-success-case-method-tails",
   title: "Brinkerhoff Success Case Method — Tails as the Evaluation Instrument",
   year: "2005 – present",
@@ -8448,7 +8448,7 @@
     documented in practitioner channels — case-study writeups,
     conference talks, vendor whitepapers — rather than in
     peer-reviewed evaluation literature. SCM is the operational
-    answer to the chain-of-evidence problem named in Case 106
+    answer to the chain-of-evidence problem named in Case 99
     (Kirkpatrick): the practitioner instrument that crosses the
     Level-2 / Level-3 seam by sampling where the evidence is
     most informative. Evidence-tier flag is practice-synthesis;
@@ -8458,7 +8458,7 @@
   sections: (
     [
       Corporate L&D evaluation faces a structural problem the
-      Kirkpatrick chain-of-evidence pattern names (Case 106):
+      Kirkpatrick chain-of-evidence pattern names (Case 99):
       Level 3 (behavior change on the job) and Level 4 (business
       results) require longitudinal data the training organization
       typically cannot access. Average-effect statistics across
@@ -8489,7 +8489,7 @@
       success cases from the failure cases name what the
       surrounding system has to provide for transfer. The
       argument is the practical complement of the Blume
-      meta-analytic finding (Case 107) that work environment is
+      meta-analytic finding (Case 100) that work environment is
       the decisive transfer variable: SCM operationalizes the
       finding by sampling where the variable's effects are most
       visible.#cn()
@@ -8510,8 +8510,8 @@
     ],
     [
       The LENS teaching point pairs SCM with the chain-of-evidence
-      problem from Case 106 and the meta-analytic transfer finding
-      from Case 107. SCM is the operational instrument that
+      problem from Case 99 and the meta-analytic transfer finding
+      from Case 100. SCM is the operational instrument that
       crosses the Level-2 / Level-3 seam by sampling where the
       evidence is most informative — and it exercises the CLO *Judgment under inadequate evidence* directly, because the
       method asks practitioners to act on detailed case
@@ -8522,20 +8522,20 @@
     ],
   ),
   beats: (
-    "Corporate L&D evaluation problem: Levels 3 and 4 require data the training org cannot access; average effects flatter most programs (Case 106)",
+    "Corporate L&D evaluation problem: Levels 3 and 4 require data the training org cannot access; average effects flatter most programs (Case 99)",
     "SCM: sample the highest- and lowest-impact participants; study in detail; reconstruct the system conditions around each",
     "Tails carry decision-grade information — success cases prove the program *can* work; failure cases name what the surrounding system has to provide for transfer",
     "Deployed at Cargill, Ford, Merck, World Bank, ICRC; method peer-reviewed; per-firm impact data live in practitioner channels",
-    "Operational complement to Blume's environment-as-decisive-variable finding (Case 107); exercises NEW CLO Judgment under inadequate evidence",
+    "Operational complement to Blume's environment-as-decisive-variable finding (Case 100); exercises NEW CLO Judgment under inadequate evidence",
   ),
   approaches: (
     during: (
       [Before the program is delivered, plan the SCM sampling: define the outcome metric (specific work-performance change), identify how the success and failure cases will be surfaced (manager nominations, performance data, structured interviews), and pre-commit to the sampling logic.],
-      [Structure the success-case and failure-case interviews around the system conditions Blume's meta-analysis (Case 107) names as decisive — supervisor support, peer support, practice opportunity, environment — so the reconstruction is theory-grounded, not anecdote-grounded.],
+      [Structure the success-case and failure-case interviews around the system conditions Blume's meta-analysis (Case 100) names as decisive — supervisor support, peer support, practice opportunity, environment — so the reconstruction is theory-grounded, not anecdote-grounded.],
       [Report the tails honestly: the success cases are existence proofs the program *can* work; the failure cases are evidence of what the surrounding system did not provide. Neither is a population effect size.],
     ),
     after: (
-      [Translate the tail evidence into a redesign of the surrounding system — supervisor briefings, peer-support structures, on-job practice opportunity — rather than into a redesign of the training event alone. Pair with Case 162 (HILS).],
+      [Translate the tail evidence into a redesign of the surrounding system — supervisor briefings, peer-support structures, on-job practice opportunity — rather than into a redesign of the training event alone. Pair with Case 155 (HILS).],
       [Use the CLO *Judgment under inadequate evidence*: act on the case-reconstruction evidence the method produces while being explicit that it is not a population causal estimate; document the uncertainty.],
       [Carry the practice-synthesis flag honestly in any program documentation citing SCM corporate deployments — the method is peer-reviewed, but the per-firm effect sizes are not.],
     ),
@@ -8543,14 +8543,14 @@
   references: (
     [Brinkerhoff, R. O. (2005), "The Success Case Method: A Strategic Evaluation Approach to Increasing the Value and Effect of Training," _Advances in Developing Human Resources_ 7(1):86–101, doi:10.1177/1523422304272172.],
     [Brinkerhoff Evaluation Institute deployment list — Cargill, Ford, Merck, World Bank, International Committee of the Red Cross — practitioner channel.],
-    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework SCM operationalizes (paired Case 106).],
-    [Blume, Ford, Baldwin, & Huang (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic environment-as-decisive finding SCM samples around (paired Case 107).],
+    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework SCM operationalizes (paired Case 99).],
+    [Blume, Ford, Baldwin, & Huang (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic environment-as-decisive finding SCM samples around (paired Case 100).],
   ),
   quote: [The tails carry the decision-grade information. The average flatters the program.],
   quote-source: "Editors' synthesis of Brinkerhoff (2005) and the corporate SCM deployments.",
   le-insight: [
     SCM is the practitioner instrument that operationalizes
-    Blume's environment-as-decisive finding (Case 107) by
+    Blume's environment-as-decisive finding (Case 100) by
     sampling the tails of the outcome distribution. The
     method is peer-reviewed; the per-firm impact data at
     Cargill, Ford, Merck, World Bank, ICRC live in
@@ -8566,24 +8566,24 @@
     case-reconstruction evidence rather than population
     estimates — and in Domain 2 (Iterative Development) by
     way of the evaluation-feedback loop SCM enables. Pairs
-    with Case 162 (HILS) for the redesign of the surrounding
+    with Case 155 (HILS) for the redesign of the surrounding
     work environment.
   ],
   literature-items: (
     [Brinkerhoff (2005), _Advances in Developing Human Resources_],
     [Brinkerhoff Evaluation Institute deployment writeups],
-    [Kirkpatrick (Case 106) and Blume (Case 107) as paired references],
+    [Kirkpatrick (Case 99) and Blume (Case 100) as paired references],
   ),
   reflection-list: (
     [Identify a recent training program in your organization. Define how you would identify the highest- and lowest-impact participants and what structured interview you would conduct with each to reconstruct the system conditions around them.],
-    [Map the SCM tails to the Blume meta-analytic variables (Case 107): supervisor support, peer support, practice opportunity, environment. What pattern would the tails have to show for you to redesign the surrounding system rather than the training event itself?],
+    [Map the SCM tails to the Blume meta-analytic variables (Case 100): supervisor support, peer support, practice opportunity, environment. What pattern would the tails have to show for you to redesign the surrounding system rather than the training event itself?],
     [The corporate SCM deployments at Cargill, Ford, Merck, World Bank, ICRC are documented in practitioner channels. What additional evidence — independent program audit, peer-reviewed evaluation, cross-firm comparison — would you require before treating any specific per-firm effect size as decision-grade?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
 
 #case(
-  number: 162,
+  number: 155,
   slug: "high-impact-learning-system-engineering",
   title: "High-Impact Learning System — Engineering the Environment, Not Just the Event",
   year: "2001 – present",
@@ -8603,7 +8603,7 @@
     spanning pre-training, the event itself, and post-training.
     The design principle is that the training event alone
     explains a small fraction of transfer variance — Blume's
-    2010 meta-analysis (Case 107) identifies the work
+    2010 meta-analysis (Case 100) identifies the work
     environment as the decisive variable — and so the program
     has to engineer the environment alongside the event. HILS
     deployments include pre-training line-manager alignment
@@ -8614,7 +8614,7 @@
     to substantially higher figures, but the per-firm numbers
     live in vendor whitepapers and conference talks rather than
     peer-reviewed audits. The case is the deployed-program
-    counterpart to Case 161 (SCM as evaluation instrument): SCM
+    counterpart to Case 154 (SCM as evaluation instrument): SCM
     measures whether the program worked at the tails; HILS
     designs the program so that the conditions for transfer
     are engineered. Evidence-tier flag is practice-synthesis:
@@ -8625,7 +8625,7 @@
   ],
   sections: (
     [
-      Blume et al.'s 2010 meta-analysis (Case 107) names the
+      Blume et al.'s 2010 meta-analysis (Case 100) names the
       work environment — supervisor support, peer support,
       practice opportunity — as the decisive transfer variable
       at the system layer rather than the learner layer. The
@@ -8660,13 +8660,13 @@
       self-reported and have not been independently audited.#cn()
     ],
     [
-      HILS is the deployed-program counterpart to Case 161
+      HILS is the deployed-program counterpart to Case 154
       (SCM as evaluation instrument). Where SCM measures
       whether the program worked at the tails of the outcome
       distribution, HILS designs the program so that the
       surrounding conditions for transfer are engineered. The
       pair is the operational answer to the Kirkpatrick
-      chain-of-evidence problem (Case 106): design the
+      chain-of-evidence problem (Case 99): design the
       environment so transfer can happen, and measure the
       tails to confirm it did. Neither component on its own
       crosses the Level-2 / Level-3 seam — together they
@@ -8677,7 +8677,7 @@
       that capability lives at the operator-system interface,
       not in the individual. HILS is a documented practice
       pattern that names the environment-as-intervention
-      move; it makes Blume's meta-analytic finding (Case 107)
+      move; it makes Blume's meta-analytic finding (Case 100)
       operational. The evidence-tier flag is
       practice-synthesis — the model and the deployment
       pattern are durable in practitioner literature, the
@@ -8690,20 +8690,20 @@
     ],
   ),
   beats: (
-    "Blume meta-analysis (Case 107) names work environment as decisive transfer variable; HILS is the deployed-program answer",
+    "Blume meta-analysis (Case 100) names work environment as decisive transfer variable; HILS is the deployed-program answer",
     "Three phases: pre-training (line-manager alignment, work-context prep); the event; post-training (supervisor support, peer support, practice opportunity)",
     "Corporate deployments report transfer rising from 10–20% baseline to substantially higher figures; per-firm numbers self-reported in practitioner channels",
-    "Deployed-program counterpart to Case 161 (SCM as evaluation); together they structure the Level-2/Level-3 seam crossing (Case 106)",
+    "Deployed-program counterpart to Case 154 (SCM as evaluation); together they structure the Level-2/Level-3 seam crossing (Case 99)",
     "Practice-synthesis tier: model documented in Brinkerhoff & Apking, Watershed, L-TEN; effect sizes self-reported; future validation ongoing",
   ),
   approaches: (
     during: (
       [Plan the pre-training phase as a first-class design deliverable: line-manager briefings, work-context preparation, learner readiness assessment, instrumented before the event runs.],
       [Design the post-training phase before delivery: supervisor support artifacts, peer-support structures, scheduled on-job practice opportunities on the specific tasks the training targets.],
-      [Treat the training event as one component of a three-phase architecture, not as the whole program — Blume's finding (Case 107) is the load-bearing reason the architecture has to span the boundary.],
+      [Treat the training event as one component of a three-phase architecture, not as the whole program — Blume's finding (Case 100) is the load-bearing reason the architecture has to span the boundary.],
     ),
     after: (
-      [Pair with Case 161 (SCM) to measure whether the deployed program worked at the tails — HILS designs the environment, SCM samples the outcomes; together they structure the chain-of-evidence cross (Case 106).],
+      [Pair with Case 154 (SCM) to measure whether the deployed program worked at the tails — HILS designs the environment, SCM samples the outcomes; together they structure the chain-of-evidence cross (Case 99).],
       [Carry the practice-synthesis flag honestly: the model is documented and durable, the per-firm effect sizes are self-reported, and any specific magnitude cited from vendor whitepapers should be flagged as such in program documentation.],
       [Use the CLO *Judgment under inadequate evidence*: the synthesis is the strongest the field has, and the practitioner has to decide whether to deploy HILS at organizational scale on practitioner-tier evidence while naming the validation that remains open.],
     ),
@@ -8712,15 +8712,15 @@
     [Brinkerhoff, R. O., & Apking, A. M. (2001), _High Impact Learning: Strategies for Leveraging Performance and Business Results from Training Investments_, Basic Books.],
     [Watershed LRS practitioner summaries of HILS deployment patterns.],
     [L-TEN (Life Sciences Trainers and Educators Network) practitioner summaries of HILS in life-sciences L&D.],
-    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic finding HILS operationalizes (paired Case 107).],
-    [Brinkerhoff (2005), _Advances in Developing Human Resources_ 7(1):86–101 — SCM as the paired evaluation instrument (Case 161).],
+    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic finding HILS operationalizes (paired Case 100).],
+    [Brinkerhoff (2005), _Advances in Developing Human Resources_ 7(1):86–101 — SCM as the paired evaluation instrument (Case 154).],
   ),
   quote: [If the work environment is the decisive transfer variable, the work environment has to be a design variable. HILS makes it one.],
   quote-source: "Editors' synthesis of Brinkerhoff & Apking (2001) and the Blume meta-analytic finding.",
   le-insight: [
     HILS is the deployed-program operationalization of
-    Blume's environment-as-decisive finding (Case 107) and
-    the design-side counterpart of SCM (Case 161). Evidence
+    Blume's environment-as-decisive finding (Case 100) and
+    the design-side counterpart of SCM (Case 154). Evidence
     is practice-synthesis: the model is durable in
     practitioner literature, per-firm effect sizes are
     self-reported, future validation continues. The CLO *Judgment under inadequate evidence* is the capability
@@ -8734,13 +8734,13 @@
     iteration explicitly across pre / event / post phases,
     and exercises the CLO *Judgment under inadequate
     evidence* because the practitioner must decide on
-    practice-synthesis-tier evidence. Pairs with Case 161
-    (SCM) and Cases 106 / 112 as the corporate-L&D cluster.
+    practice-synthesis-tier evidence. Pairs with Case 154
+    (SCM) and Cases 99 / 112 as the corporate-L&D cluster.
   ],
   literature-items: (
     [Brinkerhoff & Apking (2001), _High Impact Learning_],
     [Watershed LRS and L-TEN practitioner summaries],
-    [Blume (Case 107) and Brinkerhoff SCM (Case 161) as paired references],
+    [Blume (Case 100) and Brinkerhoff SCM (Case 154) as paired references],
   ),
   reflection-list: (
     [Identify a training deployment in your context that currently invests heavily in the event and lightly in the surrounding environment. What pre-training and post-training artifacts would you build to convert the deployment from a single-component program into a three-phase HILS-style architecture?],
@@ -8751,7 +8751,7 @@
 )
 
 #case(
-  number: 163,
+  number: 156,
   slug: "singapore-skillsfuture-national",
   title: "Singapore SkillsFuture — National Workforce Capability at Scale",
   year: "2015 – present",
@@ -8812,7 +8812,7 @@
       that self-reported outcomes can be cross-checked against
       employment and wage outcomes at population scale. The
       design crosses the Kirkpatrick Level-2 / Level-3 seam
-      (Case 106) at policy level, not only program level.#cn()
+      (Case 99) at policy level, not only program level.#cn()
     ],
     [
       The 2024 Year-in-Review reports headline figures: 98% of
@@ -8842,13 +8842,13 @@
     [
       The LENS teaching point is that the program is a
       non-US national-scale case for the corporate / workforce
-      L&D cluster (Cases 106, 107, 161, 162) and a non-US/UK/EU
+      L&D cluster (Cases 99, 100, 154, 155) and a non-US/UK/EU
       case for the geographic-coverage gap. The amended CLO on
       collaboration measurement is directly exercised: TRAQOM
       measures across employer-employee-state, not only
-      across the training organization. Pair with Case 164
+      across the training organization. Pair with Case 157
       (PEPFAR) for the global-health workforce-capability
-      counterpart, and with Case 162 (HILS) for the
+      counterpart, and with Case 155 (HILS) for the
       design-side practitioner pattern that the SSG program
       operationalizes at policy scale. Evidence-tier flag is
       practice-synthesis; the design is documented, the
@@ -8860,7 +8860,7 @@
     "TRAQOM: two-wave outcome survey (end-of-course + six months) paired with labor-market data; ambitious national L&D instrument",
     "2024 Year-in-Review: 98% perform-better self-report; 93% pivotal role; 87% WSP graduates employed FT within 6 months; 2018 MTI 5.8% wage premium for WSQ-trained",
     "Honest reading: self-report dominates; no rigorous quasi-experimental causal evaluation; future validation ongoing",
-    "Practice-synthesis tier; cross-listed Gap 2 (workforce L&D) + Gap 5 (non-US/UK/EU); pairs with Cases 162 (HILS) and 163 (PEPFAR)",
+    "Practice-synthesis tier; cross-listed Gap 2 (workforce L&D) + Gap 5 (non-US/UK/EU); pairs with Cases 155 (HILS) and 163 (PEPFAR)",
   ),
   approaches: (
     during: (
@@ -8869,7 +8869,7 @@
       [Treat the self-report dominance honestly: name what TRAQOM can and cannot establish at the design stage, so the program documentation does not have to retrofit the hedge.],
     ),
     after: (
-      [Pair with Case 164 (PEPFAR) for the global-health workforce-capability counterpart at multi-country scale; together they teach what national- and program-scale L&D measurement at evidence-flagged tier looks like.],
+      [Pair with Case 157 (PEPFAR) for the global-health workforce-capability counterpart at multi-country scale; together they teach what national- and program-scale L&D measurement at evidence-flagged tier looks like.],
       [Use the amended CLO on collaboration measurement: TRAQOM is a worked example of measurement across employer-employee-state, and the program documentation can teach the architecture in LENS Domain 4 (Sociotechnical Constraints).],
       [Carry the practice-synthesis flag honestly: the program design and the TRAQOM instrument are documented, the headline magnitudes are self-report, and future validation requires independent quasi-experimental causal evaluation.],
     ),
@@ -8899,8 +8899,8 @@
     CLO on collaboration measurement — TRAQOM measures
     across employer-employee-state — and in Domain 2 as the
     policy-scale operationalization of the HILS-style
-    environment-and-event integration (Case 162). Pairs with
-    Case 164 (PEPFAR) for the global-health
+    environment-and-event integration (Case 155). Pairs with
+    Case 157 (PEPFAR) for the global-health
     workforce-capability counterpart.
   ],
   literature-items: (
@@ -8917,7 +8917,7 @@
 )
 
 #case(
-  number: 164,
+  number: 157,
   slug: "pepfar-hiv-training-across-16-sub",
   title: "PEPFAR HIV Training Across 16 Sub-Saharan African Countries — Modality Comparison Under Disruption",
   year: "2023",
@@ -8940,14 +8940,14 @@
     increases regardless of modality. The honest framing the
     case carries into print is that the outcome metric is
     knowledge and self-rated confidence — Kirkpatrick L1–L2
-    territory (Case 106) — not L3 on-job behavior change or L4
+    territory (Case 99) — not L3 on-job behavior change or L4
     patient outcomes. Even so, the study is one of the few
     real-world cross-country modality comparisons at meaningful
     scale, and it is the L&D evaluation pattern playing out in
     global health at multi-country scope. The case is
     cross-listed with the corporate / workforce L&D cluster
-    (Cases 106, 107, 161, 162) and with the non-US/UK/EU
-    geographic-coverage gap (Cases 163, and the cases in the
+    (Cases 99, 100, 154, 155) and with the non-US/UK/EU
+    geographic-coverage gap (Cases 156, and the cases in the
     later supplemental batches). Evidence-tier flag is
     preprint-tier: the medRxiv version is preprint and the PMC
     version is journal-published — the editor's citation choice
@@ -8987,11 +8987,11 @@
       Kirkpatrick limitation. The study's outcomes are
       knowledge and self-rated confidence — Level 1
       (reaction and confidence) and Level 2 (learning) in the Kirkpatrick
-      framework (Case 106). It is not Level 3 (behavior change
+      framework (Case 99). It is not Level 3 (behavior change
       on the job — whether the clinicians actually changed
       practice) and it is not Level 4 (results — whether
       patient outcomes improved). The structural limitation
-      Case 106 names is exactly the limitation this study sits
+      Case 99 names is exactly the limitation this study sits
       inside.#cn()
     ],
     [
@@ -9011,8 +9011,8 @@
       between the two should be carried explicitly in the
       printed case. The LENS teaching point is the
       cross-listed pair with the corporate / workforce L&D
-      cluster (Cases 106, 107, 161, 162) and the non-US/UK/EU
-      cluster (Cases 163). The CLO *Judgment under
+      cluster (Cases 99, 100, 154, 155) and the non-US/UK/EU
+      cluster (Cases 156). The CLO *Judgment under
       inadequate evidence* is exercised: the study is the
       strongest evidence the field has for modality
       equivalence in this context, and it does not establish
@@ -9022,7 +9022,7 @@
   beats: (
     "PEPFAR workforce-capability program; COVID forced modality switch across 16 SSA countries with no prior evidence base on modality equivalence",
     "2023 study: pre/post assessments across knowledge and self-confidence domains showed mean increases regardless of modality (in-person, virtual, blended)",
-    "Kirkpatrick L1–L2 limitation explicit: outcomes are knowledge and self-rated confidence, not L3 behavior change or L4 patient outcomes (Case 106)",
+    "Kirkpatrick L1–L2 limitation explicit: outcomes are knowledge and self-rated confidence, not L3 behavior change or L4 patient outcomes (Case 99)",
     "Rare real-world cross-country modality comparison at meaningful scale; multi-country scope limits single-country confounding",
     "Preprint-tier flag: medRxiv preprint and PMC published; editor citation choice carried explicitly; future validation on L3/L4 ongoing",
   ),
@@ -9030,10 +9030,10 @@
     during: (
       [Design the modality comparison around what the assessment instrument can actually establish — knowledge and confidence at L1–L2 are tractable; L3 and L4 require longitudinal data and patient-outcome linkage the study did not have.],
       [Build the multi-country sampling so the comparison is not trivially confounded by single-country factors — the 16-country scope is part of the study's evidential weight.],
-      [Carry the Kirkpatrick limitation into the program documentation honestly — Case 106's stop-at-L2 pattern is exactly the limitation this study sits inside, and naming it preserves the case's teaching value.],
+      [Carry the Kirkpatrick limitation into the program documentation honestly — Case 99's stop-at-L2 pattern is exactly the limitation this study sits inside, and naming it preserves the case's teaching value.],
     ),
     after: (
-      [Pair with Case 163 (SkillsFuture) as the workforce-capability counterparts at national- and multi-country scale; together they teach what L&D measurement looks like in non-US/UK/EU settings with the evidence-tier honesty intact.],
+      [Pair with Case 156 (SkillsFuture) as the workforce-capability counterparts at national- and multi-country scale; together they teach what L&D measurement looks like in non-US/UK/EU settings with the evidence-tier honesty intact.],
       [Use the CLO *Judgment under inadequate evidence*: the study is the strongest evidence the field has for modality equivalence in this context, and the practitioner has to decide modality policy on L1–L2 evidence while L3/L4 evidence develops.],
       [Carry the preprint-tier flag honestly: the medRxiv preprint and the PMC published article are both citable; future validation requires confirmatory replication and L3/L4 outcome measurement.],
     ),
@@ -9041,8 +9041,8 @@
   references: (
     ["Comparing in-person, blended and virtual training interventions; a real-world evaluation of HIV capacity building programs in 16 countries in sub-Saharan Africa," medRxiv 2023.02.08.23285641 (preprint) → PMC10365303 (published).],
     [PEPFAR program documentation — workforce-capability training as a load-bearing deliverable across Sub-Saharan African deployment countries.],
-    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework the L1–L2 limitation references (paired Case 106).],
-    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic transfer finding the L3 question references (paired Case 107).],
+    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework the L1–L2 limitation references (paired Case 99).],
+    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic transfer finding the L3 question references (paired Case 100).],
   ),
   quote: [The outcomes are knowledge and self-rated confidence. The L3 and L4 questions — did practice change, did patient outcomes improve — remain open.],
   quote-source: "Editors' synthesis of the PEPFAR 16-country modality comparison.",
@@ -9050,7 +9050,7 @@
     PEPFAR's 16-country modality comparison is the L&D
     evaluation pattern in global health: mean L1–L2 gains
     across all modalities, with the Kirkpatrick limitation
-    (Case 106) explicit. Evidence-tier flag is preprint-tier
+    (Case 99) explicit. Evidence-tier flag is preprint-tier
     — both the medRxiv preprint and the PMC published
     version are citable — and the L3 / L4 questions remain
     open. Future validation is ongoing.
@@ -9064,13 +9064,13 @@
     program scope. The CLO *Judgment under inadequate
     evidence* is exercised because the study is the
     strongest available at L1–L2 and does not settle L3 /
-    L4. Pairs with Case 163 (SkillsFuture) as the workforce
+    L4. Pairs with Case 156 (SkillsFuture) as the workforce
     L&D cross-listing.
   ],
   literature-items: (
     [medRxiv 2023.02.08.23285641 (preprint) → PMC10365303 (published)],
     [PEPFAR program documentation],
-    [Kirkpatrick (Case 106) and Blume (Case 107) as paired references],
+    [Kirkpatrick (Case 99) and Blume (Case 100) as paired references],
   ),
   reflection-list: (
     [Identify a training program in your context that was forced to switch modality under disruption (COVID, budget constraint, geographic dispersion). What evidence would you have needed at the time to make the modality decision well, and at which Kirkpatrick level was the available evidence?],
@@ -9081,7 +9081,7 @@
 )
 
 #case(
-  number: 165,
+  number: 158,
   slug: "annual-screening-ui-redesign-cds-at",
   title: "Annual-Screening UI Redesign + CDS at University of Missouri Health Care",
   year: "2020",
@@ -9240,7 +9240,7 @@
 )
 
 #case(
-  number: 166,
+  number: 159,
   slug: "alert-fatigue-redesign-cutting-ehr",
   title: "Alert-Fatigue Redesign — Cutting EHR Alerts Without Cutting the Safety Signal",
   year: "2019 – 2024",
@@ -9331,7 +9331,7 @@
       continue as the optimization-study literature consolidates.#cn()
     ],
     [
-      The teaching point pairs with Case 165 and with the v1 C3.2
+      The teaching point pairs with Case 158 and with the v1 C3.2
       failure thread. C3.2 in v1 is entirely failures; this case
       is the small-tier intervention that demonstrates the
       failure mode is redressable by design. The capability
@@ -9389,7 +9389,7 @@
     cut — and in Domain 5 (Machine Teaming and Adaptation)
     for CLO-5 oversight of automated decision support
     delegated to the bedside, with the CLO on delegation
-    with revocation explicit. Pair with Case 165 for the
+    with revocation explicit. Pair with Case 158 for the
     small-tier C3 thread.
   ],
   literature-items: (
@@ -9406,7 +9406,7 @@
 )
 
 #case(
-  number: 167,
+  number: 160,
   slug: "australian-hospital-pharmacy-technician",
   title: "Australian Hospital-Pharmacy Technician Role Redesign",
   year: "2016",
@@ -9552,7 +9552,7 @@
     Constraints) for CLO-4 — the work was to redraw the
     authority gradient — and in Domain 1 (Systems Analysis)
     for CLO-1, since the role-architecture diagnosis was the
-    precondition for the redesign. Pair with Cases 165–166 for
+    precondition for the redesign. Pair with Cases 158–159 for
     the small-tier C3 thread; Gap-5 echo as a non-US case.
   ],
   literature-items: (
@@ -9569,7 +9569,7 @@
 )
 
 #case(
-  number: 168,
+  number: 161,
   slug: "eurocat-atm-pilot-modernization-small",
   title: "Eurocat ATM Pilot Modernization — Small-Tier Verification as the Gateway to Big-Tier Change",
   year: "2005",
@@ -9640,7 +9640,7 @@
       dissolved by the small-tier verification artifact." That is
       the C7 teaching point at the small tier the corpus has not
       had: the same governance-objection-dissolver move that
-      Case 159 / Case 160 show in the AV regulatory regime, transposed
+      Case 152 / Case 153 show in the AV regulatory regime, transposed
       into a legacy-software transition.#cn()
     ],
     [
@@ -9732,7 +9732,7 @@
 )
 
 #case(
-  number: 169,
+  number: 162,
   slug: "inl-turbine-control-upgrade-low-burden",
   title: "INL Turbine-Control Upgrade — Low-Burden Cutover as a Human-Factors Finding",
   year: "2014",
@@ -9830,7 +9830,7 @@
       consumes as part of its acceptance decision. The Domain-3
       frame applies because the V\&V evidence is itself the
       measurement instrument the program rests on. The case is a
-      paired small-tier companion to Case 168 (Eurocat ATM) and
+      paired small-tier companion to Case 161 (Eurocat ATM) and
       sits inside the C7 thread alongside the big-tier failures.
     ],
   ),
@@ -9879,7 +9879,7 @@
     the systems-analysis artifact the regulator consumes —
     and in Domain 3 (Test and Evaluation) for CLO-3, since
     the V\&V evidence is itself the measurement instrument
-    the program rests on. Pair with Case 168 (Eurocat) for
+    the program rests on. Pair with Case 161 (Eurocat) for
     the small-tier C7 thread and with the LWRS big-tier
     program case already in the corpus.
   ],
@@ -9897,7 +9897,7 @@
 )
 
 #case(
-  number: 170,
+  number: 163,
   slug: "estonia-x-road-continuous-migration-as",
   title: "Estonia X-Road — Continuous Migration as a Governance Pattern (and the No-Legacy Paradox)",
   year: "2001 – present",
@@ -10017,7 +10017,7 @@
     after: (
       [Track the platform's aging trajectory as a system variable — accreted agency logic, protocol drift, dependency depth — not only its operational uptime.],
       [Carry the self-critical framing honestly; the load-bearing teaching is that success creates its own aging problem, not that the program failed.],
-      [Pair with other C7 cases (Patriot/Dhahran, Ariane 5, Knight Capital, CrowdStrike, TSB) for the failure-and-modernization contrast, and with Cases 168–169 for the small-tier transition thread.],
+      [Pair with other C7 cases (Patriot/Dhahran, Ariane 5, Knight Capital, CrowdStrike, TSB) for the failure-and-modernization contrast, and with Cases 161–162 for the small-tier transition thread.],
     ),
   ),
   references: (
@@ -10047,7 +10047,7 @@
     Sociotechnical Constraints) for CLO-4, since the state's
     commitment to the protocol is itself the governance choice
     determining future modernization cost. Pair with Cases
-    168–169 for the C7 thread and with the big-tier C7
+    161–162 for the C7 thread and with the big-tier C7
     failures the corpus already documents.
   ],
   literature-items: (
@@ -10064,7 +10064,7 @@
 )
 
 #case(
-  number: 171,
+  number: 164,
   slug: "aadhaar-exclusion-litigation-judicial",
   title: "Aadhaar Exclusion Litigation — Judicial Correction of Biometric Welfare Delegation in India",
   year: "2018 – 2025",
@@ -10223,7 +10223,7 @@
     with judicial correction (induced 8.1, 5.2; LENS D4/PT6) —
     Domain 4 for *Fairness beyond omission* and *Delegation
     with revocation* (court bounded, not revoked). Pair with
-    SyRI (Case 69) and the UK Post Office Horizon thread.
+    SyRI (Case 64) and the UK Post Office Horizon thread.
   ],
   literature-items: (
     [Puttaswamy II (2018) and Pragya Prasun (2025) — Supreme Court of India judgments],
@@ -10239,7 +10239,7 @@
 )
 
 #case(
-  number: 172,
+  number: 165,
   slug: "rwanda-mhealth-maternal-care-community",
   title: "Rwanda mHealth Maternal Care — Community Health Workers as the Capability Interface",
   year: "2013 – 2018",
@@ -10358,7 +10358,7 @@
     [Musabyimana, A., Lundeen, T., Sayinzoga, F., et al. (2019), "Effect of a community health worker mHealth monitoring system on uptake of maternal and newborn health services in Rwanda," _Global Health Research and Policy_, PMC6429813.],
     [Rwanda Ministry of Health, community health program documentation and CHW scope-of-practice guidance, 2013–2018.],
     [MIT News (2022), reporting on subsequent AI-augmented maternal-care work in Rwanda — journalism-tier companion to the peer-reviewed evaluation.],
-    [Cross-reference: Case 171 (PEPFAR HIV training-modality comparison) for the paired Sub-Saharan workforce-capability evidence.],
+    [Cross-reference: Case 164 (PEPFAR HIV training-modality comparison) for the paired Sub-Saharan workforce-capability evidence.],
   ),
   quote: [The mHealth tool did not centralize the work. It instrumented the periphery — and kept judgment where it already was.],
   quote-source: "Editors' synthesis of Musabyimana et al. (2019) and the Rwanda CHW program documentation.",
@@ -10380,7 +10380,7 @@
     diagnostic-and-referral role without relocating judgment to
     the center — and in Domain 2 (Iterative Development) for
     the scope-the-tool-to-the-role design discipline. Direct
-    pair with Case 171 (PEPFAR Sub-Saharan training-modality
+    pair with Case 164 (PEPFAR Sub-Saharan training-modality
     comparison) as the African workforce-capability evidence
     the v2 corpus needs.
   ],
@@ -10398,7 +10398,7 @@
 )
 
 #case(
-  number: 173,
+  number: 166,
   slug: "japan-pmda-pre-approved-change",
   title: "Japan PMDA — Pre-Approved Change Management as Regulatory Architecture for AI/SaMD",
   year: "2014 – present",
@@ -10561,7 +10561,7 @@
 )
 
 #case(
-  number: 174,
+  number: 167,
   slug: "care-principles-indigenous-data",
   title: "CARE Principles — Indigenous Data Governance as a Replaced Regime",
   year: "2019 – 2020 (principles); ongoing",
@@ -10717,7 +10717,7 @@
 )
 
 #case(
-  number: 175,
+  number: 168,
   slug: "learning-journal-a-genre-exemplar-for",
   title: "The Learning Journal — A Genre Exemplar for First-Person Practice Accounts",
   year: "2006",
@@ -10869,7 +10869,7 @@
 )
 
 #case(
-  number: 176,
+  number: 169,
   slug: "reflective-practice-for-stem-educators",
   title: "Reflective Practice for STEM Educators — Genre Travel into Engineering Pedagogy",
   year: "2023",
@@ -10899,7 +10899,7 @@
     practice-synthesis-tier flag is load-bearing — the primer is
     a peer-reviewed synthesis, not an empirical study of
     educator-adoption outcomes. The case pairs with the Lutz
-    learning-journal exemplar (Case 175) as the literature
+    learning-journal exemplar (Case 168) as the literature
     companion to the editor-commissioned first-person Practice
     Flywheel accounts: Lutz is the genre exemplar, the primer is
     the cross-domain bridge that shows the genre can be adopted
@@ -10988,7 +10988,7 @@
     [Brookfield, S. (2017), _Becoming a Critically Reflective Teacher_ (2nd ed.) — the four-lens framework the primer synthesizes.],
     ["Reflective Practices in Education: A Primer for Practitioners," _CBE—Life Sciences Education_ (2023), doi:10.1187/cbe.22-07-0148, PMC10228263.],
     [Schon, D. (1983), _The Reflective Practitioner_ — the temporal structure (reflection-in-action / reflection-on-action) the primer carries forward.],
-    [Cross-reference: Case 175 (Lutz learning journal) as the genre exemplar; the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts as the engineering-practice destination.],
+    [Cross-reference: Case 168 (Lutz learning journal) as the genre exemplar; the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts as the engineering-practice destination.],
   ),
   quote: [The genre travels. The adaptation prompts are the bridge.],
   quote-source: "Editors' synthesis of the CBE—LSE primer.",
@@ -11009,7 +11009,7 @@
     amended CLO-2 — the primer's adaptation prompts are the
     operational scaffolding that lets engineering-practice
     audiences adopt the reflective-practice genre. Sits in the
-    literature companion to Case 175 (Lutz) and the
+    literature companion to Case 168 (Lutz) and the
     editor-commissioned CIRCUIT and ERKS-class Flywheel
     accounts.
   ],
@@ -11027,7 +11027,7 @@
 )
 
 #case(
-  number: 177,
+  number: 170,
   slug: "reflective-practice-on-a-work-based",
   title: "Reflective Practice on a Work-Based Software Engineering Program — Longitudinal Capability Development",
   year: "2025 (preprint)",
@@ -11058,7 +11058,7 @@
     preprint-tier flag is load-bearing: not yet peer-reviewed at
     the time of this drafting, and the case carries the standing
     "future validation ongoing" language into print. Pairs with
-    Cases 175 (Lutz genre exemplar) and 176 (CBE—LSE
+    Cases 168 (Lutz genre exemplar) and 176 (CBE—LSE
     cross-domain bridge) as the Gap 6 literature companions to
     the editor-commissioned first-person Practice Flywheel
     accounts.
@@ -11111,8 +11111,8 @@
       rather than the specific magnitudes the preprint reports.#cn()
     ],
     [
-      In pair with Lutz (Case 175, the genre exemplar) and the
-      CBE—LSE primer (Case 176, the cross-domain bridge), the
+      In pair with Lutz (Case 168, the genre exemplar) and the
+      CBE—LSE primer (Case 169, the cross-domain bridge), the
       preprint completes the Gap 6 literature companion to the
       editor-commissioned first-person Practice Flywheel
       accounts. Lutz shows the genre's existence; the primer
@@ -11145,8 +11145,8 @@
   ),
   references: (
     ["The Development of Reflective Practice on a Work-Based Software Engineering Program: A Longitudinal Study," arXiv:2504.20956 (2025) — preprint.],
-    [Cross-reference: Case 175 (Lutz learning journal) — reflective-practice genre exemplar.],
-    [Cross-reference: Case 176 (CBE—LSE primer) — cross-domain bridge from teacher/nursing/counseling education into STEM and engineering-practice contexts.],
+    [Cross-reference: Case 168 (Lutz learning journal) — reflective-practice genre exemplar.],
+    [Cross-reference: Case 169 (CBE—LSE primer) — cross-domain bridge from teacher/nursing/counseling education into STEM and engineering-practice contexts.],
     [the proposed revisions — the amended CLO-2 (first-person narration of design iteration) the case evaluates.],
   ),
   quote: [The construct is the development of reflective capability, not its presence. The instrument has to be sensitive to depth change.],
@@ -11169,12 +11169,12 @@
     and in Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the preprint
     supplies the construct distinction (development vs.
     presence) without supplying peer-reviewed magnitudes.
-    Pairs with Cases 175 and 176 as Gap 6 literature
+    Pairs with Cases 168 and 169 as Gap 6 literature
     companions.
   ],
   literature-items: (
     [arXiv:2504.20956 (2025) — longitudinal SE-program study],
-    [Cross-reference: Case 175 (Lutz), Case 176 (CBE—LSE primer)],
+    [Cross-reference: Case 168 (Lutz), Case 169 (CBE—LSE primer)],
     [— amended CLO-2 framing],
   ),
   reflection-list: (
@@ -11186,7 +11186,7 @@
 )
 
 #case(
-  number: 178,
+  number: 171,
   slug: "cognitive-tutor-algebra-i-at-scale-year",
   title: "Cognitive Tutor Algebra I at Scale — Year-One Null, Year-Two Positive",
   year: "2007 – 2014",
@@ -11214,7 +11214,7 @@
     would have published a null result and the two-year
     evaluation surfaced a real effect — and both findings were
     in the same trial. The case is the deeper-evidence-of
-    update on v1 Case 120 (Cognitive Tutor), translating that
+    update on v1 Case 113 (Cognitive Tutor), translating that
     case from a system-description case into a methodological-
     discipline case about evaluation horizons. The timeline of
     the evaluation is itself a falsifiable design choice; the
@@ -11226,7 +11226,7 @@
     [
       Cognitive Tutor is the case the learning-sciences-to-
       classroom translation thread cannot avoid teaching at v1
-      Case 120. The system instantiates a model of student
+      Case 113. The system instantiates a model of student
       cognition, drives a problem-by-problem adaptive
       curriculum, and is the canonical published instance of an
       intelligent tutoring system in K-12 mathematics. The
@@ -11284,17 +11284,17 @@
       one year.#cn()
     ],
     [
-      The case is the deeper-evidence-of update on v1 Case 120.
-      v1 Case 120 carries Cognitive Tutor as the system
+      The case is the deeper-evidence-of update on v1 Case 113.
+      v1 Case 113 carries Cognitive Tutor as the system
       description; this case carries the at-scale evaluation
       and the timeline-of-evidence lesson. The CLO on judgment
       under inadequate evidence is directly motivated: the
       one-year evaluation would have been inadequate evidence,
       and a field that publishes the one-year null without
       noting the planned second-year horizon publishes a wrong
-      answer on the available data. Pair with Case 179
+      answer on the available data. Pair with Case 172
       (ASSISTments) for the multi-year follow-through paired
-      case, and with Case 65 (Epic Sepsis) for the
+      case, and with Case 60 (Epic Sepsis) for the
       evaluation-horizon discipline in clinical AI. The closed
       loop the case completes is the two-year-horizon-was-the-
       right-horizon record that lets a field design the next
@@ -11306,7 +11306,7 @@
     "Year-one posttest: no significant difference; year-two posttest: CTAI significantly outperforms control",
     "A one-year evaluation would have published a null on the same intervention; both findings in the same trial",
     "Timeline of evaluation is itself a falsifiable design choice; year-two horizon required for deployment-substrate stabilization",
-    "Deeper-evidence-of v1 Case 120; pair with Case 179 (ASSISTments) and Case 65 (Epic Sepsis horizon discipline)",
+    "Deeper-evidence-of v1 Case 113; pair with Case 172 (ASSISTments) and Case 60 (Epic Sepsis horizon discipline)",
   ),
   approaches: (
     during: (
@@ -11317,13 +11317,13 @@
     after: (
       [Publish the year-by-year result pattern, not the aggregate effect; the case's teaching power depends on the year-one null being on the same page as the year-two positive.],
       [Carry the timeline-of-evidence lesson into the curriculum's evaluation-design teaching; the case grounds the CLO on judgment under inadequate evidence with a rare worked example where the inadequacy is the horizon, not the sample size.],
-      [Pair the case with Case 179 (ASSISTments multi-year follow-through) so the field-level discipline is taught with two converging examples; the methodological lesson is more useful as a pattern than as a single instance.],
+      [Pair the case with Case 172 (ASSISTments multi-year follow-through) so the field-level discipline is taught with two converging examples; the methodological lesson is more useful as a pattern than as a single instance.],
     ),
   ),
   references: (
     [Pane, J. F., Griffin, B. A., McCaffrey, D. F., & Karam, R. (2014), "Effectiveness of Cognitive Tutor Algebra I at Scale," _Educational Evaluation and Policy Analysis_ 36(2):127–144, doi:10.3102/0162373713507480.],
     [RAND Working Paper WR-1050 — addendum to the Pane et al. evaluation.],
-    [Koedinger, K. R., Anderson, J. R., Hadley, W. H., & Mark, M. A. (1997), "Intelligent tutoring goes to school in the big city," _IJAIED_ — the v1 Case 120 system description Cognitive Tutor builds from.],
+    [Koedinger, K. R., Anderson, J. R., Hadley, W. H., & Mark, M. A. (1997), "Intelligent tutoring goes to school in the big city," _IJAIED_ — the v1 Case 113 system description Cognitive Tutor builds from.],
     [What Works Clearinghouse — Cognitive Tutor evidence-base summary applying federal-grade evidence standards to the Pane et al. trial.],
   ),
   quote: [A one-year evaluation would have published a null. The two-year evaluation surfaced a real effect. Both findings were in the same trial.],
@@ -11333,7 +11333,7 @@
     Tutor and the worked example of evaluation horizon as a
     falsifiable design choice. Year one: null. Year two:
     significantly positive. The case is the deeper-evidence-of
-    update on v1 Case 120 and the curriculum's primary anchor for
+    update on v1 Case 113 and the curriculum's primary anchor for
     the CLO on judgment under inadequate evidence where the
     inadequacy is the horizon, not the sample size.
   ],
@@ -11344,13 +11344,13 @@
     discipline and in Domain 2 (Iterative Development) for the
     deployment-substrate-stabilization frame — teacher fluency,
     scheduling, workflow familiarity are designable parts of
-    the intervention substrate, not noise. Pair with Case 179
-    (ASSISTments follow-through), v1 Case 120 (Cognitive Tutor
-    system), and Case 65 (Epic Sepsis horizon discipline).
+    the intervention substrate, not noise. Pair with Case 172
+    (ASSISTments follow-through), v1 Case 113 (Cognitive Tutor
+    system), and Case 60 (Epic Sepsis horizon discipline).
   ],
   literature-items: (
     [Pane et al. (2014), _EEPA_ — Cognitive Tutor at scale],
-    [Koedinger et al. (1997), _IJAIED_ — v1 Case 120 system base],
+    [Koedinger et al. (1997), _IJAIED_ — v1 Case 113 system base],
     [What Works Clearinghouse evidence summary],
   ),
   reflection-list: (
@@ -11362,7 +11362,7 @@
 )
 
 #case(
-  number: 179,
+  number: 172,
   slug: "assistments-national-replication-and",
   title: "ASSISTments — National Replication and Long-Term Follow-Through",
   year: "2014 – present",
@@ -11391,7 +11391,7 @@
     EdTech tools in the corpus with replicated multi-state RCT
     evidence at meaningful effect sizes and with deliberate
     attention to the heterogeneity that matters most for
-    equity outcomes. Pair with Case 154 (spaced education
+    equity outcomes. Pair with Case 147 (spaced education
     RCTs) for the replication-discipline thread. Open questions
     the authors carry: whether the virtual-training adaptation
     matches the in-person-training arm; whether the effect
@@ -11433,7 +11433,7 @@
       equity-relevant. Effect-size estimates were largest for
       lower-performing students, and minority students benefited
       more from the intervention than the average effect would
-      suggest. The pattern is the one Case 76 (Engler /
+      suggest. The pattern is the one Case 71 (Engler /
       enrollment algorithms) names as the inversion target:
       prediction and adaptive feedback used to trigger support
       rather than to gatekeep aid. The heterogeneity finding is
@@ -11465,11 +11465,11 @@
       arm's effect size is still under analysis. Whether the
       effect persists past grade 8 is the longer-horizon
       question that the corpus's evaluation-horizon discipline
-      (Case 178) directly applies to. Pair the case with Case
-      178 (Cognitive Tutor at-scale evaluation) for the
-      evaluation-horizon thread, with Case 154 (spaced education
+      (Case 171) directly applies to. Pair the case with Case
+      171 (Cognitive Tutor at-scale evaluation) for the
+      evaluation-horizon thread, with Case 147 (spaced education
       RCTs) for the replication-discipline thread, and with
-      Case 76 (Engler enrollment algorithms) for the
+      Case 71 (Engler enrollment algorithms) for the
       prediction-triggers-support inversion — the equity-
       relevant heterogeneity finding here is the structural
       complement to Engler's gatekeeping critique.
@@ -11480,7 +11480,7 @@
     "Heterogeneity: largest gains for lower-performing students; minority students benefited more — pre-specified equity-relevant outcome",
     "Murphy et al. 2020: 7th-grade effect persisted into 8th-grade outcomes (longitudinal follow-through)",
     "Arnold Ventures extension: lower-cost virtual-training adaptation in rural areas, longitudinal through end of 8th grade",
-    "Pair with Case 178 (Cognitive Tutor horizon), Case 154 (spaced ed RCTs), Case 76 (Engler — equity-relevant inversion of gatekeeping)",
+    "Pair with Case 171 (Cognitive Tutor horizon), Case 147 (spaced ed RCTs), Case 71 (Engler — equity-relevant inversion of gatekeeping)",
   ),
   approaches: (
     during: (
@@ -11491,7 +11491,7 @@
     after: (
       [Publish the heterogeneity result with the aggregate result; the case's equity-relevant pedagogical value depends on the heterogeneity finding being on the same page as the average effect.],
       [Track the adaptation arm — the lower-cost virtual-training condition — as a separate replication; the closed-loop evidence architecture the case demonstrates includes adaptation-under-different-conditions as a distinct evidence layer.],
-      [Carry the case in syllabi alongside Case 178 so the evaluation-horizon discipline and the heterogeneity-pre-specification discipline are taught together; the two methodological lessons are independent and both load-bearing for EdTech-evaluation design.],
+      [Carry the case in syllabi alongside Case 171 so the evaluation-horizon discipline and the heterogeneity-pre-specification discipline are taught together; the two methodological lessons are independent and both load-bearing for EdTech-evaluation design.],
     ),
   ),
   references: (
@@ -11508,7 +11508,7 @@
     longitudinal follow-through into the next grade, adaptation
     arm under different deployment conditions, and a pre-specified
     equity-relevant heterogeneity finding. The case grounds the
-    closed-loop evaluation anchor in EdTech the same way Case 135
+    closed-loop evaluation anchor in EdTech the same way Case 128
     grounds it in team-science training.
   ],
   lens-approach: [
@@ -11517,9 +11517,9 @@
     (Iterative Development) for the teacher-side minimum-change
     design discipline and in Domain 3 (Test and Evaluation) for
     the heterogeneity-pre-specification and longitudinal-
-    follow-through structure. Pair with Case 178 (Cognitive
-    Tutor at-scale evaluation horizon), Case 154 (spaced
-    education RCTs), and Case 76 (Engler enrollment algorithms
+    follow-through structure. Pair with Case 171 (Cognitive
+    Tutor at-scale evaluation horizon), Case 147 (spaced
+    education RCTs), and Case 71 (Engler enrollment algorithms
     inversion — prediction-triggers-support).
   ],
   literature-items: (
@@ -11530,13 +11530,13 @@
   reflection-list: (
     [Identify an EdTech intervention in your domain whose equity-relevant heterogeneity outcome was not pre-specified in the trial design. What pre-specification would the next replication require, and what is the data infrastructure that would support it?],
     [Specify the longitudinal-follow-through design you would build into the next at-scale EdTech evaluation. What grade-to-grade or year-to-year outcome would you track, and what data infrastructure does the tracking require?],
-    [The case sits as the prediction-triggers-support inversion of Case 76. Pick a deployed adaptive system in your domain and ask: in which direction does the adaptation point — toward more support for the lower-performing student or toward higher throughput for the average — and where is that design choice documented?],
+    [The case sits as the prediction-triggers-support inversion of Case 71. Pick a deployed adaptive system in your domain and ask: in which direction does the adaptation point — toward more support for the lower-performing student or toward higher throughput for the average — and where is that design choice documented?],
   ),
   courses: ("LEN 2", "LEN 3", "LEN 7"),
 )
 
 #case(
-  number: 180,
+  number: 173,
   slug: "ou-analyse-predictive-learning",
   title: "OU Analyse — Predictive Learning Analytics and Teacher Use at Scale",
   year: "2019 – 2023",
@@ -11562,7 +11562,7 @@
     adoption — how teachers' use of the predictions stabilized,
     what fraction continued to act on them, how perceptions
     evolved. The case is distinct from the OU consent-and-ethical-
-    use frame Case 129 covers; this case carries the post-
+    use frame Case 122 covers; this case carries the post-
     deployment teacher-use evaluation at multi-cohort scale.
     The authors' hedges are binding: causal attribution to OU
     Analyse use specifically — versus teacher selection effects
@@ -11620,7 +11620,7 @@
     ],
     [
       The case is distinct from the OU consent-and-ethical-use
-      frame Case 129 covers. Case 129 carries the governance
+      frame Case 122 covers. Case 122 carries the governance
       story — the Policy on Ethical Use of Student Data, the
       institutional review of analytic deployments, the
       consent architecture. This case carries the post-
@@ -11646,7 +11646,7 @@
       multi-institution transfer — OU Analyse has been licensed
       beyond the Open University, and the transfer outcomes are
       not yet in the peer-reviewed literature. Pair with Case
-      129 (OU consent governance), Case 178 (Cognitive Tutor
+      122 (OU consent governance), Case 171 (Cognitive Tutor
       at-scale evaluation), and the Purdue Course Signals
       cautionary case from v1 — the OU Analyse evaluation is
       the methodologically more careful descendant of the
@@ -11657,7 +11657,7 @@
     "OU Analyse: predictive-learning-analytics dashboard deployed across the Open University UK's distance-learning operation",
     "Herodotou et al. 2019 BJET: 9 courses, 559 teachers (189 with OUA access), >14,000 students; teacher engagement → measurable improvement",
     "Herodotou et al. 2023 LAK: three-year-post-implementation follow-up — stabilization, sustained adoption stratification, perception evolution",
-    "Distinct from Case 129 (OU consent governance); this case is post-deployment teacher-use at multi-cohort scale",
+    "Distinct from Case 122 (OU consent governance); this case is post-deployment teacher-use at multi-cohort scale",
     "Hedges binding: causal attribution bounded (propensity matching, not RCT randomization); multi-institution transfer evidence pending",
   ),
   approaches: (
@@ -11669,7 +11669,7 @@
     after: (
       [Commission the next-tier evaluation that addresses the teacher-selection-effect question; an RCT at the teacher level, or an instrumental-variable design exploiting institutional dashboard-rollout variation, would close the residual causal-attribution gap.],
       [Publish the multi-institution-transfer evaluations as the system is licensed beyond the OU; the case's value as a generalizable instance depends on the transfer evidence the OU-internal evaluation cannot provide.],
-      [Pair the case in the curriculum with Case 129 (OU consent governance) so the deployment is taught across both governance and post-deployment-use frames; the two cases together teach the institutional anchor without collapsing one frame into the other.],
+      [Pair the case in the curriculum with Case 122 (OU consent governance) so the deployment is taught across both governance and post-deployment-use frames; the two cases together teach the institutional anchor without collapsing one frame into the other.],
     ),
   ),
   references: (
@@ -11699,8 +11699,8 @@
     and in Domain 5 (Machine Teaming and Adaptation) for the
     delegation-with-revocation structure — the teacher chooses,
     each time, whether to act on the prediction. Pair with
-    Case 129 (OU consent governance), Case 178 (Cognitive
-    Tutor at-scale), and Case 179 (ASSISTments multi-year).
+    Case 122 (OU consent governance), Case 171 (Cognitive
+    Tutor at-scale), and Case 172 (ASSISTments multi-year).
   ],
   literature-items: (
     [Herodotou et al. (2019), _BJET_ — OU Analyse teacher-use evaluation],
@@ -11716,7 +11716,7 @@
 )
 
 #case(
-  number: 181,
+  number: 174,
   slug: "doer-effect-at-scale-replication-ai",
   title: "The Doer Effect at Scale — Replication, AI-Generated Questions, Non-WEIRD Extension",
   year: "2016 – 2025",
@@ -11744,8 +11744,8 @@
     via basic mobile phones, and reported that the doer-effect
     relationship was weaker for learners with higher prior
     educational attainment — the load-bearing heterogeneity
-    finding the corpus most needs. The case sits with Case 139
-    (Duolingo half-life) and Case 154 (spaced education RCTs)
+    finding the corpus most needs. The case sits with Case 132
+    (Duolingo half-life) and Case 147 (spaced education RCTs)
     as the replication-arc thread. The closed loop is closed
     not by a single trial but by replication; the effect
     generalizes but not uniformly, and the heterogeneity is
@@ -11817,8 +11817,8 @@
       collapsing them.#cn()
     ],
     [
-      The case anchors with Case 139 (Duolingo half-life) and
-      Case 154 (spaced education RCTs) as the replication-arc
+      The case anchors with Case 132 (Duolingo half-life) and
+      Case 147 (spaced education RCTs) as the replication-arc
       thread. All three demonstrate the closed-loop discipline
       at field scale: a design principle established as a single
       result, replicated across contexts, and surfaced as
@@ -11837,7 +11837,7 @@
     "Van Campenhout et al. LAK 2023: seven-course replication with 15.2M data points — effect holds in direction and magnitude",
     "L@S 2025 replication: AI-generated practice questions — effect still holds; meaningful given LLM-generated content rising",
     "Butler et al. LAK 2025 non-WEIRD: radio-lecture + mobile-phone practice — effect weaker for higher-prior-attainment learners (heterogeneity is the result)",
-    "Closed loop via replication, not single trial; pair with Case 139 (Duolingo half-life) and Case 154 (spaced ed RCTs)",
+    "Closed loop via replication, not single trial; pair with Case 132 (Duolingo half-life) and Case 147 (spaced ed RCTs)",
   ),
   approaches: (
     during: (
@@ -11848,7 +11848,7 @@
     after: (
       [Publish the heterogeneity as the result, not the adjusted-away noise; the non-WEIRD prior-attainment finding is what extends the principle's actionable scope and is the load-bearing pedagogical content of the case.],
       [Build the long-term-retention and cross-content-transfer studies the replication arc names as the next open questions; the closed loop the case completes is honest about what it does and does not close.],
-      [Carry the case in syllabi alongside Cases 139 and 154 so the replication-arc thread is taught as a thread, not as three independent examples; the closed-loop discipline at field scale is more visible across the three cases than within any one.],
+      [Carry the case in syllabi alongside Cases 132 and 147 so the replication-arc thread is taught as a thread, not as three independent examples; the closed-loop discipline at field scale is more visible across the three cases than within any one.],
     ),
   ),
   references: (
@@ -11866,7 +11866,7 @@
     WEIRD-modality extension — four converging pieces of evidence
     with the prior-attainment heterogeneity finding as the load-
     bearing result. The case completes the replication-arc thread
-    alongside Cases 139 and 154.
+    alongside Cases 132 and 147.
   ],
   lens-approach: [
     Doer-effect replication arc is the closed-loop-by-
@@ -11874,8 +11874,8 @@
     in Domain 2 (Iterative Development) for the replication-
     arc discipline and in Domain 3 (Test and Evaluation) for
     the cross-population generalization-with-heterogeneity
-    structure. Pair with Case 139 (Duolingo half-life) and
-    Case 154 (spaced education RCTs) — the replication-arc
+    structure. Pair with Case 132 (Duolingo half-life) and
+    Case 147 (spaced education RCTs) — the replication-arc
     thread teaches the closed-loop discipline at field scale.
   ],
   literature-items: (
@@ -11892,7 +11892,7 @@
 )
 
 #case(
-  number: 182,
+  number: 175,
   slug: "hybrid-human-ai-tutoring-augmentation",
   title: "Hybrid Human-AI Tutoring — Augmentation, Not Delegation",
   year: "2024",
@@ -11918,10 +11918,10 @@
     augmentation, the human tutor retains the authorization to
     override and re-direct, and the measured outcome is student
     learning rather than AI-system fidelity. The case is the
-    small-tier intervention-side counterpart to Case 125 (TREWS,
+    small-tier intervention-side counterpart to Case 118 (TREWS,
     the clinician-AI teaming case that worked) translated into
-    education. Pair also with Cases 195 and 134 (CIRCUIT human-
-    AI workforce) and Case 65 (Epic Sepsis, the delegation
+    education. Pair also with Cases 187 and 127 (CIRCUIT human-
+    AI workforce) and Case 60 (Epic Sepsis, the delegation
     case that did not work). Open questions: longitudinal
     persistence; transfer to lower-resource tutoring contexts
     where human-tutor availability is the binding constraint.
@@ -11930,7 +11930,7 @@
     [
       The deployment record for AI in tutoring has been pulled
       in two directions. The fully-automated tutoring track —
-      from Cognitive Tutor through LLM-based tutoring (Case 199)
+      from Cognitive Tutor through LLM-based tutoring (Case 191)
       — has tested whether AI alone can replace or substantially
       reduce the human-tutor role. The augmentation track has
       tested whether AI can extend the reach and effectiveness
@@ -11964,8 +11964,8 @@
       the authorization to override and re-direct, and the
       measured outcome is student learning, not AI-system
       fidelity. This is the design pattern that worked in
-      clinical-decision-support at Case 125 (TREWS) and that
-      did not work at Case 65 (Epic Sepsis) — where TREWS
+      clinical-decision-support at Case 118 (TREWS) and that
+      did not work at Case 60 (Epic Sepsis) — where TREWS
       preserved clinician authorization and built the explanation
       structure that supported it, the Epic Sepsis deployment
       pattern collapsed clinician judgment into alert
@@ -11974,8 +11974,8 @@
       the evidence base that grounds the analog.#cn()
     ],
     [
-      The case anchors with the CIRCUIT pair (Cases 195 and
-      134) at the workforce-augmentation layer. CIRCUIT
+      The case anchors with the CIRCUIT pair (Cases 187 and
+      127) at the workforce-augmentation layer. CIRCUIT
       proofreading positions human capability as the recovery
       mechanism for automation failure at petabyte scale; the
       CIRCUIT workforce model builds the capability in the
@@ -12009,25 +12009,25 @@
     "Thomas et al. LAK 2024 best paper: three quasi-experimental studies of hybrid human-AI tutoring",
     "Headline: learning outcomes improved relative to comparison conditions in each of the three studies",
     "Design positioning: AI as augmentation, human tutor retains override authorization, measured outcome is student learning",
-    "Educational analog of Case 125 (TREWS clinician-AI teaming); contrast with Case 65 (Epic Sepsis delegation collapse)",
+    "Educational analog of Case 118 (TREWS clinician-AI teaming); contrast with Case 60 (Epic Sepsis delegation collapse)",
     "Open: longitudinal persistence; transfer to lower-resource tutoring where human-tutor availability is the binding constraint",
   ),
   approaches: (
     during: (
       [Position the AI as augmentation explicitly in the design documentation, not implicitly in the deployment pattern; the augmentation-vs-delegation distinction is the load-bearing design choice and should be the named design choice.],
-      [Preserve human-tutor authorization to override and re-direct as a system-design requirement, not as a discretionary affordance; the comparison with Case 65 (Epic Sepsis) is that override authorization collapses when the system pattern does not actively preserve it.],
+      [Preserve human-tutor authorization to override and re-direct as a system-design requirement, not as a discretionary affordance; the comparison with Case 60 (Epic Sepsis) is that override authorization collapses when the system pattern does not actively preserve it.],
       [Measure the student-learning outcome, not the AI-system-fidelity outcome; the case's pedagogical framing depends on the outcome instrument being the educationally relevant one, not the AI-development-internal one.],
     ),
     after: (
       [Commission longitudinal follow-through that extends the evidence base past the end-of-intervention horizon; the open persistence question is testable against the same deployment with additional data infrastructure.],
       [Test the augmentation design in tutor-scarce contexts; the open generalization question is whether the pattern transfers to settings where the binding constraint is human-tutor availability rather than human-tutor effectiveness.],
-      [Pair the case with Case 125 (TREWS) in the curriculum so the augmentation-and-override pattern is taught across clinical and educational substrates; the two cases together ground the delegation-with-revocation CLO with two converging instances.],
+      [Pair the case with Case 118 (TREWS) in the curriculum so the augmentation-and-override pattern is taught across clinical and educational substrates; the two cases together ground the delegation-with-revocation CLO with two converging instances.],
     ),
   ),
   references: (
     [Thomas, D. R. et al. (2024), "Improving Student Learning with Hybrid Human-AI Tutoring: A Three-Study Quasi-Experimental Investigation," _LAK '24_, doi:10.1145/3636555.3636896.],
-    [Case 125 (TREWS) reference set — Henry et al. (2022), _Nature Medicine_ — clinician-AI teaming analog.],
-    [Case 65 (Epic Sepsis) reference set — Wong et al. (2021), _JAMA Internal Medicine_ — delegation-collapse analog.],
+    [Case 118 (TREWS) reference set — Henry et al. (2022), _Nature Medicine_ — clinician-AI teaming analog.],
+    [Case 60 (Epic Sepsis) reference set — Wong et al. (2021), _JAMA Internal Medicine_ — delegation-collapse analog.],
     [Koedinger, K. R. et al. — Cognitive Tutor literature as the fully-automated track the augmentation track contrasts with.],
   ),
   quote: [The AI is positioned as augmentation, not delegation. The human tutor retains the authorization to override and re-direct. The measured outcome is student learning, not AI-system fidelity.],
@@ -12038,7 +12038,7 @@
     augmentation; human tutor retains override authorization;
     student-learning outcome is the measure. Three quasi-
     experimental studies converge on positive learning effects.
-    The case pairs with Cases 125 / 101 / 118 / 119 in the
+    The case pairs with Cases 118 / 101 / 118 / 119 in the
     human-AI teaming thread and grounds the delegation-with-
     revocation CLO at the educational deployment.
   ],
@@ -12048,9 +12048,9 @@
     in Domain 5 (Machine Teaming and Adaptation) for the
     augmentation pattern and the override-authorization frame,
     and in Domain 2 (Iterative Development) for the three-study
-    converging-design replication. Pair with Cases 125 (TREWS)
+    converging-design replication. Pair with Cases 118 (TREWS)
     and 102 (Epic Sepsis) at the clinical analog, and with
-    Cases 195 and 134 (CIRCUIT) at the workforce-augmentation
+    Cases 187 and 127 (CIRCUIT) at the workforce-augmentation
     analog.
   ],
   literature-items: (
@@ -12061,13 +12061,13 @@
   reflection-list: (
     [Identify an AI deployment in your domain where the design choice between augmentation and delegation has been implicit rather than explicit. What would change in the system design if the choice were named explicitly, and what comparison condition would you build to test the difference?],
     [Specify the override-authorization preservation mechanism in your domain's analog deployment. Is the human operator's authority to override and re-direct a system-design requirement, a discretionary affordance, or an implicit assumption? Which of the three is honest about what the system currently supports?],
-    [The case pairs with Case 125 (TREWS) at the clinical layer and Case 65 (Epic Sepsis) as the delegation-collapse contrast. Pick an AI deployment in your domain and ask: which of the two patterns does your deployment look most like, and what design changes would shift it toward the augmentation pattern?],
+    [The case pairs with Case 118 (TREWS) at the clinical layer and Case 60 (Epic Sepsis) as the delegation-collapse contrast. Pick an AI deployment in your domain and ask: which of the two patterns does your deployment look most like, and what design changes would shift it toward the augmentation pattern?],
   ),
   courses: ("LEN 2", "LEN 5", "LEN 7"),
 )
 
 #case(
-  number: 183,
+  number: 176,
   slug: "zhang-scardamalia-knowledge-building",
   title: "Zhang/Scardamalia — Knowledge Building Across Three Cohorts",
   year: "2009",
@@ -12098,7 +12098,7 @@
     and to teachers without knowledge-building expertise is open.
     The case is the classroom-scale longitudinal counterpart in
     the small-tier evidence base; the LE Lens uses it as the JLS-
-    anchored small-tier complement to v1 Case 120.
+    anchored small-tier complement to v1 Case 113.
   ],
   sections: (
     [
@@ -12169,14 +12169,14 @@
     [
       The case sits as the classroom-scale longitudinal
       counterpart in the small-tier evidence base. Pair with
-      Case 135 (Colorado CTSA team science) for the
+      Case 128 (Colorado CTSA team science) for the
       collaboration-measurement thread at a different scale and
-      domain; with Case 182 (Hybrid Human-AI Tutoring) for the
-      small-tier deployment-success counterpart; with Case 129
-      and Case 180 (OU Analyse) for the distance-higher-education
+      domain; with Case 175 (Hybrid Human-AI Tutoring) for the
+      small-tier deployment-success counterpart; with Case 122
+      and Case 173 (OU Analyse) for the distance-higher-education
       governance frame at a different population. The LE Lens
       uses the case as the JLS-anchored small-tier complement to
-      v1 Case 120 (Cognitive Tutor's single-site arc); the two
+      v1 Case 113 (Cognitive Tutor's single-site arc); the two
       cases together teach that the longitudinal classroom
       record is the substrate that learning-engineering
       iterations operate on, and that the iteration unit is the
@@ -12198,8 +12198,8 @@
     ),
     after: (
       [Carry the binding hedges into print without softening; the case's value to the corpus rests on its specificity, and the transferability questions are open and disclosable as open.],
-      [Pair with Case 135 (collaboration measurement at team-science scale) so the collaboration-as-design-target thread is taught at both the classroom and team scales.],
-      [Use the case as the JLS-anchored small-tier complement to v1 Case 120 (Cognitive Tutor's single-site arc); the cohort-as-iteration-unit lesson is the bridge between the classroom-design literature and the at-scale evaluation literature.],
+      [Pair with Case 128 (collaboration measurement at team-science scale) so the collaboration-as-design-target thread is taught at both the classroom and team scales.],
+      [Use the case as the JLS-anchored small-tier complement to v1 Case 113 (Cognitive Tutor's single-site arc); the cohort-as-iteration-unit lesson is the bridge between the classroom-design literature and the at-scale evaluation literature.],
     ),
   ),
   references: (
@@ -12226,12 +12226,12 @@
     LENS uses it in Domain 2 (Iterative Development) for the
     multi-cohort design-based-research discipline and in Domain 3
     (Test and Evaluation) for the depth-and-distribution paired
-    outcome measure. Pair with Case 135 (Colorado CTSA team
-    science collaboration measurement), Case 182 (Hybrid Human-AI
-    Tutoring small-tier deployment), and Cases 129 and 180 (OU
+    outcome measure. Pair with Case 128 (Colorado CTSA team
+    science collaboration measurement), Case 175 (Hybrid Human-AI
+    Tutoring small-tier deployment), and Cases 122 and 173 (OU
     Analyse — distance higher-education governance at a different
     scale). The LE Lens uses it as the small-tier complement to
-    v1 Case 120 (Cognitive Tutor single-site arc).
+    v1 Case 113 (Cognitive Tutor single-site arc).
   ],
   literature-items: (
     [Zhang et al. (2009), _JLS_ — Knowledge Building three-cohort design study],
@@ -12247,7 +12247,7 @@
 )
 
 #case(
-  number: 184,
+  number: 177,
   slug: "chen-rural-china-ai-devices",
   title: "Chen et al. — Rural China AI Devices and the Equity-Direction Finding",
   year: "2025",
@@ -12338,11 +12338,11 @@
     [
       The case's structural placement in the corpus is the
       equity-direction-finding case at the non-WEIRD deployment
-      seam. Pair with Case 196 (Gándara / community-college
+      seam. Pair with Case 188 (Gándara / community-college
       predictive equity in _AERA Open_) for the equity-direction
-      thread at the higher-education scale; with Case 199
+      thread at the higher-education scale; with Case 191
       (LiveHint AI bias across foundation models) for the bias-
-      surfacing thread in AI-supported instruction; with Case 181
+      surfacing thread in AI-supported instruction; with Case 174
       (Doer Effect non-WEIRD radio-and-phone extension) for the
       non-WEIRD methodological discipline at the heterogeneity-
       finding axis. The first-author-from-deployment-country
@@ -12381,7 +12381,7 @@
     "Rural experimental classes +17.93% math, +13.46% history; urban experimental classes +10.96% math, +9.55% history",
     "Equity-direction finding: rural gain exceeds urban gain across both subjects — the load-bearing teaching point",
     "Load-bearing hedges in prose: 3-month horizon, 12 schools, non-randomized assignment, self-report and observation bias acknowledged",
-    "First-author-from-deployment-country structure; pair with Cases 196 (Gándara), 187 (LiveHint bias), 186 (Doer Effect non-WEIRD)",
+    "First-author-from-deployment-country structure; pair with Cases 188 (Gándara), 187 (LiveHint bias), 186 (Doer Effect non-WEIRD)",
   ),
   approaches: (
     during: (
@@ -12391,15 +12391,15 @@
     ),
     after: (
       [Commission the longer-horizon and larger-sample replication the three-month 12-school study cannot perform; the equity-direction finding's persistence past three months and across more schools is the validation question the case names.],
-      [Pair the case in syllabi with Case 196 (Gándara community-college equity) and Case 181 (Doer Effect non-WEIRD extension) so the equity-direction reading is taught across deployment scales and population settings.],
+      [Pair the case in syllabi with Case 188 (Gándara community-college equity) and Case 174 (Doer Effect non-WEIRD extension) so the equity-direction reading is taught across deployment scales and population settings.],
       [Use the case to anchor the CLO on fairness beyond omission with a rare published equity-direction finding; the corpus needs equity-narrowing results as visible as equity-widening ones, and the methodological discipline that lets the result be reported credibly is the curricular target.],
     ),
   ),
   references: (
     [Chen, R., Wu, Y., Chen, Z., & Zhou, P. (2025), "Advancing educational equity in rural China: the impact of AI devices on teaching quality and learning outcomes for sustainable development," _Frontiers in Psychology_ 16:1588047, doi:10.3389/fpsyg.2025.1588047.],
-    [Paired Case 196 (Gándara et al., _AERA Open_) — community-college predictive equity at the higher-education scale.],
-    [Paired Case 199 (LiveHint AI bias across foundation models, AIED 2025) — bias-surfacing in AI-supported instruction.],
-    [Paired Case 181 (Doer Effect non-WEIRD LAK 2025 radio-and-phone extension) — non-WEIRD methodological discipline at the heterogeneity-finding axis.],
+    [Paired Case 188 (Gándara et al., _AERA Open_) — community-college predictive equity at the higher-education scale.],
+    [Paired Case 191 (LiveHint AI bias across foundation models, AIED 2025) — bias-surfacing in AI-supported instruction.],
+    [Paired Case 174 (Doer Effect non-WEIRD LAK 2025 radio-and-phone extension) — non-WEIRD methodological discipline at the heterogeneity-finding axis.],
   ),
   quote: [Rural experimental classes gained 17.93 percent on mathematics and 13.46 percent on history; urban experimental classes gained 10.96 percent on mathematics and 9.55 percent on history. The rural gain exceeded the urban gain across both subjects — and the load-bearing hedges are three-month horizon, twelve schools, non-randomized assignment, self-report and observation bias acknowledged by the authors.],
   quote-source: "Editors' synthesis of Chen, Wu, Chen, & Zhou (2025).",
@@ -12421,17 +12421,17 @@
     (Iterative Development) for the deployment-on-a-defined-
     horizon discipline and in Domain 4 (Navigating Sociotechnical
     Constraints) for the equity-direction reading that anchors
-    the fairness-beyond-omission CLO. Pair with Case 196
-    (Gándara community-college predictive equity), Case 199
-    (LiveHint AI bias across foundation models), and Case 181
+    the fairness-beyond-omission CLO. Pair with Case 188
+    (Gándara community-college predictive equity), Case 191
+    (LiveHint AI bias across foundation models), and Case 174
     (Doer Effect non-WEIRD radio-and-phone extension). The
     case's pedagogical value depends on the four binding
     hedges traveling with the result into print.
   ],
   literature-items: (
     [Chen et al. (2025), _Frontiers in Psychology_ — rural China AI devices],
-    [Paired Cases 196 (Gándara) and 186 (Doer Effect non-WEIRD)],
-    [Paired Case 199 (LiveHint AI bias)],
+    [Paired Cases 188 (Gándara) and 186 (Doer Effect non-WEIRD)],
+    [Paired Case 191 (LiveHint AI bias)],
   ),
   reflection-list: (
     [Identify a deployment in your domain whose equity-direction finding — narrowing or widening a between-setting gap — has not been pre-specified as a primary outcome. What would the pre-specification require, and what data infrastructure would support it?],
@@ -12442,7 +12442,7 @@
 )
 
 #case(
-  number: 185,
+  number: 178,
   slug: "nyc-ll144-aedt-2023",
   title: "NYC Local Law 144 — Bias Audits as Governance Artifact",
   year: "2023 – present",
@@ -12473,10 +12473,10 @@
     load-bearing limitations: bias audits without bias data —
     employers often lack the protected-attribute data the audit
     metrics require — and wide variability in audit quality
-    across published audits. The case pairs with Case 129 (OU
+    across published audits. The case pairs with Case 122 (OU
     Analyse — governance-objection dissolved by design), Case
-    196 (Gándara community-college predictive equity), and Case
-    86 (Amazon hiring AI). The intervention is the audit-as-
+    188 (Gándara community-college predictive equity), and Case
+    81 (Amazon hiring AI). The intervention is the audit-as-
     governance-artifact discipline; whether the audits reduce
     actual disparate impact at the hiring level remains under-
     evidenced.
@@ -12532,15 +12532,15 @@
       is uneven across the first cohort.#cn()
     ],
     [
-      The case pairs with Case 129 (OU Analyse) for the
+      The case pairs with Case 122 (OU Analyse) for the
       governance-objection-dissolved-by-design thread: OU
       Analyse's deployment surfaced an equity question that the
       design process resolved structurally; Local Law 144's
       audit regime surfaces equity questions structurally
       through disclosure rather than through a design change.
-      Pair with Case 196 (Gándara community-college predictive
+      Pair with Case 188 (Gándara community-college predictive
       equity) for the predictive-equity thread at higher-
-      education scale. Pair with Case 86 (Amazon hiring AI) for
+      education scale. Pair with Case 81 (Amazon hiring AI) for
       the same domain — the audit regime is the governance
       instrument that, had it been in place, would have applied
       to an internal recruiting tool of Amazon's described
@@ -12577,7 +12577,7 @@
     "Three requirements: annual independent bias audit, publication of audit summary, candidate notice and alternative-selection request process",
     "Audit metrics: selection rate and impact ratio by sex, race/ethnicity, intersectional categories; computed by independent auditor not associated with the AEDT",
     "Yam & Skirpan 2024 \"bias audits without bias data\": employers often lack protected-attribute data; Wright & Brown 2024 audit-quality study finds wide variability",
-    "Pair with Case 129 (OU Analyse), Case 196 (Gándara), Case 86 (Amazon hiring AI); whether audits reduce actual disparate impact remains under-evidenced",
+    "Pair with Case 122 (OU Analyse), Case 188 (Gándara), Case 81 (Amazon hiring AI); whether audits reduce actual disparate impact remains under-evidenced",
   ),
   approaches: (
     during: (
@@ -12587,7 +12587,7 @@
     ),
     after: (
       [Carry the load-bearing hedges — disclosure-and-audit regime not substantive-standards regime; reduction of actual disparate impact under-evidenced; audit-quality variability across first cohort — into print without softening; the case's pedagogical value depends on the intervention's limits being preserved.],
-      [Pair in syllabi with Case 129 (OU Analyse) so the governance-objection-dissolved-by-design and governance-objection-surfaced-by-disclosure threads are taught together as complementary intervention forms.],
+      [Pair in syllabi with Case 122 (OU Analyse) so the governance-objection-dissolved-by-design and governance-objection-surfaced-by-disclosure threads are taught together as complementary intervention forms.],
       [Use the case as the change-control-and-disclosure-as-governance-artifacts anchor at the municipal-regulatory scale; the curricular target is the discipline of building the data infrastructure and the audit-quality criteria the disclosure regime presupposes.],
     ),
   ),
@@ -12617,9 +12617,9 @@
     (induced 5.4; LENS D4/PT5; CLO-3 and CLO-4). LENS uses it
     in Domain 4 (Navigating Sociotechnical Constraints) for the
     audit-as-governance-instrument discipline. Pair with Case
-    129 (OU Analyse governance-objection-dissolved-by-design),
-    Case 196 (Gándara community-college predictive equity), and
-    Case 86 (Amazon hiring AI). The intervention is real and
+    122 (OU Analyse governance-objection-dissolved-by-design),
+    Case 188 (Gándara community-college predictive equity), and
+    Case 81 (Amazon hiring AI). The intervention is real and
     its limits are real; the disclosure-and-audit structure is
     not a substantive-standards structure, and the reduction-
     of-actual-disparate-impact evaluation question is at the
@@ -12639,7 +12639,7 @@
 )
 
 #case(
-  number: 186,
+  number: 179,
   slug: "composer-sepsis-prediction",
   title: "COMPOSER Sepsis Prediction — The Third Clinical-AI Sepsis Case",
   year: "2022 – 2024",
@@ -12667,25 +12667,25 @@
     during the deployment period at two UC San Diego hospitals,
     evaluated against the pre-deployment baseline period within
     the same health system. The case completes the AI-delegation
-    typology in sepsis at three deployments — Case 125 (TREWS at
-    Johns Hopkins), Case 65 (Epic Sepsis Score across multiple
+    typology in sepsis at three deployments — Case 118 (TREWS at
+    Johns Hopkins), Case 60 (Epic Sepsis Score across multiple
     health systems), and COMPOSER at UCSD. The honest hedges from
     the source are binding: the deployment is prospective but
     not RCT-grade, the mortality reduction is multifactorial
     (the COMPOSER deployment ran alongside other process
     improvements at UCSD), and the author team is explicit
     about the structural attribution question. Pair with Case
-    125, Case 65, and Case 190 (Radiology AI Miscalibration).
+    118, Case 60, and Case 182 (Radiology AI Miscalibration).
   ],
   sections: (
     [
       The contemporary clinical-AI sepsis-prediction literature
       has converged on a small number of well-evidenced
-      deployments. Case 125 documents TREWS — the Targeted Real-
+      deployments. Case 118 documents TREWS — the Targeted Real-
       Time Early Warning System at Johns Hopkins — with its
       prospective evaluation showing mortality reduction
       associated with prompt clinician response to alerts. Case
-      65 documents the Epic Sepsis Score deployed across
+      60 documents the Epic Sepsis Score deployed across
       multiple U.S. health systems, with external validation by
       Wong and colleagues finding substantially lower sensitivity
       and higher false-positive rates than the vendor's
@@ -12709,7 +12709,7 @@
       — when the model's calibrated confidence does not support
       a clinically actionable alert. The abstention structure is
       what handles one of the load-bearing failure modes of
-      Case 65 (Epic Sepsis), where the model alerted at high
+      Case 60 (Epic Sepsis), where the model alerted at high
       rates against patient populations it had not been
       adequately calibrated against. COMPOSER's abstention
       structure is one mechanism for refusing to alert in those
@@ -12735,19 +12735,19 @@
       contribution of the surrounding process changes.#cn()
     ],
     [
-      The case pairs with Case 125 (TREWS) for the prospective-
+      The case pairs with Case 118 (TREWS) for the prospective-
       positive sepsis-prediction thread: both deployments report
       mortality benefits, both are integrated into specific
       health-system workflows, and the comparison between TREWS
       and COMPOSER turns on the alerting architecture and on
-      the role of the surrounding process. Pair with Case 65
+      the role of the surrounding process. Pair with Case 60
       (Epic Sepsis Score) for the external-validation-revealed-
       gaps thread: COMPOSER's abstention structure is one
       response to the calibration-gap failure mode that the Epic
-      Sepsis evidence base named. Pair with Case 190 (Radiology
+      Sepsis evidence base named. Pair with Case 182 (Radiology
       AI Miscalibration) for the broader medical-AI
       miscalibration-in-deployment thread. The three sepsis
-      cases together — Case 125, Case 65, COMPOSER — define
+      cases together — Case 118, Case 60, COMPOSER — define
       the AI-delegation typology in sepsis: prospective-positive
       with workflow integration (TREWS), externally validated
       and found wanting against vendor claims (Epic Sepsis),
@@ -12781,7 +12781,7 @@
     "Conformal-prediction framework: calibrated uncertainty intervals enable model abstention when input is out-of-distribution",
     "Deployment outcomes: 1.9 pp absolute decrease in in-hospital sepsis mortality; 5.0 pp absolute decrease in 28-day sepsis-related readmission vs pre-deployment baseline",
     "Hedges binding: prospective not RCT; mortality reduction multifactorial — concurrent process improvements at UCSD cannot be cleanly separated from COMPOSER's contribution",
-    "Completes AI-delegation typology in sepsis: Case 125 (TREWS), Case 65 (Epic Sepsis Score), COMPOSER (Case 186)",
+    "Completes AI-delegation typology in sepsis: Case 118 (TREWS), Case 60 (Epic Sepsis Score), COMPOSER (Case 179)",
   ),
   approaches: (
     during: (
@@ -12791,15 +12791,15 @@
     ),
     after: (
       [Carry the multifactorial-mortality hedge into print without softening; the case's pedagogical value depends on the attribution question being explicit alongside the deployment-outcome reporting.],
-      [Pair in syllabi with Case 125 (TREWS) and Case 65 (Epic Sepsis) so the AI-delegation typology in sepsis is taught as a three-case set at the deployment-evidence level.],
+      [Pair in syllabi with Case 118 (TREWS) and Case 60 (Epic Sepsis) so the AI-delegation typology in sepsis is taught as a three-case set at the deployment-evidence level.],
       [Use the case to anchor the cue-and-alert design CLO; the curricular target is the discipline of building abstention into the alerting architecture as a capability deliverable, and of evaluating the abstention against the calibration-gap failure mode the prior cases named.],
     ),
   ),
   references: (
     [Boussina, A., Shashikumar, S. P., Malhotra, A., Owens, R. L., El-Kareh, R., Longhurst, C. A., Quintero, K., et al. (2024), "Impact of a deep learning sepsis prediction model on quality of care and survival," _NPJ Digital Medicine_ 7:14, doi:10.1038/s41746-023-00986-6.],
     [Shashikumar, S. P., Wardi, G., Malhotra, A., & Nemati, S. (2021), "Artificial intelligence sepsis prediction algorithm learns to say 'I don't know,'" _NPJ Digital Medicine_ 4:134 — the methodological-foundation paper for the conformal-prediction abstention structure.],
-    [Wong, A., Otles, E., Donnelly, J. P., Krumm, A., McCullough, J., DeTroyer-Cooley, O., et al. (2021), "External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients," _JAMA Internal Medicine_ 181(8):1065–1070 — the load-bearing external-validation paper on Epic Sepsis (Case 65).],
-    [Adams, R., Henry, K. E., Sridharan, A., Soleimani, H., Zhan, A., Rawat, N., Johnson, L., et al. (2022), "Prospective, multi-site study of patient outcomes after implementation of the TREWS machine learning-based early warning system for sepsis," _Nature Medicine_ 28:1455–1460 — the prospective-positive TREWS deployment paper (Case 125).],
+    [Wong, A., Otles, E., Donnelly, J. P., Krumm, A., McCullough, J., DeTroyer-Cooley, O., et al. (2021), "External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients," _JAMA Internal Medicine_ 181(8):1065–1070 — the load-bearing external-validation paper on Epic Sepsis (Case 60).],
+    [Adams, R., Henry, K. E., Sridharan, A., Soleimani, H., Zhan, A., Rawat, N., Johnson, L., et al. (2022), "Prospective, multi-site study of patient outcomes after implementation of the TREWS machine learning-based early warning system for sepsis," _Nature Medicine_ 28:1455–1460 — the prospective-positive TREWS deployment paper (Case 118).],
   ),
   quote: [The deployment is prospective implementation, not RCT; the mortality reduction is multifactorial — COMPOSER was deployed alongside other process improvements at UCSD, and the contribution cannot be cleanly separated; the conformal-prediction abstention is the methodological contribution the case anchors.],
   quote-source: "Editors' synthesis of Boussina et al. (2024) NPJ Digital Medicine and the surrounding sepsis-prediction deployment literature.",
@@ -12821,16 +12821,16 @@
     (Test and Evaluation) for the prospective-implementation-
     evaluation discipline and in Domain 5 (Machine Teaming and
     Adaptation) for the abstention-as-clinical-workflow-
-    capability anchor. Pair with Case 125 (TREWS), Case 65
-    (Epic Sepsis), and Case 190 (Radiology AI Miscalibration).
-    The three sepsis cases together — Case 125, Case 65, Case
-    186 — define the AI-delegation typology in sepsis at the
+    capability anchor. Pair with Case 118 (TREWS), Case 60
+    (Epic Sepsis), and Case 182 (Radiology AI Miscalibration).
+    The three sepsis cases together — Case 118, Case 60, Case
+    179 — define the AI-delegation typology in sepsis at the
     deployment-evidence level.
   ],
   literature-items: (
     [Boussina et al. (2024), _NPJ Digital Medicine_ — COMPOSER prospective implementation],
     [Shashikumar et al. (2021), _NPJ Digital Medicine_ — conformal-prediction abstention foundation],
-    [Paired Case 125 (TREWS) and Case 65 (Epic Sepsis) — completing the sepsis typology],
+    [Paired Case 118 (TREWS) and Case 60 (Epic Sepsis) — completing the sepsis typology],
   ),
   reflection-list: (
     [Identify a clinical-AI deployment in your setting whose alerting architecture does not include an abstention mechanism. What is the calibration-gap failure mode the deployment would encounter, and what would the conformal-prediction abstention structure look like in your workflow?],

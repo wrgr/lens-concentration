@@ -116,7 +116,7 @@
       Produced the Holloway Commission, USSOCOM, and Goldwater-Nichols.
     ]
     v(6pt)
-    standout-line("Standout success", 118, teal)[
+    standout-line("Standout success", 111, teal)[
       *U.S. Nuclear Navy / Rickover Training Model (1954–).* The
       longest continuous capability-engineering program in any
       high-consequence domain. Sixty-plus years of zero reactor
@@ -131,7 +131,7 @@
       knit the pieces together. 346 lives.
     ]
     v(6pt)
-    standout-line("Standout success", 110, teal)[
+    standout-line("Standout success", 103, teal)[
       *Crew Resource Management & CAST (1981–).* First-officer
       authority engineered into the cockpit, a continuous learning
       architecture across the industry, and the safety record that
@@ -139,14 +139,14 @@
     ]
   },
   healthcare: {
-    standout-line("Standout failure", 36, gold)[
+    standout-line("Standout failure", 35, gold)[
       *EHR / CPOE Implementation (2005–).* Roughly \$30B federal
       investment in systems designed for billing and administration,
       deployed against clinical workflow. Usability is now itself a
       patient-safety variable at scale.
     ]
     v(6pt)
-    standout-line("Standout success", 111, teal)[
+    standout-line("Standout success", 104, teal)[
       *WHO Surgical Safety Checklist (2008–).* One page, nineteen
       items, paired with a required pause. ~Halved surgical mortality
       in the multi-site pilot; the smallest effective capability
@@ -161,49 +161,49 @@
       valve state. Catalysed industry-wide reform.
     ]
     v(6pt)
-    standout-line("Standout success", 114, teal)[
+    standout-line("Standout success", 107, teal)[
       *INPO and the Nuclear Academy (1979–).* The industry built the
       institution TMI revealed it needed. No INES-level event at U.S.
       commercial reactors since.
     ]
   },
   industrial: {
-    standout-line("Standout failure", 48, gold)[
+    standout-line("Standout failure", 47, gold)[
       *Bhopal (1984).* Training, knowledge, normalisation of deviance,
       and governance all collapsed in the same plant. Roughly 4,000
       immediate deaths; chronic harms continue. The cautionary case
       for outsourced operational responsibility.
     ]
     v(6pt)
-    standout-line("Standout success", 116, teal)[
+    standout-line("Standout success", 109, teal)[
       *Toyota Production System / Andon Cord (1950s–).* Any operator
       can stop the line. The smallest authority-architecture
       intervention in the dataset, and the most durably copied.
     ]
   },
   space: {
-    standout-line("Standout failure", 26, gold)[
+    standout-line("Standout failure", 25, gold)[
       *Challenger & Columbia (1986 / 2003).* Normalisation of deviance
       across two decades and two crews, captured in the Rogers and
       CAIB reports as a culture that accepted flying with flaws when
       problems were defined as normal and routine.
     ]
     v(6pt)
-    standout-line("Note", 118, text-muted)[
+    standout-line("Note", 111, text-muted)[
       No paired-intervention success in the aerospace dataset. See
-      Defense (Rickover, Case 118) for the safety-engineering
+      Defense (Rickover, Case 111) for the safety-engineering
       counterpart that aerospace did not build.
     ]
   },
   gov: {
-    standout-line("Standout failure", 53, gold)[
+    standout-line("Standout failure", 77, gold)[
       *Australia Robodebt (2016–20).* An income-averaging algorithm
       that reversed the burden of proof onto welfare recipients. The
       Royal Commission found "venality, incompetence and cowardice";
       the scheme was linked to deaths, including suicide.
     ]
     v(6pt)
-    standout-line("Note", 122, text-muted)[
+    standout-line("Note", 115, text-muted)[
       No paired-intervention success in the government dataset. The
       reforms that follow these cases — Royal Commissions, statutory
       restructures — are documented in the narratives but did not
@@ -211,7 +211,7 @@
     ]
   },
   education: {
-    standout-line("Standout failure", 50, gold)[
+    standout-line("Standout failure", 49, gold)[
       *Summit Learning / Personalized Learning Rollout (2014–19).*
       A defensible pedagogical platform, well funded, deployed across
       ~380 schools — and pulled by parent revolt because the
@@ -219,7 +219,7 @@
       engineered alongside it.
     ]
     v(6pt)
-    standout-line("Standout success", 119, teal)[
+    standout-line("Standout success", 112, teal)[
       *Georgia State University Predictive Analytics (2012–).*
       800 risk factors per student, advising triggered by early
       warning signs, equity as a primary constraint. Six-year
@@ -227,7 +227,7 @@
     ]
   },
   tech: {
-    standout-line("Standout failure", 55, gold)[
+    standout-line("Standout failure", 52, gold)[
       *UK Post Office Horizon Scandal (1999–2015).* Institutional
       refusal to believe sub-postmasters' reports of computer error,
       sustained over fifteen years. Hundreds of wrongful convictions;
@@ -235,24 +235,24 @@
       operator-feedback failure in the dataset.
     ]
     v(6pt)
-    standout-line("Note", 193, text-muted)[
+    standout-line("Note", 185, text-muted)[
       The technology dataset's success story is filed under Healthcare:
-      AlphaFold (Case 193), the contemporary worked example of
+      AlphaFold (Case 185), the contemporary worked example of
       computational capability-engineering done as a discipline.
     ]
   },
   autonomous: {
-    standout-line("Standout failure", 37, gold)[
+    standout-line("Standout failure", 36, gold)[
       *Uber ATG / Tempe Fatality (2018).* The safety driver was
       nominally responsible for what the system was designed to do
       without her attention — the classic vigilance contradiction at
       the heart of partial-autonomy operator roles.
     ]
     v(6pt)
-    standout-line("Note", 202, text-muted)[
+    standout-line("Note", 194, text-muted)[
       No paired-intervention success in the autonomous-systems dataset.
       The capability engineering this category needs is still being
-      built — see Case 202 (*The Discipline We Build Next*) for the
+      built — see Case 194 (*The Discipline We Build Next*) for the
       open question this volume closes on.
     ]
   },
