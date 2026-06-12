@@ -16,7 +16,10 @@
 
 // ---- Domain tag pill ----
 #let domain-tag(key) = {
-  let d = domains.at(key, default: ("Domain", navy-mid))
+  // If the key isn't in the canonical dict, fall back to the key itself so
+  // an unregistered v2 domain (e.g. "clinical AI") renders as its own label
+  // rather than the literal "DOMAIN" placeholder.
+  let d = domains.at(key, default: (key, navy-mid))
   box(
     fill: d.at(1),
     inset: (x: 6pt, y: 3pt),
@@ -38,7 +41,9 @@
 // overview never duplicates content. Two layouts, chosen by `view`:
 //   "overview"      US Letter, two half-page entries per page (fixed height)
 //   "overview-half" Half Letter, one entry per page, content filled to page
-#let overview-entry(number, title, year, domains, modes, summary, refs, lens, sections: (), beats: (), kind: none) = {
+#let overview-entry(number, title, year, domains, modes, summary, refs, lens,
+                    sections: (), beats: (), kind: none,
+                    courses: (), clo-anchor: none, induced-anchor: none, lens-anchor: none) = {
   let big = view == "overview-half"
   let labels = section-sets.at(kind, default: section-sets.failure)
   let header = grid(
@@ -49,25 +54,55 @@
     domain-row(..domains),
     eyebrow(year),
   )
-  let titleblock = text(font: serif, size: if big { 18pt } else { 15pt }, fill: navy, title)
+  // Title shrunk one notch — fits on one line for most cases. Was 18pt big / 15pt small.
+  let titleblock = text(font: serif, size: if big { 15pt } else { 13pt }, fill: navy, title)
+  // References — tight bulleted form, small font; first 3 entries only.
+  // Inline-with-dots tested but wrapped poorly when each ref is a full citation;
+  // bulleted at 7pt with tight leading wins on density.
   let refsblock = {
     eyebrow("Key references", color: gold)
-    v(2pt)
+    v(1pt)
     block({
-      set par(leading: 0.46em, spacing: 3.5pt, hanging-indent: 8pt)
+      set par(leading: 0.4em, spacing: 2pt, hanging-indent: 7pt)
       for r in refs.slice(0, calc.min(3, refs.len())) {
-        text(font: sans, size: 7.5pt, fill: text-muted, [‣#h(3pt)#r])
+        text(font: sans, size: 7pt, fill: text-muted, [‣#h(3pt)#r])
         parbreak()
       }
     })
   }
+  // Restructured LENS block — Application then Course mapping. Tight layout
+  // chosen so the whole block stays within one page when summary + beats
+  // also fit. Course mapping renders inline next to its eyebrow.
   let lensblock = {
     eyebrow("LENS applicability", color: teal)
-    v(2pt)
+    v(1pt)
     block({
-      set par(justify: true, leading: 0.54em)
-      text(font: sans, size: 9pt, fill: text-dark, lens)
+      set par(justify: false, leading: 0.46em)
+      text(font: sans, size: 7.5pt, fill: text-dark, lens)
     })
+    // Course mapping line — inline after the eyebrow to save vertical room.
+    if courses.len() > 0 or clo-anchor != none or induced-anchor != none or lens-anchor != none {
+      v(1pt)
+      block({
+        set par(justify: false, leading: 0.42em)
+        eyebrow("Course mapping", color: navy-mid)
+        h(4pt)
+        let parts = ()
+        if induced-anchor != none and induced-anchor != "" {
+          parts.push("induced " + induced-anchor)
+        }
+        if lens-anchor != none and lens-anchor != "" {
+          parts.push(lens-anchor)
+        }
+        if clo-anchor != none and clo-anchor != "" {
+          parts.push(clo-anchor)
+        }
+        if courses.len() > 0 {
+          parts.push(courses.join(" · "))
+        }
+        text(font: sans, size: 7pt, weight: "medium", fill: navy, parts.join(" · "))
+      })
+    }
   }
 
   if big {
@@ -76,14 +111,14 @@
     // key references and the LENS note. v(1fr) distributes slack to fill the
     // page; the inline map keeps even content-heavy cases to a single page.
     header
-    v(5pt)
+    v(4pt)
     titleblock
-    v(9pt)
+    v(7pt)
     block({
-      set par(justify: true, leading: 0.58em)
-      text(font: sans, size: 10pt, fill: text-dark, summary)
+      set par(justify: true, leading: 0.55em)
+      text(font: sans, size: 9.5pt, fill: text-dark, summary)
     })
-    v(6pt)
+    v(5pt)
     eyebrow("The full case, in five beats", color: navy-mid)
     v(2pt)
     block({
@@ -100,18 +135,18 @@
     })
     v(1fr)
     refsblock
-    v(6pt)
+    v(5pt)
     lensblock
     pagebreak(weak: true)
   } else {
     let callout = block({
-      set par(justify: true, leading: 0.58em)
-      text(font: sans, size: 10pt, fill: text-dark, summary)
+      set par(justify: true, leading: 0.55em)
+      text(font: sans, size: 9.5pt, fill: text-dark, summary)
     })
     block(
       width: 100%, height: 113mm, breakable: false,
-      inset: (top: 7pt, bottom: 5pt), stroke: (top: 0.6pt + rule-soft),
-      { header; v(3pt); titleblock; v(5pt); callout; v(6pt); refsblock; v(3pt); lensblock },
+      inset: (top: 6pt, bottom: 4pt), stroke: (top: 0.6pt + rule-soft),
+      { header; v(2pt); titleblock; v(4pt); callout; v(4pt); refsblock; v(2pt); lensblock },
     )
   }
 }
