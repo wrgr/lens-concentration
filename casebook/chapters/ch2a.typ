@@ -736,8 +736,9 @@
       developer ecosystem was thin, carrier promotional
       support was muted, and consumer demand was weak. In
       September 2013 BlackBerry (renamed from RIM earlier
-      that year) announced a USD 4.4 billion write-down,
-      most of it Z10-related inventory, and 4,500 layoffs.
+      that year) announced a USD 934 million pre-tax inventory and supply-commitment
+      charge (Q2 FY2014 net loss approximately USD 965 million) and
+      4,500 layoffs, most of the charge Z10-related.
       U.S. smartphone share — roughly 50% in 2009 — had
       fallen below 5% by 2013 and toward 1% by 2014.
       BlackBerry's subsequent strategy explicitly pivoted to
@@ -769,7 +770,7 @@
     "Co-CEOs publicly minimized the iPhone's threat; engineering organization understood the implication faster",
     "2008 Storm shipped to a Verizon timeline with defects; volumes returned",
     "BB10 and the Z10 full-touch handset did not ship until January 2013, six years after the iPhone",
-    "September 2013 USD 4.4B write-down and 4,500 layoffs; BlackBerry exited the consumer handset business",
+    "September 2013 Q2 FY2014 announcement: ~USD 934M pre-tax inventory and supply-commitment charge (net loss ~USD 965M) and 4,500 layoffs; BlackBerry exited the consumer handset business",
   ),
   approaches: (
     during: (
@@ -787,7 +788,7 @@
     [J. McNish & S. Silcoff, _Losing the Signal: The Untold Story Behind the Extraordinary Rise and Spectacular Fall of BlackBerry_ (Flatiron Books, 2015).],
     ["BlackBerry Storm reviews and return rates," _The Wall Street Journal_ and _Engadget_ coverage (November–December 2008); summarized in McNish & Silcoff (2015).],
     [BlackBerry Z10 launch coverage, _The New York Times_, _The Verge_, and _Wall Street Journal_ (30 January 2013).],
-    [BlackBerry Limited, Q2 FY2014 earnings press release announcing approximately USD 4.4 billion inventory write-down and 4,500 layoffs (27 September 2013).],
+    [BlackBerry Limited, Q2 FY2014 earnings press release announcing approximately USD 934 million pre-tax inventory and supply-commitment charge (Q2 FY2014 net loss ~USD 965 million) and 4,500 layoffs (27 September 2013).],
     [Gartner and IDC quarterly smartphone-share reports, 2009–2014 — the U.S. share decline from ~50% to under 1%.],
   ),
   quote: [The capability they were missing was not the technology. It was the iteration discipline.],

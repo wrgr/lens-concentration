@@ -1630,7 +1630,7 @@
   year: "2015",
   domains-list: ("industrial", "gov"),
   modes-code: "DG",
-  impact: "~11 million vehicles equipped with defeat-device software; $33B+ in penalties and remediation; multiple criminal convictions",
+  impact: "~11 million vehicles equipped with defeat-device software; USD 4.3B U.S. DOJ criminal-and-civil plea (Jan 2017); total global cost above USD 30B across penalties, vehicle buybacks, and settlements; multiple criminal convictions",
   diagram: dgm.dgm-compare(
     "test bench",
     "compliant",
@@ -1650,8 +1650,10 @@
     Virginia university team comparing real-world to lab measurements.
     Internal documents showed the defeat device was an institutional
     decision — a deliberate response to a standard VW's engineers did not
-    believe they could meet within cost — not a rogue act. VW paid more than
-    \$33 billion in penalties and remediation, with criminal convictions.
+    believe they could meet within cost — not a rogue act. VW pleaded guilty to a USD 4.3 billion criminal and civil settlement with
+    the U.S. Department of Justice (January 2017); total Dieselgate cost
+    across penalties, vehicle buybacks, and settlements has been estimated
+    above USD 30 billion globally, with multiple criminal convictions.
     Dieselgate is the book's case for organized evasion of a measurement
     system.
   ],
@@ -1686,9 +1688,10 @@
       documents then showed the defeat device had been authorized inside VW's
       engineering hierarchy as a deliberate institutional response to a
       standard the team could not meet — not the work of a rogue engineer, but
-      a decision made up the chain of command. VW pleaded guilty, paid more
-      than \$33 billion in penalties and remediation, and saw multiple
-      executives convicted.#cn()
+      a decision made up the chain of command. VW pleaded guilty to a USD 4.3 billion U.S. DOJ criminal and civil
+      settlement (January 2017) — total global Dieselgate cost across
+      penalties, vehicle buybacks, and settlements has been estimated
+      above USD 30 billion — and multiple executives were convicted.#cn()
     ],
     // -- The Capability Gap --
     [
@@ -1724,7 +1727,7 @@
   references: (
     [U.S. EPA, Notice of Violation to Volkswagen (2015) — the defeat device and emissions exceedances.],
     [West Virginia University / ICCT real-world diesel-emissions study (2014) — the discovery comparing road to lab.],
-    [U.S. Department of Justice Plea Agreement with Volkswagen AG (2017) — the institutional decision, \$33B+ in penalties, and convictions (quoted).],
+    [U.S. Department of Justice Plea Agreement with Volkswagen AG (January 2017) — the institutional decision, USD 4.3 billion criminal-and-civil settlement, and convictions (quoted).],
     [Volkswagen internal documents released through litigation — authorization of the defeat device within the engineering hierarchy.],
     [EU Real Driving Emissions (RDE) testing regulation — the post-Dieselgate measurement reform.],
     [J. Ewing, _Faster, Higher, Farther: The Volkswagen Scandal_ (2017); cf. Takata (Case 84).],
