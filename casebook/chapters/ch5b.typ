@@ -3899,8 +3899,7 @@
       ranging from detailed methodological documents to single-
       paragraph summaries with limited interpretability. The
       audits are governance artifacts; their information content
-      is uneven across the first cohort.#cn()
-    ],
+      is uneven across the first cohort.    ],
     [
       The case pairs with Case 115 (OU Analyse) for the
       governance-objection-dissolved-by-design thread: OU
@@ -3963,9 +3962,7 @@
   ),
   references: (
     [New York City Department of Consumer and Worker Protection, _Rules Implementing Local Law 144 of 2021 (Automated Employment Decision Tools)_, effective July 5, 2023.],
-    [Wright, L., Muenster, R. M., Vecchione, B., Qu, T., Cai, S., Smith, A., Metcalf, J., & Matias, J. N. (2024), "Auditing Work: Exploring the New York City algorithmic bias audit regime," in _Proceedings of FAccT 2024_, doi:10.1145/3630106.3658959.],
-    [Wright, L., & Brown, I. (2024), "Auditing the auditors: an empirical study of the first cohort of Local Law 144 bias audits," _AI and Ethics_, doi:10.1007/s43681-024-00461-2.],
-    [Engler, A. (2023), "The EU and U.S. diverge on AI regulation: A transatlantic comparison and steps to alignment," _Brookings Institution_ commentary — regulatory-comparative frame for the municipal intervention.],
+    [Wright, L., Muenster, R. M., Vecchione, B., Qu, T., Cai, S., Smith, A., Metcalf, J., & Matias, J. N. (2024), "Auditing Work: Exploring the New York City algorithmic bias audit regime," in _Proceedings of FAccT 2024_, doi:10.1145/3630106.3658959.],    [Engler, A. (2023), "The EU and U.S. diverge on AI regulation: A transatlantic comparison and steps to alignment," _Brookings Institution_ commentary — regulatory-comparative frame for the municipal intervention.],
   ),
   quote: [The audit-and-notice regime is a disclosure-and-audit instrument, not a substantive-standards instrument; whether it reduces actual disparate impact at the hiring level is an empirical question the published evidence does not yet resolve.],
   quote-source: "Editors' synthesis of the Local Law 144 rule text and the Yam/Skirpan and Wright/Brown academic critiques.",

@@ -2428,7 +2428,7 @@
     [_Moffatt v. Air Canada_, 2024 BCCRT 149 (British Columbia Civil Resolution Tribunal, February 14, 2024), Tribunal Member Christopher Rivers presiding.],
     [Cecco, L. (2024), "Air Canada ordered to pay customer who was misled by airline's chatbot," _The Guardian_, February 16, 2024 — contemporaneous press coverage of the ruling.],
     [Air Canada bereavement-fare policy text (as in effect November 2022 and through the period covered by the ruling) — referenced in the tribunal decision as the divergence the chatbot's representation produced.],
-    [Subsequent academic commentary: Solaiman, B. (2024), "Generative AI and the law of agency: the Air Canada chatbot case," _Computer Law & Security Review_ — early synthesis of the case's delegation-without-revocation principle.],
+    [Sookman, B. (McCarthy Tétrault LLP, 2024), "Moffatt v. Air Canada: A Misrepresentation by an AI Chatbot," _McCarthy Tétrault TechLex Blog_, February 19, 2024 — practitioner-tier analysis of the tribunal's negligent-misrepresentation holding, the rejection of the "separate legal entity" defence, and the duty-of-care framing for AI-mediated consumer interactions. Available at: https://www.mccarthy.ca/en/insights/blogs/techlex/moffatt-v-air-canada-misrepresentation-ai-chatbot.],
   ),
   quote: [The chatbot is part of the website; the airline is responsible for all the information on its website; there is no support in law for the argument that the chatbot is a separate legal entity responsible for its own outputs.],
   quote-source: "Tribunal Member Christopher Rivers, Moffatt v. Air Canada, 2024 BCCRT 149 (Feb 14, 2024), editors' paraphrase.",
