@@ -121,7 +121,7 @@
     [LDT / LENS program statement, Johns Hopkins School of Education — the program and its commitments.],
     [Goodell & Kolodner (2022), _Learning Engineering Toolkit_ — the discipline's methods.],
     [The preceding ninety-nine cases of this volume — the cumulative record of cost and of possibility.],
-    [INPO (Case 16) and CRM/CAST (Case 12) — institution-building precedents (1979, 1981).],
+    [INPO (Case 114) and CRM/CAST (Case 110) — institution-building precedents (1979, 1981).],
     [IEEE ICICLE Learning Engineering Body of Knowledge (LEBoK); the introduction to this volume.],
   ),
   quote: [Capability is engineerable. The institution to engineer it has not yet been built. That is the work.],
