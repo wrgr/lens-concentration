@@ -22,7 +22,7 @@
 //   137  INL / LWRS Control-Room Modernization — big-tier program-report-
 //        tier intervention; observations are pilot-scale and the hedge
 //        survives. Closes C7's zero-state.
-//   138  Gándara / JPAM Community-College Fairness — small-tier frontier
+//   138  Gándara (AERA Open 2024) Student-Success Prediction Fairness — small-tier frontier
 //        on equity-construct definition; explicitly paired with the v2
 //        race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman).
 //   139  Yu / Lee / Kizilcec Protected Attributes in Learning Analytics —
@@ -1071,11 +1071,11 @@
 #case(
   number: 138,
   slug: "gandara-algorithmic-targeting-and",
-  title: "Gándara — Algorithmic Targeting and Fairness in Community-College Outreach",
-  year: "2020s",
+  title: "Gándara — Detecting and Mitigating Algorithmic Bias in College Student-Success Prediction",
+  year: "2024",
   domains-list: ("higher education", "algorithmic fairness", "policy analysis"),
   modes-code: "DKN",
-  impact: "Gándara and colleagues, in the _Journal of Policy Analysis and Management_, examined a predictive-targeting system for community-college outreach and showed that the choice of construct, the choice of stratification, and the choice of intervention all materially change which students the model identifies as targets — small-tier frontier evidence that fairness in equity-oriented prediction is a construct-definition problem, not only a model-bias problem",
+  impact: "Gándara, Anahideh, Ison, and Picchiarini (AERA Open, 2024) audited predictive models of college student success and showed that models which look acceptable on overall accuracy are systematically less accurate for Black and Hispanic students and overestimate success for white and Asian students — small-tier frontier evidence that the choice of construct and the stratification used in evaluation, not only model-bias mitigation, determine whether an equity-oriented prediction is fair to the groups the equity commitment is meant to protect",
   kind: "frontier",
   scale: "small",
   evidence-source: "peer-reviewed",
@@ -1083,35 +1083,39 @@
   lens-anchor: "D3/PT5",
   clo-anchor: "CLO-3, CLO-4",
   summary: [
-    Predictive targeting in higher-education outreach — models
-    that identify which students to contact, advise, or financially
-    support based on predicted need or predicted benefit — has
-    become a routine tool across community colleges and four-year
-    institutions. Gándara and colleagues, publishing in the
-    _Journal of Policy Analysis and Management_, examined a
-    predictive-targeting system in the community-college outreach
-    context and showed that the apparent fairness of the system
-    depends materially on three upstream choices: the construct
-    the model is built to predict (predicted enrollment vs.
-    predicted benefit vs. predicted need), the stratification used
-    in evaluation (overall accuracy vs. accuracy by income, race/
-    ethnicity, first-generation status), and the intervention the
-    targeting is paired with (financial aid vs. advising vs.
-    information-only outreach). The paper's contribution is the
-    frontier-shaped finding that fairness in equity-oriented
-    prediction is a construct-definition problem before it is a
-    model-bias problem. The case pairs explicitly with the v2
-    race-construct trio (Cases 105 eGFR, 106 pulse oximetry, 107
-    Hoffman) and with the broader equity-construct competency
-    C8.2: demographic stratification of validation and outcomes
-    as a design commitment.
+    Predictive models of college student success — models that
+    score students on predicted graduation, retention, or course
+    completion to drive advising, outreach, and support decisions —
+    have become a routine tool across community colleges and
+    four-year institutions. Gándara, Anahideh, Ison, and
+    Picchiarini, publishing in _AERA Open_ (2024), audited such
+    models across racialized groups and found that a model which
+    looks acceptable on overall accuracy is systematically less
+    accurate for Black and Hispanic students — making more
+    prediction errors for them — while overestimating success for
+    white and Asian students. The apparent fairness of the system
+    depends materially on upstream choices: the construct the model
+    is built to predict (predicted graduation vs. predicted benefit
+    vs. predicted need), the stratification used in evaluation
+    (overall accuracy vs. accuracy by income, race/ethnicity,
+    first-generation status), and the decision context the
+    prediction is consumed in (whether end users are trained to
+    contextualize a flagged prediction or treat it as a verdict).
+    The paper's contribution is the frontier-shaped finding that
+    fairness in equity-oriented prediction is a construct-definition
+    and stratified-evaluation problem before it is a model-bias
+    problem. The case pairs explicitly with the v2 race-construct
+    trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) and with
+    the broader equity-construct competency C8.2: demographic
+    stratification of validation and outcomes as a design
+    commitment.
   ],
   sections: (
     [
-      Predictive targeting in higher-education outreach is now
-      routine. Community-college and four-year institutions
-      operate models that score students on predicted enrollment
-      likelihood, predicted graduation likelihood, predicted
+      Predictive modeling of student success in higher education is
+      now routine. Community-college and four-year institutions
+      operate models that score students on predicted graduation
+      likelihood, predicted retention, predicted
       benefit-from-intervention, or predicted financial need. The
       scores feed downstream decisions: which students get
       outreach emails, which get advising appointments, which get
@@ -1121,18 +1125,22 @@
       stratification — is the layer where the case operates.#cn()
     ],
     [
-      Gándara and colleagues, publishing in the _Journal of Policy
-      Analysis and Management_, examined one such predictive-
-      targeting system in the community-college outreach context.
-      The methodological move is to show that the choice of
-      construct the model is built to predict has substantial
-      consequences for which students the model identifies as
-      targets. A model that maximizes predicted enrollment
-      identifies a different set of students than a model that
-      maximizes predicted benefit-from-outreach or predicted
-      financial need. The three constructs are not interchangeable,
-      and the institution's choice of construct is a normative
-      decision the model architecture cannot make on its own.#cn()
+      Gándara, Anahideh, Ison, and Picchiarini, publishing in
+      _AERA Open_, audited predictive models of college student
+      success across racialized groups. The central finding is
+      that models which look acceptable on overall accuracy are
+      systematically less accurate for Black and Hispanic
+      students — making more prediction errors for them — while
+      overestimating success for white and Asian students. The
+      methodological move is to show that the choice of construct
+      the model is built to predict, and the way the model is
+      evaluated, have substantial consequences for which students
+      the model treats accurately. A model optimized and validated
+      on aggregate accuracy is not interchangeable with one whose
+      validation is stratified by racialized group; the
+      institution's choice of construct and evaluation regime is a
+      normative decision the model architecture cannot make on its
+      own.#cn()
     ],
     [
       The second methodological move concerns evaluation
@@ -1151,17 +1159,18 @@
       analytic anchor.#cn()
     ],
     [
-      The third methodological move pairs the model with the
-      intervention. A targeting model is not deployed in isolation;
-      it is deployed against a specific intervention (financial
-      aid, advising, information-only outreach), and the fairness
-      properties of the system depend on which intervention is
-      paired with the targeting. An accurate prediction of
-      financial need, paired with a financial-aid intervention,
-      can substantially close gaps; the same prediction paired
-      with information-only outreach is a much weaker
-      intervention, and the system's apparent fairness depends on
-      which pairing the institution actually deploys.#cn()
+      The third move concerns the decision context the prediction
+      is consumed in and the mitigations available. A model is not
+      deployed in isolation; its predictions are read by advisors
+      and administrators who decide what to do with a flagged
+      student. Gándara and colleagues stress training end users on
+      the potential for algorithmic bias — so a prediction is
+      contextualized for the individual student rather than treated
+      as a verdict — and evaluate bias-mitigation techniques that
+      reduce, but do not eliminate, the cross-group accuracy gap.
+      The system's apparent fairness therefore depends not only on
+      the model but on the evaluation regime and the decision
+      practice the institution actually deploys.#cn()
     ],
     [
       What the case teaches at the LENS framing layer is the
@@ -1183,10 +1192,10 @@
     ],
   ),
   beats: (
-    "Predictive targeting in community-college outreach: models score students on predicted enrollment / benefit / need; scores feed downstream interventions",
-    "Gándara et al. (JPAM): choice of construct (enrollment vs. benefit vs. need) materially changes which students the model identifies as targets",
-    "Stratified evaluation by income, race/ethnicity, first-generation status reveals disparity overall-accuracy summary metrics mask",
-    "Intervention pairing matters: the same prediction paired with financial aid vs. information-only outreach produces different fairness properties",
+    "Predictive student-success modeling is routine: models score students on predicted graduation / retention / benefit / need; scores feed downstream support and outreach decisions",
+    "Gándara et al. (AERA Open, 2024): models less accurate for Black and Hispanic students; overestimate success for white and Asian students — overall accuracy masks the disparity",
+    "Stratified evaluation by income, race/ethnicity, first-generation status reveals disparity that overall-accuracy summary metrics hide",
+    "Decision context and mitigation matter: train end users to contextualize a flagged prediction; bias-mitigation reduces but does not eliminate the cross-group gap",
     "Cross-references v2 race-construct trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) — construct definition is the upstream design decision in each",
   ),
   approaches: (
@@ -1201,35 +1210,35 @@
       [Carry the race-construct trio (Cases 105, 106, 107) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the equity-construct CLOs are anchored here.],
     ),
   ),
-  // CITE-RECHECK: Could not verify a Gándara paper in _Journal of Policy Analysis and Management_ on community-college predictive targeting via web search (FDA-style search, Google Scholar surrogates). The closest verified Gándara paper is Gándara, Anahideh, Ison, & Picchiarini (2024), "Inside the Black Box: Detecting and Mitigating Algorithmic Bias across Racialized Groups in College Student-Success Prediction," _AERA Open_ 10, doi:10.1177/23328584241258741 — a different venue and a college-success-prediction (not loan-outreach) framing. Editor: confirm whether the JPAM citation is correct, or substitute the AERA Open paper and revise summary/sections accordingly.
   references: (
-    [Gándara, "Algorithms and student loans: The role of predictive targeting in community-college outreach," _Journal of Policy Analysis and Management_ — primary case source on construct-choice, stratification, and intervention-pairing consequences.],
+    [Gándara, Anahideh, Ison, & Picchiarini (2024), "Inside the Black Box: Detecting and Mitigating Algorithmic Bias across Racialized Groups in College Student-Success Prediction," _AERA Open_ 10, doi:10.1177/23328584241258741 — primary case source on cross-group accuracy disparity, stratified evaluation, and bias mitigation in student-success prediction.],
     [Barocas, Hardt, & Narayanan, _Fairness and Machine Learning_ (fairmlbook.org) — methodological backdrop on construct definition and stratified evaluation.],
     [Friedler, Scheidegger, & Venkatasubramanian (2021), "The (im)possibility of fairness: different value systems require different mechanisms for fair decision making," _Communications of the ACM_ — the construct-definition argument at field level.],
     [v2 cross-referenced cases: 105 (eGFR race correction), 106 (pulse oximetry across skin tones), 107 (Hoffman pain bias) — the race-construct trio at the construct-definition layer.],
   ),
   quote: [Fairness in equity-oriented prediction is a construct-definition problem before it is a model-bias problem. Which student outcome the model is maximizing is the upstream decision.],
-  quote-source: "Editors' synthesis of Gándara, _Journal of Policy Analysis and Management_.",
+  quote-source: "Editors' synthesis of Gándara, Anahideh, Ison, & Picchiarini, _AERA Open_ (2024).",
   le-insight: [
-    Gándara's community-college outreach case is the small-tier
+    Gándara's student-success-prediction audit is the small-tier
     frontier instance of fairness-as-construct-definition. Which
-    construct the model maximizes (predicted enrollment vs.
+    construct the model maximizes (predicted graduation vs.
     benefit vs. need), which stratification is used in
-    validation, and which intervention the targeting is paired
-    with each determine the fairness properties of the deployed
-    system. Cross-references the v2 race-construct trio at the
-    construct-definition layer.
+    validation, and the decision context the prediction is
+    consumed in each determine the fairness properties of the
+    deployed system; the audit found models systematically less
+    accurate for Black and Hispanic students. Cross-references
+    the v2 race-construct trio at the construct-definition layer.
   ],
   lens-approach: [
-    Gándara community-college fairness is the algorithmic-
-    targeting construct-definition case (induced 8.2; LENS
+    Gándara student-success-prediction fairness is the
+    equity-construct-definition case (induced 8.2; LENS
     D3/PT5) — Domain 3 for stratified evaluation; Domain 4 for
-    the intervention-pairing question. Cross-reference Cases
-    105, 106, 107 — case-grounded basis for the equity-
+    the decision-context and mitigation question. Cross-reference
+    Cases 105, 106, 107 — case-grounded basis for the equity-
     construct CLOs.
   ],
   literature-items: (
-    [Gándara, _Journal of Policy Analysis and Management_],
+    [Gándara, Anahideh, Ison, & Picchiarini (2024), _AERA Open_],
     [Barocas, Hardt, & Narayanan, _Fairness and Machine Learning_],
     [Friedler, Scheidegger, & Venkatasubramanian (2021), _Communications of the ACM_],
   ),

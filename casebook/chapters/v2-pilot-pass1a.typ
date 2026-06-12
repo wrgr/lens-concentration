@@ -1054,9 +1054,8 @@
       [Treat residual CFIT events as evidence about the operational discipline, not as evidence against the intervention; the system that has reduced a fatality category to rare uncommon events is doing the work the case claims.],
     ),
   ),
-  // CITE-RECHECK: Could not verify Bateman 1999 ALAR Task Force paper with cited title via FSF and general web search. Bateman authored multiple EGPWS papers in the late 1990s (Honeywell technical reports, ALAR Task Force materials, Flight Safety Digest contributions); the specific 1999 ALAR Task Force paper title/venue couldn't be confirmed from public web sources. Editor: confirm against the FSF ALAR Task Force document archive or substitute the Bateman EGPWS paper of record (a 1999 Honeywell white paper of similar title circulates in the literature).
   references: (
-    [Bateman, C. D. (1999), "The Introduction of Enhanced Ground-Proximity Warning System (EGPWS) into Civil Aviation Operations Around the World," Flight Safety Foundation _Approach-and-Landing Accident Reduction (ALAR) Task Force_ — developer history.],
+    [Bateman, C. D. (1999), "The Introduction of Enhanced Ground Proximity Warning Systems (EGPWS) into Civil Aviation Operations Around the World," in _Proceedings of the 11th Annual European Aviation Safety Seminar_, Flight Safety Foundation, pp. 259–274 — developer history.],
     [Federal Aviation Administration (2000), 14 CFR §§ 91.223, 121.354, 135.154 — Terrain Awareness and Warning System (TAWS) equipage requirement.],
     [Flight Safety Foundation (1998 – 2000), CFIT / ALAR Task Force reports — operational and outcome analyses motivating mandate.],
     [NTSB (1996), Aircraft Accident Report AAR-96-05, American Airlines 965, Cali, Colombia, December 20 1995.],
@@ -1080,7 +1079,7 @@
     with TCAS (Case 130) and Case 116 (anesthesia monitoring).
   ],
   literature-items: (
-    [Bateman (1999), FSF ALAR Task Force],
+    [Bateman (1999), FSF 11th European Aviation Safety Seminar],
     [14 CFR §§ 91.223, 121.354, 135.154 — TAWS rule],
     [NTSB AAR-96-05 — American Airlines 965 (Cali)],
   ),

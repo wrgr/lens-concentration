@@ -50,7 +50,7 @@
     compliance afterthought; the deployment followed because trust was
     established first. OU Analyse — a weekly machine-learning at-risk
     prediction system — operated on top of that architecture, and the
-    Analytics4Action framework (Herodotou et al., _JIME_ 2016) paired
+    Analytics4Action framework (Rienties et al., _JIME_ 2016) paired
     predictions with tutor judgment and documented interventions on
     modules of 3,000+ students. A 2019 evaluation (Herodotou et al.,
     _BJET_) across 559 teachers and 14,000+ students examined how

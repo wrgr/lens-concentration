@@ -146,7 +146,7 @@
     [Alivisatos, Chun, Church, Greenspan, Roukes, & Yuste (2012), "The Brain Activity Map Project and the Challenge of Functional Connectomics," _Neuron_ 74(6):970–974, doi:10.1016/j.neuron.2012.06.006.],
     [Jorgenson et al. (2015), "The BRAIN Initiative: developing technology to catalyse neuroscience discovery," _Phil. Trans. R. Soc. B_ 370(1668):20140164, doi:10.1098/rstb.2014.0164 — the BRAIN 2025 plan.],
     [Yuste & Bargmann (2017), "Toward a Global BRAIN Initiative," _Cell_ 168(6):956–959, doi:10.1016/j.cell.2017.02.023.],
-    [Greenmeier (2013), coverage of governance tensions in _Science_ (April 2013) — public-record contestation.],
+    [Underwood (2013), "As White House Embraces BRAIN Initiative, Questions Linger," _Science_ / ScienceInsider (April 3, 2013) — source of the Yuste and Bargmann public-record contestation quotes.],
     [MIT Technology Review (2021), retrospective on big-science brain projects — the critical ten-year assessment.],
   ),
   quote: [Governance contestation in the public record is not program failure. It is what makes the case teachable.],
