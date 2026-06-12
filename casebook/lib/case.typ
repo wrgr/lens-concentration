@@ -56,7 +56,7 @@
   // Carries number, title, year, domains, mode codes, kind, and course tags
   // for every case on both the 4-page and legacy paths — so the matrix and
   // domain index can render dynamically across the full corpus.
-  [#metadata((n: number, slug: slug, title: title, year: year, domains: domains-list, modes: modes-code, kind: kind, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag)) <caseinfo>]
+  [#metadata((n: number, slug: slug, title: title, year: year, domains: domains-list, modes: modes-code, kind: kind, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag, references: references)) <caseinfo>]
 
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.
@@ -162,7 +162,7 @@
 
     if modes-code != "" {
       team-block(modes-code)
-      v(2pt)
+      v(1pt)
     }
 
     // Per-case citations live on page 2; the Lens page keeps only the
@@ -170,18 +170,11 @@
     // keep the enriched Lens page to one page.
     sources(..sources-list)
 
-    block(
-      width: 100%,
-      inset: (top: 4pt),
-      stroke: (top: 0.5pt + rule-soft),
-      grid(
-        columns: (auto, 1fr),
-        column-gutter: 8pt,
-        align: (left + horizon, right + horizon),
-        eyebrow("LENS Courses", color: teal),
-        course-tags(..courses),
-      ),
-    )
+    // LENS Courses NOT rendered in print per editor decision (June 2026):
+    // courses are metadata only and surface in the back-matter LENS course
+    // index — they are a reference guide for the editor, not a per-case
+    // footer in the printed casebook. The `courses` field remains in case
+    // metadata and is queried by backmatter/course-index.typ.
   })
 
   // Start on a fresh page; no forced verso, so 3-page units pack tight.

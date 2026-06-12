@@ -96,5 +96,6 @@
 
 // ---- Appendix + program page (all versions) ----
 #include "backmatter/appendix-clo-courses.typ"
+#include "backmatter/appendix-references-by-case.typ"
 #include "backmatter/about-lens.typ"
 #include "backmatter/editors.typ"

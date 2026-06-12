@@ -18,6 +18,58 @@ If you're between `✓` and `~`, choose `~` and write the question. If you're be
 
 ---
 
+## How to review one case — two passes, 5–15 minutes
+
+Each case gets two passes. The first is structural (Quality), the second is substantive (Content). Together they take 5–15 minutes for a clean case; longer when something needs investigation.
+
+### Pass 1 — Quality (≈ 3–5 min) — scan first, mark four things
+
+Skim the case once at reading pace. You're not yet checking facts; you're checking whether the case **looks right** in its own right.
+
+| # | Check | The 30-second test |
+|---|---|---|
+| 1 | **clarity** | After one read, can you write a one-sentence summary: *"This case is about how [actor] [did or failed to do] [thing], because [capability was missing or built]"*? If you can, `✓`. If you had to re-read, `~`. If you can't, `✗`. |
+| 6 | **anchor fit** | Glance at the `lens-anchor` competency (D1–D5). Does what you just read match? Use the quick guide below. `✓` if yes, `~` if another would fit *better*, `✗` if it's wrong. |
+| 7 | **x-refs** | Skim for "Case N" mentions in the prose. Are any obvious nonsense (Case 9999, or a number > 194)? `✓` if none, `✗` if any. (Detailed pairing check happens in Pass 2.) |
+
+That's the structural pass. Three checks, ~3–5 minutes. Move on.
+
+### Pass 2 — Content (≈ 5–10 min) — verify what the case *claims*
+
+Now go reference-by-reference and claim-by-claim. This is where most issues live.
+
+| # | Check | The test |
+|---|---|---|
+| 2 | **refs real** | For each reference in the `references:` list, find the source. Google Scholar → publisher / agency site → DOI.org → general search. Confirm author / year / title / venue match. `✓` if all clean, `~` if formatting off but findable, `✗` if any reference can't be found. |
+| 3 | **refs support** | For each `#cn()` marker in the body, open the corresponding reference. Does it back the claim at that marker? `✓` if yes for all, `~` if mostly with one or two loose, `✗` if any marker is unsupported. |
+| 4 | **conclusions reasonable** | Read the `le-insight:` and `lens-approach:` blocks. Does the case body and reference set support these conclusions? `✓` / `~` / `✗`. |
+| 5 | **no overclaim** | Scan for quantitative claims (numbers, percentages, "halved", "doubled") and counterfactuals ("would have"). Are they sourced and hedged? `✓` / `~` / `✗`. |
+
+That's the content pass. Four checks, ~5–10 minutes for a clean case.
+
+### Worked example — Pass 1 + Pass 2 on Case 1 (USS Fitzgerald & USS John S. McCain)
+
+> **Pass 1 — Quality** (3 min)
+>
+> *Read once.*
+>
+> - **clarity:** Sentence I can write: *"This case is about how the U.S. Navy declared two destroyers' crews ready for forward deployment, when their training had been cut and their watch teams couldn't safely run the watch — capability was hollowed out under operational tempo."* → `✓`
+> - **anchor fit:** `lens-anchor: D1/PT1` (Systems Analysis, problem-type 1 = understanding the system). The case is about *engineered vs. stated readiness*. D1 fits. → `✓`
+> - **x-refs:** Prose mentions Case 18 (Rickover Nuclear Navy) and Case 12 (Eagle Claw). Both real cases. → `✓`
+>
+> **Pass 2 — Content** (8 min)
+>
+> *Open references list.*
+>
+> - **refs real:** 5 references. Strategic Readiness Review 2017 (Navy.mil) ✓; NTSB MAR-19/01 ✓; GAO-21-179 ✓; Comprehensive Review (Adm. Davidson 2017) ✓; Tunbridge Report ✓. All findable, all real. → `✓`
+> - **refs support:** Marker 1 cites Strategic Readiness Review — confirmed the report discusses the readiness gap. Markers 2–5 similar. → `✓`
+> - **conclusions reasonable:** `le-insight` says "self-study did not replace the in-person school the Navy cut." The Strategic Readiness Review explicitly says this. → `✓`
+> - **no overclaim:** "17 sailors killed" — sourced to NTSB. "About a decade of relentless tempo" — hedged ("about"). No counterfactual overreach. → `✓`
+>
+> **Total time: 11 minutes. Marks: all `✓`. Notes column: empty.**
+
+---
+
 ## The rubric
 
 ### 1. clarity — *can a smart reader name what the case teaches in one sentence?*
