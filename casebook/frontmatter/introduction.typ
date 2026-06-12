@@ -692,3 +692,25 @@
   curriculum crosswalk in the closing matter maps each case to the
   specific courses in the program that use it as a worked example.
 ]
+
+#v(6pt)
+
+#block(
+  width: 100%,
+  inset: (left: 10pt, top: 4pt, bottom: 4pt),
+  stroke: (left: 1.5pt + gold),
+  text(font: sans, size: 9pt, fill: navy)[
+    *How these cases were chosen.* The collection is purposive, not
+    systematic. The cases are exemplars — drawn from the documented
+    public record and from the editors' own practice — selected because
+    each makes a capability-engineering pattern legible, not because
+    they constitute a representative or exhaustive sample. The corpus
+    over-represents catastrophic, well-investigated failures, which
+    generate the richest public record, and under-represents the
+    everyday, program-scale work that fills most of a practitioner's
+    career; a deliberate expansion has begun to close that gap. Read the
+    book as a teaching instrument rather than a systematic review: the
+    claim is that these patterns recur and are engineerable — not that
+    this is every case, or the average one.
+  ],
+)
