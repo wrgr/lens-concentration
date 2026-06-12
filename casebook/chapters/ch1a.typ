@@ -183,7 +183,7 @@
     where the same divergence between declared and engineered priority is
     visible on a theater scale, and with Three Mile Island (Case 69) as the
     failure that engineered durable industry reform through INPO. CLO
-    mapping: CLO-1 (Systems Analysis) primary, CLO-4 (Sociotechnical
+    mapping: CLO-1 (Systems Analysis) primary, CLO-5 (Sociotechnical
     Constraints) for the waiver-and-reporting institutional dynamics.
   ],
   literature-items: (
@@ -1144,13 +1144,13 @@
   ],
   lens-approach: [
     The 737 MAX is the canonical engineered-out-capability failure
-    (induced 1.1; LENS D1+D4/PT4). LENS uses it in Domain 1 (Systems
+    (induced 1.1; LENS D1+D3/PT4). LENS uses it in Domain 1 (Systems
     Analysis) for the CLO-1 work of decomposing system performance
     requirements into measurable human-capability requirements:
     the elided pilot-training requirement is the traceable artifact
     a capability-requirements analysis would have surfaced before the
     omission could become a contract deliverable. LENS uses it in
-    Domain 4 (Navigating Sociotechnical Constraints; CLO-4) for the
+    Domain 5 (Navigating Sociotechnical Constraints; CLO-5) for the
     delegated-authority regulatory regime in which Boeing reviewed
     its own most consequential safety judgments — the case is the
     governance counterpart to Therac-25 (Case 59) at the
@@ -2113,11 +2113,10 @@
   ],
   lens-approach: [
     Glass-cockpit GA is the small-fleet capability-under-
-    transition failure (induced 7.1; LENS D5/PT1). LENS uses
+    transition failure (induced 7.1; LENS D3/PT1). LENS uses
     it in Domain 1 (Systems Analysis) for the inherited
     certification of operator proficiency that has to be
-    re-verified against the new envelope, and in Domain 5
-    (Machine Teaming and Adaptation) for the new
+    re-verified against the new envelope, and in Domain 3 (Human-System Collaboration) for the new
     automation-induced failure modes (mode confusion,
     automation surprises, attention capture) the transition
     introduced. Pair with the aging-system transitions in
@@ -2578,9 +2577,9 @@
   ],
   lens-approach: [
     HBP is the field-scale failure case in the v2 corpus
-    (induced 5.1; LENS D1+D4/PT4) drafted as the contrast to BRAIN
+    (induced 5.1; LENS D1+D3/PT4) drafted as the contrast to BRAIN
     (Case 176). LENS uses the pair in Domain 1 (Systems Analysis)
-    for the governance-variable comparison and in Domain 4
+    for the governance-variable comparison and in Domain 5
     (Navigating Sociotechnical Constraints) for the
     contestation-absorption capability. The
     evidence-tier flag is binding until primary-source

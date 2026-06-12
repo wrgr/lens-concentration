@@ -594,7 +594,7 @@
     LENS D2/PT4). LENS uses it in Domain 2 (Iterative
     Development) for the design-iteration
     sub-competency (the work environment is the design
-    variable) and in Domain 3 (Test and Evaluation) for the
+    variable) and in Domain 4 (Test and Evaluation) for the
     CLO *Judgment under inadequate evidence* — the
     meta-analysis is the strongest synthesis the field has,
     and it explicitly names what it cannot settle. Direct
@@ -772,7 +772,7 @@
   lens-approach: [
     Yeager et al. 2019 is the designing-predictions-to-trigger-
     support case (induced 8.3; LENS D2/PT5) — Domain 2 for
-    pre-registered moderator analysis; Domain 4 for the
+    pre-registered moderator analysis; Domain 5 for the
     equity-relevant commitment to target support to those who
     benefit. Pair with Case 133 (Gándara).
   ],
@@ -1235,9 +1235,9 @@
     workforce-development case (induced 1.2; LENS D2/PT4; with
     8.3 alternate). LENS uses it in Domain 2 (Iterative
     Development) for the operationalized pillar model and the
-    multi-cycle iteration evidence; in Domain 3 (Test and
+    multi-cycle iteration evidence; in Domain 4 (Test and
     Evaluation) for the high-resolution assessment; and in
-    Domain 4 (Navigating Sociotechnical Constraints) for the
+    Domain 5 (Navigating Sociotechnical Constraints) for the
     holistic-recruiting design choice that converts equity from
     rhetoric to enrolled cohort. Pair with Case 81 (CIRCUIT
     proofreading) — building capability vs. deploying it against
@@ -1414,7 +1414,7 @@
     Duolingo HLR is the trainable-scheduling consumer-scale
     case (induced 2.3; LENS D2/PT4). LENS uses it in Domain 2
     (Iterative Development) for the production-deployment
-    evaluation form, and in Domain 3 (Test and Evaluation) for
+    evaluation form, and in Domain 4 (Test and Evaluation) for
     the engagement-proxy-vs-proficiency-assessment distinction.
     Pair with the spaced-education clinical RCTs (Case 45) for
     the cross-domain replication base, and with the
@@ -1589,7 +1589,7 @@
   lens-approach: [
     Barsuk SBML is the cross-institutional dissemination case
     (induced 6.4; LENS D2/PT4) — Domain 2 for mastery-learning
-    replacing exposure-based progression; Domain 3 for the
+    replacing exposure-based progression; Domain 4 for the
     procedural-outcome + cost-effectiveness pairing. Pair with
     the translation trio (Cases 178, 117, 179).
   ],
@@ -1756,7 +1756,7 @@
     edge-of-training case (induced 1.2; LENS D2/PT4). LENS uses
     it in Domain 2 (Iterative Development) for the
     tutorial-discipline-as-instructional-artifact design move,
-    and in Domain 3 (Test and Evaluation) for the
+    and in Domain 4 (Test and Evaluation) for the
     operational-comparison evaluation against fleet ITs with
     7.2 years of experience. Pair with CIRCUIT (Cases 81, 39)
     at the workforce-capability-at-the-edge axis — connectomics
@@ -1929,7 +1929,7 @@
   lens-approach: [
     I-PASS is the state-transparency-under-stress case at the
     human–human boundary (induced 3.3; LENS D2/PT5) — Domain 2
-    for bundle-as-intervention; Domain 4 for the institutional
+    for bundle-as-intervention; Domain 5 for the institutional
     faculty-development commitment. Pair with Case 177 (CIRAS)
     and v1 Cases 70 (CRM) and 89 (ASRS).
   ],
@@ -2100,7 +2100,7 @@
   lens-approach: [
     NCSBN is the regulator-owned cross-organization
     knowledge-transfer case (induced 6.1; LENS D2/PT4) —
-    Domain 2 for the RCT-design discipline; Domain 4 for the
+    Domain 2 for the RCT-design discipline; Domain 5 for the
     institutional-ownership move that propagated evidence
     across decentralized regulators. Pair with Case 178
     (Colorado CTSA).
@@ -2271,7 +2271,7 @@
     spacing-in-workplace-L&D case (induced 2.3; LENS D2/PT4).
     LENS uses it in Domain 2 (Iterative Development) for the
     intervention-and-measurement-as-single-design discipline,
-    and in Domain 3 (Test and Evaluation) for the persistence-
+    and in Domain 4 (Test and Evaluation) for the persistence-
     follow-up that makes the result a workplace-L&D headline.
     Pair with Case 40 (Duolingo half-life regression) at the
     spacing-mechanism-in-deployment layer — controlled-
@@ -2602,7 +2602,7 @@
     PEPFAR is the global-health workforce-capability case
     (induced 2.3; LENS D2/PT4). LENS uses it in Domain 2
     (Iterative Development) for the modality-design
-    iteration COVID forced and in Domain 4 (Navigating
+    iteration COVID forced and in Domain 5 (Navigating
     Sociotechnical Constraints) for the multi-country
     program scope. The CLO *Judgment under inadequate
     evidence* is exercised because the study is the
@@ -2761,7 +2761,7 @@
     the evaluation-pathway case for first-person practice
     accounts (induced 2.3; LENS D2/PT4). LENS uses it in
     Domain 2 (Iterative Development) for the amended CLO-2
-    and in Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the preprint
+    and in Domain 4 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the preprint
     supplies the construct distinction (development vs.
     presence) without supplying peer-reviewed magnitudes.
   ],
@@ -2932,7 +2932,7 @@
     ASSISTments is the closed-loop EdTech evaluation case
     (induced 2.3; LENS D2/PT4). LENS uses it in Domain 2
     (Iterative Development) for the teacher-side minimum-change
-    design discipline and in Domain 3 (Test and Evaluation) for
+    design discipline and in Domain 4 (Test and Evaluation) for
     the heterogeneity-pre-specification and longitudinal-
     follow-through structure. Pair with Case 127 (Cognitive
     Tutor at-scale evaluation horizon), Case 45 (spaced
@@ -3109,7 +3109,7 @@
     Doer-effect replication arc is the closed-loop-by-
     replication case (induced 2.3; LENS D2/PT4). LENS uses it
     in Domain 2 (Iterative Development) for the replication-
-    arc discipline and in Domain 3 (Test and Evaluation) for
+    arc discipline and in Domain 4 (Test and Evaluation) for
     the cross-population generalization-with-heterogeneity
     structure. Pair with Case 40 (Duolingo half-life) and
     Case 45 (spaced education RCTs) — the replication-arc
@@ -3284,9 +3284,9 @@
   ],
   lens-approach: [
     Zhang/Scardamalia is the cohort-as-iteration-unit case at
-    classroom scale (induced 2.2; LENS D2/PT4; CLO-2 and CLO-3).
+    classroom scale (induced 2.2; LENS D2/PT4; CLO-2 and CLO-4).
     LENS uses it in Domain 2 (Iterative Development) for the
-    multi-cohort design-based-research discipline and in Domain 3
+    multi-cohort design-based-research discipline and in Domain 4
     (Test and Evaluation) for the depth-and-distribution paired
     outcome measure. Pair with Case 178 (Colorado CTSA team
     science collaboration measurement), Case 77 (Hybrid Human-AI
@@ -3478,10 +3478,10 @@
   ],
   lens-approach: [
     Chen et al. is the equity-direction-finding case at the
-    non-WEIRD deployment seam (induced 8.3; LENS D2/PT4; CLO-3
+    non-WEIRD deployment seam (induced 8.3; LENS D2/PT4; CLO-4
     and fairness beyond omission). LENS uses it in Domain 2
     (Iterative Development) for the deployment-on-a-defined-
-    horizon discipline and in Domain 4 (Navigating Sociotechnical
+    horizon discipline and in Domain 5 (Navigating Sociotechnical
     Constraints) for the equity-direction reading that anchors
     the fairness-beyond-omission CLO. Pair with Case 133
     (Gándara community-college predictive equity), Case 135
@@ -3665,7 +3665,7 @@
     the LE-conferences tier (induced 6.3; LENS D2/PT4). LENS
     uses it in Domain 2 (Iterative Development) for the
     reflective-narration-of-design-iteration discipline and in
-    Domain 3 (Test and Evaluation) for the evidence-tier
+    Domain 4 (Test and Evaluation) for the evidence-tier
     discipline binding the preprint-tier framing to the genre's
     pedagogical role. Pair with Cases 81 and 39 (CIRCUIT
     workforce-and-capability layer) and Case 77 (hybrid human-

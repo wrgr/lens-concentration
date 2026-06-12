@@ -168,9 +168,8 @@
   ],
   lens-approach: [
     iPLEDGE is the analytically useful "mixed" pre-authorization
-    case (induced 4.4; LENS D5/PT5). LENS uses it in Domain 5
-    (Machine Teaming and Adaptation) for the CLO *Delegation with revocation* — what the authorization
-    mechanism delegates and what it does not — and in Domain 3
+    case (induced 4.4; LENS D3/PT5). LENS uses it in Domain 3 (Human-System Collaboration) for the CLO *Delegation with revocation* — what the authorization
+    mechanism delegates and what it does not — and in Domain 4
     (Test and Evaluation) for the CLO *Judgment under
     inadequate evidence* on whether the form will deliver in a
     specific context. Direct pair with SUBSAFE (Case 19) at
@@ -345,8 +344,8 @@
   ],
   lens-approach: [
     African data privacy is the extraterritorial-platform
-    governance case (induced 5.3; LENS D4/PT6) — Domain 4 for
-    the cross-regime seam; Domain 5 for *Judgment under
+    governance case (induced 5.3; LENS D5/PT6) — Domain 5 for
+    the cross-regime seam; Domain 3 for *Judgment under
     inadequate evidence* on a frontier where the architectural
     response is recommended but not built. Pair with Case 115
     and Case 181.
@@ -514,9 +513,9 @@
   ],
   lens-approach: [
     Pyle & Andalibi is the governance-rather-than-technique case
-    at the consent boundary (induced 8.4; LENS D4/PT6). LENS uses
-    it in Domain 4 (Navigating Sociotechnical Constraints) for
-    the affected-voice inclusion lesson and in Domain 5 (Machine
+    at the consent boundary (induced 8.4; LENS D5/PT6). LENS uses
+    it in Domain 5 (Navigating Sociotechnical Constraints) for
+    the affected-voice inclusion lesson and in Domain 3 (Machine
     Teaming and Adaptation) for the disclosure-architecture
     design at the applicant interface. Pair with Cases 157
     (Engler deployment), 180 (GAO oversight), 103 (Bartlett),
@@ -1428,11 +1427,11 @@
   ],
   lens-approach: [
     BRAIN is the field-scale stakeholder-and-governance case in
-    the v2 corpus (induced 5.1; LENS D4+D1/PT4). LENS uses it in
+    the v2 corpus (induced 5.1; LENS D5+D1/PT4). LENS uses it in
     Domain 1 (Systems Analysis) for the position-paper-to-policy
-    iteration sequence; in Domain 4 (Navigating Sociotechnical
+    iteration sequence; in Domain 5 (Navigating Sociotechnical
     Constraints) for the public-record governance contestation;
-    and in Domain 3 (Test and Evaluation) for the
+    and in Domain 4 (Test and Evaluation) for the
     enthusiasm-evidence gap as the framing exceeded delivered
     science. Direct pair with Case 16 (EU Human Brain Project),
     same era and ambition, opposite governance model. The COI
@@ -1598,10 +1597,10 @@
   ],
   lens-approach: [
     CIRAS is the non-aviation pairing-mechanism case
-    (induced 4.2; LENS D4/PT2). LENS uses it in Domain 4
+    (induced 4.2; LENS D5/PT2). LENS uses it in Domain 5
     (Navigating Sociotechnical Constraints) for the
     credible-commitment design — independence written into
-    operating structure — and in Domain 3 (Test and
+    operating structure — and in Domain 4 (Test and
     Evaluation) for the CLO *Judgment under inadequate
     evidence* on the operating self-report tier. Pair with
     ASRS (Case 111) and CRM/CAST (Case 70) as the
@@ -1765,9 +1764,9 @@
   lens-approach: [
     Team-science training is the case-grounded basis for the
     collaboration-as-measurement CLO (induced 4.3;
-    LENS D4/PT4). LENS uses it in Domain 4 (Navigating
+    LENS D5/PT4). LENS uses it in Domain 5 (Navigating
     Sociotechnical Constraints) for the team-coordination
-    redesign and in Domain 3 (Test and Evaluation) for the
+    redesign and in Domain 4 (Test and Evaluation) for the
     TEAMS instrument validation and the perceived-competency
     vs. downstream-impact discipline. Direct pair with Cases
     117 (IPE) and 123 (implementation science training) — the
@@ -1937,10 +1936,10 @@
   ],
   lens-approach: [
     Implementation-science training is the frontier
-    workforce-training case (induced 6.4; LENS D4/PT4). LENS
-    uses it in Domain 4 (Navigating Sociotechnical Constraints)
+    workforce-training case (induced 6.4; LENS D5/PT4). LENS
+    uses it in Domain 5 (Navigating Sociotechnical Constraints)
     for the cross-disciplinary translation discipline; in
-    Domain 3 (Test and Evaluation) for the enthusiasm-
+    Domain 4 (Test and Evaluation) for the enthusiasm-
     evidence-gap sub-competency; and in Domain 2 (Iterative
     Development) for the CLO *Judgment under inadequate
     evidence* as practitioners design training programs while
@@ -2110,7 +2109,7 @@
   ],
   lens-approach: [
     FSF CFIT/ALAR is the canonical industry-coordination case
-    (induced 6.1; LENS D4/PT4) — Domain 4 for the independent-
+    (induced 6.1; LENS D5/PT4) — Domain 5 for the independent-
     convening-body form; Domain 2 for the structured diagnostic
     instruments as iterating deliverables. Pair with Cases 70,
     111, and 13.
@@ -2280,8 +2279,8 @@
   ],
   lens-approach: [
     LALA is the non-US participatory-governance case
-    (induced 5.1; LENS D4/PT4) — Domain 4 for the cross-regime
-    participatory method; Domain 5 on *Judgment under
+    (induced 5.1; LENS D5/PT4) — Domain 5 for the cross-regime
+    participatory method; Domain 3 on *Judgment under
     inadequate evidence* (adoption-readiness, not closed
     outcome proof). Pair with Case 115 (OU) and Case 155
     (SyRI).
@@ -2454,10 +2453,10 @@
   ],
   lens-approach: [
     Norway is the national-scale governance-architecture case
-    (induced 5.4; LENS D4/PT4). LENS uses it in Domain 4
+    (induced 5.4; LENS D5/PT4). LENS uses it in Domain 5
     (Navigating Sociotechnical Constraints) for the change-
     control-and-disclosure-as-artifact discipline and in
-    Domain 3 (Test and Evaluation) for the CLO *Judgment
+    Domain 4 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* on the process-vs-outcome tier.
     Pair with Case 115 (OU, institutional), Case 155 (SyRI,
     judicial), Case 181 (LALA, multi-country participatory),
@@ -2626,11 +2625,11 @@
   ],
   lens-approach: [
     Waymo is the AV-safety governance case (induced 5.1; LENS
-    D4/PT6). LENS uses it in Domain 4 (Navigating
+    D5/PT6). LENS uses it in Domain 5 (Navigating
     Sociotechnical Constraints) for the CLO *Delegation
     with revocation* — the safety case is what makes
-    revocation possible — and in Domain 5 (Emerging Systems
-    and Machine Teaming) for the deployer-side artifact that
+    revocation possible — and in Domain 3 (Emerging Systems
+    and Human-System Collaboration) for the deployer-side artifact that
     permits oversight of a system whose internals are trade
     secret. Pair with Case 156 (Cruise) as the foil and Case
     184 (CPUC) as the regulator-side complement.
@@ -2794,7 +2793,7 @@
   ],
   lens-approach: [
     CPUC is the AV regulator-side governance case
-    (induced 5.1; LENS D4/PT6). LENS uses it in Domain 4
+    (induced 5.1; LENS D5/PT6). LENS uses it in Domain 5
     (Navigating Sociotechnical Constraints) for cross-regime
     governance seams (DMV regulates the vehicle; CPUC
     regulates the service; both can act) and for the
@@ -2936,7 +2935,7 @@
     ),
     after: (
       [Pair with Case 47 (PEPFAR) for the global-health workforce-capability counterpart at multi-country scale; together they teach what national- and program-scale L&D measurement at evidence-flagged tier looks like.],
-      [Use the amended CLO on collaboration measurement: TRAQOM is a worked example of measurement across employer-employee-state, and the program documentation can teach the architecture in LENS Domain 4 (Sociotechnical Constraints).],
+      [Use the amended CLO on collaboration measurement: TRAQOM is a worked example of measurement across employer-employee-state, and the program documentation can teach the architecture in LENS Domain 5 (Sociotechnical Constraints).],
       [Carry the practice-synthesis flag honestly: the program design and the TRAQOM instrument are documented, the headline magnitudes are self-report, and future validation requires independent quasi-experimental causal evaluation.],
     ),
   ),
@@ -2960,7 +2959,7 @@
   ],
   lens-approach: [
     SkillsFuture is the national workforce-capability case
-    (induced 2.4; LENS D4/PT4). LENS uses it in Domain 4
+    (induced 2.4; LENS D5/PT4). LENS uses it in Domain 5
     (Navigating Sociotechnical Constraints) for the amended
     CLO on collaboration measurement — TRAQOM measures
     across employer-employee-state — and in Domain 2 as the
@@ -3124,9 +3123,9 @@
   ],
   lens-approach: [
     Australian pharmacy-technician redesign is the C3 small-tier
-    role-redesign case (induced 3.2 and 4.3; LENS D4/PT3).
-    LENS uses it in Domain 4 (Navigating Sociotechnical
-    Constraints) for CLO-4 — the work was to redraw the
+    role-redesign case (induced 3.2 and 4.3; LENS D5/PT3).
+    LENS uses it in Domain 5 (Navigating Sociotechnical
+    Constraints) for CLO-5 — the work was to redraw the
     authority gradient — and in Domain 1 (Systems Analysis)
     for CLO-1, since the role-architecture diagnosis was the
     precondition for the redesign. Pair with Cases 125–126 for
@@ -3303,7 +3302,7 @@
   lens-approach: [
     The designed teaching point is operational failure-mode
     attribution (induced 5.2; canonical competency 8.1; LENS
-    D4/PT5). At the ration-shop card-reader and the pension
+    D5/PT5). At the ration-shop card-reader and the pension
     window, a biometric authentication that did not match was
     logged as user error — the claimant's worn fingerprints,
     the elderly applicant's failed iris read — when it was in
@@ -3471,7 +3470,7 @@
   ],
   lens-approach: [
     Rwanda mHealth is the small-tier non-US frontline-capability
-    case (induced 6.4; LENS D4/PT4). LENS uses it in Domain 4
+    case (induced 6.4; LENS D5/PT4). LENS uses it in Domain 5
     (Navigating Sociotechnical Constraints) for the periphery-
     extension pattern — the technology supports the CHW's
     diagnostic-and-referral role without relocating judgment to
@@ -3635,10 +3634,9 @@
   ],
   lens-approach: [
     PMDA is the non-US regulator-designed change-control case
-    (induced 5.4; LENS D4/PT6). LENS uses it in Domain 4
+    (induced 5.4; LENS D5/PT6). LENS uses it in Domain 5
     (Navigating Sociotechnical Constraints) for the
-    delegation-with-revocation structure and in Domain 5
-    (Machine Teaming and Adaptation) for the CLO *Delegation with revocation* — the regulator delegates
+    delegation-with-revocation structure and in Domain 3 (Human-System Collaboration) for the CLO *Delegation with revocation* — the regulator delegates
     in-scope modification authority and retains revocation,
     rather than defaulting to static approval. Pairs with the
     Epic-Sepsis governance gap as the structural contrast
@@ -3791,7 +3789,7 @@
   ],
   lens-approach: [
     CARE is the non-US governance-replacement case (induced
-    5.1; LENS D4/PT4). LENS uses it in Domain 4 (Navigating
+    5.1; LENS D5/PT4). LENS uses it in Domain 5 (Navigating
     Sociotechnical Constraints) for the governance-regime
     replacement structure — existing privacy regimes named as
     inadequate to collective rights — and as the case-grounded
@@ -3986,8 +3984,8 @@
   lens-approach: [
     NYC Local Law 144 is the change-control-and-disclosure-as-
     governance-artifacts case at municipal-regulatory scale
-    (induced 5.4; LENS D4/PT5; CLO-3 and CLO-4). LENS uses it
-    in Domain 4 (Navigating Sociotechnical Constraints) for the
+    (induced 5.4; LENS D5/PT5; CLO-4 and CLO-5). LENS uses it
+    in Domain 5 (Navigating Sociotechnical Constraints) for the
     audit-as-governance-instrument discipline. Pair with Case
     115 (OU Analyse governance-objection-dissolved-by-design),
     Case 133 (Gándara community-college predictive equity), and
@@ -4294,10 +4292,10 @@
   ],
   lens-approach: [
     African learning-analytics scoping is the non-US
-    frontier-evidence case (induced 8.4; LENS D4/PT4). LENS
-    uses it in Domain 4 (Navigating Sociotechnical
+    frontier-evidence case (induced 8.4; LENS D5/PT4). LENS
+    uses it in Domain 5 (Navigating Sociotechnical
     Constraints) for the construct-travel problem and in
-    Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the deployer must
+    Domain 4 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the deployer must
     decide on what to import and what to validate locally
     when the validation literature is thin. Pairs with the
     African data-privacy governance case for the

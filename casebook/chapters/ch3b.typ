@@ -738,14 +738,14 @@
     the model.
   ],
   lens-approach: [
-    TREWS is the positive Domain 5 / Problem Type 6 case the corpus
+    TREWS is the positive Domain 3 / Problem Type 6 case the corpus
     needed: a documented delegation to AI that worked, with the
     explanation locatable in the human–machine interface and the
     governance discipline rather than the model. LENS uses it in
-    Domain 5 (Machine Teaming and Adaptation) for the
-    delegation-with-revocation pattern, in Domain 3 (Test and
+    Domain 3 (Human-System Collaboration) for the
+    delegation-with-revocation pattern, in Domain 4 (Test and
     Evaluation) for outcome-grounded prospective evidence under the
-    judgment-under-inadequate-evidence CLO, and in Domain 4
+    judgment-under-inadequate-evidence CLO, and in Domain 5
     (Navigating Sociotechnical Constraints) for the workflow-fit
     discipline. It is the foil drafted directly against the Epic
     Sepsis Model (Case 93).
@@ -932,8 +932,8 @@
   ],
   lens-approach: [
     Sterile-cockpit ward rounds is the cross-domain adaptation
-    case (induced 3.2; LENS D5/PT5) — Domain 5 for workflow-
-    context-as-design-variable; Domain 4 for the cultural-
+    case (induced 3.2; LENS D3/PT5) — Domain 3 for workflow-
+    context-as-design-variable; Domain 5 for the cultural-
     commitment half. Pair with I-PASS (Case 43), CRM (Case 70),
     and Case 116.
   ],
@@ -1106,10 +1106,10 @@
   ],
   lens-approach: [
     LWRS control-room modernization is the structured
-    sustainment-research case (induced 7.1; LENS D5/PT4) —
-    Domain 1 for the long-horizon partnership; Domain 4 for the
+    sustainment-research case (induced 7.1; LENS D3/PT4) —
+    Domain 1 for the long-horizon partnership; Domain 5 for the
     federal-research + industry + regulator triple structure;
-    Domain 5 for the hybrid digital/analog research line.
+    Domain 3 for the hybrid digital/analog research line.
     Closes C7 with Cases 22, 23, 24.
   ],
   literature-items: (
@@ -1278,8 +1278,8 @@
   ],
   lens-approach: [
     Hybrid human-AI tutoring is the augmentation-not-delegation
-    case in education (induced 6.4; LENS D5/PT6). LENS uses it
-    in Domain 5 (Machine Teaming and Adaptation) for the
+    case in education (induced 6.4; LENS D3/PT6). LENS uses it
+    in Domain 3 (Human-System Collaboration) for the
     augmentation pattern and the override-authorization frame,
     and in Domain 2 (Iterative Development) for the three-study
     converging-design replication. Pair with Cases 74 (TREWS)
@@ -1928,8 +1928,8 @@
   ],
   lens-approach: [
     CIRCUIT proofreading is the human-correction-layer
-    frontier case (induced 3.4; LENS D5/PT6) — Domain 5 for
-    *Delegation with revocation*; Domain 3 for the evidence-
+    frontier case (induced 3.4; LENS D3/PT6) — Domain 3 for
+    *Delegation with revocation*; Domain 4 for the evidence-
     tier split. Pair with Case 39 and Cases 74, 93, 155,
     67. COI binds.
   ],

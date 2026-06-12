@@ -155,9 +155,8 @@
   ],
   lens-approach: [
     Coots is the small-tier frontier counter-case to Bartlett. LENS
-    uses the pair in Domain 3 (Test and Evaluation) for the CLO *Fairness beyond omission*; in Domain 3 again for the CLO *Judgment under inadequate evidence* (the pair is itself a
-    decision under irreducible disagreement); and in Domain 5
-    (Machine Teaming and Adaptation) for delegation of
+    uses the pair in Domain 4 (Test and Evaluation) for the CLO *Fairness beyond omission*; in Domain 4 again for the CLO *Judgment under inadequate evidence* (the pair is itself a
+    decision under irreducible disagreement); and in Domain 3 (Human-System Collaboration) for delegation of
     consequential consumer-finance decisions to a model. The
     preprint-tier flag is binding until peer review completes.
   ],
@@ -321,11 +320,11 @@
   ],
   lens-approach: [
     Kirkpatrick is the corporate-L&D evaluation case
-    (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3
+    (induced 2.1; LENS D4/PT5). LENS uses it in Domain 4
     (Test and Evaluation) for the CLO *Judgment under
     inadequate evidence* — the practitioner must decide well
     on structurally sub-decision-grade evidence — and in
-    Domain 4 (Navigating Sociotechnical Constraints) for the
+    Domain 5 (Navigating Sociotechnical Constraints) for the
     Level-2/Level-3 seam that the training organization
     cannot cross alone. Direct pair with Case 35 (Blume
     transfer meta-analysis) for the workplace-environment
@@ -495,7 +494,7 @@
   lens-approach: [
     LENS uses the WHO checklist as the canonical pre-committed
     institutional response paired with closed-loop evidence
-    (induced 4.4; LENS D3/PT5). It runs in LEN 10 (capstone) as the
+    (induced 4.4; LENS D4/PT5). It runs in LEN 10 (capstone) as the
     end-to-end design exemplar — a problem identified, a minimal
     artifact prototyped, a multi-site pilot, a measurement regime, and
     global scale-out — and in LEN 4 for the measurement architecture
@@ -1122,10 +1121,10 @@
   ],
   lens-approach: [
     eGFR is the construct-definition equity intervention in the
-    race-construct trio (Cases 113, 114 and 95). LENS uses it in Domain 3
+    race-construct trio (Cases 113, 114 and 95). LENS uses it in Domain 4
     (Test and Evaluation) for the CLO *Gap attribution* —
     attributing the gap to construct definition, not to clinicians
-    or patients — and in Domain 4 (Navigating Sociotechnical
+    or patients — and in Domain 5 (Navigating Sociotechnical
     Constraints) for the governance process that revised the
     standard. Direct trio with Case 114 (pulse oximetry — the
     validation-architecture mechanism) and Case 95 (pain
@@ -1279,9 +1278,9 @@
   lens-approach: [
     Pulse oximetry is the validation-architecture intervention in
     the race-construct trio (Cases 113, 114 and 95). LENS uses it in
-    Domain 3 (Test and Evaluation) for the CLO *Gap
+    Domain 4 (Test and Evaluation) for the CLO *Gap
     attribution* — the gap is in the validation architecture, not
-    the device or the clinician — and in Domain 4 (Navigating
+    the device or the clinician — and in Domain 5 (Navigating
     Sociotechnical Constraints) for the FDA clearance / device
     oversight regime. Adjacent to Case 130 (radiology AI
     miscalibration), which is the same diagnosis at a different
@@ -1443,11 +1442,11 @@
     artifact, not a solved problem.
   ],
   lens-approach: [
-    OU is the positive Domain 3 / Problem Type 5 stakeholder
-    governance case (induced 5.1; LENS D3/PT5). LENS uses it
-    in Domain 4 (Navigating Sociotechnical Constraints) for
+    OU is the positive Domain 4 / Problem Type 5 stakeholder
+    governance case (induced 5.1; LENS D4/PT5). LENS uses it
+    in Domain 5 (Navigating Sociotechnical Constraints) for
     the governance-objection diagnostic — the
-    dissolvable-objection side — and in Domain 3 (Test and
+    dissolvable-objection side — and in Domain 4 (Test and
     Evaluation) for the engagement-tracked-outcome evidence.
     Direct pair with Case 155 (Dutch SyRI), where the
     governance objection was correct and design could not
@@ -1619,12 +1618,11 @@
   ],
   lens-approach: [
     Anesthesia monitoring is the canonical cue/alert
-    intervention (induced 3.1; LENS D3/PT5). LENS uses it in
-    Domain 3 (Test and Evaluation) for the cue/alert design
-    as deliverable; in Domain 4 (Navigating Sociotechnical
+    intervention (induced 3.1; LENS D4/PT5). LENS uses it in
+    Domain 4 (Test and Evaluation) for the cue/alert design
+    as deliverable; in Domain 5 (Navigating Sociotechnical
     Constraints) for the APSF / ASA institutional discipline
-    that made the standard non-waiverable; and in Domain 5
-    (Machine Teaming and Adaptation) at the human–device
+    that made the standard non-waiverable; and in Domain 3 (Human-System Collaboration) at the human–device
     boundary. Adjacent to Case 114 (pulse oximetry across
     skin tones) — same instrument, the canonical edge case the
     standard still carries. Pair with Case 109 (WHO Surgical
@@ -1792,7 +1790,7 @@
   ],
   lens-approach: [
     IPE is the field-scale enthusiasm-evidence-gap case
-    (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3
+    (induced 2.1; LENS D4/PT5). LENS uses it in Domain 4
     (Test and Evaluation) as the case-grounded basis for the
     enthusiasm-evidence-gap sub-competency and for the
     CLO *Judgment under inadequate evidence* — IPE is the
@@ -1975,8 +1973,8 @@
   ],
   lens-approach: [
     EGPWS / TAWS is the aviation cue/alert intervention case
-    (induced 3.1; LENS D3/PT5) — Domain 3 for cue-design-as-
-    deliverable; Domain 5 for the operator-cue boundary. Pair
+    (induced 3.1; LENS D4/PT5) — Domain 4 for cue-design-as-
+    deliverable; Domain 3 for the operator-cue boundary. Pair
     with TCAS (Case 119) and Case 116 (anesthesia monitoring).
   ],
   literature-items: (
@@ -2154,8 +2152,8 @@
   ],
   lens-approach: [
     TCAS is the coordinated-cockpit-automation case
-    (induced 3.1; LENS D3/PT5) — Domain 3 for the
-    Überlingen-driven V7.1 iteration; Domain 5 for the
+    (induced 3.1; LENS D4/PT5) — Domain 4 for the
+    Überlingen-driven V7.1 iteration; Domain 3 for the
     crew–TCAS–ATC precedence rule. Pair with EGPWS (Case 118)
     and Case 116.
   ],
@@ -2322,8 +2320,8 @@
   ],
   lens-approach: [
     BCMA is the small-tier point-of-care cue/alert
-    intervention (induced 3.1; LENS D3/PT5) — Domain 3 for
-    cue-as-deliverable; Domain 5 for the workflow-around-the-
+    intervention (induced 3.1; LENS D4/PT5) — Domain 4 for
+    cue-as-deliverable; Domain 3 for the workflow-around-the-
     cue. Pair with Case 116 (anesthesia/APSF) and Case 109
     (WHO Surgical Checklist).
   ],
@@ -2485,10 +2483,10 @@
   lens-approach: [
     The surgical-skill peer-rating study is the small-tier
     measure-the-failure-mode-you-care-about case
-    (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3
+    (induced 2.1; LENS D4/PT5). LENS uses it in Domain 4
     (Test and Evaluation) for the
     measure-the-capability-against-the-outcome design move,
-    and in Domain 5 (Machine Teaming and Adaptation) for the
+    and in Domain 3 (Human-System Collaboration) for the
     peer-rating workflow that makes the assessment scalable.
     Adjacent to JIGSAWS (Case 122) at the
     surgical-skill-measurement layer — JIGSAWS the
@@ -2664,7 +2662,7 @@
   ],
   lens-approach: [
     Language of Surgery is the skill-decomposition case
-    (induced 2.1; LENS D3/PT5) — Domain 3 for construct-
+    (induced 2.1; LENS D4/PT5) — Domain 4 for construct-
     resolution; Domain 1 for task-decomposition. Pair with
     Case 121 (Birkmeyer) and Case 116. Home-institution
     disclosure under the title.
@@ -2835,10 +2833,10 @@
   ],
   lens-approach: [
     MMALA is the institutional-maturity-model case
-    (induced 5.4; LENS D3/PT4). LENS uses it in Domain 3 (Test
+    (induced 5.4; LENS D4/PT4). LENS uses it in Domain 4 (Test
     and Evaluation) for the structured self-assessment
     instrument and the two-layer validation discipline; in
-    Domain 4 (Navigating Sociotechnical Constraints) for the
+    Domain 5 (Navigating Sociotechnical Constraints) for the
     governance-as-instrument framing; and on the CLO *Judgment under inadequate evidence* for the
     instrument-validation-vs-outcome-validation tier
     distinction. Pair with Cases 115, 181, 169, 182 as the
@@ -3004,7 +3002,7 @@
   ],
   lens-approach: [
     SCM is the corporate-L&D tail-sampling case (induced 2.1;
-    LENS D3/PT5). LENS uses it in Domain 3 (Test and
+    LENS D4/PT5). LENS uses it in Domain 4 (Test and
     Evaluation) for the CLO *Judgment under inadequate
     evidence* — the method asks practitioners to act on
     case-reconstruction evidence rather than population
@@ -3163,8 +3161,8 @@
   ],
   lens-approach: [
     UMHC is the C3 small-tier intervention case
-    (induced 3.1; LENS D3/PT5). LENS uses it in Domain 3
-    (Test and Evaluation) for the CLO-3 deliverable that cue
+    (induced 3.1; LENS D4/PT5). LENS uses it in Domain 4
+    (Test and Evaluation) for the CLO-4 deliverable that cue
     redesign must show its downstream process effect, and in
     Domain 1 (Systems Analysis) for CLO-1 — the multidisciplinary
     team did the analysis of the screening workflow as the
@@ -3329,11 +3327,11 @@
   ],
   lens-approach: [
     Alert-fatigue redesign is the C3.2 small-tier intervention
-    case (induced 3.1 and 3.2; LENS D3/PT5). LENS uses it in
-    Domain 3 (Test and Evaluation) for CLO-3 — the redesign
+    case (induced 3.1 and 3.2; LENS D4/PT5). LENS uses it in
+    Domain 4 (Test and Evaluation) for CLO-4 — the redesign
     must report the safety signal alongside the alert-rate
-    cut — and in Domain 5 (Machine Teaming and Adaptation)
-    for CLO-5 oversight of automated decision support
+    cut — and in Domain 3 (Human-System Collaboration)
+    for CLO-3 oversight of automated decision support
     delegated to the bedside, with the CLO on delegation
     with revocation explicit. Pair with Case 125 for the
     small-tier C3 thread.
@@ -3505,7 +3503,7 @@
   ],
   lens-approach: [
     Pane / CTAI at scale is the closed-loop evaluation-horizon
-    case (induced 2.3; LENS D3/PT4). LENS uses it in Domain 3
+    case (induced 2.3; LENS D4/PT4). LENS uses it in Domain 4
     (Test and Evaluation) for the horizon-as-design-choice
     discipline and in Domain 2 (Iterative Development) for the
     deployment-substrate-stabilization frame — teacher fluency,
@@ -3686,9 +3684,9 @@
   lens-approach: [
     OU Analyse teacher-use is the human-in-the-loop predictive-
     analytics case at institutional scale (induced 5.2; LENS
-    D3/PT5). LENS uses it in Domain 3 (Test and Evaluation)
+    D4/PT5). LENS uses it in Domain 4 (Test and Evaluation)
     for the multi-cohort longitudinal-follow-through design
-    and in Domain 5 (Machine Teaming and Adaptation) for the
+    and in Domain 3 (Human-System Collaboration) for the
     delegation-with-revocation structure — the teacher chooses,
     each time, whether to act on the prediction. Pair with
     Case 115 (OU consent governance), Case 127 (Cognitive
@@ -3886,10 +3884,9 @@
   lens-approach: [
     COMPOSER is the cue-and-alert-design-as-capability-deliverable
     case at clinical-deployment scale (induced 3.1; LENS
-    D3+D5/PT6; CLO-3 and CLO-5). LENS uses it in Domain 3
+    D4+D4/PT6; CLO-4 and CLO-3). LENS uses it in Domain 4
     (Test and Evaluation) for the prospective-implementation-
-    evaluation discipline and in Domain 5 (Machine Teaming and
-    Adaptation) for the abstention-as-clinical-workflow-
+    evaluation discipline and in Domain 3 (Human-System Collaboration) for the abstention-as-clinical-workflow-
     capability anchor. Pair with Case 74 (TREWS), Case 93
     (Epic Sepsis), and Case 130 (Radiology AI Miscalibration).
     The three sepsis cases together — Case 74, Case 93, Case
@@ -4104,13 +4101,13 @@
   ],
   lens-approach: [
     Radiology AI is the canonical contemporary clinical-AI
-    deployment-and-surveillance case (induced 7.2; LENS D3+D5/PT5).
-    LENS uses it in Domain 3 (Test and Evaluation; CLO-3) for the
+    deployment-and-surveillance case (induced 7.2; LENS D4+D4/PT5).
+    LENS uses it in Domain 4 (Test and Evaluation; CLO-4) for the
     clearance-vs-deployment measurement architecture and for
     demographic stratification of validation as a deliverable. LENS
-    uses it in Domain 5 (Machine Teaming and Adaptation; CLO-5) for
+    uses it in Domain 3 (Human-System Collaboration; CLO-4) for
     the human-AI deployment-without-surveillance pattern, and in
-    Domain 4 (Navigating Sociotechnical Constraints) for the
+    Domain 5 (Navigating Sociotechnical Constraints) for the
     FDA AI/ML regulatory trajectory itself. The Obermeyer (2019)
     finding generalizes the diagnosis: bias enters through the
     labels and through the population, both of which the 510(k)
@@ -4591,7 +4588,7 @@
   lens-approach: [
     Gándara student-success-prediction fairness is the
     equity-construct-definition case (induced 8.2; LENS
-    D3/PT5) — Domain 3 for stratified evaluation; Domain 4 for
+    D4/PT5) — Domain 4 for stratified evaluation; Domain 5 for
     the decision-context and mitigation question. Cross-reference
     Cases 113, 114, 95 — case-grounded basis for the equity-
     construct CLOs.
@@ -4760,8 +4757,8 @@
   ],
   lens-approach: [
     Yu/Lee/Kizilcec protected attributes is the model-fairness-
-    governance case (induced 8.4; LENS D3/PT5) — Domain 3 for
-    stratified-evaluation-by-attribute; Domain 4 for the
+    governance case (induced 8.4; LENS D4/PT5) — Domain 4 for
+    stratified-evaluation-by-attribute; Domain 5 for the
     decision-plus-reasoning-plus-audit architecture. Cross-
     reference Case 133 and the race-construct trio (105, 106,
     107).
@@ -4937,10 +4934,9 @@
   ],
   lens-approach: [
     LiveHint AI is the demographic-stratified validation case at
-    the foundation-model layer (induced 8.2; LENS D3/PT6). LENS
-    uses it in Domain 3 (Test and Evaluation) for the matched-
-    pair probing methodology and in Domain 5 (Machine Teaming
-    and Adaptation) for the foundation-model-selection-as-
+    the foundation-model layer (induced 8.2; LENS D4/PT6). LENS
+    uses it in Domain 4 (Test and Evaluation) for the matched-
+    pair probing methodology and in Domain 3 (Human-System Collaboration) for the foundation-model-selection-as-
     fairness-decision frame. Pair with the race-construct trio
     (Cases 113, 114, 95, 97) at the deployment-audit layer
     and with Case 77 (hybrid human-AI tutoring) as the
@@ -5128,10 +5124,10 @@
   lens-approach: [
     DeepMind Mammography is the deployment-and-reuse-as-
     verification-events case at the high-profile-publication
-    seam (induced 7.2; LENS D3+D5/PT6; CLO-3 and CLO-5). LENS
-    uses it in Domain 3 (Test and Evaluation) for the
+    seam (induced 7.2; LENS D4+D4/PT6; CLO-4 and CLO-3). LENS
+    uses it in Domain 4 (Test and Evaluation) for the
     reproducibility-infrastructure-as-verification-condition
-    discipline and in Domain 5 (Machine Teaming and Adaptation)
+    discipline and in Domain 3 (Human-System Collaboration)
     for the retrospective-versus-prospective-evidence distinction.
     Pair with Case 130 (Radiology AI Miscalibration), Case 93
     (Epic Sepsis), and Case 114 (pulse oximetry population

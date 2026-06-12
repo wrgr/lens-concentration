@@ -225,8 +225,8 @@
     as the canonical pair on transition-training failure across a
     changed system, and with the Boeing 737 MAX MCAS sequence as the
     near-current echo. CLO mapping: CLO-2 (Iterative Development)
-    primary; CLO-3 (Test and Evaluation) for the BEA investigation
-    framing; CLO-5 (Machine Teaming and Adaptation) for the
+    primary; CLO-4 (Test and Evaluation) for the BEA investigation
+    framing; CLO-3 (Human-System Collaboration) for the
     automation-handoff dimension.
   ],
   literature-items: (
@@ -256,7 +256,7 @@
   evidence-source: "investigation",
   induced-anchor: "1.2",
   lens-anchor: "D2/PT4",
-  clo-anchor: "CLO-2, CLO-4",  // alternate framing adopted: CLO-5 dropped; reserve CLO-5 (Machine Teaming) for AI-mediated cases; AF447 is automation-handoff under classical FBW, not AI-mediated,
+  clo-anchor: "CLO-2, CLO-4",  // alternate framing adopted: CLO-5 dropped; reserve CLO-5 (Human-System Collaboration) for AI-mediated cases; AF447 is automation-handoff under classical FBW, not AI-mediated,
 )
 
 #case(
@@ -430,10 +430,10 @@
   ],
   lens-approach: [
     Amazon Hiring AI is the choose-the-construct case at hiring-
-    algorithm scale (induced 8.1; LENS D2+D3/PT6; CLO-3 and
-    CLO-4). LENS uses it in Domain 2 (Iterative Development)
+    algorithm scale (induced 8.1; LENS D2+D5/PT6; CLO-4 and
+    CLO-5). LENS uses it in Domain 2 (Iterative Development)
     for the irreducibility-verification-as-deployment-gate
-    discipline and in Domain 3 (Test and Evaluation) for the
+    discipline and in Domain 4 (Test and Evaluation) for the
     construct-validity-at-the-training-data-layer anchor. Pair
     with Case 94 (Bartlett mortgage), Case 97 (Johnson school
     surveillance), and Case 135 (LiveHint AI bias across

@@ -57,7 +57,7 @@
     line(length: 100%, stroke: 0.25pt + rule-soft)
     clo-row("Navigating Sociotechnical Constraints", "CLO-4 · Context and Domain Fluency")
     line(length: 100%, stroke: 0.25pt + rule-soft)
-    clo-row("Machine Teaming and Adaptation", "CLO-5 · Human-AI Teaming and Adaptive Systems")
+    clo-row("Human-System Collaboration", "CLO-3 · Human-System Collaboration and Adaptive Systems")
   },
 )
 

@@ -631,13 +631,13 @@
   ],
   lens-approach: [
     Deepwater Horizon anchors the cue-and-alert-design competency
-    (induced 3.1; LENS D3/PT5): the negative-pressure test was the
+    (induced 3.1; LENS D4/PT5): the negative-pressure test was the
     cue, and the cue's ambiguity at the moment of decision was the
-    capability gap. LENS uses it in Domain 3 (Test and Evaluation)
+    capability gap. LENS uses it in Domain 4 (Test and Evaluation)
     for the cue-design failure and the wrong-construct measurement;
     in Domain 1 (Systems Analysis) for multi-layer drift across
     procedure, training, supervision, contractor coordination, and
-    equipment; and in Domain 4 (Navigating Sociotechnical
+    equipment; and in Domain 5 (Navigating Sociotechnical
     Constraints) for the OSHA-vs-EPA enforcement gap and the
     leasing-vs-safety regulator conflict the BSEE/BOEM split conceded.
     Pair with Texas City (Case 137) on the
@@ -1133,10 +1133,10 @@
   ],
   lens-approach: [
     F-22 OBOGS is the aerospace instrumentation-gap case
-    (induced 2.4; LENS D3/PT5). LENS uses it in Domain 3
+    (induced 2.4; LENS D4/PT5). LENS uses it in Domain 4
     (Test and Evaluation) for the no-single-root-cause finding
     and the bundle-of-corrections evaluation problem, and in
-    Domain 5 (Machine Teaming and Adaptation) for the operator
+    Domain 3 (Human-System Collaboration) for the operator
     burden when an automatic action cuts a life-critical
     supply. Pair with Case 65 (EVA-23) as the human-
     spaceflight instrumentation-gap companion and with
@@ -1583,7 +1583,7 @@
   ],
   lens-approach: [
     Wells Fargo is the canonical "protecting the measurement from
-    gaming" case (induced 2.2; LENS D3/PT5), with measuring-the-
+    gaming" case (induced 2.2; LENS D4/PT5), with measuring-the-
     failure-mode-you-care-about (induced 2.1) as the alternate
     anchor. LENS uses it in LEN 4 as the measurement-gaming case
     and in LEN 7 for the corporate-governance dynamics that allow
@@ -1907,13 +1907,13 @@
     post-deployment external work.
   ],
   lens-approach: [
-    Epic is the Domain 3 + Domain 5 / Problem Type 6 failure that
+    Epic is the Domain 4 + Domain 3 / Problem Type 6 failure that
     motivates the post-deployment-surveillance discipline LENS
-    teaches. Used in Domain 3 (Test and Evaluation) for measurement
+    teaches. Used in Domain 4 (Test and Evaluation) for measurement
     architecture under proprietary opacity and the gap-attribution
-    CLO; in Domain 5 (Machine Teaming and Adaptation) for the
+    CLO; in Domain 3 (Human-System Collaboration) for the
     delegation-with-revocation CLO — Epic was delegated without a
-    pre-specified revocation criterion; and in Domain 4 (Navigating
+    pre-specified revocation criterion; and in Domain 5 (Navigating
     Sociotechnical Constraints) for the cross-regime / platform
     governance seam. Pairs directly against TREWS (Case 74) and
     sits in the AI-delegation typology with SyRI and Watson.
@@ -2061,11 +2061,10 @@
   ],
   lens-approach: [
     Bartlett is the headline equity-and-construct case in
-    consumer credit (induced 8.2; LENS D3+D5/PT6). LENS uses it
-    in Domain 3 (Test and Evaluation) for the CLO *Fairness
-    beyond omission*, in Domain 5 (Machine Teaming and
-    Adaptation) for delegation to underwriting models, and in
-    Domain 4 (Navigating Sociotechnical Constraints) for the
+    consumer credit (induced 8.2; LENS D4+D4/PT6). LENS uses it
+    in Domain 4 (Test and Evaluation) for the CLO *Fairness
+    beyond omission*, in Domain 3 (Human-System Collaboration) for delegation to underwriting models, and in
+    Domain 5 (Navigating Sociotechnical Constraints) for the
     fair-lending regulatory regime. Direct pair with Case 107
     (Coots fintech fairness audit). Adjacent to the race-construct
     trio in clinical medicine (Cases 113, 114 and 95) — same structural
@@ -2220,7 +2219,7 @@
   ],
   lens-approach: [
     Hoffman is the human-development case in the race-construct
-    trio (Cases 113, 114 and 95). LENS uses it in Domain 3 (Test and
+    trio (Cases 113, 114 and 95). LENS uses it in Domain 4 (Test and
     Evaluation) for the CLO *Gap attribution* — the gap is in
     the clinician's training, not the construct or the device —
     and in Domain 2 (Learning Engineering Design) for the
@@ -2396,9 +2395,9 @@
   lens-approach: [
     Proctoring bias is the small-tier ed-tech
     validation-stratification failure (induced 8.2; LENS
-    D3/PT5). LENS uses it in Domain 3 (Test and Evaluation)
+    D4/PT5). LENS uses it in Domain 4 (Test and Evaluation)
     for the validation-must-be-demographically-stratified
-    discipline, and in Domain 4 (Navigating Sociotechnical
+    discipline, and in Domain 5 (Navigating Sociotechnical
     Constraints) for the institutional resolution mechanism
     that has to handle the case where the flag was generated
     by software bias. Trio with Cases 113 (eGFR), 106 (pulse
@@ -2588,8 +2587,8 @@
   lens-approach: [
     Johnson school surveillance is the
     infrastructure-as-mechanism gap-attribution case
-    (induced 8.1; LENS D3/PT5) — Domain 3 as the case-grounded
-    basis for *Gap attribution*; Domain 4 for the
+    (induced 8.1; LENS D4/PT5) — Domain 4 as the case-grounded
+    basis for *Gap attribution*; Domain 5 for the
     institutional-architecture-as-mechanism framing. Pair with
     Cases 113, 114, 95. COI binds.
   ],
@@ -2776,9 +2775,9 @@
   lens-approach: [
     Ofqual A-level 2020 is the change-control-and-disclosure-as-
     governance-artifacts case at national scale (induced 5.4;
-    LENS D3+D4/PT5; CLO-3 and CLO-4). LENS uses it in Domain 3
+    LENS D4+D3/PT5; CLO-4 and CLO-5). LENS uses it in Domain 4
     (Test and Evaluation) for the consultation-with-affected-
-    stakeholders process as the test surface and in Domain 4
+    stakeholders process as the test surface and in Domain 5
     (Navigating Sociotechnical Constraints) for the cohort-size
     dependence as the distributional seam the deployment carried.
     Pair with Case 133 (Gándara community-college predictive
@@ -2966,9 +2965,9 @@
   ],
   lens-approach: [
     COMPAS is the impossibility-result case at consequential-
-    decision scale (induced 8.4; LENS D3+D4/PT6; CLO-3 and
-    CLO-4). LENS uses it in Domain 3 (Test and Evaluation) for
-    the multi-criterion-audit discipline and in Domain 4
+    decision scale (induced 8.4; LENS D4+D3/PT6; CLO-4 and
+    CLO-5). LENS uses it in Domain 4 (Test and Evaluation) for
+    the multi-criterion-audit discipline and in Domain 5
     (Navigating Sociotechnical Constraints) for the
     surfacing-bias-through-governance-not-just-technique anchor.
     Pair with Case 94 (Bartlett mortgage — fairness through
@@ -3180,9 +3179,9 @@
   lens-approach: [
     Wisconsin DEWS is the designing-predictions-to-trigger-
     support-not-gatekeeping case at population scale (induced
-    8.3; LENS D3+D4/PT6; CLO-3 and CLO-4). LENS uses it in
-    Domain 3 (Test and Evaluation) for the causal-inference-
-    on-multi-year-deployment discipline and in Domain 4
+    8.3; LENS D4+D3/PT6; CLO-4 and CLO-5). LENS uses it in
+    Domain 4 (Test and Evaluation) for the causal-inference-
+    on-multi-year-deployment discipline and in Domain 5
     (Navigating Sociotechnical Constraints) for the equity-
     audit-as-binding-input anchor. Pair with Case 97 (Johnson
     school surveillance), Case 133 (Gándara community-college
@@ -3528,13 +3527,13 @@
   ],
   lens-approach: [
     Medical error is the central evidence anchor of the curriculum
-    (induced 2.1; LENS D3/PT5). LENS uses it in Domain 3 (Test and
-    Evaluation; CLO-3) for the foundational measurement problem: the
+    (induced 2.1; LENS D4/PT5). LENS uses it in Domain 4 (Test and
+    Evaluation; CLO-4) for the foundational measurement problem: the
     death certificate cannot record the failure mode it is supposed
     to govern, and the contested mortality estimates show what
     happens when an instrument's gap is filled by extrapolation.
     LENS uses it in Domain 1 (Systems Analysis) as the foundational
-    problem statement of the program and in Domain 4 (Navigating
+    problem statement of the program and in Domain 5 (Navigating
     Sociotechnical Constraints) for industry-level institution
     building. The 25-year arc pairs the case with the WHO Surgical
     Checklist (Case 109), Keystone ICU (Case 71), and TeamSTEPPS
@@ -4058,11 +4057,10 @@
   ],
   lens-approach: [
     Vioxx is the canonical pharmaceutical post-deployment-surveillance
-    case (induced 2.4; LENS D3+D5/PT5). LENS uses it in Domain 3
-    (Test and Evaluation; CLO-3) for post-market surveillance as a
+    case (induced 2.4; LENS D4+D4/PT5). LENS uses it in Domain 4
+    (Test and Evaluation; CLO-4) for post-market surveillance as a
     measurement deliverable — the signal existed; the institutional
-    architecture to aggregate it did not. LENS uses it in Domain 5
-    (Machine Teaming and Adaptation; CLO-5) for the change-control
+    architecture to aggregate it did not. LENS uses it in Domain 3 (Human-System Collaboration; CLO-4) for the change-control
     and disclosure architecture between manufacturer, regulator, and
     prescriber that determines whether ambiguous safety signals reach
     a decision boundary. Pair with Radiology AI (Case 130) as the
@@ -4245,9 +4243,9 @@
   ],
   lens-approach: [
     Course Signals is the small-tier evidence-architecture
-    failure (induced 2.1; LENS D3/PT5). LENS uses it in
-    Domain 3 (Test and Evaluation) for measurement design that
-    cannot deceive the institution, and in Domain 4
+    failure (induced 2.1; LENS D4/PT5). LENS uses it in
+    Domain 4 (Test and Evaluation) for measurement design that
+    cannot deceive the institution, and in Domain 5
     (Navigating Sociotechnical Constraints) for the
     citation-practice failure mode in which a headline outcome
     outpaces the evidence it rests on. Deeper-evidence-of v1

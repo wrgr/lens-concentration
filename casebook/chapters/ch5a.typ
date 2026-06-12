@@ -153,7 +153,7 @@
   ],
   lens-approach: [
     Texas City is the canonical "measuring the wrong failure mode"
-    case (induced 2.1; LENS D3/PT5), with cue/alert design
+    case (induced 2.1; LENS D4/PT5), with cue/alert design
     (induced 3.1) and change-control (induced 5.4) as alternate
     anchors. LENS uses it in LEN 4 as the wrong-measurement case
     and in LEN 7 for the governance failure that allowed years of
@@ -659,7 +659,7 @@
     pressure, and communication structure aligned twice, seventeen
     years apart. LENS uses the pair in Domain 1 (Systems Analysis)
     for normalization of deviance as a systems concept and the
-    institutional-learning gap as a measurable property; in Domain 4
+    institutional-learning gap as a measurable property; in Domain 5
     (Navigating Sociotechnical Constraints) for the governance
     failure that allowed a diagnosed pathology to persist and for
     the upward-channel design the CAIB called a piece of safety
@@ -2956,14 +2956,13 @@
     verdict.
   ],
   lens-approach: [
-    SyRI is the negative Domain 4 / Problem Type 6 governance
-    case (induced 5.1; LENS D4+D5/PT6) drafted as the
+    SyRI is the negative Domain 5 / Problem Type 6 governance
+    case (induced 5.1; LENS D5+D4/PT6) drafted as the
     contrast to the Open University (Case 115). LENS uses
-    the pair in Domain 4 (Navigating Sociotechnical
+    the pair in Domain 5 (Navigating Sociotechnical
     Constraints) for the governance-objection
     diagnostic — distinguishing dissolvable from correct
-    objections — and in Domain 5 (Machine Teaming and
-    Adaptation) for the delegation-with-revocation CLO: the
+    objections — and in Domain 3 (Human-System Collaboration) for the delegation-with-revocation CLO: the
     court was the revocation channel because the system did
     not have one of its own. Adjacent to the AI-delegation
     typology (TREWS / Epic / SyRI / Watson) the v2 corpus
@@ -3128,11 +3127,11 @@
   ],
   lens-approach: [
     Cruise is the AV partial-disclosure failure (induced 5.4;
-    LENS D4/PT6). LENS uses it in Domain 4 (Navigating
+    LENS D5/PT6). LENS uses it in Domain 5 (Navigating
     Sociotechnical Constraints) for the CLO *Delegation
     with revocation* — the case shows what revocation looks
     like when the disclosure architecture fails — and in
-    Domain 5 (Emerging Systems and Machine Teaming) for the
+    Domain 3 (Emerging Systems and Human-System Collaboration) for the
     oversight obligations that follow when a system acts
     autonomously after a triggering event. Direct foil to
     Case 183 (Waymo); pairs with Case 184 (CPUC) on the
@@ -3309,10 +3308,10 @@
   ],
   lens-approach: [
     Engler / enrollment-management is the construct-choice case
-    at population scale (induced 8.3; LENS D4/PT5). LENS uses it
-    in Domain 4 (Navigating Sociotechnical Constraints) for the
+    at population scale (induced 8.3; LENS D5/PT5). LENS uses it
+    in Domain 5 (Navigating Sociotechnical Constraints) for the
     construct-substitution anchor and the disclosure architecture
-    the deployment lacks, and in Domain 3 (Test and Evaluation)
+    the deployment lacks, and in Domain 4 (Test and Evaluation)
     for the evidence-tier discipline — practice-synthesis is the
     strongest available tier, and the case says so. Pair with
     Case 110 (Georgia State support-trigger inversion), Case 94
@@ -3484,10 +3483,10 @@
   ],
   lens-approach: [
     Burd / Crisis Point is the construct-substitution case at
-    institutional scale (induced 8.1; LENS D4/PT5). LENS uses it
-    in Domain 4 (Navigating Sociotechnical Constraints) for the
+    institutional scale (induced 8.1; LENS D5/PT5). LENS uses it
+    in Domain 5 (Navigating Sociotechnical Constraints) for the
     disclosure-architecture lesson — the deliberation that did
-    not happen — and in Domain 3 (Test and Evaluation) for the
+    not happen — and in Domain 4 (Test and Evaluation) for the
     evidence-tier discipline binding policy-tier analysis to
     audit-tier verification. Pair with Case 157 (Engler /
     enrollment algorithms) as governance frame to technical
@@ -3664,9 +3663,9 @@
   ],
   lens-approach: [
     GAO OPM oversight gap is the regulatory-seam case (induced
-    5.3; LENS D4/PT6). LENS uses it in Domain 4 (Navigating
+    5.3; LENS D5/PT6). LENS uses it in Domain 5 (Navigating
     Sociotechnical Constraints) for the cross-regime delegation
-    pattern and in Domain 5 (Machine Teaming and Adaptation) for
+    pattern and in Domain 3 (Human-System Collaboration) for
     the delegation-with-revocation frame — the contract is
     reversible in principle, locked-in in practice. Pair with
     Case 160 (USC × 2U Luna, the litigation half) and Case 157
@@ -3842,9 +3841,9 @@
   ],
   lens-approach: [
     USC × 2U Luna is the disclosure-as-deliverable case at
-    OPM-delegation scale (induced 5.4; LENS D4/PT6). LENS uses it
-    in Domain 4 (Navigating Sociotechnical Constraints) for the
-    promised-vs-delivered disclosure gap and in Domain 5 (Machine
+    OPM-delegation scale (induced 5.4; LENS D5/PT6). LENS uses it
+    in Domain 5 (Navigating Sociotechnical Constraints) for the
+    promised-vs-delivered disclosure gap and in Domain 3 (Machine
     Teaming and Adaptation) for the delegation-with-revocation
     pattern — the partnership terminated in 2024, but the
     consequences for students who enrolled under the prior
@@ -4029,10 +4028,10 @@
   ],
   lens-approach: [
     In re 2U is the disclosure-as-governance case at the public-
-    company boundary (induced 5.4; LENS D4/PT5; CLO-3 and CLO-4).
-    LENS uses it in Domain 4 (Navigating Sociotechnical Constraints)
+    company boundary (induced 5.4; LENS D5/PT5; CLO-4 and CLO-5).
+    LENS uses it in Domain 5 (Navigating Sociotechnical Constraints)
     for the change-control and disclosure-architecture anchor and
-    in Domain 3 (Test and Evaluation) for the convergence-of-
+    in Domain 4 (Test and Evaluation) for the convergence-of-
     oversight-surfaces diagnostic. Pair with Case 159 (GAO
     regulator-side audit), Case 160 (Luna consumer-side complaint),
     and Cases 157 and 158 (Engler and Burd, the enrollment-
@@ -4218,10 +4217,10 @@
   ],
   lens-approach: [
     Robodebt is the burden-of-proof-reversal case at population
-    scale (induced 5.2; LENS D4+D5/PT6; CLO-4 and CLO-5). LENS
-    uses it in Domain 4 (Navigating Sociotechnical Constraints)
+    scale (induced 5.2; LENS D5+D4/PT6; CLO-5 and CLO-3). LENS
+    uses it in Domain 5 (Navigating Sociotechnical Constraints)
     for the agency-legal-advice-as-binding-gate discipline and in
-    Domain 5 (Machine Teaming and Adaptation) for the human-in-
+    Domain 3 (Human-System Collaboration) for the human-in-
     the-loop-for-consequential-decisions anchor. Pair with Case
     155 (SyRI governance-objection-correct precedent), Case 97
     (Johnson school surveillance algorithmic-public-administration
@@ -4405,10 +4404,10 @@
   ],
   lens-approach: [
     Apple Card is the explainability-as-governance case at
-    consumer-credit scale (induced 5.2; LENS D4/PT6; CLO-4 and
-    CLO-5). LENS uses it in Domain 4 (Navigating Sociotechnical
+    consumer-credit scale (induced 5.2; LENS D5/PT6; CLO-5 and
+    CLO-3). LENS uses it in Domain 5 (Navigating Sociotechnical
     Constraints) for the appeal-and-explanation-infrastructure
-    discipline and in Domain 5 (Machine Teaming and Adaptation)
+    discipline and in Domain 3 (Human-System Collaboration)
     for the human-in-the-loop-for-consequential-decisions anchor
     at the appeal seam. Pair with Case 94 (Bartlett mortgage),
     Case 107 (Coots competing fairness definitions), and Case

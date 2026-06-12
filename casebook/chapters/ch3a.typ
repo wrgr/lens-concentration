@@ -182,8 +182,8 @@
     interface-as-deliverable: a CIC display tested against the worst
     case it would actually meet — confirmation bias during a
     simultaneous surface engagement — not against the calm of
-    acceptance testing. LENS uses it in Domain 5 (Machine Teaming and
-    Adaptation; CLO-5) for the human-AI teaming problem itself: a
+    acceptance testing. LENS uses it in Domain 3 (Human-System Collaboration
+    Adaptation; CLO-3) for the human-AI teaming problem itself: a
     decision aid that displays truth without defending it predictably
     fails wherever automation is fast and the human is the last check.
     The case sits at the heart of the program's argument that
@@ -1911,10 +1911,9 @@
   ],
   lens-approach: [
     EVA-23 is the human-spaceflight uninstrumented-failure case
-    (induced 3.4; LENS D5/PT5). LENS uses it in Domain 5
-    (Machine Teaming and Adaptation) for the operator's
+    (induced 3.4; LENS D3/PT5). LENS uses it in Domain 3 (Human-System Collaboration) for the operator's
     detection-by-skin-contact at the edge of the engineered
-    envelope, and in Domain 3 (Test and Evaluation) for the
+    envelope, and in Domain 4 (Test and Evaluation) for the
     anomaly-investigation discipline the MIB pressed. Pair with
     Case 116 (anesthesia monitoring) at the cue/alert-as-
     capability layer and with Case 88 (F-22 OBOGS) as the
@@ -2254,9 +2253,9 @@
   ],
   lens-approach: [
     Watson for Oncology is the marketing-ahead-of-capability
-    AI-delegation failure (induced 1.1; LENS D5/PT6) — Domain 5
+    AI-delegation failure (induced 1.1; LENS D3/PT6) — Domain 3
     for *Delegation with revocation* (MD Anderson wind-downs
-    are the revocation half); Domain 3 for requirements-vs-
+    are the revocation half); Domain 4 for requirements-vs-
     marketing. Pair with Cases 74, 93, 155. Evidence-tier
     flag binds.
   ],
@@ -2446,8 +2445,8 @@
   ],
   lens-approach: [
     Air Canada chatbot is the human-in-the-loop-at-the-customer-
-    interaction-agent-seam case (induced 5.2; LENS D5/PT6;
-    CLO-5 and CLO-4). LENS uses it in Domain 5 (Machine
+    interaction-agent-seam case (induced 5.2; LENS D3/PT6;
+    CLO-3 and CLO-5). LENS uses it in Domain 3 (Machine
     Teaming and Adaptation) for the
     organization-is-liable-for-agent-representations principle.
     Pair with Case 93 (Epic Sepsis delegation-without-
@@ -2624,7 +2623,7 @@
   lens-approach: [
     TMI is the worked example of induced sub-competency 6.1
     (industry-level institution building after catastrophe) and the
-    LENS D4/PT4 pairing — Navigating Sociotechnical Constraints applied
+    LENS D5/PT4 pairing — Navigating Sociotechnical Constraints applied
     to the institutional architecture a catastrophic-system industry
     needs to learn at scale. Students reconstruct the capability
     requirements that the design-basis training framework missed (LENS
@@ -2635,7 +2634,7 @@
     the institution-building counterpart to the failure that produced
     it, and with Fitzgerald/McCain (Case 1) as the contrasting failure
     where the missing learning channel was internal to one service
-    rather than across a civilian industry. CLO mapping: CLO-4
+    rather than across a civilian industry. CLO mapping: CLO-5
     (Sociotechnical Constraints) primary for the INPO/NRC institutional
     architecture; CLO-1 (Systems Analysis) for the
     interface-and-training requirements analysis the accident exposed.

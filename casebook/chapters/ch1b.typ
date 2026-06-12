@@ -176,7 +176,7 @@
   lens-approach: [
     GAO weapon-system sustainment is the portfolio-evidence-
     architecture frontier case (induced 1.4; LENS D1/PT4) — used
-    in Domain 3 for the CLO *Judgment under inadequate
+    in Domain 4 for the CLO *Judgment under inadequate
     evidence* at portfolio scale. Pair with Case 21 and
     Case 19.
   ],
@@ -498,9 +498,9 @@
     SUBSAFE is the canonical sustainment-engineering case
     (induced 1.4; LENS D1/PT3). LENS uses it in Domain 1
     (Systems Analysis) for the requirements-as-deliverable
-    discipline; in Domain 3 (Test and Evaluation) for the
+    discipline; in Domain 4 (Test and Evaluation) for the
     Objective-Quality-Evidence standard and the
-    recurring-audit cycle; and in Domain 4 (Navigating
+    recurring-audit cycle; and in Domain 5 (Navigating
     Sociotechnical Constraints) for the non-waiverable
     culture that resists schedule pressure. Adjacent to the
     nurse-ratios case (Case 20) at the requirements-becomes-
@@ -659,7 +659,7 @@
     (induced 1.1; LENS D1/PT3). LENS uses it in Domain 1
     (Systems Analysis) for the conversion of stated
     requirement to engineered specification by law, and in
-    Domain 3 (Test and Evaluation) for the CLO *Judgment
+    Domain 4 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* — the evaluation evidence is
     observational cross-sectional, the strongest available
     and not closed proof. Pair with Case 19 SUBSAFE at the
@@ -838,7 +838,7 @@
     MIL-STD-1472H is the binding-standard requirements case
     (induced 1.1; LENS D1/PT3). LENS uses it in Domain 1
     (Systems Analysis) for the conversion of research findings
-    into engineered requirements, and in Domain 4 (Navigating
+    into engineered requirements, and in Domain 5 (Navigating
     Sociotechnical Constraints) for the tailoring and
     verification disciplines around the standard. Direct pair
     with Case 19 (SUBSAFE) at the requirements-as-deliverable
@@ -1014,7 +1014,7 @@
   lens-approach: [
     FAA aging aircraft is the canonical aging-asset-governance
     case (induced 7.3; LENS D1/PT3) — Domain 1 for LOV-as-
-    operational-service-goal; Domain 4 for the AAWG
+    operational-service-goal; Domain 5 for the AAWG
     institutional discipline. Closes the C7 zero-state. Pair
     with Cases 23, 24, 76 as the v2 aging-system quartet.
   ],
@@ -1185,7 +1185,7 @@
     case (induced 7.1; LENS D1/PT4). LENS uses it in Domain 1
     (Systems Analysis) for the separation of the auditable
     equipage mandate from the multifactorial benefit-
-    realization business case, and in Domain 4 (Navigating
+    realization business case, and in Domain 5 (Navigating
     Sociotechnical Constraints) for the decade of lead time
     and the sustained external-audit discipline. Closes the C7
     zero-state alongside Cases 22 (FAA aging aircraft), 136
@@ -1358,7 +1358,7 @@
   lens-approach: [
     Y2K is the legacy-software-sustainment case (induced 7.1;
     LENS D1/PT4) — Domain 1 for line-item inventory + immovable
-    deadline; Domain 4 for OMB-reporting + GAO-audit. Closes C7
+    deadline; Domain 5 for OMB-reporting + GAO-audit. Closes C7
     with Cases 22, 23, 76. Counterfactual-debate hedge
     preserved.
   ],
@@ -1684,7 +1684,7 @@
     LENS uses it in Domain 1 (Systems Analysis) for CLO-1 —
     the operator-task analysis under the digital cutover is
     the systems-analysis artifact the regulator consumes —
-    and in Domain 3 (Test and Evaluation) for CLO-3, since
+    and in Domain 4 (Test and Evaluation) for CLO-4, since
     the V\&V evidence is itself the measurement instrument
     the program rests on. Pair with Case 25 (Eurocat) for
     the small-tier C7 thread and with the LWRS big-tier
@@ -1850,8 +1850,8 @@
     self-critique (induced 7.1 and 5.3 alternate; LENS D1/PT1).
     LENS uses it in Domain 1 (Systems Analysis) for CLO-1 —
     the data-exchange layer is an artifact whose own aging is
-    part of system behavior — and in Domain 4 (Navigating
-    Sociotechnical Constraints) for CLO-4, since the state's
+    part of system behavior — and in Domain 5 (Navigating
+    Sociotechnical Constraints) for CLO-5, since the state's
     commitment to the protocol is itself the governance choice
     determining future modernization cost. Pair with Cases
     25–26 for the C7 thread and with the big-tier C7
