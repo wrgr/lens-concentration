@@ -15,7 +15,7 @@
 //        year-2 positive. Peer-reviewed. Deeper-evidence-of v1 Case 42.
 //   184  ASSISTments RCT + national replication. Peer-reviewed.
 //   185  OU Analyse teacher-use longitudinal — Herodotou BJET 2019 + LAK
-//        2023. Peer-reviewed. Distinct frame from Case 110.
+//        2023. Peer-reviewed. Distinct frame from Case 109.
 //   186  Doer Effect replication arc — LAK 2023 + L@S 2025 +
 //        non-WEIRD LAK 2025. Peer-reviewed.
 //   187  LiveHint AI bias across foundation models — AIED 2025.
@@ -31,7 +31,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 178,
+  number: 177,
   slug: "enrollment-algorithm-yield-optimization",
   title: "Enrollment-Algorithm Yield Optimization Across U.S. Higher Education",
   year: "2010s – present (Brookings synthesis 2021)",
@@ -118,8 +118,8 @@
     ],
     [
       The case sits as the structural inverse of Case 39 (Georgia
-      State's predictive advising) and pairs with Case 103 (mortgage-
-      lending fairness) and Case 138 (community-college predictive
+      State's predictive advising) and pairs with Case 102 (mortgage-
+      lending fairness) and Case 137 (community-college predictive
       equity). Georgia State used prediction to trigger support;
       enrollment-management algorithms use prediction to reduce
       the help allocated. Bartlett's lending analysis names the
@@ -153,7 +153,7 @@
     "Two-stage architecture: predict enrollment probability per accepted applicant, then optimize aid offer for net tuition or yield",
     "Seven major vendors named: Ruffalo Noel Levitz, EAB, Rapid Insight, Capture Higher Ed, Othot, Whiteboard, Civitas Learning",
     "Vendor-reported case studies: 23% yield gain (Washington), 33% net tuition gain with 6-point discount cut (EAB), 173 added freshmen (Othot)",
-    "Inversion of Case 39 (Georgia State support-trigger) and pair with Cases 103 (Bartlett lending) and 138 (Gándara community college)",
+    "Inversion of Case 39 (Georgia State support-trigger) and pair with Cases 102 (Bartlett lending) and 138 (Gándara community college)",
     "Engler hedges binding: vendor obscurity, algorithmic vs. manual leveraging, no audit of specific protected-class impact; future validation ongoing",
   ),
   approaches: (
@@ -194,8 +194,8 @@
     the deployment lacks, and in Domain 3 (Test and Evaluation)
     for the evidence-tier discipline — practice-synthesis is the
     strongest available tier, and the case says so. Pair with
-    Case 39 (Georgia State support-trigger inversion), Case 103
-    (Bartlett lending fairness), and Case 138 (Gándara community-
+    Case 39 (Georgia State support-trigger inversion), Case 102
+    (Bartlett lending fairness), and Case 137 (Gándara community-
     college equity). coi-light render under the title is binding.
   ],
   literature-items: (
@@ -212,7 +212,7 @@
 )
 
 #case(
-  number: 179,
+  number: 178,
   slug: "crisis-point-merit-aid-leveraging-at",
   title: "Crisis Point — Merit-Aid Leveraging at Public Flagships",
   year: "2001 – 2017 (Burd IPEDS analysis); 2024 (Lifting the Veil)",
@@ -303,7 +303,7 @@
       2020 report opens: the construct substitution that drove
       the merit-aid arms race was never debated as a policy
       change, and the disclosure architecture that would have
-      surfaced it never existed. The case pairs with Case 178
+      surfaced it never existed. The case pairs with Case 177
       (Engler / enrollment algorithms) as the institutional-
       governance frame to its technical-deployment frame.#cn()
     ],
@@ -329,7 +329,7 @@
     "Mechanism: state disinvestment + ranking-driven adoption of private-sector enrollment-management practices at public flagships",
     "Consequence: low-income students at high-merit-aid publics face larger unmet-need gaps; need-based dollars redirected to yield",
     "2024 Lifting the Veil (Harvard Ed Press, Burd ed.): multi-author synthesis — researchers, journalists, industry insiders",
-    "Construct substitution: 'students served' → 'net tuition revenue per matriculant'; never deliberated as policy; pair with Case 178",
+    "Construct substitution: 'students served' → 'net tuition revenue per matriculant'; never deliberated as policy; pair with Case 177",
   ),
   approaches: (
     during: (
@@ -368,9 +368,9 @@
     disclosure-architecture lesson — the deliberation that did
     not happen — and in Domain 3 (Test and Evaluation) for the
     evidence-tier discipline binding policy-tier analysis to
-    audit-tier verification. Pair with Case 178 (Engler /
+    audit-tier verification. Pair with Case 177 (Engler /
     enrollment algorithms) as governance frame to technical
-    frame, and with Cases 103 (Bartlett) and 138 (Gándara) for
+    frame, and with Cases 102 (Bartlett) and 138 (Gándara) for
     the construct-choice anchor across deployed prediction
     systems. coi-light render under the title is binding.
   ],
@@ -388,7 +388,7 @@
 )
 
 #case(
-  number: 180,
+  number: 179,
   slug: "gao-online-program-manager-oversight",
   title: "GAO Online Program Manager Oversight Gap (GAO-22-104463)",
   year: "2022",
@@ -481,9 +481,9 @@
       universities that delegated student recruitment under the
       pre-2024 regime retain the operational dependencies and the
       brand-and-program commitments built during the decade of
-      growth. The pair with Case 181 (USC × 2U Luna class action)
+      growth. The pair with Case 180 (USC × 2U Luna class action)
       shows the consumer-side litigation half of the same
-      delegation; the pair with Case 178 (Engler / enrollment
+      delegation; the pair with Case 177 (Engler / enrollment
       algorithms) shows the pricing-side optimization half.#cn()
     ],
     [
@@ -509,7 +509,7 @@
     "GAO 2022: at least 550 colleges, 2,900 programs, OPM revenue-share typically 40–60% of tuition (some 80%) per recruit",
     "Oversight gap: colleges/auditors lacked instructions to detect violations; ED not collecting information needed to oversee arrangements",
     "2024 partial rescission + 2U Chapter 11 closed one boundary; successor OPMs and underlying delegation problem persist",
-    "Investigation-grade delegation-with-revocation case at population scale; pair with Case 181 (USC × 2U Luna) and Case 178 (Engler)",
+    "Investigation-grade delegation-with-revocation case at population scale; pair with Case 180 (USC × 2U Luna) and Case 177 (Engler)",
   ),
   approaches: (
     during: (
@@ -519,7 +519,7 @@
     ),
     after: (
       [Carry the investigation-grade audit into the curriculum without softening: the GAO's central finding is that the oversight architecture was not built, and that is the load-bearing teaching point.],
-      [Pair the case with Case 181 (USC × 2U) so the regulator-side audit and the consumer-side litigation are taught together; one half names what the regulator missed, the other names what the delegated marketing actually did.],
+      [Pair the case with Case 180 (USC × 2U) so the regulator-side audit and the consumer-side litigation are taught together; one half names what the regulator missed, the other names what the delegated marketing actually did.],
       [Track post-rescission and post-2U-bankruptcy successor structures as a continuation of the case; the underlying delegation problem persists, and the case's frame is the regime-level oversight gap, not the specific 2U arrangement.],
     ),
   ),
@@ -548,7 +548,7 @@
     pattern and in Domain 5 (Machine Teaming and Adaptation) for
     the delegation-with-revocation frame — the contract is
     reversible in principle, locked-in in practice. Pair with
-    Case 181 (USC × 2U Luna, the litigation half) and Case 178
+    Case 180 (USC × 2U Luna, the litigation half) and Case 177
     (Engler / enrollment algorithms, the pricing-optimization
     half). coi-light render under the title is binding.
   ],
@@ -566,7 +566,7 @@
 )
 
 #case(
-  number: 181,
+  number: 180,
   slug: "usc-2u-online-msw-when-the-delegation",
   title: "USC × 2U Online MSW — When the Delegation Becomes the Product (Luna v. USC)",
   year: "2010s – 2024",
@@ -658,11 +658,11 @@
       under the prior arrangement, and did not produce an
       independent record of what the delegated operations
       actually delivered. The case sits at the consumer-side
-      counterpart to Case 180 (GAO OPM oversight gap): one half
+      counterpart to Case 179 (GAO OPM oversight gap): one half
       is the regulator-side audit of the regime, the other is
       the litigation that names what happened to specific
       applicants and enrollees under the regime. Pair also with
-      Case 178 (Engler / enrollment algorithms) for the pricing-
+      Case 177 (Engler / enrollment algorithms) for the pricing-
       optimization half.#cn()
     ],
     [
@@ -686,7 +686,7 @@
     "Luna 2023 complaint: USC marketed online program as 'same' as residential while outsourcing recruiting, advising, clinical placement to 2U",
     "Complaint alleges aggressive targeting of students of color and veterans; usc.edu email cover on OPM-employee operations",
     "Licensure half: clinical-placement quality independently unstudied; downstream what-can-graduates-do question carried as gap",
-    "Partnership terminated 2024; pair with Case 180 (GAO regulator-side) and Case 178 (Engler pricing); journalism-tier flag binding",
+    "Partnership terminated 2024; pair with Case 179 (GAO regulator-side) and Case 177 (Engler pricing); journalism-tier flag binding",
   ),
   approaches: (
     during: (
@@ -696,7 +696,7 @@
     ),
     after: (
       [Carry the journalism-tier framing into print without softening; the litigation is ongoing, the targeting reconstruction is allegation-tier, and the case's pedagogical power rests on naming the evidence tier honestly.],
-      [Pair the case in syllabi with Case 180 so the regulator-side and consumer-side halves of the OPM regime are taught together; one half names what the audit missed, the other names what the affected students alleged happened.],
+      [Pair the case in syllabi with Case 179 so the regulator-side and consumer-side halves of the OPM regime are taught together; one half names what the audit missed, the other names what the affected students alleged happened.],
       [Track the licensure-board half over time; an independent study of clinical-placement quality and post-graduation practice capacity is the audit the case names as the missing evidence.],
     ),
   ),
@@ -704,13 +704,13 @@
     [_Stephanie Luna v. University of Southern California_, class action complaint, Los Angeles County Superior Court, May 2023.],
     [Higher Ed Dive reporting on the Luna complaint, May 2023; classaction.org and topclassactions.com summaries.],
     [Project on Predatory Student Lending statement on USC-2U partnership termination, 2024.],
-    [2U Inc. and USC public statements on partnership termination, 2024; broader 2U commercial-collapse reporting referenced through Case 180.],
+    [2U Inc. and USC public statements on partnership termination, 2024; broader 2U commercial-collapse reporting referenced through Case 179.],
   ),
   quote: [The tuition tracked residential pricing. The delivered student experience tracked the OPM-operated structure. The gap between what was promised and what was delivered is the case.],
   quote-source: "Editors' synthesis of the Luna v. USC complaint and contemporaneous reporting.",
   le-insight: [
     Luna v. USC is the consumer-side journalism-tier counterpart
-    to GAO-22-104463 (Case 180). The complaint alleges USC
+    to GAO-22-104463 (Case 179). The complaint alleges USC
     marketed the online MSW as the "same" as the residential
     program while outsourcing the student-facing operations to 2U;
     the licensure-board half of the consequence chain is
@@ -727,15 +727,15 @@
     Teaming and Adaptation) for the delegation-with-revocation
     pattern — the partnership terminated in 2024, but the
     consequences for students who enrolled under the prior
-    arrangement persist. Pair with Case 180 (GAO regulator-side
-    audit), Case 178 (Engler pricing optimization), and Case 102
+    arrangement persist. Pair with Case 179 (GAO regulator-side
+    audit), Case 177 (Engler pricing optimization), and Case 101
     (Epic Sepsis governance gap). coi-light render under the
     title is binding.
   ],
   literature-items: (
     [_Luna v. USC_ complaint (2023)],
     [Higher Ed Dive and Project on Predatory Student Lending reporting],
-    [GAO-22-104463 — paired regulator-side audit (Case 180)],
+    [GAO-22-104463 — paired regulator-side audit (Case 179)],
   ),
   reflection-list: (
     [Identify a program in your domain where the student-facing surface — recruiting, advising, placement — has been delegated to a contracted vendor operating under institutional brand. What is the disclosure your institution makes to applicants about that delegation, and at what point in the transaction?],
@@ -746,7 +746,7 @@
 )
 
 #case(
-  number: 182,
+  number: 181,
   slug: "algorithmic-college-admissions-vendors",
   title: "Algorithmic College Admissions — Vendors' Claims vs. Applicants' Perceptions",
   year: "2025",
@@ -771,8 +771,8 @@
     treat them: opacity about the algorithm's existence, distrust
     of its objectives, and anticipated discrimination across
     protected characteristics. The case is the peer-reviewed
-    consent-side companion to Case 178 (Engler / enrollment
-    algorithms) and Case 180 (GAO OPM oversight gap). The
+    consent-side companion to Case 177 (Engler / enrollment
+    algorithms) and Case 179 (GAO OPM oversight gap). The
     authors' own hedge is explicit: 18 interviews is the right
     sample for the speculative-design method but not for
     prevalence claims, and "future validation ongoing" applies
@@ -826,9 +826,9 @@
       algorithmic disparate-impact findings.#cn()
     ],
     [
-      The case sits as the consent-side counterpart to Case 178
+      The case sits as the consent-side counterpart to Case 177
       (Engler / Brookings, the deployment-side mapping) and Case
-      180 (GAO-22-104463, the regulator-side audit). Engler
+      179 (GAO-22-104463, the regulator-side audit). Engler
       documents the deployed algorithmic optimization; the GAO
       audit documents the regulatory oversight gap; Pyle and
       Andalibi document what the affected applicants understand
@@ -836,7 +836,7 @@
       structural seam: a deployed system about which the
       institutional side, the regulator, and the affected
       population each hold partial and non-overlapping
-      information. The case also pairs with Cases 103 (Bartlett
+      information. The case also pairs with Cases 102 (Bartlett
       lending fairness) and 138 (Gándara community-college equity)
       as the applicant-perception strand of the equity-in-
       deployed-prediction thread.#cn()
@@ -860,9 +860,9 @@
   beats: (
     "Pyle & Andalibi CSCW 2025: 18 semi-structured interviews with U.S. university applicants, speculative-design probes",
     "Systematic distance: vendor marketing (efficiency, fairness, fit) vs. applicant perceptions (opacity, distrust, anticipated discrimination)",
-    "Consent-side companion to Case 178 (Engler deployment) and Case 180 (GAO regulator-side); applicants as structurally absent voice",
+    "Consent-side companion to Case 177 (Engler deployment) and Case 179 (GAO regulator-side); applicants as structurally absent voice",
     "Authors' hedge: 18 interviews is right for speculative-design depth, not for prevalence claims; future validation ongoing",
-    "Anchors the applicant-perception strand alongside Cases 103 (Bartlett) and 138 (Gándara) in the equity-in-prediction thread",
+    "Anchors the applicant-perception strand alongside Cases 102 (Bartlett) and 138 (Gándara) in the equity-in-prediction thread",
   ),
   approaches: (
     during: (
@@ -872,14 +872,14 @@
     ),
     after: (
       [Commission the prevalence study the speculative-design study cannot perform; the perception patterns the 18-interview study surfaces are testable at survey scale, and the deployment-side institutions are best positioned to commission the survey.],
-      [Pair the consent-side study with the regulator-side audit (Case 180) and the deployment-side mapping (Case 178) in the curriculum; the three cases together name the partial-information structure of the deployment.],
+      [Pair the consent-side study with the regulator-side audit (Case 179) and the deployment-side mapping (Case 177) in the curriculum; the three cases together name the partial-information structure of the deployment.],
       [Track the perception findings over time as the algorithmic-deployment landscape evolves; the case's value as a longitudinal baseline depends on the comparison studies that come next.],
     ),
   ),
   references: (
     [Pyle, C., & Andalibi, N. (2025), "Algorithmic College Admissions in the U.S.: Distances Between Vendors' Claims and Applicants' Perceptions," _Proceedings of the ACM on Human-Computer Interaction_ 9(7), CSCW369, doi:10.1145/3757550.],
-    [Engler (2021), Brookings — paired deployment-side mapping (Case 178).],
-    [GAO-22-104463 (2022) — paired regulator-side audit (Case 180).],
+    [Engler (2021), Brookings — paired deployment-side mapping (Case 177).],
+    [GAO-22-104463 (2022) — paired regulator-side audit (Case 179).],
     [Dunne, A., & Raby, F. (2013), _Speculative Everything_ — methodological backdrop for speculative-design probes.],
   ),
   quote: [Vendors pitch efficiency, fairness, and fit. Applicants name opacity, distrust, and anticipated discrimination. The distance between the two is the case.],
@@ -891,7 +891,7 @@
     vendor marketing and applicant perception across three axes;
     the authors' methodological hedge is binding on prevalence
     claims. The case completes the partial-information triangle
-    with Cases 178 (deployment-side) and 180 (regulator-side).
+    with Cases 177 (deployment-side) and 180 (regulator-side).
   ],
   lens-approach: [
     Pyle & Andalibi is the governance-rather-than-technique case
@@ -899,7 +899,7 @@
     it in Domain 4 (Navigating Sociotechnical Constraints) for
     the affected-voice inclusion lesson and in Domain 5 (Machine
     Teaming and Adaptation) for the disclosure-architecture
-    design at the applicant interface. Pair with Cases 178
+    design at the applicant interface. Pair with Cases 177
     (Engler deployment), 180 (GAO oversight), 103 (Bartlett),
     and 138 (Gándara). coi-light render under the title is
     binding for cluster placement.
@@ -918,7 +918,7 @@
 )
 
 #case(
-  number: 183,
+  number: 182,
   slug: "cognitive-tutor-algebra-i-at-scale-year",
   title: "Cognitive Tutor Algebra I at Scale — Year-One Null, Year-Two Positive",
   year: "2007 – 2014",
@@ -1024,9 +1024,9 @@
       one-year evaluation would have been inadequate evidence,
       and a field that publishes the one-year null without
       noting the planned second-year horizon publishes a wrong
-      answer on the available data. Pair with Case 184
+      answer on the available data. Pair with Case 183
       (ASSISTments) for the multi-year follow-through paired
-      case, and with Case 102 (Epic Sepsis) for the
+      case, and with Case 101 (Epic Sepsis) for the
       evaluation-horizon discipline in clinical AI. The closed
       loop the case completes is the two-year-horizon-was-the-
       right-horizon record that lets a field design the next
@@ -1038,7 +1038,7 @@
     "Year-one posttest: no significant difference; year-two posttest: CTAI significantly outperforms control",
     "A one-year evaluation would have published a null on the same intervention; both findings in the same trial",
     "Timeline of evaluation is itself a falsifiable design choice; year-two horizon required for deployment-substrate stabilization",
-    "Deeper-evidence-of v1 Case 42; pair with Case 184 (ASSISTments) and Case 102 (Epic Sepsis horizon discipline)",
+    "Deeper-evidence-of v1 Case 42; pair with Case 183 (ASSISTments) and Case 101 (Epic Sepsis horizon discipline)",
   ),
   approaches: (
     during: (
@@ -1049,7 +1049,7 @@
     after: (
       [Publish the year-by-year result pattern, not the aggregate effect; the case's teaching power depends on the year-one null being on the same page as the year-two positive.],
       [Carry the timeline-of-evidence lesson into the curriculum's evaluation-design teaching; the case grounds the CLO on judgment under inadequate evidence with a rare worked example where the inadequacy is the horizon, not the sample size.],
-      [Pair the case with Case 184 (ASSISTments multi-year follow-through) so the field-level discipline is taught with two converging examples; the methodological lesson is more useful as a pattern than as a single instance.],
+      [Pair the case with Case 183 (ASSISTments multi-year follow-through) so the field-level discipline is taught with two converging examples; the methodological lesson is more useful as a pattern than as a single instance.],
     ),
   ),
   references: (
@@ -1076,9 +1076,9 @@
     discipline and in Domain 2 (Iterative Development) for the
     deployment-substrate-stabilization frame — teacher fluency,
     scheduling, workflow familiarity are designable parts of
-    the intervention substrate, not noise. Pair with Case 184
+    the intervention substrate, not noise. Pair with Case 183
     (ASSISTments follow-through), v1 Case 42 (Cognitive Tutor
-    system), and Case 102 (Epic Sepsis horizon discipline).
+    system), and Case 101 (Epic Sepsis horizon discipline).
   ],
   literature-items: (
     [Pane et al. (2014), _EEPA_ — Cognitive Tutor at scale],
@@ -1094,7 +1094,7 @@
 )
 
 #case(
-  number: 184,
+  number: 183,
   slug: "assistments-national-replication-and",
   title: "ASSISTments — National Replication and Long-Term Follow-Through",
   year: "2014 – present",
@@ -1123,7 +1123,7 @@
     EdTech tools in the corpus with replicated multi-state RCT
     evidence at meaningful effect sizes and with deliberate
     attention to the heterogeneity that matters most for
-    equity outcomes. Pair with Case 148 (spaced education
+    equity outcomes. Pair with Case 147 (spaced education
     RCTs) for the replication-discipline thread. Open questions
     the authors carry: whether the virtual-training adaptation
     matches the in-person-training arm; whether the effect
@@ -1165,7 +1165,7 @@
       equity-relevant. Effect-size estimates were largest for
       lower-performing students, and minority students benefited
       more from the intervention than the average effect would
-      suggest. The pattern is the one Case 178 (Engler /
+      suggest. The pattern is the one Case 177 (Engler /
       enrollment algorithms) names as the inversion target:
       prediction and adaptive feedback used to trigger support
       rather than to gatekeep aid. The heterogeneity finding is
@@ -1197,11 +1197,11 @@
       arm's effect size is still under analysis. Whether the
       effect persists past grade 8 is the longer-horizon
       question that the corpus's evaluation-horizon discipline
-      (Case 183) directly applies to. Pair the case with Case
-      183 (Cognitive Tutor at-scale evaluation) for the
-      evaluation-horizon thread, with Case 148 (spaced education
+      (Case 182) directly applies to. Pair the case with Case
+      182 (Cognitive Tutor at-scale evaluation) for the
+      evaluation-horizon thread, with Case 147 (spaced education
       RCTs) for the replication-discipline thread, and with
-      Case 178 (Engler enrollment algorithms) for the
+      Case 177 (Engler enrollment algorithms) for the
       prediction-triggers-support inversion — the equity-
       relevant heterogeneity finding here is the structural
       complement to Engler's gatekeeping critique.
@@ -1212,7 +1212,7 @@
     "Heterogeneity: largest gains for lower-performing students; minority students benefited more — pre-specified equity-relevant outcome",
     "Murphy et al. 2020: 7th-grade effect persisted into 8th-grade outcomes (longitudinal follow-through)",
     "Arnold Ventures extension: lower-cost virtual-training adaptation in rural areas, longitudinal through end of 8th grade",
-    "Pair with Case 183 (Cognitive Tutor horizon), Case 148 (spaced ed RCTs), Case 178 (Engler — equity-relevant inversion of gatekeeping)",
+    "Pair with Case 182 (Cognitive Tutor horizon), Case 147 (spaced ed RCTs), Case 177 (Engler — equity-relevant inversion of gatekeeping)",
   ),
   approaches: (
     during: (
@@ -1223,7 +1223,7 @@
     after: (
       [Publish the heterogeneity result with the aggregate result; the case's equity-relevant pedagogical value depends on the heterogeneity finding being on the same page as the average effect.],
       [Track the adaptation arm — the lower-cost virtual-training condition — as a separate replication; the closed-loop evidence architecture the case demonstrates includes adaptation-under-different-conditions as a distinct evidence layer.],
-      [Carry the case in syllabi alongside Case 183 so the evaluation-horizon discipline and the heterogeneity-pre-specification discipline are taught together; the two methodological lessons are independent and both load-bearing for EdTech-evaluation design.],
+      [Carry the case in syllabi alongside Case 182 so the evaluation-horizon discipline and the heterogeneity-pre-specification discipline are taught together; the two methodological lessons are independent and both load-bearing for EdTech-evaluation design.],
     ),
   ),
   references: (
@@ -1240,7 +1240,7 @@
     longitudinal follow-through into the next grade, adaptation
     arm under different deployment conditions, and a pre-specified
     equity-relevant heterogeneity finding. The case grounds the
-    closed-loop evaluation anchor in EdTech the same way Case 121
+    closed-loop evaluation anchor in EdTech the same way Case 120
     grounds it in team-science training.
   ],
   lens-approach: [
@@ -1249,9 +1249,9 @@
     (Iterative Development) for the teacher-side minimum-change
     design discipline and in Domain 3 (Test and Evaluation) for
     the heterogeneity-pre-specification and longitudinal-
-    follow-through structure. Pair with Case 183 (Cognitive
-    Tutor at-scale evaluation horizon), Case 148 (spaced
-    education RCTs), and Case 178 (Engler enrollment algorithms
+    follow-through structure. Pair with Case 182 (Cognitive
+    Tutor at-scale evaluation horizon), Case 147 (spaced
+    education RCTs), and Case 177 (Engler enrollment algorithms
     inversion — prediction-triggers-support).
   ],
   literature-items: (
@@ -1262,13 +1262,13 @@
   reflection-list: (
     [Identify an EdTech intervention in your domain whose equity-relevant heterogeneity outcome was not pre-specified in the trial design. What pre-specification would the next replication require, and what is the data infrastructure that would support it?],
     [Specify the longitudinal-follow-through design you would build into the next at-scale EdTech evaluation. What grade-to-grade or year-to-year outcome would you track, and what data infrastructure does the tracking require?],
-    [The case sits as the prediction-triggers-support inversion of Case 178. Pick a deployed adaptive system in your domain and ask: in which direction does the adaptation point — toward more support for the lower-performing student or toward higher throughput for the average — and where is that design choice documented?],
+    [The case sits as the prediction-triggers-support inversion of Case 177. Pick a deployed adaptive system in your domain and ask: in which direction does the adaptation point — toward more support for the lower-performing student or toward higher throughput for the average — and where is that design choice documented?],
   ),
   courses: ("LEN 2", "LEN 3", "LEN 7"),
 )
 
 #case(
-  number: 185,
+  number: 184,
   slug: "ou-analyse-predictive-learning",
   title: "OU Analyse — Predictive Learning Analytics and Teacher Use at Scale",
   year: "2019 – 2023",
@@ -1294,7 +1294,7 @@
     adoption — how teachers' use of the predictions stabilized,
     what fraction continued to act on them, how perceptions
     evolved. The case is distinct from the OU consent-and-ethical-
-    use frame Case 110 covers; this case carries the post-
+    use frame Case 109 covers; this case carries the post-
     deployment teacher-use evaluation at multi-cohort scale.
     The authors' hedges are binding: causal attribution to OU
     Analyse use specifically — versus teacher selection effects
@@ -1352,7 +1352,7 @@
     ],
     [
       The case is distinct from the OU consent-and-ethical-use
-      frame Case 110 covers. Case 110 carries the governance
+      frame Case 109 covers. Case 109 carries the governance
       story — the Policy on Ethical Use of Student Data, the
       institutional review of analytic deployments, the
       consent architecture. This case carries the post-
@@ -1378,7 +1378,7 @@
       multi-institution transfer — OU Analyse has been licensed
       beyond the Open University, and the transfer outcomes are
       not yet in the peer-reviewed literature. Pair with Case
-      110 (OU consent governance), Case 183 (Cognitive Tutor
+      109 (OU consent governance), Case 182 (Cognitive Tutor
       at-scale evaluation), and the Purdue Course Signals
       cautionary case from v1 — the OU Analyse evaluation is
       the methodologically more careful descendant of the
@@ -1389,7 +1389,7 @@
     "OU Analyse: predictive-learning-analytics dashboard deployed across the Open University UK's distance-learning operation",
     "Herodotou et al. 2019 BJET: 9 courses, 559 teachers (189 with OUA access), >14,000 students; teacher engagement → measurable improvement",
     "Herodotou et al. 2023 LAK: three-year-post-implementation follow-up — stabilization, sustained adoption stratification, perception evolution",
-    "Distinct from Case 110 (OU consent governance); this case is post-deployment teacher-use at multi-cohort scale",
+    "Distinct from Case 109 (OU consent governance); this case is post-deployment teacher-use at multi-cohort scale",
     "Hedges binding: causal attribution bounded (propensity matching, not RCT randomization); multi-institution transfer evidence pending",
   ),
   approaches: (
@@ -1401,7 +1401,7 @@
     after: (
       [Commission the next-tier evaluation that addresses the teacher-selection-effect question; an RCT at the teacher level, or an instrumental-variable design exploiting institutional dashboard-rollout variation, would close the residual causal-attribution gap.],
       [Publish the multi-institution-transfer evaluations as the system is licensed beyond the OU; the case's value as a generalizable instance depends on the transfer evidence the OU-internal evaluation cannot provide.],
-      [Pair the case in the curriculum with Case 110 (OU consent governance) so the deployment is taught across both governance and post-deployment-use frames; the two cases together teach the institutional anchor without collapsing one frame into the other.],
+      [Pair the case in the curriculum with Case 109 (OU consent governance) so the deployment is taught across both governance and post-deployment-use frames; the two cases together teach the institutional anchor without collapsing one frame into the other.],
     ),
   ),
   references: (
@@ -1431,8 +1431,8 @@
     and in Domain 5 (Machine Teaming and Adaptation) for the
     delegation-with-revocation structure — the teacher chooses,
     each time, whether to act on the prediction. Pair with
-    Case 110 (OU consent governance), Case 183 (Cognitive
-    Tutor at-scale), and Case 184 (ASSISTments multi-year).
+    Case 109 (OU consent governance), Case 182 (Cognitive
+    Tutor at-scale), and Case 183 (ASSISTments multi-year).
   ],
   literature-items: (
     [Herodotou et al. (2019), _BJET_ — OU Analyse teacher-use evaluation],
@@ -1448,7 +1448,7 @@
 )
 
 #case(
-  number: 186,
+  number: 185,
   slug: "doer-effect-at-scale-replication-ai",
   title: "The Doer Effect at Scale — Replication, AI-Generated Questions, Non-WEIRD Extension",
   year: "2016 – 2025",
@@ -1476,8 +1476,8 @@
     via basic mobile phones, and reported that the doer-effect
     relationship was weaker for learners with higher prior
     educational attainment — the load-bearing heterogeneity
-    finding the corpus most needs. The case sits with Case 128
-    (Duolingo half-life) and Case 148 (spaced education RCTs)
+    finding the corpus most needs. The case sits with Case 127
+    (Duolingo half-life) and Case 147 (spaced education RCTs)
     as the replication-arc thread. The closed loop is closed
     not by a single trial but by replication; the effect
     generalizes but not uniformly, and the heterogeneity is
@@ -1549,8 +1549,8 @@
       collapsing them.#cn()
     ],
     [
-      The case anchors with Case 128 (Duolingo half-life) and
-      Case 148 (spaced education RCTs) as the replication-arc
+      The case anchors with Case 127 (Duolingo half-life) and
+      Case 147 (spaced education RCTs) as the replication-arc
       thread. All three demonstrate the closed-loop discipline
       at field scale: a design principle established as a single
       result, replicated across contexts, and surfaced as
@@ -1569,7 +1569,7 @@
     "Van Campenhout et al. LAK 2023: seven-course replication with 15.2M data points — effect holds in direction and magnitude",
     "L@S 2025 replication: AI-generated practice questions — effect still holds; meaningful given LLM-generated content rising",
     "Butler et al. LAK 2025 non-WEIRD: radio-lecture + mobile-phone practice — effect weaker for higher-prior-attainment learners (heterogeneity is the result)",
-    "Closed loop via replication, not single trial; pair with Case 128 (Duolingo half-life) and Case 148 (spaced ed RCTs)",
+    "Closed loop via replication, not single trial; pair with Case 127 (Duolingo half-life) and Case 147 (spaced ed RCTs)",
   ),
   approaches: (
     during: (
@@ -1580,7 +1580,7 @@
     after: (
       [Publish the heterogeneity as the result, not the adjusted-away noise; the non-WEIRD prior-attainment finding is what extends the principle's actionable scope and is the load-bearing pedagogical content of the case.],
       [Build the long-term-retention and cross-content-transfer studies the replication arc names as the next open questions; the closed loop the case completes is honest about what it does and does not close.],
-      [Carry the case in syllabi alongside Cases 128 and 148 so the replication-arc thread is taught as a thread, not as three independent examples; the closed-loop discipline at field scale is more visible across the three cases than within any one.],
+      [Carry the case in syllabi alongside Cases 127 and 147 so the replication-arc thread is taught as a thread, not as three independent examples; the closed-loop discipline at field scale is more visible across the three cases than within any one.],
     ),
   ),
   references: (
@@ -1598,7 +1598,7 @@
     WEIRD-modality extension — four converging pieces of evidence
     with the prior-attainment heterogeneity finding as the load-
     bearing result. The case completes the replication-arc thread
-    alongside Cases 128 and 148.
+    alongside Cases 127 and 147.
   ],
   lens-approach: [
     Doer-effect replication arc is the closed-loop-by-
@@ -1606,8 +1606,8 @@
     in Domain 2 (Iterative Development) for the replication-
     arc discipline and in Domain 3 (Test and Evaluation) for
     the cross-population generalization-with-heterogeneity
-    structure. Pair with Case 128 (Duolingo half-life) and
-    Case 148 (spaced education RCTs) — the replication-arc
+    structure. Pair with Case 127 (Duolingo half-life) and
+    Case 147 (spaced education RCTs) — the replication-arc
     thread teaches the closed-loop discipline at field scale.
   ],
   literature-items: (
@@ -1624,7 +1624,7 @@
 )
 
 #case(
-  number: 187,
+  number: 186,
   slug: "livehint-ai-evaluating-an-ai-tutor-for",
   title: "LiveHint AI — Evaluating an AI Tutor for Bias Across Foundation Models",
   year: "2025",
@@ -1651,8 +1651,8 @@
     audit (LiveHint is in development); it is a methods-
     development paper proposing how foundation-model-level
     fairness evaluation should be done before deployment. The
-    case extends the race-construct trio (Cases 105, 106, 107,
-    156) into the LLM-tutoring layer where the structurally new
+    case extends the race-construct trio (Cases 104, 105, 106,
+    155) into the LLM-tutoring layer where the structurally new
     variable is the foundation model. Open questions: whether
     lab-style probing matches deployed-conversation patterns;
     whether vendor selection across foundation models becomes
@@ -1714,7 +1714,7 @@
       methods-development paper proposing how foundation-model-
       level fairness evaluation should be done before
       deployment. The case is not the deployment-bias-audit
-      case the corpus carries at Cases 105 (Hoffman pain
+      case the corpus carries at Cases 104 (Hoffman pain
       assessment), 106 (pulse oximetry), 107 (eGFR), and 156
       (Johnson school surveillance). It is the structurally
       new methods-development case at the layer above those
@@ -1734,10 +1734,10 @@
       educational-AI procurement pipeline is a market-evolution
       question the present study can name but cannot resolve.
       The case pairs with the race-construct trio for the
-      stratified-validation discipline and with Case 188
+      stratified-validation discipline and with Case 187
       (hybrid human-AI tutoring) for the deployment-side
-      complement — the augmentation pattern Case 188 documents
-      depends on the foundation-model-level evaluation Case 187
+      complement — the augmentation pattern Case 187 documents
+      depends on the foundation-model-level evaluation Case 186
       is methodologically grounding.
     ],
   ),
@@ -1745,8 +1745,8 @@
     "LiveHint AI (Carnegie Learning) probed with identity-marked student queries across tone, detail, pedagogical appropriateness",
     "Choice of foundation model materially affects differentiation level; vendor-selection decision is itself fairness-relevant",
     "Methods-development paper (LiveHint in development), not deployment-bias audit; grounds demographic-stratification at foundation-model layer",
-    "Structurally new variable beyond race-construct trio (Cases 105/106/107/156): the foundation-model layer above the deployed system",
-    "Open: lab probing vs. deployed-conversation match; vendor selection as routine fairness deliverable; pair with Case 188",
+    "Structurally new variable beyond race-construct trio (Cases 104/105/106/155): the foundation-model layer above the deployed system",
+    "Open: lab probing vs. deployed-conversation match; vendor selection as routine fairness deliverable; pair with Case 187",
   ),
   approaches: (
     during: (
@@ -1757,13 +1757,13 @@
     after: (
       [Commission the deployed-conversation evaluation that the lab-style probing cannot perform; the open question on whether probing patterns match deployment patterns is testable against deployment logs as the system moves toward release.],
       [Publish the foundation-model-level fairness findings as part of the procurement record; the case argues that vendor selection across foundation models is a fairness deliverable, and the publication discipline is what would make that deliverable operational.],
-      [Pair the case in the curriculum with the race-construct trio (Cases 105, 106, 107, 156) so the demographic-stratification anchor is taught across both the deployed-system layer and the foundation-model layer above it.],
+      [Pair the case in the curriculum with the race-construct trio (Cases 104, 105, 106, 155) so the demographic-stratification anchor is taught across both the deployed-system layer and the foundation-model layer above it.],
     ),
   ),
   references: (
     [AIED 2025, "Evaluating an AI Tutor for Bias Across Different Foundation Models," Springer/ACM proceedings, doi:10.1007/978-3-031-98465-5_43; preprint at renzheyu.com/papers/AIED2025_Tutor.pdf.],
     [Bommasani, R. et al. (2021), "On the Opportunities and Risks of Foundation Models," Stanford CRFM — the foundation-model framing the case builds on.],
-    [Race-construct trio reference set: Hoffman et al. (2016), Sjoding et al. (2020) pulse oximetry, Inker et al. (2021) eGFR-without-race — paired with Cases 105, 106, 107.],
+    [Race-construct trio reference set: Hoffman et al. (2016), Sjoding et al. (2020) pulse oximetry, Inker et al. (2021) eGFR-without-race — paired with Cases 104, 105, 106.],
     [Carnegie Learning LiveHint product documentation — the subject system; case framing is binding on LiveHint being in development, not deployment.],
   ),
   quote: [The choice of foundation model is itself a fairness-relevant design decision. The evaluation should be a pre-deployment deliverable, not a post-deployment audit.],
@@ -1786,8 +1786,8 @@
     pair probing methodology and in Domain 5 (Machine Teaming
     and Adaptation) for the foundation-model-selection-as-
     fairness-decision frame. Pair with the race-construct trio
-    (Cases 105, 106, 107, 156) at the deployment-audit layer
-    and with Case 188 (hybrid human-AI tutoring) as the
+    (Cases 104, 105, 106, 155) at the deployment-audit layer
+    and with Case 187 (hybrid human-AI tutoring) as the
     augmentation-pattern complement.
   ],
   literature-items: (
@@ -1804,7 +1804,7 @@
 )
 
 #case(
-  number: 188,
+  number: 187,
   slug: "hybrid-human-ai-tutoring-augmentation",
   title: "Hybrid Human-AI Tutoring — Augmentation, Not Delegation",
   year: "2024",
@@ -1830,10 +1830,10 @@
     augmentation, the human tutor retains the authorization to
     override and re-direct, and the measured outcome is student
     learning rather than AI-system fidelity. The case is the
-    small-tier intervention-side counterpart to Case 101 (TREWS,
+    small-tier intervention-side counterpart to Case 100 (TREWS,
     the clinician-AI teaming case that worked) translated into
-    education. Pair also with Cases 119 and 120 (CIRCUIT human-
-    AI workforce) and Case 102 (Epic Sepsis, the delegation
+    education. Pair also with Cases 118 and 119 (CIRCUIT human-
+    AI workforce) and Case 101 (Epic Sepsis, the delegation
     case that did not work). Open questions: longitudinal
     persistence; transfer to lower-resource tutoring contexts
     where human-tutor availability is the binding constraint.
@@ -1842,7 +1842,7 @@
     [
       The deployment record for AI in tutoring has been pulled
       in two directions. The fully-automated tutoring track —
-      from Cognitive Tutor through LLM-based tutoring (Case 187)
+      from Cognitive Tutor through LLM-based tutoring (Case 186)
       — has tested whether AI alone can replace or substantially
       reduce the human-tutor role. The augmentation track has
       tested whether AI can extend the reach and effectiveness
@@ -1876,8 +1876,8 @@
       the authorization to override and re-direct, and the
       measured outcome is student learning, not AI-system
       fidelity. This is the design pattern that worked in
-      clinical-decision-support at Case 101 (TREWS) and that
-      did not work at Case 102 (Epic Sepsis) — where TREWS
+      clinical-decision-support at Case 100 (TREWS) and that
+      did not work at Case 101 (Epic Sepsis) — where TREWS
       preserved clinician authorization and built the explanation
       structure that supported it, the Epic Sepsis deployment
       pattern collapsed clinician judgment into alert
@@ -1886,8 +1886,8 @@
       the evidence base that grounds the analog.#cn()
     ],
     [
-      The case anchors with the CIRCUIT pair (Cases 119 and
-      120) at the workforce-augmentation layer. CIRCUIT
+      The case anchors with the CIRCUIT pair (Cases 118 and
+      119) at the workforce-augmentation layer. CIRCUIT
       proofreading positions human capability as the recovery
       mechanism for automation failure at petabyte scale; the
       CIRCUIT workforce model builds the capability in the
@@ -1921,25 +1921,25 @@
     "Thomas et al. LAK 2024 best paper: three quasi-experimental studies of hybrid human-AI tutoring",
     "Headline: learning outcomes improved relative to comparison conditions in each of the three studies",
     "Design positioning: AI as augmentation, human tutor retains override authorization, measured outcome is student learning",
-    "Educational analog of Case 101 (TREWS clinician-AI teaming); contrast with Case 102 (Epic Sepsis delegation collapse)",
+    "Educational analog of Case 100 (TREWS clinician-AI teaming); contrast with Case 101 (Epic Sepsis delegation collapse)",
     "Open: longitudinal persistence; transfer to lower-resource tutoring where human-tutor availability is the binding constraint",
   ),
   approaches: (
     during: (
       [Position the AI as augmentation explicitly in the design documentation, not implicitly in the deployment pattern; the augmentation-vs-delegation distinction is the load-bearing design choice and should be the named design choice.],
-      [Preserve human-tutor authorization to override and re-direct as a system-design requirement, not as a discretionary affordance; the comparison with Case 102 (Epic Sepsis) is that override authorization collapses when the system pattern does not actively preserve it.],
+      [Preserve human-tutor authorization to override and re-direct as a system-design requirement, not as a discretionary affordance; the comparison with Case 101 (Epic Sepsis) is that override authorization collapses when the system pattern does not actively preserve it.],
       [Measure the student-learning outcome, not the AI-system-fidelity outcome; the case's pedagogical framing depends on the outcome instrument being the educationally relevant one, not the AI-development-internal one.],
     ),
     after: (
       [Commission longitudinal follow-through that extends the evidence base past the end-of-intervention horizon; the open persistence question is testable against the same deployment with additional data infrastructure.],
       [Test the augmentation design in tutor-scarce contexts; the open generalization question is whether the pattern transfers to settings where the binding constraint is human-tutor availability rather than human-tutor effectiveness.],
-      [Pair the case with Case 101 (TREWS) in the curriculum so the augmentation-and-override pattern is taught across clinical and educational substrates; the two cases together ground the delegation-with-revocation CLO with two converging instances.],
+      [Pair the case with Case 100 (TREWS) in the curriculum so the augmentation-and-override pattern is taught across clinical and educational substrates; the two cases together ground the delegation-with-revocation CLO with two converging instances.],
     ),
   ),
   references: (
     [Thomas, D. R. et al. (2024), "Improving Student Learning with Hybrid Human-AI Tutoring: A Three-Study Quasi-Experimental Investigation," _LAK '24_, doi:10.1145/3636555.3636896.],
-    [Case 101 (TREWS) reference set — Henry et al. (2022), _Nature Medicine_ — clinician-AI teaming analog.],
-    [Case 102 (Epic Sepsis) reference set — Wong et al. (2021), _JAMA Internal Medicine_ — delegation-collapse analog.],
+    [Case 100 (TREWS) reference set — Henry et al. (2022), _Nature Medicine_ — clinician-AI teaming analog.],
+    [Case 101 (Epic Sepsis) reference set — Wong et al. (2021), _JAMA Internal Medicine_ — delegation-collapse analog.],
     [Koedinger, K. R. et al. — Cognitive Tutor literature as the fully-automated track the augmentation track contrasts with.],
   ),
   quote: [The AI is positioned as augmentation, not delegation. The human tutor retains the authorization to override and re-direct. The measured outcome is student learning, not AI-system fidelity.],
@@ -1950,7 +1950,7 @@
     augmentation; human tutor retains override authorization;
     student-learning outcome is the measure. Three quasi-
     experimental studies converge on positive learning effects.
-    The case pairs with Cases 101 / 102 / 119 / 120 in the
+    The case pairs with Cases 100 / 101 / 118 / 119 in the
     human-AI teaming thread and grounds the delegation-with-
     revocation CLO at the educational deployment.
   ],
@@ -1960,9 +1960,9 @@
     in Domain 5 (Machine Teaming and Adaptation) for the
     augmentation pattern and the override-authorization frame,
     and in Domain 2 (Iterative Development) for the three-study
-    converging-design replication. Pair with Cases 101 (TREWS)
+    converging-design replication. Pair with Cases 100 (TREWS)
     and 102 (Epic Sepsis) at the clinical analog, and with
-    Cases 119 and 120 (CIRCUIT) at the workforce-augmentation
+    Cases 118 and 119 (CIRCUIT) at the workforce-augmentation
     analog.
   ],
   literature-items: (
@@ -1973,13 +1973,13 @@
   reflection-list: (
     [Identify an AI deployment in your domain where the design choice between augmentation and delegation has been implicit rather than explicit. What would change in the system design if the choice were named explicitly, and what comparison condition would you build to test the difference?],
     [Specify the override-authorization preservation mechanism in your domain's analog deployment. Is the human operator's authority to override and re-direct a system-design requirement, a discretionary affordance, or an implicit assumption? Which of the three is honest about what the system currently supports?],
-    [The case pairs with Case 101 (TREWS) at the clinical layer and Case 102 (Epic Sepsis) as the delegation-collapse contrast. Pick an AI deployment in your domain and ask: which of the two patterns does your deployment look most like, and what design changes would shift it toward the augmentation pattern?],
+    [The case pairs with Case 100 (TREWS) at the clinical layer and Case 101 (Epic Sepsis) as the delegation-collapse contrast. Pick an AI deployment in your domain and ask: which of the two patterns does your deployment look most like, and what design changes would shift it toward the augmentation pattern?],
   ),
   courses: ("LEN 2", "LEN 5", "LEN 7"),
 )
 
 #case(
-  number: 189,
+  number: 188,
   slug: "multimodal-learning-analytics-in-the",
   title: "Multimodal Learning Analytics In-the-Wild — A First-Person Lessons-Learned Account",
   year: "2023",
@@ -2078,7 +2078,7 @@
       operational knowledge accumulates and propagates across
       practitioner cohorts. The pair with the CIRCUIT cases
       (119, 120) is the workforce-and-capability layer; the
-      pair with Case 188 (hybrid human-AI tutoring) is the
+      pair with Case 187 (hybrid human-AI tutoring) is the
       design-iteration layer.#cn()
     ],
     [
@@ -2142,8 +2142,8 @@
     reflective-narration-of-design-iteration discipline and in
     Domain 3 (Test and Evaluation) for the evidence-tier
     discipline binding the preprint-tier framing to the genre's
-    pedagogical role. Pair with Cases 119 and 120 (CIRCUIT
-    workforce-and-capability layer) and Case 188 (hybrid human-
+    pedagogical role. Pair with Cases 118 and 119 (CIRCUIT
+    workforce-and-capability layer) and Case 187 (hybrid human-
     AI tutoring design-iteration layer). Preprint-tier flag
     binding under the title.
   ],

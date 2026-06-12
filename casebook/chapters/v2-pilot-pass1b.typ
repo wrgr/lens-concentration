@@ -9,7 +9,7 @@
 //   133  Barsuk SBML / VA Central Venous Catheter Training Dissemination —
 //        simulation-based mastery learning that crossed from Northwestern
 //        to a national VA rollout. Small-tier intervention; C6.4. Pairs
-//        with Cases 121 (Colorado team science) and 122 (IPE) as
+//        with Cases 120 (Colorado team science) and 122 (IPE) as
 //        cross-domain workforce evidence.
 //   134  FAA Aging-Aircraft Program / Widespread Fatigue Damage Rule
 //        (Part 26, 2010) — big-tier intervention closing C7's zero-state.
@@ -29,7 +29,7 @@
 //        small-tier frontier; explicit cross-reference to the race-
 //        construct trio at the model-fairness layer.
 //
-// Cases 134–137 collectively retire the C7 (Capability under system change,
+// Cases 133–136 collectively retire the C7 (Capability under system change,
 // transition, and aging assumptions) zero-state in the induced framework —
 // the dual-tier floor was previously unmet for interventions in this
 // competency. Each is included with its load-bearing hedge preserved.
@@ -39,7 +39,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 132,
+  number: 131,
   slug: "fsf-cfit-and-alar-task-forces-industry",
   title: "FSF CFIT and ALAR Task Forces — Industry-Level Institution Building After a Spike",
   year: "1992 – 2000s",
@@ -206,7 +206,7 @@
 )
 
 #case(
-  number: 133,
+  number: 132,
   slug: "barsuk-sbml-simulation-based-mastery",
   title: "Barsuk SBML — Simulation-Based Mastery Learning Dissemination from Northwestern to the VA",
   year: "2009 – 2020s",
@@ -237,7 +237,7 @@
     distinguishes the case from a successful single-site
     intervention. The case is the canonical small-tier instance of
     cross-domain adaptation of a proven intervention (C6.4), and
-    pairs with the multidisciplinary-translation trio (Cases 121
+    pairs with the multidisciplinary-translation trio (Cases 120
     team science, 122 IPE, 123 implementation-science training) as
     cross-domain workforce evidence. The honest hedge: the
     dissemination outcome literature is thinner than the original
@@ -304,7 +304,7 @@
     ],
     [
       In pair with the multidisciplinary-translation trio (Cases
-      121 team science, 122 IPE, 123 implementation-science
+      120 team science, 122 IPE, 123 implementation-science
       training), the Barsuk SBML case completes the workforce-
       evidence picture: an intervention with strong single-center
       controlled-comparison evidence (this case) sits alongside a
@@ -335,7 +335,7 @@
     after: (
       [Plan the dissemination as a deliverable of the original program, not as a separate downstream activity; the VA rollout is what makes Barsuk SBML a cross-institutional intervention rather than a successful single-site study.],
       [Build multi-site outcome measurement into the dissemination from the start; the published evidence at national-VA scale is thinner than the single-center evidence, and the gap is a live frontier the case names.],
-      [Carry the cross-domain pairing with team-science training (Case 121), IPE (Case 122), and implementation-science training (Case 123) into the curricular framing — the four cases together stage what cross-domain workforce dissemination looks like with measurement and what it looks like without.],
+      [Carry the cross-domain pairing with team-science training (Case 120), IPE (Case 121), and implementation-science training (Case 122) into the curricular framing — the four cases together stage what cross-domain workforce dissemination looks like with measurement and what it looks like without.],
     ),
   ),
   references: (
@@ -361,7 +361,7 @@
     (induced 6.4; LENS D2/PT4) — Domain 2 for mastery-learning
     replacing exposure-based progression; Domain 3 for the
     procedural-outcome + cost-effectiveness pairing. Pair with
-    the translation trio (Cases 121, 122, 123).
+    the translation trio (Cases 120, 121, 122).
   ],
   literature-items: (
     [Barsuk et al. (2009), _Archives of Internal Medicine_],
@@ -377,7 +377,7 @@
 )
 
 #case(
-  number: 134,
+  number: 133,
   slug: "faa-aging-aircraft-program-widespread",
   title: "FAA Aging-Aircraft Program — Widespread Fatigue Damage and the Part 26 Rule",
   year: "1988 – 2010s",
@@ -534,7 +534,7 @@
     case (induced 7.3; LENS D1/PT3) — Domain 1 for LOV-as-
     operational-service-goal; Domain 4 for the AAWG
     institutional discipline. Closes the C7 zero-state. Pair
-    with Cases 135, 136, 137 as the v2 aging-system quartet.
+    with Cases 134, 135, 136 as the v2 aging-system quartet.
   ],
   literature-items: (
     [NTSB (1989), AAR-89/03 _Aloha Airlines 243_],
@@ -550,7 +550,7 @@
 )
 
 #case(
-  number: 135,
+  number: 134,
   slug: "faa-nextgen-and-the-ads-b-out-transition",
   title: "FAA NextGen and the ADS-B Out Transition",
   year: "2003 – 2020",
@@ -654,8 +654,8 @@
       schedule slippage and benefit-realization gaps are not
       anomalies in the case but part of what infrastructure
       transitions at this scale look like in practice. Together
-      with the FAA Aging Aircraft program (Case 134), Y2K
-      (Case 136), and LWRS (Case 137), NextGen is part of the v2
+      with the FAA Aging Aircraft program (Case 133), Y2K
+      (Case 135), and LWRS (Case 136), NextGen is part of the v2
       quartet that closes the C7 zero-state in the induced
       framework — and is the instance where the hedges are
       largest.#cn()
@@ -666,7 +666,7 @@
     "NextGen launched 2003 (Vision 100 Act); ADS-B Out is the load-bearing equipage-mandate piece of the broader program",
     "ADS-B Out final rule published 2010; January 1, 2020 compliance deadline; substantial compliance reported at the deadline",
     "Load-bearing hedge: GAO / DOT IG documented significant schedule slippage and benefit-realization gaps across the broader NextGen program",
-    "Closes C7 (aging-infrastructure transition) zero-state alongside Cases 134, 136, 137 — the instance where the hedges are largest",
+    "Closes C7 (aging-infrastructure transition) zero-state alongside Cases 133, 135, 136 — the instance where the hedges are largest",
   ),
   approaches: (
     during: (
@@ -706,7 +706,7 @@
     realization business case, and in Domain 4 (Navigating
     Sociotechnical Constraints) for the decade of lead time
     and the sustained external-audit discipline. Closes the C7
-    zero-state alongside Cases 134 (FAA aging aircraft), 136
+    zero-state alongside Cases 133 (FAA aging aircraft), 136
     (Y2K), and 137 (LWRS) as the v2 aging-system quartet.
   ],
   literature-items: (
@@ -723,7 +723,7 @@
 )
 
 #case(
-  number: 136,
+  number: 135,
   slug: "y2k-remediation-the-aging-system",
   title: "Y2K Remediation — The Aging-System Transition That Worked Because It Was Believed",
   year: "1996 – 2000",
@@ -852,7 +852,7 @@
     after: (
       [Preserve the counterfactual hedge: a transition that succeeds because it was treated cannot prove the threat was as large as the response implies. The case is teachable on the institutional discipline, not on the closed answer to "was it worth it."],
       [Carry the public/private parallel-execution lesson: the federal program and the broader private-sector effort moved together because the deadline was external to both, and the coordination mechanisms operated alongside each other rather than depending on each other.],
-      [Treat the Y2K case as part of the v2 aging-system quartet (Cases 134, 135, 137) — the instance where the transition was a software-sustainment problem with the largest counterfactual-debate hedge.],
+      [Treat the Y2K case as part of the v2 aging-system quartet (Cases 133, 134, 136) — the instance where the transition was a software-sustainment problem with the largest counterfactual-debate hedge.],
     ),
   ),
   references: (
@@ -877,7 +877,7 @@
     Y2K is the legacy-software-sustainment case (induced 7.1;
     LENS D1/PT4) — Domain 1 for line-item inventory + immovable
     deadline; Domain 4 for OMB-reporting + GAO-audit. Closes C7
-    with Cases 134, 135, 137. Counterfactual-debate hedge
+    with Cases 133, 134, 136. Counterfactual-debate hedge
     preserved.
   ],
   literature-items: (
@@ -894,7 +894,7 @@
 )
 
 #case(
-  number: 137,
+  number: 136,
   slug: "inl-lwrs-control-room-modernization",
   title: "INL / LWRS Control-Room Modernization — Sustainment Research for an Aging Fleet",
   year: "2010 – present",
@@ -933,7 +933,7 @@
     sustainment-research form — a federally-funded research
     program operating across decades to support an industry's
     aging-fleet decisions — and closes a C7 zero-state in the
-    induced framework, paired with Cases 134, 135, 136 as the v2
+    induced framework, paired with Cases 133, 134, 135 as the v2
     aging-system quartet.
   ],
   sections: (
@@ -1000,10 +1000,10 @@
       research-and-pilot record that supports licensing decisions
       on aging-fleet modernization. The form is the
       sustainment-engineering analog of the FAA Aging Aircraft
-      Program (Case 134): a long-horizon institutional discipline
+      Program (Case 133): a long-horizon institutional discipline
       that produces the technical record that aging-fleet
-      decisions can rest on. With NextGen/ADS-B (Case 135) and
-      Y2K (Case 136), LWRS completes the v2 aging-system quartet
+      decisions can rest on. With NextGen/ADS-B (Case 134) and
+      Y2K (Case 135), LWRS completes the v2 aging-system quartet
       that closes the C7 zero-state in the induced framework. The
       LWRS instance is where the evidence is most explicitly
       pilot-scale, and the case carries that as the program's
@@ -1015,7 +1015,7 @@
     "NRC regulatory environment (RG 1.180, BTP 7-19, SRP Ch. 7) makes the qualification path for safety-related digital I&C deliberately stringent",
     "DOE LWRS program executed at INL in partnership with utilities — federally-funded research-and-pilot work across multi-decade horizon",
     "Research line covers hybrid digital/analog operator interfaces, human-factors validation in full-scope simulators, qualification-pathway research",
-    "Hedge preserved: LWRS observations are pilot-scale; operational-fleet evidence at scale is forward-looking; closes C7 zero-state with Cases 134, 135, 136",
+    "Hedge preserved: LWRS observations are pilot-scale; operational-fleet evidence at scale is forward-looking; closes C7 zero-state with Cases 133, 134, 135",
   ),
   approaches: (
     during: (
@@ -1025,7 +1025,7 @@
     ),
     after: (
       [Track fleet-scale outcomes as utility implementations proceed: fleet-wide reliability, human-error rate, maintenance burden under modernized control rooms. The forward-looking evidence will accumulate over the next two decades; the program is the institutional carrier of that accumulation.],
-      [Carry the LWRS case in pair with FAA Aging Aircraft (Case 134) as the sustainment-engineering analog at multi-decade horizon, and with Y2K (Case 136) and NextGen (Case 135) as the broader aging-system quartet.],
+      [Carry the LWRS case in pair with FAA Aging Aircraft (Case 133) as the sustainment-engineering analog at multi-decade horizon, and with Y2K (Case 135) and NextGen (Case 134) as the broader aging-system quartet.],
       [Treat the structured-sustainment-research institutional form as the transferable artifact: federal research program plus industry partnership plus regulator engagement, operating across decades to produce the technical record aging-fleet decisions can rest on.],
     ),
   ),
@@ -1053,7 +1053,7 @@
     Domain 1 for the long-horizon partnership; Domain 4 for the
     federal-research + industry + regulator triple structure;
     Domain 5 for the hybrid digital/analog research line.
-    Closes C7 with Cases 134, 135, 136.
+    Closes C7 with Cases 133, 134, 135.
   ],
   literature-items: (
     [LWRS annual reports (INL, 2010 – present)],
@@ -1069,7 +1069,7 @@
 )
 
 #case(
-  number: 138,
+  number: 137,
   slug: "gandara-algorithmic-targeting-and",
   title: "Gándara — Detecting and Mitigating Algorithmic Bias in College Student-Success Prediction",
   year: "2024",
@@ -1105,7 +1105,7 @@
     fairness in equity-oriented prediction is a construct-definition
     and stratified-evaluation problem before it is a model-bias
     problem. The case pairs explicitly with the v2 race-construct
-    trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) and with
+    trio (Cases 104 eGFR, 106 pulse oximetry, 107 Hoffman) and with
     the broader equity-construct competency C8.2: demographic
     stratification of validation and outcomes as a design
     commitment.
@@ -1180,8 +1180,8 @@
       competency and the equity-construct CLOs proposed
       find their case-grounded basis here.
       The case explicitly cross-references the v2 race-construct
-      trio — eGFR (Case 105), pulse oximetry (Case 106), and
-      Hoffman pain bias (Case 107) — at the construct-definition
+      trio — eGFR (Case 104), pulse oximetry (Case 105), and
+      Hoffman pain bias (Case 106) — at the construct-definition
       layer: in those cases the construct (race correction in
       eGFR, single-sensor calibration in pulse oximetry, the
       pain-perception assumption in Hoffman) was the design
@@ -1196,7 +1196,7 @@
     "Gándara et al. (AERA Open, 2024): models less accurate for Black and Hispanic students; overestimate success for white and Asian students — overall accuracy masks the disparity",
     "Stratified evaluation by income, race/ethnicity, first-generation status reveals disparity that overall-accuracy summary metrics hide",
     "Decision context and mitigation matter: train end users to contextualize a flagged prediction; bias-mitigation reduces but does not eliminate the cross-group gap",
-    "Cross-references v2 race-construct trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) — construct definition is the upstream design decision in each",
+    "Cross-references v2 race-construct trio (Cases 104 eGFR, 106 pulse oximetry, 107 Hoffman) — construct definition is the upstream design decision in each",
   ),
   approaches: (
     during: (
@@ -1207,7 +1207,7 @@
     after: (
       [Report which construct the model maximizes, on which stratifications it was evaluated, and which intervention it is paired with — three pieces of information any deployed targeting system should publish together.],
       [Treat the fairness conversation as a construct-definition conversation first, and as a model-bias conversation second; the latter is operationally important, the former determines what the model is fair *about*.],
-      [Carry the race-construct trio (Cases 105, 106, 107) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the equity-construct CLOs are anchored here.],
+      [Carry the race-construct trio (Cases 104, 105, 106) as the cross-domain pair in the curriculum: in each, the construct definition is the upstream design decision; the framework's C8.2 sub-competency and the equity-construct CLOs are anchored here.],
     ),
   ),
   references: (
@@ -1234,7 +1234,7 @@
     equity-construct-definition case (induced 8.2; LENS
     D3/PT5) — Domain 3 for stratified evaluation; Domain 4 for
     the decision-context and mitigation question. Cross-reference
-    Cases 105, 106, 107 — case-grounded basis for the equity-
+    Cases 104, 105, 106 — case-grounded basis for the equity-
     construct CLOs.
   ],
   literature-items: (
@@ -1245,13 +1245,13 @@
   reflection-list: (
     [Identify a predictive-targeting model in your domain. Which construct does it maximize — observed outcome, predicted benefit, predicted need — and is the choice on the record as a normative institutional decision, or absorbed into the model's training objective without disclosure?],
     [Specify the stratifications you would build into the model's validation: which equity-relevant axes (income, race/ethnicity, first-generation, geography, disability) and what comparison structure (per-axis accuracy, per-axis calibration, per-axis intervention effectiveness)?],
-    [The case cross-references the v2 race-construct trio (Cases 105, 106, 107). In each, the construct definition is the upstream design decision that produced the disparate outcome. Identify a construct decision in your domain that is currently absorbed into the design rather than on the record — and what would it take to make the choice explicit?],
+    [The case cross-references the v2 race-construct trio (Cases 104, 105, 106). In each, the construct definition is the upstream design decision that produced the disparate outcome. Identify a construct decision in your domain that is currently absorbed into the design rather than on the record — and what would it take to make the choice explicit?],
   ),
   courses: ("LEN 3", "LEN 6", "LEN 9"),
 )
 
 #case(
-  number: 139,
+  number: 138,
   slug: "yu-lee-kizilcec-protected-attributes-in",
   title: "Yu / Lee / Kizilcec — Protected Attributes in Learning-Analytics Models",
   year: "2021 – 2024",
@@ -1285,7 +1285,7 @@
     case is the small-tier frontier instance of "surfacing bias
     through governance, not just technique" (C8.4 in the induced
     framework). It cross-references the v2 race-construct trio
-    (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) at the
+    (Cases 104 eGFR, 106 pulse oximetry, 107 Hoffman) at the
     model-fairness layer: in those cases the construct was the
     design decision; in this case the question is whether the
     attribute is allowed into the model that operationalizes the
@@ -1347,10 +1347,10 @@
       specific deployment.#cn()
     ],
     [
-      In pair with Case 138 (Gándara on community-college
-      targeting) and with the v2 race-construct trio (Cases 105
+      In pair with Case 137 (Gándara on community-college
+      targeting) and with the v2 race-construct trio (Cases 104
       eGFR, 106 pulse oximetry, 107 Hoffman), the case completes
-      the v2 equity-construct frontier picture. Case 138 names
+      the v2 equity-construct frontier picture. Case 137 names
       the construct-definition layer; this case names the
       protected-attribute-in-the-model layer; the race-construct
       trio names the construct-encoded-in-the-instrument layer
@@ -1367,7 +1367,7 @@
     "Fairness-through-unawareness intuitive but incomplete: omitted attributes reconstructable from correlated features (zip code, prior achievement)",
     "Yu, Lee, Kizilcec (LAK/EDM): include-or-exclude effect depends on construct, model class, downstream intervention, population — no general answer",
     "Right framing is governance and audit: explicit decision recorded with reasoning, stratified evaluation, audit cadence that catches the consequences",
-    "Cross-references Case 138 (Gándara), the v2 race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman) — five-case equity-construct frontier set",
+    "Cross-references Case 137 (Gándara), the v2 race-construct trio (105 eGFR, 106 pulse oximetry, 107 Hoffman) — five-case equity-construct frontier set",
   ),
   approaches: (
     during: (
@@ -1378,7 +1378,7 @@
     after: (
       [Publish the protected-attribute handling decisions for any deployed learning-analytics model — included, excluded, and with what reasoning — as part of the model's governance documentation.],
       [Operate stratified audit on a regular cadence; the include-or-exclude consequences in operation are what the audit catches, and audit absence makes the decision functionally invisible to the institution.],
-      [Carry the five-case equity-construct set into the curriculum: Cases 105 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 138 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
+      [Carry the five-case equity-construct set into the curriculum: Cases 104 (eGFR), 106 (pulse oximetry), 107 (Hoffman) on the instrument-construct layer; Case 137 (Gándara) on the construct-definition layer; this case on the protected-attribute-in-the-model layer. The set is the case-grounded basis for the equity-construct sub-competencies.],
     ),
   ),
   references: (
@@ -1404,7 +1404,7 @@
     governance case (induced 8.4; LENS D3/PT5) — Domain 3 for
     stratified-evaluation-by-attribute; Domain 4 for the
     decision-plus-reasoning-plus-audit architecture. Cross-
-    reference Case 138 and the race-construct trio (105, 106,
+    reference Case 137 and the race-construct trio (105, 106,
     107).
   ],
   literature-items: (
@@ -1415,7 +1415,7 @@
   reflection-list: (
     [Identify a learning-analytics or analogous predictive model in your domain. Which protected attributes are inputs to the model, which are not, and is the include-or-exclude decision on the record with reasoning, or absorbed into the data-engineering pipeline?],
     [Specify the stratified-audit cadence you would operate for the model regardless of whether protected attributes are inputs; the audit catches the consequences of the include-or-exclude decision in operation, and its absence makes the decision functionally invisible.],
-    [The case sits in a five-case equity-construct set with Case 138 (Gándara) on construct definition and the v2 race-construct trio (Cases 105, 106, 107) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
+    [The case sits in a five-case equity-construct set with Case 137 (Gándara) on construct definition and the v2 race-construct trio (Cases 104, 105, 106) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
   ),
   courses: ("LEN 3", "LEN 6", "LEN 9"),
 )

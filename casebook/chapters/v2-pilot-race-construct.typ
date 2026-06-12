@@ -24,7 +24,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 105,
+  number: 104,
   slug: "removing-the-race-coefficient-from-egfr",
   title: "Removing the Race Coefficient from eGFR",
   year: "2021",
@@ -54,8 +54,8 @@
     commentaries, is that the new equation introduces a small bias
     for all groups, the disparities effect *remains unknown*, and the
     case is the construct-definition act, not a closed outcome
-    proof. It pairs with pulse oximetry (Case 106) and pain
-    assessment (Case 107) as the trio of "what counts as the same
+    proof. It pairs with pulse oximetry (Case 105) and pain
+    assessment (Case 106) as the trio of "what counts as the same
     patient across race."
   ],
   sections: (
@@ -112,9 +112,9 @@
       deliverables are construct-definition acts: choosing what gets
       predicted and what counts as the same patient is the design
       decision, not a downstream remediation. It pairs with pulse
-      oximetry (Case 106), where the failure was in the validation
+      oximetry (Case 105), where the failure was in the validation
       architecture rather than the equation; and with pain assessment
-      (Case 107), where the failure was in clinician-held false beliefs
+      (Case 106), where the failure was in clinician-held false beliefs
       rather than the instrument. The trio together is the case-grounded
       basis for the CLO *Gap attribution* — distinguishing capability
       gaps attributable to human development, system design, and
@@ -160,15 +160,15 @@
   ],
   lens-approach: [
     eGFR is the construct-definition equity intervention in the
-    race-construct trio (Cases 105–107). LENS uses it in Domain 3
+    race-construct trio (Cases 104–106). LENS uses it in Domain 3
     (Test and Evaluation) for the CLO *Gap attribution* —
     attributing the gap to construct definition, not to clinicians
     or patients — and in Domain 4 (Navigating Sociotechnical
     Constraints) for the governance process that revised the
-    standard. Direct trio with Case 106 (pulse oximetry — the
-    validation-architecture mechanism) and Case 107 (pain
+    standard. Direct trio with Case 105 (pulse oximetry — the
+    validation-architecture mechanism) and Case 106 (pain
     assessment — the human-development mechanism). Adjacent to the
-    lending pair (Cases 103–104) at a different layer.
+    lending pair (Cases 102–103) at a different layer.
   ],
   literature-items: (
     [Delgado et al. (2021), _American Journal of Kidney Diseases_],
@@ -184,7 +184,7 @@
 )
 
 #case(
-  number: 106,
+  number: 105,
   slug: "pulse-oximetry-across-skin-tones",
   title: "Pulse Oximetry Across Skin Tones",
   year: "1990 – 2020 – 2025",
@@ -270,7 +270,7 @@
       and that the capability deliverable is a validation architecture
       that surfaces group-specific failure modes by stratifying outcome
       metrics by relevant demographic characteristics. Pulse oximetry
-      pairs with eGFR (Case 105) and pain assessment (Case 107) in the
+      pairs with eGFR (Case 104) and pain assessment (Case 106) in the
       race-construct trio. The mechanisms are distinct — eGFR is
       construct definition; pulse oximetry is validation architecture;
       Hoffman is clinician-held false belief — and the case-grounded
@@ -316,7 +316,7 @@
   ],
   lens-approach: [
     Pulse oximetry is the validation-architecture intervention in
-    the race-construct trio (Cases 105–107). LENS uses it in
+    the race-construct trio (Cases 104–106). LENS uses it in
     Domain 3 (Test and Evaluation) for the CLO *Gap
     attribution* — the gap is in the validation architecture, not
     the device or the clinician — and in Domain 4 (Navigating
@@ -324,7 +324,7 @@
     oversight regime. Adjacent to Case 95 (radiology AI
     miscalibration), which is the same diagnosis at a different
     technological boundary, and to the Epic Sepsis Model
-    (Case 102) for the post-deployment-surveillance pattern.
+    (Case 101) for the post-deployment-surveillance pattern.
   ],
   literature-items: (
     [Sjoding et al. (2020), _NEJM_],
@@ -340,7 +340,7 @@
 )
 
 #case(
-  number: 107,
+  number: 106,
   slug: "racial-bias-in-pain-assessment-the",
   title: "Racial Bias in Pain Assessment — The False-Belief Mechanism",
   year: "2016",
@@ -422,8 +422,8 @@
       that more diffuse bias findings did not.#cn()
     ],
     [
-      Hoffman pairs with pulse oximetry (Case 106) and eGFR
-      (Case 105) in the race-construct trio. The three cases are the
+      Hoffman pairs with pulse oximetry (Case 105) and eGFR
+      (Case 104) in the race-construct trio. The three cases are the
       same surface harm — minority patients systematically under-served
       across a clinical decision — attributable to three distinct
       layers of the system: the construct definition (eGFR), the
@@ -474,14 +474,14 @@
   ],
   lens-approach: [
     Hoffman is the human-development case in the race-construct
-    trio (Cases 105–107). LENS uses it in Domain 3 (Test and
+    trio (Cases 104–106). LENS uses it in Domain 3 (Test and
     Evaluation) for the CLO *Gap attribution* — the gap is in
     the clinician's training, not the construct or the device —
     and in Domain 2 (Learning Engineering Design) for the
     curriculum-design implication. The trio together is the
     case-grounded basis for *Gap attribution*: same surface
     harm, three distinct layers, three distinct remediations.
-    Adjacent to the lending pair (Cases 103–104) at the
+    Adjacent to the lending pair (Cases 102–103) at the
     construct layer.
   ],
   literature-items: (
@@ -492,7 +492,7 @@
   reflection-list: (
     [Identify a documented disparity in your domain whose mechanism is treated as diffuse. What would a Hoffman-style survey look like — a battery of named false beliefs or assumptions whose endorsement could be measured and whose presence predicts the operational decision?],
     [Design the curriculum-evaluation instrument you would use to test whether a curriculum has actually disconfirmed the false beliefs. What endorsement-rate change would you require before claiming the mechanism has been addressed?],
-    [Hoffman is the human-development case in the race-construct trio. Pulse oximetry (Case 106) is the validation-architecture case; eGFR (Case 105) is the construct-definition case. Which of the three layers does your domain currently address, and which does it leave invisible?],
+    [Hoffman is the human-development case in the race-construct trio. Pulse oximetry (Case 105) is the validation-architecture case; eGFR (Case 104) is the construct-definition case. Which of the three layers does your domain currently address, and which does it leave invisible?],
   ),
   courses: ("LEN 1", "LEN 4", "LEN 7"),
 )

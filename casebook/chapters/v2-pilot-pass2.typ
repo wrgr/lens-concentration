@@ -5,33 +5,33 @@
 // Ten cases drafted from the v2 research backbone. Load-bearing
 // hedges preserved verbatim:
 //
-//   140  DARPA Digital Tutor (Case 140) — small intervention. Knowledge "an
+//   140  DARPA Digital Tutor (Case 139) — small intervention. Knowledge "an
 //        enabler of performance rather than a direct measure"; architecture
 //        detail too scant to reproduce. Pair with CIRCUIT (119/120).
-//   141  Purdue Course Signals (Case 141) — small failure. Reverse-causality
+//   141  Purdue Course Signals (Case 140) — small failure. Reverse-causality
 //        result (Caulfield 2013); never peer-reviewed outside conference
 //        proceedings; deeper-evidence-of v1 Cases 37 and 39.
-//   142  BCMA bar-code medication administration (Case 142) — small
+//   142  BCMA bar-code medication administration (Case 141) — small
 //        intervention. "Before-and-after / observational design" preserved;
 //        pair with 116 anesthesia/APSF and Case 13 (WHO checklist).
-//   143  I-PASS handoff bundle (Case 143) — small intervention. "Our study
+//   143  I-PASS handoff bundle (Case 142) — small intervention. "Our study
 //        design precludes definitively establishing a causal link"
 //        preserved verbatim. Pair with 117 CIRAS at the non-punitive layer.
-//   144  Surgical-skill video peer-rating (Case 144) — small intervention.
+//   144  Surgical-skill video peer-rating (Case 143) — small intervention.
 //        "Skill vs. volume confound" preserved; adjacent to JIGSAWS (150).
-//   145  NCSBN National Simulation Study (Case 145) — small intervention.
+//   145  NCSBN National Simulation Study (Case 144) — small intervention.
 //        Result holds only "under conditions comparable to those described
 //        in the study" (high-quality sim, trained faculty). Pair with 121.
-//   146  Glass-cockpit GA accidents (Case 146) — big failure. NTSB safety
+//   146  Glass-cockpit GA accidents (Case 145) — big failure. NTSB safety
 //        study; "advanced avionics can increase the safety potential" but
 //        the potential not yet realized in the period studied — open verdict.
 //        Pair with aging-system transitions in pass-1b (134–137).
-//   147  Proctoring algorithmic bias (Case 147) — small failure. Yoder-Himes
+//   147  Proctoring algorithmic bias (Case 146) — small failure. Yoder-Himes
 //        et al. 2022 first quantitative study; trio with 105/106/107.
-//   148  Spaced education RCTs (Case 148) — small intervention. Strongest
+//   148  Spaced education RCTs (Case 147) — small intervention. Strongest
 //        randomized strength in the small-tier batch; standard RCT scope.
 //        Pair with 128 Duolingo half-life.
-//   149  Growth-mindset national experiment (Case 149) — small "mixed".
+//   149  Growth-mindset national experiment (Case 148) — small "mixed".
 //        Effect "conditional on peer norms" preserved verbatim. Pair with
 //        138 Gándara.
 
@@ -40,7 +40,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 140,
+  number: 139,
   slug: "darpa-digital-tutor-compressing-years",
   title: "DARPA Digital Tutor — Compressing Years of IT Expertise into 16 Weeks",
   year: "2009 – 2014",
@@ -74,7 +74,7 @@
     documentation is too scant to fully reproduce. The case is the
     canonical small-tier instance of compressing the capability
     envelope at the edge of training, paired with CIRCUIT
-    (Cases 119 and 120) on the workforce-capability-at-the-edge axis.
+    (Cases 118 and 119) on the workforce-capability-at-the-edge axis.
   ],
   sections: (
     [
@@ -142,7 +142,7 @@
       substantially faster than the inherited course assumed —
       under one rating, one program, one evaluation — and the
       hedges name what the evidence does and does not close. Paired
-      with CIRCUIT (Cases 119, 120), the case anchors the
+      with CIRCUIT (Cases 118, 119), the case anchors the
       workforce-capability-at-the-edge-of-training axis that
       connectomics proofreading and submarine-system troubleshooting
       share at the structural level.
@@ -191,7 +191,7 @@
     tutorial-discipline-as-instructional-artifact design move,
     and in Domain 3 (Test and Evaluation) for the
     operational-comparison evaluation against fleet ITs with
-    7.2 years of experience. Pair with CIRCUIT (Cases 119, 120)
+    7.2 years of experience. Pair with CIRCUIT (Cases 118, 119)
     at the workforce-capability-at-the-edge axis — connectomics
     proofreading and Navy IT troubleshooting share the
     structural pattern of compressing operational expertise
@@ -211,7 +211,7 @@
 )
 
 #case(
-  number: 141,
+  number: 140,
   slug: "purdue-course-signals-the-reverse",
   title: "Purdue Course Signals — The Reverse-Causality Retention Claim",
   year: "2012 – 2013",
@@ -383,7 +383,7 @@
 )
 
 #case(
-  number: 142,
+  number: 141,
   slug: "bar-code-medication-administration-cue",
   title: "Bar-Code Medication Administration — Cue at the Point of Care",
   year: "2010",
@@ -417,7 +417,7 @@
     quasi-experimental — before-and-after / observational — not a
     randomized trial, and that significant workflow changes were
     required for the cue to land. The case is the canonical
-    point-of-care cue/alert intervention, paired with Case 116
+    point-of-care cue/alert intervention, paired with Case 115
     (anesthesia monitoring / APSF) at the cue-as-deliverable layer
     and with Case 13 (WHO Surgical Checklist) at the
     mandatory-mechanism layer.
@@ -446,7 +446,7 @@
       cue lands at the moment of administration, before the harm,
       and the system refuses to acknowledge the administration if
       any element does not match. The structural form is the same as
-      the cue/alert interventions in Case 116 (continuous pulse
+      the cue/alert interventions in Case 115 (continuous pulse
       oximetry, capnography under anesthesia): the cue at the right
       point in the workflow converts an undetectable failure into a
       monitored, recoverable one.#cn()
@@ -482,7 +482,7 @@
     [
       What the case carries for the corpus is the cue-as-deliverable
       pattern at the point of care, with the explicit
-      before-and-after-design hedge. Paired with Case 116
+      before-and-after-design hedge. Paired with Case 115
       (anesthesia monitoring / APSF), bar-code eMAR shows the same
       structural form in a different specialty: the cue at the right
       point in the workflow converts an undetectable mismatch into a
@@ -534,7 +534,7 @@
     BCMA is the small-tier point-of-care cue/alert
     intervention (induced 3.1; LENS D3/PT5) — Domain 3 for
     cue-as-deliverable; Domain 5 for the workflow-around-the-
-    cue. Pair with Case 116 (anesthesia/APSF) and Case 13
+    cue. Pair with Case 115 (anesthesia/APSF) and Case 13
     (WHO Surgical Checklist).
   ],
   literature-items: (
@@ -551,7 +551,7 @@
 )
 
 #case(
-  number: 143,
+  number: 142,
   slug: "i-pass-handoff-bundle-structuring-the",
   title: "I-PASS Handoff Bundle — Structuring the Human-to-Human Transfer",
   year: "2014",
@@ -584,7 +584,7 @@
     establishing a causal link." Published correspondence cautions
     against implementing the mnemonic alone without the full
     bundle. The case is the structured-transfer companion to Case
-    117 (CIRAS) at the cultural-half-of-capability layer, and the
+    116 (CIRAS) at the cultural-half-of-capability layer, and the
     small-tier intervention spine for state-transparency under
     stress.
   ],
@@ -651,7 +651,7 @@
       boundary (induced 3.3, LENS D2/PT5). The handoff is the
       moment of cognitive transfer at the team boundary; the
       bundle is the workflow artifact that makes the patient
-      state legible across that boundary. Paired with Case 117
+      state legible across that boundary. Paired with Case 116
       (CIRAS) at the cultural-half-of-capability layer, the case
       shows that the mnemonic alone is not the intervention — the
       institutional commitment to the bundle (trainee education,
@@ -678,7 +678,7 @@
     after: (
       [Report the 23\% relative reduction together with the verbatim hedge that "our study design precludes definitively establishing a causal link"; the strongest available evidence is not closed proof.],
       [Carry the bundle-not-mnemonic warning into any adaptation: implementations that drop the faculty-development and sustainability components are not implementations of the intervention the published evidence is about.],
-      [Build the cross-domain adaptation conversation deliberately — aviation CRM and ASRS evidence (v1 Cases 12, 89) is part of the I-PASS lineage and CIRAS (Case 117) is the non-aviation companion at the cultural-commitment layer.],
+      [Build the cross-domain adaptation conversation deliberately — aviation CRM and ASRS evidence (v1 Cases 12, 89) is part of the I-PASS lineage and CIRAS (Case 116) is the non-aviation companion at the cultural-commitment layer.],
     ),
   ),
   references: (
@@ -703,7 +703,7 @@
     I-PASS is the state-transparency-under-stress case at the
     human–human boundary (induced 3.3; LENS D2/PT5) — Domain 2
     for bundle-as-intervention; Domain 4 for the institutional
-    faculty-development commitment. Pair with Case 117 (CIRAS)
+    faculty-development commitment. Pair with Case 116 (CIRAS)
     and v1 Cases 12 (CRM) and 89 (ASRS).
   ],
   literature-items: (
@@ -720,7 +720,7 @@
 )
 
 #case(
-  number: 144,
+  number: 143,
   slug: "surgical-skill-video-peer-rating",
   title: "Surgical Skill Video Peer-Rating Predicts Complications",
   year: "2013",
@@ -753,7 +753,7 @@
     hedge is part of the case. The proposed primary anchor is 2.1
     (measuring the failure mode you care about) with C3 and C1
     alternates; the editor may move it. Adjacent to JIGSAWS
-    (Case 150) at the surgical-skill-measurement layer.
+    (Case 149) at the surgical-skill-measurement layer.
   ],
   sections: (
     [
@@ -816,7 +816,7 @@
       architecture move of measuring the operator's actual
       technical capability against the outcome the institution
       cares about, with the volume-confound hedge intact. The case
-      is adjacent to JIGSAWS (Case 150) at the
+      is adjacent to JIGSAWS (Case 149) at the
       surgical-skill-measurement layer — JIGSAWS provides the
       controlled-task instrumented evidence and Birkmeyer the
       naturalistic operative-video evidence, and the two together
@@ -869,7 +869,7 @@
     measure-the-capability-against-the-outcome design move,
     and in Domain 5 (Machine Teaming and Adaptation) for the
     peer-rating workflow that makes the assessment scalable.
-    Adjacent to JIGSAWS (Case 150) at the
+    Adjacent to JIGSAWS (Case 149) at the
     surgical-skill-measurement layer — JIGSAWS the
     controlled-task instrumented evidence, Birkmeyer the
     naturalistic operative-video evidence. The
@@ -889,7 +889,7 @@
 )
 
 #case(
-  number: 145,
+  number: 144,
   slug: "ncsbn-national-simulation-study",
   title: "NCSBN National Simulation Study — Licensing the 50% Substitution Rule",
   year: "2014",
@@ -925,7 +925,7 @@
     across an entire regulatory field. The hedge survives: the
     result holds only "under conditions comparable to those
     described in the study" (high-quality simulation, trained
-    faculty). Pair with Case 121 (Colorado CTSA team-science
+    faculty). Pair with Case 120 (Colorado CTSA team-science
     training) at the cross-domain workforce-intervention layer.
   ],
   sections: (
@@ -994,7 +994,7 @@
       multi-site, blinded outcomes), the alignment of its outcome
       measure with the boards' own licensure mechanism (NCLEX),
       and the institutional ownership of the evidence (the
-      regulators commissioned it and own it). Pair with Case 121
+      regulators commissioned it and own it). Pair with Case 120
       (Colorado CTSA team-science training) at the cross-domain
       workforce-intervention layer — both are small-tier
       interventions with measurable workforce-capability claims,
@@ -1007,7 +1007,7 @@
     "Hayden et al. 2014 (_J Nursing Regulation_): no statistically significant differences in clinical competency, nursing knowledge, or NCLEX pass rates across groups; 660+ took the NCLEX",
     "Result holds only 'under conditions comparable to those described in the study' (high-quality simulation, trained faculty, structured debriefing)",
     "Institutional transfer: number of nursing regulatory boards permitting up to 50% substitution increased 20-fold from 2014 to 2022 — single evidence base propagating across the regulatory field",
-    "Pair with Case 121 (Colorado CTSA team-science) at the cross-domain workforce-intervention layer",
+    "Pair with Case 120 (Colorado CTSA team-science) at the cross-domain workforce-intervention layer",
   ),
   approaches: (
     during: (
@@ -1044,7 +1044,7 @@
     knowledge-transfer case (induced 6.1; LENS D2/PT4) —
     Domain 2 for the RCT-design discipline; Domain 4 for the
     institutional-ownership move that propagated evidence
-    across decentralized regulators. Pair with Case 121
+    across decentralized regulators. Pair with Case 120
     (Colorado CTSA).
   ],
   literature-items: (
@@ -1061,7 +1061,7 @@
 )
 
 #case(
-  number: 146,
+  number: 145,
   slug: "glass-cockpit-transition-in-light",
   title: "Glass-Cockpit Transition in Light Aircraft — Technology Outran Training",
   year: "2010",
@@ -1095,7 +1095,7 @@
     verdict. The case is the canonical 7.1 failure of an inherited
     capability regime (pilot proficiency) not being re-verified
     against the new envelope the technology transition introduced.
-    Pair with the aging-system transitions in Cases 134–137
+    Pair with the aging-system transitions in Cases 133–136
     (drafted in parallel).
   ],
   sections: (
@@ -1161,7 +1161,7 @@
     ],
     [
       Drafted alongside the aging-system transitions in Cases
-      134–137, the glass-cockpit GA study carries the
+      133–136, the glass-cockpit GA study carries the
       capability-under-system-change pattern at the
       consumer-aviation scale where the analog cases run at the
       defense and commercial-aviation scale. The structural
@@ -1192,7 +1192,7 @@
     after: (
       [Preserve the NTSB's open-verdict language ("can increase the safety potential ... not yet realized in the period studied") in any report on the transition's outcome; the study did not say glass is unsafe, and the precise language is what makes the recommendation set actionable.],
       [Track implementation of the NTSB recommendation set (A-10-36 through A-10-40) as the engineering response to the open verdict; the verdict closes when the recommendations are implemented and the next round of evidence is collected.],
-      [Carry the structural lesson into adjacent transitions — aging-system transitions in Cases 134–137 — as evidence that the inherited certification of operator proficiency has to be re-verified against the new envelope across consumer, commercial, and defense scales.],
+      [Carry the structural lesson into adjacent transitions — aging-system transitions in Cases 133–136 — as evidence that the inherited certification of operator proficiency has to be re-verified against the new envelope across consumer, commercial, and defense scales.],
     ),
   ),
   references: (
@@ -1223,7 +1223,7 @@
     automation-induced failure modes (mode confusion,
     automation surprises, attention capture) the transition
     introduced. Pair with the aging-system transitions in
-    Cases 134–137 at the cross-scale capability-under-
+    Cases 133–136 at the cross-scale capability-under-
     change layer.
   ],
   literature-items: (
@@ -1240,7 +1240,7 @@
 )
 
 #case(
-  number: 147,
+  number: 146,
   slug: "algorithmic-bias-in-automated-exam",
   title: "Algorithmic Bias in Automated Exam Proctoring",
   year: "2022",
@@ -1272,7 +1272,7 @@
     remediation, so it is a failure / diagnosis case. The harm
     comes directly from validation that did not stratify across
     skin tone, surfacing a group-specific failure in a deployed
-    system. Trio with Cases 105 (eGFR), 106 (pulse oximetry), and
+    system. Trio with Cases 104 (eGFR), 106 (pulse oximetry), and
     107 (Hoffman pain bias) at the race-construct-and-validation
     layer.
   ],
@@ -1337,7 +1337,7 @@
       researchers.#cn()
     ],
     [
-      Drafted alongside the race-construct trio (Cases 105
+      Drafted alongside the race-construct trio (Cases 104
       eGFR, 106 pulse oximetry, 107 Hoffman pain bias), the
       proctoring case extends the validation-must-be-
       demographically-stratified lesson into the ed-tech and
@@ -1358,7 +1358,7 @@
     "Yoder-Himes et al. _Frontiers in Education_ 2022 — first published quantitative study of facial-detection bias in this class of software",
     "Students with darker skin tones and Black students significantly more likely to be flagged for instructor review for potential cheating",
     "Intersectional finding: women with the darkest skin tones far more likely to be flagged than other groups",
-    "Failure / diagnosis case: documents the disparity, not a remediation; trio with Cases 105 (eGFR), 106 (pulse oximetry), 107 (Hoffman pain bias)",
+    "Failure / diagnosis case: documents the disparity, not a remediation; trio with Cases 104 (eGFR), 106 (pulse oximetry), 107 (Hoffman pain bias)",
   ),
   approaches: (
     during: (
@@ -1369,14 +1369,14 @@
     after: (
       [Treat the Yoder-Himes finding as the diagnosis it is: the disparity is documented in one product; the remediation is not.],
       [Carry the intersectional reading explicitly (women with the darkest skin tones far more likely to be flagged) in any communication about the case; the broader race-by-sex intersectional finding is consistent with the face-recognition-bias literature and should not be smoothed into a single-dimension finding.],
-      [Build the cross-case reading with eGFR (Case 105), pulse oximetry (Case 106), and Hoffman pain bias (Case 107): the validation-must-be-demographically-stratified lesson runs across clinical, device, and assessment domains, and the proctoring case is the assessment-domain anchor.],
+      [Build the cross-case reading with eGFR (Case 104), pulse oximetry (Case 105), and Hoffman pain bias (Case 106): the validation-must-be-demographically-stratified lesson runs across clinical, device, and assessment domains, and the proctoring case is the assessment-domain anchor.],
     ),
   ),
   references: (
     [Yoder-Himes, D. R., Asif, A., Kinney, K., Brandt, T. J., Cecil, R. E., Himes, P. R., Cashon, C., Hopp, R. M. P., \& Ross, E. (2022). Racial, skin tone, and sex disparities in automated proctoring software. _Frontiers in Education_, 7:881449. doi:10.3389/feduc.2022.881449 — the case's primary study.],
     [Buolamwini, J., \& Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. _Proceedings of Machine Learning Research_, 81:77–91 — the foundational intersectional-bias finding in face recognition.],
     [Raji, I. D., \& Buolamwini, J. (2019). Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products. _AAAI/ACM Conference on AI, Ethics, and Society_ — the audit-and-disclosure mechanism the case calls for.],
-    [Sjoding, M. W., Dickson, R. P., Iwashyna, T. J., Gay, S. E., \& Valley, T. S. (2020). Racial bias in pulse oximetry measurement. _New England Journal of Medicine_, 383(25):2477–2478 — the structural analog in the medical-device context (Case 106).],
+    [Sjoding, M. W., Dickson, R. P., Iwashyna, T. J., Gay, S. E., \& Valley, T. S. (2020). Racial bias in pulse oximetry measurement. _New England Journal of Medicine_, 383(25):2477–2478 — the structural analog in the medical-device context (Case 105).],
   ),
   quote: [The product may employ biased AI algorithms that unfairly disadvantage students.],
   quote-source: "Yoder-Himes et al., Frontiers in Education 2022.",
@@ -1397,7 +1397,7 @@
     discipline, and in Domain 4 (Navigating Sociotechnical
     Constraints) for the institutional resolution mechanism
     that has to handle the case where the flag was generated
-    by software bias. Trio with Cases 105 (eGFR), 106 (pulse
+    by software bias. Trio with Cases 104 (eGFR), 106 (pulse
     oximetry), and 107 (Hoffman pain bias) at the
     race-construct-and-validation layer.
   ],
@@ -1415,7 +1415,7 @@
 )
 
 #case(
-  number: 148,
+  number: 147,
   slug: "spaced-education-rcts-in-medical",
   title: "Spaced Education RCTs in Medical Training",
   year: "2007 – 2009",
@@ -1449,7 +1449,7 @@
     delivery-pattern manipulation in the email-delivered
     validated-question context, not to spacing in general or to
     other modalities. The strongest randomized strength in the
-    small-tier batch. Pair with Case 128 (Duolingo half-life
+    small-tier batch. Pair with Case 127 (Duolingo half-life
     regression) at the spacing-mechanism-in-deployment layer.
   ],
   sections: (
@@ -1511,7 +1511,7 @@
       the LENS Iterative Development domain anchors on.#cn()
     ],
     [
-      Pair with Case 128 (Duolingo half-life regression) at the
+      Pair with Case 127 (Duolingo half-life regression) at the
       spacing-mechanism-in-deployment layer. Duolingo is the
       large-scale operational deployment of a spacing-and-
       retrieval-practice system in a consumer language-learning
@@ -1541,14 +1541,14 @@
     after: (
       [Report the result in the scope it speaks to: email-delivered validated-question delivery pattern with urology residents; the spacing-in-general claim sits in the basic literature, and the case's contribution is the workplace-L&D closed-loop evidence.],
       [Treat the two-year persistence figure as the workplace-L&D headline; persistence over years is rare in the workplace-L&D RCT literature, and the figure is what makes the result actionable as a training design.],
-      [Pair the result with Duolingo (Case 128) at the spacing-mechanism layer in any communication of the broader conversation, so the controlled-randomized evidence and the deployed-product evidence are read together.],
+      [Pair the result with Duolingo (Case 127) at the spacing-mechanism layer in any communication of the broader conversation, so the controlled-randomized evidence and the deployed-product evidence are read together.],
     ),
   ),
   references: (
     [Kerfoot, B. P., DeWolf, W. C., Masser, B. A., Church, P. A., \& Federman, D. D. (2007). Spaced education improves the retention of clinical knowledge by medical students: A randomised controlled trial. _Journal of Urology_, 177(4):1481–1487. doi:10.1016/j.juro.2006.11.074 — the case's primary RCT.],
     [Kerfoot, B. P. (2009). Learning benefits of on-line spaced education persist for 2 years. _Journal of Urology_, 181(6):2671 — the two-year persistence follow-up.],
     [Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., \& Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. _Psychological Bulletin_, 132(3):354–380 — the basic-literature spacing-effect review the workplace-L&D RCT sits against.],
-    [Settles, B., \& Meeder, B. (2016). A trainable spaced repetition model for language learning. _Proceedings of ACL 2016_, 1848–1858 — Duolingo half-life regression (Case 128), the operational deployment companion.],
+    [Settles, B., \& Meeder, B. (2016). A trainable spaced repetition model for language learning. _Proceedings of ACL 2016_, 1848–1858 — Duolingo half-life regression (Case 127), the operational deployment companion.],
   ),
   quote: [The learning benefit persisted for two years.],
   quote-source: "Kerfoot, Journal of Urology 2009 follow-up.",
@@ -1569,7 +1569,7 @@
     intervention-and-measurement-as-single-design discipline,
     and in Domain 3 (Test and Evaluation) for the persistence-
     follow-up that makes the result a workplace-L&D headline.
-    Pair with Case 128 (Duolingo half-life regression) at the
+    Pair with Case 127 (Duolingo half-life regression) at the
     spacing-mechanism-in-deployment layer — controlled-
     randomized evidence with deployed-product evidence
     together.
@@ -1588,7 +1588,7 @@
 )
 
 #case(
-  number: 149,
+  number: 148,
   slug: "growth-mindset-national-experiment",
   title: "Growth-Mindset National Experiment — Heterogeneous Effects",
   year: "2019",
@@ -1622,7 +1622,7 @@
     finding rather than as a nuisance. The intervention is not
     universally effective; naming where it does and does not work
     is the contribution. The "conditional on peer norms" language
-    survives verbatim into the case. Pair with Case 138 (Gándara)
+    survives verbatim into the case. Pair with Case 137 (Gándara)
     at the scalable-equity-intervention layer.
   ],
   sections: (
@@ -1688,7 +1688,7 @@
       defensible.#cn()
     ],
     [
-      Drafted alongside Case 138 (Gándara) at the
+      Drafted alongside Case 137 (Gándara) at the
       scalable-equity-intervention layer, the case carries the
       design-predictions-to-trigger-support pattern (induced 8.3,
       LENS D2/PT5). The intervention targets the students who
@@ -1710,7 +1710,7 @@
     "Yeager et al. _Nature_ 2019 — nationally representative RCT of US 9th-graders; less-than-1-hour online module; pre-registered moderator analysis",
     "Headline outcome: improved grades among lower-achieving students; increased advanced-math enrollment relative to active control",
     "Conditional preserved verbatim: 'effect was conditional on peer norms' — intervention changed grades only where peer norms aligned with the intervention's message",
-    "Methodological importance: treatment-effect heterogeneity as the finding, not as a nuisance; pair with Case 138 (Gándara) at the scalable-equity-intervention layer",
+    "Methodological importance: treatment-effect heterogeneity as the finding, not as a nuisance; pair with Case 137 (Gándara) at the scalable-equity-intervention layer",
   ),
   approaches: (
     during: (
@@ -1747,7 +1747,7 @@
     support case (induced 8.3; LENS D2/PT5) — Domain 2 for
     pre-registered moderator analysis; Domain 4 for the
     equity-relevant commitment to target support to those who
-    benefit. Pair with Case 138 (Gándara).
+    benefit. Pair with Case 137 (Gándara).
   ],
   literature-items: (
     [Yeager et al. (2019), _Nature_],

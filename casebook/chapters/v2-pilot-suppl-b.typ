@@ -2,19 +2,19 @@
 // V2 PILOT — Supplemental b (weaker-evidence tier): cases 164–170
 // ============================================================================
 //
-// Middle seven of the 21 accepted supplemental candidates (Case 164..Case 170).
+// Middle seven of the 21 accepted supplemental candidates (Case 163..Case 169).
 // Every case carries an explicit `evidence-flag`; the standing
 // "source confidence flagged; future validation ongoing" language renders
 // under the title automatically. The flag is load-bearing and must never be
 // smoothed away.
 //
-//   164  Case 164  UMHC annual-screening UI + CDS redesign   practice-synthesis-tier
-//   165  Case 165  Nursing alert-fatigue QI redesign         practice-synthesis-tier
-//   166  Case 166  Australian pharmacy-technician redesign   practice-synthesis-tier
-//   167  Case 167  Eurocat ATM pilot modernization           practice-synthesis-tier
-//   168  Case 168  INL turbine-control upgrade (LWRS-adj.)   practice-synthesis-tier
-//   169  Case 169  Estonia X-Road continuous-migration       practice-synthesis-tier
-//   170  Case 170  India Aadhaar exclusion litigation        journalism-tier
+//   164  Case 163  UMHC annual-screening UI + CDS redesign   practice-synthesis-tier
+//   165  Case 164  Nursing alert-fatigue QI redesign         practice-synthesis-tier
+//   166  Case 165  Australian pharmacy-technician redesign   practice-synthesis-tier
+//   167  Case 166  Eurocat ATM pilot modernization           practice-synthesis-tier
+//   168  Case 167  INL turbine-control upgrade (LWRS-adj.)   practice-synthesis-tier
+//   169  Case 168  Estonia X-Road continuous-migration       practice-synthesis-tier
+//   170  Case 169  India Aadhaar exclusion litigation        journalism-tier
 //
 // Cross-listings noted in v2_research/11_*: 910 + 913 + (914) carry a Gap-5
 // (non-US/UK/EU) echo. The pairings (901/902, 904/905, 906/907) sit outside
@@ -25,11 +25,11 @@
 #import "../lib/components.typ": *
 
 // ----------------------------------------------------------------------------
-// 164  Case 164  University of Missouri Health Care annual-screening UI + CDS
+// 164  Case 163  University of Missouri Health Care annual-screening UI + CDS
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 164,
+  number: 163,
   slug: "annual-screening-ui-redesign-cds-at",
   title: "Annual-Screening UI Redesign + CDS at University of Missouri Health Care",
   year: "2020",
@@ -188,11 +188,11 @@
 )
 
 // ----------------------------------------------------------------------------
-// 165  Case 165  Nursing alert-fatigue redesign QI (JAMIA-adjacent)
+// 165  Case 164  Nursing alert-fatigue redesign QI (JAMIA-adjacent)
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 165,
+  number: 164,
   slug: "alert-fatigue-redesign-cutting-ehr",
   title: "Alert-Fatigue Redesign — Cutting EHR Alerts Without Cutting the Safety Signal",
   year: "2019 – 2024",
@@ -283,7 +283,7 @@
       continue as the optimization-study literature consolidates.#cn()
     ],
     [
-      The teaching point pairs with Case 164 and with the v1 C3.2
+      The teaching point pairs with Case 163 and with the v1 C3.2
       failure thread. C3.2 in v1 is entirely failures; this case
       is the small-tier intervention that demonstrates the
       failure mode is redressable by design. The capability
@@ -341,7 +341,7 @@
     cut — and in Domain 5 (Machine Teaming and Adaptation)
     for CLO-5 oversight of automated decision support
     delegated to the bedside, with the CLO on delegation
-    with revocation explicit. Pair with Case 164 for the
+    with revocation explicit. Pair with Case 163 for the
     small-tier C3 thread.
   ],
   literature-items: (
@@ -358,11 +358,11 @@
 )
 
 // ----------------------------------------------------------------------------
-// 166  Case 166  Australian hospital-pharmacy technician role redesign
+// 166  Case 165  Australian hospital-pharmacy technician role redesign
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 166,
+  number: 165,
   slug: "australian-hospital-pharmacy-technician",
   title: "Australian Hospital-Pharmacy Technician Role Redesign",
   year: "2016",
@@ -508,7 +508,7 @@
     Constraints) for CLO-4 — the work was to redraw the
     authority gradient — and in Domain 1 (Systems Analysis)
     for CLO-1, since the role-architecture diagnosis was the
-    precondition for the redesign. Pair with Cases 164–165 for
+    precondition for the redesign. Pair with Cases 163–164 for
     the small-tier C3 thread; Gap-5 echo as a non-US case.
   ],
   literature-items: (
@@ -525,11 +525,11 @@
 )
 
 // ----------------------------------------------------------------------------
-// 167  Case 167  Eurocat ATM pilot modernization (Thales)
+// 167  Case 166  Eurocat ATM pilot modernization (Thales)
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 167,
+  number: 166,
   slug: "eurocat-atm-pilot-modernization-small",
   title: "Eurocat ATM Pilot Modernization — Small-Tier Verification as the Gateway to Big-Tier Change",
   year: "2005",
@@ -600,7 +600,7 @@
       dissolved by the small-tier verification artifact." That is
       the C7 teaching point at the small tier the corpus has not
       had: the same governance-objection-dissolver move that
-      Case 157 / Case 159 show in the AV regulatory regime, transposed
+      Case 156 / Case 158 show in the AV regulatory regime, transposed
       into a legacy-software transition.#cn()
     ],
     [
@@ -692,11 +692,11 @@
 )
 
 // ----------------------------------------------------------------------------
-// 168  Case 168  INL turbine-control upgrade (LWRS-adjacent)
+// 168  Case 167  INL turbine-control upgrade (LWRS-adjacent)
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 168,
+  number: 167,
   slug: "inl-turbine-control-upgrade-low-burden",
   title: "INL Turbine-Control Upgrade — Low-Burden Cutover as a Human-Factors Finding",
   year: "2014",
@@ -794,7 +794,7 @@
       consumes as part of its acceptance decision. The Domain-3
       frame applies because the V\&V evidence is itself the
       measurement instrument the program rests on. The case is a
-      paired small-tier companion to Case 167 (Eurocat ATM) and
+      paired small-tier companion to Case 166 (Eurocat ATM) and
       sits inside the C7 thread alongside the big-tier failures.
     ],
   ),
@@ -843,7 +843,7 @@
     the systems-analysis artifact the regulator consumes —
     and in Domain 3 (Test and Evaluation) for CLO-3, since
     the V\&V evidence is itself the measurement instrument
-    the program rests on. Pair with Case 167 (Eurocat) for
+    the program rests on. Pair with Case 166 (Eurocat) for
     the small-tier C7 thread and with the LWRS big-tier
     program case already in the corpus.
   ],
@@ -861,11 +861,11 @@
 )
 
 // ----------------------------------------------------------------------------
-// 169  Case 169  Estonia X-Road continuous-migration governance
+// 169  Case 168  Estonia X-Road continuous-migration governance
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 169,
+  number: 168,
   slug: "estonia-x-road-continuous-migration-as",
   title: "Estonia X-Road — Continuous Migration as a Governance Pattern (and the No-Legacy Paradox)",
   year: "2001 – present",
@@ -985,7 +985,7 @@
     after: (
       [Track the platform's aging trajectory as a system variable — accreted agency logic, protocol drift, dependency depth — not only its operational uptime.],
       [Carry the self-critical framing honestly; the load-bearing teaching is that success creates its own aging problem, not that the program failed.],
-      [Pair with other C7 cases (Patriot/Dhahran, Ariane 5, Knight Capital, CrowdStrike, TSB) for the failure-and-modernization contrast, and with Cases 167–168 for the small-tier transition thread.],
+      [Pair with other C7 cases (Patriot/Dhahran, Ariane 5, Knight Capital, CrowdStrike, TSB) for the failure-and-modernization contrast, and with Cases 166–167 for the small-tier transition thread.],
     ),
   ),
   references: (
@@ -1015,7 +1015,7 @@
     Sociotechnical Constraints) for CLO-4, since the state's
     commitment to the protocol is itself the governance choice
     determining future modernization cost. Pair with Cases
-    167–168 for the C7 thread and with the big-tier C7
+    166–167 for the C7 thread and with the big-tier C7
     failures the corpus already documents.
   ],
   literature-items: (
@@ -1032,11 +1032,11 @@
 )
 
 // ----------------------------------------------------------------------------
-// 170  Case 170  India Aadhaar exclusion litigation (Pragya Prasun)
+// 170  Case 169  India Aadhaar exclusion litigation (Pragya Prasun)
 // ----------------------------------------------------------------------------
 
 #case(
-  number: 170,
+  number: 169,
   slug: "aadhaar-exclusion-litigation-judicial",
   title: "Aadhaar Exclusion Litigation — Judicial Correction of Biometric Welfare Delegation in India",
   year: "2018 – 2025",
@@ -1195,7 +1195,7 @@
     with judicial correction (induced 8.1, 5.2; LENS D4/PT6) —
     Domain 4 for *Fairness beyond omission* and *Delegation
     with revocation* (court bounded, not revoked). Pair with
-    SyRI (Case 111) and the UK Post Office Horizon thread.
+    SyRI (Case 110) and the UK Post Office Horizon thread.
   ],
   literature-items: (
     [Puttaswamy II (2018) and Pragya Prasun (2025) — Supreme Court of India judgments],

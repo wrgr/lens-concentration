@@ -99,8 +99,8 @@
     text(font: sans, size: 7pt, fill: text-muted)[
       *Parts.* Part II — *What Works* — opens at Chapter 8 with the
       paired-intervention successes. Part III — *The Frontier* —
-      closes the volume with the human-AI teaming cases and the open
-      question at Case 100.
+      and the contemporary expansion carry the human-AI teaming cases;
+      the open question closes the volume at Case 202.
     ]
   }
 )

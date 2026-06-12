@@ -27,7 +27,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 119,
+  number: 118,
   slug: "circuit-microns-the-human-correction",
   title: "CIRCUIT / MICrONS — The Human Correction Layer at Petabyte Scale",
   year: "2017 – present",
@@ -165,7 +165,7 @@
     [MICrONS program literature (IARPA) — connectomics method and automated segmentation evidence base.],
     [APL BossDB documentation — petabyte-scale connectomics data infrastructure.],
     [CIRCUIT program documentation (JHU Hub, 2017 – present) — institutional/program description; the training-outcome evidence is at this tier and the evidence-tier flag is binding.],
-    [Cervantes et al. (2023), ASEE Annual Conference — the paired peer-reviewed CIRCUIT case (Case 120).],
+    [Cervantes et al. (2023), ASEE Annual Conference — the paired peer-reviewed CIRCUIT case (Case 119).],
     [Wachter & Brynjolfsson (2023), _JAMA_ — generative AI verification framing, applicable across domains.],
   ),
   quote: [The recovery mechanism for automation failure is a designed human capability, not an emergent workforce.],
@@ -185,8 +185,8 @@
     CIRCUIT proofreading is the human-correction-layer
     frontier case (induced 3.4; LENS D5/PT6) — Domain 5 for
     *Delegation with revocation*; Domain 3 for the evidence-
-    tier split. Pair with Case 120 and Cases 101, 102, 111,
-    155. COI binds.
+    tier split. Pair with Case 119 and Cases 100, 101, 110,
+    154. COI binds.
   ],
   literature-items: (
     [MICrONS program literature — connectomics method base],
@@ -202,7 +202,7 @@
 )
 
 #case(
-  number: 120,
+  number: 119,
   slug: "circuit-a-scalable-equity-centered",
   title: "CIRCUIT — A Scalable, Equity-Centered Research Workforce Model",
   year: "2017 – 2023 (six cycles)",
@@ -236,7 +236,7 @@
     the causal claim, and the case says so rather than overstate.
     The COI render under the title (editor is the senior author)
     is binding. The case is the paired peer-reviewed companion to
-    CIRCUIT proofreading (Case 119) — that case is about deploying
+    CIRCUIT proofreading (Case 118) — that case is about deploying
     capability against automation failure; this case is about
     building the capability in the first place at the edge of the
     trainees' prior preparation.
@@ -295,10 +295,10 @@
       The case names the open question rather than answering it.#cn()
     ],
     [
-      In pair with Case 119 (CIRCUIT proofreading + MICrONS), the
+      In pair with Case 118 (CIRCUIT proofreading + MICrONS), the
       case completes the CIRCUIT picture: building the capability
       (this case, peer-reviewed) and deploying it against
-      automation failure (Case 119, frontier with evidence-tier
+      automation failure (Case 118, frontier with evidence-tier
       flag). The pair also exercises the corpus's COI discipline
       — both cases carry editor-related COI, both are rendered
       with the standing gold-bordered "Disclosure" block under
@@ -314,7 +314,7 @@
     "2022 program supported >100 undergraduate, graduate, and ROTC students from 'trailblazing' backgrounds",
     "Model is operationalized: holistic recruiting, targeted training, high-resolution assessment, diverse mentorship, partnerships",
     "Honest framing preserved: self-authored multi-cycle program evaluation at a single program; external comparative would strengthen causal claim",
-    "Pair with Case 119 — building capability (this case) vs. deploying it against automation failure (proofreading); both carry COI render",
+    "Pair with Case 118 — building capability (this case) vs. deploying it against automation failure (proofreading); both carry COI render",
   ),
   approaches: (
     during: (
@@ -354,7 +354,7 @@
     Evaluation) for the high-resolution assessment; and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
     holistic-recruiting design choice that converts equity from
-    rhetoric to enrolled cohort. Pair with Case 119 (CIRCUIT
+    rhetoric to enrolled cohort. Pair with Case 118 (CIRCUIT
     proofreading) — building capability vs. deploying it against
     automation failure. COI render is binding.
   ],
@@ -372,7 +372,7 @@
 )
 
 #case(
-  number: 121,
+  number: 120,
   slug: "team-science-training-for-clinical-and",
   title: "Team Science Training for Clinical and Translational Scientists",
   year: "2020 – 2022",
@@ -462,8 +462,8 @@
       the case carries the qualification rather than collapsing it.#cn()
     ],
     [
-      In pair with IPE (Case 122) and Implementation Science
-      Training (Case 123), the Colorado CTSA case is the small-tier
+      In pair with IPE (Case 121) and Implementation Science
+      Training (Case 122), the Colorado CTSA case is the small-tier
       intervention companion to two frontier cases. Team-science
       training is one of the few cases in the corpus that
       operationalizes "collaboration as the unit of measurement"
@@ -520,7 +520,7 @@
     redesign and in Domain 3 (Test and Evaluation) for the
     TEAMS instrument validation and the perceived-competency
     vs. downstream-impact discipline. Direct pair with Cases
-    122 (IPE) and 123 (implementation science training) — the
+    121 (IPE) and 123 (implementation science training) — the
     intervention with measurement against two frontier cases
     where the measurement is the gap.
   ],
@@ -538,7 +538,7 @@
 )
 
 #case(
-  number: 122,
+  number: 121,
   slug: "interprofessional-education-and-the",
   title: "Interprofessional Education and the Evidence Gap",
   year: "2013 – 2015",
@@ -643,7 +643,7 @@
       architecture has not been built. The pair-plus-trio
       teaches the Domain 3 sub-competency in both
       directions: collaboration as a unit of measurement is
-      possible (Case 121), and the field-scale evidence is
+      possible (Case 120), and the field-scale evidence is
       structurally absent (this case).
     ],
   ),
@@ -652,13 +652,13 @@
     "Reeves et al. Cochrane 2013: only 15 studies from 1999–2011 met inclusion; evidence base thin for linking IPE to practice and patient outcomes",
     "IOM 2015 makes the gap the central finding: 'paucity of high-quality research'; proposes a conceptual model for doing the measurement",
     "Canonical enthusiasm-evidence gap case — field instruments enthusiasm faster than outcomes; basis for Domain 3 sub-competency",
-    "Pair with Case 121 (team-science training) and 123 (implementation-science training) — collaboration measurement is possible at program scale, absent at field scale",
+    "Pair with Case 120 (team-science training) and 123 (implementation-science training) — collaboration measurement is possible at program scale, absent at field scale",
   ),
   approaches: (
     during: (
       [Design the IPE intervention with an outcome-measurement chain in mind from the start: learner outcome → collaborative behavior → organizational practice → patient outcome. The IOM model is the published reference.],
       [Specify, before the intervention launches, which links in the chain the evaluation will measure and which it will leave as assumed; the field-scale gap is partly the result of every program leaving the same links unmeasured.],
-      [Treat enthusiasm-as-evidence as a foreseeable failure mode in any field-scale capability movement; the IPE pattern recurs across other interdisciplinary translation efforts (see Case 123).],
+      [Treat enthusiasm-as-evidence as a foreseeable failure mode in any field-scale capability movement; the IPE pattern recurs across other interdisciplinary translation efforts (see Case 122).],
     ),
     after: (
       [Commission field-level evidence architecture, not only program-level evaluation; the gap the IOM names is at the field level and the program-level studies cannot close it on their own.],
@@ -690,9 +690,9 @@
     (Test and Evaluation) as the case-grounded basis for the
     enthusiasm-evidence-gap sub-competency and for the
     CLO *Judgment under inadequate evidence* — IPE is the
-    pattern's largest instance. Pair with Case 121 (team-
+    pattern's largest instance. Pair with Case 120 (team-
     science training, where measurement is possible at program
-    scale) and Case 123 (implementation-science training,
+    scale) and Case 122 (implementation-science training,
     where stated goals run ahead of operational practices).
   ],
   literature-items: (
@@ -709,7 +709,7 @@
 )
 
 #case(
-  number: 123,
+  number: 122,
   slug: "implementation-science-training-stated",
   title: "Implementation-Science Training — Stated Goals Outrunning Operational Practice",
   year: "2020s",
@@ -776,7 +776,7 @@
     ],
     [
       The structural form is the same pattern IPE shows at field
-      scale (Case 122): the field has converged on what
+      scale (Case 121): the field has converged on what
       interdisciplinary translation training should aim for, but
       the operational practices lag the stated goals. At the
       implementation-science training scale, the lag has specific
@@ -802,8 +802,8 @@
       training programs are trying to build.#cn()
     ],
     [
-      In the multidisciplinary-translation trio (Cases 121 +
-      122 + 123), implementation-science training sits between
+      In the multidisciplinary-translation trio (Cases 120 +
+      121 + 122), implementation-science training sits between
       team science (where the measurement is possible at program
       scale) and IPE (where the measurement is the field-scale
       gap). The trio teaches the enthusiasm-evidence-gap
@@ -822,8 +822,8 @@
     "Implementation science = moving validated evidence into operational practice; CTSA TL1/T32 is the US training mechanism",
     "Survey N=50 CTSA-funded TL1 programs: most name collaboration / team science / multi-disc training as goals",
     "Far fewer (14–24%) embed competency-based training and assessment, program evaluation, or experiential learning",
-    "Same enthusiasm-ahead-of-evidence pattern as IPE (Case 122) at smaller scale — operational practices lag stated goals",
-    "Workforce-training counterpart to Case 41 ('17-year gap'); pair with Cases 121, 122 in the multidisciplinary-translation trio",
+    "Same enthusiasm-ahead-of-evidence pattern as IPE (Case 121) at smaller scale — operational practices lag stated goals",
+    "Workforce-training counterpart to Case 41 ('17-year gap'); pair with Cases 120, 121 in the multidisciplinary-translation trio",
   ),
   approaches: (
     during: (
@@ -833,7 +833,7 @@
     ),
     after: (
       [Report the operational-practice gap honestly: stated goals are the convergence point, operational practices are the lag, and the lag is the addressable target.],
-      [Treat the multidisciplinary-translation trio (Cases 121, 122, 123) as a unit; the three-angle teaching of the enthusiasm-evidence pattern is more useful than any single case can be.],
+      [Treat the multidisciplinary-translation trio (Cases 120, 121, 122) as a unit; the three-angle teaching of the enthusiasm-evidence pattern is more useful than any single case can be.],
       [Connect the case explicitly to Case 41 (the 17-year gap): the implementation-science workforce is the recovery mechanism for that gap, and the operational capacity of the workforce is the capability that has to be built — which is the case's pedagogical point.],
     ),
   ),
@@ -866,7 +866,7 @@
     Development) for the CLO *Judgment under inadequate
     evidence* as practitioners design training programs while
     the field-scale evidence is still being built. Pair with
-    Cases 121, 122 as the multidisciplinary-translation trio;
+    Cases 120, 121 as the multidisciplinary-translation trio;
     workforce-training counterpart to Case 41.
   ],
   literature-items: (

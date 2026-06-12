@@ -1,5 +1,5 @@
 // ============================================================================
-// V2 PILOT — Supplemental batch A: weaker-evidence cases (Case 157 .. Case 163)
+// V2 PILOT — Supplemental batch A: weaker-evidence cases (Case 156 .. Case 162)
 // ============================================================================
 //
 // First seven of the 21 accepted supplemental candidates. Every case in this
@@ -27,7 +27,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 157,
+  number: 156,
   slug: "waymos-safety-case-framework-governance",
   title: "Waymo's Safety Case Framework — Governance Objection Dissolved by Designed Artifact",
   year: "2023 / 2025",
@@ -126,10 +126,10 @@
       is the artifact that makes revocation possible —
       regulators or auditors can identify which sub-claim has
       failed, on what evidence, and require the deploying
-      organization to act on the gap. Pair with Case 158
+      organization to act on the gap. Pair with Case 157
       (Cruise) as the foil: the same regulatory regime, the
       opposite governance choice, the opposite outcome. Pair
-      with Case 159 (CPUC permit framework) as the
+      with Case 158 (CPUC permit framework) as the
       regulator-side counterpart of the deployer-side
       artifact.#cn()
     ],
@@ -139,7 +139,7 @@
     "2023 response: structured safety case framework — claims/sub-claims/evidence types public; trade-secret items remain proprietary",
     "November 2025 independent third-party audits of safety case and remote-assistance program — the audits disclosed, not the underlying data",
     "Practice-synthesis tier: Waymo whitepaper + Montreal AI Ethics Institute + 2025 audit summaries; future validation ongoing",
-    "Pairs with Case 158 (Cruise foil) and Case 159 (CPUC permit framework); exercises NEW CLO Delegation with revocation",
+    "Pairs with Case 157 (Cruise foil) and Case 158 (CPUC permit framework); exercises NEW CLO Delegation with revocation",
   ),
   approaches: (
     during: (
@@ -157,8 +157,8 @@
     [Waymo (2023), "A Blueprint for AV Safety: Waymo's Toolkit For Building a Credible Safety Case," whitepaper.],
     [Waymo (November 2025), "Independent Audits of Waymo's Safety Case and Remote Assistance Programs," summary release.],
     [Montreal AI Ethics Institute (2023), summary and analysis of the Waymo safety case framework.],
-    [California Public Utilities Commission, AV passenger-service permit framework documents — paired Case 159 for the regulator-side artifact.],
-    [Cruise / California DMV Order of Suspension (October 2023) — paired Case 158 as the foil.],
+    [California Public Utilities Commission, AV passenger-service permit framework documents — paired Case 158 for the regulator-side artifact.],
+    [Cruise / California DMV Order of Suspension (October 2023) — paired Case 157 as the foil.],
   ),
   quote: [Where opacity could not be defended, a structured falsifiable argument plus audited assurance took its place.],
   quote-source: "Editors' synthesis of the Waymo safety case framework and the November 2025 third-party audits.",
@@ -180,8 +180,8 @@
     revocation possible — and in Domain 5 (Emerging Systems
     and Machine Teaming) for the deployer-side artifact that
     permits oversight of a system whose internals are trade
-    secret. Pair with Case 158 (Cruise) as the foil and Case
-    159 (CPUC) as the regulator-side complement.
+    secret. Pair with Case 157 (Cruise) as the foil and Case
+    158 (CPUC) as the regulator-side complement.
   ],
   literature-items: (
     [Waymo (2023), safety case framework whitepaper],
@@ -197,7 +197,7 @@
 )
 
 #case(
-  number: 158,
+  number: 157,
   slug: "cruises-partial-disclosure-how",
   title: "Cruise's Partial Disclosure — How Disclosure Posture Decides Deployment",
   year: "2023",
@@ -223,7 +223,7 @@
     later. On 24 October the DMV suspended Cruise's driverless
     deployment and testing permits, citing misrepresentation of
     safety-relevant information. The case is the explicit contrast to
-    Case 157 (Waymo): the same regulatory regime, the same
+    Case 156 (Waymo): the same regulatory regime, the same
     delegation problem, the opposite governance choice. Partial
     disclosure was the load-bearing failure mode, not the
     underlying collision sequence. The evidence-tier flag is
@@ -272,7 +272,7 @@
       timeline rests on contemporaneous journalism.#cn()
     ],
     [
-      The case is the explicit foil to Case 157 (Waymo). Same
+      The case is the explicit foil to Case 156 (Waymo). Same
       regulatory regime, same delegation problem, opposite
       governance choice. Where Waymo answered an opacity
       objection by engineering a published safety-case
@@ -316,7 +316,7 @@
     ),
     after: (
       [Use the CLO *Delegation with revocation*: revocation pathways must be designed and exercisable, and the deploying organization should expect the regulator to exercise them when the disclosure architecture fails.],
-      [Pair the case with Case 157 (Waymo) in any LENS Domain 4 module — the contrast between an engineered legitimacy artifact and partial crisis disclosure is the teaching point, not either case alone.],
+      [Pair the case with Case 156 (Waymo) in any LENS Domain 4 module — the contrast between an engineered legitimacy artifact and partial crisis disclosure is the teaching point, not either case alone.],
       [Carry the journalism-tier flag honestly: the DMV Order is the investigation-grade primary; the internal-timeline reconstructions are journalistic; future validation will improve as Cruise's own post-mortem and any subsequent litigation discovery enter the public record.],
     ),
   ),
@@ -349,7 +349,7 @@
     Domain 5 (Emerging Systems and Machine Teaming) for the
     oversight obligations that follow when a system acts
     autonomously after a triggering event. Direct foil to
-    Case 157 (Waymo); pairs with Case 159 (CPUC) on the
+    Case 156 (Waymo); pairs with Case 158 (CPUC) on the
     regulator-side.
   ],
   literature-items: (
@@ -359,14 +359,14 @@
   ),
   reflection-list: (
     [Imagine you operate an autonomous system that has just been involved in a safety-relevant event. Design the disclosure decision: what is reported, to whom, on what cadence, with what verification — *before* you have the lawyer's advice on what the disclosure obligation strictly requires. Where does your architecture leave you exposed?],
-    [Compare Cases 157 (Waymo) and 158 (Cruise) as a paired teaching unit. What is the smallest pre-incident artifact a deploying organization could publish that would make the post-incident disclosure architecture credible to a regulator?],
+    [Compare Cases 156 (Waymo) and 158 (Cruise) as a paired teaching unit. What is the smallest pre-incident artifact a deploying organization could publish that would make the post-incident disclosure architecture credible to a regulator?],
     [The case rests partly on journalism-tier reconstruction of internal decisions. What evidence would you want to see — court discovery, the company's full post-mortem, a multi-source corroboration — before treating any specific internal-timeline claim as decision-grade?],
   ),
   courses: ("LEN 4", "LEN 8", "LEN 9"),
 )
 
 #case(
-  number: 159,
+  number: 158,
   slug: "cpuc-av-passenger-service-permits",
   title: "CPUC AV Passenger-Service Permits — Conditions as a Designed Objection-Dissolver",
   year: "2020 – 2024",
@@ -393,8 +393,8 @@
     other disabilities. A 2024 update strengthened the DMV's
     authority to impose targeted operational restrictions for
     safety, and the case shows the regime in operation: the
-    Cruise suspension (Case 158) shows the regime can revoke; the
-    Waymo continuation (Case 157) shows it can permit
+    Cruise suspension (Case 157) shows the regime can revoke; the
+    Waymo continuation (Case 156) shows it can permit
     conditionally. The structural complement to the Waymo
     deployer-side safety case framework is exactly this
     regulator-side artifact — the permit conditions make the
@@ -445,8 +445,8 @@
       satisfy and that the regulator can re-tune.#cn()
     ],
     [
-      The case is the structural complement to Case 157 (Waymo)
-      and the inverse-outcome companion of Case 158 (Cruise). The
+      The case is the structural complement to Case 156 (Waymo)
+      and the inverse-outcome companion of Case 157 (Cruise). The
       Waymo safety case framework is the deployer-side artifact;
       the CPUC permit conditions are the regulator-side artifact
       that makes the safety case operative as a regulatory
@@ -477,17 +477,17 @@
     "CPUC and California DMV regulate AV passenger service in a split-jurisdiction regime; binary deploy/don't-deploy risked either blocking deployment or losing governance handle",
     "Permit conditions: time-of-day limits, weather restrictions, fleet caps, geographic carve-outs, mandatory Passenger Safety Plan for riders with disabilities",
     "August 2024 update: DMV authority strengthened to impose targeted operational restrictions for safety during deployment lifecycle",
-    "Structural complement to Case 157 (Waymo deployer-side safety case) and inverse-outcome companion of Case 158 (Cruise revocation)",
+    "Structural complement to Case 156 (Waymo deployer-side safety case) and inverse-outcome companion of Case 157 (Cruise revocation)",
     "Practice-synthesis tier: program guidance and permit decisions documented; no peer-reviewed evaluation of equity-of-service outcomes yet — future validation ongoing",
   ),
   approaches: (
     during: (
       [Treat governance objections as design parameters rather than as binary blockers — write them into the permit conditions where compliance is verifiable and violation triggers enforcement.],
       [Require a documented Passenger Safety Plan (or equivalent equity-of-service artifact) at initial permit issuance so the equity objection has an operational answer the regulator can audit.],
-      [Build the regulatory authority to re-tune the conditions during the deployment lifecycle into the regime itself; the Cruise suspension (Case 158) is what re-tuning under a failure event looks like.],
+      [Build the regulatory authority to re-tune the conditions during the deployment lifecycle into the regime itself; the Cruise suspension (Case 157) is what re-tuning under a failure event looks like.],
     ),
     after: (
-      [Pair the case with Case 157 (Waymo) as the regulator-deployer artifact dyad — the safety case framework and the permit conditions are co-constitutive, not independent moves.],
+      [Pair the case with Case 156 (Waymo) as the regulator-deployer artifact dyad — the safety case framework and the permit conditions are co-constitutive, not independent moves.],
       [Use the case in LENS Domain 4 modules on cross-regime governance seams (CPUC and DMV) — the regime structure is itself part of the capability question.],
       [Carry the practice-synthesis flag honestly: the condition-design pattern is teachable, but the equity-of-service outcome data are not yet peer-reviewed; future validation requires independent evaluation of the Passenger Safety Plan deliverables.],
     ),
@@ -496,13 +496,13 @@
     [California Public Utilities Commission, "Autonomous Vehicle Passenger Service Programs," CPUC program page and August 2024 application guidance.],
     [CPUC permit decisions for Cruise and Waymo, 2020–2024.],
     [California Department of Motor Vehicles, AV regulatory program — strengthened safety-restriction authority, 2024.],
-    [Paired Cases 157 (Waymo deployer-side artifact) and 158 (Cruise revocation under regime).],
+    [Paired Cases 156 (Waymo deployer-side artifact) and 158 (Cruise revocation under regime).],
   ),
   quote: [The governance objection was not refused. It was made a permit condition.],
   quote-source: "Editors' synthesis of the CPUC AV passenger-service permit framework.",
   le-insight: [
     The CPUC permit framework is the regulator-side
-    counterpart to the Waymo safety case (Case 157): conditions
+    counterpart to the Waymo safety case (Case 156): conditions
     operationalize objections rather than blocking deployment.
     Evidence-tier flag is practice-synthesis; the regulatory
     architecture is documented in CPUC decisions, but no
@@ -516,8 +516,8 @@
     governance seams (DMV regulates the vehicle; CPUC
     regulates the service; both can act) and for the
     condition-as-design-parameter pattern that makes the
-    deployer-side safety case (Case 157) operative as a
-    regulatory instrument. Pairs with Case 158 as the
+    deployer-side safety case (Case 156) operative as a
+    regulatory instrument. Pairs with Case 157 as the
     revocation event under the regime.
   ],
   literature-items: (
@@ -534,7 +534,7 @@
 )
 
 #case(
-  number: 160,
+  number: 159,
   slug: "brinkerhoff-success-case-method-tails",
   title: "Brinkerhoff Success Case Method — Tails as the Evaluation Instrument",
   year: "2005 – present",
@@ -567,7 +567,7 @@
     documented in practitioner channels — case-study writeups,
     conference talks, vendor whitepapers — rather than in
     peer-reviewed evaluation literature. SCM is the operational
-    answer to the chain-of-evidence problem named in Case 112
+    answer to the chain-of-evidence problem named in Case 111
     (Kirkpatrick): the practitioner instrument that crosses the
     Level-2 / Level-3 seam by sampling where the evidence is
     most informative. Evidence-tier flag is practice-synthesis;
@@ -577,7 +577,7 @@
   sections: (
     [
       Corporate L&D evaluation faces a structural problem the
-      Kirkpatrick chain-of-evidence pattern names (Case 112):
+      Kirkpatrick chain-of-evidence pattern names (Case 111):
       Level 3 (behavior change on the job) and Level 4 (business
       results) require longitudinal data the training organization
       typically cannot access. Average-effect statistics across
@@ -608,7 +608,7 @@
       success cases from the failure cases name what the
       surrounding system has to provide for transfer. The
       argument is the practical complement of the Blume
-      meta-analytic finding (Case 113) that work environment is
+      meta-analytic finding (Case 112) that work environment is
       the decisive transfer variable: SCM operationalizes the
       finding by sampling where the variable's effects are most
       visible.#cn()
@@ -629,8 +629,8 @@
     ],
     [
       The LENS teaching point pairs SCM with the chain-of-evidence
-      problem from Case 112 and the meta-analytic transfer finding
-      from Case 113. SCM is the operational instrument that
+      problem from Case 111 and the meta-analytic transfer finding
+      from Case 112. SCM is the operational instrument that
       crosses the Level-2 / Level-3 seam by sampling where the
       evidence is most informative — and it exercises the CLO *Judgment under inadequate evidence* directly, because the
       method asks practitioners to act on detailed case
@@ -641,20 +641,20 @@
     ],
   ),
   beats: (
-    "Corporate L&D evaluation problem: Levels 3 and 4 require data the training org cannot access; average effects flatter most programs (Case 112)",
+    "Corporate L&D evaluation problem: Levels 3 and 4 require data the training org cannot access; average effects flatter most programs (Case 111)",
     "SCM: sample the highest- and lowest-impact participants; study in detail; reconstruct the system conditions around each",
     "Tails carry decision-grade information — success cases prove the program *can* work; failure cases name what the surrounding system has to provide for transfer",
     "Deployed at Cargill, Ford, Merck, World Bank, ICRC; method peer-reviewed; per-firm impact data live in practitioner channels",
-    "Operational complement to Blume's environment-as-decisive-variable finding (Case 113); exercises NEW CLO Judgment under inadequate evidence",
+    "Operational complement to Blume's environment-as-decisive-variable finding (Case 112); exercises NEW CLO Judgment under inadequate evidence",
   ),
   approaches: (
     during: (
       [Before the program is delivered, plan the SCM sampling: define the outcome metric (specific work-performance change), identify how the success and failure cases will be surfaced (manager nominations, performance data, structured interviews), and pre-commit to the sampling logic.],
-      [Structure the success-case and failure-case interviews around the system conditions Blume's meta-analysis (Case 113) names as decisive — supervisor support, peer support, practice opportunity, environment — so the reconstruction is theory-grounded, not anecdote-grounded.],
+      [Structure the success-case and failure-case interviews around the system conditions Blume's meta-analysis (Case 112) names as decisive — supervisor support, peer support, practice opportunity, environment — so the reconstruction is theory-grounded, not anecdote-grounded.],
       [Report the tails honestly: the success cases are existence proofs the program *can* work; the failure cases are evidence of what the surrounding system did not provide. Neither is a population effect size.],
     ),
     after: (
-      [Translate the tail evidence into a redesign of the surrounding system — supervisor briefings, peer-support structures, on-job practice opportunity — rather than into a redesign of the training event alone. Pair with Case 161 (HILS).],
+      [Translate the tail evidence into a redesign of the surrounding system — supervisor briefings, peer-support structures, on-job practice opportunity — rather than into a redesign of the training event alone. Pair with Case 160 (HILS).],
       [Use the CLO *Judgment under inadequate evidence*: act on the case-reconstruction evidence the method produces while being explicit that it is not a population causal estimate; document the uncertainty.],
       [Carry the practice-synthesis flag honestly in any program documentation citing SCM corporate deployments — the method is peer-reviewed, but the per-firm effect sizes are not.],
     ),
@@ -662,14 +662,14 @@
   references: (
     [Brinkerhoff, R. O. (2005), "The Success Case Method: A Strategic Evaluation Approach to Increasing the Value and Effect of Training," _Advances in Developing Human Resources_ 7(1):86–101, doi:10.1177/1523422304272172.],
     [Brinkerhoff Evaluation Institute deployment list — Cargill, Ford, Merck, World Bank, International Committee of the Red Cross — practitioner channel.],
-    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework SCM operationalizes (paired Case 112).],
-    [Blume, Ford, Baldwin, & Huang (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic environment-as-decisive finding SCM samples around (paired Case 113).],
+    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework SCM operationalizes (paired Case 111).],
+    [Blume, Ford, Baldwin, & Huang (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic environment-as-decisive finding SCM samples around (paired Case 112).],
   ),
   quote: [The tails carry the decision-grade information. The average flatters the program.],
   quote-source: "Editors' synthesis of Brinkerhoff (2005) and the corporate SCM deployments.",
   le-insight: [
     SCM is the practitioner instrument that operationalizes
-    Blume's environment-as-decisive finding (Case 113) by
+    Blume's environment-as-decisive finding (Case 112) by
     sampling the tails of the outcome distribution. The
     method is peer-reviewed; the per-firm impact data at
     Cargill, Ford, Merck, World Bank, ICRC live in
@@ -685,24 +685,24 @@
     case-reconstruction evidence rather than population
     estimates — and in Domain 2 (Iterative Development) by
     way of the evaluation-feedback loop SCM enables. Pairs
-    with Case 161 (HILS) for the redesign of the surrounding
+    with Case 160 (HILS) for the redesign of the surrounding
     work environment.
   ],
   literature-items: (
     [Brinkerhoff (2005), _Advances in Developing Human Resources_],
     [Brinkerhoff Evaluation Institute deployment writeups],
-    [Kirkpatrick (Case 112) and Blume (Case 113) as paired references],
+    [Kirkpatrick (Case 111) and Blume (Case 112) as paired references],
   ),
   reflection-list: (
     [Identify a recent training program in your organization. Define how you would identify the highest- and lowest-impact participants and what structured interview you would conduct with each to reconstruct the system conditions around them.],
-    [Map the SCM tails to the Blume meta-analytic variables (Case 113): supervisor support, peer support, practice opportunity, environment. What pattern would the tails have to show for you to redesign the surrounding system rather than the training event itself?],
+    [Map the SCM tails to the Blume meta-analytic variables (Case 112): supervisor support, peer support, practice opportunity, environment. What pattern would the tails have to show for you to redesign the surrounding system rather than the training event itself?],
     [The corporate SCM deployments at Cargill, Ford, Merck, World Bank, ICRC are documented in practitioner channels. What additional evidence — independent program audit, peer-reviewed evaluation, cross-firm comparison — would you require before treating any specific per-firm effect size as decision-grade?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
 
 #case(
-  number: 161,
+  number: 160,
   slug: "high-impact-learning-system-engineering",
   title: "High-Impact Learning System — Engineering the Environment, Not Just the Event",
   year: "2001 – present",
@@ -722,7 +722,7 @@
     spanning pre-training, the event itself, and post-training.
     The design principle is that the training event alone
     explains a small fraction of transfer variance — Blume's
-    2010 meta-analysis (Case 113) identifies the work
+    2010 meta-analysis (Case 112) identifies the work
     environment as the decisive variable — and so the program
     has to engineer the environment alongside the event. HILS
     deployments include pre-training line-manager alignment
@@ -733,7 +733,7 @@
     to substantially higher figures, but the per-firm numbers
     live in vendor whitepapers and conference talks rather than
     peer-reviewed audits. The case is the deployed-program
-    counterpart to Case 160 (SCM as evaluation instrument): SCM
+    counterpart to Case 159 (SCM as evaluation instrument): SCM
     measures whether the program worked at the tails; HILS
     designs the program so that the conditions for transfer
     are engineered. Evidence-tier flag is practice-synthesis:
@@ -744,7 +744,7 @@
   ],
   sections: (
     [
-      Blume et al.'s 2010 meta-analysis (Case 113) names the
+      Blume et al.'s 2010 meta-analysis (Case 112) names the
       work environment — supervisor support, peer support,
       practice opportunity — as the decisive transfer variable
       at the system layer rather than the learner layer. The
@@ -779,13 +779,13 @@
       self-reported and have not been independently audited.#cn()
     ],
     [
-      HILS is the deployed-program counterpart to Case 160
+      HILS is the deployed-program counterpart to Case 159
       (SCM as evaluation instrument). Where SCM measures
       whether the program worked at the tails of the outcome
       distribution, HILS designs the program so that the
       surrounding conditions for transfer are engineered. The
       pair is the operational answer to the Kirkpatrick
-      chain-of-evidence problem (Case 112): design the
+      chain-of-evidence problem (Case 111): design the
       environment so transfer can happen, and measure the
       tails to confirm it did. Neither component on its own
       crosses the Level-2 / Level-3 seam — together they
@@ -796,7 +796,7 @@
       that capability lives at the operator-system interface,
       not in the individual. HILS is a documented practice
       pattern that names the environment-as-intervention
-      move; it makes Blume's meta-analytic finding (Case 113)
+      move; it makes Blume's meta-analytic finding (Case 112)
       operational. The evidence-tier flag is
       practice-synthesis — the model and the deployment
       pattern are durable in practitioner literature, the
@@ -809,20 +809,20 @@
     ],
   ),
   beats: (
-    "Blume meta-analysis (Case 113) names work environment as decisive transfer variable; HILS is the deployed-program answer",
+    "Blume meta-analysis (Case 112) names work environment as decisive transfer variable; HILS is the deployed-program answer",
     "Three phases: pre-training (line-manager alignment, work-context prep); the event; post-training (supervisor support, peer support, practice opportunity)",
     "Corporate deployments report transfer rising from 10–20% baseline to substantially higher figures; per-firm numbers self-reported in practitioner channels",
-    "Deployed-program counterpart to Case 160 (SCM as evaluation); together they structure the Level-2/Level-3 seam crossing (Case 112)",
+    "Deployed-program counterpart to Case 159 (SCM as evaluation); together they structure the Level-2/Level-3 seam crossing (Case 111)",
     "Practice-synthesis tier: model documented in Brinkerhoff & Apking, Watershed, L-TEN; effect sizes self-reported; future validation ongoing",
   ),
   approaches: (
     during: (
       [Plan the pre-training phase as a first-class design deliverable: line-manager briefings, work-context preparation, learner readiness assessment, instrumented before the event runs.],
       [Design the post-training phase before delivery: supervisor support artifacts, peer-support structures, scheduled on-job practice opportunities on the specific tasks the training targets.],
-      [Treat the training event as one component of a three-phase architecture, not as the whole program — Blume's finding (Case 113) is the load-bearing reason the architecture has to span the boundary.],
+      [Treat the training event as one component of a three-phase architecture, not as the whole program — Blume's finding (Case 112) is the load-bearing reason the architecture has to span the boundary.],
     ),
     after: (
-      [Pair with Case 160 (SCM) to measure whether the deployed program worked at the tails — HILS designs the environment, SCM samples the outcomes; together they structure the chain-of-evidence cross (Case 112).],
+      [Pair with Case 159 (SCM) to measure whether the deployed program worked at the tails — HILS designs the environment, SCM samples the outcomes; together they structure the chain-of-evidence cross (Case 111).],
       [Carry the practice-synthesis flag honestly: the model is documented and durable, the per-firm effect sizes are self-reported, and any specific magnitude cited from vendor whitepapers should be flagged as such in program documentation.],
       [Use the CLO *Judgment under inadequate evidence*: the synthesis is the strongest the field has, and the practitioner has to decide whether to deploy HILS at organizational scale on practitioner-tier evidence while naming the validation that remains open.],
     ),
@@ -831,15 +831,15 @@
     [Brinkerhoff, R. O., & Apking, A. M. (2001), _High Impact Learning: Strategies for Leveraging Performance and Business Results from Training Investments_, Basic Books.],
     [Watershed LRS practitioner summaries of HILS deployment patterns.],
     [L-TEN (Life Sciences Trainers and Educators Network) practitioner summaries of HILS in life-sciences L&D.],
-    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic finding HILS operationalizes (paired Case 113).],
-    [Brinkerhoff (2005), _Advances in Developing Human Resources_ 7(1):86–101 — SCM as the paired evaluation instrument (Case 160).],
+    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic finding HILS operationalizes (paired Case 112).],
+    [Brinkerhoff (2005), _Advances in Developing Human Resources_ 7(1):86–101 — SCM as the paired evaluation instrument (Case 159).],
   ),
   quote: [If the work environment is the decisive transfer variable, the work environment has to be a design variable. HILS makes it one.],
   quote-source: "Editors' synthesis of Brinkerhoff & Apking (2001) and the Blume meta-analytic finding.",
   le-insight: [
     HILS is the deployed-program operationalization of
-    Blume's environment-as-decisive finding (Case 113) and
-    the design-side counterpart of SCM (Case 160). Evidence
+    Blume's environment-as-decisive finding (Case 112) and
+    the design-side counterpart of SCM (Case 159). Evidence
     is practice-synthesis: the model is durable in
     practitioner literature, per-firm effect sizes are
     self-reported, future validation continues. The CLO *Judgment under inadequate evidence* is the capability
@@ -853,13 +853,13 @@
     iteration explicitly across pre / event / post phases,
     and exercises the CLO *Judgment under inadequate
     evidence* because the practitioner must decide on
-    practice-synthesis-tier evidence. Pairs with Case 160
-    (SCM) and Cases 112 / 113 as the corporate-L&D cluster.
+    practice-synthesis-tier evidence. Pairs with Case 159
+    (SCM) and Cases 111 / 112 as the corporate-L&D cluster.
   ],
   literature-items: (
     [Brinkerhoff & Apking (2001), _High Impact Learning_],
     [Watershed LRS and L-TEN practitioner summaries],
-    [Blume (Case 113) and Brinkerhoff SCM (Case 160) as paired references],
+    [Blume (Case 112) and Brinkerhoff SCM (Case 159) as paired references],
   ),
   reflection-list: (
     [Identify a training deployment in your context that currently invests heavily in the event and lightly in the surrounding environment. What pre-training and post-training artifacts would you build to convert the deployment from a single-component program into a three-phase HILS-style architecture?],
@@ -870,7 +870,7 @@
 )
 
 #case(
-  number: 162,
+  number: 161,
   slug: "singapore-skillsfuture-national",
   title: "Singapore SkillsFuture — National Workforce Capability at Scale",
   year: "2015 – present",
@@ -931,7 +931,7 @@
       that self-reported outcomes can be cross-checked against
       employment and wage outcomes at population scale. The
       design crosses the Kirkpatrick Level-2 / Level-3 seam
-      (Case 112) at policy level, not only program level.#cn()
+      (Case 111) at policy level, not only program level.#cn()
     ],
     [
       The 2024 Year-in-Review reports headline figures: 98% of
@@ -961,13 +961,13 @@
     [
       The LENS teaching point is that the program is a
       non-US national-scale case for the corporate / workforce
-      L&D cluster (Cases 112, 113, 160, 161) and a non-US/UK/EU
+      L&D cluster (Cases 111, 112, 159, 160) and a non-US/UK/EU
       case for the geographic-coverage gap. The amended CLO on
       collaboration measurement is directly exercised: TRAQOM
       measures across employer-employee-state, not only
-      across the training organization. Pair with Case 163
+      across the training organization. Pair with Case 162
       (PEPFAR) for the global-health workforce-capability
-      counterpart, and with Case 161 (HILS) for the
+      counterpart, and with Case 160 (HILS) for the
       design-side practitioner pattern that the SSG program
       operationalizes at policy scale. Evidence-tier flag is
       practice-synthesis; the design is documented, the
@@ -979,7 +979,7 @@
     "TRAQOM: two-wave outcome survey (end-of-course + six months) paired with labor-market data; ambitious national L&D instrument",
     "2024 Year-in-Review: 98% perform-better self-report; 93% pivotal role; 87% WSP graduates employed FT within 6 months; 2018 MTI 5.8% wage premium for WSQ-trained",
     "Honest reading: self-report dominates; no rigorous quasi-experimental causal evaluation; future validation ongoing",
-    "Practice-synthesis tier; cross-listed Gap 2 (workforce L&D) + Gap 5 (non-US/UK/EU); pairs with Cases 161 (HILS) and 163 (PEPFAR)",
+    "Practice-synthesis tier; cross-listed Gap 2 (workforce L&D) + Gap 5 (non-US/UK/EU); pairs with Cases 160 (HILS) and 163 (PEPFAR)",
   ),
   approaches: (
     during: (
@@ -988,7 +988,7 @@
       [Treat the self-report dominance honestly: name what TRAQOM can and cannot establish at the design stage, so the program documentation does not have to retrofit the hedge.],
     ),
     after: (
-      [Pair with Case 163 (PEPFAR) for the global-health workforce-capability counterpart at multi-country scale; together they teach what national- and program-scale L&D measurement at evidence-flagged tier looks like.],
+      [Pair with Case 162 (PEPFAR) for the global-health workforce-capability counterpart at multi-country scale; together they teach what national- and program-scale L&D measurement at evidence-flagged tier looks like.],
       [Use the amended CLO on collaboration measurement: TRAQOM is a worked example of measurement across employer-employee-state, and the program documentation can teach the architecture in LENS Domain 4 (Sociotechnical Constraints).],
       [Carry the practice-synthesis flag honestly: the program design and the TRAQOM instrument are documented, the headline magnitudes are self-report, and future validation requires independent quasi-experimental causal evaluation.],
     ),
@@ -1018,8 +1018,8 @@
     CLO on collaboration measurement — TRAQOM measures
     across employer-employee-state — and in Domain 2 as the
     policy-scale operationalization of the HILS-style
-    environment-and-event integration (Case 161). Pairs with
-    Case 163 (PEPFAR) for the global-health
+    environment-and-event integration (Case 160). Pairs with
+    Case 162 (PEPFAR) for the global-health
     workforce-capability counterpart.
   ],
   literature-items: (
@@ -1036,7 +1036,7 @@
 )
 
 #case(
-  number: 163,
+  number: 162,
   slug: "pepfar-hiv-training-across-16-sub",
   title: "PEPFAR HIV Training Across 16 Sub-Saharan African Countries — Modality Comparison Under Disruption",
   year: "2023",
@@ -1059,14 +1059,14 @@
     increases regardless of modality. The honest framing the
     case carries into print is that the outcome metric is
     knowledge and self-rated confidence — Kirkpatrick L1–L2
-    territory (Case 112) — not L3 on-job behavior change or L4
+    territory (Case 111) — not L3 on-job behavior change or L4
     patient outcomes. Even so, the study is one of the few
     real-world cross-country modality comparisons at meaningful
     scale, and it is the L&D evaluation pattern playing out in
     global health at multi-country scope. The case is
     cross-listed with the corporate / workforce L&D cluster
-    (Cases 112, 113, 160, 161) and with the non-US/UK/EU
-    geographic-coverage gap (Cases 162, and the cases in the
+    (Cases 111, 112, 159, 160) and with the non-US/UK/EU
+    geographic-coverage gap (Cases 161, and the cases in the
     later supplemental batches). Evidence-tier flag is
     preprint-tier: the medRxiv version is preprint and the PMC
     version is journal-published — the editor's citation choice
@@ -1106,11 +1106,11 @@
       Kirkpatrick limitation. The study's outcomes are
       knowledge and self-rated confidence — Level 1
       (reaction and confidence) and Level 2 (learning) in the Kirkpatrick
-      framework (Case 112). It is not Level 3 (behavior change
+      framework (Case 111). It is not Level 3 (behavior change
       on the job — whether the clinicians actually changed
       practice) and it is not Level 4 (results — whether
       patient outcomes improved). The structural limitation
-      Case 112 names is exactly the limitation this study sits
+      Case 111 names is exactly the limitation this study sits
       inside.#cn()
     ],
     [
@@ -1130,8 +1130,8 @@
       between the two should be carried explicitly in the
       printed case. The LENS teaching point is the
       cross-listed pair with the corporate / workforce L&D
-      cluster (Cases 112, 113, 160, 161) and the non-US/UK/EU
-      cluster (Cases 162). The CLO *Judgment under
+      cluster (Cases 111, 112, 159, 160) and the non-US/UK/EU
+      cluster (Cases 161). The CLO *Judgment under
       inadequate evidence* is exercised: the study is the
       strongest evidence the field has for modality
       equivalence in this context, and it does not establish
@@ -1141,7 +1141,7 @@
   beats: (
     "PEPFAR workforce-capability program; COVID forced modality switch across 16 SSA countries with no prior evidence base on modality equivalence",
     "2023 study: pre/post assessments across knowledge and self-confidence domains showed mean increases regardless of modality (in-person, virtual, blended)",
-    "Kirkpatrick L1–L2 limitation explicit: outcomes are knowledge and self-rated confidence, not L3 behavior change or L4 patient outcomes (Case 112)",
+    "Kirkpatrick L1–L2 limitation explicit: outcomes are knowledge and self-rated confidence, not L3 behavior change or L4 patient outcomes (Case 111)",
     "Rare real-world cross-country modality comparison at meaningful scale; multi-country scope limits single-country confounding",
     "Preprint-tier flag: medRxiv preprint and PMC published; editor citation choice carried explicitly; future validation on L3/L4 ongoing",
   ),
@@ -1149,10 +1149,10 @@
     during: (
       [Design the modality comparison around what the assessment instrument can actually establish — knowledge and confidence at L1–L2 are tractable; L3 and L4 require longitudinal data and patient-outcome linkage the study did not have.],
       [Build the multi-country sampling so the comparison is not trivially confounded by single-country factors — the 16-country scope is part of the study's evidential weight.],
-      [Carry the Kirkpatrick limitation into the program documentation honestly — Case 112's stop-at-L2 pattern is exactly the limitation this study sits inside, and naming it preserves the case's teaching value.],
+      [Carry the Kirkpatrick limitation into the program documentation honestly — Case 111's stop-at-L2 pattern is exactly the limitation this study sits inside, and naming it preserves the case's teaching value.],
     ),
     after: (
-      [Pair with Case 162 (SkillsFuture) as the workforce-capability counterparts at national- and multi-country scale; together they teach what L&D measurement looks like in non-US/UK/EU settings with the evidence-tier honesty intact.],
+      [Pair with Case 161 (SkillsFuture) as the workforce-capability counterparts at national- and multi-country scale; together they teach what L&D measurement looks like in non-US/UK/EU settings with the evidence-tier honesty intact.],
       [Use the CLO *Judgment under inadequate evidence*: the study is the strongest evidence the field has for modality equivalence in this context, and the practitioner has to decide modality policy on L1–L2 evidence while L3/L4 evidence develops.],
       [Carry the preprint-tier flag honestly: the medRxiv preprint and the PMC published article are both citable; future validation requires confirmatory replication and L3/L4 outcome measurement.],
     ),
@@ -1160,8 +1160,8 @@
   references: (
     ["Comparing in-person, blended and virtual training interventions; a real-world evaluation of HIV capacity building programs in 16 countries in sub-Saharan Africa," medRxiv 2023.02.08.23285641 (preprint) → PMC10365303 (published).],
     [PEPFAR program documentation — workforce-capability training as a load-bearing deliverable across Sub-Saharan African deployment countries.],
-    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework the L1–L2 limitation references (paired Case 112).],
-    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic transfer finding the L3 question references (paired Case 113).],
+    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the chain-of-evidence framework the L1–L2 limitation references (paired Case 111).],
+    [Blume et al. (2010), _Journal of Management_ 36(4):1065–1105 — the meta-analytic transfer finding the L3 question references (paired Case 112).],
   ),
   quote: [The outcomes are knowledge and self-rated confidence. The L3 and L4 questions — did practice change, did patient outcomes improve — remain open.],
   quote-source: "Editors' synthesis of the PEPFAR 16-country modality comparison.",
@@ -1169,7 +1169,7 @@
     PEPFAR's 16-country modality comparison is the L&D
     evaluation pattern in global health: mean L1–L2 gains
     across all modalities, with the Kirkpatrick limitation
-    (Case 112) explicit. Evidence-tier flag is preprint-tier
+    (Case 111) explicit. Evidence-tier flag is preprint-tier
     — both the medRxiv preprint and the PMC published
     version are citable — and the L3 / L4 questions remain
     open. Future validation is ongoing.
@@ -1183,13 +1183,13 @@
     program scope. The CLO *Judgment under inadequate
     evidence* is exercised because the study is the
     strongest available at L1–L2 and does not settle L3 /
-    L4. Pairs with Case 162 (SkillsFuture) as the workforce
+    L4. Pairs with Case 161 (SkillsFuture) as the workforce
     L&D cross-listing.
   ],
   literature-items: (
     [medRxiv 2023.02.08.23285641 (preprint) → PMC10365303 (published)],
     [PEPFAR program documentation],
-    [Kirkpatrick (Case 112) and Blume (Case 113) as paired references],
+    [Kirkpatrick (Case 111) and Blume (Case 112) as paired references],
   ),
   reflection-list: (
     [Identify a training program in your context that was forced to switch modality under disruption (COVID, budget constraint, geographic dispersion). What evidence would you have needed at the time to make the modality decision well, and at which Kirkpatrick level was the available evidence?],

@@ -464,7 +464,7 @@
   year: "2018 – present",
   domains-list: ("healthcare", "tech"),
   modes-code: "HKD",
-  impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines; the canonical v1 anchor for clinical-AI deployment without surveillance, cross-referenced by the Epic Sepsis (Case 102) and pulse-oximetry (Case 106) deployment-evidence cases",
+  impact: "Recurring documented cases of FDA-cleared radiology AI tools performing worse in deployment than in validation, often along demographic lines; the canonical v1 anchor for clinical-AI deployment without surveillance, cross-referenced by the Epic Sepsis (Case 101) and pulse-oximetry (Case 105) deployment-evidence cases",
   diagram: dgm.dgm-compare(
     "validation",
     "AUC 0.9+",
@@ -505,8 +505,8 @@
     surveillance is still being built. The capability gap is in the
     regulatory architecture, not the model: clearance is not the same
     thing as clinically performable deployment. The case is the v1
-    anchor for the cross-references in the Epic Sepsis (Case 102) and
-    pulse-oximetry (Case 106) deployment-evidence cases.
+    anchor for the cross-references in the Epic Sepsis (Case 101) and
+    pulse-oximetry (Case 105) deployment-evidence cases.
   ],
   sections: (
     // -- The Shift --
@@ -571,11 +571,11 @@
       Similar deployment-performance degradation has been reported
       in mammography AI (validation sets often under-represent
       dense-breast tissue and Black women), sepsis-prediction tools
-      (the Epic Sepsis Model — Case 102 — is the canonical example of
+      (the Epic Sepsis Model — Case 101 — is the canonical example of
       an AI tool deployed at scale whose external validation found
       it substantially worse than its developer-reported numbers),
       pulse-oximetry behavior (the structural racial miscalibration
-      documented in Sjoding et al. — Case 106 — sits under several
+      documented in Sjoding et al. — Case 105 — sits under several
       downstream AI sepsis and triage tools), and skin-lesion
       classifiers (training-set under-representation of darker skin
       tones produces accuracy gaps in deployment). Yet the FDA's
@@ -665,7 +665,7 @@
     process currently treats as outside its scope. Pair with Vioxx
     (Case 87) as the post-market-surveillance-failure pattern at a
     new technological boundary; cross-references the Epic Sepsis
-    (Case 102) and pulse-oximetry (Case 106) cases at the
+    (Case 101) and pulse-oximetry (Case 105) cases at the
     clinical-AI-without-surveillance layer.
   ],
   literature-items: (

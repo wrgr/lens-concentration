@@ -18,7 +18,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 190,
+  number: 189,
   slug: "in-re-2u-securities-class-action",
   title: "In re 2U, Inc. Securities Class Action — When Yield Management Crashes Into Disclosure",
   year: "2019 – 2022",
@@ -46,10 +46,10 @@
     Exchange Act. The settlement is not an admission of liability,
     and the case is pedagogically useful for what the disclosure
     architecture failed to do, not for any adjudicated finding of
-    wrongdoing. The case pairs with Case 180 (GAO OPM oversight)
-    and Case 181 (USC × 2U Luna) to complete the regulator-side,
+    wrongdoing. The case pairs with Case 179 (GAO OPM oversight)
+    and Case 180 (USC × 2U Luna) to complete the regulator-side,
     consumer-side, and investor-side triangle around the same
-    delegation structure that Case 178 names at the pricing layer.
+    delegation structure that Case 177 names at the pricing layer.
   ],
   sections: (
     [
@@ -58,7 +58,7 @@
       yield mechanics the casebook documents elsewhere. 2U's
       stock price depended on continued growth in program
       partnerships and per-program enrollments; the OPM revenue-
-      share structure documented in Case 180 transmitted
+      share structure documented in Case 179 transmitted
       university enrollment outcomes onto the company's quarterly
       results. When enrollment trends weakened, the disclosure
       question that securities law imposes on a public company
@@ -94,17 +94,17 @@
       the structural one. A company whose revenue line is built
       on partner-university enrollments must disclose changes in
       enrollment trajectory under federal securities law; the
-      enrollment-management vendor relationship Case 178 maps
+      enrollment-management vendor relationship Case 177 maps
       operates downstream of the same trajectory the disclosure
       must describe. The class period closes in the same window
-      — late 2019 through 2022 — that the GAO audit (Case 180)
-      and the Luna complaint (Case 181) cover, and the alignment
+      — late 2019 through 2022 — that the GAO audit (Case 179)
+      and the Luna complaint (Case 180) cover, and the alignment
       is not coincidental. Multiple oversight surfaces converged
       on the same delegation structure at the same time.#cn()
     ],
     [
-      The case sits as the investor-side complement to Case 180
-      (regulator-side audit of the OPM regime) and Case 181
+      The case sits as the investor-side complement to Case 179
+      (regulator-side audit of the OPM regime) and Case 180
       (consumer-side litigation by online MSW enrollees against
       USC). Each surface saw the same underlying business
       arrangement from a different vantage. The regulator asked
@@ -118,7 +118,7 @@
       the projection signal the operating record was generating.
       The three surfaces together define the disclosure-as-
       governance frame the case anchors. Pair also with Cases
-      178 and 179 (Engler and Burd) for the enrollment-
+      177 and 178 (Engler and Burd) for the enrollment-
       management context this litigation operates inside of.#cn()
     ],
     [
@@ -132,7 +132,7 @@
       that a public-company disclosure regime is one of the few
       external oversight mechanisms that operated on the OPM-
       enrollment-management model during its growth window, and
-      that the convergence with Cases 180 and 181 across the
+      that the convergence with Cases 179 and 180 across the
       same calendar window is a structural rather than incidental
       pattern. The coi-light disclosure under the title is
       binding for the affiliation, and the case's editorial
@@ -146,7 +146,7 @@
     "Class period Feb 26 2018 – Jul 30 2019; §10(b) and §20(a) allegations on enrollment-projection disclosure to investors",
     "Lead plaintiff Fiyyaz Pirani; co-lead Oklahoma City Employees Retirement System",
     "$37M settlement July 2022; final approval Dec 9 2022; not an admission of liability — case teaches disclosure pattern, not fault",
-    "Investor-side complement to Case 180 (regulator audit) and Case 181 (consumer litigation); pair with Cases 178 and 179",
+    "Investor-side complement to Case 179 (regulator audit) and Case 180 (consumer litigation); pair with Cases 177 and 178",
   ),
   approaches: (
     during: (
@@ -156,7 +156,7 @@
     ),
     after: (
       [Carry the case in print with the hedge intact — settlement is not an admission of liability, and the case teaches the disclosure-architecture pattern, not adjudicated wrongdoing.],
-      [Pair in syllabi with Case 180 (GAO audit) and Case 181 (Luna complaint) so the three oversight surfaces are taught together; the pedagogical move is to show how a single delegation structure looked from three vantage points across overlapping windows.],
+      [Pair in syllabi with Case 179 (GAO audit) and Case 180 (Luna complaint) so the three oversight surfaces are taught together; the pedagogical move is to show how a single delegation structure looked from three vantage points across overlapping windows.],
       [Use the case to teach the disclosure-as-governance frame: federal securities law is one of the few external regimes whose disclosure standards apply to the OPM-enrollment-management model, and the standards' application is itself the artifact the case names.],
     ),
   ),
@@ -164,7 +164,7 @@
     [In re 2U, Inc. Securities Class Action, Civil Action No. TDC-19-3455 (consolidated with TDC-20-1006), D. Md., before Hon. Theodore D. Chuang; consolidated complaint filed December 2019.],
     [Stipulation of settlement and motion for final approval, In re 2U, Inc. Securities Class Action, July 2022; final approval order, December 9, 2022.],
     [Securities Exchange Act of 1934, §10(b) and §20(a); SEC Rule 10b-5 — the statutory and regulatory basis the complaint sounded in.],
-    [Paired investigation-grade record: U.S. Government Accountability Office, GAO-22-104463 (2022); _Luna v. USC_ class action complaint (2023) — the regulator-side and consumer-side surfaces of the same delegation structure (Cases 180, 181).],
+    [Paired investigation-grade record: U.S. Government Accountability Office, GAO-22-104463 (2022); _Luna v. USC_ class action complaint (2023) — the regulator-side and consumer-side surfaces of the same delegation structure (Cases 179, 180).],
   ),
   quote: [The settlement is not an admission of liability. The case teaches the disclosure-architecture pattern, not adjudicated wrongdoing — and the convergence of three oversight surfaces on the same delegation structure within the same calendar window is the structural diagnostic.],
   quote-source: "Editors' synthesis of the In re 2U class action record (2019 – 2022).",
@@ -175,7 +175,7 @@
     enrollment window settled for \$37 million without admission
     of liability. The case teaches the disclosure pattern, not
     adjudicated fault, and completes the regulator-side and
-    consumer-side oversight triangle with Cases 180 and 181 across
+    consumer-side oversight triangle with Cases 179 and 180 across
     the same calendar window.
   ],
   lens-approach: [
@@ -184,16 +184,16 @@
     LENS uses it in Domain 4 (Navigating Sociotechnical Constraints)
     for the change-control and disclosure-architecture anchor and
     in Domain 3 (Test and Evaluation) for the convergence-of-
-    oversight-surfaces diagnostic. Pair with Case 180 (GAO
-    regulator-side audit), Case 181 (Luna consumer-side complaint),
-    and Cases 178 and 179 (Engler and Burd, the enrollment-
+    oversight-surfaces diagnostic. Pair with Case 179 (GAO
+    regulator-side audit), Case 180 (Luna consumer-side complaint),
+    and Cases 177 and 178 (Engler and Burd, the enrollment-
     management context). coi-light render under the title is
     binding for the affiliation.
   ],
   literature-items: (
     [In re 2U, Inc. Securities Class Action (D. Md., 2019 – 2022)],
     [Securities Exchange Act §10(b), §20(a); Rule 10b-5],
-    [Paired Cases 180 (GAO-22-104463) and 181 (Luna v. USC)],
+    [Paired Cases 179 (GAO-22-104463) and 181 (Luna v. USC)],
   ),
   reflection-list: (
     [Identify a business arrangement in your domain whose revenue trajectory depends on a delegated operational counterpart. What disclosure surfaces — to investors, regulators, customers, affected populations — currently apply, and which of them are absent in the architecture as built?],
@@ -204,7 +204,7 @@
 )
 
 #case(
-  number: 191,
+  number: 190,
   slug: "zhang-scardamalia-knowledge-building",
   title: "Zhang/Scardamalia — Knowledge Building Across Three Cohorts",
   year: "2009",
@@ -306,11 +306,11 @@
     [
       The case sits as the classroom-scale longitudinal
       counterpart in the small-tier evidence base. Pair with
-      Case 121 (Colorado CTSA team science) for the
+      Case 120 (Colorado CTSA team science) for the
       collaboration-measurement thread at a different scale and
-      domain; with Case 188 (Hybrid Human-AI Tutoring) for the
-      small-tier deployment-success counterpart; with Case 110
-      and Case 185 (OU Analyse) for the distance-higher-education
+      domain; with Case 187 (Hybrid Human-AI Tutoring) for the
+      small-tier deployment-success counterpart; with Case 109
+      and Case 184 (OU Analyse) for the distance-higher-education
       governance frame at a different population. The LE Lens
       uses the case as the JLS-anchored small-tier complement to
       v1 Case 42 (Cognitive Tutor's single-site arc); the two
@@ -335,7 +335,7 @@
     ),
     after: (
       [Carry the binding hedges into print without softening; the case's value to the corpus rests on its specificity, and the transferability questions are open and disclosable as open.],
-      [Pair with Case 121 (collaboration measurement at team-science scale) so the collaboration-as-design-target thread is taught at both the classroom and team scales.],
+      [Pair with Case 120 (collaboration measurement at team-science scale) so the collaboration-as-design-target thread is taught at both the classroom and team scales.],
       [Use the case as the JLS-anchored small-tier complement to v1 Case 42 (Cognitive Tutor's single-site arc); the cohort-as-iteration-unit lesson is the bridge between the classroom-design literature and the at-scale evaluation literature.],
     ),
   ),
@@ -363,9 +363,9 @@
     LENS uses it in Domain 2 (Iterative Development) for the
     multi-cohort design-based-research discipline and in Domain 3
     (Test and Evaluation) for the depth-and-distribution paired
-    outcome measure. Pair with Case 121 (Colorado CTSA team
-    science collaboration measurement), Case 188 (Hybrid Human-AI
-    Tutoring small-tier deployment), and Cases 110 and 185 (OU
+    outcome measure. Pair with Case 120 (Colorado CTSA team
+    science collaboration measurement), Case 187 (Hybrid Human-AI
+    Tutoring small-tier deployment), and Cases 109 and 184 (OU
     Analyse — distance higher-education governance at a different
     scale). The LE Lens uses it as the small-tier complement to
     v1 Case 42 (Cognitive Tutor single-site arc).
@@ -384,7 +384,7 @@
 )
 
 #case(
-  number: 192,
+  number: 191,
   slug: "chen-rural-china-ai-devices",
   title: "Chen et al. — Rural China AI Devices and the Equity-Direction Finding",
   year: "2025",
@@ -475,11 +475,11 @@
     [
       The case's structural placement in the corpus is the
       equity-direction-finding case at the non-WEIRD deployment
-      seam. Pair with Case 138 (Gándara / community-college
+      seam. Pair with Case 137 (Gándara / community-college
       predictive equity in _AERA Open_) for the equity-direction
-      thread at the higher-education scale; with Case 187
+      thread at the higher-education scale; with Case 186
       (LiveHint AI bias across foundation models) for the bias-
-      surfacing thread in AI-supported instruction; with Case 186
+      surfacing thread in AI-supported instruction; with Case 185
       (Doer Effect non-WEIRD radio-and-phone extension) for the
       non-WEIRD methodological discipline at the heterogeneity-
       finding axis. The first-author-from-deployment-country
@@ -518,7 +518,7 @@
     "Rural experimental classes +17.93% math, +13.46% history; urban experimental classes +10.96% math, +9.55% history",
     "Equity-direction finding: rural gain exceeds urban gain across both subjects — the load-bearing teaching point",
     "Load-bearing hedges in prose: 3-month horizon, 12 schools, non-randomized assignment, self-report and observation bias acknowledged",
-    "First-author-from-deployment-country structure; pair with Cases 138 (Gándara), 187 (LiveHint bias), 186 (Doer Effect non-WEIRD)",
+    "First-author-from-deployment-country structure; pair with Cases 137 (Gándara), 187 (LiveHint bias), 186 (Doer Effect non-WEIRD)",
   ),
   approaches: (
     during: (
@@ -528,15 +528,15 @@
     ),
     after: (
       [Commission the longer-horizon and larger-sample replication the three-month 12-school study cannot perform; the equity-direction finding's persistence past three months and across more schools is the validation question the case names.],
-      [Pair the case in syllabi with Case 138 (Gándara community-college equity) and Case 186 (Doer Effect non-WEIRD extension) so the equity-direction reading is taught across deployment scales and population settings.],
+      [Pair the case in syllabi with Case 137 (Gándara community-college equity) and Case 185 (Doer Effect non-WEIRD extension) so the equity-direction reading is taught across deployment scales and population settings.],
       [Use the case to anchor the CLO on fairness beyond omission with a rare published equity-direction finding; the corpus needs equity-narrowing results as visible as equity-widening ones, and the methodological discipline that lets the result be reported credibly is the curricular target.],
     ),
   ),
   references: (
     [Chen, R., Wu, Y., Chen, Z., & Zhou, P. (2025), "Advancing educational equity in rural China: the impact of AI devices on teaching quality and learning outcomes for sustainable development," _Frontiers in Psychology_ 16:1588047, doi:10.3389/fpsyg.2025.1588047.],
-    [Paired Case 138 (Gándara et al., _AERA Open_) — community-college predictive equity at the higher-education scale.],
-    [Paired Case 187 (LiveHint AI bias across foundation models, AIED 2025) — bias-surfacing in AI-supported instruction.],
-    [Paired Case 186 (Doer Effect non-WEIRD LAK 2025 radio-and-phone extension) — non-WEIRD methodological discipline at the heterogeneity-finding axis.],
+    [Paired Case 137 (Gándara et al., _AERA Open_) — community-college predictive equity at the higher-education scale.],
+    [Paired Case 186 (LiveHint AI bias across foundation models, AIED 2025) — bias-surfacing in AI-supported instruction.],
+    [Paired Case 185 (Doer Effect non-WEIRD LAK 2025 radio-and-phone extension) — non-WEIRD methodological discipline at the heterogeneity-finding axis.],
   ),
   quote: [Rural experimental classes gained 17.93 percent on mathematics and 13.46 percent on history; urban experimental classes gained 10.96 percent on mathematics and 9.55 percent on history. The rural gain exceeded the urban gain across both subjects — and the load-bearing hedges are three-month horizon, twelve schools, non-randomized assignment, self-report and observation bias acknowledged by the authors.],
   quote-source: "Editors' synthesis of Chen, Wu, Chen, & Zhou (2025).",
@@ -558,17 +558,17 @@
     (Iterative Development) for the deployment-on-a-defined-
     horizon discipline and in Domain 4 (Navigating Sociotechnical
     Constraints) for the equity-direction reading that anchors
-    the fairness-beyond-omission CLO. Pair with Case 138
-    (Gándara community-college predictive equity), Case 187
-    (LiveHint AI bias across foundation models), and Case 186
+    the fairness-beyond-omission CLO. Pair with Case 137
+    (Gándara community-college predictive equity), Case 186
+    (LiveHint AI bias across foundation models), and Case 185
     (Doer Effect non-WEIRD radio-and-phone extension). The
     case's pedagogical value depends on the four binding
     hedges traveling with the result into print.
   ],
   literature-items: (
     [Chen et al. (2025), _Frontiers in Psychology_ — rural China AI devices],
-    [Paired Cases 138 (Gándara) and 186 (Doer Effect non-WEIRD)],
-    [Paired Case 187 (LiveHint AI bias)],
+    [Paired Cases 137 (Gándara) and 186 (Doer Effect non-WEIRD)],
+    [Paired Case 186 (LiveHint AI bias)],
   ),
   reflection-list: (
     [Identify a deployment in your domain whose equity-direction finding — narrowing or widening a between-setting gap — has not been pre-specified as a primary outcome. What would the pre-specification require, and what data infrastructure would support it?],

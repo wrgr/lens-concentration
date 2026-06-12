@@ -15,7 +15,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 103,
+  number: 102,
   slug: "algorithmic-mortgage-lending-omitting",
   title: "Algorithmic Mortgage Lending — Omitting the Variable Did Not Fix the Disparity",
   year: "2018 – 2022",
@@ -43,7 +43,7 @@
     with race in the present US population. The case is the canonical
     instance of why "fairness through unawareness" is not, by itself,
     fairness. It pairs directly with the Coots et al. fintech fairness
-    audit (Case 104, preprint-tier): the next teaching step is that
+    audit (Case 103, preprint-tier): the next teaching step is that
     competing fairness definitions can disagree about what counts as fair
     even when the inputs are held constant.
   ],
@@ -96,10 +96,10 @@
     ],
     [
       The case is the headline mortgage-finance instance of a pattern that
-      now surfaces in clinical algorithms (eGFR, Cases 105–107), in
+      now surfaces in clinical algorithms (eGFR, Cases 104–106), in
       hiring and proctoring tools (Case 210 small-tier proctoring bias),
       and in welfare administration (SyRI). It pairs with the Coots et
-      al. fintech fairness audit (Case 104) which shows the next layer:
+      al. fintech fairness audit (Case 103) which shows the next layer:
       once the practitioner accepts that omission is not the answer,
       competing fairness definitions disagree about which adjustment is
       the right one — and the choice has to be made on judgment under
@@ -149,9 +149,9 @@
     beyond omission*, in Domain 5 (Machine Teaming and
     Adaptation) for delegation to underwriting models, and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
-    fair-lending regulatory regime. Direct pair with Case 104
+    fair-lending regulatory regime. Direct pair with Case 103
     (Coots fintech fairness audit). Adjacent to the race-construct
-    trio in clinical medicine (Cases 105–107) — same structural
+    trio in clinical medicine (Cases 104–106) — same structural
     lesson at the construct-definition layer rather than the
     pricing layer.
   ],
@@ -169,7 +169,7 @@
 )
 
 #case(
-  number: 104,
+  number: 103,
   slug: "fintech-lending-fairness-audit-when",
   title: "Fintech Lending Fairness Audit — When Including Race Reduces Disparity",
   year: "2025",
@@ -206,7 +206,7 @@
   ],
   sections: (
     [
-      The lending pair (Cases 103 and 104) takes the practitioner past
+      The lending pair (Cases 102 and 103) takes the practitioner past
       the first equity intuition — *just don't use the protected
       attribute* — and into the harder territory the equity literature
       now operates in. Bartlett showed that omission preserves the
@@ -227,7 +227,7 @@
       audit reports lower measured disparity on standard
       group-fairness metrics under controlled mitigation than under
       unawareness — small scale, but the pattern matches the
-      mortgage-finance finding (Case 103) and the broader fair-ML
+      mortgage-finance finding (Case 102) and the broader fair-ML
       literature.#cn()
     ],
     [
@@ -255,7 +255,7 @@
       updated when peer review lands.#cn()
     ],
     [
-      What the pair (Cases 103 + 104) teaches together is the form of
+      What the pair (Cases 102 + 103) teaches together is the form of
       the equity capability deliverable: the practitioner must specify,
       in advance, the fairness definition the deployment will be
       evaluated against, audit on outputs rather than reasoning about
@@ -299,7 +299,7 @@
     The Coots audit is the small-tier frontier instance of the
     finding that controlled inclusion of a protected attribute can
     produce lower measured disparity than omission. With Bartlett
-    (Case 103) it forms the canonical lending pair: omission does
+    (Case 102) it forms the canonical lending pair: omission does
     not fix the harm; competing fairness definitions disagree about
     what fix is. Evidence is preprint-tier; future validation will
     continue.
@@ -320,7 +320,7 @@
   reflection-list: (
     [Identify a fairness audit in your domain conducted at preprint or unpublished stage. What part of its claim survives if peer review modifies the metric choices? What part is contingent on the specific magnitudes?],
     [Specify which fairness definition your deployment is being held to before the audit is run. What trade-off — across calibration, equalized odds, demographic parity — does that choice accept?],
-    [Coots' finding is consistent with Bartlett (Case 103) and with the broader fair-ML literature, but the specific magnitudes are preprint-tier. What is the minimum follow-up evidence you would require before allowing this case to drive an operational decision in your context?],
+    [Coots' finding is consistent with Bartlett (Case 102) and with the broader fair-ML literature, but the specific magnitudes are preprint-tier. What is the minimum follow-up evidence you would require before allowing this case to drive an operational decision in your context?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
 )

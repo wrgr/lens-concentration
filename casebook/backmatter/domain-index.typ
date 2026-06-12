@@ -249,10 +249,10 @@
       the heart of partial-autonomy operator roles.
     ]
     v(6pt)
-    standout-line("Note", 100, text-muted)[
+    standout-line("Note", 202, text-muted)[
       No paired-intervention success in the autonomous-systems dataset.
       The capability engineering this category needs is still being
-      built — see Case 100 (*The Discipline We Build Next*) for the
+      built — see Case 202 (*The Discipline We Build Next*) for the
       open question this volume closes on.
     ]
   },

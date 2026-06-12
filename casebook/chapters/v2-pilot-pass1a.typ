@@ -34,7 +34,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 124,
+  number: 123,
   slug: "nasa-eva-23-water-intrusion-inside-a",
   title: "NASA EVA-23 — Water Intrusion Inside a Spacesuit",
   year: "2013",
@@ -186,8 +186,8 @@
     detection-by-skin-contact at the edge of the engineered
     envelope, and in Domain 3 (Test and Evaluation) for the
     anomaly-investigation discipline the MIB pressed. Pair with
-    Case 116 (anesthesia monitoring) at the cue/alert-as-
-    capability layer and with Case 125 (F-22 OBOGS) as the
+    Case 115 (anesthesia monitoring) at the cue/alert-as-
+    capability layer and with Case 124 (F-22 OBOGS) as the
     aerospace companion in instrumentation-gap failure.
   ],
   literature-items: (
@@ -204,7 +204,7 @@
 )
 
 #case(
-  number: 125,
+  number: 124,
   slug: "f-22-obogs-hypoxia-the-sustainment-era",
   title: "F-22 OBOGS Hypoxia — The Sustainment-Era Instrumentation Gap",
   year: "2008 – 2012",
@@ -360,9 +360,9 @@
     and the bundle-of-corrections evaluation problem, and in
     Domain 5 (Machine Teaming and Adaptation) for the operator
     burden when an automatic action cuts a life-critical
-    supply. Pair with Case 124 (EVA-23) as the human-
+    supply. Pair with Case 123 (EVA-23) as the human-
     spaceflight instrumentation-gap companion and with
-    Case 116 (anesthesia monitoring) at the cue/alert-as-
+    Case 115 (anesthesia monitoring) at the cue/alert-as-
     capability layer.
   ],
   literature-items: (
@@ -379,7 +379,7 @@
 )
 
 #case(
-  number: 126,
+  number: 125,
   slug: "mil-std-1472h-human-engineering-as-a",
   title: "MIL-STD-1472H — Human Engineering as a Binding Acquisition Standard",
   year: "2020 revision (series since 1968)",
@@ -465,7 +465,7 @@
     [
       The case's value to LENS is the requirement-discipline
       form. MIL-STD-1472H is the human-engineering analog of
-      what SUBSAFE (Case 114) does for submarine
+      what SUBSAFE (Case 113) does for submarine
       watertight-integrity: a binding, recurring, auditable
       requirement set that the program-management chain
       cannot trade away without a documented deviation. The
@@ -490,7 +490,7 @@
       guarantee usable equipment; it makes usability a
       contractable, auditable deliverable. Cases of
       operator-platform mismatch in fielded DoD systems
-      (e.g., the F-22 OBOGS instrumentation gap in Case 125)
+      (e.g., the F-22 OBOGS instrumentation gap in Case 124)
       are not failures of the standard's existence but of the
       tailoring and verification around it. The case teaches
       the requirements-as-deliverable form at the
@@ -502,7 +502,7 @@
     "MIL-STD-1472 series 1968 – present; eight revisions through H (Sept 15, 2020)",
     "Design Criteria Standard: controls, displays, anthropometry, workspace, environment, hazards — binding, not advisory",
     "Converts human-factors findings into engineered requirements an acquisition contract can specify",
-    "Structural analog of SUBSAFE (Case 114) at the human-engineering scale — requirements-as-deliverable form",
+    "Structural analog of SUBSAFE (Case 113) at the human-engineering scale — requirements-as-deliverable form",
     "Necessary but not sufficient: standard is the mechanism, program tailoring and verification determine the outcome",
   ),
   approaches: (
@@ -541,8 +541,8 @@
     into engineered requirements, and in Domain 4 (Navigating
     Sociotechnical Constraints) for the tailoring and
     verification disciplines around the standard. Direct pair
-    with Case 114 (SUBSAFE) at the requirements-as-deliverable
-    layer and with Case 125 (F-22 OBOGS) at the
+    with Case 113 (SUBSAFE) at the requirements-as-deliverable
+    layer and with Case 124 (F-22 OBOGS) at the
     standard-versus-tailoring layer.
   ],
   literature-items: (
@@ -559,7 +559,7 @@
 )
 
 #case(
-  number: 127,
+  number: 126,
   slug: "gao-weapon-system-sustainment-reviews",
   title: "GAO Weapon-System Sustainment Reviews — Operating Costs without Decision-Grade Data",
   year: "2022 (GAO-22-104533)",
@@ -591,7 +591,7 @@
     reporting cycles — and the decisions that should be
     grounded in those data are being made on evidence the
     auditor describes as insufficient. The case is the
-    sustainment-side companion to MIL-STD-1472H (Case 126):
+    sustainment-side companion to MIL-STD-1472H (Case 125):
     the standards layer produces engineered design
     requirements; the sustainment-data layer is where the
     operating evidence to manage those systems over decades is
@@ -661,9 +661,9 @@
     ],
     [
       What LENS takes from the case is the requirement-for-
-      requirements form. MIL-STD-1472H (Case 126) is the
+      requirements form. MIL-STD-1472H (Case 125) is the
       requirements-discipline mechanism for the design phase;
-      SUBSAFE (Case 114) is the certification-discipline
+      SUBSAFE (Case 113) is the certification-discipline
       mechanism for the sustainment phase of a specific
       capability boundary. The GAO finding identifies the
       gap that those mechanisms do not fill: the portfolio-
@@ -695,7 +695,7 @@
     after: (
       [Carry the "judgment under inadequate evidence" framing into portfolio-decision documentation. The decision-maker does not get to wait for the evidence architecture to be fixed; the case asks what minimum evidence quality is required to act and what hedges should be documented.],
       [Treat the GAO recommendation set as the structural-fix roadmap, with progress measured by the narrowing of the comparability gap in specific cost categories rather than by claims of overall improvement.],
-      [Pair the sustainment-evidence frontier with the design-side standards mechanism (Case 126) so the program understands both halves of the requirements architecture: design criteria for the equipment, evidence architecture for the portfolio.],
+      [Pair the sustainment-evidence frontier with the design-side standards mechanism (Case 125) so the program understands both halves of the requirements architecture: design criteria for the equipment, evidence architecture for the portfolio.],
     ),
   ),
   references: (
@@ -718,8 +718,8 @@
     GAO weapon-system sustainment is the portfolio-evidence-
     architecture frontier case (induced 1.4; LENS D1/PT4) — used
     in Domain 3 for the CLO *Judgment under inadequate
-    evidence* at portfolio scale. Pair with Case 126 and
-    Case 114.
+    evidence* at portfolio scale. Pair with Case 125 and
+    Case 113.
   ],
   literature-items: (
     [GAO-22-104533 (2022), Weapon System Sustainment],
@@ -735,7 +735,7 @@
 )
 
 #case(
-  number: 128,
+  number: 127,
   slug: "duolingo-half-life-regression-spaced",
   title: "Duolingo Half-Life Regression — Spaced Repetition at Consumer Scale",
   year: "2016",
@@ -867,7 +867,7 @@
     after: (
       [Carry the single-vendor hedge into communication about the case. HLR is the strongest available evidence for trainable scheduling at consumer scale; it is not multi-vendor evidence and it is not a language-proficiency study.],
       [Distinguish the structural argument (per-item half-life estimation should outperform heuristic scheduling) from the domain transfer claim (HLR specifically generalizes to other learning content), which the published evidence does not yet support.],
-      [Pair the case with spaced-education clinical RCTs (Case 148) when those are drafted, so the corpus has both a consumer-scale single-vendor deployment and a clinical-domain replication base for the same underlying mechanism.],
+      [Pair the case with spaced-education clinical RCTs (Case 147) when those are drafted, so the corpus has both a consumer-scale single-vendor deployment and a clinical-domain replication base for the same underlying mechanism.],
     ),
   ),
   references: (
@@ -894,7 +894,7 @@
     (Iterative Development) for the production-deployment
     evaluation form, and in Domain 3 (Test and Evaluation) for
     the engagement-proxy-vs-proficiency-assessment distinction.
-    Pair with the spaced-education clinical RCTs (Case 148) for
+    Pair with the spaced-education clinical RCTs (Case 147) for
     the cross-domain replication base, and with the
     machine-teaming AI-delegation typology where the
     delegation is to a scheduler optimizing on a proxy
@@ -914,7 +914,7 @@
 )
 
 #case(
-  number: 129,
+  number: 128,
   slug: "egpws-taws-closing-the-cfit-category-in",
   title: "EGPWS / TAWS — Closing the CFIT Category in Commercial Aviation",
   year: "1996 – 2002",
@@ -1012,8 +1012,8 @@
       of terrain was the limiting variable was converted into
       a monitored, recoverable mode by surfacing the forward
       terrain picture as an actionable alert. Pair with
-      anesthesia monitoring (Case 116) at the cue/alert-as-
-      capability layer, and with TCAS (Case 130) at the
+      anesthesia monitoring (Case 115) at the cue/alert-as-
+      capability layer, and with TCAS (Case 129) at the
       automated-advisory-system layer.#cn()
     ],
     [
@@ -1076,7 +1076,7 @@
     EGPWS / TAWS is the aviation cue/alert intervention case
     (induced 3.1; LENS D3/PT5) — Domain 3 for cue-design-as-
     deliverable; Domain 5 for the operator-cue boundary. Pair
-    with TCAS (Case 130) and Case 116 (anesthesia monitoring).
+    with TCAS (Case 129) and Case 115 (anesthesia monitoring).
   ],
   literature-items: (
     [Bateman (1999), FSF 11th European Aviation Safety Seminar],
@@ -1092,7 +1092,7 @@
 )
 
 #case(
-  number: 130,
+  number: 129,
   slug: "tcas-coordinated-collision-avoidance",
   title: "TCAS — Coordinated Collision Avoidance and the Überlingen Lesson",
   year: "1981 – 2008 (TCAS II Version 7.1)",
@@ -1230,7 +1230,7 @@
     after: (
       [Carry the Überlingen failure mode into the case rather than smoothing it away. The intervention is not less effective for having a documented coordination edge case; it is more credible because the edge case is named and addressed.],
       [Track the post-V7.1 outcome record as evidence about the correction, not just about the original intervention; the lesson is the iterative-design discipline that the human–automation triangle requires after a failure mode is exposed.],
-      [Use the case as the canonical pair to EGPWS (Case 129): two cockpit automations, two outcome categories closed, one with a coordination edge case that drove a version revision and one without.],
+      [Use the case as the canonical pair to EGPWS (Case 128): two cockpit automations, two outcome categories closed, one with a coordination edge case that drove a version revision and one without.],
     ),
   ),
   references: (
@@ -1255,8 +1255,8 @@
     TCAS is the coordinated-cockpit-automation case
     (induced 3.1; LENS D3/PT5) — Domain 3 for the
     Überlingen-driven V7.1 iteration; Domain 5 for the
-    crew–TCAS–ATC precedence rule. Pair with EGPWS (Case 129)
-    and Case 116.
+    crew–TCAS–ATC precedence rule. Pair with EGPWS (Case 128)
+    and Case 115.
   ],
   literature-items: (
     [RTCA DO-185B (2008), TCAS II Version 7.1],
@@ -1272,7 +1272,7 @@
 )
 
 #case(
-  number: 131,
+  number: 130,
   slug: "sterile-cockpit-ward-rounds-adapting-an",
   title: "Sterile-Cockpit Ward Rounds — Adapting an Aviation Principle to Clinical Handoff",
   year: "2024 – 2025",
@@ -1374,7 +1374,7 @@
       defined permitted interruption classes, defined triage
       responsibility) rather than the principle imported
       without translation. Pair the case with I-PASS (a
-      structured-handoff intervention; Case 143 when drafted)
+      structured-handoff intervention; Case 142 when drafted)
       at the handoff-as-capability layer, and with CRM
       (Case 12) at the aviation-safety-culture-to-
       clinical-care translation layer.#cn()
@@ -1442,8 +1442,8 @@
     Sterile-cockpit ward rounds is the cross-domain adaptation
     case (induced 3.2; LENS D5/PT5) — Domain 5 for workflow-
     context-as-design-variable; Domain 4 for the cultural-
-    commitment half. Pair with I-PASS (Case 143), CRM (Case 12),
-    and Case 116.
+    commitment half. Pair with I-PASS (Case 142), CRM (Case 12),
+    and Case 115.
   ],
   literature-items: (
     [PMC12515027 — sterile-cockpit ward rounds],

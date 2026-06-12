@@ -4,7 +4,7 @@
 //
 //   150  Language of Surgery / JIGSAWS — small-tier intervention. JHU
 //        affiliation; lighter COI (anchored to peer-reviewed paper and the
-//        publicly released dataset). Pairs with Case 144 (Birkmeyer).
+//        publicly released dataset). Pairs with Case 143 (Birkmeyer).
 //   151  LALA — non-US (Chile, Ecuador, Mexico) LA governance capacity
 //        building. Adoption-readiness evidence; long-run outcome open.
 //   152  African data privacy & LA — frontier; non-US; extraterritorial
@@ -30,7 +30,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 150,
+  number: 149,
   slug: "language-of-surgery-jigsaws-decomposing",
   title: "Language of Surgery / JIGSAWS — Decomposing Skill into Measurable Units",
   year: "2009 – 2016",
@@ -65,7 +65,7 @@
     question — preserved here verbatim — is whether automated
     motion-level feedback accelerates trainee skill acquisition or
     improves patient outcomes. The dataset enables the question more
-    than it answers it. The case pairs directly with Case 144
+    than it answers it. The case pairs directly with Case 143
     (Birkmeyer's video-rated bariatric-surgical-skill outcome study),
     which establishes that skill matters; together they form the
     skill-measurement spine the corpus needed.
@@ -131,7 +131,7 @@
       the standing safeguard against boosterism.#cn()
     ],
     [
-      In pair with Case 144 (Birkmeyer et al.'s video-rated bariatric
+      In pair with Case 143 (Birkmeyer et al.'s video-rated bariatric
       surgical-skill study), the case completes a skill-measurement
       pair the corpus had needed: Birkmeyer shows that rated skill
       predicts patient outcome at scale (skill matters), and this
@@ -150,7 +150,7 @@
     "JIGSAWS released as a public da Vinci dataset with synchronized kinematic, video, gesture, and skill-rating tracks",
     "Vedula et al. 2016: experts use fewer gestures (26.29 vs 31.30) and fewer gesture errors than novices on knot-tying",
     "Open question preserved: whether automated motion-level feedback accelerates skill acquisition or improves patient outcomes",
-    "Pair with Case 144 (Birkmeyer) — Birkmeyer shows skill matters; this case shows skill is decomposable and machine-measurable",
+    "Pair with Case 143 (Birkmeyer) — Birkmeyer shows skill matters; this case shows skill is decomposable and machine-measurable",
   ),
   approaches: (
     during: (
@@ -168,7 +168,7 @@
     [Vedula, Ishii, & Hager (2016), "Analysis of the Structure of Surgical Activity for a Suturing and Knot-Tying Task," _PLOS One_ 11(3):e0149174, doi:10.1371/journal.pone.0149174.],
     [Gao, Vedula, Reiley, Ahmidi, Varadarajan, Lin, Tao, Zappella, Bejar, Yuh, Chen, Vidal, Khudanpur, & Hager (2014), "JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling," _MICCAI Workshop_ — JIGSAWS dataset release paper.],
     [Reiley, Lin, Yuh, & Hager (2011), "Review of methods for objective surgical skill evaluation," _Surgical Endoscopy_ 25(2):356–366 — situates the decomposition within the broader skill-assessment literature.],
-    [Birkmeyer, Finks, O'Reilly, et al. (2013), _NEJM_ — the paired skill-matters study (Case 144).],
+    [Birkmeyer, Finks, O'Reilly, et al. (2013), _NEJM_ — the paired skill-matters study (Case 143).],
   ),
   quote: [Surgical motion is language. The unit of skill is the gesture; the corpus is the dataset; the benchmark is the field's continued use of it more than a decade after release.],
   quote-source: "Editors' synthesis of Vedula et al. (2016) and the JIGSAWS release.",
@@ -186,7 +186,7 @@
     Language of Surgery is the skill-decomposition case
     (induced 2.1; LENS D3/PT5) — Domain 3 for construct-
     resolution; Domain 1 for task-decomposition. Pair with
-    Case 144 (Birkmeyer) and Case 116. Home-institution
+    Case 143 (Birkmeyer) and Case 115. Home-institution
     disclosure under the title.
   ],
   literature-items: (
@@ -203,7 +203,7 @@
 )
 
 #case(
-  number: 151,
+  number: 150,
   slug: "lala-building-learning-analytics",
   title: "LALA — Building Learning-Analytics Governance Capacity Across Latin America",
   year: "2017 – 2020",
@@ -237,7 +237,7 @@
     student retention or learning. The contribution is the
     participatory governance method that made adoption locally
     legitimate — and the case is the non-US companion to OU Analyse
-    (Case 110), where governance-by-design unblocked deployment in
+    (Case 109), where governance-by-design unblocked deployment in
     a different cross-cultural context.
   ],
   sections: (
@@ -301,13 +301,13 @@
       claim.#cn()
     ],
     [
-      In pair with the Open University case (Case 110, the UK
+      In pair with the Open University case (Case 109, the UK
       consent-by-design intervention), LALA shows that the
       governance-by-design pattern is transferable across regimes:
       OU built consent for a single-institution intervention under
       pre-GDPR UK scrutiny; LALA built participatory adoption for
       multi-country capacity-building under three different Latin
-      American regulatory regimes. The pair plus SyRI (Case 111)
+      American regulatory regimes. The pair plus SyRI (Case 110)
       teaches the non-US LA governance triple — design that
       unblocked deployment (OU), participatory governance that
       built adoption capacity (LALA), and rights-grounded halt
@@ -338,7 +338,7 @@
   references: (
     [Hilliger, Ortiz-Rojas, Pesántez-Cabrera, Scheihing, Tsai, Muñoz-Merino, Broos, Whitelock-Wainwright, & Pérez-Sanagustín (2020), "Identifying needs for learning analytics adoption in Latin American universities: A mixed-methods approach," _The Internet and Higher Education_ 45:100726, doi:10.1016/j.iheduc.2020.100726.],
     [LALA project — EU Erasmus+ grant 586120-EPP-1-2017-1-ES (2017–2020) — program documentation and the LALA CANVAS artifact.],
-    [Open University Ethical Use of Student Data policy (2014) and OU Analyse — UK companion governance-by-design case (Case 110).],
+    [Open University Ethical Use of Student Data policy (2014) and OU Analyse — UK companion governance-by-design case (Case 109).],
     [Slade & Prinsloo (2013), "Learning Analytics: Ethical Issues and Dilemmas," _American Behavioral Scientist_ 57(10):1510–1529 — the broader field-scale ethics framing.],
   ),
   quote: [Stakeholders did not want the analytics if the governance was wrong. They wanted both, in that order, with ethical responsibility as the precondition rather than the afterthought.],
@@ -357,7 +357,7 @@
     (induced 5.1; LENS D4/PT4) — Domain 4 for the cross-regime
     participatory method; Domain 5 on *Judgment under
     inadequate evidence* (adoption-readiness, not closed
-    outcome proof). Pair with Case 110 (OU) and Case 111
+    outcome proof). Pair with Case 109 (OU) and Case 110
     (SyRI).
   ],
   literature-items: (
@@ -374,7 +374,7 @@
 )
 
 #case(
-  number: 152,
+  number: 151,
   slug: "data-privacy-and-learning-analytics-on",
   title: "Data Privacy and Learning Analytics on the African Continent",
   year: "2022",
@@ -531,8 +531,8 @@
     governance case (induced 5.3; LENS D4/PT6) — Domain 4 for
     the cross-regime seam; Domain 5 for *Judgment under
     inadequate evidence* on a frontier where the architectural
-    response is recommended but not built. Pair with Case 110
-    and Case 151.
+    response is recommended but not built. Pair with Case 109
+    and Case 150.
   ],
   literature-items: (
     [Prinsloo, Slade, & Khalil (2022), _BJET_, doi:10.1111/bjet.13226],
@@ -548,7 +548,7 @@
 )
 
 #case(
-  number: 153,
+  number: 152,
   slug: "norways-national-expert-commission-on",
   title: "Norway's National Expert Commission on Learning Analytics",
   year: "2022 – 2023",
@@ -583,7 +583,7 @@
     are not yet documented. This is process-level evidence (a
     national governance artifact exists, the dilemmas are named),
     not yet deployment-outcome evidence. The case pairs with the
-    OU (Case 110) and SyRI (Case 111) cases as the national
+    OU (Case 109) and SyRI (Case 110) cases as the national
     Nordic complement to the institutional-UK and judicial-Dutch
     governance modes.
   ],
@@ -649,8 +649,8 @@
       qualification rather than collapsing it.#cn()
     ],
     [
-      In pair with the Open University (Case 110, institutional
-      governance-by-design, UK) and SyRI (Case 111, judicial
+      In pair with the Open University (Case 109, institutional
+      governance-by-design, UK) and SyRI (Case 110, judicial
       rights-grounded halt, Netherlands), Norway's commission is
       the national-scale governance-architecture mode. The three
       cases together teach that learning-analytics governance can
@@ -668,7 +668,7 @@
     "Mandate covers pedagogical, ethical, legal, and privacy dimensions across the whole education sector",
     "Interim report June 2022, final report 2023 (NOU) names central dilemmas: predictive support vs gatekeeping, transparency vs model complexity, benchmarking vs data protection",
     "Honest limit: process-level evidence (artifact exists, dilemmas named); downstream sector outcomes not yet documented — governance-process success, not yet deployment-outcome success",
-    "Pair with OU (Case 110, institutional) and SyRI (Case 111, judicial); national-scale governance-architecture mode in the non-US LA triple",
+    "Pair with OU (Case 109, institutional) and SyRI (Case 110, judicial); national-scale governance-architecture mode in the non-US LA triple",
   ),
   approaches: (
     during: (
@@ -686,7 +686,7 @@
     [Norwegian Expert Commission on Learning Analytics, interim report to the Minister of Education and Research (June 2022).],
     [Norwegian Expert Commission on Learning Analytics, final NOU report (2023), _Norges offentlige utredninger_.],
     [Misiejuk & Wasson (2023), "Learning analytics in Norway: A national perspective," _Journal of Learning Analytics_ — secondary academic synthesis of the commission and its dilemmas.],
-    [Hilliger et al. (2020), _Internet and Higher Education_ — the LALA companion at multi-country participatory scale (Case 151).],
+    [Hilliger et al. (2020), _Internet and Higher Education_ — the LALA companion at multi-country participatory scale (Case 150).],
   ),
   quote: [The commission did not resolve learning-analytics governance for Norway. It named the dilemmas the sector will live with and produced the artifact deployment can be governed under.],
   quote-source: "Editors' synthesis of the Norwegian Expert Commission interim and final reports.",
@@ -707,9 +707,9 @@
     control-and-disclosure-as-artifact discipline and in
     Domain 3 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* on the process-vs-outcome tier.
-    Pair with Case 110 (OU, institutional), Case 111 (SyRI,
-    judicial), Case 151 (LALA, multi-country participatory),
-    and Case 152 (African data privacy, frontier) — the non-US
+    Pair with Case 109 (OU, institutional), Case 110 (SyRI,
+    judicial), Case 150 (LALA, multi-country participatory),
+    and Case 151 (African data privacy, frontier) — the non-US
     LA governance pentad teaching the level-of-governance
     decision.
   ],
@@ -727,7 +727,7 @@
 )
 
 #case(
-  number: 154,
+  number: 153,
   slug: "mmala-a-maturity-model-for-responsible",
   title: "MMALA — A Maturity Model for Responsible Learning-Analytics Adoption (Brazil)",
   year: "2024",
@@ -764,7 +764,7 @@
     institutions that used it to adopt LA — it is an instrument
     for responsible adoption, with the downstream effect on
     student learning still to be measured. The case pairs with the
-    OU policy (Case 110) and the LALA CANVAS (Case 151) as the
+    OU policy (Case 109) and the LALA CANVAS (Case 150) as the
     institutional-instrument layer of the non-US LA governance
     set.
   ],
@@ -825,10 +825,10 @@
       "students learned more" is not yet closed by evidence.#cn()
     ],
     [
-      In the non-US LA governance set — OU (Case 110, policy and
-      operating system), LALA (Case 151, participatory adoption
-      framework), African data privacy (Case 152, cross-regime
-      seam), Norway (Case 153, national commission), and MMALA
+      In the non-US LA governance set — OU (Case 109, policy and
+      operating system), LALA (Case 150, participatory adoption
+      framework), African data privacy (Case 151, cross-regime
+      seam), Norway (Case 152, national commission), and MMALA
       (this case, institutional maturity model) — the cases
       together teach the level structure of governance for the
       same underlying capability. MMALA's specific contribution
@@ -862,9 +862,9 @@
   ),
   references: (
     [Freitas, Mello, Gasevic, Costa, & Andrade (2024), "MMALA: Developing and Evaluating a Maturity Model for Adopting Learning Analytics," _Journal of Learning Analytics_ 11(1):67–86.],
-    [Open University Ethical Use of Student Data policy (2014) — institutional-policy companion (Case 110).],
-    [Hilliger et al. (2020), _Internet and Higher Education_ — LALA participatory adoption companion (Case 151).],
-    [Norwegian Expert Commission on Learning Analytics, final NOU (2023) — national-scale companion (Case 153).],
+    [Open University Ethical Use of Student Data policy (2014) — institutional-policy companion (Case 109).],
+    [Hilliger et al. (2020), _Internet and Higher Education_ — LALA participatory adoption companion (Case 150).],
+    [Norwegian Expert Commission on Learning Analytics, final NOU (2023) — national-scale companion (Case 152).],
   ),
   quote: [The instrument converts "we should adopt responsibly" into a structured per-dimension self-assessment. The instrument is validated; the downstream learning outcome is the next study.],
   quote-source: "Editors' synthesis of Freitas et al. (2024).",
@@ -885,7 +885,7 @@
     Domain 4 (Navigating Sociotechnical Constraints) for the
     governance-as-instrument framing; and on the CLO *Judgment under inadequate evidence* for the
     instrument-validation-vs-outcome-validation tier
-    distinction. Pair with Cases 110, 151, 152, 153 as the
+    distinction. Pair with Cases 109, 150, 151, 152 as the
     non-US LA governance pentad; MMALA is the
     institutional-instrument layer.
   ],
@@ -903,7 +903,7 @@
 )
 
 #case(
-  number: 155,
+  number: 154,
   slug: "watson-for-oncology-delegation-marketed",
   title: "Watson for Oncology — Delegation Marketed Ahead of Capability",
   year: "2013 – 2018",
@@ -1014,7 +1014,7 @@
       tier the case rests on.#cn()
     ],
     [
-      In the AI-delegation typology (Cases 101 TREWS, 102 Epic
+      In the AI-delegation typology (Cases 100 TREWS, 102 Epic
       Sepsis Model, 111 SyRI, and this case), Watson is the
       marketing-ahead-of-capability failure mode: the procurement
       decision rode on marketed concordance rates that were not
@@ -1057,7 +1057,7 @@
     [Ross & Swetlitz (2017–2018), "IBM Watson recommended unsafe and incorrect cancer treatments" and adjacent investigations, _STAT News_ — the load-bearing primary source; investigative journalism drawing on leaked IBM internal documents.],
     [Strickland (2019), "How IBM Watson Overpromised and Underdelivered on AI Health Care," _IEEE Spectrum_ — independent retrospective synthesis of the public record.],
     [Topol (2019), _Deep Medicine_, Basic Books — secondary academic situating of Watson within the broader clinical-AI delegation discourse.],
-    [v2 paired cases: TREWS (Case 101), Epic Sepsis Model (Case 102), SyRI (Case 111) — the AI-delegation typology.],
+    [v2 paired cases: TREWS (Case 100), Epic Sepsis Model (Case 101), SyRI (Case 110) — the AI-delegation typology.],
   ),
   quote: [The capability the procurement was buying — accurate, real-world treatment recommendation at the marketed concordance rate — was not the capability the system carried.],
   quote-source: "Editors' synthesis of Ross & Swetlitz (STAT News 2017–2018).",
@@ -1077,7 +1077,7 @@
     AI-delegation failure (induced 1.1; LENS D5/PT6) — Domain 5
     for *Delegation with revocation* (MD Anderson wind-downs
     are the revocation half); Domain 3 for requirements-vs-
-    marketing. Pair with Cases 101, 102, 111. Evidence-tier
+    marketing. Pair with Cases 100, 101, 110. Evidence-tier
     flag binds.
   ],
   literature-items: (
@@ -1094,7 +1094,7 @@
 )
 
 #case(
-  number: 156,
+  number: 155,
   slug: "school-surveillance-and-black-student",
   title: "School Surveillance and Black Student Outcomes — Infrastructure as the Mechanism",
   year: "2010s – 2022",
@@ -1133,7 +1133,7 @@
     an institution with the study's authors, and the case is
     anchored to the peer-reviewed _Journal of Criminal Justice_
     evidence rather than to institutional press. The case
-    extends the race-construct trio (Cases 105 eGFR, 106 pulse
+    extends the race-construct trio (Cases 104 eGFR, 106 pulse
     oximetry, 107 Hoffman) into the K-12 education domain at the
     infrastructure layer.
   ],
@@ -1184,7 +1184,7 @@
       attributing the outcome gap to the students rather than to
       the infrastructure mis-locates the mechanism in a way the
       data does not support. The case extends the race-construct
-      trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman)
+      trio (Cases 104 eGFR, 106 pulse oximetry, 107 Hoffman)
       into K-12 education at the infrastructure layer: in eGFR
       and pulse oximetry the mechanism was in the device or the
       formula; in Hoffman the mechanism was in the practitioner's
@@ -1215,7 +1215,7 @@
       established the pattern at the device/formula/cognitive-
       baseline layers; this case carries the pattern at the
       institutional-infrastructure layer. The four-case set
-      (Cases 105, 106, 107, 156) is the case-grounded basis for
+      (Cases 104, 105, 106, 155) is the case-grounded basis for
       Gap attribution as a designed competency: practitioners
       and program designers have to be trained to look for the
       mechanism in the infrastructure they built, not only in
@@ -1227,7 +1227,7 @@
     "US school-surveillance infrastructure (cameras, metal detectors, SROs, ID checks) distributed unevenly — schools with predominantly Black students carry more",
     "Johnson et al. 2022 (Journal of Criminal Justice): separates student-level from school-level variables; measured share of outcome gap attributable to the infrastructure, not the students",
     "Mechanism is the infrastructure, not the students — attributing the gap to the population mis-locates the mechanism in a measurable sense",
-    "Extends race-construct trio (Cases 105 eGFR, 106 pulse oximetry, 107 Hoffman) into K-12 education at the institutional-infrastructure layer",
+    "Extends race-construct trio (Cases 104 eGFR, 106 pulse oximetry, 107 Hoffman) into K-12 education at the institutional-infrastructure layer",
     "One of the motivating cases for the CLO Gap attribution — discipline of asking which share is the infrastructure vs. the population",
   ),
   approaches: (
@@ -1238,15 +1238,15 @@
     ),
     after: (
       [Carry the Gap-attribution discipline into curriculum design: practitioners have to be trained to look for the mechanism in the infrastructure they built, not only in the population they are serving.],
-      [Pair the case with the race-construct trio (Cases 105, 106, 107) so the gap-attribution pattern is taught at multiple layers — device, formula, cognitive baseline, institutional architecture.],
+      [Pair the case with the race-construct trio (Cases 104, 105, 106) so the gap-attribution pattern is taught at multiple layers — device, formula, cognitive baseline, institutional architecture.],
       [Preserve the COI render — shared institution, anchored to peer-reviewed evidence, critical editorial distance — as the standing language for home-institution-shared cases across the corpus.],
     ),
   ),
   references: (
     [Johnson and colleagues (2022), school-surveillance infrastructure and Black student outcomes, _Journal of Criminal Justice_ — the load-bearing peer-reviewed source for the case.],
-    [Hoffman, Trawalter, Axt, & Oliver (2016), "Racial bias in pain assessment and treatment recommendations, and false beliefs about biological differences between blacks and whites," _PNAS_ 113(16):4296–4301 — race-construct trio at the cognitive-baseline layer (Case 107).],
-    [Inker, Eneanya, Coresh, et al. (2021), "New Creatinine- and Cystatin C–Based Equations to Estimate GFR without Race," _NEJM_ — race-construct trio at the formula layer (Case 105).],
-    [Sjoding, Dickson, Iwashyna, Gay, & Valley (2020), "Racial Bias in Pulse Oximetry Measurement," _NEJM_ 383:2477–2478 — race-construct trio at the device layer (Case 106).],
+    [Hoffman, Trawalter, Axt, & Oliver (2016), "Racial bias in pain assessment and treatment recommendations, and false beliefs about biological differences between blacks and whites," _PNAS_ 113(16):4296–4301 — race-construct trio at the cognitive-baseline layer (Case 106).],
+    [Inker, Eneanya, Coresh, et al. (2021), "New Creatinine- and Cystatin C–Based Equations to Estimate GFR without Race," _NEJM_ — race-construct trio at the formula layer (Case 104).],
+    [Sjoding, Dickson, Iwashyna, Gay, & Valley (2020), "Racial Bias in Pulse Oximetry Measurement," _NEJM_ 383:2477–2478 — race-construct trio at the device layer (Case 105).],
   ),
   quote: [The mechanism is the infrastructure, not the students. Attributing the outcome gap to the population mis-locates the mechanism in a measurable sense the data does not support.],
   quote-source: "Editors' synthesis of Johnson et al. (Journal of Criminal Justice, 2022).",
@@ -1266,7 +1266,7 @@
     (induced 8.1; LENS D3/PT5) — Domain 3 as the case-grounded
     basis for *Gap attribution*; Domain 4 for the
     institutional-architecture-as-mechanism framing. Pair with
-    Cases 105, 106, 107. COI binds.
+    Cases 104, 105, 106. COI binds.
   ],
   literature-items: (
     [Johnson et al. (2022), _Journal of Criminal Justice_],

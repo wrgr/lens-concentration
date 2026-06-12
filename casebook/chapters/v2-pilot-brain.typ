@@ -19,7 +19,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 108,
+  number: 107,
   slug: "launching-the-brain-initiative",
   title: "Launching the BRAIN Initiative — Governance of a Grand Challenge",
   year: "2011 – 2015 – present",
@@ -51,7 +51,7 @@
     Review retrospective assessed that the big-science brain projects,
     BRAIN included, did not deliver the unified understanding their
     framing promised. The case pairs with the EU Human Brain Project
-    (Case 109) as a contrast in governance models — distributed
+    (Case 108) as a contrast in governance models — distributed
     working-group versus top-down single-PI — at the same era, the
     same ambition, and opposite trajectories.
   ],
@@ -116,7 +116,7 @@
       sequence, the working-group composition decision, and the
       public airing of scope drift are the artifacts a future
       capability-development program can study. Paired with the EU
-      Human Brain Project (Case 109), the case shows that the
+      Human Brain Project (Case 108), the case shows that the
       governance model — distributed working-group versus top-down
       single-PI — was the variable that explained why one program
       survived and adapted while the other unraveled. The framing,
@@ -168,7 +168,7 @@
     Constraints) for the public-record governance contestation;
     and in Domain 3 (Test and Evaluation) for the
     enthusiasm-evidence gap as the framing exceeded delivered
-    science. Direct pair with Case 109 (EU Human Brain Project),
+    science. Direct pair with Case 108 (EU Human Brain Project),
     same era and ambition, opposite governance model. The COI
     disclosure under the title is binding: the editor's research
     adjacency is what motivated the critical retrospective being
@@ -182,13 +182,13 @@
   reflection-list: (
     [Identify a large research or capability-development program in your domain whose launch artifacts (position papers, working-group reports, milestone plans) are publicly auditable. What governance choices were made openly and which were made in private?],
     [Specify the founding-framing-vs-delivered-capability comparison you would publish at year five and year ten of a program you are designing. What is the evidence form, who commissions it, and where does it live in the record?],
-    [BRAIN survived and adapted while the EU Human Brain Project (Case 109) unraveled. What is the minimum governance documentation that would let a future program-designer learn the difference, rather than reconstruct it from contested press accounts?],
+    [BRAIN survived and adapted while the EU Human Brain Project (Case 108) unraveled. What is the minimum governance documentation that would let a future program-designer learn the difference, rather than reconstruct it from contested press accounts?],
   ),
   courses: ("LEN 1", "LEN 7", "LEN 8"),
 )
 
 #case(
-  number: 109,
+  number: 108,
   slug: "eu-human-brain-project-top-down-vision",
   title: "EU Human Brain Project — Top-Down Vision That Unraveled",
   year: "2013 – 2023",
@@ -211,7 +211,7 @@
     decade-long funding commitment of about €1 billion, and a
     research community asked to align around the simulation goal. The
     case is drafted as the paired contrast to the BRAIN Initiative
-    (Case 108), not as a standalone study: the same era, the same
+    (Case 107), not as a standalone study: the same era, the same
     field-scale ambition, opposite governance models, opposite
     trajectories. The evidence base is largely journalism — MIT
     Technology Review retrospective, _In Silico_ documentary, science
@@ -249,7 +249,7 @@
       the founding framing was not what it delivered.#cn()
     ],
     [
-      The case pairs directly with the BRAIN Initiative (Case 108).
+      The case pairs directly with the BRAIN Initiative (Case 107).
       The two programs launched within months of each other, at
       comparable field-scale ambition, in the same decade of
       neuroscience. The governance models were not comparable: BRAIN
@@ -276,7 +276,7 @@
       before publication. Future validation will continue.#cn()
     ],
     [
-      What the pair (Cases 108 + 109) teaches is that the governance
+      What the pair (Cases 107 + 108) teaches is that the governance
       model — distributed working-group with public-record
       contestation versus top-down single-PI with unified framing —
       is itself the variable that explains why one field-scale
@@ -294,7 +294,7 @@
     "Community contestation surfaces quickly: feasibility, leadership breadth, no scope-revision process",
     "EU commissions mediation and restructuring; scope re-shaped around infrastructure platforms, not simulation",
     "Project runs to 2023 conclusion; founding framing is not what was delivered",
-    "Pair with BRAIN (Case 108): same era and ambition, opposite governance models, opposite trajectories — governance is the variable",
+    "Pair with BRAIN (Case 107): same era and ambition, opposite governance models, opposite trajectories — governance is the variable",
   ),
   approaches: (
     during: (
@@ -313,13 +313,13 @@
     [_In Silico_ (2020), documentary by Noah Hutton — long-form follow of Markram and the HBP through the contestation period.],
     [_Science_ and _Nature_ contemporaneous coverage of the open letters and the mediation/restructuring (2014–2016).],
     [Human Brain Project final reports (2023) — the project's own restructuring and concluding documentation.],
-    [Alivisatos et al. (2012), _Neuron_ — the BRAIN position paper that is the paired contrast (Case 108).],
+    [Alivisatos et al. (2012), _Neuron_ — the BRAIN position paper that is the paired contrast (Case 107).],
   ),
   quote: [A program that cannot re-scope without external mediation is a program designed to fail open.],
   quote-source: "Editors' synthesis of the Human Brain Project record.",
   le-insight: [
     The EU Human Brain Project is the paired contrast to the BRAIN
-    Initiative (Case 108): same era, same field-scale ambition,
+    Initiative (Case 107): same era, same field-scale ambition,
     opposite governance models, opposite trajectories. Top-down
     single-PI governance with a unified framing did not survive
     community contestation; the program was mediated away from its
@@ -330,7 +330,7 @@
   lens-approach: [
     HBP is the field-scale failure case in the v2 corpus
     (induced 5.1; LENS D1+D4/PT4) drafted as the contrast to BRAIN
-    (Case 108). LENS uses the pair in Domain 1 (Systems Analysis)
+    (Case 107). LENS uses the pair in Domain 1 (Systems Analysis)
     for the governance-variable comparison and in Domain 4
     (Navigating Sociotechnical Constraints) for the
     contestation-absorption capability. The

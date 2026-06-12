@@ -22,7 +22,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 101,
+  number: 100,
   slug: "trews-sepsis-watch",
   title: "TREWS / Sepsis Watch",
   year: "2018 – 2022",
@@ -54,7 +54,7 @@
     the alert actionable at the bedside. The honest hedge in the literature
     is that the evidence is prospective and observational, not RCT; the
     field notes RCTs are still pending. The case is the positive counter to
-    the Epic Sepsis Model (Case 102): same delegation task, opposite outcome,
+    the Epic Sepsis Model (Case 101): same delegation task, opposite outcome,
     and the difference is in the engineering of the human–machine boundary
     and the discipline of the surrounding evidence work.
   ],
@@ -158,7 +158,7 @@
     judgment-under-inadequate-evidence CLO, and in Domain 4
     (Navigating Sociotechnical Constraints) for the workflow-fit
     discipline. It is the foil drafted directly against the Epic
-    Sepsis Model (Case 102).
+    Sepsis Model (Case 101).
   ],
   literature-items: (
     [Adams et al. (2022), _Nature Medicine_],
@@ -174,7 +174,7 @@
 )
 
 #case(
-  number: 102,
+  number: 101,
   slug: "epic-sepsis-model",
   title: "Epic Sepsis Model",
   year: "2017 – 2021",
@@ -252,7 +252,7 @@
       was supposed to have.#cn()
     ],
     [
-      The Epic case is the negative pair to TREWS (Case 101) and the
+      The Epic case is the negative pair to TREWS (Case 100) and the
       governance-seam analog to Radiology AI Miscalibration (Case 95).
       Together they teach a typology: delegation done well as a paired
       intervention with engineered interface and outcome-grounded
@@ -310,7 +310,7 @@
     delegation-with-revocation CLO — Epic was delegated without a
     pre-specified revocation criterion; and in Domain 4 (Navigating
     Sociotechnical Constraints) for the cross-regime / platform
-    governance seam. Pairs directly against TREWS (Case 101) and
+    governance seam. Pairs directly against TREWS (Case 100) and
     sits in the AI-delegation typology with SyRI and Watson.
   ],
   literature-items: (

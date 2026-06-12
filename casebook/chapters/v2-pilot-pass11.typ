@@ -30,7 +30,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 193,
+  number: 192,
   slug: "australia-robodebt",
   title: "Australia Robodebt — Algorithmic Debt-Recovery and the Royal Commission Verdict",
   year: "2016 – 2023",
@@ -60,9 +60,9 @@
     not a direct legal finding of individual causation — but the
     finding that multiple deaths were associated with the scheme's
     operation is part of the adjudicated record. The case pairs
-    with Case 111 (SyRI, the governance-objection-correct
-    precedent), Case 156 (Johnson school surveillance, the
-    algorithmic-public-administration parallel), and Case 102
+    with Case 110 (SyRI, the governance-objection-correct
+    precedent), Case 155 (Johnson school surveillance, the
+    algorithmic-public-administration parallel), and Case 101
     (Epic Sepsis, the delegation-without-validation form).
   ],
   sections: (
@@ -121,17 +121,17 @@
       bodies.#cn()
     ],
     [
-      The case pairs with Case 111 (SyRI, the Dutch System Risk
+      The case pairs with Case 110 (SyRI, the Dutch System Risk
       Indication ruling by the Hague District Court) as the
       governance-objection-correct precedent — SyRI was struck
       down before it produced a debt-scale harm record;
       Robodebt operated for three years and the harm record is
-      what the Commission adjudicated. Pair with Case 156
+      what the Commission adjudicated. Pair with Case 155
       (Johnson school surveillance) for the algorithmic-public-
       administration parallel at a different population and a
       smaller scale; the structural form — algorithm asserts,
       affected party must disprove — recurs across the two
-      cases. Pair with Case 102 (Epic Sepsis) for the
+      cases. Pair with Case 101 (Epic Sepsis) for the
       delegation-without-validation form: in Epic Sepsis the
       delegated system asserts a clinical risk; in Robodebt the
       delegated system asserts a financial debt; in both, the
@@ -161,7 +161,7 @@
     "~470,000 wrongful debts raised 2016–2019; burden of proof reversed onto recipients; agency legal advice flagged the seam and was set aside",
     "Prygodicz 2019 Federal Court judgment found the method unlawful; Royal Commission final report July 7 2023 adjudicated the governance question",
     "Commission attribution on deaths is circumstantial — not individual legal findings of causation; the careful language is part of the record",
-    "Pair with Case 111 (SyRI precedent), Case 156 (Johnson algorithmic public administration), Case 102 (Epic Sepsis delegation without validation)",
+    "Pair with Case 110 (SyRI precedent), Case 155 (Johnson algorithmic public administration), Case 101 (Epic Sepsis delegation without validation)",
   ),
   approaches: (
     during: (
@@ -171,7 +171,7 @@
     ),
     after: (
       [Carry the Commission's careful attribution language on deaths into print without softening; the case's load-bearing quality depends on the circumstantial nature of the attribution being preserved alongside the structural finding.],
-      [Pair in syllabi with Case 111 (SyRI) so the governance-objection-correct precedent and the governance-objection-overridden harm record are taught together; the two cases together teach what advance objection can prevent and what its absence can produce.],
+      [Pair in syllabi with Case 110 (SyRI) so the governance-objection-correct precedent and the governance-objection-overridden harm record are taught together; the two cases together teach what advance objection can prevent and what its absence can produce.],
       [Use the case to anchor the human-in-the-loop CLO at population scale; the form Robodebt makes legible is what consequential-decision delegation looks like when the loop is removed and the asserting party operates on arithmetic that cannot establish its assertion.],
     ),
   ),
@@ -200,9 +200,9 @@
     for the agency-legal-advice-as-binding-gate discipline and in
     Domain 5 (Machine Teaming and Adaptation) for the human-in-
     the-loop-for-consequential-decisions anchor. Pair with Case
-    111 (SyRI governance-objection-correct precedent), Case 156
+    110 (SyRI governance-objection-correct precedent), Case 155
     (Johnson school surveillance algorithmic-public-administration
-    parallel), and Case 102 (Epic Sepsis delegation-without-
+    parallel), and Case 101 (Epic Sepsis delegation-without-
     validation form). The Commission's circumstantial attribution
     on deaths is the load-bearing hedge.
   ],
@@ -220,7 +220,7 @@
 )
 
 #case(
-  number: 194,
+  number: 193,
   slug: "ofqual-a-level-algorithm-2020",
   title: "UK Ofqual A-Level Algorithm — National-Scale Grading Replaced by Algorithm, Withdrawn in Days",
   year: "2020",
@@ -251,9 +251,9 @@
     technical report acknowledges that the standardisation goal
     was incompatible with population-level fairness given
     individual-student variance and the dependence of the model
-    on cohort size. The case pairs with Case 138 (Gándara / AERA
-    Open community-college fairness), Case 187 (LiveHint AI bias
-    across foundation models), and Case 156 (Johnson school
+    on cohort size. The case pairs with Case 137 (Gándara / AERA
+    Open community-college fairness), Case 186 (LiveHint AI bias
+    across foundation models), and Case 155 (Johnson school
     surveillance).
   ],
   sections: (
@@ -314,15 +314,15 @@
       students in advance of deployment.#cn()
     ],
     [
-      The case pairs with Case 138 (Gándara / community-college
+      The case pairs with Case 137 (Gándara / community-college
       predictive equity in _AERA Open_) at the higher-education
       scale: both cases turn on the question of whether a
       standardisation or prediction mechanism that is statistically
       defensible at the population level can be deployed in a way
       that is defensible at the individual-student level. Pair
-      with Case 187 (LiveHint AI bias across foundation models)
+      with Case 186 (LiveHint AI bias across foundation models)
       for the bias-surfacing thread in education-deployed
-      algorithms. Pair with Case 156 (Johnson school surveillance)
+      algorithms. Pair with Case 155 (Johnson school surveillance)
       for the algorithmic-administration-in-education parallel at
       a different scale. The Ofqual case is unusual in the
       casebook because it is the rare deployment that was
@@ -354,7 +354,7 @@
     "~39.1% of teacher-estimated grades downgraded; state-school students in large cohorts downgraded at higher rates than independent-school students in small cohorts",
     "Results released Aug 13 2020; withdrawn Aug 17 2020 after four days of public protest; Centre Assessment Grades substituted",
     "Cohort-size dependence of model is structural; technical report acknowledges incompatibility of standardisation with individual-level fairness",
-    "Pair with Case 138 (Gándara community-college equity), Case 187 (LiveHint bias), Case 156 (Johnson school surveillance)",
+    "Pair with Case 137 (Gándara community-college equity), Case 186 (LiveHint bias), Case 155 (Johnson school surveillance)",
   ),
   approaches: (
     during: (
@@ -364,7 +364,7 @@
     ),
     after: (
       [Carry the technical report's hedge — "standardisation incompatible with population-level fairness given individual-student variance" — into print without softening; the case's pedagogical value depends on the internal documentation of the seam being visible alongside the public withdrawal.],
-      [Pair in syllabi with Case 138 (Gándara) so the population-level-versus-individual-level fairness tension is taught at both the secondary-to-higher-education transition scale and the community-college transition scale.],
+      [Pair in syllabi with Case 137 (Gándara) so the population-level-versus-individual-level fairness tension is taught at both the secondary-to-higher-education transition scale and the community-college transition scale.],
       [Use the case as the rare example of an algorithmic deployment withdrawn at national scale within days; the four-day withdrawal arc is the curricular target for governance-response speed under public pressure.],
     ),
   ),
@@ -394,9 +394,9 @@
     stakeholders process as the test surface and in Domain 4
     (Navigating Sociotechnical Constraints) for the cohort-size
     dependence as the distributional seam the deployment carried.
-    Pair with Case 138 (Gándara community-college predictive
-    equity), Case 187 (LiveHint AI bias across foundation
-    models), and Case 156 (Johnson school surveillance). The
+    Pair with Case 137 (Gándara community-college predictive
+    equity), Case 186 (LiveHint AI bias across foundation
+    models), and Case 155 (Johnson school surveillance). The
     technical report's acknowledgement of incompatibility is the
     load-bearing hedge.
   ],
@@ -414,7 +414,7 @@
 )
 
 #case(
-  number: 195,
+  number: 194,
   slug: "compas-recidivism-prediction",
   title: "COMPAS Recidivism Prediction — Calibration vs. Equal Error Rate",
   year: "2014 – 2018",
@@ -444,9 +444,9 @@
     rates of the outcome differ across groups, calibration
     (predictive parity) and equal false-positive and false-
     negative rates cannot be simultaneously satisfied except in
-    degenerate cases. The case pairs with Case 103 (Bartlett
-    mortgage — fairness through unawareness fails), Case 104
-    (Coots — competing fairness definitions), and Case 111
+    degenerate cases. The case pairs with Case 102 (Bartlett
+    mortgage — fairness through unawareness fails), Case 103
+    (Coots — competing fairness definitions), and Case 110
     (SyRI). The impossibility result is the load-bearing
     teaching point.
   ],
@@ -504,13 +504,13 @@
       technical one.#cn()
     ],
     [
-      The case pairs with Case 103 (Bartlett mortgage discrimination)
+      The case pairs with Case 102 (Bartlett mortgage discrimination)
       for the fairness-through-unawareness-fails thread: removing
       protected attributes from training data does not eliminate
       disparate-impact concerns when the remaining features carry
-      protected-attribute signal. Pair with Case 104 (Coots) for
+      protected-attribute signal. Pair with Case 103 (Coots) for
       the competing-fairness-definitions thread at a different
-      domain and scale. Pair with Case 111 (SyRI) for the
+      domain and scale. Pair with Case 110 (SyRI) for the
       governance-objection-correct-in-advance complement; in
       COMPAS the objection surfaces in the auditing record, in
       SyRI the objection succeeded in court before population-
@@ -543,7 +543,7 @@
     "ProPublica finding: ~2× false-positive rate for Black defendants among non-reoffenders; Northpointe response: predictive parity within risk scores",
     "Both findings correct by their respective definitions; Chouldechova 2017 and Kleinberg/Mullainathan/Raghavan 2017 formalize the impossibility result",
     "Calibration and equal FPR/FNR cannot be simultaneously satisfied when base rates differ across groups except in degenerate cases — binding mathematics",
-    "Pair with Case 103 (Bartlett), Case 104 (Coots), Case 111 (SyRI); central reference for the algorithmic-fairness literature",
+    "Pair with Case 102 (Bartlett), Case 103 (Coots), Case 110 (SyRI); central reference for the algorithmic-fairness literature",
   ),
   approaches: (
     during: (
@@ -553,7 +553,7 @@
     ),
     after: (
       [Carry the impossibility result into print as the load-bearing teaching point; the case does not teach that COMPAS is fair or that COMPAS is unfair, and the editorial framing must preserve the formal constraint that both audit findings instantiate.],
-      [Pair in syllabi with Case 103 (Bartlett) so the fairness-through-unawareness-fails thread and the impossibility-of-multiple-criteria thread are taught together as complementary structural arguments about disparate impact.],
+      [Pair in syllabi with Case 102 (Bartlett) so the fairness-through-unawareness-fails thread and the impossibility-of-multiple-criteria thread are taught together as complementary structural arguments about disparate impact.],
       [Use the case to anchor the fairness-beyond-omission CLO; the curricular target is the discipline of choosing and disclosing the fairness criterion when the impossibility result rules out satisfying all of them simultaneously.],
     ),
   ),
@@ -584,9 +584,9 @@
     the multi-criterion-audit discipline and in Domain 4
     (Navigating Sociotechnical Constraints) for the
     surfacing-bias-through-governance-not-just-technique anchor.
-    Pair with Case 103 (Bartlett mortgage — fairness through
-    unawareness fails), Case 104 (Coots — competing fairness
-    definitions), and Case 111 (SyRI governance-objection-
+    Pair with Case 102 (Bartlett mortgage — fairness through
+    unawareness fails), Case 103 (Coots — competing fairness
+    definitions), and Case 110 (SyRI governance-objection-
     correct precedent). The impossibility result is the load-
     bearing teaching point; both Northpointe and ProPublica are
     correct by their respective definitions.
@@ -605,7 +605,7 @@
 )
 
 #case(
-  number: 196,
+  number: 195,
   slug: "apple-card-algorithmic-gender-disparity",
   title: "Apple Card / Goldman Sachs — When the Lender Cannot Explain Its Own Model",
   year: "2019 – 2021",
@@ -635,8 +635,8 @@
     structural problem: Goldman Sachs could not adequately explain
     individual credit decisions to applicants who challenged them.
     DFS required Goldman Sachs to overhaul its customer-service
-    process. The case pairs with Case 103 (Bartlett mortgage),
-    Case 104 (Coots), and Case 138 (Gándara). The DFS finding of
+    process. The case pairs with Case 102 (Bartlett mortgage),
+    Case 103 (Coots), and Case 137 (Gándara). The DFS finding of
     "no violation but lack of transparency" is the load-bearing
     nuance.
   ],
@@ -693,13 +693,13 @@
       at the individual-applicant level.#cn()
     ],
     [
-      The case pairs with Case 103 (Bartlett mortgage) for the
+      The case pairs with Case 102 (Bartlett mortgage) for the
       consumer-credit-fairness thread at adjacent scale and
-      regulatory regime. Pair with Case 104 (Coots) for the
+      regulatory regime. Pair with Case 103 (Coots) for the
       competing-fairness-definitions thread; the DFS standard is
       one of several available standards, and the case teaches
       that "no violation under a specific statutory standard" is
-      not "fair." Pair with Case 138 (Gándara) for the
+      not "fair." Pair with Case 137 (Gándara) for the
       explainability-of-individual-predictions thread at a
       different population and scale. The case is unusual in the
       casebook for the speed of regulatory response — DFS opened
@@ -741,7 +741,7 @@
     ),
     after: (
       [Carry the precise DFS finding into print without softening; "no violation under the applicable statutory standard, but lack of transparency as the structural problem" is the load-bearing nuance and the case's pedagogical value depends on the nuance being preserved.],
-      [Pair in syllabi with Case 103 (Bartlett) so the consumer-credit-fairness regulatory architecture is taught at both the mortgage and credit-card scales.],
+      [Pair in syllabi with Case 102 (Bartlett) so the consumer-credit-fairness regulatory architecture is taught at both the mortgage and credit-card scales.],
       [Use the case as the anchor for the explainability-as-governance frame at consumer-credit scale; the curricular target is the appeal-and-explanation infrastructure that converts an algorithmic decision into a contestable one.],
     ),
   ),
@@ -772,16 +772,16 @@
     Constraints) for the appeal-and-explanation-infrastructure
     discipline and in Domain 5 (Machine Teaming and Adaptation)
     for the human-in-the-loop-for-consequential-decisions anchor
-    at the appeal seam. Pair with Case 103 (Bartlett mortgage),
-    Case 104 (Coots competing fairness definitions), and Case
-    138 (Gándara explainability of individual predictions). The
+    at the appeal seam. Pair with Case 102 (Bartlett mortgage),
+    Case 103 (Coots competing fairness definitions), and Case
+    137 (Gándara explainability of individual predictions). The
     precise DFS finding — "no violation but lack of transparency"
     — is the load-bearing hedge.
   ],
   literature-items: (
     [NY DFS, _Report on Apple Card Investigation_ (March 2021)],
     [Heinemeier Hansson Twitter thread (Nov 7 2019); contemporaneous press coverage],
-    [Paired Case 103 (Bartlett mortgage) consumer-credit-fairness architecture],
+    [Paired Case 102 (Bartlett mortgage) consumer-credit-fairness architecture],
   ),
   reflection-list: (
     [Identify a consequential-decision system in your domain whose individual-applicant explanation infrastructure has not been built. What is the customer-service escalation path when an affected person challenges a decision, and what would the path look like with an appeal-and-explanation seam built into the deployment?],
@@ -792,7 +792,7 @@
 )
 
 #case(
-  number: 197,
+  number: 196,
   slug: "deepmind-mammography-2020",
   title: "DeepMind Mammography — High-Profile Nature Paper, Replicability Pushback",
   year: "2020",
@@ -826,8 +826,8 @@
     framing the original paper offered has been refined by
     subsequent deployment evidence rather than confirmed at the
     deployment scale the headline implied. The case pairs with
-    Case 95 (Radiology AI Miscalibration), Case 102 (Epic
-    Sepsis), and Case 106 (Pulse oximetry).
+    Case 95 (Radiology AI Miscalibration), Case 101 (Epic
+    Sepsis), and Case 105 (Pulse oximetry).
   ],
   sections: (
     [
@@ -890,13 +890,13 @@
       for the medical-imaging-AI-deployment-evidence thread:
       retrospective evaluation produces one class of evidence;
       prospective deployment produces another, and the two are
-      not interchangeable. Pair with Case 102 (Epic Sepsis) for
+      not interchangeable. Pair with Case 101 (Epic Sepsis) for
       the high-profile-result-versus-deployment-evidence thread
       in healthcare AI; Epic Sepsis is the load-bearing case in
       the corpus for the gap between vendor or developer claims
       and external evaluation, and DeepMind Mammography sits in
       the same conceptual family at a different domain. Pair
-      with Case 106 (Pulse oximetry) for the population-
+      with Case 105 (Pulse oximetry) for the population-
       heterogeneity-in-medical-AI thread; the McKinney paper's
       UK-versus-U.S. effect-size difference (5.7 vs 1.2 pp on
       false-positives) is itself evidence that the system's
@@ -926,7 +926,7 @@
     "Press framing: \"AI outperforms radiologists\"; paper's careful claims do not carry the framing's deployment implications",
     "Haibe-Kains et al. Nature Oct 14 2020 comment: code not released, models not released, methodology not reproducible from publication",
     "Comment does not allege error; argues reproducibility not established; large fraction of methodology not independently verifiable",
-    "Pair with Case 95 (Radiology AI miscalibration), Case 102 (Epic Sepsis), Case 106 (pulse oximetry population heterogeneity)",
+    "Pair with Case 95 (Radiology AI miscalibration), Case 101 (Epic Sepsis), Case 105 (pulse oximetry population heterogeneity)",
   ),
   approaches: (
     during: (
@@ -936,7 +936,7 @@
     ),
     after: (
       [Carry the Haibe-Kains comment's specific framing into print without softening; the comment is a finding on reproducibility, not a finding of error, and the case's pedagogical value depends on the distinction being preserved.],
-      [Pair in syllabi with Case 95 and Case 102 so the high-profile-result-versus-deployment-evidence pattern is taught across the medical-imaging-AI deployment seam at multiple instances.],
+      [Pair in syllabi with Case 95 and Case 101 so the high-profile-result-versus-deployment-evidence pattern is taught across the medical-imaging-AI deployment seam at multiple instances.],
       [Use the case to anchor the verification-as-deployment-event frame; the curricular target is the discipline of treating a high-profile retrospective result as the starting point of a multi-year verification arc rather than as a deployment-ready endpoint.],
     ),
   ),
@@ -965,8 +965,8 @@
     reproducibility-infrastructure-as-verification-condition
     discipline and in Domain 5 (Machine Teaming and Adaptation)
     for the retrospective-versus-prospective-evidence distinction.
-    Pair with Case 95 (Radiology AI Miscalibration), Case 102
-    (Epic Sepsis), and Case 106 (pulse oximetry population
+    Pair with Case 95 (Radiology AI Miscalibration), Case 101
+    (Epic Sepsis), and Case 105 (pulse oximetry population
     heterogeneity). The Haibe-Kains comment is a reproducibility
     finding, not a finding of error; the distinction is the
     load-bearing hedge.
@@ -985,7 +985,7 @@
 )
 
 #case(
-  number: 198,
+  number: 197,
   slug: "amazon-hiring-ai-deprecated",
   title: "Amazon Hiring AI — Trained Bias, Deprecated 2018",
   year: "2014 – 2018",
@@ -1077,14 +1077,14 @@
       investigation.#cn()
     ],
     [
-      The case pairs with Case 103 (Bartlett mortgage) for the
+      The case pairs with Case 102 (Bartlett mortgage) for the
       fairness-through-unawareness-fails thread: removing the
       gender feature from the training data does not eliminate
       the gender signal when the remaining features carry
-      correlated signal. Pair with Case 156 (Johnson school
+      correlated signal. Pair with Case 155 (Johnson school
       surveillance) for the algorithmic-employment-and-
       surveillance-decisions parallel at a different population.
-      Pair with Case 187 (LiveHint AI bias across foundation
+      Pair with Case 186 (LiveHint AI bias across foundation
       models) for the trained-bias-in-foundation-models thread
       at contemporary scale. The Amazon case is unusual in that
       the project was deprecated rather than deployed; most
@@ -1130,7 +1130,7 @@
     ),
     after: (
       [Carry the journalism-tier evidence-flag under the title without softening; the case rests on single-source reporting and the future-validation-ongoing language is binding for the specific technical detail.],
-      [Pair in syllabi with Case 103 (Bartlett) so the fairness-through-unawareness-fails thread is taught at adjacent scales and in adjacent decision domains.],
+      [Pair in syllabi with Case 102 (Bartlett) so the fairness-through-unawareness-fails thread is taught at adjacent scales and in adjacent decision domains.],
       [Use the case to anchor the construct-choice CLO; the curricular target is the discipline of refusing to deploy when the historical record from which the model would be learned does not defensibly support the prediction the deployment requires.],
     ),
   ),
@@ -1160,8 +1160,8 @@
     for the irreducibility-verification-as-deployment-gate
     discipline and in Domain 3 (Test and Evaluation) for the
     construct-validity-at-the-training-data-layer anchor. Pair
-    with Case 103 (Bartlett mortgage), Case 156 (Johnson school
-    surveillance), and Case 187 (LiveHint AI bias across
+    with Case 102 (Bartlett mortgage), Case 155 (Johnson school
+    surveillance), and Case 186 (LiveHint AI bias across
     foundation models). The journalism-tier evidence-flag is
     binding; the structural teaching point is the case's
     curricular value.
@@ -1180,7 +1180,7 @@
 )
 
 #case(
-  number: 199,
+  number: 198,
   slug: "nyc-ll144-aedt-2023",
   title: "NYC Local Law 144 — Bias Audits as Governance Artifact",
   year: "2023 – present",
@@ -1211,10 +1211,10 @@
     load-bearing limitations: bias audits without bias data —
     employers often lack the protected-attribute data the audit
     metrics require — and wide variability in audit quality
-    across published audits. The case pairs with Case 110 (OU
+    across published audits. The case pairs with Case 109 (OU
     Analyse — governance-objection dissolved by design), Case
-    138 (Gándara community-college predictive equity), and Case
-    198 (Amazon hiring AI). The intervention is the audit-as-
+    137 (Gándara community-college predictive equity), and Case
+    197 (Amazon hiring AI). The intervention is the audit-as-
     governance-artifact discipline; whether the audits reduce
     actual disparate impact at the hiring level remains under-
     evidenced.
@@ -1270,15 +1270,15 @@
       is uneven across the first cohort.#cn()
     ],
     [
-      The case pairs with Case 110 (OU Analyse) for the
+      The case pairs with Case 109 (OU Analyse) for the
       governance-objection-dissolved-by-design thread: OU
       Analyse's deployment surfaced an equity question that the
       design process resolved structurally; Local Law 144's
       audit regime surfaces equity questions structurally
       through disclosure rather than through a design change.
-      Pair with Case 138 (Gándara community-college predictive
+      Pair with Case 137 (Gándara community-college predictive
       equity) for the predictive-equity thread at higher-
-      education scale. Pair with Case 198 (Amazon hiring AI) for
+      education scale. Pair with Case 197 (Amazon hiring AI) for
       the same domain — the audit regime is the governance
       instrument that, had it been in place, would have applied
       to an internal recruiting tool of Amazon's described
@@ -1315,7 +1315,7 @@
     "Three requirements: annual independent bias audit, publication of audit summary, candidate notice and alternative-selection request process",
     "Audit metrics: selection rate and impact ratio by sex, race/ethnicity, intersectional categories; computed by independent auditor not associated with the AEDT",
     "Yam & Skirpan 2024 \"bias audits without bias data\": employers often lack protected-attribute data; Wright & Brown 2024 audit-quality study finds wide variability",
-    "Pair with Case 110 (OU Analyse), Case 138 (Gándara), Case 198 (Amazon hiring AI); whether audits reduce actual disparate impact remains under-evidenced",
+    "Pair with Case 109 (OU Analyse), Case 137 (Gándara), Case 197 (Amazon hiring AI); whether audits reduce actual disparate impact remains under-evidenced",
   ),
   approaches: (
     during: (
@@ -1325,7 +1325,7 @@
     ),
     after: (
       [Carry the load-bearing hedges — disclosure-and-audit regime not substantive-standards regime; reduction of actual disparate impact under-evidenced; audit-quality variability across first cohort — into print without softening; the case's pedagogical value depends on the intervention's limits being preserved.],
-      [Pair in syllabi with Case 110 (OU Analyse) so the governance-objection-dissolved-by-design and governance-objection-surfaced-by-disclosure threads are taught together as complementary intervention forms.],
+      [Pair in syllabi with Case 109 (OU Analyse) so the governance-objection-dissolved-by-design and governance-objection-surfaced-by-disclosure threads are taught together as complementary intervention forms.],
       [Use the case as the change-control-and-disclosure-as-governance-artifacts anchor at the municipal-regulatory scale; the curricular target is the discipline of building the data infrastructure and the audit-quality criteria the disclosure regime presupposes.],
     ),
   ),
@@ -1355,9 +1355,9 @@
     (induced 5.4; LENS D4/PT5; CLO-3 and CLO-4). LENS uses it
     in Domain 4 (Navigating Sociotechnical Constraints) for the
     audit-as-governance-instrument discipline. Pair with Case
-    110 (OU Analyse governance-objection-dissolved-by-design),
-    Case 138 (Gándara community-college predictive equity), and
-    Case 198 (Amazon hiring AI). The intervention is real and
+    109 (OU Analyse governance-objection-dissolved-by-design),
+    Case 137 (Gándara community-college predictive equity), and
+    Case 197 (Amazon hiring AI). The intervention is real and
     its limits are real; the disclosure-and-audit structure is
     not a substantive-standards structure, and the reduction-
     of-actual-disparate-impact evaluation question is at the
@@ -1377,7 +1377,7 @@
 )
 
 #case(
-  number: 200,
+  number: 199,
   slug: "air-canada-chatbot-liability",
   title: "Air Canada Chatbot Liability — Delegation Without Revocation",
   year: "2022 – 2024",
@@ -1410,8 +1410,8 @@
     for representations made by its chatbot. The ruling has
     limited precedential weight outside BC but has been cited
     widely as articulating the delegation-without-revocation
-    principle. The case pairs with Case 102 (Epic Sepsis), Case
-    155 (Watson for Oncology), and Case 188 (Hybrid Human-AI
+    principle. The case pairs with Case 101 (Epic Sepsis), Case
+    154 (Watson for Oncology), and Case 187 (Hybrid Human-AI
     Tutoring).
   ],
   sections: (
@@ -1472,15 +1472,15 @@
       finding.#cn()
     ],
     [
-      The case pairs with Case 102 (Epic Sepsis) for the
+      The case pairs with Case 101 (Epic Sepsis) for the
       delegation-without-validation thread in healthcare AI; the
       structural form is the same — the organization deploys an
       AI agent that produces representations or assertions
       consequential for the affected person, and the
       organization's accountability for the agent's outputs is
-      the load-bearing governance question. Pair with Case 155
+      the load-bearing governance question. Pair with Case 154
       (Watson for Oncology) for the AI-agent-recommendations-in-
-      practice thread. Pair with Case 188 (Hybrid Human-AI
+      practice thread. Pair with Case 187 (Hybrid Human-AI
       Tutoring) for the educational-AI-agent thread at adjacent
       scale. The Air Canada ruling is a small-claims-tribunal
       decision with limited precedential weight outside BC, but
@@ -1524,7 +1524,7 @@
     ),
     after: (
       [Carry the precedential-weight hedge into print without softening; the ruling is a small-claims-tribunal decision and the precedential limits are part of what the case teaches alongside the structural form it names.],
-      [Pair in syllabi with Case 102 (Epic Sepsis) so the delegation-without-validation form is taught at both the healthcare and the customer-interaction-agent scales.],
+      [Pair in syllabi with Case 101 (Epic Sepsis) so the delegation-without-validation form is taught at both the healthcare and the customer-interaction-agent scales.],
       [Use the case to anchor the human-in-the-loop CLO at the customer-interaction-AI-agent seam; the curricular target is the discipline of treating the agent's outputs as the organization's representations, and of building the deployment architecture to that constraint.],
     ),
   ),
@@ -1553,8 +1553,8 @@
     CLO-5 and CLO-4). LENS uses it in Domain 5 (Machine
     Teaming and Adaptation) for the
     organization-is-liable-for-agent-representations principle.
-    Pair with Case 102 (Epic Sepsis delegation-without-
-    validation), Case 155 (Watson for Oncology), and Case 188
+    Pair with Case 101 (Epic Sepsis delegation-without-
+    validation), Case 154 (Watson for Oncology), and Case 187
     (Hybrid Human-AI Tutoring). The small-claims-tribunal
     venue limits precedential weight; the structural reading is
     the load-bearing one.
@@ -1562,7 +1562,7 @@
   literature-items: (
     [_Moffatt v. Air Canada_, 2024 BCCRT 149 (Feb 14 2024)],
     [Solaiman (2024), _CLSR_ — generative AI and law of agency synthesis],
-    [Paired Case 102 (Epic Sepsis) delegation-without-validation form],
+    [Paired Case 101 (Epic Sepsis) delegation-without-validation form],
   ),
   reflection-list: (
     [Identify a customer-interaction AI agent in your domain whose outputs have not been integrity-checked against the organization's policy text. What divergence between agent representation and policy text would produce a Moffatt-style reliance harm, and what mechanism would close the divergence?],
@@ -1573,7 +1573,7 @@
 )
 
 #case(
-  number: 201,
+  number: 200,
   slug: "composer-sepsis-prediction",
   title: "COMPOSER Sepsis Prediction — The Third Clinical-AI Sepsis Case",
   year: "2022 – 2024",
@@ -1601,25 +1601,25 @@
     during the deployment period at two UC San Diego hospitals,
     evaluated against the pre-deployment baseline period within
     the same health system. The case completes the AI-delegation
-    typology in sepsis at three deployments — Case 101 (TREWS at
-    Johns Hopkins), Case 102 (Epic Sepsis Score across multiple
+    typology in sepsis at three deployments — Case 100 (TREWS at
+    Johns Hopkins), Case 101 (Epic Sepsis Score across multiple
     health systems), and COMPOSER at UCSD. The honest hedges from
     the source are binding: the deployment is prospective but
     not RCT-grade, the mortality reduction is multifactorial
     (the COMPOSER deployment ran alongside other process
     improvements at UCSD), and the author team is explicit
     about the structural attribution question. Pair with Case
-    101, Case 102, and Case 95 (Radiology AI Miscalibration).
+    100, Case 101, and Case 95 (Radiology AI Miscalibration).
   ],
   sections: (
     [
       The contemporary clinical-AI sepsis-prediction literature
       has converged on a small number of well-evidenced
-      deployments. Case 101 documents TREWS — the Targeted Real-
+      deployments. Case 100 documents TREWS — the Targeted Real-
       Time Early Warning System at Johns Hopkins — with its
       prospective evaluation showing mortality reduction
       associated with prompt clinician response to alerts. Case
-      102 documents the Epic Sepsis Score deployed across
+      101 documents the Epic Sepsis Score deployed across
       multiple U.S. health systems, with external validation by
       Wong and colleagues finding substantially lower sensitivity
       and higher false-positive rates than the vendor's
@@ -1643,7 +1643,7 @@
       — when the model's calibrated confidence does not support
       a clinically actionable alert. The abstention structure is
       what handles one of the load-bearing failure modes of
-      Case 102 (Epic Sepsis), where the model alerted at high
+      Case 101 (Epic Sepsis), where the model alerted at high
       rates against patient populations it had not been
       adequately calibrated against. COMPOSER's abstention
       structure is one mechanism for refusing to alert in those
@@ -1669,19 +1669,19 @@
       contribution of the surrounding process changes.#cn()
     ],
     [
-      The case pairs with Case 101 (TREWS) for the prospective-
+      The case pairs with Case 100 (TREWS) for the prospective-
       positive sepsis-prediction thread: both deployments report
       mortality benefits, both are integrated into specific
       health-system workflows, and the comparison between TREWS
       and COMPOSER turns on the alerting architecture and on
-      the role of the surrounding process. Pair with Case 102
+      the role of the surrounding process. Pair with Case 101
       (Epic Sepsis Score) for the external-validation-revealed-
       gaps thread: COMPOSER's abstention structure is one
       response to the calibration-gap failure mode that the Epic
       Sepsis evidence base named. Pair with Case 95 (Radiology
       AI Miscalibration) for the broader medical-AI
       miscalibration-in-deployment thread. The three sepsis
-      cases together — Case 101, Case 102, COMPOSER — define
+      cases together — Case 100, Case 101, COMPOSER — define
       the AI-delegation typology in sepsis: prospective-positive
       with workflow integration (TREWS), externally validated
       and found wanting against vendor claims (Epic Sepsis),
@@ -1715,7 +1715,7 @@
     "Conformal-prediction framework: calibrated uncertainty intervals enable model abstention when input is out-of-distribution",
     "Deployment outcomes: 1.9 pp absolute decrease in in-hospital sepsis mortality; 5.0 pp absolute decrease in 28-day sepsis-related readmission vs pre-deployment baseline",
     "Hedges binding: prospective not RCT; mortality reduction multifactorial — concurrent process improvements at UCSD cannot be cleanly separated from COMPOSER's contribution",
-    "Completes AI-delegation typology in sepsis: Case 101 (TREWS), Case 102 (Epic Sepsis Score), COMPOSER (Case 201)",
+    "Completes AI-delegation typology in sepsis: Case 100 (TREWS), Case 101 (Epic Sepsis Score), COMPOSER (Case 200)",
   ),
   approaches: (
     during: (
@@ -1725,15 +1725,15 @@
     ),
     after: (
       [Carry the multifactorial-mortality hedge into print without softening; the case's pedagogical value depends on the attribution question being explicit alongside the deployment-outcome reporting.],
-      [Pair in syllabi with Case 101 (TREWS) and Case 102 (Epic Sepsis) so the AI-delegation typology in sepsis is taught as a three-case set at the deployment-evidence level.],
+      [Pair in syllabi with Case 100 (TREWS) and Case 101 (Epic Sepsis) so the AI-delegation typology in sepsis is taught as a three-case set at the deployment-evidence level.],
       [Use the case to anchor the cue-and-alert design CLO; the curricular target is the discipline of building abstention into the alerting architecture as a capability deliverable, and of evaluating the abstention against the calibration-gap failure mode the prior cases named.],
     ),
   ),
   references: (
     [Boussina, A., Shashikumar, S. P., Malhotra, A., Owens, R. L., El-Kareh, R., Longhurst, C. A., Quintero, K., et al. (2024), "Impact of a deep learning sepsis prediction model on quality of care and survival," _NPJ Digital Medicine_ 7:14, doi:10.1038/s41746-023-00986-6.],
     [Shashikumar, S. P., Wardi, G., Malhotra, A., & Nemati, S. (2021), "Artificial intelligence sepsis prediction algorithm learns to say 'I don't know,'" _NPJ Digital Medicine_ 4:134 — the methodological-foundation paper for the conformal-prediction abstention structure.],
-    [Wong, A., Otles, E., Donnelly, J. P., Krumm, A., McCullough, J., DeTroyer-Cooley, O., et al. (2021), "External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients," _JAMA Internal Medicine_ 181(8):1065–1070 — the load-bearing external-validation paper on Epic Sepsis (Case 102).],
-    [Adams, R., Henry, K. E., Sridharan, A., Soleimani, H., Zhan, A., Rawat, N., Johnson, L., et al. (2022), "Prospective, multi-site study of patient outcomes after implementation of the TREWS machine learning-based early warning system for sepsis," _Nature Medicine_ 28:1455–1460 — the prospective-positive TREWS deployment paper (Case 101).],
+    [Wong, A., Otles, E., Donnelly, J. P., Krumm, A., McCullough, J., DeTroyer-Cooley, O., et al. (2021), "External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients," _JAMA Internal Medicine_ 181(8):1065–1070 — the load-bearing external-validation paper on Epic Sepsis (Case 101).],
+    [Adams, R., Henry, K. E., Sridharan, A., Soleimani, H., Zhan, A., Rawat, N., Johnson, L., et al. (2022), "Prospective, multi-site study of patient outcomes after implementation of the TREWS machine learning-based early warning system for sepsis," _Nature Medicine_ 28:1455–1460 — the prospective-positive TREWS deployment paper (Case 100).],
   ),
   quote: [The deployment is prospective implementation, not RCT; the mortality reduction is multifactorial — COMPOSER was deployed alongside other process improvements at UCSD, and the contribution cannot be cleanly separated; the conformal-prediction abstention is the methodological contribution the case anchors.],
   quote-source: "Editors' synthesis of Boussina et al. (2024) NPJ Digital Medicine and the surrounding sepsis-prediction deployment literature.",
@@ -1755,16 +1755,16 @@
     (Test and Evaluation) for the prospective-implementation-
     evaluation discipline and in Domain 5 (Machine Teaming and
     Adaptation) for the abstention-as-clinical-workflow-
-    capability anchor. Pair with Case 101 (TREWS), Case 102
+    capability anchor. Pair with Case 100 (TREWS), Case 101
     (Epic Sepsis), and Case 95 (Radiology AI Miscalibration).
-    The three sepsis cases together — Case 101, Case 102, Case
-    201 — define the AI-delegation typology in sepsis at the
+    The three sepsis cases together — Case 100, Case 101, Case
+    200 — define the AI-delegation typology in sepsis at the
     deployment-evidence level.
   ],
   literature-items: (
     [Boussina et al. (2024), _NPJ Digital Medicine_ — COMPOSER prospective implementation],
     [Shashikumar et al. (2021), _NPJ Digital Medicine_ — conformal-prediction abstention foundation],
-    [Paired Case 101 (TREWS) and Case 102 (Epic Sepsis) — completing the sepsis typology],
+    [Paired Case 100 (TREWS) and Case 101 (Epic Sepsis) — completing the sepsis typology],
   ),
   reflection-list: (
     [Identify a clinical-AI deployment in your setting whose alerting architecture does not include an abstention mechanism. What is the calibration-gap failure mode the deployment would encounter, and what would the conformal-prediction abstention structure look like in your workflow?],
@@ -1775,7 +1775,7 @@
 )
 
 #case(
-  number: 202,
+  number: 201,
   slug: "wisconsin-dews-merged",
   title: "Wisconsin DEWS — A Decade of Algorithmic Dropout Prediction",
   year: "2012 – 2024",
@@ -1807,9 +1807,9 @@
     agency continued to operate it unchanged. The Markup's
     2023 investigation by Todd Feathers documented the
     disparate-impact finding and the agency's response. Both
-    findings are load-bearing. The case pairs with Case 156
-    (Johnson school surveillance), Case 138 (Gándara
-    community-college predictive equity), and Case 141 (Purdue
+    findings are load-bearing. The case pairs with Case 155
+    (Johnson school surveillance), Case 137 (Gándara
+    community-college predictive equity), and Case 140 (Purdue
     Course Signals — reverse causality). This case carries both
     the peer-reviewed and journalism-investigation evidence
     streams in one entry rather than parallel ones.
@@ -1880,14 +1880,14 @@
       structural problems with it.#cn()
     ],
     [
-      The case pairs with Case 156 (Johnson school surveillance)
+      The case pairs with Case 155 (Johnson school surveillance)
       for the algorithmic-public-administration-in-education
       parallel; both cases involve administrative-data
       predictions deployed against student populations and both
       surface disparate-impact concerns at the deployment
-      surface. Pair with Case 138 (Gándara community-college
+      surface. Pair with Case 137 (Gándara community-college
       predictive equity) for the predictive-equity-in-education
-      thread at adjacent population scale. Pair with Case 141
+      thread at adjacent population scale. Pair with Case 140
       (Purdue Course Signals) for the reverse-causality and
       null-effect thread in education predictive analytics; the
       Purdue case named the same conceptual problem that the
@@ -1927,7 +1927,7 @@
     "Perdomo, Britton, Hardt, Abebe FAccT 2025 RDD on ~10 years of data: cannot rule out zero treatment effect of being above DEWS threshold on graduation",
     "Wisconsin DPI 2021 internal equity audit \"Is DEWS Fair?\": less accurate for Black, Hispanic, English-learner students; agency continued unchanged",
     "The Markup 2023 investigation (Feathers) documented disparate-impact finding and agency response",
-    "Both streams load-bearing; pair with Case 156 (Johnson), Case 138 (Gándara), Case 141 (Purdue Course Signals reverse causality)",
+    "Both streams load-bearing; pair with Case 155 (Johnson), Case 137 (Gándara), Case 140 (Purdue Course Signals reverse causality)",
   ),
   approaches: (
     during: (
@@ -1937,7 +1937,7 @@
     ),
     after: (
       [Carry both evidence streams into print as load-bearing and complementary; the case's pedagogical value depends on the peer-reviewed null and the agency-audit disparate-impact finding traveling together rather than being separated into parallel entries.],
-      [Pair in syllabi with Case 156 (Johnson) and Case 141 (Purdue) so the algorithmic-public-administration-in-education and reverse-causality threads are taught alongside the multi-year-deployment-with-null-causal-effect finding.],
+      [Pair in syllabi with Case 155 (Johnson) and Case 140 (Purdue) so the algorithmic-public-administration-in-education and reverse-causality threads are taught alongside the multi-year-deployment-with-null-causal-effect finding.],
       [Use the case as the anchor for the designing-predictions-to-trigger-support CLO; the curricular target is the multi-year deployment record that demonstrates the gap between the prediction's operational theory and the evidence the deployment produces.],
     ),
   ),
@@ -1967,9 +1967,9 @@
     Domain 3 (Test and Evaluation) for the causal-inference-
     on-multi-year-deployment discipline and in Domain 4
     (Navigating Sociotechnical Constraints) for the equity-
-    audit-as-binding-input anchor. Pair with Case 156 (Johnson
-    school surveillance), Case 138 (Gándara community-college
-    predictive equity), and Case 141 (Purdue Course Signals
+    audit-as-binding-input anchor. Pair with Case 155 (Johnson
+    school surveillance), Case 137 (Gándara community-college
+    predictive equity), and Case 140 (Purdue Course Signals
     reverse causality). Both the peer-reviewed null and the
     journalism-and-agency-audit disparate-impact finding are
     load-bearing.

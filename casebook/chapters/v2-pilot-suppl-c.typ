@@ -1,21 +1,21 @@
 // ============================================================================
-// V2 PILOT — Supplemental batch C (cases 171–177; Case 171..921)
+// V2 PILOT — Supplemental batch C (cases 171–177; Case 170..921)
 // ============================================================================
 //
 // Final seven of the 21 accepted weaker-evidence supplemental candidates.
 // Every case sets `evidence-flag:` and the standing "future validation
 // ongoing" language renders under the case title automatically.
 //
-//   171 (Case 171) Rwanda mHealth maternal-care CHW program — preprint-tier
-//   172 (Case 172) South Africa learning-analytics scoping review — practice-synthesis-tier
-//   173 (Case 173) Japan PMDA AI/SaMD conditional-approval pathway — preprint-tier
-//   174 (Case 174) CARE Principles for Indigenous Data Governance — practice-synthesis-tier
-//   175 (Case 175) Lutz reflective-practice journal account — practice-synthesis-tier
-//   176 (Case 176) CBE—Life Sciences Education reflective-practice primer — practice-synthesis-tier
-//   177 (Case 177) Software-engineering reflective-practice longitudinal — preprint-tier
+//   171 (Case 170) Rwanda mHealth maternal-care CHW program — preprint-tier
+//   172 (Case 171) South Africa learning-analytics scoping review — practice-synthesis-tier
+//   173 (Case 172) Japan PMDA AI/SaMD conditional-approval pathway — preprint-tier
+//   174 (Case 173) CARE Principles for Indigenous Data Governance — practice-synthesis-tier
+//   175 (Case 174) Lutz reflective-practice journal account — practice-synthesis-tier
+//   176 (Case 175) CBE—Life Sciences Education reflective-practice primer — practice-synthesis-tier
+//   177 (Case 176) Software-engineering reflective-practice longitudinal — preprint-tier
 //
-// Pair structure (per supplemental README index): Case 171 cross-listed Gap 5;
-// Case 175/920/921 are the Gap 6 first-person Practice Flywheel genre exemplars,
+// Pair structure (per supplemental README index): Case 170 cross-listed Gap 5;
+// Case 174/920/921 are the Gap 6 first-person Practice Flywheel genre exemplars,
 // to be cited alongside the editor-commissioned CIRCUIT/ERKS accounts.
 
 #import "../lib/case.typ": case
@@ -23,7 +23,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 171,
+  number: 170,
   slug: "rwanda-mhealth-maternal-care-community",
   title: "Rwanda mHealth Maternal Care — Community Health Workers as the Capability Interface",
   year: "2013 – 2018",
@@ -142,7 +142,7 @@
     [Musabyimana, A., Lundeen, T., Sayinzoga, F., et al. (2019), "Effect of a community health worker mHealth monitoring system on uptake of maternal and newborn health services in Rwanda," _Global Health Research and Policy_, PMC6429813.],
     [Rwanda Ministry of Health, community health program documentation and CHW scope-of-practice guidance, 2013–2018.],
     [MIT News (2022), reporting on subsequent AI-augmented maternal-care work in Rwanda — journalism-tier companion to the peer-reviewed evaluation.],
-    [Cross-reference: Case 170 (PEPFAR HIV training-modality comparison) for the paired Sub-Saharan workforce-capability evidence.],
+    [Cross-reference: Case 169 (PEPFAR HIV training-modality comparison) for the paired Sub-Saharan workforce-capability evidence.],
   ),
   quote: [The mHealth tool did not centralize the work. It instrumented the periphery — and kept judgment where it already was.],
   quote-source: "Editors' synthesis of Musabyimana et al. (2019) and the Rwanda CHW program documentation.",
@@ -164,7 +164,7 @@
     diagnostic-and-referral role without relocating judgment to
     the center — and in Domain 2 (Iterative Development) for
     the scope-the-tool-to-the-role design discipline. Direct
-    pair with Case 170 (PEPFAR Sub-Saharan training-modality
+    pair with Case 169 (PEPFAR Sub-Saharan training-modality
     comparison) as the African workforce-capability evidence
     the v2 corpus needs.
   ],
@@ -182,7 +182,7 @@
 )
 
 #case(
-  number: 172,
+  number: 171,
   slug: "learning-analytics-on-the-african",
   title: "Learning Analytics on the African Continent — A Scoping Review as the Present-State Map",
   year: "2022",
@@ -344,7 +344,7 @@
 )
 
 #case(
-  number: 173,
+  number: 172,
   slug: "japan-pmda-pre-approved-change",
   title: "Japan PMDA — Pre-Approved Change Management as Regulatory Architecture for AI/SaMD",
   year: "2014 – present",
@@ -507,7 +507,7 @@
 )
 
 #case(
-  number: 174,
+  number: 173,
   slug: "care-principles-indigenous-data",
   title: "CARE Principles — Indigenous Data Governance as a Replaced Regime",
   year: "2019 – 2020 (principles); ongoing",
@@ -663,7 +663,7 @@
 )
 
 #case(
-  number: 175,
+  number: 174,
   slug: "learning-journal-a-genre-exemplar-for",
   title: "The Learning Journal — A Genre Exemplar for First-Person Practice Accounts",
   year: "2006",
@@ -815,7 +815,7 @@
 )
 
 #case(
-  number: 176,
+  number: 175,
   slug: "reflective-practice-for-stem-educators",
   title: "Reflective Practice for STEM Educators — Genre Travel into Engineering Pedagogy",
   year: "2023",
@@ -845,7 +845,7 @@
     practice-synthesis-tier flag is load-bearing — the primer is
     a peer-reviewed synthesis, not an empirical study of
     educator-adoption outcomes. The case pairs with the Lutz
-    learning-journal exemplar (Case 175) as the literature
+    learning-journal exemplar (Case 174) as the literature
     companion to the editor-commissioned first-person Practice
     Flywheel accounts: Lutz is the genre exemplar, the primer is
     the cross-domain bridge that shows the genre can be adopted
@@ -934,7 +934,7 @@
     [Brookfield, S. (2017), _Becoming a Critically Reflective Teacher_ (2nd ed.) — the four-lens framework the primer synthesizes.],
     ["Reflective Practices in Education: A Primer for Practitioners," _CBE—Life Sciences Education_ (2023), doi:10.1187/cbe.22-07-0148, PMC10228263.],
     [Schon, D. (1983), _The Reflective Practitioner_ — the temporal structure (reflection-in-action / reflection-on-action) the primer carries forward.],
-    [Cross-reference: Case 175 (Lutz learning journal) as the genre exemplar; the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts as the engineering-practice destination.],
+    [Cross-reference: Case 174 (Lutz learning journal) as the genre exemplar; the editor-commissioned CIRCUIT and ERKS-class Practice Flywheel accounts as the engineering-practice destination.],
   ),
   quote: [The genre travels. The adaptation prompts are the bridge.],
   quote-source: "Editors' synthesis of the CBE—LSE primer.",
@@ -955,7 +955,7 @@
     amended CLO-2 — the primer's adaptation prompts are the
     operational scaffolding that lets engineering-practice
     audiences adopt the reflective-practice genre. Sits in the
-    literature companion to Case 175 (Lutz) and the
+    literature companion to Case 174 (Lutz) and the
     editor-commissioned CIRCUIT and ERKS-class Flywheel
     accounts.
   ],
@@ -973,7 +973,7 @@
 )
 
 #case(
-  number: 177,
+  number: 176,
   slug: "reflective-practice-on-a-work-based",
   title: "Reflective Practice on a Work-Based Software Engineering Program — Longitudinal Capability Development",
   year: "2025 (preprint)",
@@ -1004,7 +1004,7 @@
     preprint-tier flag is load-bearing: not yet peer-reviewed at
     the time of this drafting, and the case carries the standing
     "future validation ongoing" language into print. Pairs with
-    Cases 175 (Lutz genre exemplar) and 176 (CBE—LSE
+    Cases 174 (Lutz genre exemplar) and 176 (CBE—LSE
     cross-domain bridge) as the Gap 6 literature companions to
     the editor-commissioned first-person Practice Flywheel
     accounts.
@@ -1057,8 +1057,8 @@
       rather than the specific magnitudes the preprint reports.#cn()
     ],
     [
-      In pair with Lutz (Case 175, the genre exemplar) and the
-      CBE—LSE primer (Case 176, the cross-domain bridge), the
+      In pair with Lutz (Case 174, the genre exemplar) and the
+      CBE—LSE primer (Case 175, the cross-domain bridge), the
       preprint completes the Gap 6 literature companion to the
       editor-commissioned first-person Practice Flywheel
       accounts. Lutz shows the genre's existence; the primer
@@ -1091,8 +1091,8 @@
   ),
   references: (
     ["The Development of Reflective Practice on a Work-Based Software Engineering Program: A Longitudinal Study," arXiv:2504.20956 (2025) — preprint.],
-    [Cross-reference: Case 175 (Lutz learning journal) — reflective-practice genre exemplar.],
-    [Cross-reference: Case 176 (CBE—LSE primer) — cross-domain bridge from teacher/nursing/counseling education into STEM and engineering-practice contexts.],
+    [Cross-reference: Case 174 (Lutz learning journal) — reflective-practice genre exemplar.],
+    [Cross-reference: Case 175 (CBE—LSE primer) — cross-domain bridge from teacher/nursing/counseling education into STEM and engineering-practice contexts.],
     [the proposed revisions — the amended CLO-2 (first-person narration of design iteration) the case evaluates.],
   ),
   quote: [The construct is the development of reflective capability, not its presence. The instrument has to be sensitive to depth change.],
@@ -1115,12 +1115,12 @@
     and in Domain 3 (Test and Evaluation) for the CLO *Judgment under inadequate evidence* — the preprint
     supplies the construct distinction (development vs.
     presence) without supplying peer-reviewed magnitudes.
-    Pairs with Cases 175 and 176 as Gap 6 literature
+    Pairs with Cases 174 and 175 as Gap 6 literature
     companions.
   ],
   literature-items: (
     [arXiv:2504.20956 (2025) — longitudinal SE-program study],
-    [Cross-reference: Case 175 (Lutz), Case 176 (CBE—LSE primer)],
+    [Cross-reference: Case 174 (Lutz), Case 175 (CBE—LSE primer)],
     [— amended CLO-2 framing],
   ),
   reflection-list: (

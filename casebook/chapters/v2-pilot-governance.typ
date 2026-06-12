@@ -24,7 +24,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 110,
+  number: 109,
   slug: "open-university-ethical-use-of-student",
   title: "Open University 'Ethical Use of Student Data' and OU Analyse",
   year: "2014 – 2025",
@@ -114,12 +114,12 @@
       participate in the deciding.#cn()
     ],
     [
-      What OU teaches in the pair (Cases 110 + 111) is the
+      What OU teaches in the pair (Cases 109 + 110) is the
       governance-objection diagnostic: when the objection is about
       trust and accountability — as it was at the OU — good
       design can dissolve it, and the deployment can proceed under
       a credibly co-authored consent architecture. The pair's
-      contrast case is the Dutch SyRI (Case 111), where the
+      contrast case is the Dutch SyRI (Case 110), where the
       governance objection was correct: the system was both
       rights-violating and operationally ineffective, and the
       District Court of The Hague stopped it on Article 8 ECHR
@@ -171,9 +171,9 @@
     the governance-objection diagnostic — the
     dissolvable-objection side — and in Domain 3 (Test and
     Evaluation) for the engagement-tracked-outcome evidence.
-    Direct pair with Case 111 (Dutch SyRI), where the
+    Direct pair with Case 110 (Dutch SyRI), where the
     governance objection was correct and design could not
-    have dissolved it. Adjacent to Case 102 (Epic Sepsis
+    have dissolved it. Adjacent to Case 101 (Epic Sepsis
     Model) as the inverse pattern: OU built consent before
     deployment; Epic deployed without validation, and the
     objection that should have been raised wasn't.
@@ -192,7 +192,7 @@
 )
 
 #case(
-  number: 111,
+  number: 110,
   slug: "dutch-syri-welfare-fraud-risk-scoring",
   title: "Dutch SyRI — Welfare-Fraud Risk Scoring Halted on Rights Grounds",
   year: "2014 – 2020",
@@ -217,7 +217,7 @@
     reporting also found that, on its own terms, the system did not
     work: none of the algorithmic investigations had detected new
     fraud. The case is the paired contrast to the Open University
-    (Case 110): SyRI's governance objection was correct, not
+    (Case 109): SyRI's governance objection was correct, not
     dissolvable by design — the system was both rights-violating and
     ineffective. The court left open that a more transparent system
     could pass, which makes the case a governance-objection-diagnostic
@@ -269,7 +269,7 @@
       transparent system, with auditability and a credibly
       narrower scope, might pass. The case is therefore the
       governance-objection-diagnostic counter to the Open
-      University (Case 110): both faced credible governance
+      University (Case 109): both faced credible governance
       objections at the same era; OU's was about trust and
       accountability and was dissolved by a co-authored consent
       architecture; SyRI's was about rights and proportionality
@@ -277,7 +277,7 @@
       the rights violation.#cn()
     ],
     [
-      The pair (Cases 110 + 111) is the case-grounded basis for
+      The pair (Cases 109 + 110) is the case-grounded basis for
       the governance-objection diagnostic proposed in
       the v2 research backbone: distinguishing a governance objection
       that good design can dissolve from one that correctly
@@ -295,7 +295,7 @@
     "Civil-society and citizen coalition sue; District Court of The Hague halts program 5 Feb 2020 as Article 8 ECHR violation",
     "Investigative reporting: on its own terms, SyRI did not work — no new fraud detected in six years of algorithmic investigations",
     "Court leaves open that a more transparent and narrower system could pass; the ruling is system-specific, not categorical",
-    "Pair with OU (Case 110): governance-objection diagnostic — when design dissolves the objection vs. when the objection is correct",
+    "Pair with OU (Case 109): governance-objection diagnostic — when design dissolves the objection vs. when the objection is correct",
   ),
   approaches: (
     during: (
@@ -330,7 +330,7 @@
   lens-approach: [
     SyRI is the negative Domain 4 / Problem Type 6 governance
     case (induced 5.1; LENS D4+D5/PT6) drafted as the
-    contrast to the Open University (Case 110). LENS uses
+    contrast to the Open University (Case 109). LENS uses
     the pair in Domain 4 (Navigating Sociotechnical
     Constraints) for the governance-objection
     diagnostic — distinguishing dissolvable from correct
@@ -349,7 +349,7 @@
   reflection-list: (
     [Identify a public-sector analytics system in your jurisdiction. Are the data subjects informed they are being scored? Is the model and its inputs disclosed? What is the proportionality argument the deploying agency would make if challenged?],
     [Specify the pre-registered operational evidence — what the system has to demonstrate, on what cadence — that would let a deployment be evaluated against its capability claim. SyRI ran for six years without published evidence of the headline claim.],
-    [The pair OU (Case 110) and SyRI (Case 111) teaches the governance-objection diagnostic. Construct a candidate diagnostic for your own domain: what features of an objection indicate that good design could dissolve it, and what features indicate that the objection is to the design itself?],
+    [The pair OU (Case 109) and SyRI (Case 110) teaches the governance-objection diagnostic. Construct a candidate diagnostic for your own domain: what features of an objection indicate that good design could dissolve it, and what features indicate that the objection is to the design itself?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 9"),
 )

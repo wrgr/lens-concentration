@@ -1,5 +1,5 @@
 // ============================================================================
-// CLOSING CASE — Case 100, "The Discipline We Build Next"
+// CLOSING CASE — Case 202, "The Discipline We Build Next"
 // ============================================================================
 // The case about LENS itself. Per editor direction, this case is the closing
 // case of the book — included after all v1 and v2 case content, immediately
@@ -14,7 +14,7 @@
 #import "../lib/diagrams.typ" as dgm
 
 #case(
-  number: 100,
+  number: 202,
   slug: "discipline-we-build-next",
   title: "The Discipline We Build Next",
   year: "ongoing",

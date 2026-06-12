@@ -28,7 +28,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 114,
+  number: 113,
   slug: "navy-subsafe-requirements-as-a-non",
   title: "Navy SUBSAFE — Requirements as a Non-Negotiable Sustainment Deliverable",
   year: "1963 – present",
@@ -184,7 +184,7 @@
     recurring-audit cycle; and in Domain 4 (Navigating
     Sociotechnical Constraints) for the non-waiverable
     culture that resists schedule pressure. Adjacent to the
-    nurse-ratios case (Case 115) at the requirements-becomes-
+    nurse-ratios case (Case 114) at the requirements-becomes-
     engineered layer, and to the WHO Surgical Checklist
     (Case 13) at the mandatory-mechanism layer.
   ],
@@ -202,7 +202,7 @@
 )
 
 #case(
-  number: 115,
+  number: 114,
   slug: "california-nurse-staffing-ratios",
   title: "California Nurse Staffing Ratios — Legislating a Capability Requirement",
   year: "2004 – 2010",
@@ -294,7 +294,7 @@
       years from enactment to implementation, sustained industry
       opposition, contested evidence, and a study design constrained
       by the absence of a pre-implementation California baseline. In
-      pair with SUBSAFE (Case 114), the case shows that engineered
+      pair with SUBSAFE (Case 113), the case shows that engineered
       capability requirements at scale require both the
       requirements-discipline mechanism and an evidence architecture
       that survives the political process around the requirement.
@@ -305,7 +305,7 @@
     "Aiken et al. 2010 surveyed 22,336 nurses across CA / PA / NJ; California nurses cared for 1–2 fewer patients each",
     "Modeled implication: PA and NJ would have 10.6% and 13.9% fewer surgical deaths at California's medical-surgical ratios",
     "Hedge preserved: observational cross-sectional; no California baseline; contested stakeholder debate on causation",
-    "Pair with SUBSAFE (Case 114) — converting stated requirement to engineered requirement, with political-process cost",
+    "Pair with SUBSAFE (Case 113) — converting stated requirement to engineered requirement, with political-process cost",
   ),
   approaches: (
     during: (
@@ -343,7 +343,7 @@
     Domain 3 (Test and Evaluation) for the CLO *Judgment
     under inadequate evidence* — the evaluation evidence is
     observational cross-sectional, the strongest available
-    and not closed proof. Pair with Case 114 SUBSAFE at the
+    and not closed proof. Pair with Case 113 SUBSAFE at the
     requirements-as-deliverable layer.
   ],
   literature-items: (
@@ -360,7 +360,7 @@
 )
 
 #case(
-  number: 116,
+  number: 115,
   slug: "anesthesia-monitoring-standards-and-the",
   title: "Anesthesia Monitoring Standards and the APSF — The Mortality Decline",
   year: "1986 – present",
@@ -461,7 +461,7 @@
       entire effect to the standards overstates what the evidence
       can support. The device standards themselves still fail in
       documented edge cases: pulse oximetry is unreliable across
-      skin tones (Case 106 in this same v2 batch), and capnography
+      skin tones (Case 105 in this same v2 batch), and capnography
       can mislead in specific physiology. The case teaches the
       cue/alert-design form of capability engineering at its most
       durable, with the honest qualification that the institutional
@@ -474,13 +474,13 @@
     "1982 ABC special + malpractice-insurance crisis + APSF founding (1985) force institutional change",
     "Harvard standards (Eichhorn JAMA 1986): minimum monitoring with continuous pulse oximetry and capnography; ASA adopts 1986–87",
     "Anesthesia mortality falls dramatically over subsequent decades; malpractice premiums decline alongside",
-    "Hedge preserved: decline is multifactorial; device standards still fail in documented edge cases (cf. Case 106 pulse oximetry across skin tones)",
+    "Hedge preserved: decline is multifactorial; device standards still fail in documented edge cases (cf. Case 105 pulse oximetry across skin tones)",
   ),
   approaches: (
     during: (
       [Design the cue/alert to surface the failure mode that produces harm — silent hypoxemia, misplaced tube — at the point in the workflow where the operator can still recover, not in a post-hoc record.],
       [Pair the device standard with the institutional commitment (APSF, ASA) that makes the standard non-waiverable across the specialty, so adoption is a profession-level deliverable rather than a per-institution choice.],
-      [Build the standard with edge-case acknowledgment: the device is the strongest available signal, not closed proof; pulse oximetry across skin tones (Case 106) is the canonical edge case the standard has to keep visible.],
+      [Build the standard with edge-case acknowledgment: the device is the strongest available signal, not closed proof; pulse oximetry across skin tones (Case 105) is the canonical edge case the standard has to keep visible.],
     ),
     after: (
       [Track outcome metrics (mortality, malpractice premiums) alongside the standards, while attributing carefully — multifactorial declines are the norm, not the exception, in long-window safety interventions.],
@@ -493,7 +493,7 @@
     [Eichhorn (1989), "Prevention of intraoperative anesthesia accidents and related severe injury through safety monitoring," _Anesthesiology_ 70(4):572–577.],
     [Anesthesia Patient Safety Foundation (1985 – present), founding documents and the _APSF Newsletter_ — institutional-history record of the broader change effort.],
     [American Society of Anesthesiologists (1986), "Standards for Basic Anesthetic Monitoring" — original ASA standard.],
-    [Sjoding et al. (2020), _NEJM_ — the racial-bias edge case the standard still carries (cross-reference Case 106).],
+    [Sjoding et al. (2020), _NEJM_ — the racial-bias edge case the standard still carries (cross-reference Case 105).],
   ),
   quote: [The deliverable is not the device. It is the standard that makes the device's signal non-waiverable across the specialty.],
   quote-source: "Editors' synthesis of Eichhorn et al. (1986) and APSF founding documents.",
@@ -505,7 +505,7 @@
     recoverable ones, and the specialty's mortality and
     malpractice record moved over subsequent decades. The
     decline is multifactorial; the device standards still fail
-    in documented edge cases (Case 106).
+    in documented edge cases (Case 105).
   ],
   lens-approach: [
     Anesthesia monitoring is the canonical cue/alert
@@ -515,7 +515,7 @@
     Constraints) for the APSF / ASA institutional discipline
     that made the standard non-waiverable; and in Domain 5
     (Machine Teaming and Adaptation) at the human–device
-    boundary. Adjacent to Case 106 (pulse oximetry across
+    boundary. Adjacent to Case 105 (pulse oximetry across
     skin tones) — same instrument, the canonical edge case the
     standard still carries. Pair with Case 13 (WHO Surgical
     Checklist) at the mandatory-standard layer.
@@ -534,7 +534,7 @@
 )
 
 #case(
-  number: 117,
+  number: 116,
   slug: "ciras-confidential-incident-reporting",
   title: "CIRAS — Confidential Incident Reporting for UK Rail",
   year: "1996 – present",
@@ -702,7 +702,7 @@
 )
 
 #case(
-  number: 118,
+  number: 117,
   slug: "ipledge-isotretinoin-rems-when-the",
   title: "iPLEDGE Isotretinoin REMS — When the Authorization Mechanism Underperforms",
   year: "2006 – 2011",
@@ -724,7 +724,7 @@
     pregnancy testing, two contraception methods (or documented
     abstinence), and pharmacy lockout authorization before each
     dispense. The case is the productive counterpoint to SUBSAFE
-    (Case 114) and the WHO Surgical Checklist (Case 13): the
+    (Case 113) and the WHO Surgical Checklist (Case 13): the
     structural move is the same — mandatory pre-authorization
     gating a consequential action — and the measured outcome is
     very different. The Brinker et al. Kaiser Permanente cohort
@@ -760,7 +760,7 @@
       pregnancy tests, and receive a per-cycle authorization code
       before the pharmacy can fill the prescription. Each prescriber,
       pharmacy, and wholesaler must also enroll in the program. The
-      structural form is the same one SUBSAFE (Case 114) and the
+      structural form is the same one SUBSAFE (Case 113) and the
       WHO Surgical Checklist (Case 13) both use successfully:
       mandatory pre-authorization gating a consequential action,
       with the authorization withheld until pre-conditions are
@@ -799,7 +799,7 @@
       training that keep the certification real in operation.#cn()
     ],
     [
-      Drafted alongside SUBSAFE (Case 114) and the WHO Surgical
+      Drafted alongside SUBSAFE (Case 113) and the WHO Surgical
       Checklist (Case 13), iPLEDGE is the most analytically
       useful "mixed" case in the v2 sweep. It is not a failure of
       the form (the form has demonstrated successes); it is evidence
@@ -836,7 +836,7 @@
     [Brinker, Kornegay, Nourjah, Smith, & Reichman (2011), "The impact of the iPLEDGE program on isotretinoin fetal exposure in an integrated health care system," _Journal of the American Academy of Dermatology_, PMID:21565419.],
     [FDA, iPLEDGE program documentation (2006 – present) — REMS architecture and enrollment requirements.],
     [Pinheiro et al. (2013), "Isotretinoin and pregnancy in the era of iPLEDGE," _Journal of the American Academy of Dermatology_ — broader outcome literature documenting the ~150 annual exposures figure.],
-    [Sullivan et al. (2003), House Science Committee statement on SUBSAFE — the structural counterpoint (Case 114).],
+    [Sullivan et al. (2003), House Science Committee statement on SUBSAFE — the structural counterpoint (Case 113).],
   ),
   quote: [The authorization mechanism is operating as designed. The capability sits downstream of the authorization, and the program does not reach that far.],
   quote-source: "Editors' synthesis of Brinker et al. (2011).",
@@ -857,7 +857,7 @@
     mechanism delegates and what it does not — and in Domain 3
     (Test and Evaluation) for the CLO *Judgment under
     inadequate evidence* on whether the form will deliver in a
-    specific context. Direct pair with SUBSAFE (Case 114) at
+    specific context. Direct pair with SUBSAFE (Case 113) at
     the form-vs-context layer; pair with WHO Surgical Checklist
     (Case 13) at the mandatory-mechanism layer.
   ],

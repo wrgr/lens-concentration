@@ -21,7 +21,7 @@
 #import "../lib/components.typ": *
 
 #case(
-  number: 112,
+  number: 111,
   slug: "kirkpatrick-chain-of-evidence-where",
   title: "The Kirkpatrick Chain of Evidence — Where Corporate L&D Stops",
   year: "1959 – present",
@@ -54,7 +54,7 @@
     structurally sub-decision-grade. The evidence base is
     practice-synthesis: Devlin Peck, D2L, Valamis, and related
     evaluation-practice guides documenting the stop-at-L2 pattern,
-    plus the Blume meta-analysis (Case 113) for the transfer half of
+    plus the Blume meta-analysis (Case 112) for the transfer half of
     the chain. The evidence-tier flag is rendered under the title;
     future validation will continue as the corporate-L&D evaluation
     literature consolidates.
@@ -85,7 +85,7 @@
     [
       The consequence is a field that spends heavily on training —
       US organizations reported >\$125B/year on workplace training,
-      per the ASTD figure cited in Blume et al. (Case 113) — while
+      per the ASTD figure cited in Blume et al. (Case 112) — while
       measuring mostly the variable that flatters the program.
       Satisfaction scores do not predict on-job performance;
       knowledge retention measured immediately after training does
@@ -110,7 +110,7 @@
       practitioner consensus is durable.#cn()
     ],
     [
-      What the case teaches in pair with Blume (Case 113) is the
+      What the case teaches in pair with Blume (Case 112) is the
       structural form of the enthusiasm-evidence gap at corporate
       scale, and it is the case-grounded basis for the revised
       "decision-grade evidence" framing proposed in
@@ -132,7 +132,7 @@
     "Practice-literature synthesis: most organizations stop at Levels 1–2; Levels 3 and 4 require data the training org typically can't access",
     "US corporate-training market sized >\$125B/year per ASTD; measurement concentrated on variable that flatters the program",
     "Evidence-tier flag: practice-synthesis, not single peer-reviewed study; pattern is consistent, magnitudes still consolidating",
-    "Capability deliverable is an evaluation architecture that crosses the Level-2/Level-3 seam; pair with Blume (Case 113) for transfer",
+    "Capability deliverable is an evaluation architecture that crosses the Level-2/Level-3 seam; pair with Blume (Case 112) for transfer",
   ),
   approaches: (
     during: (
@@ -142,7 +142,7 @@
     ),
     after: (
       [When Level 3 and Level 4 data are not available, say so plainly in the evaluation report rather than substituting Level 2 metrics; the CLO *Judgment under inadequate evidence* is what the practitioner needs to do well here.],
-      [Track the work environment as a separate variable — Blume's meta-analysis (Case 113) names it as decisive — and report the training outcome conditional on environment, not as a property of the training alone.],
+      [Track the work environment as a separate variable — Blume's meta-analysis (Case 112) names it as decisive — and report the training outcome conditional on environment, not as a property of the training alone.],
       [Use the structural pattern to argue for the evaluation architecture investment, not to abandon evaluation. The gap is a capability gap, not an argument against measurement.],
     ),
   ),
@@ -173,7 +173,7 @@
     on structurally sub-decision-grade evidence — and in
     Domain 4 (Navigating Sociotechnical Constraints) for the
     Level-2/Level-3 seam that the training organization
-    cannot cross alone. Direct pair with Case 113 (Blume
+    cannot cross alone. Direct pair with Case 112 (Blume
     transfer meta-analysis) for the workplace-environment
     half of the chain.
   ],
@@ -191,7 +191,7 @@
 )
 
 #case(
-  number: 113,
+  number: 112,
   slug: "training-transfer-the-gap-between",
   title: "Training Transfer — The Gap Between Learning and Doing",
   year: "2010",
@@ -221,7 +221,7 @@
     note that organizations frequently see limited return because
     learning fails to transfer to the workplace. The case is the
     paired peer-reviewed half of the corporate-L&D pair with
-    Kirkpatrick (Case 112): together they close the gap the v1
+    Kirkpatrick (Case 111): together they close the gap the v1
     corpus had open at the workforce-L&D layer, and they motivate
     the LENS framing that the human is the biggest variable at the
     interface — here, the return-to-work interface.
@@ -231,7 +231,7 @@
       Training transfer is the structural question corporate L&D
       sits inside: does what learners did in training produce
       observable change on the job, and what predicts whether it
-      does? The Kirkpatrick chain of evidence (Case 112) frames the
+      does? The Kirkpatrick chain of evidence (Case 111) frames the
       question; the Blume et al. meta-analysis is the strongest
       single peer-reviewed answer the field has consolidated.#cn()
     ],
@@ -268,7 +268,7 @@
       behavior. The human is the biggest variable at the
       interface, and the interface is the return-to-work
       boundary. Training that ignores this boundary is training
-      that delivers Level 2 evidence (Kirkpatrick, Case 112) and
+      that delivers Level 2 evidence (Kirkpatrick, Case 111) and
       does not deliver Level 3 capability.#cn()
     ],
     [
@@ -290,7 +290,7 @@
     "Transfer positively related to cognitive ability, conscientiousness, motivation, and work environment",
     "Work environment (supervisor + peer support) among strongest predictors and the decisive system-layer variable",
     "Load-bearing hedge: 'inconsistent measurement of transfer and significant variability in findings' — preserved in case",
-    "Pair with Kirkpatrick (Case 112) — together they close the corporate-L&D gap and motivate the return-to-work interface",
+    "Pair with Kirkpatrick (Case 111) — together they close the corporate-L&D gap and motivate the return-to-work interface",
   ),
   approaches: (
     during: (
@@ -308,7 +308,7 @@
     [Blume, Ford, Baldwin, & Huang (2010), "Transfer of Training: A Meta-Analytic Review," _Journal of Management_ 36(4):1065–1105, doi:10.1177/0149206309352880.],
     [Baldwin & Ford (1988), "Transfer of Training: A Review and Directions for Future Research," _Personnel Psychology_ 41(1):63–105 — the foundational synthesis the 2010 meta-analysis updates.],
     [Burke & Hutchins (2007), "Training Transfer: An Integrative Literature Review," _Human Resource Development Review_ 6(3):263–296 — the integrative-review companion synthesis.],
-    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the framework the meta-analysis informs (paired Case 112).],
+    [Kirkpatrick & Kirkpatrick (2006), _Evaluating Training Programs_ — the framework the meta-analysis informs (paired Case 111).],
   ),
   quote: [The training event is not the capability deliverable. The transfer is. And the decisive variable at transfer is the work environment.],
   quote-source: "Editors' synthesis of Blume et al. (2010).",
@@ -331,7 +331,7 @@
     CLO *Judgment under inadequate evidence* — the
     meta-analysis is the strongest synthesis the field has,
     and it explicitly names what it cannot settle. Direct
-    pair with Case 112 (Kirkpatrick); together they close
+    pair with Case 111 (Kirkpatrick); together they close
     the corporate-L&D gap the v1 corpus had open.
   ],
   literature-items: (

@@ -165,7 +165,7 @@
     artifact prototyped, a multi-site pilot, a measurement regime, and
     global scale-out — and in LEN 4 for the measurement architecture
     that made the pilot effect provable and the Ontario null
-    interpretable. Adjacent to SUBSAFE (Case 114) at the
+    interpretable. Adjacent to SUBSAFE (Case 113) at the
     mandatory-mechanism layer, where the artifact's authority is the
     intervention.
   ],
