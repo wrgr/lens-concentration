@@ -37,15 +37,32 @@
 #let view = sys.inputs.at("view", default: "book")
 
 // ---- Case entry for the overview booklets -------------------------------
-// Reuses each case's verified summary / references / lens-approach so the
-// overview never duplicates content. Two layouts, chosen by `view`:
+// Layout discipline:
+//   - Title at 14pt: fits one line for ~90% of cases.
+//   - Summary at 9pt: condensed but readable.
+//   - 5 beats each on one line — beat text truncated where needed by smaller font.
+//   - LENS Applicability: SHORT lens lesson (uses le-insight or the brief lens
+//     field — intentionally compact, ~2-3 lines).
+//   - Course mapping: induced anchor · LENS anchor · CLO anchor · LEN courses
+//     on one line below LENS Applicability.
+//   - 1–3 key references inline with " · " separators, taken from refs as
+//     they're authored.
+//
+// Two layouts, chosen by `view`:
 //   "overview"      US Letter, two half-page entries per page (fixed height)
 //   "overview-half" Half Letter, one entry per page, content filled to page
 #let overview-entry(number, title, year, domains, modes, summary, refs, lens,
                     sections: (), beats: (), kind: none,
-                    courses: (), clo-anchor: none, induced-anchor: none, lens-anchor: none) = {
+                    courses: (), clo-anchor: none, induced-anchor: none, lens-anchor: none,
+                    le-insight: none) = {
   let big = view == "overview-half"
   let labels = section-sets.at(kind, default: section-sets.failure)
+  // Consistent vertical-spacing primitives. All inter-block gaps come from
+  // these — no irregular v() values scattered through the layout.
+  let gap-small = 2pt
+  let gap-med = 4pt
+  let gap-big = 6pt
+
   let header = grid(
     columns: (auto, 1fr, auto),
     column-gutter: 8pt,
@@ -54,35 +71,60 @@
     domain-row(..domains),
     eyebrow(year),
   )
-  // Title shrunk one notch — fits on one line for most cases. Was 18pt big / 15pt small.
-  let titleblock = text(font: serif, size: if big { 15pt } else { 13pt }, fill: navy, title)
-  // References — tight bulleted form, small font; first 3 entries only.
-  // Inline-with-dots tested but wrapped poorly when each ref is a full citation;
-  // bulleted at 7pt with tight leading wins on density.
+  let titleblock = text(font: serif, size: if big { 14pt } else { 12.5pt }, fill: navy, title)
+  // 5 beats — each one line. We use a 2-column grid (label · beat) at 6.8pt
+  // so labels align in a tight column and beats truncate by font size rather
+  // than wrapping. Hard cap at one line per beat row.
+  let beatsblock = {
+    eyebrow("The full case, in five beats", color: navy-mid)
+    v(gap-small)
+    block({
+      set par(leading: 0.4em, spacing: 1pt)
+      if beats.len() == labels.len() {
+        grid(
+          columns: (auto, 1fr),
+          column-gutter: 5pt,
+          row-gutter: 1pt,
+          ..for i in range(labels.len()) {
+            (text(font: sans, size: 6.8pt, weight: "medium", fill: navy, labels.at(i)),
+             text(font: sans, size: 6.8pt, fill: text-muted, beats.at(i)))
+          }
+        )
+      } else {
+        text(font: sans, size: 8pt, fill: text-muted, labels.join("  ·  "))
+      }
+    })
+  }
+  // Key references — 1 to 3 entries, bulleted at 7pt, tight leading. The
+  // function takes whatever the case authored; if 2 entries are present we
+  // render 2, if 3 we render 3, etc.
   let refsblock = {
     eyebrow("Key references", color: gold)
-    v(1pt)
+    v(gap-small)
     block({
       set par(leading: 0.4em, spacing: 2pt, hanging-indent: 7pt)
-      for r in refs.slice(0, calc.min(3, refs.len())) {
+      let n = calc.min(3, refs.len())
+      for r in refs.slice(0, n) {
         text(font: sans, size: 7pt, fill: text-muted, [‣#h(3pt)#r])
         parbreak()
       }
     })
   }
-  // Restructured LENS block — Application then Course mapping. Tight layout
-  // chosen so the whole block stays within one page when summary + beats
-  // also fit. Course mapping renders inline next to its eyebrow.
+  // LENS Applicability: SHORT lens lesson — uses le-insight when available
+  // (already the ~3-line editorial takeaway), falling back to the longer
+  // lens-approach when not. Goal is a 2–3 line standardized answer to
+  // "what does LENS teach with this case?"
+  let lens-lesson-text = if le-insight != none { le-insight } else { lens }
   let lensblock = {
     eyebrow("LENS applicability", color: teal)
-    v(1pt)
+    v(gap-small)
     block({
       set par(justify: false, leading: 0.46em)
-      text(font: sans, size: 7.5pt, fill: text-dark, lens)
+      text(font: sans, size: 7.5pt, fill: text-dark, lens-lesson-text)
     })
     // Course mapping line — inline after the eyebrow to save vertical room.
     if courses.len() > 0 or clo-anchor != none or induced-anchor != none or lens-anchor != none {
-      v(1pt)
+      v(gap-small)
       block({
         set par(justify: false, leading: 0.42em)
         eyebrow("Course mapping", color: navy-mid)
@@ -106,47 +148,36 @@
   }
 
   if big {
-    // One case per Half-Letter page. The case's "in brief" summary, then the
-    // five beat headings as a compact inline map of the full treatment, then
-    // key references and the LENS note. v(1fr) distributes slack to fill the
-    // page; the inline map keeps even content-heavy cases to a single page.
+    // One case per Half-Letter page. Sequence: header → title → summary →
+    // 5 beats → references → LENS Applicability + Course mapping.
+    // All inter-block gaps use the gap-* primitives for regularity.
     header
-    v(4pt)
+    v(gap-med)
     titleblock
-    v(7pt)
+    v(gap-big)
     block({
       set par(justify: true, leading: 0.55em)
-      text(font: sans, size: 9.5pt, fill: text-dark, summary)
+      text(font: sans, size: 9pt, fill: text-dark, summary)
     })
-    v(5pt)
-    eyebrow("The full case, in five beats", color: navy-mid)
-    v(2pt)
-    block({
-      set par(leading: 0.42em, spacing: 1.5pt)
-      if beats.len() == labels.len() {
-        for i in range(labels.len()) {
-          text(font: sans, size: 7pt, weight: "medium", fill: navy, labels.at(i))
-          text(font: sans, size: 7pt, fill: text-muted, [ — #beats.at(i)])
-          parbreak()
-        }
-      } else {
-        text(font: sans, size: 8.5pt, fill: text-muted, labels.join("  ·  "))
-      }
-    })
+    v(gap-big)
+    beatsblock
     v(1fr)
     refsblock
-    v(5pt)
+    v(gap-med)
     lensblock
     pagebreak(weak: true)
   } else {
     let callout = block({
       set par(justify: true, leading: 0.55em)
-      text(font: sans, size: 9.5pt, fill: text-dark, summary)
+      text(font: sans, size: 9pt, fill: text-dark, summary)
     })
     block(
       width: 100%, height: 113mm, breakable: false,
-      inset: (top: 6pt, bottom: 4pt), stroke: (top: 0.6pt + rule-soft),
-      { header; v(2pt); titleblock; v(4pt); callout; v(4pt); refsblock; v(2pt); lensblock },
+      inset: (top: 5pt, bottom: 4pt), stroke: (top: 0.6pt + rule-soft),
+      {
+        header; v(gap-small); titleblock; v(gap-med); callout;
+        v(gap-med); beatsblock; v(gap-med); refsblock; v(gap-small); lensblock
+      },
     )
   }
 }

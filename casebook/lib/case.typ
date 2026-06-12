@@ -63,7 +63,8 @@
     overview-entry(number, title, year, domains-list, modes-code, summary, references, lens-approach,
                    sections: sections, beats: beats, kind: kind,
                    courses: courses, clo-anchor: clo-anchor,
-                   induced-anchor: induced-anchor, lens-anchor: lens-anchor)
+                   induced-anchor: induced-anchor, lens-anchor: lens-anchor,
+                   le-insight: le-insight)
   } else {
 
   // Shared header: case number / domains / year, title, mode line, impact.
