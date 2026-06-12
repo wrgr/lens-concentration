@@ -67,12 +67,14 @@
 // -------------------------------------------------------- the case studies
 #text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("The case studies"))
 #v(5pt)
-#text(font: serif, size: 22pt, fill: navy, "One hundred cases, three movements")
+#text(font: serif, size: 22pt, fill: navy, "Two hundred cases, three movements")
 #v(10pt)
 #text(font: sans, size: 10.5pt, fill: text-dark)[
-  The casebook assembles *one hundred* documented cases — from healthcare,
-  defense, education, energy, transportation, and government — and organizes
-  them in three parts.
+  The casebook assembles *more than two hundred* documented cases — from
+  healthcare, defense, education, energy, finance, transportation, and
+  government — organized in three movements, with a contemporary expansion
+  that extends the corpus into algorithmic decision-making, learning
+  analytics, and workforce development.
 ]
 #v(8pt)
 #text(font: sans, size: 10pt, fill: text-dark)[
@@ -196,7 +198,7 @@
 // ------------------------------------------------------ contents / index
 #text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("Contents"))
 #v(5pt)
-#text(font: serif, size: 22pt, fill: navy, "The hundred cases")
+#text(font: serif, size: 22pt, fill: navy, "All the cases")
 #v(3pt)
 #text(font: sans, size: 9pt, fill: text-muted)[Listed in reading order; the number is the case's catalog number in the main casebook.]
 #v(8pt)

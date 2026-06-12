@@ -52,10 +52,11 @@
   coi: none,             // COI disclosure string — renders prominently under the case heading when set
   evidence-flag: none,   // short flag string for weaker-evidence cases (e.g. "journalism-tier", "preprint-tier"); future-validation language is implied
 ) = {
-  // Emit case metadata for the back-matter indexes (e.g. the LEN-course
-  // map). Carries number, title, and course tags for every case on both
-  // the 4-page and legacy paths.
-  [#metadata((n: number, slug: slug, title: title, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag)) <caseinfo>]
+  // Emit case metadata for the back-matter indexes and the front matrix.
+  // Carries number, title, year, domains, mode codes, kind, and course tags
+  // for every case on both the 4-page and legacy paths — so the matrix and
+  // domain index can render dynamically across the full corpus.
+  [#metadata((n: number, slug: slug, title: title, year: year, domains: domains-list, modes: modes-code, kind: kind, courses: courses, scale: scale, evidence-source: evidence-source, lens-anchor: lens-anchor, induced-anchor: induced-anchor, clo-anchor: clo-anchor, coi: coi, evidence-flag: evidence-flag)) <caseinfo>]
 
   // Overview booklets (view "overview" / "overview-half"): render a compact
   // entry instead of the full multi-page case, reusing verified content.
