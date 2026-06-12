@@ -1295,9 +1295,10 @@
     high-consequence domains; recent work in clinical care has
     extended the principle to ward rounds and clinical handoff,
     where interruption-driven information loss is a documented
-    contributor to patient-safety events. The peer-reviewed
-    case (PMC12515027) describes a structured intervention on a
-    single clinical unit: a defined window during the handoff
+    contributor to patient-safety events. Treloar et al. (2025),
+    in _World Journal of Surgery_, describe a structured
+    intervention on a single surgical ward: a defined window
+    during the handoff
     or round during which non-essential pages, conversations,
     and interruptions are prohibited and information transfer
     is the protected workflow. The evaluation reports
@@ -1345,8 +1346,8 @@
       provides a worked template for engineering it.#cn()
     ],
     [
-      The peer-reviewed case (PMC12515027) describes a
-      structured intervention on a clinical unit. A defined
+      Treloar et al. (2025) describe a
+      structured intervention on a surgical ward. A defined
       window during the handoff or round is designated as
       protected; non-essential pages are deferred, side
       conversations are prohibited, and the staff conducting
