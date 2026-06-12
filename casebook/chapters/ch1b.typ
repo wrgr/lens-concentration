@@ -821,7 +821,7 @@
     [Department of Defense (2020), MIL-STD-1472H "Department of Defense Design Criteria Standard: Human Engineering," 15 September 2020 — replaces MIL-STD-1472G (2012).],
     [Department of Defense (2012), MIL-STD-1472G — the prior revision; revision history documents the 1968 origin and intermediate letters.],
     [Chapanis, A. (1965), "Man-Machine Engineering" — foundational text for the discipline the standard codifies.],
-    [Fitts, P. M., & Jones, R. E. (1947), "Analysis of factors contributing to 60 'pilot error' experiences in operating aircraft controls" — origin of designed-error analysis.],
+    [Fitts, P. M., & Jones, R. E. (1947), "Analysis of factors contributing to 460 'pilot error' experiences in operating aircraft controls" — origin of designed-error analysis.],
   ),
   quote: [The criterion that survives into a binding standard is the criterion the program is held to.],
   quote-source: "Editors' synthesis of MIL-STD-1472 revision history.",
@@ -1828,7 +1828,7 @@
     ),
   ),
   references: (
-    [Kalvet, Tiits, & Hinsberg (2024), "Estonia's Digital Transformation: Mission Mystique and the Hiding Hand," in _Mission Mystique_ (Oxford University Press, 2024) — peer-reviewed analytical chapter.],
+    [Kattel, R., & Mergel, I. (2019), "Estonia's Digital Transformation: Mission Mystique and the Hiding Hand," in Compton, M., & 't Hart, P. (eds.), _Great Policy Successes_ (Oxford University Press, 2019) — peer-reviewed analytical chapter.],
     [Kotka, Castro, & Kasakov (2021), "A Historical Analysis on Interoperability in Estonian Data Exchange Architecture," _ICEGOV 2021_ proceedings, doi:10.1145/3494193.3494209.],
     [X-Road Global / Nordic Institute for Interoperability Solutions (NIIS) — program documentation and deployment-partner case studies.],
     [Republic of Estonia, e-Estonia briefing materials and Year-in-Review documentation (2024) — program-report sourcing.],

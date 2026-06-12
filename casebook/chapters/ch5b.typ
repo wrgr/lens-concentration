@@ -149,7 +149,7 @@
     ),
   ),
   references: (
-    [Brinker, Kornegay, Nourjah, Smith, & Reichman (2011), "The impact of the iPLEDGE program on isotretinoin fetal exposure in an integrated health care system," _Journal of the American Academy of Dermatology_, PMID:21565419.],
+    [Shin, J., Cheetham, T. C., Wong, L., Niu, F., Kass, E., Yoshinaga, M. A., Sorel, M., McCombs, J. S., & Sidney, S. (2011), "The impact of the iPLEDGE program on isotretinoin fetal exposure in an integrated health care system," _Journal of the American Academy of Dermatology_, PMID:21565419.],
     [FDA, iPLEDGE program documentation (2006 – present) — REMS architecture and enrollment requirements.],
     [Pinheiro et al. (2013), "Isotretinoin and pregnancy in the era of iPLEDGE," _Journal of the American Academy of Dermatology_ — broader outcome literature documenting the ~150 annual exposures figure.],
     [Sullivan et al. (2003), House Science Committee statement on SUBSAFE — the structural counterpoint (Case 19).],
@@ -325,7 +325,7 @@
     ),
   ),
   references: (
-    [Prinsloo, Slade, & Khalil (2022), "Data privacy on the African continent: Opportunities, challenges and implications for learning analytics," _British Journal of Educational Technology_ 53(4):894–913, doi:10.1111/bjet.13226.],
+    [Prinsloo, P., & Kaliisa, R. (2022), "Data privacy on the African continent: Opportunities, challenges and implications for learning analytics," _British Journal of Educational Technology_ 53(4):894–913, doi:10.1111/bjet.13226.],
     [African Union Convention on Cyber Security and Personal Data Protection (Malabo Convention, 2014) — continental policy backdrop, partial ratification.],
     [Slade & Prinsloo (2013), _American Behavioral Scientist_ — earlier framing on which the 2022 paper builds.],
     [Open University Ethical Use of Student Data policy (2014) — single-regime governance-by-design companion.],
@@ -3451,7 +3451,7 @@
     ),
   ),
   references: (
-    [Musabyimana, A., Lundeen, T., Sayinzoga, F., et al. (2019), "Effect of a community health worker mHealth monitoring system on uptake of maternal and newborn health services in Rwanda," _Global Health Research and Policy_, PMC6429813.],
+    [Hategeka, C., Ruton, H., Law, M. R., et al. (2019), "Effect of a community health worker mHealth monitoring system on uptake of maternal and newborn health services in Rwanda," _Global Health Research and Policy_, PMC6429813.],
     [Rwanda Ministry of Health, community health program documentation and CHW scope-of-practice guidance, 2013–2018.],
     [MIT News (2022), reporting on subsequent AI-augmented maternal-care work in Rwanda — journalism-tier companion to the peer-reviewed evaluation.],
     [Cross-reference: Case 187 (PEPFAR HIV training-modality comparison) for the paired Sub-Saharan workforce-capability evidence.],
@@ -3615,7 +3615,7 @@
     ),
   ),
   references: (
-    [Aoki, T., et al. (2025), "Scoping Review of Regulatory Transparency in AI-based Radiology Software: Analysis of PMDA-approved SaMD Products," medRxiv 2025.10.02.25336333.],
+    [Kikuchi, et al. (2025), "Scoping Review of Regulatory Transparency in AI-based Radiology Software: Analysis of PMDA-approved SaMD Products," medRxiv 2025.10.02.25336333.],
     [Aoki, T., et al. (2021 → published), "Regulatory-approved Deep Learning/Machine Learning-Based Medical Devices in Japan as of 2020: A Systematic Review," PMC9931274.],
     [Pharmaceuticals and Medical Devices Agency of Japan, PMD Act amendment (2019) and DASH for SaMD program documentation.],
     [Cross-reference: "A decade of review in global regulation and research of artificial intelligence medical devices (2015–2025)," PMC12310608 — comparative regulatory context.],
@@ -3963,7 +3963,7 @@
   ),
   references: (
     [New York City Department of Consumer and Worker Protection, _Rules Implementing Local Law 144 of 2021 (Automated Employment Decision Tools)_, effective July 5, 2023.],
-    [Yam, K. A., & Skirpan, M. W. (2024), "Bias Audits Without Bias Data: An Investigation of Auditor Practice Under NYC Local Law 144," in _Proceedings of FAccT 2024_, doi:10.1145/3630106.3658955.],
+    [Wright, L., Muenster, R. M., Vecchione, B., Qu, T., Cai, S., Smith, A., Metcalf, J., & Matias, J. N. (2024), "Auditing Work: Exploring the New York City algorithmic bias audit regime," in _Proceedings of FAccT 2024_, doi:10.1145/3630106.3658959.],
     [Wright, L., & Brown, I. (2024), "Auditing the auditors: an empirical study of the first cohort of Local Law 144 bias audits," _AI and Ethics_, doi:10.1007/s43681-024-00461-2.],
     [Engler, A. (2023), "The EU and U.S. diverge on AI regulation: A transatlantic comparison and steps to alignment," _Brookings Institution_ commentary — regulatory-comparative frame for the municipal intervention.],
   ),
@@ -4273,7 +4273,7 @@
     ),
   ),
   references: (
-    [Prinsloo, P., Khalil, M., & Slade, S. (2022), "Learning Analytics on the African Continent: An Emerging Research Focus and Practice," _Journal of Learning Analytics_; ResearchGate publication 361096718.],
+    [Prinsloo, P., & Kaliisa, R. (2022), "Learning Analytics on the African Continent: An Emerging Research Focus and Practice," _Journal of Learning Analytics_; ResearchGate publication 361096718.],
     [Lemmens, J.-C., & Henn, M. (2015), South African Association for Institutional Research (SAAIR) proceedings — adjacent SA higher-education learning-analytics work.],
     [SciELO (2020), "Development of a contextualised learning-analytics framework for South African higher education."],
     [Cross-reference: the African data-privacy governance case earlier in the corpus, for the construct-travel problem stated in governance terms.],
