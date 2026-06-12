@@ -1,5 +1,12 @@
 # LENS — Revised Competencies and Course Learning Objectives
-*Revision proposal grounded in the v2 casebook evidence sweep. For program-owner (J. Diamond) review before adoption.*
+
+> **STATUS: ADOPTED (June 2026), refined to v2.1 in `lens_program/1_LENS_Five_Competencies.md`.** This proposal is preserved as the design rationale; the current canonical set lives in the program-doc directory. Two refinements went in at adoption time:
+> 1. **D3 reorder + rename:** what this doc called "Domain 5 — Emerging Systems & Futures" is broadened to **Human-System Collaboration** and moved to position 3 (so the order reads as the flywheel: see the system → build → integrate humans → measure → deploy). T&E becomes D4; Sociotechnical Constraints becomes D5.
+> 2. **"New CLOs" → subobjectives.** The four items below framed as "[NEW] CLO" (Gap attribution, Delegation with revocation, Judgment under inadequate evidence, Fairness beyond omission) are sub-CLO-grain teaching points and ship as **named subobjectives** within the parent CLO, not as parallel top-level CLOs. Numbering: 1.5, 2.5, 3.3, 3.4, 4.4, 4.6, 5.6 (see canonical doc for full list).
+
+*Original proposal text follows — preserved for design rationale and case-by-case grounding.*
+
+---
 
 This document revises the five LENS competency domains and proposes new and amended required CLOs and sub-competencies. Every change is grounded in specific verified cases from the casebook sweep, named inline. Changes are marked **[NEW]**, **[AMENDED]**, or **[DEFERRED]**. Deferred items are named, not silently dropped.
 

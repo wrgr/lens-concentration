@@ -1,5 +1,6 @@
 # LENS Core Guiding Documents
-Revised June 2026. Source of record: JHU SOE LDT/LENS program documentation (MHEC PP24181).
+
+> **STATUS: v2.1 CURRENT (adopted June 2026).** Source of record: JHU SOE LDT/LENS program documentation (MHEC PP24181). Versions are tracked inline via a `Change Log` at the bottom of docs 1 and 2; prior prose retrievable from git history (no `legacy/` folder — the canonical file is always the one in this directory). The `.docx` companions for docs 1 and 2 need a program-owner round-trip from the `.md` after each version bump; they are currently behind v2.1.
 
 The complete, synced set. The five competencies, their names, taglines, and the CLO crosswalk
 are consistent across every document here as of this revision.
@@ -27,17 +28,17 @@ are consistent across every document here as of this revision.
    prospective student) and credential-led (network, referrers, list outreach). Send with docs 1 and 2
    attached; casebook excerpt for warm prospects.
 
-## Final competency names
-Systems Analysis · Iterative Development · Test and Evaluation · Navigating Sociotechnical
-Constraints · Machine Teaming and Adaptation.
+## Final competency names (v2.1)
+Systems Analysis · Iterative Development · **Human-System Collaboration** · Test and Evaluation · Navigating Sociotechnical Constraints.
+
+*(v2.1 reorder + rename: D3 is **Human-System Collaboration** — broadened from the v1 "Machine Teaming and Adaptation" and moved from position 5 to position 3; T&E moved to D4; Sociotechnical Constraints moved to D5. The flywheel reads: see the system → build → integrate humans → measure → deploy.)*
 
 ## Verify before external use
 - "nearly 500 students" figure (now in print); IRB status of the human-cognitive-performance research
   language in Will's bio.
 - Recruitment email: August 2026 start, online/part-time, "founding cohort" language, email address,
   and that capabilitymatters.org is live.
-- Published casebook (capability-matters-digital.pdf, pp. 16-17) still carries OLD competency names;
-  sync on next printing. Front-matter replacement copy to follow as a separate handoff.
+- Published casebook (capability-matters-digital.pdf, pp. 16–17) still carries v1 competency names + ordering; the v2.1 sync ships with the casebook lens-anchor/CLO-anchor field remap (D3↔D4 swap, D5→D3) and the dgm-five-competencies diagram update.
 
 ## Open items (drop cleanly if they conflict with the documentation of record)
 - Subobjectives 3.4 (communicating uncertainty) and 5.4 (not-yet-fielded systems) are additions

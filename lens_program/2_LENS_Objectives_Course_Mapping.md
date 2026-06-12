@@ -1,3 +1,9 @@
+<!-- LENS-VERSION: 2.1 | STATUS: CURRENT | ADOPTED: 2026-06 | SUPERSEDES: 2.0, 1 -->
+
+> **STATUS: CURRENT (v2.1, June 2026).** Adopted by program owner (J. Diamond) and editor (W. Gray-Roncal). Source of record for syllabi, capstone rubrics, and course-CLO mapping. Companion competency document is `1_LENS_Five_Competencies.md` (v2.1). Supersedes v2.0 (proposal in `v2_research/01_*`) and v1 (initial). Prior prose preserved in git history; see the *Change Log* at the end of this document. The companion `.docx` needs a program-owner round-trip from this `.md`.
+
+---
+
 Learning Design and Technology — M.Ed. • Johns Hopkins School of Education
 
 LENS: Learning Engineering for Next-Generation Systems
@@ -128,9 +134,9 @@ Using data to inform the design, development, and evaluation of learning experie
 
 LENS graduates demonstrate competency across five domains. Each concentration-level objective (CLO) is written at the Analyze, Evaluate, or Create level of Bloom's taxonomy and is structured for direct assessment. Four threads are woven across all CLOs: evidence and measurability; capability (the interface between system requirements and system impact); iterative engineering cycles at speed and scale; and communication across disciplinary and institutional boundaries. A fifth commitment, the preservation and development of human agency, serves as a design constraint across every CLO.
 
-The five domains align with the learning engineering competency framework under development with the IEEE ICICLE community. Elements not yet field consensus (gap attribution in CLO-3; sociotechnical integration in CLO-4; human-AI teaming in CLO-5) are LENS's proposed extensions to that framework, and LENS capstone evidence is offered toward their validation.
+The five domains align with the learning engineering competency framework under development with the IEEE ICICLE community. Elements not yet field consensus (gap attribution in CLO-4; sociotechnical integration in CLO-5; human-system collaboration including human-AI teaming in CLO-3; the v2 additions on delegation with revocation, judgment under inadequate evidence, fairness beyond omission, and cross-regime governance) are LENS's proposed extensions to that framework, and LENS capstone evidence is offered toward their validation.
 
-Each CLO carries an accessible competency name and tagline used in recruiting and the casebook: CLO-1 Systems Analysis (see the whole system); CLO-2 Iterative Development (build, test, refine); CLO-3 Test and Evaluation (show what works); CLO-4 Navigating Sociotechnical Constraints (make it work in the real world); CLO-5 Machine Teaming and Adaptation (team with the machine). Each CLO decomposes into numbered subobjectives (e.g., 3.2 gap attribution) that serve as stable tags for case studies, course modules, and capstone rubrics; the subobjective set is maintained in the companion competencies document.
+Each CLO carries an accessible competency name and tagline used in recruiting and the casebook: CLO-1 Systems Analysis (*see the whole system*); CLO-2 Iterative Development (*build, test, refine*); CLO-3 Human-System Collaboration (*work together*); CLO-4 Test and Evaluation (*show what works*); CLO-5 Navigating Sociotechnical Constraints (*make it work in the real world*). Each CLO decomposes into numbered subobjectives (e.g., 4.2 gap attribution, 3.3 delegation with revocation) that serve as stable tags for case studies, course modules, and capstone rubrics; the subobjective set is maintained in the companion competencies document.
 
 ID
 
@@ -142,31 +148,32 @@ CLO-1
 
 Systems Thinking and Analysis
 
-Decompose system performance requirements into measurable human capability requirements, defining the interface between what a system requires of its operators and the impact it must deliver. Model learning environments and their host operational systems as interacting systems with defined components, interfaces, and feedback loops. Apply systems engineering lifecycle models to scope, sequence, and evaluate capability development interventions within and across disparate systems. Analyze and communicate interdependencies between human performance and system performance to identify capability gaps and predict operational impact at scale.
+Decompose system performance requirements into measurable human capability requirements, defining the interface between what a system requires of its operators and the impact it must deliver. Model learning environments and their host operational systems as interacting systems with defined components, interfaces, and feedback loops. Apply systems engineering lifecycle models to scope, sequence, and evaluate capability development interventions within and across disparate systems. Analyze and communicate interdependencies between human performance and system performance to identify capability gaps and predict operational impact at scale. *[v2]* Apply the governance-objection diagnostic to distinguish a governance objection that good design can dissolve from one that correctly signals the system should not deploy.
 
 CLO-2
 
 Learning Engineering Design and Implementation
 
-Design capability development interventions through iterative engineering cycles (design, instrument, evaluate, refine) that integrate learning sciences principles with measurable outcomes and system design constraints, and that function at speed and scale within operational environments. Evaluate the operational impact of evidence-based design strategies for transfer to high-consequence settings. Construct and communicate implementation plans that address adoption, sustainment, and lifecycle integration across organizational and system boundaries.
+Design capability development interventions through iterative engineering cycles (design, instrument, evaluate, refine) that integrate learning sciences principles with measurable outcomes and system design constraints, and that function at speed and scale within operational environments. Evaluate the operational impact of evidence-based design strategies for transfer to high-consequence settings. Construct and communicate implementation plans that address adoption, sustainment, and lifecycle integration across organizational and system boundaries. *[v2]* Narrate and defend the design iteration in first person; design competence includes rendering iteration legible, not only producing an outcome.
 
 CLO-3
 
-Data, Measurement, and Evaluation
+Human-System Collaboration and Adaptive Systems
 
-Design ethical instrumentation strategies that produce measurable evidence of capability (the interface between operator requirements and system impact) at the speed and scale operations require. Construct decision-grade evidence artifacts (dashboards, reports, governance documentation) that link learning outcomes to operational impact and feed subsequent design iterations. Differentiate capability gaps attributable to human development from those attributable to system design or organizational performance, and communicate findings to technical and non-technical stakeholders.
+Design human-system partnerships — including but not limited to human-AI — that make people more capable while preserving human agency and the recoverability of the system. Design role architectures, interface and alert systems, mode/state transparency, authority gradients, and recoverability mechanisms that engineer collaborative capability at the human-system boundary. Evaluate the measurable impact of system-mediated work on human performance, assessing both the gains the system enables and the risks it introduces, including automation bias, cognitive offloading, and skill atrophy. *[v2]* Specify delegation with revocation: design the human oversight layer for delegated work and specify in advance the disconfirming evidence that would revoke the delegation. *[v2]* Measure the capability of a team or collaboration as a unit of analysis, distinct from any individual operator or any individual system component. Communicate evidence-based recommendations for when system augmentation improves versus degrades capability outcomes and operator agency. Specify capability requirements for systems not yet fielded, working from design artifacts.
 
 CLO-4
 
-Navigating Sociotechnical Constraints
+Data, Measurement, and Evaluation
 
-Integrate capability interventions into the sociotechnical systems they must live in: the regulatory, organizational, cultural, and technical realities that determine whether good designs survive. Analyze the constraints that shape what can be built, deployed, and sustained in healthcare, defense, or education contexts. Apply human systems integration frameworks to fit capability development approaches to operational environments. Leverage prior domain expertise, and respect for others', to elicit and validate specialist knowledge that surfaces constraints early. Synthesize and communicate stakeholder requirements across disciplinary and institutional boundaries into coherent design specifications, and design interventions that survive adoption and sustainment barriers.
+Design ethical instrumentation strategies that produce measurable evidence of capability (the interface between operator requirements and system impact) at the speed and scale operations require. Construct decision-grade evidence artifacts (dashboards, reports, governance documentation) that link learning outcomes to operational impact and feed subsequent design iterations — where decision-grade is a sufficiency judgment under irreducible uncertainty, naming what is known, what is assumed, and what would change the decision. *[v2]* Justify a consequential decision on incomplete and contested evidence and document the basis. **Gap attribution.** Differentiate capability gaps attributable to human development from those attributable to system design or organizational performance, and communicate findings to technical and non-technical stakeholders. *[v2]* **Fairness beyond omission.** Demonstrate that omitting a protected attribute does not establish fairness; analyze competing fairness definitions using demographic-stratified outcome evidence.
 
 CLO-5
 
-Human-AI Teaming and Adaptive Systems
+Context and Domain Fluency
 
-Design human-AI teaming configurations that leverage AI as a creative partner in capability development while preserving and developing human agency: the capacity to exercise independent judgment, adapt to novel conditions, and shape the systems operators work within. Evaluate the measurable impact of AI-mediated learning systems on human performance, assessing both the gains AI enables and the risks it introduces, including automation bias and cognitive offloading. Communicate evidence-based recommendations for when AI augmentation improves versus degrades capability development outcomes and operator agency.
+Integrate capability interventions into the sociotechnical systems they must live in: the regulatory, organizational, cultural, and technical realities that determine whether good designs survive. Analyze the constraints that shape what can be built, deployed, and sustained in healthcare, defense, or education contexts. Apply human systems integration frameworks to fit capability development approaches to operational environments. Leverage prior domain expertise, and respect for others', to elicit and validate specialist knowledge that surfaces constraints early. Synthesize and communicate stakeholder requirements across disciplinary and institutional boundaries into coherent design specifications, and design interventions that survive adoption and sustainment barriers. *[v2]* **Cross-regime / platform-dependency governance.** Where capability is deployed on a platform governed by a different regime than the one operating it, design the governance seam as an explicit deliverable.
+
 
 # 5. Course Descriptions and Objectives Mapping
 
@@ -198,7 +205,7 @@ Concentration Objectives (CLO)
 
 PLO-2, PLO-5
 
-CLO-4
+CLO-5
 
 ## 5.2 Concentration Courses (LENS sequential core, 9 credits)
 
@@ -228,7 +235,7 @@ Concentration Objectives (CLO)
 
 PLO-1, PLO-2, PLO-4, PLO-5
 
-CLO-5
+CLO-3
 
 LEN 3: Learning Engineering Systems
 
@@ -242,7 +249,7 @@ Concentration Objectives (CLO)
 
 PLO-2, PLO-3, PLO-4, PLO-5
 
-CLO-1, CLO-4
+CLO-1, CLO-5
 
 ## 5.3 Methods Courses (LENS-specific, 6 credits)
 
@@ -258,7 +265,7 @@ Concentration Objectives (CLO)
 
 PLO-1, PLO-3, PLO-4, PLO-6
 
-CLO-1, CLO-2, CLO-4
+CLO-1, CLO-2, CLO-5
 
 LEN 4: Evidence, Analytics, and Measurement for High-Consequence Domains
 
@@ -272,7 +279,7 @@ Concentration Objectives (CLO)
 
 PLO-2, PLO-4, PLO-6
 
-CLO-3
+CLO-4
 
 ## 5.4 Capstone (3 credits)
 
@@ -288,7 +295,7 @@ Concentration Objectives (CLO)
 
 PLO-2, PLO-3, PLO-4, PLO-6
 
-CLO-1, CLO-2, CLO-3, CLO-4, CLO-5
+CLO-1, CLO-2, CLO-4, CLO-5, CLO-3
 
 ## 5.5 LENS Electives (students choose 2; LEN 5 and LEN 9 recommended)
 
@@ -304,7 +311,7 @@ Concentration Objectives (CLO)
 
 PLO-1, PLO-6
 
-CLO-1, CLO-4
+CLO-1, CLO-5
 
 LEN 7: Bias, Risk, and Governance in Learning System Design
 
@@ -318,7 +325,7 @@ Concentration Objectives (CLO)
 
 PLO-2, PLO-5
 
-CLO-4
+CLO-5
 
 LEN 8: Knowledge Transfer and Organizational Learning
 
@@ -332,7 +339,7 @@ Concentration Objectives (CLO)
 
 PLO-3, PLO-4
 
-CLO-2, CLO-4
+CLO-2, CLO-5
 
 LEN 9: Computational and AI Methods for Learning Engineers
 
@@ -346,7 +353,7 @@ Concentration Objectives (CLO)
 
 PLO-1, PLO-4, PLO-6
 
-CLO-3, CLO-5
+CLO-4, CLO-3
 
 # 6. Coverage Matrix
 
@@ -464,93 +471,28 @@ LEN 9
 
 ## 6.2 Concentration Learning Objectives
 
-Course
+Coverage of each CLO by course. ✘ = required course; ○ = elective. Column order matches v2.1 (D3 Human-System Collaboration sits at position 3).
 
-CLO-1
-
-CLO-2
-
-CLO-3
-
-CLO-4
-
-CLO-5
-
-LDT F1
-
-✘
-
-LDT F2
-
-✘
-
-LEN 1
-
-✘
-
-✘
-
-LEN 2
-
-✘
-
-LEN 3
-
-✘
-
-✘
-
-LEN 6
-
-✘
-
-✘
-
-✘
-
-LEN 4
-
-✘
-
-LEN 10
-
-✘
-
-✘
-
-✘
-
-✘
-
-✘
-
-LEN 5
-
-○
-
-○
-
-LEN 7
-
-○
-
-LEN 8
-
-○
-
-○
-
-LEN 9
-
-○
-
-○
+| Course | CLO-1 Systems Analysis | CLO-2 Iterative Dev | CLO-3 Human-System Collaboration | CLO-4 Test & Evaluation | CLO-5 Sociotechnical Constraints |
+|---|:---:|:---:|:---:|:---:|:---:|
+| LDT F1 |  | ✘ |  |  |  |
+| LDT F2 |  |  |  |  | ✘ |
+| LEN 1 | ✘ | ✘ |  |  |  |
+| LEN 2 |  |  | ✘ |  |  |
+| LEN 3 | ✘ |  |  |  | ✘ |
+| LEN 6 | ✘ | ✘ |  |  | ✘ |
+| LEN 4 |  |  |  | ✘ |  |
+| LEN 10 | ✘ | ✘ | ✘ | ✘ | ✘ |
+| LEN 5 (elec.) | ○ |  |  |  | ○ |
+| LEN 7 (elec.) |  |  |  |  | ○ |
+| LEN 8 (elec.) |  | ○ |  |  | ○ |
+| LEN 9 (elec.) |  |  | ○ | ○ |  |
 
 ## 6.3 Coverage Analysis
 
 PLO coverage: All six program objectives are addressed by multiple required courses. PLO-1 (Theory and Evidence): F1, LEN 1, LEN 2, LEN 6. PLO-2 (Ethical and Human-Centered): F1, F2, LEN 1, LEN 2, LEN 3, LEN 4, LEN 10. PLO-3 (Collaboration and Leadership): LEN 1, LEN 3, LEN 6, LEN 10. PLO-4 (Communication Competence): LEN 2, LEN 3, LEN 4, LEN 6, LEN 10; threaded across the concentration, methods, and capstone. PLO-5 (Sociocultural Aspects): F2, LEN 2, LEN 3. PLO-6 (Data-Informed): LEN 4, LEN 6, LEN 10.
 
-CLO coverage: All five competency domains are addressed by required courses. CLO-1 (Systems Thinking and Analysis) is now carried by four required courses (LEN 1, LEN 3, LEN 6, LEN 10), reflecting its weight in the concentration. CLO-3 (Data, Measurement, and Evaluation) is strongly covered through LEN 4 (required methods) and LEN 10 (capstone). CLO-5 (Human-AI Teaming) is owned by LEN 2, with additional depth through LEN 9 (recommended elective). The capstone (LEN 10) integrates all five domains. Iterative engineering cycles appear as required content in LEN 1 (introduced as core method), LEN 2 (prototype-instrument-refine), LEN 6 (full iteration on an authentic problem), LEN 4 (evidence pipelines closing the measurement-to-revision loop), and LEN 10 (documented complete cycle).
+CLO coverage: All five competency domains are addressed by required courses. CLO-1 (Systems Thinking and Analysis) is now carried by four required courses (LEN 1, LEN 3, LEN 6, LEN 10), reflecting its weight in the concentration. CLO-4 (Data, Measurement, and Evaluation) is strongly covered through LEN 4 (required methods) and LEN 10 (capstone). CLO-3 (Human-System Collaboration) is owned by LEN 2, with additional depth through LEN 9 (recommended elective). The capstone (LEN 10) integrates all five domains. Iterative engineering cycles appear as required content in LEN 1 (introduced as core method), LEN 2 (prototype-instrument-refine), LEN 6 (full iteration on an authentic problem), LEN 4 (evidence pipelines closing the measurement-to-revision loop), and LEN 10 (documented complete cycle).
 
 ## 6.4 Cross-Cutting Threads
 
@@ -586,6 +528,25 @@ Iterative design strengthened. The iteration cycle (design, instrument, evaluate
 
 Systems thinking extended into methods. CLO-1 adds explicit system modeling language (components, interfaces, feedback loops). LEN 3 and LEN 6 now require systems framing before intervention; LEN 6 maps to CLO-1, raising required-course coverage of CLO-1 from three courses to four.
 
-CLO-4 reframed to sociotechnical integration. CLO-4 is renamed Navigating Sociotechnical Constraints. Its objective now leads with integrating interventions into the regulatory, organizational, cultural, and technical systems they must survive; prior domain expertise is retained as the means of surfacing constraints early rather than as the headline. Supporting language remains in Program Context, LEN 6, LEN 5, and the LEN 10 capstone.
+CLO-5 reframed to sociotechnical integration. CLO-5 is renamed Navigating Sociotechnical Constraints. Its objective now leads with integrating interventions into the regulatory, organizational, cultural, and technical systems they must survive; prior domain expertise is retained as the means of surfacing constraints early rather than as the headline. Supporting language remains in Program Context, LEN 6, LEN 5, and the LEN 10 capstone.
 
 Field alignment noted. Section 4 states the CLOs' relationship to the emerging field competency framework and labels gap attribution, domain fluency, and human-AI teaming as LENS's proposed extensions. Section 6.4 adds the field's five professional dispositions as a fourth cross-cutting commitment.
+---
+
+# Change Log
+
+**v2.1 — June 2026** *(current)*
+- **D3/D4/D5 reorder + CLO-3 rename + renumber.** What was D5/CLO-5 (Machine Teaming and Adaptation / Human-AI Teaming and Adaptive Systems) is broadened to **D3/CLO-3 Human-System Collaboration and Adaptive Systems** and moved to position 3. T&E becomes D4/CLO-4 (was D3/CLO-3); Sociotechnical Constraints becomes D5/CLO-5 (was D4/CLO-4). The new order reads as the flywheel: see the system → build → integrate humans → measure → deploy.
+- **CLO mapping updated for every course** (Sections 5 and 6.2). Map: old CLO-3 → new CLO-4, old CLO-4 → new CLO-5, old CLO-5 → new CLO-3.
+  - LEN 2 maps to **CLO-3** (was CLO-5). The course title and prose still emphasize human-AI teaming; the v2.1 framing places it within the broader Human-System Collaboration competency. A title broadening to "Human-System Collaboration and Adaptive Learning Systems" would match the v2.1 scope but is deferred to the program owner's call.
+  - LEN 4 maps to **CLO-4** (was CLO-3). LEN 7 to CLO-5 (was CLO-4). LEN 8 to CLO-2, CLO-5 (was CLO-2, CLO-4). LEN 9 to CLO-4, CLO-3 (was CLO-3, CLO-5). LDT F2 to CLO-5 (was CLO-4). LEN 3 to CLO-1, CLO-5 (was CLO-1, CLO-4). LEN 6 to CLO-1, CLO-2, CLO-5 (was CLO-1, CLO-2, CLO-4). LEN 5 to CLO-1, CLO-5 (was CLO-1, CLO-4).
+- **7 named subobjectives** (v2 additions; details in `1_LENS_Five_Competencies.md` v2.1): 1.5 governance-objection diagnostic; 2.5 narrate/defend design iteration; 3.3 delegation with revocation; 3.4 collaboration measurement; 4.4 judgment under inadequate evidence; 4.6 fairness beyond omission; 5.6 cross-regime / platform-dependency governance.
+- **Reframed term:** "decision-grade evidence" taught as a sufficiency judgment under irreducible uncertainty.
+- **What the casebook anchor codes mean.** Under v2.1, a `lens-anchor: "D3/PT5"` resolves to **Human-System Collaboration**, problem-type 5; a `clo-anchor: "CLO-4"` resolves to **Test and Evaluation**. The casebook field remap from v1 codes ships in the corresponding casebook update.
+
+**v2.0 — May 2026** *(superseded by v2.1; never adopted standalone)*
+- Drafted in `v2_research/01_LENS_revised_competencies_and_CLOs.md`. The 7 subobjectives above were originally framed as "new CLOs" — refactored to subobjective level in v2.1 (they are sub-CLO-grain). Reframed decision-grade evidence; renamed domains.
+
+**v1 — March 2026** *(initial; preserved in git history)*
+- Original five competencies: Systems Analysis · Iterative Development · Test and Evaluation · Navigating Sociotechnical Constraints · Machine Teaming and Adaptation, with CLOs CLO-1 through CLO-5 in that order.
+- Retrievable via `git log --follow lens_program/2_LENS_Objectives_Course_Mapping.md`.
