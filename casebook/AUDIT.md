@@ -731,3 +731,55 @@ The categorized mismatch list is preserved below for traceability:
 
 **Verification log artifact.** A separate file `casebook/verification-log.md` carries the per-case manual-review table with editor-guideline check columns (clarity, refs real, refs support the claim, conclusions reasonable, no overclaim, anchor fit, cross-references resolve, verified by, date, notes). The first three columns are populated from the anchor pass; the rest are placeholders. The file's *rubric* section gives the high-school reviewer operational tests + examples per check, and a workflow for reviewing one case end-to-end. Per-case progress is summarized by `scripts/verification-status.sh`.
 
+
+
+---
+
+## Automated references validation — pre-handover (June 2026)
+
+Four parallel agents validated all references across the 194-case corpus
+against publisher / agency / DOI sources before handing the verification
+log to the human reviewer. **Issue rate 1.05% (10 ISSUE / ~951 refs)** —
+no large-scale fabrication, mostly DOI typos and author-list precision
+fixes on real papers.
+
+### Cumulative
+
+| Batch | Cases | VERIFIED | UNCERTAIN | ISSUE |
+|---|---|---|---|---|
+| 1 (1–48) | 48 | 180 | 43 | 2 |
+| 2 (49–97) | 49 | 213 | 24 | 1 |
+| 3 (98–145) | 48 | 214 | 14 | 0 |
+| 4 (146–194) | 49 | ~170 | ~40 | 7 |
+| **Total** | **194** | **~777** | **~121** | **10** |
+
+### The 10 ISSUE-class items for editor fix
+
+1. **Case 21 (MIL-STD-1472H), Ref 4** — Fitts & Jones cited as "60 pilot-error experiences"; actual paper studies **460**. Typo.
+2. **Case 27 (Estonia X-Road), Ref 1** — author + year wrong. "Mission Mystique and the Hiding Hand" chapter is **Kattel & Mergel (2019)** in *Great Policy Successes* (Oxford), not Kalvet/Tiits/Hinsberg (2024).
+3. **Case 31 (BlackBerry), Ref 4** — claim of **"$4.4 billion inventory write-down"** is wrong; actual Q2 FY2014 charge was ~$934M. The 4,500-layoffs figure is correct.
+4. **Case 68 (Air Canada chatbot), Ref 4** — Solaiman *Computer Law & Security Review* article on the case could not be located. Real commentaries on Moffatt v. Air Canada exist (Lexology, McCarthy Tétrault); recommend swapping the cite.
+5. **Case 168 (iPLEDGE), Ref 1** — PMID 21565419 is **Shin, Cheetham, Wong et al. (2011)** *JAAD* 65(6):1117–25, NOT "Brinker, Kornegay, Nourjah, Smith & Reichman" as cited. Wrong author list on a real paper.
+6. **Case 169 (Data Privacy / African Continent), Ref 1** — `bjet.13226` author list is **Prinsloo & Kaliisa**, not Prinsloo/Slade/Khalil. Slade and Khalil collaborate with Prinsloo on a *different* 2022 BJET paper. Likely citation mix-up.
+7. **Case 188 (Rwanda mHealth), Ref 1** — PMC6429813 lead authors are **Hategeka / Ruton / Law**, not Musabyimana/Lundeen/Sayinzoga as cited. Title and journal match — possible author-list confusion with a related Rwanda mHealth paper.
+8. **Case 189 (Japan PMDA SaMD), Ref 1** — medRxiv 2025.10.02.25336333 lists **Kikuchi as lead author**, not Aoki. Author order swap.
+9. **Case 191 (NYC LL 144 AEDT), Ref 2** — `doi:10.1145/3630106.3658955` actually resolves to *"Machine learning data practices through a data curation lens"* by Bhardwaj/Gujral/Wu, NOT the cited Yam & Skirpan piece. The intended paper appears to be **"Auditing Work: Exploring the NYC algorithmic bias audit regime"** at `doi:10.1145/3630106.3658959`.
+10. **Case 191 (NYC LL 144 AEDT), Ref 3** — `doi:10.1007/s43681-024-00461-2` resolves to *"The mechanisms of AI hype and its planetary and social costs"* by Markelius et al., NOT the cited Wright & Brown "Auditing the auditors." DOI needs correction.
+
+### Notable UNCERTAIN items worth a second look
+
+- **Wachter & Brynjolfsson** JAMA piece cited as 2023 in multiple places (Cases 79, 81, 130) — paper is at JAMA vol 331 (2024 in print, online-first 2023). Pick a convention.
+- **VW Dieselgate (Case 92), Ref 3** — case text says "$33B+ in penalties" from 2017 DOJ Plea Agreement; actual DOJ plea was $4.3B, total NA scandal cost ~$23B. Number needs sourcing or correction.
+- **Cases 125 + 126** — both cite "Co et al. 2019, JAMIA 26(10):1141"; actual first author is **Hussain MI**. Single parsing slip propagated.
+- **Case 143 (Fukushima), Ref 5** — Lochbaum/Lyman/Stranahan 2014 book is real, but first author is **David Lochbaum**, not "C. Lochbaum" as cited.
+- **Cases 122, 123, 128** — author lists for Vedula, Freitas, Herodotou papers are incomplete or in wrong order.
+
+### Per-case verification log
+
+The auto pre-fill (June 2026) populated 6 of 7 check columns across all 193 non-closing cases. The student reviewer's primary work is now:
+1. The 7th column (*conclusions reasonable*) — fully empty pending case-by-case content review.
+2. The 16 `~` flags on *no overclaim* — quick check whether the absolute/counterfactual language is appropriately hedged.
+3. The 10 ISSUE-class refs above — confirm + fix.
+4. The remaining UNCERTAINs — tighten citation form where the editor agrees.
+
+The 66 `~` flags on *anchor fit* are deliberate — they're the known cross-domain linkages (lens ↔ induced point at different competencies by design). They do not need student adjudication unless the reader strongly disagrees.
