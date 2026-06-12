@@ -711,30 +711,23 @@ The book is now organized by v2.1 competency × {what fails / what works + front
 - **USS Vincennes** — `lens-anchor` was `D2/PT6` (drafted incorrectly; never corrected by the v1→v2.1 remap because D2 doesn't shift). Mode/state-transparency case. Fixed to `D3/PT6`, `CLO-3`. Moved from 2A to 3A.
 - **Texas City BP** — `lens-anchor` was `D4/PT5` but induced `5.4` (change-control / disclosure) is governance, not measurement. Fixed to `D5/PT4`, `CLO-5`. Moved from 4A to 5A.
 
-**Outstanding `induced` / `lens` mismatches** (deferred for editor judgement; documented for the human-review pass):
+**On `induced` / `lens` cross-domain linkages** (per editor sign-off, June 2026):
 
-The Q&A pass also surfaced 66 cases where `induced-anchor` and `lens-anchor` disagree about the case's primary domain. Most are legitimate (a case can teach one analytic dimension through a different competency lens), but some warrant editor judgement. Categorized:
+The Q&A pass also surfaced 66 cases where the `induced-anchor` and `lens-anchor` point at *different* domains. This is **not a flag list** — it's the dual-anchor design working as intended: the `lens-anchor` is the primary domain (what the case engineers or fails to engineer), and the `induced-anchor` is the secondary analytic dimension the case *also* evidences. A v2 cue/alert intervention can legitimately carry `lens: D4/PT5` (because the case evaluates the alert system's outcome) and `induced: 3.1` (because the case is analytically also about cue/alert design). Both are correct.
 
-| Cluster | Count | Description | Action |
-|---|---|---|---|
-| Cue/alert tagged D4 | 7 | Cases with `induced: 3.x` (cue/alert) but `lens: D4` (T&E). Mostly v2 intervention cases where the case teaches *evaluation of an alert system* rather than the alert design itself. | Editor review (case-by-case): if the case's teaching point is the alert architecture, move to D3; if it's the evaluation of an alert intervention, keep at D4. |
-| Sociotech induced (5/6/7.x) tagged D1 | 10 | System-change / aging-asset / knowledge-transfer cases anchored to D1 (Systems Analysis) for the "analyse the transition" reading. | Editor review: confirm D1 (analyse) vs D5 (operate-through-change). |
-| Equity induced (8.x) tagged D5 | 4 | Equity / construct cases tagged Sociotech instead of T&E fairness. | Editor review: confirm D5 (governance) vs D4 (fairness beyond omission). |
-| D2 cases with non-2.x induced | 24 | Intervention cases tagged D2 (iterative development) whose `induced` is a different cluster (1.x capability req, 3.x interface, 5.x governance, etc.). | Most are legitimate cross-dimensional reads; spot-check at the editor's discretion. |
-| Other | 21 | Mixed; smaller clusters and one-offs. | Spot-check. |
+Editor decision: **take the best-shot lens-anchor as primary and let the induced-anchor capture the secondary linkage.** The verification log's *anchor fit* check passes if the lens-anchor is defensible for what the case engineers — even when the induced points at another domain. The reviewer should mark `~` (with the alternative in notes) only if a *different* lens-anchor would be a clearly stronger fit; `✗` only if the lens-anchor is wrong.
 
-Full list in `/tmp/mismatches.json` (will be regenerated at print time) and queryable via `python3 -c "import re,glob; ..."`.
+The seven cue/alert cases that triggered the highest-volume mismatch (Deepwater 85, Anesthesia/APSF 116, EGPWS 118, TCAS 119, BCMA 120, UI Redesign 125, Alert-Fatigue 126) are kept at `lens: D4/PT5` on the editorial principle that the case teaches the *evaluation evidence* for an alert intervention, with `induced: 3.1` capturing the design-side linkage. A reviewer who reads any of these cases differently is free to mark `~` with a proposed alternative.
 
-**Cue/alert cases tagged D4** (the highest-priority cluster for editor review):
-- Case 85 Deepwater Horizon
-- Case 116 Anesthesia Monitoring Standards (APSF)
-- Case 118 EGPWS / TAWS
-- Case 119 TCAS
-- Case 120 Bar-Code Medication Administration
-- Case 125 Annual-Screening UI Redesign (Univ. of Missouri Health)
-- Case 126 Alert-Fatigue Redesign
+The categorized mismatch list is preserved below for traceability:
 
-The pattern across all seven: v2 cases drafted to discuss the *evaluation outcomes* of an alert / cue intervention, tagged `lens: D4/PT5` (T&E, problem-type 5 = evaluation). The `induced: 3.1` (cue/alert) is correct as an analytic crosswalk. Whether the case's primary teaching point is the alert *design* (move to D3) or the alert *evaluation evidence* (keep at D4) is a per-case editorial call.
+| Cluster | Count | Description |
+|---|---|---|
+| Cue/alert (induced 3.x) tagged D4 | 7 | v2 intervention cases evaluating an alert/cue system; D4 primary, D3 secondary. |
+| Sociotech induced (5/6/7.x) tagged D1 | 10 | System-change / aging-asset cases analyzed through systems-analysis; D1 primary, D5 secondary. |
+| Equity induced (8.x) tagged D5 | 4 | Equity / construct cases at governance scale; D5 primary, D4 secondary. |
+| D2 cases with non-2.x induced | 24 | Iterative-development interventions whose analytic dimension is something else (capability req, interface, governance); D2 primary. |
+| Other | 21 | Mixed; smaller clusters and one-offs. |
 
-**Verification log artifact.** A separate file `casebook/verification-log.md` carries the per-case manual-review table with editor-guideline check columns (clarity, refs real, refs support the claim, conclusions reasonable, no overclaim, anchor fit, cross-references resolve, verified by, date, notes). The first three columns are populated from the anchor pass; the rest are placeholders.
+**Verification log artifact.** A separate file `casebook/verification-log.md` carries the per-case manual-review table with editor-guideline check columns (clarity, refs real, refs support the claim, conclusions reasonable, no overclaim, anchor fit, cross-references resolve, verified by, date, notes). The first three columns are populated from the anchor pass; the rest are placeholders. The file's *rubric* section gives the high-school reviewer operational tests + examples per check, and a workflow for reviewing one case end-to-end. Per-case progress is summarized by `scripts/verification-status.sh`.
 

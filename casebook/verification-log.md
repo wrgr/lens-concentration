@@ -1,22 +1,196 @@
 # Capability Matters — Per-Case Verification Log
 
-> Working artifact for the per-case manual review of the v2.1 corpus (194 cases). One row per case, with editor-guideline check columns. Fill `✓` (passed), `✗` (issue), or `~` (note attached) per check.
+> Working artifact for the per-case manual review of the v2.1 corpus (194 cases). One row per case, seven editor-guideline check columns + reviewer / date / notes. See **§ The rubric** below for what each check means, with tests and examples, and **§ Workflow** for how to review one case end-to-end.
 
-## Editor guideline checks (the rubric)
+---
 
-1. **clarity** — the case is readable to the program's target audience; the load-bearing claim is named clearly.
+## Status legend
 
-2. **refs real** — every reference exists, is correctly cited (author, year, venue, page where applicable), and was authored at the year cited. No fabricated DOIs, URLs, or titles.
+| Mark | Meaning |
+|---|---|
+| `—` | Not yet reviewed. |
+| `✓` | Passed the check. Confident, no concerns. |
+| `~` | Passed with a note. Defensible but worth flagging — write the note in the *notes* column. |
+| `✗` | Issue found. Write what's wrong in *notes*; ping the editor before the case ships. |
+| `?` | Outside your expertise — flag for an editor with relevant domain knowledge. |
 
-3. **refs support** — each in-text `#cn()` marker is supported by the cited reference; the reference is the actual source of the claim it backs.
+If you're between `✓` and `~`, choose `~` and write the question. If you're between `~` and `✗`, choose `✗` and write what would change your mind. Better to over-flag than to miss something.
 
-4. **conclusions reasonable** — the case's `le-insight` and `lens-approach` are defensible from the evidence presented; no overclaim beyond what the references support.
+---
 
-5. **no overclaim** — quantitative figures, attributions of cause, and counterfactual claims are appropriately hedged. Where uncertainty exists, it is named.
+## The rubric
 
-6. **anchor fit** — the `induced-anchor`, `lens-anchor`, and `clo-anchor` match the case's load-bearing capability lesson. (Surfaced mismatches are in `AUDIT.md` §Stage 4.)
+### 1. clarity — *can a smart reader name what the case teaches in one sentence?*
 
-7. **x-refs** — every `Case N` reference in the case's prose resolves to a real case in the volume; cross-referenced cases support the claim they're attached to.
+**Pass test.** After reading the case once, write a one-sentence summary in your scratch notes: *"This case is about how [actor] [did / failed to do] [thing], because [capability was missing / built]."* If you can write the sentence confidently after one read, mark `✓`. If you had to re-read, mark `~` and note where the load-bearing fact was buried. If you can't write it even after two reads, mark `✗`.
+
+**Common reasons to `✗`:**
+- The load-bearing fact (the specific capability gap or intervention) is buried in the middle of a section and never named directly.
+- Acronyms or jargon used without first defining them (e.g., "REMS" appearing five times before being expanded once).
+- The "who did what when" is unclear — you can't tell whether the agency, the operator, or the regulator did the thing.
+
+**Common reasons to `~`:**
+- One paragraph is muddier than the others; case is otherwise clear.
+- A specific term needs a parenthetical (e.g., "REMS — Risk Evaluation and Mitigation Strategy") on first use.
+
+### 2. refs real — *does every reference actually exist?*
+
+**Pass test.** For each item in the case's `references:` list:
+1. Find the source. Try **Google Scholar** (scholar.google.com), then the publisher / agency website (NTSB, FAA, FDA, IEEE, the journal's own page), then DOI.org for a DOI, then a regular web search.
+2. Confirm the **author** / **year** / **title** / **venue** match what's printed in the case.
+
+If all references check out, `✓`. If a reference has a small formatting issue but the source is clearly real (you found it), `~` with the correction in notes. If a reference can't be found at all after a reasonable search, `✗`.
+
+**Common reasons to `✗`:**
+- A DOI doesn't resolve and the title can't be found in any database.
+- Author + year + venue combination doesn't return any hit.
+- A "report" is cited without naming the agency or a report number, and you can't identify what report it is.
+
+**Common reasons to `~`:**
+- Title formatting is slightly off (e.g., title case vs sentence case) but the source is identifiable.
+- Year is off by one and the right year exists.
+- URL given is dead but the source can be found at a different URL.
+
+**Tools.** Google Scholar; DOI.org; agency websites (FAA, NTSB, FDA, OSHA, etc.); arxiv.org for preprints; JSTOR / your library's proxy for paywalled academic; the Wayback Machine (web.archive.org) for dead URLs.
+
+### 3. refs support — *does each citation marker actually back its claim?*
+
+**Pass test.** Find every `#cn()` marker in the case body. For each:
+1. Read the sentence (or short passage) right before the marker.
+2. Open the corresponding reference (the Nth `#cn()` corresponds to the Nth reference).
+3. Does the reference contain the claim being marked, or close enough that the claim is a fair reading?
+
+If every marker is well-supported, `✓`. If most are but one or two are loose, `~` with the marker numbers in notes. If a marker has no support in its reference, or the reference says something different, `✗`.
+
+**Common reasons to `✗`:**
+- The cited reference doesn't mention the specific fact at all.
+- The cited reference says the *opposite* of what the case claims.
+- The marker cites a reference that's about a different incident / agency / year.
+
+**Common reasons to `~`:**
+- The reference covers the general topic but the specific number / date / quote isn't in this source (it might be in a downstream source).
+- The reference is a survey / summary that mentions the fact in passing; the original source isn't cited.
+
+### 4. conclusions reasonable — *does the `le-insight` / `lens-approach` follow from the case body?*
+
+**Pass test.** Re-read the `le-insight:` block and the `lens-approach:` block. Ask: *is this what the case body actually shows?*
+
+If the conclusions are a fair reading of the case + references, `✓`. If the conclusion is defensible but stronger than the evidence warrants (could be hedged more), `~`. If the conclusion introduces a new fact not in the case body or references, or makes a leap the evidence doesn't support, `✗`.
+
+**Common reasons to `✗`:**
+- The lens-approach claims X "caused" Y when the case body shows only correlation.
+- The le-insight introduces a fact that isn't in any reference.
+- The conclusion attributes intent (e.g., "knowingly", "deliberately") without evidence.
+
+**Common reasons to `~`:**
+- Conclusion is fair but could be softened (e.g., "this shows" → "this is consistent with").
+- The conclusion is an editorial opinion that goes beyond the case (sometimes okay — flag it so an editor can decide if it's appropriate to ship).
+
+### 5. no overclaim — *are quantitative claims and counterfactuals appropriately hedged?*
+
+**Pass test.** Two scans:
+
+**Scan A — quantitative claims.** Find every number in the case body (deaths, dollars, percentages, "halved", "doubled", confidence intervals). Each number should be either (a) sourced to a reference, or (b) hedged ("approximately", "around", "an estimated").
+
+**Scan B — counterfactuals.** Find every claim of the form "would have", "could have", "if X had been Y, then…". Each should be hedged ("might have", "would likely have", "the investigation concluded…").
+
+If both scans come up clean, `✓`. If a number is missing a hedge but the source confirms it, `~`. If a number is unsupported, or a counterfactual is asserted as fact, `✗`.
+
+**Common reasons to `✗`:**
+- A specific death toll or dollar figure given without a citation.
+- "The training would have prevented the accident" (strong counterfactual, no hedge, no source).
+- Universal claims: "always", "never", "all", "every".
+
+### 6. anchor fit — *does the primary `lens-anchor` match what the case engineers?*
+
+**Pass test.** Read the `lens-approach:` block once more. Ask: does the assigned `lens-anchor` competency match what the case actually engineers or fails to engineer? Use the quick guide below.
+
+**Quick guide to the five v2.1 competencies:**
+
+| Anchor | Competency | The case is about… |
+|---|---|---|
+| **D1** | Systems Analysis | analysing what the work requires; capability requirements; cross-org integration; the system's structure as a problem. |
+| **D2** | Iterative Development | a learning-engineering intervention designed + iterated; OR an organization that failed to iterate against opportunity (stagnation: Kodak, BlackBerry). |
+| **D3** | Human-System Collaboration | interface design, alerts, mode/state transparency, authority gradient, who-can-stop-the-line; human-AI teaming is a sub-pattern here. |
+| **D4** | Test and Evaluation | measurement, evidence architecture, gap attribution, fairness beyond omission, decision-grade evidence under uncertainty. |
+| **D5** | Sociotechnical Constraints | deployment context; governance; regulatory regime; adoption; institution-building. |
+
+If the `lens-anchor` is a clean fit for what the case engineers, mark `✓` — even if the `induced-anchor` points to a *different* domain. That cross-domain linkage is by design: the `lens-anchor` is what the case **does**, and the `induced-anchor` is the analytic dimension the case *also* evidences. A case can teach D3 (interface design) while contributing analytical evidence about D4 (measurement) — that's a feature.
+
+Only mark `~` if the lens-anchor is defensible but another domain would clearly fit better; only mark `✗` if the lens-anchor is wrong. In a `~` or `✗`, name your alternative in *notes*.
+
+**Heuristic for the dual-anchor case.** A typical valid pattern: a v2 cue/alert intervention case may carry `lens: D4/PT5` (because it evaluates the alert system's outcome) and `induced: 3.1` (because the case is analytically also about cue/alert design). Both are correct. Don't flag this as a mismatch — the dual-anchor design is doing its job.
+
+### 7. x-refs — *does every "Case N" reference in this case resolve?*
+
+**Pass test.** Find every `Case N` reference in the case's prose. For each:
+1. Confirm Case N exists (use the matrix at the front of the book, or just count: any number 1–194 is in range, but you still need to confirm it's the case being claimed).
+2. Open that case briefly. Is the pairing the current case claims real?
+
+If every cross-reference resolves and the pairing makes sense, `✓`. If a referenced case exists but the pairing is loose, `~`. If a case number doesn't exist or the referenced case has nothing to do with the claim, `✗`.
+
+---
+
+## Workflow — how to review one case
+
+1. **Pick the next unreviewed case** (the table is sorted by number; review in order). For the first session, start with **Case 1 (USS Fitzgerald & USS John S. McCain)** — it's a STRONG anchor and a clean v1 case, so it's a good calibration.
+2. **Open the case file.** Cases are in `casebook/chapters/ch?X.typ`. The chapter is determined by the case number (see *Case-to-chapter map* below).
+3. **Read the case end-to-end** before scoring anything. Don't score in chunks — you'll lose the sense of whether the conclusions follow from the body.
+4. **Write a one-sentence summary** in your scratch notes (this is the clarity test).
+5. **Open `verification-log.md`** and find the row for this case.
+6. **Fill the 7 check columns** left to right. It's OK to come back to a check after a later one.
+7. **For every `~` or `✗`**, write the specific note in the *notes* column. Be precise:
+   - `✗`: *"Ref 3 (Smith 2019) — DOI doesn't resolve; couldn't find this paper on Google Scholar or the journal site."*
+   - `~`: *"Hedge missing on 'halved surgical mortality' — source says 'reduced by approximately half (95% CI 35–60%)'; the case states it as a flat 'halved'."*
+8. **Fill your initials + the date** in the reviewer / date columns.
+9. **Commit the verification-log.md change** with a short message: *"Reviewed cases 1–5: clean except case 3 (refs real ✗)."*
+10. **Move to the next case.**
+
+### When to ask
+
+- If you can't tell whether something should be `✗` or `~`, choose `~` and write the question.
+- If a case feels outside your expertise (specialized medical, regulatory, or defense cases especially), mark *anchor fit* and *conclusions* as `?` and flag in notes for an editor with relevant domain knowledge.
+- If a reference is paywalled and you can't read it, mark *refs support* as `~` with "paywalled, couldn't verify content."
+
+### Pace
+
+- ~30 minutes per case for the first 10 (learning the format).
+- ~15 minutes per case after that.
+- No more than 6–8 cases per sitting — quality drops sharply once you're tired.
+- Commit at the end of every sitting so progress is recorded.
+
+### Tools
+
+- **Google Scholar** — scholar.google.com — the single most useful tool for *refs real* and *refs support*.
+- **DOI.org** — resolves any DOI to its publisher page.
+- **Agency websites** — NTSB.gov, FAA.gov, FDA.gov, OSHA.gov, GAO.gov, etc., for official reports.
+- **arxiv.org** — for preprints.
+- **The Wayback Machine** — web.archive.org — for dead URLs.
+- **The book itself** — `casebook/build/capability-matters-digital.pdf` is the readable version; use it to read each case in formatted form rather than the Typst source.
+
+---
+
+## Case-to-chapter map (v2.1)
+
+| Chapter | File | Cases |
+|---|---|---|
+| 1A Systems Analysis — what fails | `chapters/ch1a.typ` | 1–16 |
+| 1B Systems Analysis — what works + frontier | `chapters/ch1b.typ` | 17–27 |
+| 2A Iterative Development — the iteration gap | `chapters/ch2a.typ` | 28–31 |
+| 2B Iterative Development — what works + frontier | `chapters/ch2b.typ` | 32–53 |
+| 3A Human-System Collaboration — what fails | `chapters/ch3a.typ` | 54–69 |
+| 3B Human-System Collaboration — what works + frontier | `chapters/ch3b.typ` | 70–81 |
+| 4A Test and Evaluation — what fails | `chapters/ch4a.typ` | 82–106 |
+| 4B Test and Evaluation — what works + frontier | `chapters/ch4b.typ` | 107–136 |
+| 5A Sociotechnical Constraints — what fails | `chapters/ch5a.typ` | 137–167 |
+| 5B Sociotechnical Constraints — what works + frontier | `chapters/ch5b.typ` | 168–193 |
+| Closing — The Discipline We Build Next | `chapters/closing-case.typ` | 194 |
+
+*Run `bash scripts/verification-status.sh` for current review progress + per-check status + the list of open issues.*
+
+---
+
+## Per-case table
 
 
 ## Status legend
