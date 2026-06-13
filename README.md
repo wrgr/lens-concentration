@@ -1,272 +1,98 @@
-# Capability Matters — A Casebook for LENS
+# LENS / Capability Matters — co-located project repo
 
-A printed casebook for the **Learning Engineering for Next-Generation
-Systems (LENS)** specialization in the Learning Design & Technology
-program at the Johns Hopkins University School of Education. One
-hundred real incidents in which human capability was the critical
-system parameter — failures, successes, and frontier cases — examined
-through the LENS framing of capability as the interface between
-operator requirements and system impact, and agency as a design
-constraint on every intervention.
+The casebook, the program documentation, and the active research and revision work co-located in one repo so they stay in sync.
 
-Built with **Typst**. One trim — **8 × 10 in (203.2 × 254 mm)** — rendered
-as three editions from a single source: a grayscale print interior for
-Lulu, a color digital edition, and a proof that centers the print page
-on US Letter with trim marks for office printing.
-
----
-
-## Status
-
-Three editions reproduce from source via `bash scripts/build.sh`.
-
-| Edition | Page size | Color | Purpose |
-|---|---|---|---|
-| `print` | 8 × 10 in + 3 mm bleed | grayscale | Lulu production interior |
-| `digital` | 8 × 10 in | color, cream backdrop | screen / PDF distribution |
-| `proof` | US Letter (8 × 10 centered, trim marks) | grayscale | print at 100% to review |
-
-All three share one measure and type size, so **proof pagination is
-identical to print** — what you proof is what Lulu prints.
-
-Cases are being converted from the legacy 2-page spread to a **3-page
-cited case (2 + 1)**: a shaded ~130-word "In brief" summary plus a
-five-beat sourced narrative with inline `#cn()` citation markers fill
-two pages (the case diagram on page 2, references in two compact
-columns at the end of page 2); the *Learning Engineering Lens* analysis
-lands on page 3. Conversion is incremental — `case()` renders the
-legacy 2-page layout for any case not yet converted. Run `make check`
-to verify every converted case is exactly three pages, with references
-on page 2 and marker count == reference-list length.
-
-For the intellectual framing behind the casebook — the capability
-interface, agency as a design constraint, gap attribution, the
-Practice Flywheel — see [METHODOLOGY.md](METHODOLOGY.md).
-
----
-
-## Repo layout
+## Layout
 
 ```
 .
-├── book.typ                       # main entry — interior PDF
-├── lib/
-│   ├── theme.typ                  # mode flags, page geometry, palette, type sizes
-│   ├── components.typ             # eyebrows, domain tags, mode chips, sources …
-│   ├── case.typ                   # case-spread template
-│   ├── chapter.typ                # full-bleed chapter divider
-│   └── diagrams.typ               # code-generated case diagrams (cetz)
-├── frontmatter/
-│   ├── title.typ                  # half-title / title / colophon / legal notices
-│   ├── introduction.typ           # "Why Capability Matters"
-│   ├── howto.typ                  # "How to use this book"
-│   └── matrix.typ                 # 100-case matrix table
-├── chapters/                      # ch01 … ch09 (and ch0Nb / ch0Nc extras)
-├── backmatter/                    # references, editor bios
-├── cover/
-│   └── cover.typ                  # 8 × 10 Lulu wrap (front + spine + back)
-├── fonts/                         # bundled Instrument Serif + DM Sans
-├── scripts/
-│   ├── build.sh                   # build all three editions + cover
-│   ├── check-cases.sh             # 3-page + citation-parity check
-│   └── fetch-fonts.sh             # re-download fonts if missing
-└── Makefile
+├── CLAUDE.md                              project memory (loaded by Claude Code)
+├── README.md                              you are here
+├── competencies.md                        induced framework — 8 competencies / 32 sub-competencies, inducted bottom-up from v1 cases
+├── case-sweep-v2-plan.md                  scoping note for the v2 case expansion (executed; preserved as methodology record)
+├── case-sweep-v2-research-brief.md        the standing research brief (largely fulfilled by v2_research; retained as a methodology record)
+│
+├── casebook/                              Capability Matters: A Casebook — Typst sources and built PDFs
+│   ├── book.typ                           the 8 × 10 casebook (print / digital / proof)
+│   ├── lens-companion.typ                 the 8 × 10 LENS Companion (concentration docs + crosswalks + per-case references — view=companion)
+│   ├── overview*.typ                      the summary editions (US Letter + Half Letter)
+│   ├── chapters/                          194 cases organised by v2.1 competency × {fails, works + frontier} — ch1a … ch5b + closing-case.typ
+│   ├── frontmatter/, backmatter/, lib/, cover/, fonts/
+│   ├── scripts/, Makefile, build/         build pipeline (eleven outputs + Lulu cover)
+│   ├── verification-log.md                per-case verification log (194 rows, six of seven check columns auto pre-filled)
+│   ├── METHODOLOGY.md, AUDIT.md, README.md
+│   └── *.pdf                              built artefacts (interiors, summaries, companion, covers)
+│
+├── lens_program/                          canonical LENS program documents (source of record, JHU SOE LDT/LENS — MHEC PP24181)
+│   ├── README.md                          orientation; what to verify before external use; status of the .docx round-trip
+│   ├── 1_LENS_Five_Competencies.docx + .md (v2.1: Systems Analysis · Iterative Development · Human-System Collaboration · Test and Evaluation · Navigating Sociotechnical Constraints — change log inline)
+│   ├── 2_LENS_Objectives_Course_Mapping.docx + .md (PLOs, CLOs renumbered to v2.1, course-by-course mapping, coverage matrix)
+│   ├── 3_LENS_Editor_Bios.docx + .md
+│   ├── 4_LENS_LECF_Crosswalk.docx + .md  (LENS ↔ IEEE ICICLE LECF nine-domain proposal)
+│   ├── 5_LENS_Summary_and_PrePost_Objectives.docx + .md
+│   └── 6_LENS_Recruitment_Email.docx + .md
+│
+└── v2_research/                           the v2 case discovery + framework revision work — outputs of an eight-pass verified-source sweep (ADOPTED; preserved as design rationale)
+    ├── README.md                          orientation and ordering
+    ├── 01_LENS_revised_competencies_and_CLOs.md  ADOPTED with the v2.1 D3 reorder + subobjective-level refinement (see file's STATUS header)
+    ├── 02_complete_case_list_build_reference.md  the build list that became the v2 corpus (all candidates drafted)
+    ├── 03_editor_request_memo.md          decisions + inputs the editor supplied; preserved for traceability
+    └── 04..11_*.md                        per-pass research backbone
 ```
 
----
+## Three anchor systems
 
-## Build
+Each case is tracked under three parallel taxonomies (per CLAUDE.md):
 
-### Prerequisites
+- **Induced competency framework** (8 competencies, 32 sub-competencies in `competencies.md`) — bottom-up induction from the v1 cases. Numbered `1.1` through `8.4`. The analytic scaffold.
+- **Canonical LENS framework** (5 competencies in `lens_program/1_LENS_Five_Competencies.md`, v2.1) — Systems Analysis (D1) · Iterative Development (D2) · **Human-System Collaboration (D3)** · Test and Evaluation (D4) · Navigating Sociotechnical Constraints (D5). Plus six canonical Problem Types (PT1–6). The curriculum of record.
+- **CLOs** (`lens_program/2_*.md`, v2.1) — five CLOs, one per domain, with the v2-named subobjectives (gap attribution at 4.2; delegation with revocation at 3.3; judgment under inadequate evidence at 4.4; fairness beyond omission at 4.6; collaboration measurement at 3.4; governance-objection diagnostic at 1.5; narrate/defend iteration at 2.5; cross-regime governance at 5.6). The course-mapping anchor.
 
-- [Typst](https://github.com/typst/typst) ≥ 0.13
-- `ghostscript` — flattens any residual color literals in diagrams so
-  the production interiors are true grayscale
-- `poppler-utils` (`pdfinfo`) — used to compute live spine widths
+The induced 8 fold cleanly into the canonical 5 (D2 has no induced counterpart — the iteration *method* is threaded through cases rather than producing its own cluster). The casebook records all three anchors on every v2 case; the LENS Companion (below) makes the crosswalks explicit.
 
-Fonts ship under `./fonts/`. If they go missing, run
-`./scripts/fetch-fonts.sh`.
+## Current state — print-ready, June 2026
 
-### Commands
+The first edition is structurally complete and reproduces from source.
 
-```bash
-make all                # build all three editions + cover (via build.sh)
-make editions           # print + digital + proof
-make print              # grayscale 8 × 10 interior (Lulu)
-make digital            # color 8 × 10 edition
-make proof              # 8 × 10 on US Letter with trim marks
-make cover              # 8 × 10 Lulu wrap (spine from live page count)
-make preview            # alias for digital
-make check              # 3-page + citation-parity check on converted cases
-make clean
-```
+**Casebook** — 194 cases in 10 chapters by v2.1 competency × {fails / works + frontier}, with the closing framing case last. All anchored to v2.1; all cross-references in range. `bash casebook/scripts/check-cases.sh` reports 194/0.
 
-…or equivalently:
+**LENS Companion (new)** — `capability-matters-lens-companion.pdf`, 139 pp, 8 × 10 white digital. Pairs the program's concentration documentation (the v2.1 five competencies, the CLOs, the course mapping) with the casebook's crosswalks and indexes (cases by domain, by LENS course, references by case) so an instructor, recruiter, or outside reader can find every connection without holding both the casebook and the .docx originals. Built from the same source via `--input view=companion`.
 
-```bash
-bash scripts/build.sh
-```
+**Eleven outputs from one source** — `bash casebook/scripts/build.sh`:
 
-### Build modes (Typst input flag)
-
-```bash
-typst compile --font-path fonts --input mode=<MODE> book.typ <out>.pdf
-```
-
-| `mode` | Page size | Color | Purpose |
+| Output | Size | Pages | Notes |
 |---|---|---|---|
-| `print` | 8 × 10 in + 3 mm bleed | grayscale | Lulu production interior |
-| `digital` | 8 × 10 in | color, cream backdrop | screen / PDF (default) |
-| `proof` | US Letter, 8 × 10 centered + trim marks | grayscale | print at 100% to review |
+| `capability-matters-print.pdf` | 8 × 10, grayscale, 3 mm bleed | 915 | Lulu production interior |
+| `capability-matters-digital.pdf` | 8 × 10, color, cream | 915 | screen / PDF |
+| `capability-matters-proof.pdf` | 8 × 10 on US Letter, trim marks | 915 | office-printer proof |
+| `capability-matters-lens-companion.pdf` | 8 × 10, white | 139 | concentration docs + crosswalks + per-case references |
+| `capability-matters-overview.pdf` (+ proof) | US Letter, 2/page | 115 | summary edition |
+| `capability-matters-overview-half.pdf` (+ proof + print) | Half Letter, 1/page | 215 | summary edition |
+| `cover-print.pdf` | 8 × 10 wrap | — | Lulu cover, spine 56.82 mm |
+| `cover-overview-half.pdf` (+ split) | Half Letter wrap | — | summary covers, spine 13.41 mm |
 
-All mode/trim/palette/typography decisions are centralized in
-`lib/theme.typ`.
+**v2.1 framework adoption (June 2026)** — Per program-owner sign-off:
+- D3 reorder + rename: what was D5 *Machine Teaming and Adaptation* is broadened to **Human-System Collaboration** and moved to position 3. T&E moves to D4; Sociotechnical Constraints to D5. The order reads as the flywheel: see → build → integrate humans → measure → deploy.
+- 7 new named subobjectives (1.5, 2.5, 3.3, 3.4, 4.4, 4.6, 5.6) plus 4.2 renamed *gap attribution* and decision-grade evidence reframed as judgment under irreducible uncertainty.
+- Casebook lens/CLO fields and `lens-approach` prose remapped to v2.1 across all 194 cases.
 
-### Grayscale guarantee
+**Editorial passes folded in** — Stage-3 anchoring of 62 previously-unanchored v1 cases (54 STRONG / 8 SOLID, decisions logged in `AUDIT.md`); 10-chapter restructure with single atomic renumber; three wrong-placement fixes (TMI, Vincennes, Texas City BP) caught during Q&A; automated references validation across ~951 references (10 ISSUE-class items all resolved in source).
 
-Production builds use two layers:
+**Verification log handoff** — `casebook/verification-log.md` is a 194-row table with six of seven check columns auto pre-filled. The seventh (*conclusions reasonable*) is intentionally empty pending a human case-by-case content read. The rubric defines a 5–15 min two-pass review workflow (quality, then content) with a worked example on Case 1. `bash casebook/scripts/verification-status.sh` parses the log and prints overall + per-chapter progress + open issues.
 
-1. The named palette swaps to L\*-tuned grays in `lib/theme.typ` so the
-   case header, taxonomy chips, domain pills, eyebrows, and rules emit
-   meaningful gray values from Typst directly.
-2. A ghostscript pass on the production output flattens any
-   hardcoded `rgb()` literals (notably inside `cetz` diagrams) to
-   true grayscale via `-sProcessColorModel=DeviceGray
-   -sColorConversionStrategy=Gray`.
+## How to find the next thing to do
 
-`gs -sDEVICE=inkcov` reports 0/0/0/K coverage on every production page.
+- **For the case-by-case verification pass** (the only remaining quality gate before press): `casebook/verification-log.md` for the rubric and the table; `casebook/scripts/verification-status.sh` for progress.
+- **For the pre-press handoff to Lulu**: upload `capability-matters-print.pdf` (915 pp) and `cover-print.pdf` (spine 56.82 mm); Lulu may quote-back ±1 mm — the spine-override flag in `casebook/scripts/build.sh` handles a re-cut.
+- **For program-doc updates** (CLOs, course mapping, recruiting copy): `lens_program/` is the source of record; change logs are inline at the bottom of docs 1 and 2.
+- **For framework rationale or research backbone**: `v2_research/` is preserved for traceability; the proposal (`01_*`) carries an ADOPTED status header naming the two adoption-time refinements.
 
----
+## Working conventions
 
-## Page geometry
+See `CLAUDE.md` for the binding rules. Key conventions:
 
-One trim, one measure. Converted 3-page cases flow without a forced
-verso start, so the 3-page units pack without blank pages. The three
-editions differ only in color and carrier — never in measure or type
-size — so proof and print paginate identically.
-
-| Setting | Value |
-|---|---|
-| Trim | 203.2 × 254 mm (8 × 10 in) |
-| Bleed (`print` only) | 3 mm |
-| Margins (inner / outer / top / bottom) | 26 / 22 / 20 / 24 mm |
-| Body | 10.5 pt |
-| Proof carrier | US Letter (215.9 × 279.4 mm); 8 × 10 centered (6.35 mm L/R, 12.7 mm T/B inset) with trim outline + corner crop marks |
-
----
-
-## Cover
-
-A single 8 × 10 Lulu wrap — front, spine, and back on one sheet —
-built from `cover/cover.typ`. The spine width is computed from the
-live `print` page count (~0.0621 mm/page on cream stock) and passed in
-by the build script.
-
-To override once Lulu reports the exact spine width:
-
-```bash
-typst compile --font-path fonts --root . \
-  --input cover-w-mm=<...> --input cover-h-mm=<...> --input spine-mm=<...> \
-  cover/cover.typ build/cover-print.pdf
-```
-
----
-
-## Adding or editing a case
-
-Cases are defined by `#case(...)` (see `lib/case.typ`). The template
-has two paths, selected by whether `kind` is set.
-
-**3-page cited case** (set `kind`) — the target structure:
-
-| Field            | Purpose                                                                 |
-|------------------|-------------------------------------------------------------------------|
-| `kind`           | `"failure"`, `"intervention"`, or `"frontier"` — picks the section labels in `theme.section-sets` |
-| `summary`        | shaded ~100–150 word "In brief" abstract at the top of page 1 |
-| `sections`       | array of **five** content blocks, one per beat, in order; embed inline `#cn()` markers in the prose |
-| `references`     | array of reference strings — **must equal the `#cn()` count** (run `make check`) |
-| `le-insight`, `lens-approach`, `reflection-list`, `courses`, `quote`, `sources-list`, `literature-items` | the page-3 LE Lens, as before |
-
-Inline citations use `#cn()`, which auto-numbers within the case
-(reset per case) and renders a superscript marker; the matching text
-goes in `references`, in the same order. Size the summary plus the five
-sections to fill two pages so the reference list lands at the end of
-page 2 and the LE Lens on page 3 — `make check` enforces this. Keep
-references concise (one line each); they render in two columns.
-
-**Legacy 2-page spread** (omit `kind`) — `number`, `title`, `year`,
-`domains-list`, `modes-code`, `impact`, `diagram`, `body`, plus the LE
-Lens fields above. Still renders so unconverted cases keep building.
-
-Shared header fields (`number`, `title`, `year`, `domains-list`,
-`modes-code`, `impact`, `diagram`) apply to both paths.
-
-To add a diagram, write a `#let dgm-foo = diagram-frame(...)` in
-`lib/diagrams.typ` and reference it as `dgm.dgm-foo` from the case.
-Diagrams may use `cetz` for vector drawing.
-
----
-
-## Failure-mode taxonomy
-
-| Code | Failure mode                       |
-|------|------------------------------------|
-| T    | Training Gap                       |
-| D    | Designed Out                       |
-| N    | Normalization of Deviance          |
-| H    | Human-System Interface             |
-| G    | Governance & Trust                 |
-| K    | Knowledge & Institutional Memory   |
-
----
-
-## Design system
-
-| Color (production) | Hex      | L\* | Used for                                  |
-|--------------------|----------|----:|-------------------------------------------|
-| Navy               | #0A1628  |  10 | chapter dividers, primary text            |
-| Navy mid           | #1F2A44  |  16 | domain pills (defense / aviation / gov)   |
-| Teal               | #1A8A7D  |  32 | eyebrows, failure-mode chips, accents     |
-| Gold               | #D4A843  |  58 | pull-quote rule, eyebrows, accents        |
-| Teal light         | #2CC4B3  |  68 | title italics, light accent               |
-| Cream              | #F5F0E8  |  94 | digital-edition page backdrop             |
-
-Each color carries a meaningful L\* and the grayscale palette is tuned
-to those L\* targets, so the production black-and-white interior keeps
-the visual distinctions intact.
-
-| Typeface           | Used for                                  |
-|--------------------|-------------------------------------------|
-| Instrument Serif   | display, case titles, pull quotes         |
-| DM Sans            | body, labels, taxonomy chips, UI elements |
-
----
-
-## Reviewing
-
-The `proof` edition is the review artifact: the grayscale print page
-centered on US Letter with an 8 × 10 trim outline and corner crop
-marks. Print it at 100% (no scaling) on any office printer — it
-centers on the sheet and shows exactly where the production book
-trims. Because proof shares print's measure and type size, its
-pagination matches the Lulu interior page-for-page.
-
----
-
-## Open items for production
-
-- Case conversion to the 3-page (2+1) cited case is in progress; run
-  `make check` to see which cases are converted and passing.
-- The colophon currently reads `Copyright © 2026. All rights reserved.`
-  pending a decision on the institutional rights-holder.
-- Lulu reports an exact spine width once the page count is locked.
-  Build the cover with `--input spine-mm=…` to match if it differs
-  from the computed estimate.
-
----
-
-## References
-
-- Project context and methodology: [METHODOLOGY.md](METHODOLOGY.md)
-- LENS positioning argument: separate document (provided to editors)
-- Audit record of citations and changes: [AUDIT.md](AUDIT.md)
+- Develop on branch `claude/lens-case-studies-book-6Erzw`; the editor decides when to merge to `main`.
+- Every case carries `scale:` (`big` | `small`), `evidence-source:` (`investigation` | `peer-reviewed` | `program-report` | `practitioner` | `dissertation` | `journalism`), and three anchors (induced, lens, CLO).
+- COI / evidence-tier / hedge flags from the v2 build list survive into print: gold-bordered "Disclosure" block for COI cases (CIRCUIT, BRAIN, Johnson, JIGSAWS); blue-bordered "Evidence tier" block for journalism-tier / preprint-tier / practice-synthesis-tier / thesis-pending / internal-pm.
+- Don't pad citations. Three real sources beat eight stretched ones. (The references validation pass came in at 1.05% ISSUE rate; the bar is the bar.)
+- Don't edit `lens_program/.docx` files directly — they need a program-owner round-trip from the `.md`. The `.md` is the working canonical between round-trips.
