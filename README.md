@@ -104,7 +104,7 @@ The first edition is structurally complete and reproduces from source.
 
 See `CLAUDE.md` for the binding rules. Key conventions:
 
-- Develop on branch `claude/lens-case-studies-book-6Erzw`; the editor decides when to merge to `main`.
+- Develop on a topic branch under `claude/` (e.g. `claude/<short-topic-slug>`); push and open a PR. The editor decides when to merge to `main`. Don't push directly to `main`.
 - Every case carries `scale:` (`big` | `small`), `evidence-source:` (`investigation` | `peer-reviewed` | `program-report` | `practitioner` | `dissertation` | `journalism`), and three anchors (induced, lens, CLO).
 - COI / evidence-tier / hedge flags from the v2 build list survive into print: gold-bordered "Disclosure" block for COI cases (CIRCUIT, BRAIN, Johnson, JIGSAWS); blue-bordered "Evidence tier" block for journalism-tier / preprint-tier / practice-synthesis-tier / thesis-pending / internal-pm.
 - Don't pad citations. Three real sources beat eight stretched ones. (The references validation pass came in at 1.05% ISSUE rate; the bar is the bar.)

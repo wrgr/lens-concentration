@@ -52,7 +52,7 @@ They are close but not identical. v2 cases record all three. In the printed case
 7. **Causal hedges listed in `v2_research/02_*` must survive into drafting.** "Inconsistent measurement," "outcome remains unknown," "RCTs pending," "pricing vs acceptance differ," etc. — never softened.
 8. **Dual-tier floors per competency, binding for the v2 sweep.** In *each* of the two scale tiers (`big`, `small`): ≥15 cases AND ≥30% `kind: intervention`. The sweep is not done until every competency meets both floors in both tiers.
 7. **Don't edit `lens_program/`.** Those are the canonical source of record. Revisions live in `v2_research/01_*` until adopted, at which point the program owner updates `lens_program/` directly.
-8. **No merges to `main` without editor review.** Push to the working branch (`claude/lens-case-studies-book-6Erzw`); the editor decides when to merge.
+8. **No merges to `main` without editor review.** Push to a topic branch under `claude/` (name it `claude/<short-topic-slug>` for the current session's scope) and open a PR; the editor decides when to merge. Don't push directly to `main`.
 9. **Induction rule (for any framework re-induction).** Clusters retained only when ≥10 distinct cases support a top-level and ≥3 support a sub. The framework is induced from cases, not anchored to LEN 1–10 or T/D/N/H/G/K modes. (Anchoring of *new candidate cases* to the existing induced framework is expected; anchoring of the framework itself to LEN/modes is not.)
 
 ## Current state
