@@ -2,6 +2,19 @@
 
 The casebook, the program documentation, and the active research and revision work co-located in one repo so they stay in sync.
 
+## Start here
+
+Two PDFs, designed to be read together:
+
+| File | What it is | Read it if you want… |
+|---|---|---|
+| **[`casebook/capability-matters-digital.pdf`](casebook/capability-matters-digital.pdf)** | The casebook itself — 194 cases, 915 pp, 8 × 10 colour edition on a cream backdrop | the stories, the analysis, the evidence base for the *capability is a system parameter* argument |
+| **[`casebook/capability-matters-lens-companion.pdf`](casebook/capability-matters-lens-companion.pdf)** | The 8 × 10 LENS Companion — 139 pp, white, digital | the framework — the five v2.1 LENS competencies, the CLOs and course mapping, the crosswalks (induced 8 ↔ canonical 5), and the per-case references appendix so any source can be located |
+
+The casebook makes the case; the companion gives the reader the framework + indexes + references to navigate it. Together they are the matched pair an instructor, recruiter, student, or outside reader can carry as the orientation set for the LENS specialisation at the Johns Hopkins School of Education.
+
+Smaller formats (US Letter summary, Half-Letter summary, print interiors for Lulu, cover wraps) live alongside the two main PDFs in `casebook/`; all eleven outputs reproduce from one Typst source via `bash casebook/scripts/build.sh`.
+
 ## Layout
 
 ```
