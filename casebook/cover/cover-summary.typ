@@ -70,7 +70,7 @@
   place(top + left, dx: margin, dy: fh - margin - 34mm)[
     #block(width: fw - 2 * margin)[
       #text(font: sans, size: 7.5pt, fill: rgb("#B7C9E0"))[
-        A quick-reference guide to one hundred real cases — each with a brief
+        A quick-reference guide to the casebook's cases — each with a brief
         callout, its key sources, and the LENS courses it informs.
       ]
     ]
@@ -103,7 +103,7 @@
     #block(width: bw - 2 * margin)[
       #set par(leading: 0.6em)
       #text(font: serif, size: 11pt, style: "italic", fill: cream)[
-        The companion digest to the casebook: one hundred cases of capability —
+        The companion digest to the casebook: cases of capability under stress —
         how it fails, how it has been engineered, and where the discipline is
         being tested next.
       ]
@@ -121,7 +121,7 @@
   place(top + left, dx: margin, dy: bh - 70mm)[
     #block(width: bw - 2 * margin)[
       #text(font: sans, size: 7pt, tracking: 1.4pt, fill: gold,
-        upper("One hundred cases · Six failure modes · One discipline"))
+        upper("Real incidents · Six failure modes · One discipline"))
       #v(5pt)
       #line(length: 18mm, stroke: 0.6pt + gold)
       #v(5pt)
@@ -129,7 +129,7 @@
         upper("capabilitymatters.org · LENS at Johns Hopkins"))
       #v(4pt)
       #text(font: sans, size: 6pt, tracking: 1.4pt, fill: rgb("#B7C9E0"),
-        upper("Edition 06.06.2026"))
+        upper("Edition · 15 June 2026"))
     ]
   ]
 }

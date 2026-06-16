@@ -112,10 +112,18 @@
   #text(font: sans, size: 11pt, tracking: 2pt, fill: gold, upper("Concentration · crosswalks · references"))
   #v(20pt)
   #line(length: 80mm, stroke: 1pt + gold)
-  #v(10pt)
+  #v(14pt)
+  #text(font: sans, size: 7pt, tracking: 1.6pt, fill: teal, upper("Edited by"))
+  #v(3pt)
+  #text(font: serif, size: 11pt, fill: navy, "William Gray-Roncal, PhD")
+  #linebreak()
+  #text(font: serif, size: 11pt, fill: navy, "James Diamond, PhD")
+  #v(14pt)
   #text(font: sans, size: 9.5pt, fill: text-muted)[
-    Learning Engineering for Next-Generation Systems · v2.1 (June 2026)
+    Learning Engineering for Next-Generation Systems · v2.1
   ]
+  #v(2pt)
+  #text(font: sans, size: 8pt, tracking: 1.4pt, fill: text-muted, upper("Edition · 15 June 2026"))
 ]
 
 #v(3fr)
@@ -647,7 +655,11 @@
   #line(length: 50mm, stroke: 0.8pt + gold)
   #v(10pt)
   #text(font: sans, size: 9pt, fill: text-muted)[
-    Learning Engineering for Next-Generation Systems · v2.1 (June 2026)
+    Edited by William Gray-Roncal, PhD and James Diamond, PhD
+  ]
+  #v(4pt)
+  #text(font: sans, size: 9pt, fill: text-muted)[
+    Learning Engineering for Next-Generation Systems · v2.1 · Edition · 15 June 2026
   ]
   #v(6pt)
   #text(font: sans, size: 8.5pt, fill: text-muted)[

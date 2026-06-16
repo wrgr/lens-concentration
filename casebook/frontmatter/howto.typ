@@ -19,7 +19,7 @@
 #set par(justify: true, leading: 0.64em)
 
 #text(font: sans, size: 9.5pt, fill: text-dark)[
-  This book collects one hundred real incidents in which capability —
+  This book collects a growing record of real incidents in which capability —
   what people could or could not do inside a complex system —
   determined whether the system worked. Some are failures: lives
   lost, systems wrecked, billions written off. Some are successes:

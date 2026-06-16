@@ -24,7 +24,7 @@
     #line(length: 46mm, stroke: 1pt + gold)
     #v(14pt)
     #block(width: 80%, text(font: sans, size: 10.5pt, fill: rgb("#B7C9E0"))[
-      A quick-reference guide to one hundred real cases of capability — how it
+      A quick-reference guide to the casebook's cases of capability — how it
       fails, how it has been engineered, and where the discipline is being
       tested next — each with a brief callout, its key sources, and the LENS
       courses it informs.
@@ -67,10 +67,10 @@
 // -------------------------------------------------------- the case studies
 #text(font: sans, size: 8pt, tracking: 1.6pt, fill: gold, upper("The case studies"))
 #v(5pt)
-#text(font: serif, size: 22pt, fill: navy, "Two hundred cases, three movements")
+#text(font: serif, size: 22pt, fill: navy, "A growing record, three movements")
 #v(10pt)
 #text(font: sans, size: 10.5pt, fill: text-dark)[
-  The casebook assembles *more than two hundred* documented cases — from
+  The casebook assembles a growing record of documented cases — from
   healthcare, defense, education, energy, finance, transportation, and
   government — organized in three movements, with a contemporary expansion
   that extends the corpus into algorithmic decision-making, learning
