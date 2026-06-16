@@ -134,7 +134,7 @@
 // BACK COVER (left face)
 //   • Lulu places a 92 × 32 mm barcode 12.7 mm from the bleed edge —
 //     keep the lower-center of this face clear.
-//   • The long "One hundred cases · …" tagline lives at the BOTTOM
+//   • The long "Real incidents · …" tagline lives at the BOTTOM
 //     (above the URL footer). When that line was at the top it ran
 //     within a few mm of the spine fold and risked wrapping into
 //     the spine on the bound book.
@@ -156,7 +156,7 @@
       A casebook for the Learning Design and Technology program and
       the Learning Engineering for Next-Generation Systems
       specialization at the Johns Hopkins University School of
-      Education. One hundred real incidents — from the bridge of a
+      Education. A growing record of real incidents — from the bridge of a
       U.S. Navy destroyer to a Michigan ICU to a national A-Level
       results algorithm — examined through the lens of capability as
       a system parameter.
@@ -202,7 +202,7 @@
 #at(margin, total-h - 70mm)[
   #block(width: half-w - 2 * margin)[
     #text(font: sans, size: 7.5pt, tracking: 1.4pt, fill: gold,
-      upper("One hundred cases · Six failure modes · One discipline"))
+      upper("Real incidents · Six failure modes · One discipline"))
     #v(6pt)
     #line(length: 20mm, stroke: 0.6pt + gold)
     #v(6pt)
@@ -210,6 +210,6 @@
       upper("capabilitymatters.org · LENS at Johns Hopkins"))
     #v(4pt)
     #text(font: sans, size: 6.5pt, tracking: 1.4pt, fill: rgb("#B7C9E0"),
-      upper("Edition 06.06.2026"))
+      upper("Edition · 15 June 2026"))
   ]
 ]
