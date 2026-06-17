@@ -188,7 +188,6 @@
   reflection-list: (
     [Identify a portfolio-level decision in your domain that rides on data the auditor would describe as insufficient. What is the minimum evidence-architecture improvement that would convert the data from sub-decision-grade to decision-grade for the specific decision class?],
     [Specify the cost or outcome categories whose comparability across units, services, or time would most change the decision quality. The case's lesson is that comparability has to be specified before the data flow, not after.],
-    [The decision-maker has to act on the evidence available. Design the documentation discipline that would record what hedges the decision was made under, so future audits can distinguish "decision was wrong" from "evidence was inadequate at the time."],
   ),
   courses: ("LEN 1", "LEN 5", "LEN 7"),
 )
@@ -1199,7 +1198,6 @@
   reflection-list: (
     [Identify an aging-infrastructure transition in your domain whose original business case rested on benefit categories that are multifactorial and contested in attribution. What is the equivalent of the auditable equipage mandate — the piece of the transition that delivers cleanly — and how would you separate its reporting from the broader benefit case?],
     [Specify the lead time the transition actually needs from mandate to deadline; ADS-B Out used a decade. What is the analog in your context, and what does the operator-equipage trajectory look like across that horizon?],
-    [The NextGen case is the instance where the hedges are largest in the v2 aging-system quartet. What does it mean to be honest about a transition that executed and also slipped and underperformed its business case — and what is the institutional discipline that keeps both claims accurate?],
   ),
   courses: ("LEN 1", "LEN 7", "LEN 8"),
 )

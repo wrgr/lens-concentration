@@ -184,7 +184,6 @@
   reflection-list: (
     [Identify a mandatory pre-authorization program in your domain. What does the authorization mechanism actually reach, and what does it not? Where in the patient or operator behavior does the capability the program exists to deliver sit downstream of the authorization?],
     [Specify the adherence-support architecture you would add to convert an iPLEDGE-class authorization into a delivered capability. For isotretinoin the gap is documented (missed pills, inconsistent condom use); what is the analog in your context?],
-    [The "no significant decrease" finding is what the case rests on. What would the outcome metric have to be — and at what cadence — to know whether a revised adherence-support layer was working, separately from the authorization mechanism that is already working as specified?],
   ),
   courses: ("LEN 5", "LEN 7", "LEN 9"),
 )
@@ -530,7 +529,6 @@
   reflection-list: (
     [Identify a deployed prediction system in your domain whose affected population was not consulted in the deployment-decision record. What would a speculative-design study look like for surfacing the affected voice — and who is positioned to commission it?],
     [Specify the three perceived gaps — opacity, distrust, anticipated discrimination — for the system you identified. Which of the three is a disclosure-architecture target, which is an objective-choice target, and which is an audit-evidence target?],
-    [The case's hedge is that 18 interviews surfaces dimensions, not prevalence. What is the survey-scale study you would build on the perception dimensions the study identifies — and what would convert the perception findings into the decision-grade evidence the deployment-side institutions could act on?],
   ),
   courses: ("LEN 3", "LEN 5", "LEN 8"),
 )
@@ -2122,7 +2120,6 @@
   reflection-list: (
     [Identify a catastrophe-class failure pattern in your domain whose response has been operator-by-operator rather than industry-coordinated. What would the analog of an independent convening body look like, and which body could plausibly play that role without competitive stake?],
     [Specify the cross-operator diagnostic — checklist, tool kit, structured self-assessment — that you would design as the first deliverable of an FSF-style task force. The deliverable has to be applicable privately by each operator, and aggregate into field-level signal.],
-    [The CFIT/ALAR decline is multifactorial. What is the minimum decomposition you would publish — hardware, training, procedure, fleet turnover — to keep the institutional claim honest while still defending the task-force form as the organizing mechanism?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
@@ -2293,7 +2290,6 @@
   reflection-list: (
     [Identify a tool or framework in your domain that has been lifted from one regime to another without local adaptation. What participatory method would surface what the destination stakeholders actually need, and what would convert the governance question into a structured set of decisions during adoption rather than a gate at deployment?],
     [Specify the evidence tier honestly for an adoption-readiness case in your context: capacity-building and process evidence is what you can publish now; long-run outcome evidence is the next study. Where in your communication is the tier most at risk of being smoothed away?],
-    [The non-US LA governance triple — OU, LALA, SyRI — teaches three honest results for the same structural question. What is the analog triple in your domain that would teach when delegation is legitimate (design unblocks), when it builds capacity (participatory adoption), and when it should be halted (rights-grounded)?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
@@ -2472,7 +2468,6 @@
   reflection-list: (
     [Identify a sector-scale capability deployment question in your domain. Is the right governance level institutional, sectoral, national, or judicial — and what determines the match between deployment scope and governance level?],
     [Specify the dimensional breadth your commission or governance artifact would have to cover. Norway's mandate was pedagogical, ethical, legal, and privacy. What is the analog in your context, and which dimension is most at risk of being narrowed away under stakeholder pressure?],
-    [The Norwegian artifact is process-level evidence, not yet deployment-outcome evidence. What is the cadence at which the artifact should be revisited as the technology and the evidence base change, and who has the standing to convene that revisit?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
@@ -2642,7 +2637,6 @@
   reflection-list: (
     [Identify an automated system in your context that faces a public-trust objection it cannot answer by full disclosure. What falsifiable argument structure could you publish that would make the system's reasoning auditable without requiring disclosure of the contested data?],
     [Specify how a regulator or independent auditor would *revoke* the delegation in your system if a sub-claim of the safety case failed. The CLO *Delegation with revocation* requires this pathway to exist before deployment, not only after a public-facing failure.],
-    [The case is practice-synthesis tier. What additional independent evidence — failure-record analysis, multi-auditor replication, peer-reviewed evaluation — would you require before treating the safety-case-plus-audit posture as a substitute for the disclosure that was originally demanded?],
   ),
   courses: ("LEN 4", "LEN 8", "LEN 9"),
 )

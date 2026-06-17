@@ -4264,7 +4264,6 @@
   reflection-list: (
     [Identify a predictive or early-warning analytics deployment in your domain whose published outcome claim circulates more widely than the peer-reviewed evidence supports. What threats to validity — selection, reverse causality, censoring — would a Caulfield-style external critic name first?],
     [Specify the comparison-group design that would isolate effect from selection in your context. What pre-registered analysis plan, with simulated placebo treatment, would let the field check the claim before it circulates?],
-    [The Course Signals correction came from outside the original institutional network. What is the analog in your domain — the independent reanalysis path that protects the field from citation practice that outruns the evidence?],
   ),
   courses: ("LEN 2", "LEN 5", "LEN 8"),
 )
