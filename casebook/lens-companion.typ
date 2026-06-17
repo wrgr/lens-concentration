@@ -22,6 +22,7 @@
 
 #import "lib/theme.typ": *
 #import "lib/components.typ": *
+#import "lib/md-render.typ": render-md
 
 #set document(
   title: "LENS Companion — Concentration documents, crosswalks, references",
@@ -152,7 +153,7 @@
 #v(8pt)
 
 #text(font: sans, size: 10pt, fill: text-dark)[
-  The companion is in three parts:
+  The companion is in four parts:
 ]
 
 #v(4pt)
@@ -172,6 +173,12 @@
     *III.* Crosswalks — the casebook's induced framework mapped to the
     canonical five competencies, plus the three-anchor convention every
     v2 case carries.
+
+    *IV.* The canonical program documents — the literal text of the
+    `lens_program/` source-of-record `.md` shadows, inlined verbatim
+    (status banners and change logs preserved). Included so the
+    companion can travel with advisory boards, prospective students,
+    and external reviewers carrying the authoritative wording in hand.
   ]
 })
 
@@ -624,6 +631,77 @@
 // than audit (which cases land in which course).
 // ============================================================
 #include "backmatter/appendix-clo-courses.typ"
+
+// ============================================================
+// PART IV — THE CANONICAL PROGRAM DOCUMENTS
+// (the source-of-record .md shadows from lens_program/, inlined
+// verbatim via the renderer in lib/md-render.typ)
+// ============================================================
+#pagebreak()
+
+#h1("The canonical program documents")
+
+#text(font: sans, size: 10pt, fill: text-dark)[
+  What follows is the literal text of the LENS program documents of
+  record, included so this companion can travel with advisory boards,
+  prospective students, and external reviewers carrying the
+  authoritative wording in hand. These mirror the `.docx` files
+  maintained in `lens_program/`; any discrepancy between the two should
+  be resolved in favour of the `.docx`, which is the source of record.
+  The status banners and change logs that head and tail each document
+  are reproduced verbatim — they carry the traceability that makes the
+  documents source-of-record.
+]
+
+#v(6pt)
+
+#block(
+  width: 100%,
+  fill: rgb("#FBF7EE"),
+  inset: 10pt,
+  stroke: (left: 2pt + gold),
+  {
+    set par(leading: 0.55em)
+    text(font: sans, size: 8.5pt, fill: text-muted)[
+      *Relationship to Parts I–III.* Parts I, II, and III of this
+      companion paraphrase and re-present portions of Documents 1, 2,
+      and 4 for the companion's compact form. Part IV is the verbatim
+      source; where a reader needs to confirm the exact wording — for
+      a syllabus, a recruiting page, an MHEC filing, a SIG conversation
+      — Part IV is the canonical text to cite.
+    ]
+  }
+)
+
+#pagebreak()
+
+#h2("Doc 1 · The Five LENS Competencies")
+#render-md(read("/lens_program/1_LENS_Five_Competencies.md"))
+
+#pagebreak()
+
+#h2("Doc 2 · LENS Objectives and Course Mapping")
+#render-md(read("/lens_program/2_LENS_Objectives_Course_Mapping.md"))
+
+#pagebreak()
+
+#h2("Doc 3 · Editor Biographies")
+#render-md(read("/lens_program/3_LENS_Editor_Bios.md"))
+
+#pagebreak()
+
+#h2("Doc 4 · LENS / LECF Crosswalk")
+#render-md(read("/lens_program/4_LENS_LECF_Crosswalk.md"))
+
+#pagebreak()
+
+#h2("Doc 5 · Summary and Pre/Post Objectives")
+#render-md(read("/lens_program/5_LENS_Summary_and_PrePost_Objectives.md"))
+
+#pagebreak()
+
+#h2("Doc 6 · Recruitment Email")
+#render-md(read("/lens_program/6_LENS_Recruitment_Email.md"))
 
 // ============================================================
 // CLOSING

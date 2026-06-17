@@ -43,7 +43,9 @@ gray_flatten build/_proof-color.pdf build/capability-matters-proof.pdf
 rm build/_proof-color.pdf
 
 echo "→ Compiling LENS Companion (8 × 10, white, digital)..."
-$TYPST --input view=companion lens-companion.typ build/capability-matters-lens-companion.pdf
+# Companion uses --root .. so read() can reach the canonical .md shadows
+# in the sibling lens_program/ directory for Part IV (source-of-record).
+$TYPST --root .. --input view=companion lens-companion.typ build/capability-matters-lens-companion.pdf
 
 echo "→ Compiling Validation & Audit (8 × 10, white, digital)..."
 $TYPST --input view=companion validation-audit.typ build/capability-matters-validation-audit.pdf
