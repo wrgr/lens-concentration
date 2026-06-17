@@ -82,6 +82,19 @@
     set par(justify: true, leading: 0.55em)
     text(font: sans, size: 9pt, fill: text-dark, impact)
   })
+  // Narrative — the case's `summary` field ("In brief", ~130 words).
+  // This is what was previously missing from the short editions; without
+  // it the reader saw only the impact lead, beats, and metadata. Renders
+  // in 8pt for the Half-Letter (one-per-page) and 7.5pt for the US
+  // Letter (two-per-page); silent if the case carries no summary.
+  let narrativeblock = if summary != none and summary != [] {
+    block({
+      eyebrow("In brief", color: navy-mid)
+      v(gap-small)
+      set par(justify: true, leading: if big { 0.5em } else { 0.42em })
+      text(font: sans, size: if big { 8pt } else { 7.5pt }, fill: text-dark, summary)
+    })
+  } else { none }
   // 5 beats — 2-column grid. Each beat row is one line at 6.8pt.
   let beatsblock = {
     eyebrow("The full case, in five beats", color: navy-mid)
@@ -178,13 +191,15 @@
   )
 
   if big {
-    // One case per Half-Letter page. Header → title → impact → beats →
-    // (filler) → connectivity → refs → bottom banner.
+    // One case per Half-Letter page. Header → title → impact → narrative
+    // ("In brief", ~130 words) → beats → (filler) → connectivity → refs
+    // → bottom banner.
     header
     v(gap-med)
     titleblock
     v(gap-big)
     leadblock
+    if narrativeblock != none { v(gap-big); narrativeblock }
     v(gap-big)
     beatsblock
     v(1fr)
@@ -195,11 +210,15 @@
     bannerblock
     pagebreak(weak: true)
   } else {
+    // Two cases per US Letter page. Tighter envelope; narrative renders
+    // smaller (7.5pt) and the block remains fixed-height so layout
+    // stays predictable.
     block(
       width: 100%, height: 113mm, breakable: false,
       inset: (top: 5pt, bottom: 4pt), stroke: (top: 0.6pt + rule-soft),
       {
         header; v(gap-small); titleblock; v(gap-med); leadblock;
+        if narrativeblock != none { v(gap-med); narrativeblock }
         v(gap-med); beatsblock; v(gap-med);
         connectivityblock; v(gap-small);
         refsblock; v(gap-small); bannerblock
@@ -256,6 +275,7 @@
 // numbered per-case reference list instead) shows no stray heading.
 #let sources(..items) = if items.pos().len() == 0 { none } else {
   block(
+    breakable: false,
     {
       eyebrow("Sources")
       v(3pt)
@@ -298,12 +318,16 @@
 )
 
 // ---- Reflection questions ----
+// `breakable: false` keeps the three questions on one page; the outer
+// case template renders this as a sibling of team-block + sources so
+// each can settle independently on the lens page.
 #let reflections(..qs) = block(
   width: 100%,
+  breakable: false,
   {
     eyebrow("Reflection Questions", color: teal)
-    v(3pt)
-    set par(leading: 0.45em, justify: false)
+    v(2pt)
+    set par(leading: 0.42em, justify: false)
     for (i, q) in qs.pos().enumerate() {
       grid(
         columns: (12pt, 1fr),
@@ -311,7 +335,7 @@
         text(font: serif, size: reflection-num, fill: teal, str(i + 1) + "."),
         text(font: sans, size: reflection-size, fill: text-dark, q),
       )
-      v(2pt)
+      v(1pt)
     }
   }
 )
@@ -334,18 +358,14 @@
       for t in mode-tools.at(c, default: ()) { if not tools.contains(t) { tools.push(t) } }
     }
   }
-  block(width: 100%, {
-    set par(leading: 0.44em, justify: false, first-line-indent: 0pt)
+  block(width: 100%, breakable: false, {
+    set par(leading: 0.42em, justify: false, first-line-indent: 0pt)
     text(font: sans, size: 8pt, fill: text-dark)[
       #text(font: sans, size: 6.5pt, weight: "medium", tracking: 1.4pt, fill: teal)[#upper("Who builds this")]
       #h(5pt)
       #exps.join(" · ") — plus domain experts and a learning engineer to integrate.
-    ]
-    v(1.5pt)
-    text(font: sans, size: 7.5pt, fill: text-muted)[
-      #text(font: sans, size: 6.5pt, weight: "medium", tracking: 1.4pt, fill: teal)[#upper("Tools")]
-      #h(5pt)
-      #tools.join(" · ")
+      #h(6pt)
+      #text(fill: text-muted, size: 7.5pt)[#text(weight: "medium", tracking: 1.4pt, fill: teal, size: 6.5pt)[#upper("Tools")]#h(5pt)#tools.join(" · ")]
     ]
   })
 }

@@ -170,7 +170,6 @@
   reflection-list: (
     [Identify a "personal safety vs. process safety" equivalent in your domain. What capability gap is invisible to the metric your institution currently reports?],
     [Design the process-safety dashboard that BP Texas City's executives should have been receiving in 2003.],
-    [A confident green reading on the wrong axis manufactured false assurance. What headline metric in your organization might be reassuring precisely because it measures the wrong dimension?],
   ),
   approaches: (
     during: (

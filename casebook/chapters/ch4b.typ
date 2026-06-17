@@ -1807,7 +1807,6 @@
   reflection-list: (
     [Identify a field-scale capability movement in your domain whose evidence architecture has not kept pace with its operational and curricular investment. What would the IOM-style conceptual model look like for that field's outcome chain?],
     [Specify, for the next IPE-style program you would design or evaluate, which links in the outcome chain (learner / collaborative behavior / organizational practice / patient outcome) the evaluation will measure and which it will leave assumed. The field-scale gap is the accumulated result of leaving the same links assumed.],
-    [The case names enthusiasm-as-evidence as a foreseeable failure mode in any field-scale capability movement. What is the curricular response — a sub-competency that names the gap explicitly — and what cases would anchor it for your trainees?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
@@ -2333,7 +2332,6 @@
   reflection-list: (
     [Identify a point in your domain's workflow where the cue the operator needs in order to catch a mismatch is structurally absent. What would the hardware-supplied analog of bar-code eMAR look like — and at what point in the workflow does it have to land for the operator to still recover?],
     [The headline reductions (41.4\%, 50.8\%, 80.3\%, 55.4\%) rest on a before-and-after observational design. What additional evidence — randomized comparison, segmented analysis by unit type, residual-error analysis — would you require before treating the figures as a closure rather than a strong signal?],
-    [The workflow change is part of the deliverable. Specify the institutional commitment in your context that would make the analog of the bedside scan non-routable around, and name the cost the institution would absorb to keep that commitment.],
   ),
   courses: ("LEN 2", "LEN 5", "LEN 7"),
 )
@@ -2851,7 +2849,6 @@
   reflection-list: (
     [Identify a capability your institution is considering adopting where readiness is currently discussed as a single overall question. What are the dimensions readiness actually has, and what maturity levels within each dimension would yield a structured next-step picture rather than a binary judgment?],
     [Specify the two-layer validation you would build for the instrument: expert evaluation for comprehensiveness and suitability, and institutional pilot for usability. Where would each layer be at risk of being skipped, and what would that skip cost the instrument's credibility?],
-    [The case is honest that instrument-validation evidence is not the same as adoption-outcome evidence. What is the longitudinal study you would commission alongside MMALA-style adoption, on what cadence and against what comparison, to convert the instrument into outcome evidence over time?],
   ),
   courses: ("LEN 4", "LEN 7", "LEN 8"),
 )
@@ -3520,7 +3517,6 @@
   reflection-list: (
     [Identify an intervention in your domain whose effect depends on a deployment-substrate stabilization that takes more than a year (teacher fluency, workflow familiarity, scheduling alignment). What evaluation horizon is honest for that intervention, and what would the year-one estimate, taken alone, falsely conclude?],
     [Specify the year-by-year result pattern your next evaluation will report. The case's pedagogical value depends on having both the year-one and year-two estimates from the same trial; what reporting structure would you commit to that supports the pattern view, not only the aggregate?],
-    [The CLO on judgment under inadequate evidence is grounded in this case where the inadequacy is the evaluation horizon. Identify a published null result in your domain whose horizon was potentially too short; what would the replication-with-longer-horizon look like?],
   ),
   courses: ("LEN 2", "LEN 3", "LEN 7"),
 )
@@ -4771,7 +4767,6 @@
   reflection-list: (
     [Identify a learning-analytics or analogous predictive model in your domain. Which protected attributes are inputs to the model, which are not, and is the include-or-exclude decision on the record with reasoning, or absorbed into the data-engineering pipeline?],
     [Specify the stratified-audit cadence you would operate for the model regardless of whether protected attributes are inputs; the audit catches the consequences of the include-or-exclude decision in operation, and its absence makes the decision functionally invisible.],
-    [The case sits in a five-case equity-construct set with Case 133 (Gándara) on construct definition and the v2 race-construct trio (Cases 113, 114, 95) on instrument construct. Identify a deployment in your domain that sits across all three layers — construct definition, attribute handling, instrument construct — and which layer's decisions are currently most invisible.],
   ),
   courses: ("LEN 3", "LEN 6", "LEN 9"),
 )
@@ -4950,7 +4945,6 @@
   reflection-list: (
     [Identify an LLM-based system in your domain whose foundation-model choice was treated as an upstream procurement decision rather than as a fairness-relevant design decision. What would the matched-pair probing protocol look like for that system, and what response dimensions would you assess?],
     [Specify the pre-deployment fairness deliverable you would build into the procurement record for an LLM-based product in your domain. What would the published artifact contain — probe set, response-dimension assessment, foundation-model comparison — and what would the procurement decision turn on?],
-    [The case's open question is whether lab-style probing matches deployed-conversation patterns. What deployment-log analysis would convert the methods-development evidence into deployment-audit evidence, and what privacy and consent architecture does that analysis require?],
   ),
   courses: ("LEN 3", "LEN 5", "LEN 7"),
 )

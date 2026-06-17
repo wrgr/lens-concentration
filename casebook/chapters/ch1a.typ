@@ -2131,7 +2131,6 @@
   reflection-list: (
     [Identify a technology transition in your domain that is positive on its capability claim and that nevertheless puts the inherited certification of operator proficiency under question. What re-verification of operator proficiency would the transition require — and is it currently part of the deliverable, or assumed away?],
     [The NTSB attribution is to inadequate equipment-specific training, not to the technology. What is the analog distinction in your context — between the engineered artifact and the operator-proficiency regime that has to track it?],
-    [The NTSB verdict is open: advanced avionics "can increase the safety potential" but the potential "was not yet realized in the period studied." What would the next round of evidence in your domain have to look like to close the open verdict, and who would have to commission it?],
   ),
   courses: ("LEN 5", "LEN 7", "LEN 9"),
 )

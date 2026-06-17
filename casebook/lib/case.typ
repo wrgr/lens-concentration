@@ -161,19 +161,25 @@
       v(2pt)
     }
 
+    // Footer pieces — reflections, team-block, sources — each its own
+    // non-breakable block (set in the component definitions) and laid
+    // out as independent siblings so they can settle onto the lens page
+    // as space allows. Wrapping them in a single non-breakable container
+    // forced the whole tail onto a fresh page whenever any one piece
+    // didn't fit; letting them flow independently lets the typical
+    // reflections fit at the bottom of the lens page with team-block
+    // and sources spilling at most one short page.
     if reflection-list.len() > 0 {
       reflections(..reflection-list)
       v(2pt)
     }
-
     if modes-code != "" {
       team-block(modes-code)
       v(1pt)
     }
-
     // Per-case citations live on page 2; the Lens page keeps only the
-    // (legacy) sources list if present. "Further Reading" is omitted here to
-    // keep the enriched Lens page to one page.
+    // (legacy) sources list if present. "Further Reading" is omitted
+    // here to keep the enriched Lens page to one page.
     sources(..sources-list)
 
     // LENS Courses NOT rendered in print per editor decision (June 2026):
@@ -217,12 +223,20 @@
         case-references(..references)
       }
     })
-    // LE Lens on its own page — page 3 when the narrative fills two pages.
-    pagebreak(weak: true)
+    // LE Lens flows continuously after the references — no forced page
+    // break between the narrative and the lens. Each *case* still starts
+    // at the top of a page (the `pagebreak(weak: true)` above the kind
+    // branch), but the LE Lens lands wherever the narrative ends so we
+    // don't pay for a near-empty page when the narrative is short.
+    // Inner LE Lens blocks (`lens-block`, `reflections`, `team-block`)
+    // are individually breakable; the outer probe records where the
+    // lens started for the integrity check.
+    v(6pt)
     context [#metadata((n: number, role: "lens", page: here().page())) <cmeta>]
     lens-page
-    // Overflow probe: the lens must END on the same page it starts, or the
-    // case has spilled to a 4th page.
+    // Overflow probe — kept for diagnostic visibility; the lens may now
+    // legitimately end on a later page than it began, so check-cases.sh
+    // does not enforce same-page lens any more.
     context [#metadata((n: number, role: "lens-end", page: here().page())) <cmeta>]
   } else {
     // ----- LEGACY 2-PAGE SPREAD -----
@@ -235,7 +249,9 @@
       set par(justify: true, leading: body-leading, first-line-indent: 0pt, spacing: body-spacing)
       text(font: sans, size: body-size, fill: text-dark, body)
     })
-    pagebreak(weak: true)
+    // Legacy 2-page path — same relaxation as the cited-case path: the
+    // LE Lens flows after the body without a forced page break.
+    v(6pt)
     lens-page
   }
   }

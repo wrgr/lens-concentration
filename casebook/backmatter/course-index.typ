@@ -9,7 +9,7 @@
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("LENS course index"))
 #v(4pt)
@@ -38,8 +38,8 @@
 
 #let course-header(label, count) = block(
   width: 100%,
-  above: 14pt,
-  below: 6pt,
+  above: 9pt,
+  below: 4pt,
   sticky: true,
   {
     grid(
@@ -56,7 +56,7 @@
 
 #let case-entry(n, title) = block(
   width: 100%,
-  inset: (y: 2.2pt),
+  inset: (y: 1.4pt),
   stroke: (bottom: 0.25pt + rule-soft),
   grid(
     columns: (24pt, 1fr),

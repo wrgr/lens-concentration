@@ -9,7 +9,7 @@
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #let condensed = view == "overview-half"
 #let _body = if condensed { 8pt } else { 9.5pt }

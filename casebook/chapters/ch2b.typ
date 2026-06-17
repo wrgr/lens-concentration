@@ -784,7 +784,6 @@
   reflection-list: (
     [Identify a scalable intervention in your domain whose published evidence runs at the average-effect level. What pre-registered moderator analysis — and what sampling design — would let you treat treatment-effect heterogeneity as the finding rather than as a nuisance?],
     [The Yeager finding is "effect was conditional on peer norms." What is the analog conditional in your context — the structural moderator the intervention's effect depends on — and how would you instrument the moderator at scale?],
-    [The equity-relevant design commitment is to target support to those who benefit rather than to apply a blanket treatment. What would the targeting mechanism look like in your context, and how would you guard against the targeting collapsing into a gatekeeping pattern the prediction was supposed to avoid?],
   ),
   courses: ("LEN 2", "LEN 5", "LEN 8"),
 )
@@ -1941,7 +1940,6 @@
   reflection-list: (
     [Identify a moment in your domain's workflow where state has to be transferred accurately across a human boundary under time pressure. What are the information classes (the analog of I-PASS's five) the receiver needs in order to take over safely, and what bundle around the structuring artifact would make it land?],
     [The 23\% relative reduction is the strongest available evidence and the authors are explicit it is not closed proof. What additional evidence — a cluster-randomized rollout, a residual-error analysis at the handoff point — would you require before treating the figure as closure rather than strong signal?],
-    [The published correspondence cautions against implementing the mnemonic alone. What is the bundle-vs-mnemonic distinction in your context, and what institutional commitment would be required to keep the bundle intact across years and turnover?],
   ),
   courses: ("LEN 2", "LEN 4", "LEN 7"),
 )
@@ -2947,7 +2945,6 @@
   reflection-list: (
     [Identify an EdTech intervention in your domain whose equity-relevant heterogeneity outcome was not pre-specified in the trial design. What pre-specification would the next replication require, and what is the data infrastructure that would support it?],
     [Specify the longitudinal-follow-through design you would build into the next at-scale EdTech evaluation. What grade-to-grade or year-to-year outcome would you track, and what data infrastructure does the tracking require?],
-    [The case sits as the prediction-triggers-support inversion of Case 157. Pick a deployed adaptive system in your domain and ask: in which direction does the adaptation point — toward more support for the lower-performing student or toward higher throughput for the average — and where is that design choice documented?],
   ),
   courses: ("LEN 2", "LEN 3", "LEN 7"),
 )
@@ -3123,7 +3120,6 @@
   reflection-list: (
     [Identify a design principle in your domain that has been replicated within WEIRD platform conditions but not across delivery modalities. What is the modality-boundary test you would design, and what would the analog of the radio-lecture-plus-mobile-phone substrate look like in your domain?],
     [Specify the pre-specified heterogeneity outcomes you would build into the next replication of a design principle in your domain. What population characteristic do you expect would condition the effect size, and what would constitute disconfirming evidence?],
-    [The replication arc's load-bearing pedagogical content is the heterogeneity finding, not the average effect. Pick a published replication in your domain and ask: what heterogeneity did the replication surface, and how does the field's current teaching of the design principle handle the heterogeneity?],
   ),
   courses: ("LEN 2", "LEN 3", "LEN 7"),
 )

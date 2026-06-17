@@ -1,26 +1,28 @@
 // ============================================================
-// LENS COMPANION — Concentration docs + casebook crosswalks + appendices
+// LENS COMPANION — Concentration docs + casebook crosswalks
 //
-// 8.5 × 11, white background. Digital reference companion to
-// *Capability Matters: A Casebook*. Pairs the program's concentration
-// documents (the v2.1 five competencies, the CLOs, the course mapping)
-// with the casebook's crosswalks and indexes (cases by domain, by
-// LENS course, references by case) so an instructor, recruiter, or
-// outside reader can find every connection without holding both the
-// casebook and the .docx originals.
+// 8 × 10, white background. The concept-facing companion to
+// *Capability Matters: A Casebook*: program-of-record documentation
+// (the v2.1 five competencies, the CLOs, the course mapping) plus
+// the casebook's induced → canonical crosswalk and the three-anchor
+// convention every case carries. Intended to travel with advisory
+// boards, prospective students, recruiting conversations, and program
+// reviews; sized to be read end-to-end in one sitting.
+//
+// The auditor-facing surfaces — cases by domain, cases by LENS course,
+// the per-case references appendix with retrieval lines — now live in
+// a separate document: `validation-audit.typ`. The split keeps this
+// companion focused on what LENS *is* rather than what the casebook
+// *contains*; the same casebook source still feeds both.
 //
 // Build:
 //   typst compile --font-path fonts --input view=companion \
 //     lens-companion.typ build/capability-matters-lens-companion.pdf
-//
-// The view=companion flag tells lib/case.typ to emit per-case metadata
-// only (no case body) — the appendices then query that metadata and
-// render the indexes / per-case references the same way they do in
-// the casebook.
 // ============================================================
 
 #import "lib/theme.typ": *
 #import "lib/components.typ": *
+#import "lib/md-render.typ": render-md
 
 #set document(
   title: "LENS Companion — Concentration documents, crosswalks, references",
@@ -140,17 +142,18 @@
 #h1("How to use this companion")
 
 #text(font: sans, size: 10pt, fill: text-dark)[
-  The LENS companion is a single, white-paper reference that pairs the
-  program's concentration documentation with the casebook's crosswalks
-  and indexes. It is built from the same source as *Capability Matters:
-  A Casebook* but renders no case bodies — the casebook is the place to
-  read the cases themselves; the companion is the place to find them.
+  The LENS Companion is the concept-facing reference for the LENS
+  specialisation: what LENS is, what it teaches, and how the casebook's
+  cases line up with the curriculum. It travels with advisory boards,
+  prospective students, recruiting conversations, and program reviews —
+  anyone for whom the question is *what is this concentration?* rather
+  than *where in the casebook is case 137?*.
 ]
 
 #v(8pt)
 
 #text(font: sans, size: 10pt, fill: text-dark)[
-  The companion is in five parts:
+  The companion is in four parts:
 ]
 
 #v(4pt)
@@ -163,20 +166,43 @@
     organising layer over the formal CLOs.
 
     *II.* The CLOs and the Course Mapping — the five concentration
-    learning objectives, the LDT / LENS course descriptions, and the
-    course-to-CLO coverage matrix.
+    learning objectives, the LDT / LENS course descriptions, the
+    course-to-CLO coverage matrix, and the LEN course list with
+    per-course case counts.
 
     *III.* Crosswalks — the casebook's induced framework mapped to the
-    canonical five competencies, and the LECF crosswalk to the IEEE
-    ICICLE community work.
+    canonical five competencies, plus the three-anchor convention every
+    v2 case carries.
 
-    *IV.* Casebook indexes — every case by primary domain, every case
-    by LENS course, and the CLO + course coverage appendix.
-
-    *V.* References by case — the appendix the casebook ships with,
-    so a reader can find every source the volume draws on.
+    *IV.* The canonical program documents — the literal text of the
+    `lens_program/` source-of-record `.md` shadows, inlined verbatim
+    (status banners and change logs preserved). Included so the
+    companion can travel with advisory boards, prospective students,
+    and external reviewers carrying the authoritative wording in hand.
   ]
 })
+
+#v(8pt)
+
+#block(
+  width: 100%,
+  fill: rgb("#F0F7F5"),
+  inset: 10pt,
+  stroke: (left: 2pt + teal),
+  {
+    set par(leading: 0.55em)
+    text(font: sans, size: 8.5pt, fill: text-dark)[
+      *For auditors and reviewers.* The casebook's indexes — every case
+      by primary domain, every case by LENS course — and the full
+      per-case references appendix live in a separate document:
+      *Validation and Audit* (`validation-audit.typ` in the casebook
+      source; `capability-matters-validation-audit.pdf` in the build).
+      That document is built from the same casebook source as the
+      companion, so the two stay in sync; it is the place for the
+      verification and accreditation track.
+    ]
+  }
+)
 
 #v(8pt)
 
@@ -546,7 +572,7 @@
 
 #text(font: sans, size: 10pt, fill: text-dark)[
   The casebook induces an 8-cluster analytic scaffold from its 194 cases
-  (full account: `competencies.md`). Those eight cluster cleanly into
+  (full account: `casebook/competencies.md`). Those eight cluster cleanly into
   the canonical five LENS competencies — except for D2 Iterative
   Development, which is the iteration *method* threaded through the
   cases rather than its own cluster. The gap is what the
@@ -597,53 +623,90 @@
   ]
 })
 
-#pagebreak()
-
 // ============================================================
-// METADATA EMIT: include every case so the dynamic appendices have
-// data to query. In view=companion mode, each case emits only its
-// metadata — no case body is rendered.
+// COURSE COVERAGE APPENDIX — competency → CLO crosswalk, LEN course
+// list with per-course case counts, and a short coverage narrative.
+// The same appendix the casebook ships; it sits in the companion
+// because the counts read as concept (what the program covers) more
+// than audit (which cases land in which course).
 // ============================================================
-#include "chapters/ch1a.typ"
-#include "chapters/ch1b.typ"
-#include "chapters/ch2a.typ"
-#include "chapters/ch2b.typ"
-#include "chapters/ch3a.typ"
-#include "chapters/ch3b.typ"
-#include "chapters/ch4a.typ"
-#include "chapters/ch4b.typ"
-#include "chapters/ch5a.typ"
-#include "chapters/ch5b.typ"
-#include "chapters/closing-case.typ"
-
-// ============================================================
-// PART IV — CASEBOOK INDEXES
-// ============================================================
-#h1("Casebook indexes")
-
-#text(font: sans, size: 10pt, fill: text-dark)[
-  The same indexes that ship with *Capability Matters: A Casebook*, in
-  v2.1 form. They are queried from the casebook source so they stay in
-  sync as cases are added or revised.
-]
-
-#v(8pt)
-
-#include "backmatter/domain-index.typ"
-
-#include "backmatter/course-index.typ"
-
 #include "backmatter/appendix-clo-courses.typ"
 
 // ============================================================
-// PART V — REFERENCES BY CASE
+// PART IV — THE CANONICAL PROGRAM DOCUMENTS
+// (the source-of-record .md shadows from lens_program/, inlined
+// verbatim via the renderer in lib/md-render.typ)
 // ============================================================
-#include "backmatter/appendix-references-by-case.typ"
+#pagebreak()
+
+#h1("The canonical program documents")
+
+#text(font: sans, size: 10pt, fill: text-dark)[
+  What follows is the literal text of the LENS program documents of
+  record, included so this companion can travel with advisory boards,
+  prospective students, and external reviewers carrying the
+  authoritative wording in hand. These mirror the `.docx` files
+  maintained in `lens_program/`; any discrepancy between the two should
+  be resolved in favour of the `.docx`, which is the source of record.
+  The status banners and change logs that head and tail each document
+  are reproduced verbatim — they carry the traceability that makes the
+  documents source-of-record.
+]
+
+#v(6pt)
+
+#block(
+  width: 100%,
+  fill: rgb("#FBF7EE"),
+  inset: 10pt,
+  stroke: (left: 2pt + gold),
+  {
+    set par(leading: 0.55em)
+    text(font: sans, size: 8.5pt, fill: text-muted)[
+      *Relationship to Parts I–III.* Parts I, II, and III of this
+      companion paraphrase and re-present portions of Documents 1, 2,
+      and 4 for the companion's compact form. Part IV is the verbatim
+      source; where a reader needs to confirm the exact wording — for
+      a syllabus, a recruiting page, an MHEC filing, a SIG conversation
+      — Part IV is the canonical text to cite.
+    ]
+  }
+)
+
+#pagebreak()
+
+#h2("Doc 1 · The Five LENS Competencies")
+#render-md(read("/lens_program/1_LENS_Five_Competencies.md"))
+
+#pagebreak()
+
+#h2("Doc 2 · LENS Objectives and Course Mapping")
+#render-md(read("/lens_program/2_LENS_Objectives_Course_Mapping.md"))
+
+#pagebreak()
+
+#h2("Doc 3 · Editor Biographies")
+#render-md(read("/lens_program/3_LENS_Editor_Bios.md"))
+
+#pagebreak()
+
+#h2("Doc 4 · LENS / LECF Crosswalk")
+#render-md(read("/lens_program/4_LENS_LECF_Crosswalk.md"))
+
+#pagebreak()
+
+#h2("Doc 5 · Summary and Pre/Post Objectives")
+#render-md(read("/lens_program/5_LENS_Summary_and_PrePost_Objectives.md"))
+
+#pagebreak()
+
+#h2("Doc 6 · Recruitment Email")
+#render-md(read("/lens_program/6_LENS_Recruitment_Email.md"))
 
 // ============================================================
 // CLOSING
 // ============================================================
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #v(2fr)
 

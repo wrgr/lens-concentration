@@ -22,7 +22,7 @@
 // ("T·K·N") used in the index.
 #let modes-dotted(code) = str(code).clusters().join("·")
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("Domain index"))
 #v(4pt)
@@ -73,7 +73,7 @@
 // the front matrix because each case appears only once here.
 #let ix(n, name, year, modes, success: false) = block(
   width: 100%,
-  inset: (y: 2.4pt),
+  inset: (y: 1.6pt),
   stroke: (bottom: 0.25pt + rule-soft),
   grid(
     columns: (24pt, 1fr, 44pt),
@@ -90,8 +90,8 @@
 
 #let domain-header(label) = block(
   width: 100%,
-  above: 16pt,
-  below: 7pt,
+  above: 10pt,
+  below: 5pt,
   sticky: true,
   {
     text(font: sans, size: 9pt, tracking: 2pt, fill: teal, upper(label))

@@ -17,7 +17,7 @@
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("Appendix · references by case"))
 #v(4pt)
@@ -64,11 +64,14 @@
 
 #v(12pt)
 
-// Per-case entry rendering
+// Per-case entry rendering. Spacing tuned to pack tightly: the per-case
+// header sits close to the case before it (the divider rule is the
+// section break), and each ref entry is a single near-flat block with
+// the "Retrieved from:" line on its own row but at minimal leading.
 #let case-header(n, title, year) = block(
   width: 100%,
-  above: 14pt,
-  below: 5pt,
+  above: 7pt,
+  below: 3pt,
   sticky: true,
   {
     grid(
@@ -86,19 +89,18 @@
 
 #let ref-entry(num, body) = block(
   width: 100%,
-  inset: (top: 2pt, bottom: 4pt, left: 18pt),
+  inset: (top: 1pt, bottom: 2pt),
   {
     grid(
-      columns: (18pt, 1fr),
+      columns: (16pt, 1fr),
       column-gutter: 4pt,
       align: (right + top, left + top),
       text(font: sans, size: 8pt, fill: text-muted, weight: "bold", str(num) + "."),
       [
-        #set par(leading: 0.55em, first-line-indent: 0pt)
+        #set par(leading: 0.5em, first-line-indent: 0pt)
         #set text(font: sans, size: 8.5pt, fill: text-dark)
         #body
-        #v(2pt)
-        #text(font: sans, size: 7.5pt, fill: text-muted, style: "italic")[Retrieved from: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_]
+        #text(font: sans, size: 7.5pt, fill: text-muted, style: "italic")[ — Retrieved from: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_]
       ]
     )
   }
