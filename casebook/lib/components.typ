@@ -359,17 +359,13 @@
     }
   }
   block(width: 100%, breakable: false, {
-    set par(leading: 0.44em, justify: false, first-line-indent: 0pt)
+    set par(leading: 0.42em, justify: false, first-line-indent: 0pt)
     text(font: sans, size: 8pt, fill: text-dark)[
       #text(font: sans, size: 6.5pt, weight: "medium", tracking: 1.4pt, fill: teal)[#upper("Who builds this")]
       #h(5pt)
       #exps.join(" · ") — plus domain experts and a learning engineer to integrate.
-    ]
-    v(1.5pt)
-    text(font: sans, size: 7.5pt, fill: text-muted)[
-      #text(font: sans, size: 6.5pt, weight: "medium", tracking: 1.4pt, fill: teal)[#upper("Tools")]
-      #h(5pt)
-      #tools.join(" · ")
+      #h(6pt)
+      #text(fill: text-muted, size: 7.5pt)[#text(weight: "medium", tracking: 1.4pt, fill: teal, size: 6.5pt)[#upper("Tools")]#h(5pt)#tools.join(" · ")]
     ]
   })
 }
