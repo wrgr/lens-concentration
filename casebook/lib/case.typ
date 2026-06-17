@@ -217,12 +217,20 @@
         case-references(..references)
       }
     })
-    // LE Lens on its own page — page 3 when the narrative fills two pages.
-    pagebreak(weak: true)
+    // LE Lens flows continuously after the references — no forced page
+    // break between the narrative and the lens. Each *case* still starts
+    // at the top of a page (the `pagebreak(weak: true)` above the kind
+    // branch), but the LE Lens lands wherever the narrative ends so we
+    // don't pay for a near-empty page when the narrative is short.
+    // Inner LE Lens blocks (`lens-block`, `reflections`, `team-block`)
+    // are individually breakable; the outer probe records where the
+    // lens started for the integrity check.
+    v(6pt)
     context [#metadata((n: number, role: "lens", page: here().page())) <cmeta>]
     lens-page
-    // Overflow probe: the lens must END on the same page it starts, or the
-    // case has spilled to a 4th page.
+    // Overflow probe — kept for diagnostic visibility; the lens may now
+    // legitimately end on a later page than it began, so check-cases.sh
+    // does not enforce same-page lens any more.
     context [#metadata((n: number, role: "lens-end", page: here().page())) <cmeta>]
   } else {
     // ----- LEGACY 2-PAGE SPREAD -----
@@ -235,7 +243,9 @@
       set par(justify: true, leading: body-leading, first-line-indent: 0pt, spacing: body-spacing)
       text(font: sans, size: body-size, fill: text-dark, body)
     })
-    pagebreak(weak: true)
+    // Legacy 2-page path — same relaxation as the cited-case path: the
+    // LE Lens flows after the body without a forced page break.
+    v(6pt)
     lens-page
   }
   }

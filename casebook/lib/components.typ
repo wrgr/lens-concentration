@@ -82,6 +82,19 @@
     set par(justify: true, leading: 0.55em)
     text(font: sans, size: 9pt, fill: text-dark, impact)
   })
+  // Narrative — the case's `summary` field ("In brief", ~130 words).
+  // This is what was previously missing from the short editions; without
+  // it the reader saw only the impact lead, beats, and metadata. Renders
+  // in 8pt for the Half-Letter (one-per-page) and 7.5pt for the US
+  // Letter (two-per-page); silent if the case carries no summary.
+  let narrativeblock = if summary != none and summary != [] {
+    block({
+      eyebrow("In brief", color: navy-mid)
+      v(gap-small)
+      set par(justify: true, leading: if big { 0.5em } else { 0.42em })
+      text(font: sans, size: if big { 8pt } else { 7.5pt }, fill: text-dark, summary)
+    })
+  } else { none }
   // 5 beats — 2-column grid. Each beat row is one line at 6.8pt.
   let beatsblock = {
     eyebrow("The full case, in five beats", color: navy-mid)
@@ -178,13 +191,15 @@
   )
 
   if big {
-    // One case per Half-Letter page. Header → title → impact → beats →
-    // (filler) → connectivity → refs → bottom banner.
+    // One case per Half-Letter page. Header → title → impact → narrative
+    // ("In brief", ~130 words) → beats → (filler) → connectivity → refs
+    // → bottom banner.
     header
     v(gap-med)
     titleblock
     v(gap-big)
     leadblock
+    if narrativeblock != none { v(gap-big); narrativeblock }
     v(gap-big)
     beatsblock
     v(1fr)
@@ -195,11 +210,15 @@
     bannerblock
     pagebreak(weak: true)
   } else {
+    // Two cases per US Letter page. Tighter envelope; narrative renders
+    // smaller (7.5pt) and the block remains fixed-height so layout
+    // stays predictable.
     block(
       width: 100%, height: 113mm, breakable: false,
       inset: (top: 5pt, bottom: 4pt), stroke: (top: 0.6pt + rule-soft),
       {
         header; v(gap-small); titleblock; v(gap-med); leadblock;
+        if narrativeblock != none { v(gap-med); narrativeblock }
         v(gap-med); beatsblock; v(gap-med);
         connectivityblock; v(gap-small);
         refsblock; v(gap-small); bannerblock
