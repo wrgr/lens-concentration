@@ -318,12 +318,16 @@
 )
 
 // ---- Reflection questions ----
+// `breakable: false` keeps the three questions on one page; the outer
+// case template renders this as a sibling of team-block + sources so
+// each can settle independently on the lens page.
 #let reflections(..qs) = block(
   width: 100%,
+  breakable: false,
   {
     eyebrow("Reflection Questions", color: teal)
-    v(3pt)
-    set par(leading: 0.45em, justify: false)
+    v(2pt)
+    set par(leading: 0.42em, justify: false)
     for (i, q) in qs.pos().enumerate() {
       grid(
         columns: (12pt, 1fr),
@@ -331,7 +335,7 @@
         text(font: serif, size: reflection-num, fill: teal, str(i + 1) + "."),
         text(font: sans, size: reflection-size, fill: text-dark, q),
       )
-      v(2pt)
+      v(1pt)
     }
   }
 )

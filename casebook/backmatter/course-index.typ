@@ -38,8 +38,8 @@
 
 #let course-header(label, count) = block(
   width: 100%,
-  above: 14pt,
-  below: 6pt,
+  above: 9pt,
+  below: 4pt,
   sticky: true,
   {
     grid(
@@ -56,7 +56,7 @@
 
 #let case-entry(n, title) = block(
   width: 100%,
-  inset: (y: 2.2pt),
+  inset: (y: 1.4pt),
   stroke: (bottom: 0.25pt + rule-soft),
   grid(
     columns: (24pt, 1fr),
