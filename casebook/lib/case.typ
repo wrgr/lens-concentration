@@ -161,20 +161,26 @@
       v(2pt)
     }
 
-    if reflection-list.len() > 0 {
-      reflections(..reflection-list)
-      v(2pt)
-    }
-
-    if modes-code != "" {
-      team-block(modes-code)
-      v(1pt)
-    }
-
-    // Per-case citations live on page 2; the Lens page keeps only the
-    // (legacy) sources list if present. "Further Reading" is omitted here to
-    // keep the enriched Lens page to one page.
-    sources(..sources-list)
+    // Footer group — reflections, team-block, and the legacy sources
+    // list are wrapped in a single non-breakable block so the trailing
+    // pieces of the LE Lens never get orphaned to a near-empty page on
+    // their own. If the group doesn't fit at the end of the current
+    // page, it moves to the next page as a unit (better than a stray
+    // "TOOLS …" or "SOURCES" line on its own page).
+    block(width: 100%, breakable: false, {
+      if reflection-list.len() > 0 {
+        reflections(..reflection-list)
+        v(2pt)
+      }
+      if modes-code != "" {
+        team-block(modes-code)
+        v(1pt)
+      }
+      // Per-case citations live on page 2; the Lens page keeps only the
+      // (legacy) sources list if present. "Further Reading" is omitted
+      // here to keep the enriched Lens page to one page.
+      sources(..sources-list)
+    })
 
     // LENS Courses NOT rendered in print per editor decision (June 2026):
     // courses are metadata only and surface in the back-matter LENS course

@@ -275,6 +275,7 @@
 // numbered per-case reference list instead) shows no stray heading.
 #let sources(..items) = if items.pos().len() == 0 { none } else {
   block(
+    breakable: false,
     {
       eyebrow("Sources")
       v(3pt)
@@ -353,7 +354,7 @@
       for t in mode-tools.at(c, default: ()) { if not tools.contains(t) { tools.push(t) } }
     }
   }
-  block(width: 100%, {
+  block(width: 100%, breakable: false, {
     set par(leading: 0.44em, justify: false, first-line-indent: 0pt)
     text(font: sans, size: 8pt, fill: text-dark)[
       #text(font: sans, size: 6.5pt, weight: "medium", tracking: 1.4pt, fill: teal)[#upper("Who builds this")]
