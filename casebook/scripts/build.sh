@@ -124,22 +124,25 @@ $TYPST --root . \
   --input layout=split \
   cover/cover-summary.typ build/cover-overview-half-split.pdf
 
-# ---- Mirror the seven shipping artefacts to the repo root ----
+# ---- Mirror the seven shipping artefacts to the repo's products/ tree ----
 # Only the seven artefacts the README's "Start here" table points at
-# land at the repo root (the digital casebook, the print interior + cover,
-# the half-letter summary print + cover, the LENS Companion, the
-# Validation & Audit doc). Proofs, screen-summary editions, and the
-# split-format cover stay inside build/ for the build pipeline; they are
-# intermediate or internal-tooling artefacts, not the published set.
+# land at the repo root, split into products/digital/ (the three on-screen
+# PDFs) and products/print/ (the print interiors + Lulu cover wraps).
+# Proofs, screen-summary editions, and the split-format cover stay inside
+# build/ for the build pipeline; they are intermediate or internal-tooling
+# artefacts, not the published set.
 REPO_ROOT="$(cd "$ROOT/.." && pwd)"
+mkdir -p "$REPO_ROOT/products/digital" "$REPO_ROOT/products/print"
 for f in capability-matters-digital.pdf \
-         capability-matters-print.pdf \
-         cover-print.pdf \
-         capability-matters-overview-half-print.pdf \
-         cover-overview-half.pdf \
          capability-matters-lens-companion.pdf \
          capability-matters-validation-audit.pdf; do
-  cp "build/$f" "$REPO_ROOT/$f"
+  cp "build/$f" "$REPO_ROOT/products/digital/$f"
+done
+for f in capability-matters-print.pdf \
+         cover-print.pdf \
+         capability-matters-overview-half-print.pdf \
+         cover-overview-half.pdf; do
+  cp "build/$f" "$REPO_ROOT/products/print/$f"
 done
 
 echo

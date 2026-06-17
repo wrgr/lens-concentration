@@ -11,7 +11,7 @@ The casebook, the canonical LENS program documentation, and the active v2 resear
 ```
 .
 ├── README.md, CLAUDE.md
-├── capability-matters-*.pdf, cover-*.pdf   the seven shipping artefacts (see README "Start here")
+├── products/digital/, products/print/      the seven shipping artefacts (see README "Start here")
 ├── casebook/         Typst sources, build pipeline, competencies.md (induced framework), verification-log.md, METHODOLOGY.md, AUDIT.md
 ├── lens_program/     canonical LENS program docs (.docx of record + .md shadows for grep)
 └── v2_research/      v2 case discovery + framework revision proposals; 00_case-sweep-v2-{plan,research-brief}.md
