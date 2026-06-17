@@ -9,7 +9,7 @@
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("LENS course index"))
 #v(4pt)

@@ -5,7 +5,7 @@
 #import "../lib/theme.typ": *
 #import "../lib/components.typ": *
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 // --- Author photos -------------------------------------------------------
 // Drop the files in backmatter/img/ and point each variable at its path

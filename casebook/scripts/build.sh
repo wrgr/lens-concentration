@@ -42,8 +42,11 @@ $TYPST --input mode=proof book.typ build/_proof-color.pdf
 gray_flatten build/_proof-color.pdf build/capability-matters-proof.pdf
 rm build/_proof-color.pdf
 
-echo "→ Compiling LENS Companion (US Letter, white, digital)..."
+echo "→ Compiling LENS Companion (8 × 10, white, digital)..."
 $TYPST --input view=companion lens-companion.typ build/capability-matters-lens-companion.pdf
+
+echo "→ Compiling Validation & Audit (8 × 10, white, digital)..."
+$TYPST --input view=companion validation-audit.typ build/capability-matters-validation-audit.pdf
 
 echo "→ Compiling case overview (US Letter, two cases per page)..."
 $TYPST --input view=overview overview.typ build/capability-matters-overview.pdf
@@ -124,6 +127,7 @@ for f in capability-matters-print.pdf \
          capability-matters-digital.pdf \
          capability-matters-proof.pdf \
          capability-matters-lens-companion.pdf \
+         capability-matters-validation-audit.pdf \
          capability-matters-overview.pdf \
          capability-matters-overview-proof.pdf \
          capability-matters-overview-half.pdf \
@@ -140,7 +144,8 @@ echo "✓ Output:"
 echo "    capability-matters-print.pdf      8 × 10 production interior (grayscale, $pages pp)"
 echo "    capability-matters-digital.pdf    8 × 10 digital edition (color, cream)"
 echo "    capability-matters-proof.pdf      8 × 10 on US Letter with trim marks (proof)"
-echo "    capability-matters-lens-companion.pdf US Letter LENS companion — concentration docs + crosswalks + per-case references (white, digital)"
+echo "    capability-matters-lens-companion.pdf  8 × 10 LENS companion — concentration docs + crosswalks (white, digital)"
+echo "    capability-matters-validation-audit.pdf 8 × 10 Validation & Audit — domain/course indexes + per-case references (white, digital)"
 echo "    capability-matters-overview.pdf       US Letter summary — digital/to-share (2/page)"
 echo "    capability-matters-overview-proof.pdf US Letter summary — proof (grayscale)"
 echo "    capability-matters-overview-half.pdf      Half Letter summary — digital/to-share (1/page)"

@@ -22,7 +22,7 @@
 // ("T·K·N") used in the index.
 #let modes-dotted(code) = str(code).clusters().join("·")
 
-#pagebreak(to: "odd", weak: true)
+#pagebreak(weak: true)
 
 #text(font: sans, size: 7.5pt, tracking: 2pt, fill: teal, upper("Domain index"))
 #v(4pt)
