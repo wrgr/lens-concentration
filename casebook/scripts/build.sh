@@ -124,21 +124,22 @@ $TYPST --root . \
   --input layout=split \
   cover/cover-summary.typ build/cover-overview-half-split.pdf
 
-# ---- Mirror to repo root ----
-for f in capability-matters-print.pdf \
-         capability-matters-digital.pdf \
-         capability-matters-proof.pdf \
-         capability-matters-lens-companion.pdf \
-         capability-matters-validation-audit.pdf \
-         capability-matters-overview.pdf \
-         capability-matters-overview-proof.pdf \
-         capability-matters-overview-half.pdf \
-         capability-matters-overview-half-proof.pdf \
-         capability-matters-overview-half-print.pdf \
+# ---- Mirror the seven shipping artefacts to the repo root ----
+# Only the seven artefacts the README's "Start here" table points at
+# land at the repo root (the digital casebook, the print interior + cover,
+# the half-letter summary print + cover, the LENS Companion, the
+# Validation & Audit doc). Proofs, screen-summary editions, and the
+# split-format cover stay inside build/ for the build pipeline; they are
+# intermediate or internal-tooling artefacts, not the published set.
+REPO_ROOT="$(cd "$ROOT/.." && pwd)"
+for f in capability-matters-digital.pdf \
+         capability-matters-print.pdf \
          cover-print.pdf \
+         capability-matters-overview-half-print.pdf \
          cover-overview-half.pdf \
-         cover-overview-half-split.pdf; do
-  cp "build/$f" "$ROOT/$f"
+         capability-matters-lens-companion.pdf \
+         capability-matters-validation-audit.pdf; do
+  cp "build/$f" "$REPO_ROOT/$f"
 done
 
 echo

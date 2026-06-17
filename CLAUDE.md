@@ -10,16 +10,16 @@ The casebook, the canonical LENS program documentation, and the active v2 resear
 
 ```
 .
-├── CLAUDE.md, README.md, competencies.md
-├── case-sweep-v2-plan.md, case-sweep-v2-research-brief.md   v2 sweep scoping (executed — see v2_research/)
-├── casebook/         Typst sources, build pipeline, built PDFs (the book)
+├── README.md, CLAUDE.md
+├── capability-matters-*.pdf, cover-*.pdf   the seven shipping artefacts (see README "Start here")
+├── casebook/         Typst sources, build pipeline, competencies.md (induced framework), verification-log.md, METHODOLOGY.md, AUDIT.md
 ├── lens_program/     canonical LENS program docs (.docx of record + .md shadows for grep)
-└── v2_research/      v2 case discovery + framework revision proposals
+└── v2_research/      v2 case discovery + framework revision proposals; 00_case-sweep-v2-{plan,research-brief}.md
 ```
 
 ## Three anchor systems (all tracked per case)
 
-- **Induced 1–8 / 32 sub-competencies** (`competencies.md`) — bottom-up induction from v1 cases. Analytic scaffold.
+- **Induced 1–8 / 32 sub-competencies** (`casebook/competencies.md`) — bottom-up induction from v1 cases. Analytic scaffold.
 - **Canonical LENS 5 / Problem Types 1–6** (`lens_program/1_LENS_Five_Competencies.md`) — curriculum of record at **v2.1 (June 2026)**: Systems Analysis · Iterative Development · **Human-System Collaboration** · Test and Evaluation · Navigating Sociotechnical Constraints, with subobjectives `1.1`–`5.6`. v2.1 reordered D3 (was D5 Machine Teaming, broadened to Human-System Collaboration and moved to position 3) and added 7 named subobjectives (1.5, 2.5, 3.3, 3.4, 4.4, 4.6, 5.6). The `.docx` companion is behind v2.1 pending program-owner round-trip. Prior versions in git history; see `Change Log` in the .md.
 - **CLOs** (`lens_program/2_LENS_Objectives_Course_Mapping.md`, v2.1) — five CLOs, one per competency domain (CLO-1 through CLO-5, renumbered under v2.1: CLO-3 = Human-System Collaboration; CLO-4 = Data, Measurement & Evaluation; CLO-5 = Context & Domain Fluency). The four "new CLOs" proposed in `v2_research/01_*` (gap attribution, delegation with revocation, judgment under inadequate evidence, fairness beyond omission) ship in v2.1 as **named subobjectives within the parent CLO** (4.2, 3.3, 4.4, 4.6 respectively), not as parallel top-level CLOs. Course-mapping anchor for syllabi and topic indexing.
 
@@ -28,8 +28,8 @@ They are close but not identical. v2 cases record all three. In the printed case
 ## Canonical docs (read before doing case-level work)
 
 - `README.md` (root) — orientation across the three subfolders
-- `competencies.md` — induced framework, 8 / 32, traceable; preface names a known catastrophe-bias
-- `case-sweep-v2-plan.md` — v2 scoping note (dual-tier floors, binding rules originate here)
+- `casebook/competencies.md` — induced framework, 8 / 32, traceable; preface names a known catastrophe-bias
+- `v2_research/00_case-sweep-v2-plan.md` — v2 scoping note (dual-tier floors, binding rules originate here)
 - `lens_program/1_LENS_Five_Competencies.md` — canonical five competencies and subobjectives (DO NOT EDIT — source of record; the `.docx` is canonical, the `.md` is a grep shadow)
 - `lens_program/2_LENS_Objectives_Course_Mapping.md` — PLOs, CLOs, course-by-course mapping
 - `v2_research/01_LENS_revised_competencies_and_CLOs.md` — PROPOSED revisions (4 new CLOs, 1 amended, 4 amended sub-competencies, reframed "decision-grade evidence"); pending program-owner review
@@ -94,7 +94,7 @@ They are close but not identical. v2 cases record all three. In the printed case
 
 - **Extract case dossier** (for re-induction or per-tier analysis): Python pattern in session history reads `casebook/chapters/*.typ`, finds balanced `case(...)` blocks, writes `/tmp/case-dossier.md`.
 - **Read .docx program docs** via the `.md` shadows in `lens_program/` (kept in sync with the `.docx` when those are edited).
-- **Per-tier lift audit:** parse `competencies.md` for `Cases:` lines under each `### N.N`, cross-reference `kind:` / `scale:` from `casebook/chapters/*.typ`, recompute against the dual floor.
+- **Per-tier lift audit:** parse `casebook/competencies.md` for `Cases:` lines under each `### N.N`, cross-reference `kind:` / `scale:` from `casebook/chapters/*.typ`, recompute against the dual floor.
 
 ## Things not to do
 

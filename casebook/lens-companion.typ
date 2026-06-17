@@ -572,7 +572,7 @@
 
 #text(font: sans, size: 10pt, fill: text-dark)[
   The casebook induces an 8-cluster analytic scaffold from its 194 cases
-  (full account: `competencies.md`). Those eight cluster cleanly into
+  (full account: `casebook/competencies.md`). Those eight cluster cleanly into
   the canonical five LENS competencies — except for D2 Iterative
   Development, which is the iteration *method* threaded through the
   cases rather than its own cluster. The gap is what the
