@@ -8,14 +8,15 @@ Format: JHU SOE `SyllabusTemplate_2026.docx`. Required sections, in order: SOE l
 
 | Course | File | State |
 | --- | --- | --- |
-| LEN 1 | `LEN01_Principles_Syllabus.docx` | **Current.** SOE template, 15 weeks / 6 modules, v2.1 LEO tags, seven CLOs |
+| LEN 1 | `LEN01_Principles_Syllabus.docx` | **Current — September 2026 redesign.** SOE template, 15 weeks / 6 modules, **five CLOs** (frame, measure, build), weights 25 / 15 / 15 / 20 / 25. Two header items still need reconciling against the CPC filing (`LEN01_CPC_Course_Proposal_approved.pdf`): the title of record is *…for Next-Generation Systems* (the docx says *Complex Systems*), and the number is still `ED.XXX.XXX` (the course folder and the ID's copy use ED.893.660 MA / ED.893.860 DOC) |
+| LEN 1 filing | `LEN01_CPC_Course_Proposal_approved.pdf` | The approved CPC new-course proposal (seven-CLO version, 20/20/20/30/10 weights). The CLO set and weights changed in the September redesign; whether CPC needs the revised syllabus is an open question for the ID (kickoff notes: PLOs fixed by CPC, CLOs not) |
 | LEN 2–10 | — | **Not regenerated.** The June 2026 drafts carry v1 tags, 14-week schedules, and the pre-template format |
 
 ## Conventions
 
 **Objective tiers.** PLO (program) → LEO (concentration) → CLO (course) → MLO (module). Doc 2 §4. The syllabus carries CLOs and inherits PLOs; MLOs live in the module guide and Canvas, not here.
 
-**The alignment table's five rows are a default, not a cap.** LEN 1 uses seven.
+**The alignment table's five rows are a default, not a cap.** LEN 1 used seven until the September 2026 redesign; it now uses five.
 
 **Term length is 15 weeks**, organized as five or six modules with week ranges. The template's outline column is headed *Session/Module + Week(s)/Dates* and takes both.
 

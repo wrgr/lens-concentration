@@ -4,12 +4,13 @@ Provenance for the changes landed in doc 1 v2.2 and doc 2 v2.4. These are workin
 
 | File | What it is |
 | --- | --- |
-| `02_len01_clo_mlo_record.md` | LEN 1's course tier: seven CLOs, their LEO and PLO derivation, the module structure, the fifteen case slots, and the reading-sourcing audit |
+| `02_len01_clo_mlo_record.md` | LEN 1's course tier, **v3 (September 2026 redesign): five CLOs (frame, measure, build)**, their LEO and PLO derivation, the six-module structure, the fifteen case slots, and the reading-sourcing audit. Supersedes the seven-CLO v2 of July |
 | `03_tag_renumber_v1_to_v21.md` | The v1 → v2.1 tag map and its per-location application across LEN 2–10. **87 tag instances.** Read §1 before touching a tag |
 | `04_content_changes.md` | The ten decisions and the week-level content specifications for LEN 2, 3, 4, 7, and 10 |
 | `05_framing_high_consequence_domains.md` | The framing change: the criterion, the representative seven, and the tension it creates for an education school |
 | `06_toolkit_casebook_allocation.md` | Which *Learning Engineering Toolkit* chapters are read in which course, and where the Toolkit does not reach |
-| `07_len01_completeness_and_record_procedure.md` | What LEN 1 still needs, by owner; and the procedure for applying changes to the record |
+| `07_len01_completeness_and_record_procedure.md` | What LEN 1 still needs, by owner; and the procedure for applying changes to the record. Written against the seven-CLO syllabus; the item list is partly stale after the September redesign (the Dispositions Portfolio is retired) |
+| `08_ten_courses_in_depth_2026-09-11.pdf` | *The Ten Courses, In Depth* — the September 2026 curriculum-development working draft for program-director review. Basis for the LEN 1 five-CLO redesign and the doc 1 v2.6 / doc 2 v2.8–v2.9 changes. Not a document of record; PDF only (no source in this repo) |
 
 ## The three findings worth carrying forward
 

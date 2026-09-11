@@ -1,5 +1,7 @@
-<!-- LENS-VERSION: 2.5 | STATUS: CURRENT | ADOPTED: 2026-07 | SUPERSEDES: 2.4, 2.3, 2.2, 2.1, 2.0, 1 -->
+<!-- LENS-VERSION: 2.6 | STATUS: CURRENT | ADOPTED: 2026-09 | SUPERSEDES: 2.5, 2.4, 2.3, 2.2, 2.1, 2.0, 1 -->
 
+> **STATUS: CURRENT (v2.6, September 2026).** v2.6 moves the governance-objection diagnostic from LEO-1 (Systems Analysis) to LEO-5 (Navigating Sociotechnical Constraints), where it becomes 5.7: it is a governance skill, and its assessment home is LEN 2 (governance), not a systems-analysis course. LEO-1 returns to four subobjectives; LEO-5 grows to seven. No competency is added or removed; one is re-homed. Adopted September 2026 with program-director (J. Diamond) approval of the LEN 1 redesign and the associated concentration changes (closing the program-owner round-trip on the v2.1–v2.6 changes).
+>
 > **STATUS: CURRENT (v2.5, July 2026).** v2.5 names two competencies that previously rested on the program PLO: subobjectives 2.7 (*accessibility and inclusion*, ICICLE 3.j) and 4.8 (*assessment before content*, ICICLE 3.k). With the light-touch course additions in doc 2 v2.7 (data standards, total cost of ownership, capability over time), the crosswalk reaches 33 covered / 6 partial / 3 gap; the three remaining gaps are all Team-tier and deliberately out-of-scope. v2.4 added subobjective 4.7 (*appraise primary research*), closing the last near-covered Individual-tier competency (5.c and 3.c); the Individual (floor) tier is fully covered. See `7_LENS_ICICLE_Essential_Competencies_Crosswalk.md` and the attainment profile `8_LENS_Attainment_Profile.md`. v2.3 added subobjectives 2.6 and 3.7 (*enable the people who deliver*), closing competency 5.c. v2.2 restored subobjective 3.6, dropped by the v2.1 sweep without a change-log entry. v2.1 adopted by program owner (J. Diamond) and editor (W. Gray-Roncal); the v2.3/v2.4 additions are editor-directed and await the same program-owner round-trip as the pending `.docx`. Source of record for case anchors, syllabi, capstone rubrics, and recruiting. Supersedes v2.3, v2.2, v2.1, v2.0 (proposal in `v2_research/01_*`), and v1 (initial). Prior prose preserved in git history; see the *Change Log* at the end of this document. The companion `.docx` is regenerated from this `.md` (July 2026, v2.5); program-owner approval round-trip of the v2.1–v2.5 changes remains pending.
 
 ---
@@ -26,7 +28,6 @@ Organizing layer over the formal LEOs — **LENS Educational Objectives**, the c
 
 1.4  Analyze and communicate human-system interdependencies to identify capability gaps and predict operational impact at scale.
 
-1.5  *[v2]* **Governance-objection diagnostic.** Distinguish a governance objection that good design can dissolve from one that correctly signals the system should not deploy.
 
 ## 2. Iterative Development  •  *build, test, refine*
 
@@ -114,6 +115,8 @@ Organizing layer over the formal LEOs — **LENS Educational Objectives**, the c
 
 5.6  *[v2]* **Cross-regime / platform-dependency governance.** Where capability is deployed on a platform governed by a different regime than the one operating it, design the governance seam as an explicit deliverable.
 
+5.7  *[v2.6 — moved from 1.5.]* **Governance-objection diagnostic.** Distinguish a governance objection that good design can dissolve from one that correctly signals the system should not deploy.
+
 ---
 
 # Crosswalk to Formal LEOs
@@ -126,7 +129,7 @@ Organizing layer over the formal LEOs — **LENS Educational Objectives**, the c
 | 4 | Test and Evaluation | show what works | LEO-4 | Data, Measurement, and Evaluation |
 | 5 | Navigating Sociotechnical Constraints | make it work in the real world | LEO-5 | Context and Domain Fluency |
 
-Each subobjective unbundles an element of the corresponding LEO. Thirty-three subobjectives: the 21 of v1, the 7 named v2 additions (1.5, 2.5, 3.3, 3.4, 4.4, 4.6, 5.6), the v2.2 restoration of 3.6, the v2.3 additions 2.6 and 3.7 (*enable the people who deliver*, ICICLE 5.c), the v2.4 addition 4.7 (*appraise primary research*, ICICLE 3.c), and the v2.5 additions 2.7 (*accessibility and inclusion*, ICICLE 3.j) and 4.8 (*assessment before content*, ICICLE 3.k). The additions and the explicit renaming of 4.2 (gap attribution) are required elements within the parent LEO. The reframing of "decision-grade evidence" as judgment under irreducible uncertainty is carried at 4.3 and 4.4. If any v2 addition creates friction with documentation of record, drop the number and fold the language back; the scheme renumbers cleanly.
+Each subobjective unbundles an element of the corresponding LEO. Thirty-three subobjectives: the 21 of v1, the 7 named v2 additions (governance-objection diagnostic, now 5.7; 2.5, 3.3, 3.4, 4.4, 4.6, 5.6), the v2.2 restoration of 3.6, the v2.3 additions 2.6 and 3.7 (*enable the people who deliver*, ICICLE 5.c), the v2.4 addition 4.7 (*appraise primary research*, ICICLE 3.c), and the v2.5 additions 2.7 (*accessibility and inclusion*, ICICLE 3.j) and 4.8 (*assessment before content*, ICICLE 3.k). The additions and the explicit renaming of 4.2 (gap attribution) are required elements within the parent LEO. The reframing of "decision-grade evidence" as judgment under irreducible uncertainty is carried at 4.3 and 4.4. If any v2 addition creates friction with documentation of record, drop the number and fold the language back; the scheme renumbers cleanly.
 
 # Using the Tags
 
@@ -148,7 +151,10 @@ Each subobjective number is a stable tag. Three immediate uses:
 
 **Terminology note — July 2026.** The concentration-level objectives are abbreviated **LEO** (LENS Educational Objective), not "CLO." "CLO" is reserved for *course* learning objectives and "MLO" for *module* learning objectives; see doc 2 §4 for the full PLO → LEO → CLO → MLO hierarchy. This is an abbreviation/framing change only — no competency content changed.
 
-**v2.5 — July 2026** *(current)*
+**v2.6 — September 2026** *(current)*
+- **Governance-objection diagnostic re-homed: 1.5 → 5.7.** The diagnostic (*distinguish a governance objection good design can dissolve from one that correctly signals do-not-deploy*) was filed under LEO-1 (Systems Analysis) but is a governance skill, and its assessment home is LEN 2 (governance), not a systems-analysis course. Moved to LEO-5 (Navigating Sociotechnical Constraints) as **5.7**. LEO-1 returns to four subobjectives (1.1–1.4); LEO-5 grows to seven (5.1–5.7). **No competency added or removed; the subobjective count stays 33.** This is the doc 1 half of the coverage-assignment pass that pins every subobjective to explicit courses; the doc 2 mapping updates for LEN 2 (assess 5.7) and the LEN 1 CLO record follow. Adopted September 2026 with program-director (J. Diamond) approval of the LEN 1 redesign and the associated concentration changes (closing the program-owner round-trip on the v2.1–v2.6 changes).
+
+**v2.5 — July 2026** *(superseded by v2.6)*
 - **2.7 and 4.8 named.** Two competencies the attainment profile had rated practitioner on the strength of the program PLO (PLO-2.4 accessibility; LEN 4 operationalization) are promoted to named LENS subobjectives so the graduate claim rests on a concentration objective, not only a shared program objective: **2.7** *design for accessibility and inclusion* (LEO-2, taught in LEN 6, grounded in F2, deepened in LEN 7, assessed in LEN 10) and **4.8** *design the assessment before the content* (LEO-4, LEN 4). Closes ICICLE crosswalk partials 3.j and 3.k to covered. Subobjective count 31 → 33.
 - **Light-touch course additions** (doc 2 v2.7): data standards and interoperability (xAPI, Caliper) and capability-over-time/skill-decay measurement made explicit in LEN 4; total cost of ownership made explicit in the LEN 10 capstone. These close crosswalk partial 4.a and firm up the notes on 5.e and 6.b; no new subobjectives.
 
