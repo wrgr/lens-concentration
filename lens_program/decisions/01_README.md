@@ -20,6 +20,10 @@ Provenance for the changes landed in doc 1 v2.2 and doc 2 v2.4. These are workin
 
 **Four of the seven v2 additions were taught in no required course.** 3.1 at breadth, 3.4, 4.4, 4.6, and 5.6 had no home; the capstone asserted LEO-3 coverage on the strength of one conditional clause. The capstone attainment profile is offered toward LECF validation, so the profile would have carried holes in domains LENS proposes as extensions to the field framework. Closed in `04`.
 
+## Standing policy: dual required-course coverage
+
+**A course redesign that sheds a subobjective must re-home it in a required course, for both intro and assessment, before it ships.** Found twice in this repo's history: the four v2 additions with no required-course home (closed in `04`), and again on 2026-09-11 when the September LEN 1 redesign moved systems-engineering lifecycle models (1.3, old LEN 1 CLO 3) and the governance-objection diagnostic (5.7, old LEN 1 CLO 7) out of LEN 1 without doc 2's receiving courses (LEN 3, LEN 7) ever being updated to claim them — LEN 7 was left as 5.7's *only* assessment site, an elective. Editor directive: a required-course assessment home is mandatory for every subobjective; a second touch, required or elective, is preferred (redundant coverage), never a substitute for the first. Applied in doc 2 (LEN 3 introduces and assesses 1.3 and 5.7; LEN 7 reinforces 5.7 on a second case).
+
 ## What is not done
 
 LEN 2–10 syllabi are not regenerated. They carry v1 tags, 14-week schedules, and the pre-template format. `03` §3 has the tag changes; `04` §§2–6 have the content. LEN 1 is in `../syllabi/` and holds.
