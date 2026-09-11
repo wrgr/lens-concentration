@@ -36,19 +36,17 @@ LEN 1 serves **LEO-1** (Systems Analysis) and **LEO-2** (Iterative Development),
 
 | CLO | Statement | LEO | PLO | Assessment |
 | --- | --- | --- | --- | --- |
-| 1 | Capability as interface; decompose system performance requirements into measurable human capability requirements | 1.1 | 1.3, 1.4 | A1 |
-| 2 | Model the learning environment and its host operational system as interacting systems | 1.2 | 2.2 | A1 |
-| 3 | Apply lifecycle models to locate capability development decisions | 1.3 | 1.3, 2.2 | A1 |
-| 4 | Apply learning sciences principles under operational constraints | 2.1 | 1.1, 1.4, 1.5 | A2 |
-| 5 | Execute one complete iteration cycle; narrate and defend it in first person | 2.2, 2.3, 2.5 | 1.5, 2.2, 3.3 | A2 |
-| 6 | Analyze a documented coupling failure; brief a mixed audience | 1.4 | 3.2, **4.2 †** | Final |
-| 7 | Apply the governance-objection diagnostic | 1.5 | 2.2, 2.3 | Final; Dispositions |
+| 1 | Capability as interface; decompose a performance requirement into measurable capability requirements, for a learning environment or an operational system | 1.1 | 1.3, 1.4 | A1 |
+| 2 | Apply learning sciences principles to the design of a capability intervention under a real constraint | 2.1 | 1.1, 1.4, 1.5 | A2 |
+| 3 | Represent a learning environment and its host system as interacting components; locate where capability decisions occur | 1.2; 1.3 *(introduce)* | 2.2 | A1 |
+| 4 | Specify what counts as evidence of a capability before building; design a measurement plan | **4.8** *(introduce)*; 4.1 *(introduce)* | 6.1, 6.4 | A1 |
+| 5 | Execute one complete iteration cycle; communicate the iteration and its evidence to a mixed audience | 2.2, 2.5; 1.4; 4.5 *(introduce)* | 1.5, 2.2, 3.2, **4.2 †**, 6.2 | A2; Final |
 
-**† Decided (July 2026): PLO-4 is added to LEN 1's mapping.** The final briefing is delivered to a mixed technical and non-technical audience, which is PLO 4.2 on its face. Doc 2 §5.2, §6.1, and §6.3 do not list PLO-4 for LEN 1: the mapping of record described a course that does not exist. Nothing was at risk either way, since PLO-4 is carried by five other courses; this is a correctness fix. The syllabus carries PLO 4.2 with a visible dagger footnoting the divergence from doc 2 and the pending edit. The dagger comes out when doc 2 catches up. See `LENS_v21_Content_Changes.md` §7.2.
+**September 2026 redesign (v3 of this record).** Seven CLOs became five. The course now owns three things, frame, measure, build, and stops owning formal failure analysis (old CLO 6's method requirement, moved to LEN 3 and LEN 5), SE lifecycle models (old CLO 3, moved to LEN 3), and the governance-objection diagnostic (old CLO 7 and LEO 1.5, moved to LEN 7 with first contact in LEN 3's governance seam). The Dispositions Portfolio was retired; its 10% folded into participation, where reflective practice is assessed weekly. Old CLO 2 (modeling) became CLO 3 and lightened to sketch grain. Old CLO 4 (learning sciences) became CLO 2. A new CLO 4 (measurement) was added and is the change that matters: it makes the measurement backbone an assessed objective in the first course and carries PLO 6 into LEN 1 for the first time.
 
-**Where 1.5 and 2.5 landed, and why.** 2.5 is unambiguous: the Iteration Cycle Report is the artifact, and "rendering iteration legible" is what the report already asked for without naming it. The assignment now specifies first person and defense of the iteration as run. 1.5 is the judgment call. LEO-1 is carried by LEN 1, 3, 6, and 10, and LEN 3 (LEO-1 + LEO-5) is the other plausible home. I put it in LEN 1 because the coupling-failure case is where a governance objection is concretely on the table, and because the standards-governance-collapse case is a worked example of the diagnostic. If LEN 3 is the better home, the cost of moving is one CLO and one paragraph of the final assignment.
+**The LEO consequence, stated plainly.** New CLO 4 is LEO 4.8 (*design the assessment before the content*) nearly verbatim, and 4.8's practitioner home is LEN 4. LEN 1 therefore now *introduces* LEO-4 rather than leaving it entirely to the methods course. Doc 2 §5.2 gains LEO-4 in LEN 1's mapping at introduce depth; the coverage analysis (§6.3) still lists LEN 4 and LEN 10 as the practitioner-depth carriers. LEN 1's LEO-1 service narrows to 1.1, 1.2, 1.3-at-introduce, and 1.4; it no longer carries 1.5. This is recorded rather than smoothed because the attainment profile aggregates from this join.
 
----
+*(introduce)* marks a subobjective LEN 1 opens at awareness and a later course assesses at practitioner depth; the later course is named in doc 2.
 
 ## 3. MLOs
 
@@ -57,11 +55,11 @@ MLOs live in the module guide and Canvas, not the syllabus. Module grain, 2 to 4
 | Module | Weeks | Title | CLOs |
 | --- | --- | --- | --- |
 | 1 | 1–2 | Framing Capability | 1 |
-| 2 | 3–4 | Learning Sciences for Capability | 4 |
-| 3 | 5–7 | Systems, Lifecycle, and HSI | 2, 3 |
-| 4 | 8–10 | The Engineering Cycle | 5, 1 |
-| 5 | 11–13 | Coupling, Ethics, and Domains | 6, 7 |
-| 6 | 14–15 | Communication and Synthesis | 6 |
+| 2 | 3–4 | What the Science of Learning Contributes | 2 |
+| 3 | 5–6 | Seeing the System | 3 |
+| 4 | 7–9 | Measuring Capability | 4 |
+| 5 | 10–13 | The Iteration Cycle | 5 |
+| 6 | 14–15 | Making the Case | 5 |
 
 ---
 
@@ -77,19 +75,19 @@ MLOs live in the module guide and Canvas, not the syllabus. Module grain, 2 to 4
 | --- | --- |
 | 1 | A public capability failure at launch |
 | 2 | A system that required operator capability never specified or trained |
-| 3 | An intervention built explicitly on learning sciences principles |
-| 4 | An intervention whose transfer claim was tested at scale |
-| 5 | A failure whose components and feedback loops can be modeled |
-| 6 | A capability decision made at a lifecycle transition |
-| 7 | HSI treated as a requirement rather than a checklist |
-| 8 | A documented iteration cycle in an operational setting |
+| 3 | A capability-enhancing transition that outran its training |
+| 4 | A disengagement failure redressed by design |
+| 5 | A failure whose components and feedback loops can be sketched |
+| 6 | A capability decision made too late in a system's life |
+| 7 | A capability claim that was never operationalized |
+| 8 | An intervention measured on the wrong outcome |
 | 9 | Capability development sustained at operational tempo |
-| 10 | Requirements written so they could be tested |
-| 11 | A validated system that was discontinued |
-| 12 | A system withdrawn under governance objection |
-| 13 | One case per domain: healthcare, defense, education at scale |
-| 14 | An initiative whose design argument was communicated and oversold |
-| 15 | A closing case spanning all three domains |
+| 10 | A documented iteration cycle in a real setting |
+| 11 | An AI-augmented intervention instrumented from the start |
+| 12 | An iteration whose evidence overturned its framing |
+| 13 | An intervention that improved a metric and eroded agency |
+| 14 | A coupling failure in which learning investment and outcome came apart |
+| 15 | A closing case spanning a learning environment and an operational system |
 
 Two of these carry design intent worth stating. **Week 12** is the governance-objection diagnostic (LEO 1.5), and the slot is written for it: a case where objections were real, so the question the diagnostic asks — could better design have dissolved them, or did they correctly signal that the system should not deploy — has a genuine answer either way. **Week 13** specifies that at least one case carries a conflict-of-interest disclosure and at least one a non-peer-reviewed evidence tier, and that both are read as part of the case. A course teaching evidence sufficiency should show students what a disclosed conflict and a thin evidence tier look like rather than curating them out.
 
@@ -124,4 +122,4 @@ One consequence worth naming: Weeks 11 and 12 are the intellectual core of Modul
 2. **Tag renumber across LEN 2–10.** Nine syllabi carry v1 numbers. LEN 2's `[5.4]` → `[3.5]`; LEN 3, 4, 5, 6, 7, 8, 9, 10 all carry `3.2`, `4.2`, `4.4`, `4.5`, `5.x` tags that now resolve to different subobjectives. Mechanical, but it must happen before any of them circulate alongside doc 1.
 3. **The published casebook is on v1 names.** README flags it. Cases tagged to LEN 1's Module 5 need the remap before they are pulled into the LMS.
 4. **Three course notes cited but not written:** LENS working definition, the flywheel, the failure-code taxonomy reference.
-5. **Doc 1 and doc 2 `.docx` companions await program-owner round-trip.** Noted in the repo README; the syllabus should not circulate ahead of that.
+5. **Doc 1 and doc 2 `.docx` companions are adopted (program-director approval, September 2026).** Noted in the repo README; the syllabus should not circulate ahead of that.

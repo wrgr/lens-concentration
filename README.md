@@ -62,12 +62,15 @@ This replaced an earlier pipeline that emitted ~18 artefacts — the main volume
 │
 ├── lens_program/                          canonical LENS program documents (source of record, JHU SOE LDT/LENS — MHEC PP24181)
 │   ├── README.md                          orientation; what to verify before external use; status of the .docx round-trip
-│   ├── 1_LENS_Five_Competencies.docx + .md (v2.1: Systems Analysis · Iterative Development · Human-System Collaboration · Test and Evaluation · Navigating Sociotechnical Constraints — change log inline)
-│   ├── 2_LENS_Objectives_Course_Mapping.docx + .md (PLOs, LEOs renumbered to v2.1, course-by-course mapping, coverage matrix)
+│   ├── 1_LENS_Five_Competencies.docx + .md (v2.6, Sept 2026 — ADOPTED: Systems Analysis · Iterative Development · Human-System Collaboration · Data, Measurement, and Evaluation · Navigating Sociotechnical Constraints; governance-objection diagnostic re-homed 1.5 → 5.7 — change log inline)
+│   ├── 2_LENS_Objectives_Course_Mapping.docx + .md (v2.9, Sept 2026 — ADOPTED: PLOs, LEOs, eight-step iteration cycle in LEO-2, course-by-course mapping, coverage matrix)
 │   ├── 3_LENS_Editor_Bios.docx + .md
 │   ├── 4_LENS_LECF_Crosswalk.docx + .md  (LENS ↔ IEEE ICICLE LECF nine-domain proposal)
 │   ├── 5_LENS_Summary_and_PrePost_Objectives.docx + .md
-│   └── 6_LENS_Recruitment_Email.docx + .md
+│   ├── 6_LENS_Recruitment_Email.docx + .md
+│   ├── 7_LENS_ICICLE_Essential_Competencies_Crosswalk, 8_LENS_Attainment_Profile (.docx + .md)
+│   ├── decisions/                         provenance for changes to docs 1 and 2 (01_README.md is the index; 02 = the LEN 1 CLO/MLO record; 08 = the Ten Courses working draft)
+│   └── syllabi/                           course-tier documents of record (LEN 1 syllabus, SOE template; the approved CPC proposal)
 │
 └── v2_research/                           the v2 case discovery + framework revision work — outputs of an eight-pass verified-source sweep (ADOPTED; preserved as design rationale)
     ├── README.md                          orientation and ordering
@@ -84,8 +87,8 @@ This replaced an earlier pipeline that emitted ~18 artefacts — the main volume
 Each case is tracked under three parallel taxonomies (per CLAUDE.md):
 
 - **Induced competency framework** (8 competencies, 32 sub-competencies in `casebook/competencies.md`) — bottom-up induction from the v1 cases. Numbered `1.1` through `8.4`. The analytic scaffold.
-- **Canonical LENS framework** (5 competencies in `lens_program/1_LENS_Five_Competencies.md`, v2.1) — Systems Analysis (D1) · Iterative Development (D2) · **Human-System Collaboration (D3)** · Test and Evaluation (D4) · Navigating Sociotechnical Constraints (D5). Plus six canonical Problem Types (PT1–6). The curriculum of record.
-- **LEOs** (`lens_program/2_*.md`, v2.1) — five LEOs, one per domain, with the v2-named subobjectives (gap attribution at 4.2; delegation with revocation at 3.3; judgment under inadequate evidence at 4.4; fairness beyond omission at 4.6; collaboration measurement at 3.4; governance-objection diagnostic at 1.5; narrate/defend iteration at 2.5; cross-regime governance at 5.6). The course-mapping anchor.
+- **Canonical LENS framework** (5 competencies in `lens_program/1_LENS_Five_Competencies.md`, v2.6) — Systems Analysis (D1) · Iterative Development (D2) · **Human-System Collaboration (D3)** · Data, Measurement, and Evaluation (D4) · Navigating Sociotechnical Constraints (D5). Plus six canonical Problem Types (PT1–6). The curriculum of record.
+- **LEOs** (`lens_program/2_*.md`, v2.9) — five LEOs, one per domain, with the v2-named subobjectives (gap attribution at 4.2; delegation with revocation at 3.3; judgment under inadequate evidence at 4.4; fairness beyond omission at 4.6; collaboration measurement at 3.4; governance-objection diagnostic at 5.7 (moved from 1.5 in doc 1 v2.6); narrate/defend iteration at 2.5; cross-regime governance at 5.6). The course-mapping anchor.
 
 The induced 8 fold cleanly into the canonical 5 (D2 has no induced counterpart — the iteration *method* is threaded through cases rather than producing its own cluster). The casebook records all three anchors on every v2 case; the LENS Companion (below) makes the crosswalks explicit.
 
@@ -125,6 +128,7 @@ The first edition is structurally complete and reproduces from source.
 - **For the case-by-case verification pass** (the only remaining quality gate before press): `casebook/verification-log.md` for the rubric and the table; `casebook/scripts/verification-status.sh` for progress.
 - **For the pre-press handoff to Lulu**: upload `capability-matters-print.pdf` (280 pp) and `cover-print.pdf` (spine 17.39 mm); Lulu may quote-back ±1 mm — the spine-override flag in `casebook/scripts/build.sh` handles a re-cut.
 - **For program-doc updates** (LEOs, course mapping, recruiting copy): `lens_program/` is the source of record; change logs are inline at the bottom of docs 1 and 2.
+- **For course development** (Canvas module pages, assignments, rubrics, lecture decks, ID meeting notes): not here. That work lives in the private companion repo `wrgr/lens-private` (`courses/LEN01/`), which carries the SOE/LDT authoring templates. Only the program-guiding tier — docs 1 and 2, the syllabus of record, the CPC filing, decision records — lands in `lens_program/` here.
 - **For framework rationale or research backbone**: `v2_research/` is preserved for traceability; the proposal (`01_*`) carries an ADOPTED status header naming the two adoption-time refinements.
 
 ## Working conventions

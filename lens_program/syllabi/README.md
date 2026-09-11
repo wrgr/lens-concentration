@@ -8,20 +8,23 @@ Format: JHU SOE `SyllabusTemplate_2026.docx`. Required sections, in order: SOE l
 
 | Course | File | State |
 | --- | --- | --- |
-| LEN 1 | `LEN01_Principles_Syllabus.docx` | **Current.** SOE template, 15 weeks / 6 modules, v2.1 LEO tags, seven CLOs |
+| LEN 1 | `LEN01_Principles_Syllabus.docx` | **Current — September 2026 redesign.** SOE template, 15 weeks / 6 modules, **five CLOs** (frame, measure, build), weights 25 / 15 / 15 / 20 / 25. Title corrected to *…for Next-Generation Systems* (the CPC-filed title) on 2026-09-11; the iteration cycle now reads in the eight-step form of doc 2 v2.8 (course description, CLO 5, Assignment 2, Week 10); the AI grading-policy item carries the course-owned policy (AI permitted with declaration; analytical reasoning assessed directly), replacing the SOE default text. Course number set to ED.893.660 (MA) / ED.893.860 (DOC) (editor, 2026-09-11). Grading policy carries the rubric statement (five levels, even split, Mastery = B-range standard, reasoning-and-evidence criterion on every rubric) |
+| LEN 1 filing | `LEN01_CPC_Course_Proposal_approved.pdf` | The approved CPC new-course proposal (seven-CLO version, 20/20/20/30/10 weights). The CLO set and weights changed in the September redesign; CPC does not need the revised syllabus (editor decision, 2026-09-11; CLOs and weights are course-owned) |
 | LEN 2–10 | — | **Not regenerated.** The June 2026 drafts carry v1 tags, 14-week schedules, and the pre-template format |
 
 ## Conventions
 
 **Objective tiers.** PLO (program) → LEO (concentration) → CLO (course) → MLO (module). Doc 2 §4. The syllabus carries CLOs and inherits PLOs; MLOs live in the module guide and Canvas, not here.
 
-**The alignment table's five rows are a default, not a cap.** LEN 1 uses seven.
+**The alignment table's five rows are a default, not a cap.** LEN 1 used seven until the September 2026 redesign; it now uses five.
 
 **Term length is 15 weeks**, organized as five or six modules with week ranges. The template's outline column is headed *Session/Module + Week(s)/Dates* and takes both.
 
 **Additional Reading is one peer-reviewed paper per week.** Where the available literature does not supply one at that standard, the syllabus says so in its Course Notes rather than presenting a weaker source as equivalent. LEN 1 flags four such weeks.
 
 **A case is assigned every week.** Until cases are selected, slots are specified by what the case must teach. Case identifiers go in at LMS build.
+
+**The syllabus `.docx` has no `.md` source.** Edits are made in the docx itself (python-docx or Word) and logged in the Status row; this is the one `lens_program/` docx that is not regenerated from Markdown.
 
 **Divergences from the documents of record are visible.** LEN 1 carries PLO 4.2 with a dagger and a footnote naming the pending doc 2 edit. A syllabus may run ahead of the record; it may not do so silently.
 
