@@ -52,14 +52,23 @@ LEN 1 serves **LEO-1** (Systems Analysis) and **LEO-2** (Iterative Development),
 
 MLOs live in the module guide and Canvas, not the syllabus. Module grain, 2 to 4 per module.
 
+**Restructured 2026-09-22 (Will's call): six modules → seven, ~2 weeks each.** The former
+Module 5 ("The Iteration Cycle," Weeks 10–13) split into two: Building and Instrumenting
+(10–11) and Evaluating and Refining (12–13). "Making the Case" renumbered Module 6 → 7. Week
+numbering, case slots, and CLO mapping are unchanged — only module boundaries moved, so nothing
+below this table needs remapping. Module 4 (Measuring Capability) stays the one 3-week module;
+15 weeks doesn't divide evenly into seven 2-week modules, and Module 4's Assignment 1 due date
+made it the least natural place to cut.
+
 | Module | Weeks | Title | CLOs |
 | --- | --- | --- | --- |
 | 1 | 1–2 | Framing Capability | 1 |
 | 2 | 3–4 | What the Science of Learning Contributes | 2 |
 | 3 | 5–6 | Seeing the System | 3 |
 | 4 | 7–9 | Measuring Capability | 4 |
-| 5 | 10–13 | The Iteration Cycle | 5 |
-| 6 | 14–15 | Making the Case | 5 |
+| 5 | 10–11 | Building and Instrumenting | 5 |
+| 6 | 12–13 | Evaluating and Refining | 5 |
+| 7 | 14–15 | Making the Case | 5 |
 
 ---
 
@@ -112,7 +121,7 @@ Kizilcec and Lee (2022) was dropped rather than carried with an unverified venue
 
 **Where the field literature reaches, and where it does not.** Weeks 1, 2, 3, 5, 7, 8, 9, 14, and 15 fill cleanly with well-cited peer-reviewed work. The six weeks above do not. Read down that list: transfer, lifecycle, requirements, coupling failure, the governance-objection diagnostic, and domain fluency. Those are the LENS extensions. The gaps in the reading list are the gaps LENS claims to fill, which is a good sign for the positioning argument and a demanding one for the course, because the casebook and the course notes are carrying evidentiary weight a reading list would normally carry. They have to be good.
 
-One consequence worth naming: Weeks 11 and 12 are the intellectual core of Module 5 and neither has a paper that analyzes what the week teaches. If LENS wants peer-reviewed anchors there, someone has to write them. That is a research agenda, not a syllabus problem.
+One consequence worth naming: Weeks 11 and 12 are the intellectual core of the split former Module 5 (Week 11 now closes Module 5, Building and Instrumenting; Week 12 opens Module 6, Evaluating and Refining) and neither has a paper that analyzes what the week teaches. If LENS wants peer-reviewed anchors there, someone has to write them. That is a research agenda, not a syllabus problem.
 
 ---
 
@@ -120,6 +129,6 @@ One consequence worth naming: Weeks 11 and 12 are the intellectual core of Modul
 
 1. **PLO 4.2 for LEN 1.** Program owner decision. Blocks nothing today; blocks external circulation of the syllabus.
 2. **Tag renumber across LEN 2–10.** Nine syllabi carry v1 numbers. LEN 2's `[5.4]` → `[3.5]`; LEN 3, 4, 5, 6, 7, 8, 9, 10 all carry `3.2`, `4.2`, `4.4`, `4.5`, `5.x` tags that now resolve to different subobjectives. Mechanical, but it must happen before any of them circulate alongside doc 1.
-3. **The published casebook is on v1 names.** README flags it. Cases tagged to LEN 1's Module 5 need the remap before they are pulled into the LMS.
+3. **The published casebook is on v1 names.** README flags it. Cases tagged to LEN 1's Weeks 10–13 (split 2026-09-22 into Modules 5 and 6, Building/Instrumenting and Evaluating/Refining) need the remap before they are pulled into the LMS.
 4. **Three course notes cited but not written:** LENS working definition, the flywheel, the failure-code taxonomy reference.
 5. **Doc 1 and doc 2 `.docx` companions are adopted (program-director approval, September 2026).** Noted in the repo README; the syllabus should not circulate ahead of that.
