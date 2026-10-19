@@ -14,7 +14,7 @@ The course owner authorized this structure on October 13, 2026, while requesting
 | 6 | 12–13 | Evaluating and Refining | 5 |
 | 7 | 14–15 | Making the Case | 5 |
 
-The complete eight-step cycle—understand, model, design, build, instrument, deploy, evaluate, refine—spans Modules 5–6. Module 5 explicitly revisits the learning-sciences principle under constraint from CLO 2; Module 6 evaluates, revises, and documents the cycle. The Iteration Cycle Report still assesses CLOs 2 and 5.
+The complete cycle—Understand → Map → Design → Build → Instrument → Experiment → Evaluate → Understand, with 8. Refine throughout—spans Modules 5–6. Module 5 explicitly revisits the learning-sciences principle under constraint from CLO 2; Module 6 evaluates, revises, and documents the cycle. The Iteration Cycle Report still assesses CLOs 2 and 5.
 
 ## What stays fixed
 
