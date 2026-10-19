@@ -1,6 +1,6 @@
 # LEN 1 — Course and Module Objective Record
 
-*Draft, July 2026. The course tier (CLO) and module tier (MLO) beneath the documents of record.*
+*Course/module record: five-CLO September 2026 redesign, with seven-module authoring update authorized October 13, 2026. Historical analysis below retains its original context; current module grouping is in §3 and decision 10.*
 
 **Governing documents.** `lens_program/1_LENS_Five_Competencies.md` v2.1 (adopted June 2026) and `lens_program/2_LENS_Objectives_Course_Mapping.md` v2.3 (July 2026), at `github.com/wrgr/lens-concentration`. Where this document and those disagree, those win.
 
@@ -58,8 +58,11 @@ MLOs live in the module guide and Canvas, not the syllabus. Module grain, 2 to 4
 | 2 | 3–4 | What the Science of Learning Contributes | 2 |
 | 3 | 5–6 | Seeing the System | 3 |
 | 4 | 7–9 | Measuring Capability | 4 |
-| 5 | 10–13 | The Iteration Cycle | 5 |
-| 6 | 14–15 | Making the Case | 5 |
+| 5 | 10–11 | Designing and Building an Intervention | 2, 5 |
+| 6 | 12–13 | Evaluating and Refining | 5 |
+| 7 | 14–15 | Making the Case | 5 |
+
+See [decision 10](10_len01_seven_module_authoring.md) for authorization, unchanged assessments, Capability Matters explorations, and the Week 7 case replacement. Sections 1, 4, and 5 preserve earlier development findings; they are not a current build-status checklist.
 
 ---
 
@@ -79,7 +82,7 @@ MLOs live in the module guide and Canvas, not the syllabus. Module grain, 2 to 4
 | 4 | A disengagement failure redressed by design |
 | 5 | A failure whose components and feedback loops can be sketched |
 | 6 | A capability decision made too late in a system's life |
-| 7 | A capability claim that was never operationalized |
+| 7 | A capability claim not independently checked in the intended operating setting |
 | 8 | An intervention measured on the wrong outcome |
 | 9 | Capability development sustained at operational tempo |
 | 10 | A documented iteration cycle in a real setting |

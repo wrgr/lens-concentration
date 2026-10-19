@@ -8,7 +8,7 @@ Format: JHU SOE `SyllabusTemplate_2026.docx`. Required sections, in order: SOE l
 
 | Course | File | State |
 | --- | --- | --- |
-| LEN 1 | `LEN01_Principles_Syllabus.docx` | **Current — September 2026 redesign.** SOE template, 15 weeks / 6 modules, **five CLOs** (frame, measure, build), weights 25 / 15 / 15 / 20 / 25. Title corrected to *…for Next-Generation Systems* (the CPC-filed title) on 2026-09-11; the iteration cycle now reads in the eight-step form of doc 2 v2.8 (course description, CLO 5, Assignment 2, Week 10); the AI grading-policy item carries the course-owned policy (AI permitted with declaration; analytical reasoning assessed directly), replacing the SOE default text. Course number set to ED.893.660 (MA) / ED.893.860 (DOC) (editor, 2026-09-11). Grading policy carries the rubric statement (five levels, even split, Mastery = B-range standard, reasoning-and-evidence criterion on every rubric) |
+| LEN 1 | `LEN01_Principles_Syllabus.docx` | **Current — September 2026 redesign; seven-module authoring grouping authorized October 13.** SOE template, 15 weeks / 7 modules, **five CLOs** (frame, measure, build), weights 25 / 15 / 15 / 20 / 25. Title corrected to *…for Next-Generation Systems* (the CPC-filed title) on 2026-09-11; the iteration cycle now reads in the eight-step form of doc 2 v2.8 (course description, CLO 5, Assignment 2, Week 10); the AI grading-policy item carries the course-owned policy (AI permitted with declaration; analytical reasoning assessed directly), replacing the SOE default text. Course number set to ED.893.660 (MA) / ED.893.860 (DOC) (editor, 2026-09-11). Grading policy carries the rubric statement (five levels, even split, Mastery = B-range standard, reasoning-and-evidence criterion on every rubric) |
 | LEN 1 filing | `LEN01_CPC_Course_Proposal_approved.pdf` | The approved CPC new-course proposal (seven-CLO version, 20/20/20/30/10 weights). The CLO set and weights changed in the September redesign; CPC does not need the revised syllabus (editor decision, 2026-09-11; CLOs and weights are course-owned) |
 | LEN 2–10 | — | **Not regenerated.** The June 2026 drafts carry v1 tags, 14-week schedules, and the pre-template format |
 
@@ -18,7 +18,7 @@ Format: JHU SOE `SyllabusTemplate_2026.docx`. Required sections, in order: SOE l
 
 **The alignment table's five rows are a default, not a cap.** LEN 1 used seven until the September 2026 redesign; it now uses five.
 
-**Term length is 15 weeks**, organized as five or six modules with week ranges. The template's outline column is headed *Session/Module + Week(s)/Dates* and takes both.
+**Term length is 15 weeks**, organized in LEN01 as seven modules with week ranges. The template's outline column is headed *Session/Module + Week(s)/Dates* and takes both.
 
 **Additional Reading is one peer-reviewed paper per week.** Where the available literature does not supply one at that standard, the syllabus says so in its Course Notes rather than presenting a weaker source as equivalent. LEN 1 flags four such weeks.
 
@@ -31,3 +31,7 @@ Format: JHU SOE `SyllabusTemplate_2026.docx`. Required sections, in order: SOE l
 ## Before regenerating LEN 2–10
 
 Read `../decisions/03_tag_renumber_v1_to_v21.md` §1 first. The tag remap is a three-cycle and one mapping (v1 3.4 → 4.5) breaks a find-and-replace. Content changes for LEN 2, 3, 4, 7, and 10 are in `../decisions/04_content_changes.md`.
+
+## October module grouping
+
+[Decision 10](../decisions/10_len01_seven_module_authoring.md) splits the iteration work into Designing and Building (Weeks 10–11) and Evaluating and Refining (Weeks 12–13); Making the Case becomes Module 7. Weekly content, CLO statements, weights, points, and deadlines are preserved. Course authoring and editorial review remain in the private companion repository.
